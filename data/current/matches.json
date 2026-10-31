@@ -1187,11 +1187,11 @@
       {
         "id": 16336,
         "date": "2026-10-31UTC19:45:00",
-        "status": 0,
+        "status": 1,
         "clubH": 808,
         "clubA": 584,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "city": "Химки",
         "stadium": "«Арена Химки»"
       },
