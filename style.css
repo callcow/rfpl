@@ -23,7 +23,7 @@ body {
 body.modal-open {
   overflow: hidden;
 }
-
+  /*  */
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -35,6 +35,15 @@ body.modal-open {
    ========================================= */
 .header {
   margin-bottom: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* Убираем серый фон шапки, чтобы не было стыков */
+  background: transparent;
+  padding: 0;
+  margin-top: 15px; 
+  /* Добавляем тень панели, чтобы она перекрывала карточки */
+  padding-bottom: 5px; 
 }
 
 /* Делаем табы на всю ширину */
@@ -47,6 +56,8 @@ body.modal-open {
   padding: 5px;
   position: relative;
   box-sizing: border-box;
+  /* Добавляем небольшую тень, чтобы панель отделялась от карточек при скролле */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
 }
 
 /* Растягиваем кнопки равномерно */
@@ -309,7 +320,7 @@ tbody tr.team-clickable:hover td { opacity: 1; }
   justify-content: space-between;
   align-items: flex-start;
   background: #f9fafb;
-  padding: 24px 16px;
+  padding: 20px 16px; /* Уменьшили общий padding с 24px до 20px */
   border-radius: 16px;
   width: 100%;
   gap: 10px;
@@ -336,8 +347,8 @@ tbody tr.team-clickable:hover td { opacity: 1; }
 .score-team-scorers {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  margin-top: 8px;
+  gap: 2px; /* Уменьшили отступ между голами */
+  margin-top: 6px;
   width: 100%; 
 }
 
@@ -352,18 +363,17 @@ tbody tr.team-clickable:hover td { opacity: 1; }
 }
 
 .scorer-item {
-  font-size: 12px;
+  font-size: 11px; /* Уменьшили шрифт */
   color: #111827;
-  line-height: 1.3;
+  line-height: 1.2;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 4px;
-  background: #ffffff;
-  padding: 6px 8px;
-  border-radius: 6px;
-  border: 1px solid #e5e7eb;
+  gap: 2px;
+  background: transparent; /* Убрали белый фон */
+  padding: 0; /* Убрали отступы */
+  border: none; /* Убрали рамку */
   white-space: normal;
   max-width: 100%;
   text-align: center;
@@ -768,11 +778,34 @@ tbody tr.team-clickable:hover td { opacity: 1; }
   min-width: 0;
   display: flex;
   align-items: center;
-  gap: 6px;
-  line-height: 1; /* Убираем лишние отступы сверху/снизу у текста */
+  gap: 4px;
+  line-height: 1.2;
 }
-.player-name-events.is-right { justify-content: flex-end; text-align: right; padding-right: 8px; }
-.player-name { font-weight: 500; line-height: 1.2; }
+
+/* Фиксируем иконки (гол, замена, карточка), чтобы они не разлетались */
+.player-name-events .pev,
+.player-name-events .pev-autogoal,
+.player-name-events .pev-out,
+.player-name-events .pev-in,
+.player-name-events .pev-assist,
+.player-name-events .player-captain {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Делаем так, чтобы имя и фамилия переносились аккуратно, но не ломали высоту строки */
+.player-name {
+  font-weight: 500;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+.player-name-events.is-right { 
+  justify-content: flex-end; 
+  text-align: right; 
+  padding-right: 8px; 
+}
 .player-captain { font-weight: 700; color: #dc2626; flex-shrink: 0; }
 
 /* =========================================
@@ -851,7 +884,13 @@ tbody tr.team-clickable:hover td { opacity: 1; }
    МОБИЛЬНАЯ ВЕРСИЯ
    ========================================= */
 @media (max-width: 850px) {
-  .header { margin-bottom: 20px; }
+  .header { 
+    margin-bottom: 20px; 
+    top: 0;
+    padding-top: 0;
+    padding-bottom: 5px;
+    margin-top: 10px;
+  }
   .tab-btn { padding: 8px 5px; font-size: 15px; white-space: nowrap; }
   .legend { display: none; }
   .standings-header { margin-bottom: 15px; }
@@ -1450,4 +1489,55 @@ tbody tr.team-clickable:hover td { opacity: 1; }
     display: inline-block;
     margin-right: 6px;
     vertical-align: middle;
+}
+/* =========================================
+   КНОПКА НАВЕРХ
+   ========================================= */
+#scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  z-index: 1500; /* Ниже модалок (2000), но выше контента */
+  
+  /* По умолчанию кнопка скрыта */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+}
+
+/* Класс, который добавляет JS при скролле */
+#scroll-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+#scroll-to-top:hover {
+  background: #f3f4f6;
+  color: var(--text);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* На мобилке делаем кнопку чуть меньше и ближе к краю */
+@media (max-width: 850px) {
+  #scroll-to-top {
+    bottom: 20px;
+    right: 20px;
+    width: 44px;
+    height: 44px;
+    z-index: 2010; /* Поднимаем выше модалки (у которой 2000) */
+  }
 }
