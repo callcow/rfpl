@@ -350,7 +350,8 @@ function getMatchScoreDisplay(match, broadcastEvents = null) {
         };
     }
     
-    return { score: "— : —", statusText: "Не начался", isLive: false };
+    // Для будущих матчей в календаре оставляем статус пустым (в главном меню он перезаписывается на дату)
+    return { score: "— : —", statusText: "", isLive: false };
 }
 
 // 4. Класс подсветки результата для клуба
@@ -669,11 +670,10 @@ async function init() {
     
     if (seasons && seasons.length > 0) {
       window._seasons = seasons;
-      const cur = seasons.find(s => s.is_current);
-      if (cur) {
-         const cleanName = cur.name.replace("Сезон ", "");
-         document.getElementById("season-subtitle").textContent = `Матч-центр · Сезон ${cleanName}`;
-      }
+    if (currentTour) {
+      const tourTitleEl = document.getElementById("tour-title");
+      if (tourTitleEl) tourTitleEl.textContent = currentTour.name;
+    }
     }
 
     // Показываем, в какой зоне отображается время
@@ -781,10 +781,6 @@ async function init() {
     }
 
     allFlatMatches = matches;
-
-    if (currentTour) {
-      document.getElementById("tour-title").textContent = currentTour.name;
-    }
 
         // ─── ПОДГРУЗКА ВРЕМЕНИ НАЧАЛА (dateStartStatus) И СОБЫТИЙ ДЛЯ ВСЕХ МАТЧЕЙ ───
     if (!window._currentMatchBroadcast) window._currentMatchBroadcast = {};
@@ -1016,19 +1012,24 @@ function renderMatchCard(m) {
         statusText = `<span class="live-dot"></span>${statusText}`;
     }
 
-    // Если матч еще не начался (status 0), показываем время (если оно есть)
+    // Если матч еще не начался (status 0), принудительно показываем дату и время
     if (m.status === 0) {
         if (isTimeUnknown(m.date)) {
             statusText = "Время не назначено";
         } else {
             const d = normalizeMatchDate(m.date);
-            const weekday = d
-                ? d.toLocaleDateString("ru-RU", { timeZone: USER_TZ, weekday: 'short' }).replace('.', '')
-                : "";
-            const dayMonth = d
-                ? d.toLocaleDateString("ru-RU", { timeZone: USER_TZ, day: '2-digit', month: 'short' }).replace('.', '')
-                : "";
-            statusText = `${weekday}, ${dayMonth}, ${formatMatchTime(m.date)}`;
+            if (d) {
+                // Получаем день недели (сб, вс, пн...)
+                const weekday = d.toLocaleDateString("ru-RU", { timeZone: USER_TZ, weekday: 'short' }).replace('.', '');
+                // Получаем день и месяц в формате ДД.ММ (31.10)
+                const dayMonth = d.toLocaleDateString("ru-RU", { timeZone: USER_TZ, day: '2-digit', month: '2-digit' });
+                // Получаем время ЧЧ:ММ (18:00)
+                const timeStr = formatMatchTime(m.date);
+                
+                statusText = `${weekday}, ${dayMonth}, ${timeStr}`;
+            } else {
+                statusText = "Время не назначено";
+            }
         }
     }
 
@@ -1040,7 +1041,7 @@ function renderMatchCard(m) {
                 <div class="match-header">
           <span>${tourName}</span>
           <span class="badge ${isLive ? 'live-status' : ''}" id="match-badge-${m.id}">
-            ${isLive ? `<span class="live-dot"></span>` : ''}${statusInfo.text}
+            ${isLive ? `<span class="live-dot"></span>` : ''}${statusText}
           </span>
         </div>
         
