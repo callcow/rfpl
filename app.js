@@ -1828,95 +1828,96 @@ window.openMatchModal = async function(matchId) {
                         }
                     });
 
-                    // 1. Сначала проходимся по событиям из ПРОТОКОЛА (для прошедших матчей)
+                    // 1. Собираем ВСЕ события (и из протокола, и из broadcast) в единый массив
+                    const combinedEvents = [];
+
                     if (matchEvents) {
                         matchEvents.forEach(ev => {
-                            const min = `${ev.time}${ev.extra ? `+${ev.extra}` : ''}'`;
-                            
-                            if (ev.type === 2 && ev.player1 && ev.player2) {
-                                if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
-                                playerEvents[ev.player1.id].push({ type: 'out', min });
-                                if (!playerEvents[ev.player2.id]) playerEvents[ev.player2.id] = [];
-                                playerEvents[ev.player2.id].push({ type: 'in', min });
-                            } else if (ev.type === 3 && ev.player1) {
-                                if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
-                                playerEvents[ev.player1.id].push({ type: 'yellow', min });
-                            } else if (ev.type === 4 && ev.player1) {
-                                if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
-                                playerEvents[ev.player1.id].push({ type: 'red', min });
-                            } else if ((ev.type === 10 || ev.type === 1) && ev.player1) {
-                                if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
-                                playerEvents[ev.player1.id].push({ type: 'goal', min });
-                                
-                                const bcGoal = matchBroadcast.find(b => b.action === "Goal" && b.time === ev.time && b.club === ev.club);
-                                if (bcGoal && bcGoal.player2) {
-                                    if (!playerEvents[bcGoal.player2.id]) playerEvents[bcGoal.player2.id] = [];
-                                    playerEvents[bcGoal.player2.id].push({ type: 'assist', min });
-                                }
-                            } else if (ev.type === 11 && ev.player1) {
-                                if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
-                                playerEvents[ev.player1.id].push({ type: 'autogoal', min });
-                            }
+                            combinedEvents.push({ source: 'protocol', ...ev });
                         });
                     }
 
-                    // 2. Затем проходимся по событиям из BROADCAST (для лайва)
-                    // Благодаря проверкам на дубликаты, события не задвоятся, если есть и там, и там
                     if (matchBroadcast) {
                         matchBroadcast.forEach(ev => {
-                            const min = `${ev.time}${ev.extra ? `+${ev.extra}` : ''}'`;
+                            combinedEvents.push({ source: 'broadcast', ...ev });
+                        });
+                    }
+
+                    // 2. Сортируем по времени (чтобы события шли по порядку)
+                    combinedEvents.sort((a, b) => (a.time + (a.extra || 0) / 100) - (b.time + (b.extra || 0) / 100));
+
+                    // 3. Единый проход по всем событиям с жесткой проверкой на дубли
+                    combinedEvents.forEach(ev => {
+                        const min = `${ev.time}${ev.extra ? `+${ev.extra}` : ''}'`;
+                        
+                        // --- ЗАМЕНЫ ---
+                        if ((ev.type === 2 || ev.action === "Substitution") && ev.player1 && ev.player2) {
+                            const isDupOut = (playerEvents[ev.player1.id] || []).some(e => e.type === 'out');
+                            const isDupIn = (playerEvents[ev.player2.id] || []).some(e => e.type === 'in');
                             
-                            // Замены
-                            if (ev.action === "Substitution" && ev.player1 && ev.player2) {
+                            if (!isDupOut) {
                                 if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
                                 playerEvents[ev.player1.id].push({ type: 'out', min });
+                            }
+                            if (!isDupIn) {
                                 if (!playerEvents[ev.player2.id]) playerEvents[ev.player2.id] = [];
                                 playerEvents[ev.player2.id].push({ type: 'in', min });
-                            } 
-                            // Жёлтые карточки
-                            else if (ev.action === "YellowCard" && ev.player1) {
-                                // Проверка на дубль из protocol
-                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === 'yellow' && e.min === min);
+                            }
+                        }
+                        
+                        // --- ЖЕЛТЫЕ КАРТОЧКИ ---
+                        else if (ev.type === 3 || ev.action === "YellowCard") {
+                            if (ev.player1) {
+                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === 'yellow');
                                 if (!isDup) {
                                     if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
                                     playerEvents[ev.player1.id].push({ type: 'yellow', min });
                                 }
-                            } 
-                            // Красные карточки
-                            else if (ev.action === "RedCard" && ev.player1) {
-                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === 'red' && e.min === min);
+                            }
+                        }
+                        
+                        // --- КРАСНЫЕ КАРТОЧКИ ---
+                        else if (ev.type === 4 || ev.action === "RedCard") {
+                            if (ev.player1) {
+                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === 'red');
                                 if (!isDup) {
                                     if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
                                     playerEvents[ev.player1.id].push({ type: 'red', min });
                                 }
-                            } 
-                            // Голы
-                            else if (ev.action === "Goal" && ev.player1) {
-                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === 'goal' && e.min === min);
+                            }
+                        }
+                        
+                        // --- ГОЛЫ И АССИСТЫ ---
+                        else if (ev.type === 1 || ev.type === 10 || ev.action === "Goal") {
+                            if (ev.player1) {
+                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === 'goal');
                                 if (!isDup) {
                                     if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
                                     playerEvents[ev.player1.id].push({ type: 'goal', min });
                                 }
-                                // Ассистент
+                                
+                                // Ассистент (берем из этого же события, если он есть)
                                 if (ev.player2) {
-                                    const assistMin = min;
-                                    const isAssistDup = (playerEvents[ev.player2.id] || []).some(e => e.type === 'assist' && e.min === assistMin);
+                                    const isAssistDup = (playerEvents[ev.player2.id] || []).some(e => e.type === 'assist');
                                     if (!isAssistDup) {
                                         if (!playerEvents[ev.player2.id]) playerEvents[ev.player2.id] = [];
-                                        playerEvents[ev.player2.id].push({ type: 'assist', min: assistMin });
+                                        playerEvents[ev.player2.id].push({ type: 'assist', min });
                                     }
                                 }
-                            } 
-                            // Автоголы
-                            else if (ev.action === "AutoGoal" && ev.player1) {
-                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === 'autogoal' && e.min === min);
+                            }
+                        }
+                        
+                        // --- АВТОГОЛЫ ---
+                        else if (ev.type === 11 || ev.action === "AutoGoal") {
+                            if (ev.player1) {
+                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === 'autogoal');
                                 if (!isDup) {
                                     if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
                                     playerEvents[ev.player1.id].push({ type: 'autogoal', min });
                                 }
                             }
-                        });
-                    }
+                        }
+                    });
                     
                     const renderPlayer = (p, player, isReserve = false, isRight = false) => {
                         const captainMark = p.captain ? `<span class="player-captain">(К)</span>` : "";
