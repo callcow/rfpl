@@ -795,32 +795,45 @@ async function init() {
     if (currentTour && currentTour.matches) currentTour.matches.forEach(m => allMatchIds.add(m.id));
 
     const detailPromises = Array.from(allMatchIds).map(async (matchId) => {
-        try {
-            // 1. Загружаем детали матча (нужно для dateStartStatus живых матчей)
-            const res = await fetch(`${DATA_BASE}/matches/match_${matchId}.json`, { cache: 'no-store' });
-            if (res.ok) {
-                const detailData = await res.json();
-                if (detailData && detailData.dateStartStatus) {
-                    const flatM = allFlatMatches.find(x => (x.matchId === matchId || x.id === matchId));
-                    if (flatM) flatM.dateStartStatus = detailData.dateStartStatus;
-                    
-                    if (currentTour && currentTour.matches) {
-                         const curM = currentTour.matches.find(x => x.id === matchId);
-                         if (curM) curM.dateStartStatus = detailData.dateStartStatus;
+        // Ищем матч во всех источниках: на главной, в текущем туре и в календаре (matches)
+        const flatM = allMatchesData.find(x => x.id === matchId)
+                   || (currentTour?.matches || []).find(x => x.id === matchId);
+                   
+        // Ищем этот же матч в matches_flat (для календаря)
+        const calM = matches.find(x => (x.matchId || x.id) === matchId);
+        
+        // Берем статус из любого найденного источника
+        const status = flatM?.status ?? calM?.status;
+
+        // 1. Детали нужны только для live-матчей (чтобы взять dateStartStatus)
+        const needsDetail = status === 1 || status === 2 || status === 3;
+        const needsEvents = needsDetail; // события нужны только live
+
+        if (needsDetail) {
+            try {
+                const res = await fetch(`${DATA_BASE}/matches/match_${matchId}.json`, { cache: 'no-store' });
+                if (res.ok) {
+                    const detailData = await res.json();
+                    if (detailData?.dateStartStatus) {
+                        // Сохраняем в данные главной страницы
+                        if (flatM) flatM.dateStartStatus = detailData.dateStartStatus;
+                        // Сохраняем в данные календаря
+                        if (calM) calM.dateStartStatus = detailData.dateStartStatus;
                     }
                 }
-            }
+            } catch (e) {}
+        }
 
-            // 2. Загружаем события для ВСЕХ матчей (чтобы завершенные тоже показывали "Завершён", а не "Перерыв")
+    if (needsEvents) {
+        try {
             const evRes = await fetch(`${DATA_BASE}/matches/events_${matchId}.json`, { cache: 'no-store' });
             if (evRes.ok) {
                 const ev = await evRes.json();
                 window._currentMatchBroadcast[matchId] = ev.broadcast || [];
             }
-        } catch (e) {
-            // Игнорируем ошибки
-        }
-    });
+        } catch (e) {}
+    }
+});
     
     // Ждем загрузки всех деталей
     await Promise.all(detailPromises);
@@ -892,11 +905,14 @@ async function init() {
       }).join("");
     }
 
-           // ─── ГЛОБАЛЬНЫЙ ТАЙМЕР ДЛЯ LIVE-ОБНОВЛЕНИЙ ───
+               // ─── ГЛОБАЛЬНЫЙ ТАЙМЕР ДЛЯ LIVE-ОБНОВЛЕНИЙ ───
+    // Сбрасываем время последнего обновления, чтобы не дергать API сразу после init
+    window._lastLiveUpdate = Date.now(); 
+
+    // Опрос live-матчей раз в 2 минуты (данные в GitHub Actions обновляются раз в 5 мин)
     setInterval(() => {
-        // Вызываем обновление данных с сервера (раз в 10 секунд, чтобы не спамить)
         const now = Date.now();
-        if (!window._lastLiveUpdate || now - window._lastLiveUpdate > 10000) {
+        if (!window._lastLiveUpdate || now - window._lastLiveUpdate > 120000) {
             window._lastLiveUpdate = now;
             updateLiveMatches(); 
         }
@@ -2627,7 +2643,7 @@ window.openMatchModal = async function(matchId) {
             }, 1000); // Обновляем каждую секунду
 
                         // 2) Периодическая перезагрузка данных матча (счёт, события, статистика)
-            const LIVE_RELOAD_MS = 15000;
+            const LIVE_RELOAD_MS = 120000; // Обновляем раз в 2 минуты (синхронизация с GitHub Actions)
             const currentMatchId = matchId;
             let lastSnapshot = JSON.stringify({
                 h: data.goalH, a: data.goalA, s: data.status,
