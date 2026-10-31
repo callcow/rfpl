@@ -1639,6 +1639,9 @@ window.openMatchModal = async function(matchId) {
     body.innerHTML = '<div class="modal-state">Загрузка данных матча...</div>';
     modal.classList.add('active');
     document.body.classList.add('modal-open');
+    
+    // Добавляем состояние в историю, чтобы кнопка "Назад" закрывала модалку
+    history.pushState({ modal: 'match' }, '');
 
     // Сброс справочника (на случай, если предыдущий матч был архивным)
     window._allPlayersArchive = null;
@@ -1764,10 +1767,23 @@ window.openMatchModal = async function(matchId) {
         // Документы
         let documentsHtml = "";
         if (data.documents && (data.documents.protocol || data.documents.lineup)) {
+            // Функция, которая определяет: на телефоне ссылку прячем в Google Viewer, а на ПК оставляем как есть
+            const getDocUrl = (url) => {
+                if (!url) return '';
+                const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+                if (isMobile && url.startsWith('http')) {
+                    return `https://docs.google.com/viewer?url=${encodeURIComponent(url)}&embedded=true`;
+                }
+                return url;
+            };
+
+            const protocolUrl = getDocUrl(data.documents.protocol);
+            const lineupUrl = getDocUrl(data.documents.lineup);
+
             documentsHtml = `
                 <div class="modal-documents">
-                    ${data.documents.protocol ? `<a href="${data.documents.protocol}" target="_blank" class="doc-btn doc-protocol">📄 <span>Протокол (PDF)</span></a>` : ''}
-                    ${data.documents.lineup ? `<a href="${data.documents.lineup}" target="_blank" class="doc-btn doc-lineup">📋 <span>Составы (PDF)</span></a>` : ''}
+                    ${protocolUrl ? `<a href="${protocolUrl}" target="_blank" rel="noopener noreferrer" class="doc-btn doc-protocol">📄 <span>Протокол (PDF)</span></a>` : ''}
+                    ${lineupUrl ? `<a href="${lineupUrl}" target="_blank" rel="noopener noreferrer" class="doc-btn doc-lineup">📋 <span>Составы (PDF)</span></a>` : ''}
                 </div>
             `;
         }
@@ -2618,6 +2634,17 @@ window.openMatchModal = async function(matchId) {
                 ${isFallback && data.status !== 0 ? `<div class="fallback-note">Расширенная статистика появится после обновления базы данных.</div>` : ''}
             </div>
         `;
+        // Добавляем слушатель скролла для кнопки "наверх" внутри модалки
+        const modalContent = modal.querySelector('.modal-content');
+        if (modalContent) {
+            // Удаляем старый, чтобы не дублировался
+            modalContent.removeEventListener('scroll', checkScrollToTopVisibility);
+            modalContent.addEventListener('scroll', checkScrollToTopVisibility);
+        }
+        
+        // Сбрасываем кнопку при открытии (чтобы не висела, если была открыта ранее)
+        checkScrollToTopVisibility();
+
         // Запускаем локальный таймер, чтобы обновлять минуту каждую секунду
         // Сначала удаляем старый таймер, если он был (чтобы не было дублей)
         if (window._matchTimer) clearInterval(window._matchTimer);
@@ -2821,8 +2848,19 @@ window.updateModalEventsAndStats = function(data, homeClub, awayClub, protocolEv
 window.closeMatchModal = function(event) {
     if (event) event.stopPropagation();
     const modal = document.getElementById('match-modal');
+    
+    // Если модалка была открыта, удаляем фейковую запись из истории
+    if (modal.classList.contains('active')) {
+        history.back(); // Это вызовет popstate, который вызовет closeMatchModal снова (без event)
+    }
+    
     modal.classList.remove('active');
     document.body.classList.remove('modal-open');
+    
+    // Принудительно обновляем видимость кнопки "наверх"
+    if (typeof checkScrollToTopVisibility === 'function') {
+        checkScrollToTopVisibility();
+    }
     
     // Останавливаем таймер матча
     if (window._matchTimer) {
@@ -2844,6 +2882,9 @@ window.openClubModal = async function(clubId) {
     body.innerHTML = '<div class="modal-state">Загрузка данных клуба...</div>';
     modal.classList.add('active');
     document.body.classList.add('modal-open');
+    
+    // Добавляем состояние в историю, чтобы кнопка "Назад" закрывала модалку
+    history.pushState({ modal: 'club' }, '');
 
     try {
         const res = await fetch(`./data/frontend/clubs_data/${clubId}/club_profile.json`);
@@ -3060,6 +3101,17 @@ window.openClubModal = async function(clubId) {
                 ${matchesHtml}
             </div>
         `;
+
+        // Добавляем слушатель скролла для кнопки "наверх" внутри модалки клуба
+        const clubModalContent = modal.querySelector('.modal-content');
+        if (clubModalContent) {
+            clubModalContent.removeEventListener('scroll', checkScrollToTopVisibility);
+            clubModalContent.addEventListener('scroll', checkScrollToTopVisibility);
+        }
+        
+        // Сбрасываем кнопку при открытии
+        checkScrollToTopVisibility();
+
     } catch (e) {
         console.error(e);
         body.innerHTML = `<div class="modal-state modal-state--error">Ошибка загрузки: ${e.message}</div>`;
@@ -3104,8 +3156,19 @@ window.switchClubTab = function(tabId, event) {
 window.closeClubModal = function(event) {
     if (event) event.stopPropagation();
     const modal = document.getElementById('club-modal');
+    
+    // Если модалка была открыта, удаляем фейковую запись из истории
+    if (modal.classList.contains('active')) {
+        history.back(); // Это вызовет popstate, который вызовет closeClubModal снова (без event)
+    }
+    
     modal.classList.remove('active');
     document.body.classList.remove('modal-open');
+    
+    // Принудительно обновляем видимость кнопки "наверх"
+    if (typeof checkScrollToTopVisibility === 'function') {
+        checkScrollToTopVisibility();
+    }
 };
 
 window.filterEventsByHalf = function(half, event) {
@@ -3140,6 +3203,90 @@ window.filterStatsByHalf = function(half, event) {
     const rows = document.getElementById('stats-rows');
     if (rows) {
         rows.innerHTML = renderStatsRowsHtml(stats);
+    }
+};
+
+// Перехватываем кнопку "Назад" на телефоне для закрытия модалок
+window.addEventListener('popstate', function(event) {
+    const matchModal = document.getElementById('match-modal');
+    const clubModal = document.getElementById('club-modal');
+    
+    // Если открыта модалка матча
+    if (matchModal && matchModal.classList.contains('active')) {
+        closeMatchModal();
+    } 
+    // Если открыта модалка клуба
+    else if (clubModal && clubModal.classList.contains('active')) {
+        closeClubModal();
+    }
+});
+
+// ─── ЛОГИКА КНОПКИ "НАВЕРХ" ───
+
+// Проверяем, нужно ли показать кнопку (учитываем и страницу, и модалки)
+function checkScrollToTopVisibility() {
+    const btn = document.getElementById('scroll-to-top');
+    if (!btn) return;
+
+    let shouldShow = false;
+
+    // 1. Проверяем скролл самой страницы
+    if (window.scrollY > 300) {
+        shouldShow = true;
+    }
+
+    // 2. Проверяем скролл внутри открытых модалок (без привязки к ширине экрана)
+    const activeMatchModal = document.querySelector('#match-modal.active .modal-content');
+    const activeClubModal = document.querySelector('#club-modal.active .modal-content');
+
+    if (activeMatchModal && activeMatchModal.scrollTop > 300) {
+        shouldShow = true;
+    }
+    if (activeClubModal && activeClubModal.scrollTop > 300) {
+        shouldShow = true;
+    }
+
+    // Применяем класс
+    if (shouldShow) {
+        btn.classList.add('visible');
+    } else {
+        btn.classList.remove('visible');
+    }
+}
+
+// Слушаем скролл страницы
+window.addEventListener('scroll', checkScrollToTopVisibility);
+
+// Слушаем скролл внутри модалок (событие scroll не всплывает, поэтому вешаем на сами элементы)
+document.addEventListener('DOMContentLoaded', () => {
+    const matchModalContent = document.querySelector('#match-modal .modal-content');
+    const clubModalContent = document.querySelector('#club-modal .modal-content');
+    
+    if (matchModalContent) {
+        matchModalContent.addEventListener('scroll', checkScrollToTopVisibility);
+    }
+    if (clubModalContent) {
+        clubModalContent.addEventListener('scroll', checkScrollToTopVisibility);
+    }
+});
+
+// Функция для плавного скролла наверх (и страницы, и модалки)
+window.scrollToTop = function() {
+    // Скроллим страницу
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+
+    // Скроллим модалки, если они открыты
+    const matchModalContent = document.querySelector('#match-modal.active .modal-content');
+    const clubModalContent = document.querySelector('#club-modal.active .modal-content');
+
+    if (matchModalContent) {
+        matchModalContent.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    if (clubModalContent) {
+        clubModalContent.scrollTo({ top: 0, behavior: 'smooth' });
     }
 };
 
