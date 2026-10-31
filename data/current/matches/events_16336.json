@@ -2920,6 +2920,29 @@
       "deleted": null
     },
     {
+      "id": 97,
+      "type": "Photo",
+      "action": null,
+      "time": 86,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 97,
+        "image": "https://cdn.premierliga.ru/resources/24/88/ROD_KRA_Moment_86.jpg",
+        "title": "Герой Мачадо",
+        "description": "Дейвер Мачадо не скрывает радости после автогола &laquo;Краснодара&raquo;, к которому привёл его удар по воротам",
+        "author": "«Родина»"
+      },
+      "deleted": null
+    },
+    {
       "id": 65452,
       "type": "EventAdded",
       "action": "Shot",
