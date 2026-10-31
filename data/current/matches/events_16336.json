@@ -1013,6 +1013,97 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65406,
+      "type": "GamePeriodOpen",
+      "action": null,
+      "time": 45,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65407,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 45,
+      "extra": null,
+      "player1": {
+        "id": 21519,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48058/12643_2026_150_48058.jpg",
+        "name": "Даниил",
+        "lastname": "Уткин",
+        "nickname": "",
+        "keyword": "Utkin-Daniil",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 17789,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48379/12116_2026_150_48379.jpg",
+        "name": "Дмитрий",
+        "lastname": "Воробьёв",
+        "nickname": "",
+        "keyword": "Vorobev-Dmitriy",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65408,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 45,
+      "extra": null,
+      "player1": {
+        "id": 21945,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47895/24232_2026_150_47895.jpg",
+        "name": "Александр",
+        "lastname": "Черников",
+        "nickname": "",
+        "keyword": "Chernikov-Aleksandr-Evgenevich",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 24767,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47916/28905_2026_150_47916.jpg",
+        "name": "Ефим",
+        "lastname": "Буркин",
+        "nickname": "",
+        "keyword": "Burkin-Efim",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
