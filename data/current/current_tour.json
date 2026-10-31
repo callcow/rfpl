@@ -1,0 +1,94 @@
+{
+  "stageId": 2974,
+  "name": "Тур 13",
+  "matches": [
+    {
+      "id": 16330,
+      "date": "2026-10-31UTC17:30:00",
+      "status": 4,
+      "clubH": 7,
+      "clubA": 702,
+      "goalH": 2,
+      "goalA": 0,
+      "city": "Москва",
+      "stadium": "«ВТБ Арена»"
+    },
+    {
+      "id": 16331,
+      "date": "2026-11-02UTC18:00:00",
+      "status": 0,
+      "clubH": 10,
+      "clubA": 3,
+      "goalH": null,
+      "goalA": null,
+      "city": "Самара",
+      "stadium": "«Солидарность Самара Арена»"
+    },
+    {
+      "id": 16332,
+      "date": "2026-11-01UTC15:15:00",
+      "status": 0,
+      "clubH": 125,
+      "clubA": 11,
+      "goalH": null,
+      "goalA": null,
+      "city": "Каспийск",
+      "stadium": "«Анжи-Арена»"
+    },
+    {
+      "id": 16333,
+      "date": "2026-11-01UTC17:30:00",
+      "status": 0,
+      "clubH": 444,
+      "clubA": 807,
+      "goalH": null,
+      "goalA": null,
+      "city": "Калининград",
+      "stadium": "«Ростех Арена»"
+    },
+    {
+      "id": 16334,
+      "date": "2026-11-01UTC13:00:00",
+      "status": 0,
+      "clubH": 504,
+      "clubA": 2,
+      "goalH": null,
+      "goalA": null,
+      "city": "Оренбург",
+      "stadium": "«Газовик»"
+    },
+    {
+      "id": 16335,
+      "date": "2026-11-01UTC19:45:00",
+      "status": 0,
+      "clubH": 5,
+      "clubA": 1,
+      "goalH": null,
+      "goalA": null,
+      "city": "Москва",
+      "stadium": "«РЖД Арена»"
+    },
+    {
+      "id": 16336,
+      "date": "2026-10-31UTC19:45:00",
+      "status": 0,
+      "clubH": 808,
+      "clubA": 584,
+      "goalH": null,
+      "goalA": null,
+      "city": "Химки",
+      "stadium": "«Арена Химки»"
+    },
+    {
+      "id": 16337,
+      "date": "2026-10-31UTC15:15:00",
+      "status": 4,
+      "clubH": 4,
+      "clubA": 264,
+      "goalH": 1,
+      "goalA": 0,
+      "city": "Казань",
+      "stadium": "«Ак Барс Арена»"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 3,
+    "name": "Зенит",
+    "nameShort": "ЗЕН",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_zen_color_main.svg",
+    "color": "009EE1",
+    "city": "Санкт-Петербург",
+    "logoRevert": "https://cdn.premierliga.ru/resources/15/10/club_zen_color_invert.svg",
+    "keyword": "zenit"
+  },
+  {
+    "id": 584,
+    "name": "Краснодар",
+    "nameShort": "КРА",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_kra_color_main.svg",
+    "color": "004923",
+    "city": "Краснодар",
+    "logoRevert": null,
+    "keyword": "krasnodar"
+  },
+  {
+    "id": 5,
+    "name": "Локомотив",
+    "nameShort": "ЛОК",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_lok_color_main.svg",
+    "color": "FF1A1A",
+    "city": "Москва",
+    "logoRevert": null,
+    "keyword": "lokomotiv"
+  },
+  {
+    "id": 1,
+    "name": "Спартак-Москва",
+    "nameShort": "СПА",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_spa_color_main.svg",
+    "color": "C8102E",
+    "city": "Москва",
+    "logoRevert": null,
+    "keyword": "spartak"
+  },
+  {
+    "id": 2,
+    "name": "ПФК ЦСКА",
+    "nameShort": "ЦСКА",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_cska_color_main.svg",
+    "color": "293484",
+    "city": "Москва",
+    "logoRevert": "https://cdn.premierliga.ru/resources/15/10/club_cska_color_invert.svg",
+    "keyword": "pfc-cska"
+  },
+  {
+    "id": 444,
+    "name": "Балтика",
+    "nameShort": "БАЛ",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_bal_color_main.svg",
+    "color": "0C3E8C",
+    "city": "Калининград",
+    "logoRevert": null,
+    "keyword": "baltika"
+  },
+  {
+    "id": 7,
+    "name": "Динамо-Москва",
+    "nameShort": "ДИН",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_dyn_color_main.svg",
+    "color": "1227E2",
+    "city": "Москва",
+    "logoRevert": "https://cdn.premierliga.ru/resources/15/10/club_dyn_color_invert.svg",
+    "keyword": "dinamo-moscow"
+  },
+  {
+    "id": 4,
+    "name": "Рубин",
+    "nameShort": "РУБ",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_rub_color_main.svg",
+    "color": "8A1538",
+    "city": "Казань",
+    "logoRevert": null,
+    "keyword": "rubin"
+  },
+  {
+    "id": 702,
+    "name": "Ахмат",
+    "nameShort": "АХМ",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_akh_color_main.svg",
+    "color": "265F4F",
+    "city": "Грозный",
+    "logoRevert": null,
+    "keyword": "akhmat"
+  },
+  {
+    "id": 11,
+    "name": "Ростов",
+    "nameShort": "РОС",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_ros_color_main.svg",
+    "color": "FEDD00",
+    "city": "Ростов-на-Дону",
+    "logoRevert": null,
+    "keyword": "rostov"
+  },
+  {
+    "id": 10,
+    "name": "Крылья Советов",
+    "nameShort": "КРС",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_krs_color_main.svg",
+    "color": "2556B3",
+    "city": "Самара",
+    "logoRevert": null,
+    "keyword": "krylia-sovetov"
+  },
+  {
+    "id": 504,
+    "name": "Оренбург",
+    "nameShort": "ОРЕ",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_ore_color_main.svg",
+    "color": "001e5a",
+    "city": "Оренбург",
+    "logoRevert": null,
+    "keyword": "orenburg"
+  },
+  {
+    "id": 807,
+    "name": "Акрон",
+    "nameShort": "АКР",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_akr_color_main.svg",
+    "color": "CE112D",
+    "city": "Тольятти",
+    "logoRevert": "https://cdn.premierliga.ru/resources/15/10/club_akr_color_invert.svg",
+    "keyword": "akron"
+  },
+  {
+    "id": 125,
+    "name": "Динамо Махачкала",
+    "nameShort": "ДМХ",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_dmx_color_main.svg",
+    "color": "10069f",
+    "city": "Махачкала",
+    "logoRevert": "https://cdn.premierliga.ru/resources/15/10/club_dmx_color_invert.svg",
+    "keyword": "dinamo-makhachkala"
+  },
+  {
+    "id": 808,
+    "name": "Родина",
+    "nameShort": "РОД",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_rod_color_main_.svg",
+    "color": "00B3E4",
+    "city": "Москва",
+    "logoRevert": null,
+    "keyword": "rodina"
+  },
+  {
+    "id": 264,
+    "name": "Факел",
+    "nameShort": "ФКЛ",
+    "logo": "https://cdn.premierliga.ru/resources/15/10/club_fkl_color_main.svg",
+    "color": "0047B1",
+    "city": "Воронеж",
+    "logoRevert": null,
+    "keyword": "fakel"
+  }
+]

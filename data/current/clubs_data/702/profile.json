@@ -1,0 +1,29 @@
+{
+  "id": 702,
+  "photo": "https://cdn.premierliga.ru/resources/15/10/club_cover_702_05092026.JPG",
+  "name": "Ахмат",
+  "nameShort": "АХМ",
+  "nameOfficial": "АНО «РФК «Ахмат»",
+  "logo": "https://cdn.premierliga.ru/resources/15/10/club_akh_color_main.svg",
+  "color": "265F4F",
+  "year": "1958",
+  "city": "Грозный",
+  "site": "www.fc-akhmat.ru",
+  "tickets": "https://akhmat-arena.ru/2019-04-20-16-51-31?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
+  "store": "",
+  "socials": {
+    "telegram": "https://t.me/akhmatgrozny",
+    "max": "https://max.ru/akhmatgrozny",
+    "youtube": "https://www.youtube.com/AKHMATGROZNY",
+    "vkontakte": "https://vk.com/akhmatgrozny",
+    "tiktok": null
+  },
+  "address": "364051, г. Грозный, ул. С. Ш. Лорсанова, д. 3",
+  "phone": "+7 (8712) 22-49-85",
+  "email": "office@fc-akhmat.ru",
+  "info": "",
+  "achievements": "<p class=\"awards\">Обладатель Кубка России &ndash; 2003/04</p>",
+  "countVideos": 1,
+  "countNews": 1,
+  "hasStadium": true
+}

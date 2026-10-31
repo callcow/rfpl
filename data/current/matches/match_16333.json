@@ -1,0 +1,97 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3770,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3770_150.jpg",
+      "position": "Главный судья",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 4630,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Nikita_Novikov.jpg",
+      "position": "Резервный судья",
+      "name": "Никита",
+      "lastname": "Новиков"
+    },
+    {
+      "id": 4274,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Варанцо",
+      "lastname": "Петросян"
+    },
+    {
+      "id": 3829,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Веретёшкин"
+    },
+    {
+      "id": 4192,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4192_150.jpg",
+      "position": "ВАР",
+      "name": "Роман",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 3914,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3914_150.jpg",
+      "position": "АВАР",
+      "name": "Павел",
+      "lastname": "Кукуян"
+    },
+    {
+      "id": 501,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Владимир",
+      "lastname": "Казьменко"
+    },
+    {
+      "id": 431,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Ильдар",
+      "lastname": "Зарипов"
+    }
+  ],
+  "id": 16333,
+  "tournament": 724,
+  "stage": 2974,
+  "mainMatchPhoto": null,
+  "clubH": 444,
+  "clubA": 807,
+  "goalH": null,
+  "goalA": null,
+  "date": "2026-11-01UTC17:30:00",
+  "status": 0,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
+  "city": "Калининград",
+  "stadium": "«Ростех Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01796.jpg",
+  "attendance": null,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_8738cf449f6004f4bb988dd694336aae_hd/17_1038858/4fd8dff214fb867a3acb30ecbc0b7f13/4948631415?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.fc-baltika.ru/",
+  "winline": {
+    "outcome1": 1.76,
+    "outcome2": 3.65,
+    "outcome3": 4.8,
+    "link": "https://winline.ru/plus/16969333",
+    "erid": "2W5zFGF4pHF"
+  },
+  "comments": "",
+  "weather": "7.6°C, Пасмурно, туман",
+  "documents": {
+    "protocol": null,
+    "report": null,
+    "lineup": null,
+    "preview": null
+  },
+  "protocol": false,
+  "countVideos": null
+}

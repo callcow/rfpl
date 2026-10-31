@@ -1,0 +1,33 @@
+{
+  "id": 16342,
+  "tournament": 724,
+  "stage": 2975,
+  "mainMatchPhoto": null,
+  "clubH": 584,
+  "clubA": 2,
+  "goalH": null,
+  "goalA": null,
+  "date": "2026-11-07UTC19:30:00",
+  "status": 0,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
+  "city": "Краснодар",
+  "stadium": "«Ozon Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01755.jpg",
+  "attendance": null,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_3194f9be2bbb64bed781a561856ccfca_hd/17_1040050/d18f6da5747203a112ff04e798a4c02a/4948930224?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://fckrasnodar.ru/stadium/tickets/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage#grafik-tab",
+  "winline": null,
+  "comments": "",
+  "weather": "",
+  "documents": {
+    "protocol": null,
+    "report": null,
+    "lineup": null,
+    "preview": null
+  },
+  "protocol": false,
+  "countVideos": null
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 10020,
+    "photo": "https://cdn.premierliga.ru/resources/25/20/Dmitriy_Igdisamov.jpg",
+    "name": "Дмитрий",
+    "lastname": "Игдисамов",
+    "citizenship": "Россия",
+    "club": 2,
+    "keyword": "",
+    "isCurrentCoach": true,
+    "photoBig": "https://cdn.premierliga.ru/resources/25/20/Dmitriy_Igdisamov.png",
+    "birthday": "1986-07-20"
+  }
+]

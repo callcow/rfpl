@@ -1,0 +1,97 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4303,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4303_150.jpg",
+      "position": "Главный судья",
+      "name": "Рафаэль",
+      "lastname": "Шафеев"
+    },
+    {
+      "id": 4638,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Matvey_Zaika.jpg",
+      "position": "Резервный судья",
+      "name": "Матвей",
+      "lastname": "Заика"
+    },
+    {
+      "id": 2799,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Максим",
+      "lastname": "Гаврилин"
+    },
+    {
+      "id": 4278,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Денис",
+      "lastname": "Березнов"
+    },
+    {
+      "id": 979,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0979_150.jpg",
+      "position": "ВАР",
+      "name": "Василий",
+      "lastname": "Казарцев"
+    },
+    {
+      "id": 4038,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
+      "position": "АВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 569,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Алексей",
+      "lastname": "Резников"
+    },
+    {
+      "id": 760,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Воронцов"
+    }
+  ],
+  "id": 16336,
+  "tournament": 724,
+  "stage": 2974,
+  "mainMatchPhoto": null,
+  "clubH": 808,
+  "clubA": 584,
+  "goalH": null,
+  "goalA": null,
+  "date": "2026-10-31UTC19:45:00",
+  "status": 0,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
+  "city": "Химки",
+  "stadium": "«Арена Химки»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01380.jpg",
+  "attendance": null,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_32d512aca8a9f617d3c6a9ceb9a4eecc_hd/17_1038821/31252a72cf3b0dd2d9f43f7cb27bfee1/4948631386?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://rodina.moscow/tickets",
+  "winline": {
+    "outcome1": 5.2,
+    "outcome2": 4.2,
+    "outcome3": 1.67,
+    "link": "https://winline.ru/plus/16969330",
+    "erid": "2W5zFJoKEyo"
+  },
+  "comments": "",
+  "weather": "5°C, Безоблачно",
+  "documents": {
+    "protocol": null,
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD13_ROD-KRA_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": false,
+  "countVideos": null
+}

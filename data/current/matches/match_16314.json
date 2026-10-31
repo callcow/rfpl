@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4629,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4629_150.jpg",
+      "position": "Главный судья",
+      "name": "Андрей",
+      "lastname": "Прокопов"
+    },
+    {
+      "id": 4626,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4626_150.jpg",
+      "position": "Резервный судья",
+      "name": "Станислав",
+      "lastname": "Матвеев"
+    },
+    {
+      "id": 3961,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 4210,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Ермилов"
+    },
+    {
+      "id": 4038,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
+      "position": "ВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 660,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0660_150.jpg",
+      "position": "АВАР",
+      "name": "Павел",
+      "lastname": "Шадыханов"
+    },
+    {
+      "id": 426,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Александр",
+      "lastname": "Колобаев"
+    },
+    {
+      "id": 766,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Сергей",
+      "lastname": "Беседин"
+    }
+  ],
+  "id": 16314,
+  "tournament": 724,
+  "stage": 2972,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/DYN_CSKA_Title_2.jpg",
+  "clubH": 7,
+  "clubA": 2,
+  "goalH": 3,
+  "goalA": 1,
+  "date": "2026-10-18UTC16:15:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-18UTC18:11:26",
+  "city": "Москва",
+  "stadium": "«ВТБ Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00002.jpg",
+  "attendance": 23926,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_05af290228a59f5562edc549549bc86d_hd/17_1034813/8cb944ec9a7d0724798cf68de32bc0c7/4948012131?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.fcdm.ru/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
+  "winline": null,
+  "comments": "",
+  "weather": "16°C, Пасмурно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD11_DYN-CSKA_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD11_DYN-CSKA_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

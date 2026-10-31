@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Матч-центр</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    
+    <header class="header">
+      <div class="header-info">
+        <p class="subtitle" id="season-subtitle">Матч-центр · Загрузка...</p>
+        <h1 class="title" id="tour-title">Загрузка...</h1>
+        <p class="timezone-note" id="timezone-note"></p>
+      </div>
+      
+      <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('matches', event)">Главная</button>
+        <button class="tab-btn" onclick="switchTab('calendar', event)">Календарь</button>
+        <button class="tab-btn" onclick="switchTab('standings', event)">Таблица</button>
+        <button class="tab-btn" onclick="switchTab('clubs', event)">Клубы</button>
+      </div>
+    </header>
+
+
+    <section id="tab-matches" class="content-section active">
+      <div id="matches-grid" class="matches-grid"></div>
+    </section>
+
+    <section id="tab-calendar" class="content-section">
+      
+      <div class="calendar-filters">
+        
+        <div class="custom-select" id="custom-tour" onclick="toggleDropdown('tour')">
+          <label>ТУР (СТАДИЯ)</label>
+          <div class="select-trigger">
+            <span id="label-tour">Все туры</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
+          <div class="select-options" id="options-tour"></div>
+        </div>
+
+        <div class="custom-select" id="custom-club" onclick="toggleDropdown('club')">
+          <label>КЛУБЫ</label>
+          <div class="select-trigger">
+            <span id="label-club">Все клубы</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
+          <div class="select-options" id="options-club"></div>
+        </div>
+
+        <div class="custom-select disabled" id="custom-place" onclick="toggleDropdown('place')">
+          <label>МЕСТО</label>
+          <div class="select-trigger">
+            <span id="label-place">Везде</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
+          <div class="select-options" id="options-place">
+            <div class="select-option" data-value="all">Везде</div>
+            <div class="select-option" data-value="home">Дома</div>
+            <div class="select-option" data-value="away">В гостях</div>
+          </div>
+        </div>
+
+        <div class="custom-select" id="custom-status" onclick="toggleDropdown('status')">
+          <label>МАТЧИ</label>
+          <div class="select-trigger">
+            <span id="label-status">Все</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </div>
+          <div class="select-options" id="options-status">
+            <div class="select-option" data-value="all">Все</div>
+            <div class="select-option" data-value="future">Будущие</div>
+            <div class="select-option" data-value="past">Завершенные</div>
+          </div>
+        </div>
+
+        <button type="button" id="btn-reset-filters" class="reset-btn-icon hidden" onclick="resetCalendarFilters()" title="Сбросить фильтры">
+          ✕
+        </button>
+      </div>
+
+      <div id="calendar-list" class="calendar-list"></div>
+    </section>
+
+    <section id="tab-standings" class="content-section">
+      <div class="standings-card">
+        <div class="standings-header">
+          <h2>Турнирная таблица</h2>
+          <div class="legend">
+            <span><i class="dot win"></i> Победа</span>
+            <span><i class="dot draw"></i> Ничья</span>
+            <span><i class="dot loss"></i> Поражение</span>
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <table id="standings-table">
+            <thead>
+              <tr>
+                <th style="width: 40px;">#</th>
+                <th style="text-align: left;">Команда</th>
+                <th>И</th>
+                <th>В</th>
+                <th>Н</th>
+                <th>П</th>
+                <th>Мячи</th>
+                <th>О</th>
+                <th>% очков</th>
+                <th style="text-align: center;">Форма</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+
+        <div class="legend-bottom">
+          <span><i class="zone-line" style="background: #22c55e;"></i> Чемпион</span>
+          <span><i class="zone-line" style="background: #fca5a5;"></i> Стыковые матчи</span>
+          <span><i class="zone-line" style="background: #ef4444;"></i> Вылет</span>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="tab-clubs" class="content-section">
+      <div id="clubs-grid" class="clubs-grid"></div>
+    </section>
+
+  </main>
+
+  <!-- Модальное окно МАТЧА -->
+  <div id="match-modal" class="modal-overlay" onclick="closeMatchModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeMatchModal(event)">✕</button>
+      <div id="modal-body">
+        <!-- Сюда будет вставляться контент матча -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Модальное окно КЛУБА -->
+  <div id="club-modal" class="modal-overlay" onclick="closeClubModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeClubModal(event)">✕</button>
+      <div id="club-modal-body">
+        <!-- Сюда будет вставляться контент клуба -->
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

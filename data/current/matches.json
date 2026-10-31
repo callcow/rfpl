@@ -1,0 +1,2792 @@
+[
+  {
+    "stage": 2962,
+    "matches": [
+      {
+        "id": 16241,
+        "date": "2026-07-25UTC14:00:00",
+        "status": 4,
+        "clubH": 7,
+        "clubA": 10,
+        "goalH": 0,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«ВТБ Арена»"
+      },
+      {
+        "id": 16242,
+        "date": "2026-07-25UTC20:45:00",
+        "status": 4,
+        "clubH": 1,
+        "clubA": 808,
+        "goalH": 3,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«Лукойл Арена»"
+      },
+      {
+        "id": 16243,
+        "date": "2026-07-26UTC19:30:00",
+        "status": 4,
+        "clubH": 504,
+        "clubA": 11,
+        "goalH": 2,
+        "goalA": 1,
+        "city": "Оренбург",
+        "stadium": "«Газовик»"
+      },
+      {
+        "id": 16244,
+        "date": "2026-07-26UTC17:00:00",
+        "status": 4,
+        "clubH": 5,
+        "clubA": 702,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«РЖД Арена»"
+      },
+      {
+        "id": 16245,
+        "date": "2026-07-24UTC20:00:00",
+        "status": 4,
+        "clubH": 2,
+        "clubA": 444,
+        "goalH": 2,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«ВЭБ Арена»"
+      },
+      {
+        "id": 16246,
+        "date": "2026-07-26UTC19:30:00",
+        "status": 4,
+        "clubH": 4,
+        "clubA": 584,
+        "goalH": 1,
+        "goalA": 3,
+        "city": "Казань",
+        "stadium": "«Ак Барс Арена»"
+      },
+      {
+        "id": 16247,
+        "date": "2026-07-25UTC16:15:00",
+        "status": 4,
+        "clubH": 807,
+        "clubA": 3,
+        "goalH": 0,
+        "goalA": 5,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16248,
+        "date": "2026-07-25UTC18:30:00",
+        "status": 4,
+        "clubH": 264,
+        "clubA": 125,
+        "goalH": 1,
+        "goalA": 2,
+        "city": "Воронеж",
+        "stadium": "«Факел»"
+      }
+    ]
+  },
+  {
+    "stage": 2963,
+    "matches": [
+      {
+        "id": 16249,
+        "date": "2026-08-01UTC18:30:00",
+        "status": 4,
+        "clubH": 125,
+        "clubA": 5,
+        "goalH": 2,
+        "goalA": 1,
+        "city": "Каспийск",
+        "stadium": "«Анжи-Арена»"
+      },
+      {
+        "id": 16250,
+        "date": "2026-08-01UTC20:45:00",
+        "status": 4,
+        "clubH": 444,
+        "clubA": 7,
+        "goalH": 2,
+        "goalA": 1,
+        "city": "Калининград",
+        "stadium": "«Ростех Арена»"
+      },
+      {
+        "id": 16251,
+        "date": "2026-08-02UTC16:00:00",
+        "status": 4,
+        "clubH": 504,
+        "clubA": 3,
+        "goalH": 0,
+        "goalA": 3,
+        "city": "Оренбург",
+        "stadium": "«Газовик»"
+      },
+      {
+        "id": 16252,
+        "date": "2026-08-02UTC18:15:00",
+        "status": 4,
+        "clubH": 584,
+        "clubA": 264,
+        "goalH": 3,
+        "goalA": 2,
+        "city": "Краснодар",
+        "stadium": "«Ozon Арена»"
+      },
+      {
+        "id": 16253,
+        "date": "2026-08-02UTC20:30:00",
+        "status": 4,
+        "clubH": 702,
+        "clubA": 1,
+        "goalH": 1,
+        "goalA": 2,
+        "city": "Грозный",
+        "stadium": "«Ахмат Арена»"
+      },
+      {
+        "id": 16254,
+        "date": "2026-08-01UTC16:15:00",
+        "status": 4,
+        "clubH": 2,
+        "clubA": 10,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«ВЭБ Арена»"
+      },
+      {
+        "id": 16255,
+        "date": "2026-07-31UTC20:00:00",
+        "status": 4,
+        "clubH": 808,
+        "clubA": 11,
+        "goalH": 2,
+        "goalA": 4,
+        "city": "Химки",
+        "stadium": "«Арена Химки»"
+      },
+      {
+        "id": 16256,
+        "date": "2026-08-01UTC14:00:00",
+        "status": 4,
+        "clubH": 807,
+        "clubA": 4,
+        "goalH": 1,
+        "goalA": 2,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      }
+    ]
+  },
+  {
+    "stage": 2964,
+    "matches": [
+      {
+        "id": 16257,
+        "date": "2026-08-09UTC14:30:00",
+        "status": 4,
+        "clubH": 7,
+        "clubA": 125,
+        "goalH": 3,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«ВТБ Арена»"
+      },
+      {
+        "id": 16258,
+        "date": "2026-08-09UTC20:00:00",
+        "status": 4,
+        "clubH": 1,
+        "clubA": 584,
+        "goalH": 1,
+        "goalA": 2,
+        "city": "Москва",
+        "stadium": "«Лукойл Арена»"
+      },
+      {
+        "id": 16259,
+        "date": "2026-08-08UTC15:30:00",
+        "status": 4,
+        "clubH": 10,
+        "clubA": 444,
+        "goalH": 0,
+        "goalA": 2,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16260,
+        "date": "2026-08-08UTC20:30:00",
+        "status": 4,
+        "clubH": 2,
+        "clubA": 11,
+        "goalH": 0,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«ВЭБ Арена»"
+      },
+      {
+        "id": 16261,
+        "date": "2026-08-08UTC18:00:00",
+        "status": 4,
+        "clubH": 5,
+        "clubA": 807,
+        "goalH": 0,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«РЖД Арена»"
+      },
+      {
+        "id": 16262,
+        "date": "2026-08-09UTC20:30:00",
+        "status": 4,
+        "clubH": 4,
+        "clubA": 504,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Казань",
+        "stadium": "«Ак Барс Арена»"
+      },
+      {
+        "id": 16263,
+        "date": "2026-08-09UTC17:00:00",
+        "status": 4,
+        "clubH": 3,
+        "clubA": 808,
+        "goalH": 1,
+        "goalA": 2,
+        "city": "Санкт-Петербург",
+        "stadium": "«Газпром Арена»"
+      },
+      {
+        "id": 16264,
+        "date": "2026-08-10UTC19:30:00",
+        "status": 4,
+        "clubH": 264,
+        "clubA": 702,
+        "goalH": 0,
+        "goalA": 0,
+        "city": "Воронеж",
+        "stadium": "«Факел»"
+      }
+    ]
+  },
+  {
+    "stage": 2965,
+    "matches": [
+      {
+        "id": 16265,
+        "date": "2026-08-16UTC17:00:00",
+        "status": 4,
+        "clubH": 10,
+        "clubA": 125,
+        "goalH": 1,
+        "goalA": 4,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16266,
+        "date": "2026-08-15UTC18:30:00",
+        "status": 4,
+        "clubH": 11,
+        "clubA": 4,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Ростов-на-Дону",
+        "stadium": "«Ростов Арена»"
+      },
+      {
+        "id": 16267,
+        "date": "2026-08-16UTC19:30:00",
+        "status": 4,
+        "clubH": 444,
+        "clubA": 1,
+        "goalH": 1,
+        "goalA": 2,
+        "city": "Калининград",
+        "stadium": "«Ростех Арена»"
+      },
+      {
+        "id": 16268,
+        "date": "2026-08-14UTC17:00:00",
+        "status": 4,
+        "clubH": 504,
+        "clubA": 5,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Оренбург",
+        "stadium": "«Газовик»"
+      },
+      {
+        "id": 16269,
+        "date": "2026-08-15UTC20:45:00",
+        "status": 4,
+        "clubH": 584,
+        "clubA": 702,
+        "goalH": 1,
+        "goalA": 0,
+        "city": "Краснодар",
+        "stadium": "«Ozon Арена»"
+      },
+      {
+        "id": 16270,
+        "date": "2026-08-15UTC16:15:00",
+        "status": 4,
+        "clubH": 2,
+        "clubA": 264,
+        "goalH": 1,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«ВЭБ Арена»"
+      },
+      {
+        "id": 16271,
+        "date": "2026-08-15UTC14:00:00",
+        "status": 4,
+        "clubH": 808,
+        "clubA": 807,
+        "goalH": 3,
+        "goalA": 3,
+        "city": "Химки",
+        "stadium": "«Арена Химки»"
+      },
+      {
+        "id": 16272,
+        "date": "2026-08-16UTC14:30:00",
+        "status": 4,
+        "clubH": 3,
+        "clubA": 7,
+        "goalH": 3,
+        "goalA": 0,
+        "city": "Санкт-Петербург",
+        "stadium": "«Газпром Арена»"
+      }
+    ]
+  },
+  {
+    "stage": 2966,
+    "matches": [
+      {
+        "id": 16273,
+        "date": "2026-08-23UTC15:15:00",
+        "status": 4,
+        "clubH": 7,
+        "clubA": 808,
+        "goalH": 3,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«ВТБ Арена»"
+      },
+      {
+        "id": 16274,
+        "date": "2026-08-23UTC20:00:00",
+        "status": 4,
+        "clubH": 1,
+        "clubA": 3,
+        "goalH": 2,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«Лукойл Арена»"
+      },
+      {
+        "id": 16275,
+        "date": "2026-08-23UTC17:30:00",
+        "status": 4,
+        "clubH": 125,
+        "clubA": 584,
+        "goalH": 0,
+        "goalA": 1,
+        "city": "Каспийск",
+        "stadium": "«Анжи-Арена»"
+      },
+      {
+        "id": 16276,
+        "date": "2026-08-24UTC20:30:00",
+        "status": 4,
+        "clubH": 444,
+        "clubA": 4,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Калининград",
+        "stadium": "«Ростех Арена»"
+      },
+      {
+        "id": 16277,
+        "date": "2026-08-22UTC18:00:00",
+        "status": 4,
+        "clubH": 702,
+        "clubA": 11,
+        "goalH": 4,
+        "goalA": 1,
+        "city": "Грозный",
+        "stadium": "«Ахмат Арена»"
+      },
+      {
+        "id": 16278,
+        "date": "2026-08-22UTC20:15:00",
+        "status": 4,
+        "clubH": 2,
+        "clubA": 5,
+        "goalH": 3,
+        "goalA": 2,
+        "city": "Москва",
+        "stadium": "«ВЭБ Арена»"
+      },
+      {
+        "id": 16279,
+        "date": "2026-08-23UTC13:00:00",
+        "status": 4,
+        "clubH": 807,
+        "clubA": 10,
+        "goalH": 0,
+        "goalA": 3,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16280,
+        "date": "2026-08-22UTC15:30:00",
+        "status": 4,
+        "clubH": 264,
+        "clubA": 504,
+        "goalH": 0,
+        "goalA": 0,
+        "city": "Воронеж",
+        "stadium": "«Факел»"
+      }
+    ]
+  },
+  {
+    "stage": 2967,
+    "matches": [
+      {
+        "id": 16281,
+        "date": "2026-08-30UTC17:30:00",
+        "status": 4,
+        "clubH": 1,
+        "clubA": 504,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«Лукойл Арена»"
+      },
+      {
+        "id": 16282,
+        "date": "2026-08-29UTC20:00:00",
+        "status": 4,
+        "clubH": 5,
+        "clubA": 7,
+        "goalH": 0,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«РЖД Арена»"
+      },
+      {
+        "id": 16283,
+        "date": "2026-08-29UTC17:30:00",
+        "status": 4,
+        "clubH": 584,
+        "clubA": 11,
+        "goalH": 1,
+        "goalA": 0,
+        "city": "Краснодар",
+        "stadium": "«Ozon Арена»"
+      },
+      {
+        "id": 16284,
+        "date": "2026-08-29UTC20:00:00",
+        "status": 4,
+        "clubH": 702,
+        "clubA": 10,
+        "goalH": 3,
+        "goalA": 3,
+        "city": "Грозный",
+        "stadium": "«Ахмат Арена»"
+      },
+      {
+        "id": 16285,
+        "date": "2026-08-30UTC15:00:00",
+        "status": 4,
+        "clubH": 808,
+        "clubA": 444,
+        "goalH": 0,
+        "goalA": 3,
+        "city": "Химки",
+        "stadium": "«Арена Химки»"
+      },
+      {
+        "id": 16286,
+        "date": "2026-08-30UTC20:00:00",
+        "status": 4,
+        "clubH": 4,
+        "clubA": 125,
+        "goalH": 3,
+        "goalA": 1,
+        "city": "Казань",
+        "stadium": "«Ак Барс Арена»"
+      },
+      {
+        "id": 16287,
+        "date": "2026-08-28UTC18:00:00",
+        "status": 4,
+        "clubH": 807,
+        "clubA": 2,
+        "goalH": 2,
+        "goalA": 2,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16288,
+        "date": "2026-08-29UTC15:00:00",
+        "status": 4,
+        "clubH": 264,
+        "clubA": 3,
+        "goalH": 0,
+        "goalA": 1,
+        "city": "Воронеж",
+        "stadium": "«Факел»"
+      }
+    ]
+  },
+  {
+    "stage": 2968,
+    "matches": [
+      {
+        "id": 16289,
+        "date": "2026-09-06UTC18:30:00",
+        "status": 4,
+        "clubH": 7,
+        "clubA": 1,
+        "goalH": 2,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«ВТБ Арена»"
+      },
+      {
+        "id": 16290,
+        "date": "2026-09-05UTC14:00:00",
+        "status": 4,
+        "clubH": 10,
+        "clubA": 584,
+        "goalH": 2,
+        "goalA": 2,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16291,
+        "date": "2026-09-06UTC16:15:00",
+        "status": 4,
+        "clubH": 125,
+        "clubA": 808,
+        "goalH": 2,
+        "goalA": 0,
+        "city": "Каспийск",
+        "stadium": "«Анжи-Арена»"
+      },
+      {
+        "id": 16292,
+        "date": "2026-09-05UTC19:00:00",
+        "status": 4,
+        "clubH": 11,
+        "clubA": 264,
+        "goalH": 3,
+        "goalA": 1,
+        "city": "Ростов-на-Дону",
+        "stadium": "«Ростов Арена»"
+      },
+      {
+        "id": 16293,
+        "date": "2026-09-06UTC20:45:00",
+        "status": 4,
+        "clubH": 444,
+        "clubA": 5,
+        "goalH": 0,
+        "goalA": 1,
+        "city": "Калининград",
+        "stadium": "«Ростех Арена»"
+      },
+      {
+        "id": 16294,
+        "date": "2026-09-06UTC14:00:00",
+        "status": 4,
+        "clubH": 504,
+        "clubA": 807,
+        "goalH": 2,
+        "goalA": 2,
+        "city": "Оренбург",
+        "stadium": "«Газовик»"
+      },
+      {
+        "id": 16295,
+        "date": "2026-09-07UTC19:30:00",
+        "status": 4,
+        "clubH": 4,
+        "clubA": 702,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Казань",
+        "stadium": "«Ак Барс Арена»"
+      },
+      {
+        "id": 16296,
+        "date": "2026-09-05UTC16:30:00",
+        "status": 4,
+        "clubH": 3,
+        "clubA": 2,
+        "goalH": 1,
+        "goalA": 2,
+        "city": "Санкт-Петербург",
+        "stadium": "«Газпром Арена»"
+      }
+    ]
+  },
+  {
+    "stage": 2969,
+    "matches": [
+      {
+        "id": 16297,
+        "date": "2026-09-12UTC18:30:00",
+        "status": 4,
+        "clubH": 7,
+        "clubA": 504,
+        "goalH": 1,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«РЖД Арена»"
+      },
+      {
+        "id": 16298,
+        "date": "2026-09-13UTC17:00:00",
+        "status": 4,
+        "clubH": 1,
+        "clubA": 11,
+        "goalH": 3,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«Лукойл Арена»"
+      },
+      {
+        "id": 16299,
+        "date": "2026-09-11UTC18:00:00",
+        "status": 4,
+        "clubH": 10,
+        "clubA": 808,
+        "goalH": 2,
+        "goalA": 1,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16300,
+        "date": "2026-09-13UTC19:30:00",
+        "status": 4,
+        "clubH": 584,
+        "clubA": 807,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Краснодар",
+        "stadium": "«Ozon Арена»"
+      },
+      {
+        "id": 16301,
+        "date": "2026-09-13UTC14:30:00",
+        "status": 4,
+        "clubH": 702,
+        "clubA": 125,
+        "goalH": 3,
+        "goalA": 2,
+        "city": "Грозный",
+        "stadium": "«Ахмат Арена»"
+      },
+      {
+        "id": 16302,
+        "date": "2026-09-12UTC20:45:00",
+        "status": 4,
+        "clubH": 2,
+        "clubA": 4,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«ВЭБ Арена»"
+      },
+      {
+        "id": 16303,
+        "date": "2026-09-12UTC16:15:00",
+        "status": 4,
+        "clubH": 3,
+        "clubA": 5,
+        "goalH": 2,
+        "goalA": 1,
+        "city": "Санкт-Петербург",
+        "stadium": "«Газпром Арена»"
+      },
+      {
+        "id": 16304,
+        "date": "2026-09-12UTC14:00:00",
+        "status": 4,
+        "clubH": 264,
+        "clubA": 444,
+        "goalH": 2,
+        "goalA": 2,
+        "city": "Воронеж",
+        "stadium": "«Факел»"
+      }
+    ]
+  },
+  {
+    "stage": 2970,
+    "matches": [
+      {
+        "id": 16305,
+        "date": "2026-09-16UTC18:30:00",
+        "status": 4,
+        "clubH": 1,
+        "clubA": 264,
+        "goalH": 1,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«Лукойл Арена»"
+      },
+      {
+        "id": 16362,
+        "date": "2026-09-17UTC20:45:00",
+        "status": 4,
+        "clubH": 125,
+        "clubA": 2,
+        "goalH": 1,
+        "goalA": 3,
+        "city": "Каспийск",
+        "stadium": "«Анжи-Арена»"
+      },
+      {
+        "id": 16371,
+        "date": "2026-09-17UTC18:30:00",
+        "status": 4,
+        "clubH": 11,
+        "clubA": 7,
+        "goalH": 0,
+        "goalA": 3,
+        "city": "Ростов-на-Дону",
+        "stadium": "«Ростов Арена»"
+      },
+      {
+        "id": 16372,
+        "date": "2026-09-16UTC20:45:00",
+        "status": 4,
+        "clubH": 444,
+        "clubA": 3,
+        "goalH": 2,
+        "goalA": 3,
+        "city": "Калининград",
+        "stadium": "«Ростех Арена»"
+      },
+      {
+        "id": 16381,
+        "date": "2026-09-17UTC16:15:00",
+        "status": 4,
+        "clubH": 504,
+        "clubA": 584,
+        "goalH": 0,
+        "goalA": 0,
+        "city": "Оренбург",
+        "stadium": "«Газовик»"
+      },
+      {
+        "id": 16382,
+        "date": "2026-09-16UTC20:45:00",
+        "status": 4,
+        "clubH": 5,
+        "clubA": 10,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«РЖД Арена»"
+      },
+      {
+        "id": 16383,
+        "date": "2026-09-16UTC18:30:00",
+        "status": 4,
+        "clubH": 808,
+        "clubA": 4,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Химки",
+        "stadium": "«Арена Химки»"
+      },
+      {
+        "id": 16384,
+        "date": "2026-09-17UTC18:30:00",
+        "status": 4,
+        "clubH": 807,
+        "clubA": 702,
+        "goalH": 2,
+        "goalA": 0,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      }
+    ]
+  },
+  {
+    "stage": 2971,
+    "matches": [
+      {
+        "id": 16306,
+        "date": "2026-10-10UTC17:30:00",
+        "status": 4,
+        "clubH": 10,
+        "clubA": 1,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16307,
+        "date": "2026-10-09UTC19:30:00",
+        "status": 4,
+        "clubH": 11,
+        "clubA": 807,
+        "goalH": 1,
+        "goalA": 0,
+        "city": "Ростов-на-Дону",
+        "stadium": "«Ростов Арена»"
+      },
+      {
+        "id": 16308,
+        "date": "2026-10-10UTC13:00:00",
+        "status": 4,
+        "clubH": 504,
+        "clubA": 125,
+        "goalH": 4,
+        "goalA": 0,
+        "city": "Оренбург",
+        "stadium": "«Газовик»"
+      },
+      {
+        "id": 16309,
+        "date": "2026-10-10UTC19:30:00",
+        "status": 4,
+        "clubH": 584,
+        "clubA": 3,
+        "goalH": 2,
+        "goalA": 3,
+        "city": "Краснодар",
+        "stadium": "«Ozon Арена»"
+      },
+      {
+        "id": 16310,
+        "date": "2026-10-11UTC14:00:00",
+        "status": 4,
+        "clubH": 702,
+        "clubA": 444,
+        "goalH": 0,
+        "goalA": 0,
+        "city": "Грозный",
+        "stadium": "«Ахмат Арена»"
+      },
+      {
+        "id": 16311,
+        "date": "2026-10-11UTC16:30:00",
+        "status": 4,
+        "clubH": 2,
+        "clubA": 808,
+        "goalH": 3,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«ВЭБ Арена»"
+      },
+      {
+        "id": 16312,
+        "date": "2026-10-11UTC19:30:00",
+        "status": 4,
+        "clubH": 4,
+        "clubA": 7,
+        "goalH": 0,
+        "goalA": 1,
+        "city": "Казань",
+        "stadium": "«Ак Барс Арена»"
+      },
+      {
+        "id": 16313,
+        "date": "2026-10-10UTC15:15:00",
+        "status": 4,
+        "clubH": 264,
+        "clubA": 5,
+        "goalH": 0,
+        "goalA": 5,
+        "city": "Воронеж",
+        "stadium": "«Факел»"
+      }
+    ]
+  },
+  {
+    "stage": 2972,
+    "matches": [
+      {
+        "id": 16314,
+        "date": "2026-10-18UTC16:15:00",
+        "status": 4,
+        "clubH": 7,
+        "clubA": 2,
+        "goalH": 3,
+        "goalA": 1,
+        "city": "Москва",
+        "stadium": "«ВТБ Арена»"
+      },
+      {
+        "id": 16315,
+        "date": "2026-10-18UTC18:45:00",
+        "status": 4,
+        "clubH": 1,
+        "clubA": 4,
+        "goalH": 4,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«Лукойл Арена»"
+      },
+      {
+        "id": 16316,
+        "date": "2026-10-17UTC14:00:00",
+        "status": 4,
+        "clubH": 10,
+        "clubA": 264,
+        "goalH": 1,
+        "goalA": 2,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16317,
+        "date": "2026-10-17UTC16:30:00",
+        "status": 4,
+        "clubH": 125,
+        "clubA": 807,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Каспийск",
+        "stadium": "«Анжи-Арена»"
+      },
+      {
+        "id": 16318,
+        "date": "2026-10-18UTC21:00:00",
+        "status": 4,
+        "clubH": 444,
+        "clubA": 11,
+        "goalH": 0,
+        "goalA": 0,
+        "city": "Калининград",
+        "stadium": "«Ростех Арена»"
+      },
+      {
+        "id": 16319,
+        "date": "2026-10-17UTC19:30:00",
+        "status": 4,
+        "clubH": 5,
+        "clubA": 584,
+        "goalH": 3,
+        "goalA": 3,
+        "city": "Москва",
+        "stadium": "«РЖД Арена»"
+      },
+      {
+        "id": 16320,
+        "date": "2026-10-19UTC19:30:00",
+        "status": 4,
+        "clubH": 808,
+        "clubA": 504,
+        "goalH": 2,
+        "goalA": 2,
+        "city": "Химки",
+        "stadium": "«Арена Химки»"
+      },
+      {
+        "id": 16321,
+        "date": "2026-10-18UTC14:00:00",
+        "status": 4,
+        "clubH": 3,
+        "clubA": 702,
+        "goalH": 3,
+        "goalA": 2,
+        "city": "Санкт-Петербург",
+        "stadium": "«Газпром Арена»"
+      }
+    ]
+  },
+  {
+    "stage": 2973,
+    "matches": [
+      {
+        "id": 16322,
+        "date": "2026-10-25UTC13:45:00",
+        "status": 4,
+        "clubH": 11,
+        "clubA": 5,
+        "goalH": 2,
+        "goalA": 0,
+        "city": "Ростов-на-Дону",
+        "stadium": "«Ростов Арена»"
+      },
+      {
+        "id": 16323,
+        "date": "2026-10-24UTC19:30:00",
+        "status": 4,
+        "clubH": 584,
+        "clubA": 444,
+        "goalH": 1,
+        "goalA": 1,
+        "city": "Краснодар",
+        "stadium": "«Ozon Арена»"
+      },
+      {
+        "id": 16324,
+        "date": "2026-10-23UTC19:30:00",
+        "status": 4,
+        "clubH": 702,
+        "clubA": 504,
+        "goalH": 0,
+        "goalA": 1,
+        "city": "Грозный",
+        "stadium": "«Ахмат Арена»"
+      },
+      {
+        "id": 16325,
+        "date": "2026-10-25UTC16:00:00",
+        "status": 4,
+        "clubH": 2,
+        "clubA": 1,
+        "goalH": 2,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«ВЭБ Арена»"
+      },
+      {
+        "id": 16326,
+        "date": "2026-10-24UTC17:15:00",
+        "status": 4,
+        "clubH": 4,
+        "clubA": 10,
+        "goalH": 0,
+        "goalA": 2,
+        "city": "Казань",
+        "stadium": "«Ак Барс Арена»"
+      },
+      {
+        "id": 16327,
+        "date": "2026-10-24UTC12:45:00",
+        "status": 4,
+        "clubH": 807,
+        "clubA": 7,
+        "goalH": 3,
+        "goalA": 1,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16328,
+        "date": "2026-10-25UTC18:30:00",
+        "status": 4,
+        "clubH": 3,
+        "clubA": 125,
+        "goalH": 2,
+        "goalA": 0,
+        "city": "Санкт-Петербург",
+        "stadium": "«Газпром Арена»"
+      },
+      {
+        "id": 16329,
+        "date": "2026-10-24UTC15:00:00",
+        "status": 4,
+        "clubH": 264,
+        "clubA": 808,
+        "goalH": 0,
+        "goalA": 1,
+        "city": "Воронеж",
+        "stadium": "«Факел»"
+      }
+    ]
+  },
+  {
+    "stage": 2974,
+    "matches": [
+      {
+        "id": 16330,
+        "date": "2026-10-31UTC17:30:00",
+        "status": 4,
+        "clubH": 7,
+        "clubA": 702,
+        "goalH": 2,
+        "goalA": 0,
+        "city": "Москва",
+        "stadium": "«ВТБ Арена»"
+      },
+      {
+        "id": 16331,
+        "date": "2026-11-02UTC18:00:00",
+        "status": 0,
+        "clubH": 10,
+        "clubA": 3,
+        "goalH": null,
+        "goalA": null,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16332,
+        "date": "2026-11-01UTC15:15:00",
+        "status": 0,
+        "clubH": 125,
+        "clubA": 11,
+        "goalH": null,
+        "goalA": null,
+        "city": "Каспийск",
+        "stadium": "«Анжи-Арена»"
+      },
+      {
+        "id": 16333,
+        "date": "2026-11-01UTC17:30:00",
+        "status": 0,
+        "clubH": 444,
+        "clubA": 807,
+        "goalH": null,
+        "goalA": null,
+        "city": "Калининград",
+        "stadium": "«Ростех Арена»"
+      },
+      {
+        "id": 16334,
+        "date": "2026-11-01UTC13:00:00",
+        "status": 0,
+        "clubH": 504,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": "Оренбург",
+        "stadium": "«Газовик»"
+      },
+      {
+        "id": 16335,
+        "date": "2026-11-01UTC19:45:00",
+        "status": 0,
+        "clubH": 5,
+        "clubA": 1,
+        "goalH": null,
+        "goalA": null,
+        "city": "Москва",
+        "stadium": "«РЖД Арена»"
+      },
+      {
+        "id": 16336,
+        "date": "2026-10-31UTC19:45:00",
+        "status": 0,
+        "clubH": 808,
+        "clubA": 584,
+        "goalH": null,
+        "goalA": null,
+        "city": "Химки",
+        "stadium": "«Арена Химки»"
+      },
+      {
+        "id": 16337,
+        "date": "2026-10-31UTC15:15:00",
+        "status": 4,
+        "clubH": 4,
+        "clubA": 264,
+        "goalH": 1,
+        "goalA": 0,
+        "city": "Казань",
+        "stadium": "«Ак Барс Арена»"
+      }
+    ]
+  },
+  {
+    "stage": 2975,
+    "matches": [
+      {
+        "id": 16338,
+        "date": "2026-11-08UTC16:15:00",
+        "status": 0,
+        "clubH": 1,
+        "clubA": 807,
+        "goalH": null,
+        "goalA": null,
+        "city": "Москва",
+        "stadium": "«Лукойл Арена»"
+      },
+      {
+        "id": 16339,
+        "date": "2026-11-08UTC14:00:00",
+        "status": 0,
+        "clubH": 10,
+        "clubA": 504,
+        "goalH": null,
+        "goalA": null,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16340,
+        "date": "2026-11-08UTC20:45:00",
+        "status": 0,
+        "clubH": 444,
+        "clubA": 125,
+        "goalH": null,
+        "goalA": null,
+        "city": "Калининград",
+        "stadium": "«Ростех Арена»"
+      },
+      {
+        "id": 16341,
+        "date": "2026-11-06UTC19:30:00",
+        "status": 0,
+        "clubH": 5,
+        "clubA": 4,
+        "goalH": null,
+        "goalA": null,
+        "city": "Москва",
+        "stadium": "«РЖД Арена»"
+      },
+      {
+        "id": 16342,
+        "date": "2026-11-07UTC19:30:00",
+        "status": 0,
+        "clubH": 584,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": "Краснодар",
+        "stadium": "«Ozon Арена»"
+      },
+      {
+        "id": 16343,
+        "date": "2026-11-07UTC16:30:00",
+        "status": 0,
+        "clubH": 702,
+        "clubA": 808,
+        "goalH": null,
+        "goalA": null,
+        "city": "Грозный",
+        "stadium": "«Ахмат Арена»"
+      },
+      {
+        "id": 16344,
+        "date": "2026-11-08UTC18:30:00",
+        "status": 0,
+        "clubH": 3,
+        "clubA": 11,
+        "goalH": null,
+        "goalA": null,
+        "city": "Санкт-Петербург",
+        "stadium": "«Газпром Арена»"
+      },
+      {
+        "id": 16345,
+        "date": "2026-11-07UTC14:00:00",
+        "status": 0,
+        "clubH": 264,
+        "clubA": 7,
+        "goalH": null,
+        "goalA": null,
+        "city": "Воронеж",
+        "stadium": "«Факел»"
+      }
+    ]
+  },
+  {
+    "stage": 2976,
+    "matches": [
+      {
+        "id": 16347,
+        "date": "2026-11-22UTC16:30:00",
+        "status": 0,
+        "clubH": 125,
+        "clubA": 1,
+        "goalH": null,
+        "goalA": null,
+        "city": "Каспийск",
+        "stadium": "«Анжи-Арена»"
+      },
+      {
+        "id": 16348,
+        "date": "2026-11-20UTC19:30:00",
+        "status": 0,
+        "clubH": 11,
+        "clubA": 10,
+        "goalH": null,
+        "goalA": null,
+        "city": "Ростов-на-Дону",
+        "stadium": "«Ростов Арена»"
+      },
+      {
+        "id": 16349,
+        "date": "2026-11-21UTC13:00:00",
+        "status": 0,
+        "clubH": 504,
+        "clubA": 444,
+        "goalH": null,
+        "goalA": null,
+        "city": "Оренбург",
+        "stadium": "«Газовик»"
+      },
+      {
+        "id": 16350,
+        "date": "2026-11-21UTC19:45:00",
+        "status": 0,
+        "clubH": 2,
+        "clubA": 702,
+        "goalH": null,
+        "goalA": null,
+        "city": "Москва",
+        "stadium": "«ВЭБ Арена»"
+      },
+      {
+        "id": 16351,
+        "date": "2026-11-22UTC19:00:00",
+        "status": 0,
+        "clubH": 808,
+        "clubA": 5,
+        "goalH": null,
+        "goalA": null,
+        "city": "Химки",
+        "stadium": "«Арена Химки»"
+      },
+      {
+        "id": 16352,
+        "date": "2026-11-21UTC17:30:00",
+        "status": 0,
+        "clubH": 4,
+        "clubA": 3,
+        "goalH": null,
+        "goalA": null,
+        "city": "Казань",
+        "stadium": "«Ак Барс Арена»"
+      },
+      {
+        "id": 16353,
+        "date": "2026-11-21UTC15:15:00",
+        "status": 0,
+        "clubH": 807,
+        "clubA": 264,
+        "goalH": null,
+        "goalA": null,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16481,
+        "date": "2026-11-22UTC14:00:00",
+        "status": 0,
+        "clubH": 7,
+        "clubA": 584,
+        "goalH": null,
+        "goalA": null,
+        "city": "Москва",
+        "stadium": "«ВТБ Арена»"
+      }
+    ]
+  },
+  {
+    "stage": 2977,
+    "matches": [
+      {
+        "id": 16354,
+        "date": "2026-11-29UTC17:30:00",
+        "status": 0,
+        "clubH": 10,
+        "clubA": 7,
+        "goalH": null,
+        "goalA": null,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16355,
+        "date": "2026-11-29UTC15:15:00",
+        "status": 0,
+        "clubH": 11,
+        "clubA": 584,
+        "goalH": null,
+        "goalA": null,
+        "city": "Ростов-на-Дону",
+        "stadium": "«Ростов Арена»"
+      },
+      {
+        "id": 16356,
+        "date": "2026-11-28UTC19:00:00",
+        "status": 0,
+        "clubH": 444,
+        "clubA": 702,
+        "goalH": null,
+        "goalA": null,
+        "city": "Калининград",
+        "stadium": "«Ростех Арена»"
+      },
+      {
+        "id": 16357,
+        "date": "2026-11-29UTC13:00:00",
+        "status": 0,
+        "clubH": 504,
+        "clubA": 808,
+        "goalH": null,
+        "goalA": null,
+        "city": "Оренбург",
+        "stadium": "«Газовик»"
+      },
+      {
+        "id": 16358,
+        "date": "2026-11-29UTC19:45:00",
+        "status": 0,
+        "clubH": 5,
+        "clubA": 125,
+        "goalH": null,
+        "goalA": null,
+        "city": "Москва",
+        "stadium": "«РЖД Арена»"
+      },
+      {
+        "id": 16359,
+        "date": "2026-11-28UTC16:30:00",
+        "status": 0,
+        "clubH": 2,
+        "clubA": 3,
+        "goalH": null,
+        "goalA": null,
+        "city": "Москва",
+        "stadium": "«ВЭБ Арена»"
+      },
+      {
+        "id": 16360,
+        "date": "2026-11-28UTC14:00:00",
+        "status": 0,
+        "clubH": 4,
+        "clubA": 807,
+        "goalH": null,
+        "goalA": null,
+        "city": "Казань",
+        "stadium": "«Ак Барс Арена»"
+      },
+      {
+        "id": 16361,
+        "date": "2026-11-30UTC19:30:00",
+        "status": 0,
+        "clubH": 264,
+        "clubA": 1,
+        "goalH": null,
+        "goalA": null,
+        "city": "Воронеж",
+        "stadium": "«Факел»"
+      }
+    ]
+  },
+  {
+    "stage": 2978,
+    "matches": [
+      {
+        "id": 16363,
+        "date": "2026-12-06UTC17:00:00",
+        "status": 0,
+        "clubH": 1,
+        "clubA": 7,
+        "goalH": null,
+        "goalA": null,
+        "city": "Москва",
+        "stadium": "«Лукойл Арена»"
+      },
+      {
+        "id": 16364,
+        "date": "2026-12-04UTC19:30:00",
+        "status": 0,
+        "clubH": 125,
+        "clubA": 10,
+        "goalH": null,
+        "goalA": null,
+        "city": "Каспийск",
+        "stadium": "«Анжи-Арена»"
+      },
+      {
+        "id": 16365,
+        "date": "2026-12-06UTC19:30:00",
+        "status": 0,
+        "clubH": 584,
+        "clubA": 4,
+        "goalH": null,
+        "goalA": null,
+        "city": "Краснодар",
+        "stadium": "«Ozon Арена»"
+      },
+      {
+        "id": 16366,
+        "date": "2026-12-05UTC19:45:00",
+        "status": 0,
+        "clubH": 702,
+        "clubA": 5,
+        "goalH": null,
+        "goalA": null,
+        "city": "Грозный",
+        "stadium": "«Ахмат Арена»"
+      },
+      {
+        "id": 16367,
+        "date": "2026-12-05UTC15:15:00",
+        "status": 0,
+        "clubH": 808,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": "Химки",
+        "stadium": "«Арена Химки»"
+      },
+      {
+        "id": 16368,
+        "date": "2026-12-05UTC13:00:00",
+        "status": 0,
+        "clubH": 807,
+        "clubA": 504,
+        "goalH": null,
+        "goalA": null,
+        "city": "Самара",
+        "stadium": "«Солидарность Самара Арена»"
+      },
+      {
+        "id": 16369,
+        "date": "2026-12-05UTC17:30:00",
+        "status": 0,
+        "clubH": 3,
+        "clubA": 444,
+        "goalH": null,
+        "goalA": null,
+        "city": "Санкт-Петербург",
+        "stadium": "«Газпром Арена»"
+      },
+      {
+        "id": 16370,
+        "date": "2026-12-06UTC14:30:00",
+        "status": 0,
+        "clubH": 264,
+        "clubA": 11,
+        "goalH": null,
+        "goalA": null,
+        "city": "Воронеж",
+        "stadium": "«Факел»"
+      }
+    ]
+  },
+  {
+    "stage": 2979,
+    "matches": [
+      {
+        "id": 16373,
+        "date": "2027-02-28UTC00:00:00",
+        "status": 0,
+        "clubH": 7,
+        "clubA": 4,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16374,
+        "date": "2027-02-28UTC00:00:00",
+        "status": 0,
+        "clubH": 10,
+        "clubA": 5,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16375,
+        "date": "2027-02-28UTC00:00:00",
+        "status": 0,
+        "clubH": 125,
+        "clubA": 504,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16376,
+        "date": "2027-02-28UTC00:00:00",
+        "status": 0,
+        "clubH": 444,
+        "clubA": 808,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16377,
+        "date": "2027-02-28UTC00:00:00",
+        "status": 0,
+        "clubH": 584,
+        "clubA": 1,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16378,
+        "date": "2027-02-28UTC00:00:00",
+        "status": 0,
+        "clubH": 702,
+        "clubA": 807,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16379,
+        "date": "2027-02-28UTC00:00:00",
+        "status": 0,
+        "clubH": 11,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16380,
+        "date": "2027-02-28UTC00:00:00",
+        "status": 0,
+        "clubH": 3,
+        "clubA": 264,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2980,
+    "matches": [
+      {
+        "id": 16385,
+        "date": "2027-03-07UTC00:00:00",
+        "status": 0,
+        "clubH": 125,
+        "clubA": 264,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16386,
+        "date": "2027-03-07UTC00:00:00",
+        "status": 0,
+        "clubH": 11,
+        "clubA": 444,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16387,
+        "date": "2027-03-07UTC00:00:00",
+        "status": 0,
+        "clubH": 5,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16388,
+        "date": "2027-03-07UTC00:00:00",
+        "status": 0,
+        "clubH": 584,
+        "clubA": 10,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16389,
+        "date": "2027-03-07UTC00:00:00",
+        "status": 0,
+        "clubH": 702,
+        "clubA": 4,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16390,
+        "date": "2027-03-07UTC00:00:00",
+        "status": 0,
+        "clubH": 808,
+        "clubA": 7,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16391,
+        "date": "2027-03-07UTC00:00:00",
+        "status": 0,
+        "clubH": 807,
+        "clubA": 1,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16392,
+        "date": "2027-03-07UTC00:00:00",
+        "status": 0,
+        "clubH": 3,
+        "clubA": 504,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2981,
+    "matches": [
+      {
+        "id": 16393,
+        "date": "2027-03-14UTC00:00:00",
+        "status": 0,
+        "clubH": 7,
+        "clubA": 5,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16394,
+        "date": "2027-03-14UTC00:00:00",
+        "status": 0,
+        "clubH": 1,
+        "clubA": 702,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16395,
+        "date": "2027-03-14UTC00:00:00",
+        "status": 0,
+        "clubH": 444,
+        "clubA": 584,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16396,
+        "date": "2027-03-14UTC00:00:00",
+        "status": 0,
+        "clubH": 504,
+        "clubA": 10,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16397,
+        "date": "2027-03-14UTC00:00:00",
+        "status": 0,
+        "clubH": 808,
+        "clubA": 3,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16398,
+        "date": "2027-03-14UTC00:00:00",
+        "status": 0,
+        "clubH": 4,
+        "clubA": 11,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16399,
+        "date": "2027-03-14UTC00:00:00",
+        "status": 0,
+        "clubH": 807,
+        "clubA": 125,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16400,
+        "date": "2027-03-14UTC00:00:00",
+        "status": 0,
+        "clubH": 264,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2982,
+    "matches": [
+      {
+        "id": 16401,
+        "date": "2027-03-21UTC00:00:00",
+        "status": 0,
+        "clubH": 10,
+        "clubA": 702,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16402,
+        "date": "2027-03-21UTC00:00:00",
+        "status": 0,
+        "clubH": 125,
+        "clubA": 444,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16403,
+        "date": "2027-03-21UTC00:00:00",
+        "status": 0,
+        "clubH": 11,
+        "clubA": 808,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16404,
+        "date": "2027-03-21UTC00:00:00",
+        "status": 0,
+        "clubH": 5,
+        "clubA": 264,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16405,
+        "date": "2027-03-21UTC00:00:00",
+        "status": 0,
+        "clubH": 584,
+        "clubA": 7,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16406,
+        "date": "2027-03-21UTC00:00:00",
+        "status": 0,
+        "clubH": 2,
+        "clubA": 504,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16407,
+        "date": "2027-03-21UTC00:00:00",
+        "status": 0,
+        "clubH": 4,
+        "clubA": 1,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16408,
+        "date": "2027-03-21UTC00:00:00",
+        "status": 0,
+        "clubH": 3,
+        "clubA": 807,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2983,
+    "matches": [
+      {
+        "id": 16409,
+        "date": "2027-04-04UTC00:00:00",
+        "status": 0,
+        "clubH": 7,
+        "clubA": 444,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16410,
+        "date": "2027-04-04UTC00:00:00",
+        "status": 0,
+        "clubH": 1,
+        "clubA": 125,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16411,
+        "date": "2027-04-04UTC00:00:00",
+        "status": 0,
+        "clubH": 11,
+        "clubA": 3,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16412,
+        "date": "2027-04-04UTC00:00:00",
+        "status": 0,
+        "clubH": 504,
+        "clubA": 4,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16413,
+        "date": "2027-04-04UTC00:00:00",
+        "status": 0,
+        "clubH": 702,
+        "clubA": 264,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16414,
+        "date": "2027-04-04UTC00:00:00",
+        "status": 0,
+        "clubH": 2,
+        "clubA": 584,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16415,
+        "date": "2027-04-04UTC00:00:00",
+        "status": 0,
+        "clubH": 808,
+        "clubA": 10,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16416,
+        "date": "2027-04-04UTC00:00:00",
+        "status": 0,
+        "clubH": 807,
+        "clubA": 5,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2984,
+    "matches": [
+      {
+        "id": 16417,
+        "date": "2027-04-11UTC00:00:00",
+        "status": 0,
+        "clubH": 10,
+        "clubA": 11,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16418,
+        "date": "2027-04-11UTC00:00:00",
+        "status": 0,
+        "clubH": 125,
+        "clubA": 4,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16419,
+        "date": "2027-04-11UTC00:00:00",
+        "status": 0,
+        "clubH": 444,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16420,
+        "date": "2027-04-11UTC00:00:00",
+        "status": 0,
+        "clubH": 504,
+        "clubA": 1,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16421,
+        "date": "2027-04-11UTC00:00:00",
+        "status": 0,
+        "clubH": 5,
+        "clubA": 3,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16422,
+        "date": "2027-04-11UTC00:00:00",
+        "status": 0,
+        "clubH": 584,
+        "clubA": 808,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16423,
+        "date": "2027-04-11UTC00:00:00",
+        "status": 0,
+        "clubH": 702,
+        "clubA": 7,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16424,
+        "date": "2027-04-11UTC00:00:00",
+        "status": 0,
+        "clubH": 264,
+        "clubA": 807,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2985,
+    "matches": [
+      {
+        "id": 16425,
+        "date": "2027-04-18UTC00:00:00",
+        "status": 0,
+        "clubH": 7,
+        "clubA": 264,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16426,
+        "date": "2027-04-18UTC00:00:00",
+        "status": 0,
+        "clubH": 1,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16427,
+        "date": "2027-04-18UTC00:00:00",
+        "status": 0,
+        "clubH": 11,
+        "clubA": 702,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16428,
+        "date": "2027-04-18UTC00:00:00",
+        "status": 0,
+        "clubH": 5,
+        "clubA": 504,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16429,
+        "date": "2027-04-18UTC00:00:00",
+        "status": 0,
+        "clubH": 808,
+        "clubA": 125,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16430,
+        "date": "2027-04-18UTC00:00:00",
+        "status": 0,
+        "clubH": 4,
+        "clubA": 444,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16431,
+        "date": "2027-04-18UTC00:00:00",
+        "status": 0,
+        "clubH": 807,
+        "clubA": 584,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16432,
+        "date": "2027-04-18UTC00:00:00",
+        "status": 0,
+        "clubH": 3,
+        "clubA": 10,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2986,
+    "matches": [
+      {
+        "id": 16433,
+        "date": "2027-04-25UTC00:00:00",
+        "status": 0,
+        "clubH": 444,
+        "clubA": 10,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16434,
+        "date": "2027-04-25UTC00:00:00",
+        "status": 0,
+        "clubH": 504,
+        "clubA": 264,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16435,
+        "date": "2027-04-25UTC00:00:00",
+        "status": 0,
+        "clubH": 584,
+        "clubA": 125,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16436,
+        "date": "2027-04-25UTC00:00:00",
+        "status": 0,
+        "clubH": 702,
+        "clubA": 3,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16437,
+        "date": "2027-04-25UTC00:00:00",
+        "status": 0,
+        "clubH": 2,
+        "clubA": 7,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16438,
+        "date": "2027-04-25UTC00:00:00",
+        "status": 0,
+        "clubH": 808,
+        "clubA": 1,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16439,
+        "date": "2027-04-25UTC00:00:00",
+        "status": 0,
+        "clubH": 4,
+        "clubA": 5,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16440,
+        "date": "2027-04-25UTC00:00:00",
+        "status": 0,
+        "clubH": 807,
+        "clubA": 11,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2987,
+    "matches": [
+      {
+        "id": 16441,
+        "date": "2027-05-02UTC00:00:00",
+        "status": 0,
+        "clubH": 7,
+        "clubA": 807,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16442,
+        "date": "2027-05-02UTC00:00:00",
+        "status": 0,
+        "clubH": 1,
+        "clubA": 444,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16443,
+        "date": "2027-05-02UTC00:00:00",
+        "status": 0,
+        "clubH": 10,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16444,
+        "date": "2027-05-02UTC00:00:00",
+        "status": 0,
+        "clubH": 125,
+        "clubA": 702,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16445,
+        "date": "2027-05-02UTC00:00:00",
+        "status": 0,
+        "clubH": 11,
+        "clubA": 504,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16446,
+        "date": "2027-05-02UTC00:00:00",
+        "status": 0,
+        "clubH": 5,
+        "clubA": 808,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16447,
+        "date": "2027-05-02UTC00:00:00",
+        "status": 0,
+        "clubH": 3,
+        "clubA": 584,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16448,
+        "date": "2027-05-02UTC00:00:00",
+        "status": 0,
+        "clubH": 264,
+        "clubA": 4,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2988,
+    "matches": [
+      {
+        "id": 16449,
+        "date": "2027-05-09UTC00:00:00",
+        "status": 0,
+        "clubH": 7,
+        "clubA": 11,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16450,
+        "date": "2027-05-09UTC00:00:00",
+        "status": 0,
+        "clubH": 1,
+        "clubA": 5,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16451,
+        "date": "2027-05-09UTC00:00:00",
+        "status": 0,
+        "clubH": 10,
+        "clubA": 4,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16452,
+        "date": "2027-05-09UTC00:00:00",
+        "status": 0,
+        "clubH": 125,
+        "clubA": 3,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16453,
+        "date": "2027-05-09UTC00:00:00",
+        "status": 0,
+        "clubH": 444,
+        "clubA": 264,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16454,
+        "date": "2027-05-09UTC00:00:00",
+        "status": 0,
+        "clubH": 584,
+        "clubA": 504,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16455,
+        "date": "2027-05-09UTC00:00:00",
+        "status": 0,
+        "clubH": 2,
+        "clubA": 807,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16456,
+        "date": "2027-05-09UTC00:00:00",
+        "status": 0,
+        "clubH": 808,
+        "clubA": 702,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2989,
+    "matches": [
+      {
+        "id": 16457,
+        "date": "2027-05-16UTC00:00:00",
+        "status": 0,
+        "clubH": 11,
+        "clubA": 125,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16458,
+        "date": "2027-05-16UTC00:00:00",
+        "status": 0,
+        "clubH": 504,
+        "clubA": 7,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16459,
+        "date": "2027-05-16UTC00:00:00",
+        "status": 0,
+        "clubH": 5,
+        "clubA": 444,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16460,
+        "date": "2027-05-16UTC00:00:00",
+        "status": 0,
+        "clubH": 702,
+        "clubA": 584,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16461,
+        "date": "2027-05-16UTC00:00:00",
+        "status": 0,
+        "clubH": 4,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16462,
+        "date": "2027-05-16UTC00:00:00",
+        "status": 0,
+        "clubH": 807,
+        "clubA": 808,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16463,
+        "date": "2027-05-16UTC00:00:00",
+        "status": 0,
+        "clubH": 3,
+        "clubA": 1,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16464,
+        "date": "2027-05-16UTC00:00:00",
+        "status": 0,
+        "clubH": 264,
+        "clubA": 10,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2990,
+    "matches": [
+      {
+        "id": 16465,
+        "date": "2027-05-23UTC00:00:00",
+        "status": 0,
+        "clubH": 7,
+        "clubA": 3,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16466,
+        "date": "2027-05-23UTC00:00:00",
+        "status": 0,
+        "clubH": 1,
+        "clubA": 10,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16467,
+        "date": "2027-05-23UTC00:00:00",
+        "status": 0,
+        "clubH": 504,
+        "clubA": 702,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16468,
+        "date": "2027-05-23UTC00:00:00",
+        "status": 0,
+        "clubH": 5,
+        "clubA": 11,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16469,
+        "date": "2027-05-23UTC00:00:00",
+        "status": 0,
+        "clubH": 2,
+        "clubA": 125,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16470,
+        "date": "2027-05-23UTC00:00:00",
+        "status": 0,
+        "clubH": 4,
+        "clubA": 808,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16471,
+        "date": "2027-05-23UTC00:00:00",
+        "status": 0,
+        "clubH": 807,
+        "clubA": 444,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16472,
+        "date": "2027-05-23UTC00:00:00",
+        "status": 0,
+        "clubH": 264,
+        "clubA": 584,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  },
+  {
+    "stage": 2991,
+    "matches": [
+      {
+        "id": 16473,
+        "date": "2027-05-29UTC00:00:00",
+        "status": 0,
+        "clubH": 10,
+        "clubA": 807,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16474,
+        "date": "2027-05-29UTC00:00:00",
+        "status": 0,
+        "clubH": 125,
+        "clubA": 7,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16475,
+        "date": "2027-05-29UTC00:00:00",
+        "status": 0,
+        "clubH": 11,
+        "clubA": 1,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16476,
+        "date": "2027-05-29UTC00:00:00",
+        "status": 0,
+        "clubH": 444,
+        "clubA": 504,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16477,
+        "date": "2027-05-29UTC00:00:00",
+        "status": 0,
+        "clubH": 584,
+        "clubA": 5,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16479,
+        "date": "2027-05-29UTC00:00:00",
+        "status": 0,
+        "clubH": 808,
+        "clubA": 264,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16480,
+        "date": "2027-05-29UTC00:00:00",
+        "status": 0,
+        "clubH": 3,
+        "clubA": 4,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      },
+      {
+        "id": 16482,
+        "date": "2027-05-29UTC00:00:00",
+        "status": 0,
+        "clubH": 702,
+        "clubA": 2,
+        "goalH": null,
+        "goalA": null,
+        "city": null,
+        "stadium": null
+      }
+    ]
+  }
+]
