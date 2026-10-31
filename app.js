@@ -1638,6 +1638,7 @@ window.openMatchModal = async function(matchId) {
     
     body.innerHTML = '<div class="modal-state">Загрузка данных матча...</div>';
     modal.classList.add('active');
+    document.body.classList.add('modal-open');
 
     // Сброс справочника (на случай, если предыдущий матч был архивным)
     window._allPlayersArchive = null;
@@ -2821,6 +2822,7 @@ window.closeMatchModal = function(event) {
     if (event) event.stopPropagation();
     const modal = document.getElementById('match-modal');
     modal.classList.remove('active');
+    document.body.classList.remove('modal-open');
     
     // Останавливаем таймер матча
     if (window._matchTimer) {
@@ -2841,6 +2843,7 @@ window.openClubModal = async function(clubId) {
     
     body.innerHTML = '<div class="modal-state">Загрузка данных клуба...</div>';
     modal.classList.add('active');
+    document.body.classList.add('modal-open');
 
     try {
         const res = await fetch(`./data/frontend/clubs_data/${clubId}/club_profile.json`);
@@ -3102,6 +3105,7 @@ window.closeClubModal = function(event) {
     if (event) event.stopPropagation();
     const modal = document.getElementById('club-modal');
     modal.classList.remove('active');
+    document.body.classList.remove('modal-open');
 };
 
 window.filterEventsByHalf = function(half, event) {
