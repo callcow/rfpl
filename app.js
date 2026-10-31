@@ -2845,13 +2845,16 @@ window.updateModalEventsAndStats = function(data, homeClub, awayClub, protocolEv
     }
 };
 
-window.closeMatchModal = function(event) {
+window.closeMatchModal = function(event, fromPopstate = false) {
     if (event) event.stopPropagation();
     const modal = document.getElementById('match-modal');
     
-    // Если модалка была открыта, удаляем фейковую запись из истории
-    if (modal.classList.contains('active')) {
-        history.back(); // Это вызовет popstate, который вызовет closeMatchModal снова (без event)
+    // Если модалка не открыта, ничего не делаем
+    if (!modal.classList.contains('active')) return;
+    
+    // Если закрываем не через кнопку "Назад", удаляем фейковую запись из истории
+    if (!fromPopstate) {
+        history.back();
     }
     
     modal.classList.remove('active');
@@ -3153,13 +3156,14 @@ window.switchClubTab = function(tabId, event) {
     }
 };
 
-window.closeClubModal = function(event) {
+window.closeClubModal = function(event, fromPopstate = false) {
     if (event) event.stopPropagation();
     const modal = document.getElementById('club-modal');
     
-    // Если модалка была открыта, удаляем фейковую запись из истории
-    if (modal.classList.contains('active')) {
-        history.back(); // Это вызовет popstate, который вызовет closeClubModal снова (без event)
+    if (!modal.classList.contains('active')) return;
+    
+    if (!fromPopstate) {
+        history.back();
     }
     
     modal.classList.remove('active');
@@ -3211,13 +3215,12 @@ window.addEventListener('popstate', function(event) {
     const matchModal = document.getElementById('match-modal');
     const clubModal = document.getElementById('club-modal');
     
-    // Если открыта модалка матча
+    // Передаем true, чтобы функции не вызывали history.back() снова
     if (matchModal && matchModal.classList.contains('active')) {
-        closeMatchModal();
+        closeMatchModal(null, true);
     } 
-    // Если открыта модалка клуба
     else if (clubModal && clubModal.classList.contains('active')) {
-        closeClubModal();
+        closeClubModal(null, true);
     }
 });
 
