@@ -742,6 +742,9 @@ def import_all() -> dict:
 
     # ─── 5. Сборка плоской таблицы + standings ───
     _build_flat_and_standings(status)
+
+    # ─── 5.1. Клубная статистика игроков ───
+    _build_club_stats(tournament_id, status)
     
     status["current_season"] = current["name"]
     status["api_ok"] = len(status["from_archive"]) == 0
@@ -1069,3 +1072,285 @@ def _build_staffs_all(tournament_id: int, status: dict):
         log.info(f"Справочник тренеров обновлен: +{added_count} новых, ~{updated_count} обновлено. Всего: {len(existing_staffs)}")
     else:
         log.info(f"Справочник тренеров без изменений ({len(existing_staffs)} чел.)")
+
+
+def _build_club_stats(tournament_id: int, status: dict):
+    """Собирает агрегированную статистику игроков клуба по завершённым матчам.
+    Сохраняет data/current/clubs_data/<clubId>/club_stats.json
+    """
+    log.info("Собираю клубную статистику игроков (club_stats.json)...")
+
+    clubs = _load_json(CURRENT_DIR / "clubs.json", [])
+    if not clubs:
+        log.warning("club_stats: clubs.json пуст, пропускаю.")
+        return
+
+    matches_dir = CURRENT_DIR / "matches"
+    clubs_data_dir = CURRENT_DIR / "clubs_data"
+
+    # 1. Загружаем всех игроков из players.json по клубам (база для агрегатов)
+    club_players = {}  # clubId -> {playerId: playerData}
+    for c in clubs:
+        cid = c["id"]
+        players_file = clubs_data_dir / str(cid) / "players.json"
+        if not players_file.exists():
+            continue
+        try:
+            players_list = json.loads(players_file.read_text(encoding="utf-8"))
+        except Exception as e:
+            log.warning(f"club_stats: не прочитал players.json клуба {cid}: {e}")
+            continue
+        if not isinstance(players_list, list):
+            continue
+        club_players[cid] = {}
+        for p in players_list:
+            if p.get("id"):
+                club_players[cid][p["id"]] = {
+                    "id": p["id"],
+                    "name": p.get("name", ""),
+                    "lastname": p.get("lastname", ""),
+                    "amplua": p.get("amplua"),
+                    "number": p.get("number"),
+                    "citizenship": p.get("citizenship"),
+                    "matchesInSquad": 0,
+                    "matchesStarted": 0,
+                    "matchesSubIn": 0,
+                    "minutesPlayed": 0,
+                    "captainMatches": 0,
+                    "goals": 0,
+                    "penaltyGoals": 0,
+                    "penaltyMissed": 0,
+                    "ownGoals": 0,
+                    "assists": 0,
+                    "yellowCards": 0,
+                    "redCards": 0,
+                    "shots": 0,
+                    "shotsOnTarget": 0,
+                    "fouls": 0,
+                    "corners": 0,
+                    "offsides": 0,
+                }
+
+    # 2. Собираем ID завершённых матчей из matches_flat.json
+    flat = _load_json(CURRENT_DIR / "matches_flat.json", [])
+    finished = [m for m in flat if m.get("status") == 4]
+    if not finished:
+        log.info("club_stats: нет завершённых матчей.")
+        # Всё равно сохраняем пустые файлы для единообразия фронта
+        _write_club_stats_files(club_players, tournament_id, 0)
+        return
+
+    match_club_map = {}
+    for m in finished:
+        mid = m.get("matchId")
+        if mid:
+            match_club_map[mid] = (m.get("homeId"), m.get("awayId"))
+
+    # 3. Проходим по завершённым матчам: lineups → заявка/старт/минуты, events → голы/карточки/удары
+    processed = 0
+    club_matches = {c["id"]: 0 for c in clubs}
+    club_corners = {c["id"]: 0 for c in clubs}
+    for mid, (home_id, away_id) in match_club_map.items():
+        if not home_id or not away_id:
+            continue
+        club_matches[home_id] = club_matches.get(home_id, 0) + 1
+        club_matches[away_id] = club_matches.get(away_id, 0) + 1
+
+        # 3.1. Составы
+        lineups_file = matches_dir / f"lineups_{mid}.json"
+        lineups = None
+        if lineups_file.exists():
+            try:
+                lineups = json.loads(lineups_file.read_text(encoding="utf-8"))
+            except Exception:
+                lineups = None
+
+        if lineups:
+            protocol = lineups.get("protocol") or lineups
+            for side_key, club_id in (("clubH", home_id), ("clubA", away_id)):
+                cd = protocol.get(side_key) or {}
+                if not club_players.get(club_id):
+                    continue
+                players_map = {p["id"]: p for p in cd.get("players", []) if p.get("id")}
+                # main/reserve — списки ОБЪЕКТОВ игроков, берём из них id
+                main_ids = set(
+                    (m.get("id") if isinstance(m, dict) else m)
+                    for m in (cd.get("main") or [])
+                    if (m.get("id") if isinstance(m, dict) else m)
+                )
+                reserve_ids = set(
+                    (m.get("id") if isinstance(m, dict) else m)
+                    for m in (cd.get("reserve") or [])
+                    if (m.get("id") if isinstance(m, dict) else m)
+                )
+                all_ids = set(players_map.keys())
+                captain_ids = set(m.get("id") for m in (cd.get("main") or []) if isinstance(m, dict) and m.get("captain"))
+
+                for pid in all_ids:
+                    if pid not in club_players[club_id]:
+                        # Игрок есть в матче, но нет в актуальном players.json — пропускаем
+                        # (ушёл из клуба — его статистику не ведём в профиле текущего клуба)
+                        continue
+                    stats = club_players[club_id][pid]
+                    stats["matchesInSquad"] += 1
+                    is_main = pid in main_ids
+                    if is_main:
+                        stats["matchesStarted"] += 1
+                    # Капитан
+                    if pid in captain_ids:
+                        stats["captainMatches"] += 1
+
+        # 3.2. События
+        events_file = matches_dir / f"events_{mid}.json"
+        if events_file.exists():
+            try:
+                ev_data = json.loads(events_file.read_text(encoding="utf-8"))
+            except Exception:
+                ev_data = {}
+
+            protocol_events = ev_data.get("protocol") or []
+            broadcast_events = ev_data.get("broadcast") or []
+
+            # Счётчики замен: player1.id -> минута выхода (в events протокола: type 2 = замена,
+            # player1 уходит, player2 выходит)
+            sub_in_minutes = {}   # pid -> [minutes]
+            sub_out_minutes = {}  # pid -> [minutes]
+
+            for e in protocol_events:
+                etype = e.get("type")
+                e_club = e.get("club")
+                t = e.get("time")
+                extra = e.get("extra") or 0
+                minute_abs = (t or 0) + extra
+
+                if etype == 2:  # замена
+                    p1 = (e.get("player1") or {}).get("id")
+                    p2 = (e.get("player2") or {}).get("id")
+                    if p2:
+                        sub_in_minutes.setdefault(p2, []).append(minute_abs)
+                    if p1:
+                        sub_out_minutes.setdefault(p1, []).append(minute_abs)
+
+            # minutesPlayed: старт — до конца матча или до замены; вышедший на замену — с минуты выхода до конца
+            # Для простоты считаем: старт играет 90 (или до замены), запасной — 90 - минута_выхода
+            def _match_last_minute(bc_events):
+                last = 90
+                for be in bc_events:
+                    if be.get("type") == "GamePeriodEnd" and be.get("periodNumber") == 2:
+                        last = max(last, (be.get("time") or 0) + (be.get("extra") or 0))
+                return last
+            match_end = _match_last_minute(broadcast_events)
+
+            for side_key, club_id in (("clubH", home_id), ("clubA", away_id)):
+                if not lineups:
+                    continue
+                protocol = lineups.get("protocol") or lineups
+                cd = protocol.get(side_key) or {}
+                main_ids = set(
+                    (m.get("id") if isinstance(m, dict) else m)
+                    for m in (cd.get("main") or [])
+                    if (m.get("id") if isinstance(m, dict) else m)
+                )
+                reserve_ids = set(
+                    (m.get("id") if isinstance(m, dict) else m)
+                    for m in (cd.get("reserve") or [])
+                    if (m.get("id") if isinstance(m, dict) else m)
+                )
+                if not club_players.get(club_id):
+                    continue
+                for pid in main_ids | reserve_ids:
+                    if pid not in club_players[club_id]:
+                        continue
+                    stats = club_players[club_id][pid]
+                    if pid in main_ids:
+                        out_min = min(sub_out_minutes.get(pid, [match_end]))
+                        stats["minutesPlayed"] += max(0, out_min)
+                    elif pid in reserve_ids:
+                        in_mins = sub_in_minutes.get(pid)
+                        if in_mins:
+                            stats["matchesSubIn"] += 1
+                            stats["minutesPlayed"] += max(0, match_end - in_mins[0])
+
+            # Голы / карточки / автоголы (из protocol надёжнее)
+            for e in protocol_events:
+                etype = e.get("type")
+                e_club = e.get("club")
+                p1 = (e.get("player1") or {}).get("id")
+                p2 = (e.get("player2") or {}).get("id")
+
+                if etype == 1 or etype == 10:  # гол
+                    if p1 and club_players.get(e_club) and p1 in club_players[e_club]:
+                        club_players[e_club][p1]["goals"] += 1
+                        if etype == 10:
+                            club_players[e_club][p1]["penaltyGoals"] += 1
+                    # ассисты считаются из broadcast (action == "Goal", player2)
+                elif etype == 11:  # автогол
+                    if p1 and club_players.get(e_club) and p1 in club_players[e_club]:
+                        club_players[e_club][p1]["ownGoals"] += 1
+                elif etype == 5:  # не реализованный пенальти
+                    if p1 and club_players.get(e_club) and p1 in club_players[e_club]:
+                        club_players[e_club][p1]["penaltyMissed"] += 1
+                elif etype == 3:  # жёлтая
+                    if p1 and club_players.get(e_club) and p1 in club_players[e_club]:
+                        club_players[e_club][p1]["yellowCards"] += 1
+                elif etype == 4:  # красная
+                    if p1 and club_players.get(e_club) and p1 in club_players[e_club]:
+                        club_players[e_club][p1]["redCards"] += 1
+
+            # Удары / фолы / углы / офсайды (из broadcast — по player1.id и club)
+            for be in broadcast_events:
+                action = be.get("action")
+                b_club = be.get("club")
+                pid = (be.get("player1") or {}).get("id")
+                if not action or not b_club:
+                    continue
+                if action == "Corner" and b_club in club_corners:
+                    club_corners[b_club] += 1
+                if not club_players.get(b_club):
+                    continue
+                if action == "Goal":
+                    a_id = (be.get("player2") or {}).get("id")
+                    if a_id and a_id in club_players[b_club]:
+                        club_players[b_club][a_id]["assists"] += 1
+                if pid and pid in club_players[b_club]:
+                    pstats = club_players[b_club][pid]
+                    if action == "Shot":
+                        pstats["shots"] += 1
+                    elif action == "ShotOnTarget":
+                        pstats["shotsOnTarget"] += 1
+                    elif action == "Foul":
+                        pstats["fouls"] += 1
+                    elif action == "Corner":
+                        pstats["corners"] += 1
+                    elif action == "Offside":
+                        pstats["offsides"] += 1
+
+        processed += 1
+
+    # 4. Сохраняем файлы
+    _write_club_stats_files(club_players, tournament_id, processed, club_matches, club_corners)
+    log.info(f"club_stats: обработано матчей: {processed}, клубов: {len(club_players)}")
+
+
+def _write_club_stats_files(club_players: dict, tournament_id: int, matches_played: int, club_matches: dict | None = None, club_corners: dict | None = None):
+    """Сохраняет club_stats.json для каждого клуба."""
+    from datetime import datetime, timezone
+    seasons = _load_json(DATA_DIR / "seasons.json", [])
+    season_name = ""
+    for s in seasons:
+        if s.get("tournament_id") == tournament_id and s.get("is_current"):
+            season_name = s.get("name", "")
+            break
+
+    updated_at = datetime.now(timezone.utc).isoformat()
+
+    for cid, players in club_players.items():
+        out = {
+            "clubId": cid,
+            "season": season_name,
+            "updatedAt": updated_at,
+            "matchesPlayed": (club_matches or {}).get(cid, matches_played),
+            "corners": (club_corners or {}).get(cid, 0),
+            "players": players,
+        }
+        _save_json(CURRENT_DIR / "clubs_data" / str(cid) / "club_stats.json", out)
