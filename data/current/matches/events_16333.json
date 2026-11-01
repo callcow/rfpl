@@ -1067,6 +1067,87 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65688,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 58,
+      "extra": null,
+      "player1": {
+        "id": 21256,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48142/11965_2026_150_48142.jpg",
+        "name": "Мингиян",
+        "lastname": "Бевеев",
+        "nickname": "",
+        "keyword": "Beveev-Mingiyan",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65689,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 58,
+      "extra": null,
+      "player1": {
+        "id": 21256,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48142/11965_2026_150_48142.jpg",
+        "name": "Мингиян",
+        "lastname": "Бевеев",
+        "nickname": "",
+        "keyword": "Beveev-Mingiyan",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65690,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 58,
+      "extra": null,
+      "player1": {
+        "id": 26149,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48471/32455_2026_150_48471.jpg",
+        "name": "Карлен",
+        "lastname": "Оганесян",
+        "nickname": "",
+        "keyword": "Hovhannisyan-Karlen",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
