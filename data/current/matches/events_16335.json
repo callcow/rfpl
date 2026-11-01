@@ -732,6 +732,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65759,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 36,
+      "extra": null,
+      "player1": {
+        "id": 17312,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48175/11993_2026_150_48175.jpg",
+        "name": "Роман",
+        "lastname": "Зобнин",
+        "nickname": "",
+        "keyword": "Zobnin-Roman",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
