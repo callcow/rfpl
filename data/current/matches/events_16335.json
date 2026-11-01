@@ -2469,6 +2469,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65822,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 90,
+      "extra": 2,
+      "player1": {
+        "id": 24327,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48411/28263_2026_150_48411.jpg",
+        "name": "Михаил",
+        "lastname": "Щетинин",
+        "nickname": null,
+        "keyword": "Schetinin-Mihail",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
