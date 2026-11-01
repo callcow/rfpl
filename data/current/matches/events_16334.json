@@ -2599,7 +2599,17 @@
       "action": "YellowCard",
       "time": 90,
       "extra": 9,
-      "player1": null,
+      "player1": {
+        "id": 23724,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48352/27070_2026_150_48352.jpg",
+        "name": "Александр",
+        "lastname": "Вакулич",
+        "nickname": "",
+        "keyword": "Vakulich-Aleksandr",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
       "player2": null,
       "club": 2,
       "gameStateNumber": null,
