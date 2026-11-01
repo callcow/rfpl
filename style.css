@@ -905,6 +905,37 @@ tbody tr.team-clickable td:nth-child(2):hover { font-weight: 700; cursor: pointe
 .club-stadium-capacity { font-size: 13px; color: #6b7280; }
 
 .club-squad-wrapper { padding-top: 20px; }
+
+.squad-filter-nav { display: flex; gap: 8px; border-bottom: 1px solid var(--border); margin-bottom: 0; position: relative; }
+.squad-filter-btn { background: none; border: none; padding: 10px 14px; font-size: 14px; font-weight: 600; font-family: inherit; color: #6b7280; cursor: pointer; }
+.squad-filter-btn.active { color: #111827; }
+.squad-filter-slider {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  height: 2px;
+  background: #111827;
+  border-radius: 2px;
+  pointer-events: none;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.club-player-card.is-leaving,
+.club-players-group.is-leaving {
+  opacity: 0;
+  transform: scale(0.9);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.club-player-card.is-entering,
+.club-players-group.is-entering {
+  animation: squadItemIn 0.3s ease both;
+}
+@keyframes squadItemIn {
+  from { opacity: 0; transform: scale(0.9) translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+.club-player-card.is-hidden,
+.club-players-group.is-hidden { display: none !important; }
 .club-section-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
 
 .club-players-group { margin-bottom: 15px; }
@@ -930,6 +961,9 @@ tbody tr.team-clickable td:nth-child(2):hover { font-weight: 700; cursor: pointe
   box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 .club-player-number { width: 24px; text-align: center; color: #6b7280; font-weight: 600; font-size: 13px; }
+.club-player-card { gap: 8px; }
+.club-player-pos { color: #9ca3af; font-weight: 600; font-size: 11px; letter-spacing: 0.3px; }
+.club-player-card .player-circle { background: #e0e7ff; color: #3730a3; order: 1; }
 .club-player-name { font-size: 14px; font-weight: 500; }
 
 .club-staffs-box {
