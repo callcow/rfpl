@@ -375,6 +375,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65661,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 27,
+      "extra": null,
+      "player1": {
+        "id": 26131,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48408/32432_2026_150_48408.jpg",
+        "name": "Лорис",
+        "lastname": "Муйоколо",
+        "nickname": "",
+        "keyword": "Muyokolo-Loris",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
