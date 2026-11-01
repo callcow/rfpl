@@ -1165,11 +1165,11 @@
       {
         "id": 16334,
         "date": "2026-11-01UTC13:00:00",
-        "status": 0,
+        "status": 1,
         "clubH": 504,
         "clubA": 2,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "city": "Оренбург",
         "stadium": "«Газовик»"
       },
