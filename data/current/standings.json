@@ -66,6 +66,28 @@
     ]
   },
   {
+    "clubId": 1,
+    "club": "Спартак",
+    "played": 13,
+    "won": 8,
+    "drawn": 2,
+    "lost": 3,
+    "goalsFor": 25,
+    "goalsAgainst": 10,
+    "points": 26,
+    "maxPoints": 39,
+    "position": 4,
+    "goalDiff": 15,
+    "pointsPercent": 66.7,
+    "form": [
+      "w",
+      "d",
+      "w",
+      "l",
+      "w"
+    ]
+  },
+  {
     "clubId": 584,
     "club": "Краснодар",
     "played": 13,
@@ -76,7 +98,7 @@
     "goalsAgainst": 16,
     "points": 23,
     "maxPoints": 39,
-    "position": 4,
+    "position": 5,
     "goalDiff": 5,
     "pointsPercent": 59.0,
     "form": [
@@ -84,28 +106,6 @@
       "l",
       "d",
       "d",
-      "l"
-    ]
-  },
-  {
-    "clubId": 1,
-    "club": "Спартак",
-    "played": 12,
-    "won": 7,
-    "drawn": 2,
-    "lost": 3,
-    "goalsFor": 21,
-    "goalsAgainst": 10,
-    "points": 23,
-    "maxPoints": 36,
-    "position": 5,
-    "goalDiff": 11,
-    "pointsPercent": 63.9,
-    "form": [
-      "w",
-      "w",
-      "d",
-      "w",
       "l"
     ]
   },
@@ -288,22 +288,22 @@
   {
     "clubId": 5,
     "club": "Локомотив",
-    "played": 12,
+    "played": 13,
     "won": 2,
     "drawn": 5,
-    "lost": 5,
+    "lost": 6,
     "goalsFor": 16,
-    "goalsAgainst": 16,
+    "goalsAgainst": 20,
     "points": 11,
-    "maxPoints": 36,
+    "maxPoints": 39,
     "position": 14,
-    "goalDiff": 0,
-    "pointsPercent": 30.6,
+    "goalDiff": -4,
+    "pointsPercent": 28.2,
     "form": [
-      "l",
       "d",
       "w",
       "d",
+      "l",
       "l"
     ]
   },
