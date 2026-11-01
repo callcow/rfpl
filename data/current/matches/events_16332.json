@@ -1080,6 +1080,77 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65605,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 53,
+      "extra": null,
+      "player1": {
+        "id": 21327,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48003/7461_2026_150_48003.jpg",
+        "name": "Алексей",
+        "lastname": "Миронов",
+        "nickname": null,
+        "keyword": "Mironov-Aleksey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65606,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 53,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65607,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 54,
+      "extra": null,
+      "player1": {
+        "id": 25382,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48007/29937_2026_150_48007.jpg",
+        "name": "Умар",
+        "lastname": "Сако",
+        "nickname": "",
+        "keyword": "Sako-Umar",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
