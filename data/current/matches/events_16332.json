@@ -709,6 +709,43 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65592,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 40,
+      "extra": null,
+      "player1": {
+        "id": 21491,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48013/12626_2026_500_48013.png",
+        "name": "Константин",
+        "lastname": "Кучаев",
+        "nickname": "",
+        "keyword": "Kuchaev-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 22521,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48005/25229_2026_150_48005.jpg",
+        "name": "Андрей",
+        "lastname": "Лангович",
+        "nickname": "",
+        "keyword": "Langovich-Andrey",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
