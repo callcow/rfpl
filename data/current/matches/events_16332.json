@@ -1894,15 +1894,15 @@
       "time": 81,
       "extra": null,
       "player1": {
-        "id": 22521,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48005/25229_2026_150_48005.jpg",
-        "name": "Андрей",
-        "lastname": "Лангович",
-        "nickname": "",
-        "keyword": "Langovich-Andrey",
+        "id": 26087,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48128/32368_2026_150_48128.jpg",
+        "name": "Игор",
+        "lastname": "Ногейра де Паула",
+        "nickname": "Игор Ногейра",
+        "keyword": "Ygor-Nogueira",
         "amplua": 1,
-        "public_lastname": null,
-        "public_name": null
+        "public_lastname": "",
+        "public_name": ""
       },
       "player2": null,
       "club": 11,
