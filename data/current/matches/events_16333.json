@@ -1003,6 +1003,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65686,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 54,
+      "extra": null,
+      "player1": {
+        "id": 25638,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48536/30267_2026_500_48536.png",
+        "name": "Артём",
+        "lastname": "Шуманский",
+        "nickname": "",
+        "keyword": "Shumanskiy-Artem",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
