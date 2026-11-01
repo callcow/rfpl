@@ -1154,11 +1154,11 @@
       {
         "id": 16333,
         "date": "2026-11-01UTC17:30:00",
-        "status": 0,
+        "status": 1,
         "clubH": 444,
         "clubA": 807,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "city": "Калининград",
         "stadium": "«Ростех Арена»"
       },
