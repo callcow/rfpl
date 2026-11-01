@@ -981,6 +981,37 @@ tbody tr.team-clickable td:nth-child(2):hover { font-weight: 700; cursor: pointe
 
 .club-staffs-list { display: flex; flex-direction: column; gap: 8px; }
 
+.club-stats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; padding-top: 20px; }
+.club-stat-item { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 16px 12px; display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center; }
+.club-stat-value { font-size: 24px; font-weight: 700; color: var(--text); }
+.club-stat-label { font-size: 12px; color: var(--text-muted); }
+
+.club-top-title { margin-top: 28px; }
+.club-top-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+.club-top-col { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 12px; min-width: 0; }
+.club-top-head { font-size: 12px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px; }
+.club-top-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.club-top-list li { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 13px; }
+.club-top-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text); }
+.club-top-value { font-weight: 700; color: var(--text); flex-shrink: 0; }
+
+.player-clickable, .player-link { cursor: pointer; }
+.player-clickable:hover { background: #f9fafb; }
+.player-link:hover { text-decoration: underline; }
+
+.player-modal-overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.5); display: none; align-items: center; justify-content: center; z-index: 2100; padding: 16px; }
+.player-modal-overlay.active { display: flex; }
+.player-modal-box { background: var(--card-bg); color: var(--text); border-radius: 16px; width: 100%; max-width: 420px; max-height: 85vh; overflow-y: auto; padding: 20px; position: relative; }
+.player-modal-close { position: absolute; top: 8px; right: 12px; background: none; border: none; font-size: 26px; line-height: 1; cursor: pointer; color: var(--text-muted); }
+.player-modal-head { text-align: center; margin-bottom: 16px; }
+.player-modal-number { font-size: 40px; font-weight: 800; color: var(--text-muted); line-height: 1.1; }
+.player-modal-name { font-size: 20px; font-weight: 700; margin-top: 4px; }
+.player-modal-pos { font-size: 13px; color: var(--text-muted); margin-top: 2px; }
+.player-modal-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.player-modal-item { border: 1px solid var(--border); border-radius: 10px; padding: 10px 8px; display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center; }
+.player-modal-item .club-stat-value { font-size: 20px; }
+.player-modal-state { text-align: center; padding: 24px 0; color: var(--text-muted); } 
+
 
 /* =========================================
    МОБИЛЬНАЯ ВЕРСИЯ
@@ -1730,3 +1761,5 @@ tbody tr.team-clickable td:nth-child(2):hover { font-weight: 700; cursor: pointe
     color: #22c55e; /* Зелёный цвет */
     font-weight: 500;
 }
+
+
