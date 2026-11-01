@@ -132,6 +132,28 @@
     ]
   },
   {
+    "clubId": 444,
+    "club": "Балтика",
+    "played": 13,
+    "won": 4,
+    "drawn": 5,
+    "lost": 4,
+    "goalsFor": 17,
+    "goalsAgainst": 14,
+    "points": 17,
+    "maxPoints": 39,
+    "position": 7,
+    "goalDiff": 3,
+    "pointsPercent": 43.6,
+    "form": [
+      "l",
+      "d",
+      "d",
+      "d",
+      "w"
+    ]
+  },
+  {
     "clubId": 504,
     "club": "Оренбург",
     "played": 13,
@@ -142,7 +164,7 @@
     "goalsAgainst": 12,
     "points": 17,
     "maxPoints": 39,
-    "position": 7,
+    "position": 8,
     "goalDiff": 2,
     "pointsPercent": 43.6,
     "form": [
@@ -164,7 +186,7 @@
     "goalsAgainst": 17,
     "points": 15,
     "maxPoints": 36,
-    "position": 8,
+    "position": 9,
     "goalDiff": 0,
     "pointsPercent": 41.7,
     "form": [
@@ -186,7 +208,7 @@
     "goalsAgainst": 18,
     "points": 15,
     "maxPoints": 39,
-    "position": 9,
+    "position": 10,
     "goalDiff": -5,
     "pointsPercent": 38.5,
     "form": [
@@ -195,28 +217,6 @@
       "l",
       "l",
       "w"
-    ]
-  },
-  {
-    "clubId": 444,
-    "club": "Балтика",
-    "played": 12,
-    "won": 3,
-    "drawn": 5,
-    "lost": 4,
-    "goalsFor": 15,
-    "goalsAgainst": 13,
-    "points": 14,
-    "maxPoints": 36,
-    "position": 10,
-    "goalDiff": 2,
-    "pointsPercent": 38.9,
-    "form": [
-      "d",
-      "l",
-      "d",
-      "d",
-      "d"
     ]
   },
   {
@@ -244,23 +244,23 @@
   {
     "clubId": 807,
     "club": "Акрон",
-    "played": 12,
+    "played": 13,
     "won": 2,
     "drawn": 6,
-    "lost": 4,
-    "goalsFor": 15,
-    "goalsAgainst": 21,
+    "lost": 5,
+    "goalsFor": 16,
+    "goalsAgainst": 23,
     "points": 12,
-    "maxPoints": 36,
+    "maxPoints": 39,
     "position": 12,
-    "goalDiff": -6,
-    "pointsPercent": 33.3,
+    "goalDiff": -7,
+    "pointsPercent": 30.8,
     "form": [
-      "d",
       "w",
       "l",
       "d",
-      "w"
+      "w",
+      "l"
     ]
   },
   {
