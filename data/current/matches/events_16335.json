@@ -705,6 +705,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65758,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 35,
+      "extra": null,
+      "player1": {
+        "id": 22531,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48451/25248_2026_150_48451.jpg",
+        "name": "Сергей",
+        "lastname": "Бабкин",
+        "nickname": "",
+        "keyword": "Babkin-Sergey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
