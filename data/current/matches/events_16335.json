@@ -2442,6 +2442,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65821,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 90,
+      "extra": null,
+      "player1": {
+        "id": 23060,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48180/26099_2026_150_48180.jpg",
+        "name": "Наиль",
+        "lastname": "Умяров",
+        "nickname": "",
+        "keyword": "Umyarov-Nail",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
