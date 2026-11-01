@@ -999,6 +999,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65602,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 48,
+      "extra": null,
+      "player1": {
+        "id": 25998,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48091/32230_2026_150_48091.jpg",
+        "name": "Андрес Маурисио",
+        "lastname": "Аларкон Мендоса",
+        "nickname": "",
+        "keyword": "Alarkon-Mendoza-Andres-Maurisio",
+        "amplua": 1,
+        "public_lastname": "Аларкон",
+        "public_name": "Андрес"
+      },
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
