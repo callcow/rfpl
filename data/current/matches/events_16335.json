@@ -999,6 +999,50 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65770,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 44,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65771,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 45,
+      "extra": null,
+      "player1": {
+        "id": 25383,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48182/29938_2026_500_48182.png",
+        "name": "Манфред Алонсо",
+        "lastname": "Угальде Арсе",
+        "nickname": "",
+        "keyword": "Ugalde-Arse-Manfred-Alonso",
+        "amplua": 3,
+        "public_lastname": "Угальде",
+        "public_name": "Манфред"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
