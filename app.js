@@ -2002,6 +2002,7 @@ window.openMatchModal = async function(matchId) {
                     
                     const renderPlayer = (p, player, isReserve = false, isRight = false) => {
                         const captainMark = p.captain ? `<span class="player-captain">(К)</span>` : "";
+                        const pClubId = isRight ? awayClub?.id : homeClub?.id;
                         const num = player.number != null ? player.number : '';
                         
                         // Иконки событий игрока
@@ -2101,7 +2102,7 @@ window.openMatchModal = async function(matchId) {
 
                         if (isRight) {
                             return `
-                                <div class="player-row is-right">
+                                <div class="player-row is-right player-clickable" onclick="openPlayerModal(${pClubId}, ${player.id})">
                                     ${textBlock}
                                     ${numberAndPosition}
                                 </div>
@@ -2109,7 +2110,7 @@ window.openMatchModal = async function(matchId) {
                         }
                         
                         return `
-                            <div class="player-row is-left">
+                            <div class="player-row is-left player-clickable" onclick="openPlayerModal(${pClubId}, ${player.id})">
                                 ${numberAndPosition}
                                 ${textBlock}
                             </div>
@@ -2490,15 +2491,15 @@ window.openMatchModal = async function(matchId) {
                             };
 
                             if (e.type === 11 || e.action === "AutoGoal" || e._type === 'autogoal') {
-                                scorerText = `<span class="scorer-time">${time}</span> <span class="scorer-name">${getShortName(e.player1)}</span> <span class="scorer-extra">(автогол)</span>`;
+                                scorerText = `<span class="scorer-time">${time}</span> <span class="scorer-name player-link" onclick="event.stopPropagation(); openPlayerModal(${e.club === homeClub?.id ? awayClub?.id : homeClub?.id}, ${e.player1.id})">${getShortName(e.player1)}</span> <span class="scorer-extra">(автогол)</span>`;
                             } else if (isPenaltyGoal || e._penalty) {
-                                scorerText = `<span class="scorer-time">${time}</span> <span class="scorer-name">${getShortName(e.player1)}</span> <span class="scorer-extra">(пен.)</span>`;
+                                scorerText = `<span class="scorer-time">${time}</span> <span class="scorer-name player-link" onclick="event.stopPropagation(); openPlayerModal(${e.club}, ${e.player1.id})">${getShortName(e.player1)}</span> <span class="scorer-extra">(пен.)</span>`;
                             } else {
-                                scorerText = `<span class="scorer-time">${time}</span> <span class="scorer-name">${getShortName(e.player1)}</span>`;
+                                scorerText = `<span class="scorer-time">${time}</span> <span class="scorer-name player-link" onclick="event.stopPropagation(); openPlayerModal(${e.club}, ${e.player1.id})">${getShortName(e.player1)}</span>`;
                                 if (e.player2) {
                                     // Сокращаем и ассистента тоже, если нужно (сейчас там никнейм или фамилия)
                                     const assistName = e.player2.nickname ? e.player2.nickname : (e.player2.public_lastname || e.player2.lastname);
-                                    scorerText += ` <span class="scorer-extra">(${assistName})</span>`;
+                                    scorerText += ` <span class="scorer-extra player-link" onclick="event.stopPropagation(); openPlayerModal(${e.club}, ${e.player2.id})">(${assistName})</span>`;
                                 }
                             }
                             
@@ -2568,14 +2569,15 @@ window.openMatchModal = async function(matchId) {
                         }
                         
                         let text = "";
+                        const evPlayerClub = (e.type === 11 || e.action === "AutoGoal" || e._type === 'autogoal') ? (e.club === homeClub?.id ? awayClub?.id : homeClub?.id) : e.club;
                         if (e.player2 && (e.type === 2 || e.action === "Substitution") && e.player1) {
                             // Меняем имена местами: сначала player2 (зелёный), потом иконка, потом player1 (красный)
-                            text += `<span class="sub-in">${formatPlayerName(e.player2)}</span>`;
+                            text += `<span class="sub-in player-link" onclick="event.stopPropagation(); openPlayerModal(${evPlayerClub}, ${e.player2.id})">${formatPlayerName(e.player2)}</span>`;
                             text += ` <span class="sub-icon">🔄</span> `;
-                            text += `<span class="sub-out">${formatPlayerName(e.player1)}</span>`;
+                            text += `<span class="sub-out player-link" onclick="event.stopPropagation(); openPlayerModal(${evPlayerClub}, ${e.player1.id})">${formatPlayerName(e.player1)}</span>`;
                         } else {
                             // Для всех остальных событий (голы, карточки) выводим как обычно
-                            if (e.player1) text += formatPlayerName(e.player1);
+                            if (e.player1) text += `<span class="player-link" onclick="event.stopPropagation(); openPlayerModal(${evPlayerClub}, ${e.player1.id})">${formatPlayerName(e.player1)}</span>`;
                         }
                         
                         if (e.type === 11 || e.action === "AutoGoal" || e._type === 'autogoal') {
@@ -3157,6 +3159,52 @@ window.openClubModal = async function(clubId) {
         const club = allClubs[clubId];
         const clubLogo = getTeamLogoHtml(club, "club-modal-logo", 80);
 
+        let statsHtml = '<div class="club-empty">Статистика пока не загружена</div>';
+        const statsRes = await fetch(`./data/current/clubs_data/${clubId}/club_stats.json`);
+        if (statsRes.ok) {
+            const cs = await statsRes.json();
+            const ps = Object.values(cs.players || {});
+            const sum = (k) => ps.reduce((a, p) => a + (Number(p[k]) || 0), 0);
+                        const plural = (n, one, few, many) => {
+                const d10 = n % 10, d100 = n % 100;
+                if (d10 === 1 && d100 !== 11) return one;
+                if (d10 >= 2 && d10 <= 4 && (d100 < 12 || d100 > 14)) return few;
+                return many;
+            };
+            const statRows = [
+                [cs.matchesPlayed ?? 0, ["Матч", "Матча", "Матчей"]],
+                [sum("goals"), ["Гол", "Гола", "Голов"]],
+                [sum("penaltyGoals"), ["Гол с пенальти", "Гола с пенальти", "Голов с пенальти"]],
+                [sum("ownGoals"), ["Автогол", "Автогола", "Автоголов"]],
+                [sum("penaltyMissed"), ["Незабитый пенальти", "Незабитых пенальти", "Незабитых пенальти"]],
+                [sum("shots"), ["Удар", "Удара", "Ударов"]],
+                [sum("shotsOnTarget"), ["Удар в створ", "Удара в створ", "Ударов в створ"]],
+                [sum("fouls"), ["Фол", "Фола", "Фолов"]],
+                [cs.corners ?? 0, ["Угловой", "Угловых", "Угловых"]],
+                [sum("offsides"), ["Офсайд", "Офсайда", "Офсайдов"]],
+                [sum("yellowCards"), ["Жёлтая карточка", "Жёлтые карточки", "Жёлтых карточек"]],
+                [sum("redCards"), ["Красная карточка", "Красные карточки", "Красных карточек"]]
+            ];
+            statsHtml = `<div class="club-stats-grid">${statRows.map(([v, forms]) => `<div class="club-stat-item"><span class="club-stat-value">${v}</span><span class="club-stat-label">${plural(v, ...forms)}</span></div>`).join('')}</div>`;
+
+            const topCategories = [
+                ["Матчи", p => p.matchesInSquad || 0],
+                ["Минуты", p => p.minutesPlayed || 0],
+                ["Голы", p => p.goals || 0],
+                ["Ассисты", p => p.assists || 0],
+                ["Жёлтые карточки", p => p.yellowCards || 0]
+            ];
+            const topHtml = topCategories.map(([title, getVal]) => {
+                const top = ps
+                    .filter(p => getVal(p) > 0)
+                    .sort((a, b) => getVal(b) - getVal(a))
+                    .slice(0, 5);
+                const rows = top.map(p => `<li class="player-clickable" onclick="openPlayerModal(${clubId}, ${p.id})"><span class="club-top-name">${p.name} ${p.lastname}</span><span class="club-top-value">${getVal(p)}</span></li>`).join('');
+                return `<div class="club-top-col"><div class="club-top-head">${title}</div><ol class="club-top-list">${rows || '<li class="club-empty">Нет данных</li>'}</ol></div>`;
+            }).join('');
+            statsHtml += `<h3 class="club-section-title club-top-title">Лидеры</h3><div class="club-top-grid">${topHtml}</div>`;
+        }
+
         let staffsHtml = "";
         const staffsRes = await fetch(`./data/current/clubs_data/${clubId}/staffs.json`);
         if (staffsRes.ok) {
@@ -3217,7 +3265,7 @@ window.openClubModal = async function(clubId) {
                         <div class="club-players-grid">
                             ${list.sort((a,b) => a.number - b.number).map(p => {
                                 return `
-                                    <div class="club-player-card" data-lt="${p.lineupType}" onclick="closeClubModal(event); filterByTeam(${clubId})">
+                                    <div class="club-player-card" data-lt="${p.lineupType}" onclick="openPlayerModal(${clubId}, ${p.id})">
                                         <div class="club-player-pos">${({0: 'ВР', 1: 'ЗЩ', 2: 'ПЗ', 3: 'НП'})[p.amplua] || ''}</div>
                                         <div class="player-circle">${p.number || '-'}</div>
                                         <div class="club-player-name">
@@ -3351,6 +3399,7 @@ window.openClubModal = async function(clubId) {
             <div class="match-tabs-nav">
                 <button class="match-tab-btn active" onclick="switchClubTab('squad', event)">Состав</button>
                 <button class="match-tab-btn" onclick="switchClubTab('matches', event)">Матчи</button>
+                <button class="match-tab-btn" onclick="switchClubTab('stats', event)">Статистика</button>
             </div>
 
             <div id="club-tab-squad" class="club-tab-pane active">
@@ -3361,6 +3410,10 @@ window.openClubModal = async function(clubId) {
                 <div class="club-squad-wrapper squad-mode-main">
                     ${playersHtml}
                 </div>
+            </div>
+
+            <div id="club-tab-stats" class="club-tab-pane">
+                ${statsHtml}
             </div>
 
             <div id="club-tab-matches" class="club-tab-pane">
@@ -3459,7 +3512,7 @@ window.switchClubTab = function(tabId, event) {
         event.target.classList.add('active');
     }
     
-    ['squad', 'matches'].forEach(id => {
+    ['squad', 'matches', 'stats'].forEach(id => {
         const el = document.getElementById(`club-tab-${id}`);
         if (el) el.classList.remove('active');
     });
@@ -3506,6 +3559,71 @@ window.closeClubModal = function(event, fromPopstate = false) {
     // Принудительно обновляем видимость кнопки "наверх"
     if (typeof checkScrollToTopVisibility === 'function') {
         checkScrollToTopVisibility();
+    }
+};
+
+window.openPlayerModal = async function(clubId, playerId) {
+    let overlay = document.getElementById('player-modal');
+    if (!overlay) {
+        overlay = document.createElement('div');
+        overlay.id = 'player-modal';
+        overlay.className = 'player-modal-overlay';
+        overlay.addEventListener('click', (e) => {
+            if (e.target === overlay) overlay.classList.remove('active');
+        });
+        document.body.appendChild(overlay);
+    }
+    overlay.innerHTML = '<div class="player-modal-box"><div class="player-modal-state">Загрузка...</div></div>';
+    overlay.classList.add('active');
+
+    const box = overlay.querySelector('.player-modal-box');
+    const close = () => overlay.classList.remove('active');
+
+    try {
+        const res = await fetch(`./data/current/clubs_data/${clubId}/club_stats.json`);
+        const cs = res.ok ? await res.json() : null;
+        const p = cs?.players?.[playerId];
+        if (!p) {
+            box.innerHTML = `<button class="player-modal-close" onclick="document.getElementById('player-modal').classList.remove('active')">×</button><div class="player-modal-state">Нет данных по игроку</div>`;
+            return;
+        }
+
+        const posName = ({0: 'ВР', 1: 'ЗЩ', 2: 'ПЗ', 3: 'НП'})[p.amplua] || '';
+        const items = [
+            ["Матчи в заявке", p.matchesInSquad ?? 0],
+            ["В старте", p.matchesStarted ?? 0],
+            ["Выходов на замену", p.matchesSubIn ?? 0],
+            ["Минуты", p.minutesPlayed ?? 0],
+            ["Матчей капитаном", p.captainMatches ?? 0],
+            ["Голы", p.goals ?? 0],
+            ["Голы с пенальти", p.penaltyGoals ?? 0],
+            ["Незабитые пенальти", p.penaltyMissed ?? 0],
+            ["Автоголы", p.ownGoals ?? 0],
+            ["Ассисты", p.assists ?? 0],
+            ["Удары", p.shots ?? 0],
+            ["Удары в створ", p.shotsOnTarget ?? 0],
+            ["Фолы", p.fouls ?? 0],
+            ["Офсайды", p.offsides ?? 0],
+            ["Жёлтые карточки", p.yellowCards ?? 0],
+            ["Красные карточки", p.redCards ?? 0]
+        ];
+
+        box.innerHTML = `
+            <button class="player-modal-close" onclick="document.getElementById('player-modal').classList.remove('active')">×</button>
+            <div class="player-modal-head">
+                <div class="player-modal-number">${p.number ?? '-'}</div>
+                <div class="player-modal-name">${p.name} ${p.lastname}</div>
+                <div class="player-modal-pos">${posName}</div>
+            </div>
+            <div class="player-modal-grid">
+                ${items.map(([label, val]) => `
+                    <div class="player-modal-item">
+                        <span class="club-stat-value">${val}</span>
+                        <span class="club-stat-label">${label}</span>
+                    </div>`).join('')}
+            </div>`;
+    } catch (err) {
+        box.innerHTML = `<button class="player-modal-close" onclick="document.getElementById('player-modal').classList.remove('active')">×</button><div class="player-modal-state">Не удалось загрузить данные</div>`;
     }
 };
 
