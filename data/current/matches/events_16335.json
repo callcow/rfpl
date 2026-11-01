@@ -2021,6 +2021,70 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65807,
+      "type": "EventAdded",
+      "action": "AppointedPenalty",
+      "time": 76,
+      "extra": null,
+      "player1": {
+        "id": 25698,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48183/30366_2026_500_48183.png",
+        "name": "Эсекьель Омар",
+        "lastname": "Барко",
+        "nickname": "",
+        "keyword": "Barko-Esekel-Omar",
+        "amplua": 2,
+        "public_lastname": "Барко",
+        "public_name": "Эсекьель"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": true,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65808,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 77,
+      "extra": null,
+      "player1": {
+        "id": 22765,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48178/25638_2026_150_48178.jpg",
+        "name": "Руслан",
+        "lastname": "Литвинов",
+        "nickname": "",
+        "keyword": "Litvinov-Ruslan",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 23447,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48176/26622_2026_150_48176.jpg",
+        "name": "Даниил",
+        "lastname": "Денисов",
+        "nickname": null,
+        "keyword": "Denisov-Daniil",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
