@@ -285,7 +285,7 @@
         {
           "id": 25885,
           "amplua": 1,
-          "captain": false
+          "captain": true
         },
         {
           "id": 23612,
@@ -295,7 +295,7 @@
         {
           "id": 22910,
           "amplua": 2,
-          "captain": true
+          "captain": false
         },
         {
           "id": 15832,
