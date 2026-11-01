@@ -1499,6 +1499,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65705,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 74,
+      "extra": null,
+      "player1": {
+        "id": 21510,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48522/12637_2026_150_48522.jpg",
+        "name": "Егор",
+        "lastname": "Голенков",
+        "nickname": "",
+        "keyword": "Golenkov-Egor",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
