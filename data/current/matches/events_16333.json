@@ -1607,6 +1607,107 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65709,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 80,
+      "extra": null,
+      "player1": {
+        "id": 26149,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48471/32455_2026_150_48471.jpg",
+        "name": "Карлен",
+        "lastname": "Оганесян",
+        "nickname": "",
+        "keyword": "Hovhannisyan-Karlen",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 25310,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48553/29846_2026_150_48553.jpg",
+        "name": "Никита",
+        "lastname": "Базилевский",
+        "nickname": "",
+        "keyword": "Bazilevskiy-Nikita",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65710,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 80,
+      "extra": null,
+      "player1": {
+        "id": 22614,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48287/25342_2026_150_48287.jpg",
+        "name": "Константин",
+        "lastname": "Марадишвили",
+        "nickname": "",
+        "keyword": "Maradishvili-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 24758,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48524/28896_2026_150_48524.jpg",
+        "name": "Артём",
+        "lastname": "Сидоренко",
+        "nickname": "",
+        "keyword": "Sidorenko-Artem",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65711,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 80,
+      "extra": null,
+      "player1": {
+        "id": 25638,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48536/30267_2026_150_48536.jpg",
+        "name": "Артём",
+        "lastname": "Шуманский",
+        "nickname": "",
+        "keyword": "Shumanskiy-Artem",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
