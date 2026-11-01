@@ -1143,11 +1143,11 @@
       {
         "id": 16332,
         "date": "2026-11-01UTC15:15:00",
-        "status": 0,
+        "status": 1,
         "clubH": 125,
         "clubA": 11,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "city": "Каспийск",
         "stadium": "«Анжи-Арена»"
       },
