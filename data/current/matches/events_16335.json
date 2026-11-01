@@ -350,22 +350,12 @@
       "deleted": null
     },
     {
-      "id": 65745,
+      "id": 65746,
       "type": "EventAdded",
-      "action": "Offside",
-      "time": 19,
+      "action": "Corner",
+      "time": 21,
       "extra": null,
-      "player1": {
-        "id": 25798,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48188/30482_2026_150_48188.jpg",
-        "name": "Пабло Сесар",
-        "lastname": "Солари Феррейра",
-        "nickname": "",
-        "keyword": "Solari-Ferreyra-Pablo-Cesar",
-        "amplua": 2,
-        "public_lastname": "Солари",
-        "public_name": "Пабло"
-      },
+      "player1": null,
       "player2": null,
       "club": 1,
       "gameStateNumber": null,
