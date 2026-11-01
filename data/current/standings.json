@@ -46,23 +46,23 @@
   {
     "clubId": 2,
     "club": "ЦСКА",
-    "played": 12,
+    "played": 13,
     "won": 7,
-    "drawn": 4,
+    "drawn": 5,
     "lost": 1,
     "goalsFor": 21,
     "goalsAgainst": 12,
-    "points": 25,
-    "maxPoints": 36,
+    "points": 26,
+    "maxPoints": 39,
     "position": 3,
     "goalDiff": 9,
-    "pointsPercent": 69.4,
+    "pointsPercent": 66.7,
     "form": [
-      "d",
       "w",
       "w",
       "l",
-      "w"
+      "w",
+      "d"
     ]
   },
   {
@@ -112,23 +112,23 @@
   {
     "clubId": 504,
     "club": "Оренбург",
-    "played": 12,
+    "played": 13,
     "won": 3,
-    "drawn": 7,
+    "drawn": 8,
     "lost": 2,
     "goalsFor": 14,
     "goalsAgainst": 12,
-    "points": 16,
-    "maxPoints": 36,
+    "points": 17,
+    "maxPoints": 39,
     "position": 6,
     "goalDiff": 2,
-    "pointsPercent": 44.4,
+    "pointsPercent": 43.6,
     "form": [
-      "l",
       "d",
       "w",
       "d",
-      "w"
+      "w",
+      "d"
     ]
   },
   {

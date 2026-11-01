@@ -66,8 +66,8 @@
   "goalH": 0,
   "goalA": 0,
   "date": "2026-11-01UTC13:00:00",
-  "status": 3,
-  "dateStartStatus": "2026-11-01UTC14:06:00",
+  "status": 4,
+  "dateStartStatus": "2026-11-01UTC14:58:50",
   "city": "Оренбург",
   "stadium": "«Газовик»",
   "stadiumLink": "",
@@ -77,13 +77,7 @@
   "broadcastDescription": null,
   "videoReviewLink": "",
   "ticketsLink": "https://tickets.fcorenburg.ru/ru/",
-  "winline": {
-    "outcome1": 3.2,
-    "outcome2": 3.65,
-    "outcome3": 2.16,
-    "link": "https://winline.ru/plus/16969331",
-    "erid": "2W5zFJyh9xD"
-  },
+  "winline": null,
   "comments": "",
   "weather": "9.9°C, Безоблачно",
   "documents": {
