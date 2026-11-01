@@ -1566,6 +1566,60 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65623,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 69,
+      "extra": null,
+      "player1": {
+        "id": 24700,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48363/28796_2026_150_48363.jpg",
+        "name": "Олакунле Джуниор",
+        "lastname": "Олусегун",
+        "nickname": "",
+        "keyword": "Olusegun-Olakunle-Dzhunior",
+        "amplua": 3,
+        "public_lastname": "Олусегун",
+        "public_name": "Олакунле"
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65624,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 69,
+      "extra": null,
+      "player1": {
+        "id": 25381,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48014/29936_2026_500_48014.png",
+        "name": "Роналдо Сезар",
+        "lastname": "Соарес дос Сантос",
+        "nickname": "Роналдо",
+        "keyword": "Soaresh-dos-Santos-Ronaldo-Sesar",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
