@@ -746,6 +746,87 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65593,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 42,
+      "extra": null,
+      "player1": {
+        "id": 22597,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48010/25325_2026_150_48010.jpg",
+        "name": "Данила",
+        "lastname": "Прохин",
+        "nickname": "",
+        "keyword": "Prohin-Danila",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65594,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 42,
+      "extra": null,
+      "player1": {
+        "id": 22597,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48010/25325_2026_150_48010.jpg",
+        "name": "Данила",
+        "lastname": "Прохин",
+        "nickname": "",
+        "keyword": "Prohin-Danila",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65595,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 43,
+      "extra": null,
+      "player1": {
+        "id": 25706,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48082/30376_2026_150_48082.jpg",
+        "name": "Хуссем Эддин",
+        "lastname": "Мрезиг",
+        "nickname": "",
+        "keyword": "Mrezige-Husem-Edin",
+        "amplua": 2,
+        "public_lastname": "Мрезиг",
+        "public_name": "Хуссем"
+      },
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }

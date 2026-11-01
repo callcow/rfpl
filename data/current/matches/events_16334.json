@@ -2957,6 +2957,29 @@
       "deleted": null
     },
     {
+      "id": 99,
+      "type": "Photo",
+      "action": null,
+      "time": 92,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 99,
+        "image": "https://cdn.premierliga.ru/resources/24/88/ORE_CSKA_Moment_92.jpg",
+        "title": "",
+        "description": "",
+        "author": "«Оренбург»"
+      },
+      "deleted": null
+    },
+    {
       "id": 65556,
       "type": "EventAdded",
       "action": "Foul",
