@@ -1805,6 +1805,60 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65630,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 77,
+      "extra": null,
+      "player1": {
+        "id": 25995,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48090/32227_2026_150_48090.jpg",
+        "name": "Валдемиру Пинту",
+        "lastname": "Домингуш",
+        "nickname": "Миро",
+        "keyword": "Miro",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65631,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 77,
+      "extra": null,
+      "player1": {
+        "id": 25382,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48007/29937_2026_150_48007.jpg",
+        "name": "Умар",
+        "lastname": "Сако",
+        "nickname": "",
+        "keyword": "Sako-Umar",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
