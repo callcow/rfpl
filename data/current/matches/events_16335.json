@@ -2085,6 +2085,107 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65809,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 80,
+      "extra": null,
+      "player1": {
+        "id": 23107,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48104/26164_2026_150_48104.jpg",
+        "name": "Евгений",
+        "lastname": "Морозов",
+        "nickname": null,
+        "keyword": "Morozov-Evgeniy",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65810,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 80,
+      "extra": null,
+      "player1": {
+        "id": 21272,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48479/10766_2026_150_48479.jpg",
+        "name": "Андрей",
+        "lastname": "Мостовой",
+        "nickname": "",
+        "keyword": "Mostovoy-Andrey",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 24327,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48411/28263_2026_150_48411.jpg",
+        "name": "Михаил",
+        "lastname": "Щетинин",
+        "nickname": null,
+        "keyword": "Schetinin-Mihail",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65811,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 80,
+      "extra": null,
+      "player1": {
+        "id": 22531,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48451/25248_2026_150_48451.jpg",
+        "name": "Сергей",
+        "lastname": "Бабкин",
+        "nickname": "",
+        "keyword": "Babkin-Sergey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 24730,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48410/28838_2026_150_48410.jpg",
+        "name": "Вадим",
+        "lastname": "Раков",
+        "nickname": "",
+        "keyword": "Rakov-Vadim",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
