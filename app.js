@@ -9,154 +9,113 @@ const TEAM_RENAMES = {
 };
 
 // ─────────────────────────────────────────────
-// ХЕЛПЕРЫ ДЛЯ LIVE-ТАЙМЕРА МАТЧА
+// ЕДИНЫЙ ТАЙМЕР МАТЧА (единственный источник правды)
 // ─────────────────────────────────────────────
 
-// Возвращает текущую минуту матча или null, если матч не идет
-function calculateMatchMinute(match, secondHalfConfirmed = false, broadcastEvents = null) {
-    if (!match || match.status !== 1 && match.status !== 2 && match.status !== 3) {
-        return null;
+/**
+ * Возвращает состояние матча на основе broadcast + dateStartStatus.
+ * Фаза (1-й тайм / перерыв / 2-й тайм / конец) определяется ТОЛЬКО по
+ * GamePeriodOpen / GamePeriodEnd из broadcast. Минута — от dateStartStatus,
+ * с фолбэком на последнее событие broadcast.
+ */
+function getMatchClock(match, broadcastEvents) {
+    if (!match) return { text: "Нет данных", isLive: false, minute: null, phase: 'unknown' };
+
+    const ev = Array.isArray(broadcastEvents) ? broadcastEvents : [];
+
+    // ── 1. Разбираем broadcast ──
+    let open1 = null, end1 = null, open2 = null, end2 = null;
+    let lastEventMinute = 0;
+
+    for (const e of ev) {
+        if (e.type === "GamePeriodOpen" && e.periodNumber === 1) open1 = e;
+        if (e.type === "GamePeriodEnd"  && e.periodNumber === 1) end1  = e;
+        if (e.type === "GamePeriodOpen" && e.periodNumber === 2) open2 = e;
+        if (e.type === "GamePeriodEnd"  && e.periodNumber === 2) end2  = e;
+
+        if (typeof e.time === 'number') {
+            const m = e.time + (e.extra || 0);
+            if (m > lastEventMinute) lastEventMinute = m;
+        }
     }
-    
-    // Время начала текущего статуса (тайма)
-    const startTimeStr = match.dateStartStatus;
-    if (!startTimeStr) return null;
-    
-    const startTime = new Date(startTimeStr.replace(' ', 'T') + '+03:00').getTime();
-    const now = new Date().getTime();
-    
-    let diffSeconds = Math.floor((now - startTime) / 1000);
-    if (diffSeconds < 0) diffSeconds = 0;
-    
-    let minutes = Math.floor(diffSeconds / 60);
-    
+
+    // ── 2. Определяем фазу ТОЛЬКО по broadcast ──
+    let phase;
+    if (end2) phase = 'finished';
+    else if (open2) phase = 'second_half';
+    else if (end1) phase = 'halftime';
+    else if (open1) phase = 'first_half';
+    else if (match.status === 4) phase = 'finished';
+    else if (match.status === 0) phase = 'not_started';
+    else phase = 'unknown';
+
+    // ── 3. Считаем минуту ──
+    const now = Date.now();
+    const startMs = match.dateStartStatus
+        ? new Date(String(match.dateStartStatus).replace(' ', 'T') + '+03:00').getTime()
+        : null;
+
+    function elapsedMinutes() {
+        if (!startMs || isNaN(startMs)) return null;
+        let sec = Math.floor((now - startMs) / 1000);
+        if (sec < 0) sec = 0;
+        return Math.floor(sec / 60);
+    }
+
+    let minute = null;
+
+    if (phase === 'first_half') {
+        const m = elapsedMinutes();
+        minute = m !== null
+            ? (m > 45 ? `45+${m - 45}'` : `${m}'`)
+            : (lastEventMinute > 0 ? `${lastEventMinute}'` : `0'`);
+        return { text: `1-й тайм, ${minute}`, isLive: true, minute, phase };
+    }
+
+    if (phase === 'halftime') {
+        return { text: "Перерыв", isLive: true, minute: null, phase };
+    }
+
+    if (phase === 'second_half') {
+        const m = elapsedMinutes();
+        const total = m !== null ? 45 + m : Math.max(45, lastEventMinute);
+        minute = total > 90 ? `90+${total - 90}'` : `${total}'`;
+        return { text: `2-й тайм, ${minute}`, isLive: true, minute, phase };
+    }
+
+    if (phase === 'finished') {
+        return { text: "Завершён", isLive: false, minute: null, phase };
+    }
+
+    if (phase === 'not_started') {
+        return { text: "Не начался", isLive: false, minute: null, phase };
+    }
+
+    // status 1/2/3/5, но broadcast пустой — фолбэк по status
     if (match.status === 1) {
-        // Фолбэк без broadcast: после 60 мин считаем перерывом
-        if (minutes >= 60) return "Перерыв";
-        return minutes > 45 ? `45+${minutes - 45}'` : `${minutes}'`;
-        } else if (match.status === 2) {
-        // Хак с перерывом — только если broadcast не подтвердил начало 2-го тайма
-        if (!secondHalfConfirmed && minutes < 15) return "Перерыв";
-        let total = 45 + minutes;
-
-        // Страховка: если dateStartStatus врёт, ориентируемся на последнее событие 2-го тайма
-        if (secondHalfConfirmed && broadcastEvents && broadcastEvents.length) {
-            const times = broadcastEvents
-                .filter(e => e.periodNumber === 2 && typeof e.time === 'number')
-                .map(e => e.time);
-            const lastEventMin = Math.max(45, ...times);
-            if (Math.abs(total - lastEventMin) > 6) total = lastEventMin;
-        }
-
-        return total > 90 ? `90+${total - 90}'` : `${total}'`;
-    } else if (match.status === 3) {
-        // Хак с перерывом — только если broadcast не подтвердил начало 2-го тайма
-        if (!secondHalfConfirmed && minutes < 15) return "Перерыв";
-        
-        // Если это 2-й тайм (confirmed), но API ошибочно поставил статус 3
-        if (secondHalfConfirmed) {
-            const total = 45 + minutes;
-            return total > 90 ? `90+${total - 90}'` : `${total}'`;
-        }
-        
-        // Если это реальное доп. время (овертайм)
-        return `${90 + minutes}'`;
+        const m = elapsedMinutes();
+        minute = m !== null ? (m > 45 ? `45+${m - 45}'` : `${m}'`) : `0'`;
+        return { text: `1-й тайм, ${minute}`, isLive: true, minute, phase: 'first_half' };
     }
-    
-    return null;
+    if (match.status === 2) {
+        const m = elapsedMinutes();
+        const total = m !== null ? 45 + m : 45;
+        minute = total > 90 ? `90+${total - 90}'` : `${total}'`;
+        return { text: `2-й тайм, ${minute}`, isLive: true, minute, phase: 'second_half' };
+    }
+    if (match.status === 3) {
+        return { text: "Доп. время", isLive: true, minute: null, phase: 'unknown' };
+    }
+    if (match.status === 5) {
+        return { text: "Перерыв", isLive: true, minute: null, phase: 'halftime' };
+    }
+
+    return { text: "Идёт матч", isLive: true, minute: null, phase: 'unknown' };
 }
 
-// Возвращает красивый текст статуса (например, "1-й тайм, 23'")
+// Совместимость со старым API — все вызовы getMatchStatusDisplay продолжают работать
 function getMatchStatusDisplay(match, broadcastEvents = null) {
-    if (!match) return { text: "Нет данных", isLive: false, minute: null };
-
-    // ─── Ранний выход для завершённых и не начавшихся матчей ───
-    // Делаем это ДО анализа broadcast, иначе неполный/частичный broadcast
-    // (например, есть GamePeriodEnd(1), но ещё нет GamePeriodOpen(2))
-    // ошибочно покажет "Перерыв" для уже завершённого матча.
-    if (match.status === 4) {
-        return { text: "Завершён", isLive: false, minute: null };
-    }
-    if (match.status === 0) {
-        return { text: "Не начался", isLive: false, minute: null };
-    }
-
-    // 1. Самая надежная проверка — по событиям из broadcast
-    if (broadcastEvents && broadcastEvents.length > 0) {
-        let isHalf1Ended = false;
-        let isHalf2Started = false;
-        let isHalf2Ended = false;
-
-        for (const e of broadcastEvents) {
-            if (e.type === "GamePeriodEnd") {
-                if (e.periodNumber === 1) isHalf1Ended = true;
-                if (e.periodNumber === 2) isHalf2Ended = true;
-            }
-            if (e.type === "GamePeriodOpen") {
-                if (e.periodNumber === 2) isHalf2Started = true;
-            }
-        }
-
-        // 2-й тайм официально закрыт в broadcast (GamePeriodEnd, periodNumber: 2)
-        // → матч завершён. Это ФИНАЛЬНЫЙ факт, broadcast приоритетнее поля status.
-        // Проверяем РАНЬШЕ "Перерыва", иначе неполный broadcast (есть GamePeriodEnd(1),
-        // но ещё нет GamePeriodOpen(2)) ошибочно покажет "Перерыв" для завершённого матча.
-        if (isHalf2Ended) {
-            return { text: "Завершён", isLive: false, minute: null };
-        }
-
-        // Если 1-й тайм закончился, но 2-й еще не начался — это ПЕРЕРЫВ.
-        // Сюда доходим только если isHalf2Ended === false (второй тайм не закрыт),
-        // поэтому status !== 4 здесь не нужен — но оставим на всякий случай.
-        if (isHalf1Ended && !isHalf2Started && match.status !== 4) {
-            return { text: "Перерыв", isLive: true, minute: null };
-        }
-
-        // Проверяем, есть ли события овертайма
-        let isOvertimeStarted = false;
-        for (const e of broadcastEvents) {
-            if (e.type === "GamePeriodOpen" && (e.periodNumber === 3 || e.periodNumber === 4)) {
-                isOvertimeStarted = true;
-            }
-        }
-
-        // Если 2-й тайм уже начался, но еще не закончился
-        if (isHalf2Started && !isHalf2Ended) {
-            const liveMinute = calculateMatchMinute(match, true, broadcastEvents);
-            
-            // Если статус 3 (Доп. время), но событий овертайма нет — показываем обычный 2-й тайм
-            if (match.status === 3 && !isOvertimeStarted) {
-                return { text: `2-й тайм${liveMinute ? `, ${liveMinute}` : ''}`, isLive: true, minute: liveMinute };
-            }
-            
-            return { text: `2-й тайм${liveMinute ? `, ${liveMinute}` : ''}`, isLive: true, minute: liveMinute };
-        }
-    }
-
-    // 2. Если событий нет — отталкиваемся от статуса и времени
-    const liveMinute = calculateMatchMinute(match);
-
-    // Если calculateMatchMinute вернула "Перерыв" (сработал костыль по времени) — показываем его
-    if (liveMinute === "Перерыв") {
-        return { text: "Перерыв", isLive: true, minute: null };
-    }
-
-    switch (match.status) {
-        case 0:
-            return { text: "Не начался", isLive: false, minute: null };
-        case 1:
-            return { text: `1-й тайм${liveMinute ? `, ${liveMinute}` : ''}`, isLive: true, minute: liveMinute };
-        case 2:
-            return { text: `2-й тайм${liveMinute ? `, ${liveMinute}` : ''}`, isLive: true, minute: liveMinute };
-        case 3:
-            return { text: `Доп. время${liveMinute ? `, ${liveMinute}` : ''}`, isLive: true, minute: liveMinute };
-        case 4:
-            return { text: "Завершён", isLive: false, minute: null };
-        case 5:
-            return { text: "Перерыв", isLive: true, minute: null };
-        default:
-            return { text: "Идёт матч", isLive: true, minute: null };
-    }
+    return getMatchClock(match, broadcastEvents);
 }
 
 function formatTeamName(name) {
@@ -916,12 +875,12 @@ async function init() {
         // 1. Обновляем карточки на главной
         if (allMatchesData && allMatchesData.length > 0) {
             allMatchesData.forEach(m => {
-                if (m.status !== 0) { // Обновляем и живые, и завершенные (если они есть в кэше)
+                if (m.status !== 0) {
+                    const matchKey = m.matchId || m.id;
                     const badge = document.getElementById(`match-badge-${m.id}`);
                     if (badge) {
-                        // Берем события из кэша (если они есть)
-                        const broadcast = window._currentMatchBroadcast && window._currentMatchBroadcast[m.id || m.matchId] 
-                            ? window._currentMatchBroadcast[m.id || m.matchId] 
+                        const broadcast = window._currentMatchBroadcast && window._currentMatchBroadcast[matchKey]
+                            ? window._currentMatchBroadcast[matchKey]
                             : null;
                         const statusInfo = getMatchStatusDisplay(m, broadcast);
                         
@@ -953,10 +912,13 @@ async function init() {
         // 2. Обновляем статусы в календаре
         if (allCalendarMatches && allCalendarMatches.length > 0) {
             allCalendarMatches.forEach(m => {
-                if (m.status !== 0) { // Обновляем и живые, и завершенные
-                    const statusEl = document.getElementById(`cal-status-${m.matchId || m.id}`);
+                if (m.status !== 0) {
+                    const matchKey = m.matchId || m.id;
+                    const statusEl = document.getElementById(`cal-status-${matchKey}`);
                     if (statusEl) {
-                        const broadcast = window._currentMatchBroadcast && window._currentMatchBroadcast[m.matchId || m.id] ? window._currentMatchBroadcast[m.matchId || m.id] : null;
+                        const broadcast = window._currentMatchBroadcast && window._currentMatchBroadcast[matchKey]
+                            ? window._currentMatchBroadcast[matchKey]
+                            : null;
                         const statusInfo = getMatchStatusDisplay(m, broadcast);
                         
                         // Для календаря делаем так же: сохраняем точку, обновляем текст
@@ -1001,8 +963,11 @@ function renderMatchCard(m) {
     const scoreH = m.goalH !== null ? m.goalH : "—";
     const scoreA = m.goalA !== null ? m.goalA : "—";
 
-    // Получаем события для проверки перерыва (если они уже загружены)
-    const broadcast = window._currentMatchBroadcast && window._currentMatchBroadcast[m.id] ? window._currentMatchBroadcast[m.id] : null;
+    // Единый ключ для главной и календаря — matchId || id
+    const matchKey = m.matchId || m.id;
+    const broadcast = window._currentMatchBroadcast && window._currentMatchBroadcast[matchKey]
+        ? window._currentMatchBroadcast[matchKey]
+        : null;
     const statusInfo = getMatchStatusDisplay(m, broadcast);
     let statusText = statusInfo.text;
     let isLive = statusInfo.isLive;
@@ -1375,9 +1340,9 @@ function renderCalendar(matchesData) {
             const awayLogo = getTeamLogoHtml(awayClub, "cal-logo", 24);
 
             const { dateTimeStr } = getMatchDateTimeDisplay(m);
-            // Передаем события broadcast, чтобы сразу отрисовать правильный статус (Перерыв)
-            const broadcast = window._currentMatchBroadcast && window._currentMatchBroadcast[m.matchId || m.id] 
-                ? window._currentMatchBroadcast[m.matchId || m.id] 
+            const matchKey = m.matchId || m.id;
+            const broadcast = window._currentMatchBroadcast && window._currentMatchBroadcast[matchKey]
+                ? window._currentMatchBroadcast[matchKey]
                 : null;
             const { score, statusText, isLive } = getMatchScoreDisplay(m, broadcast);
             const statusClass = isLive ? "cal-status live" : "cal-status";
@@ -2653,11 +2618,17 @@ window.openMatchModal = async function(matchId) {
         if (data && data.status !== 0 && data.status !== 4) {
             // 1) Тик минуты каждую секунду
             window._matchTimer = setInterval(() => {
-                // Берем актуальные события из кэша (если они обновились)
-                const currentBroadcast = window._currentMatchBroadcast && window._currentMatchBroadcast[matchId] 
-                    ? window._currentMatchBroadcast[matchId] 
+                // Берём актуальный объект матча из кэша — dateStartStatus мог обновиться
+                const liveMatch =
+                    (allMatchesData && allMatchesData.find(x => x.id === matchId)) ||
+                    (allCalendarMatches && allCalendarMatches.find(x => (x.matchId || x.id) === matchId)) ||
+                    data;
+
+                const currentBroadcast = window._currentMatchBroadcast && window._currentMatchBroadcast[matchId]
+                    ? window._currentMatchBroadcast[matchId]
                     : matchBroadcast;
-                const statusInfo = getMatchStatusDisplay(data, currentBroadcast);
+
+                const statusInfo = getMatchStatusDisplay(liveMatch, currentBroadcast);
                 const textEl = document.getElementById('match-minute-text');
                 const wrapEl = document.getElementById('match-live-status');
                 if (textEl) {
@@ -2670,7 +2641,7 @@ window.openMatchModal = async function(matchId) {
                         wrapEl.classList.remove('live');
                     }
                 }
-            }, 1000); // Обновляем каждую секунду
+            }, 1000);
 
                         // 2) Периодическая перезагрузка данных матча (счёт, события, статистика)
             const LIVE_RELOAD_MS = 120000; // Обновляем раз в 2 минуты (синхронизация с GitHub Actions)
