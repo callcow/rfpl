@@ -403,15 +403,15 @@
       "time": 24,
       "extra": null,
       "player1": {
-        "id": 16532,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48564/10929_2026_150_48564.jpg",
-        "name": "Далер",
-        "lastname": "Кузяев",
+        "id": 25635,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48086/30260_2026_150_48086.jpg",
+        "name": "Темиркан",
+        "lastname": "Сундуков",
         "nickname": "",
-        "keyword": "Kuzyaev-Daler",
+        "keyword": "Sundukov-Temirkan",
         "amplua": 2,
-        "public_lastname": "",
-        "public_name": ""
+        "public_lastname": null,
+        "public_name": null
       },
       "player2": null,
       "club": 125,
