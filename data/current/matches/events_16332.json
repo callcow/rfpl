@@ -682,6 +682,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65591,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 39,
+      "extra": null,
+      "player1": {
+        "id": 22041,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48212/24371_2026_150_48212.jpg",
+        "name": "Даниил",
+        "lastname": "Лесовой",
+        "nickname": "",
+        "keyword": "Lesovoy-Daniil",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
