@@ -142,6 +142,50 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65737,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 10,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65738,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 11,
+      "extra": null,
+      "player1": {
+        "id": 25973,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48191/32201_2026_150_48191.jpg",
+        "name": "Кристофер Морис",
+        "lastname": "Ву",
+        "nickname": "",
+        "keyword": "Wooh-Christopher-Maurice",
+        "amplua": 1,
+        "public_lastname": "Ву",
+        "public_name": "Кристофер"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
