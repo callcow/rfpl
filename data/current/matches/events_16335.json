@@ -1559,6 +1559,60 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65791,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 64,
+      "extra": null,
+      "player1": {
+        "id": 25383,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48182/29938_2026_150_48182.jpg",
+        "name": "Манфред Алонсо",
+        "lastname": "Угальде Арсе",
+        "nickname": "",
+        "keyword": "Ugalde-Arse-Manfred-Alonso",
+        "amplua": 3,
+        "public_lastname": "Угальде",
+        "public_name": "Манфред"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65792,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 64,
+      "extra": null,
+      "player1": {
+        "id": 23855,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48124/27486_2026_150_48124.jpg",
+        "name": "Александр",
+        "lastname": "Коваленко",
+        "nickname": "",
+        "keyword": "Kovalenko-Aleksandr-Igorevich",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
