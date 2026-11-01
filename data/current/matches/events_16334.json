@@ -1195,6 +1195,97 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65508,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 46,
+      "extra": null,
+      "player1": {
+        "id": 17759,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48265/12256_2026_150_48265.jpg",
+        "name": "Алексей",
+        "lastname": "Татаев",
+        "nickname": "",
+        "keyword": "Tataev-Aleksey",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65509,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 48,
+      "extra": null,
+      "player1": {
+        "id": 26049,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48266/32286_2026_500_48266.png",
+        "name": "Дамиан Ариэль",
+        "lastname": "Пуэбла",
+        "nickname": "",
+        "keyword": "Puebla-Damian-Ariel",
+        "amplua": 2,
+        "public_lastname": "Пуэбла",
+        "public_name": "Дамиан"
+      },
+      "player2": {
+        "id": 25181,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48273/29679_2026_150_48273.jpg",
+        "name": "Гедеон",
+        "lastname": "Гузина",
+        "nickname": "",
+        "keyword": "Guzina-Gedeon",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65510,
+      "type": "EventAdded",
+      "action": "Var",
+      "time": 51,
+      "extra": null,
+      "player1": {
+        "id": 26049,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48266/32286_2026_150_48266.jpg",
+        "name": "Дамиан Ариэль",
+        "lastname": "Пуэбла",
+        "nickname": "",
+        "keyword": "Puebla-Damian-Ariel",
+        "amplua": 2,
+        "public_lastname": "Пуэбла",
+        "public_name": "Дамиан"
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": 36040,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
