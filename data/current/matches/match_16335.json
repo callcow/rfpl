@@ -85,11 +85,11 @@
     "erid": "2W5zFGRSjFf"
   },
   "comments": "",
-  "weather": "3.7°C, Пасмурно",
+  "weather": "4.3°C, Облачно",
   "documents": {
     "protocol": null,
     "report": null,
-    "lineup": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD13_LOK-SPA_LU_RU.pdf",
     "preview": null
   },
   "protocol": false,
