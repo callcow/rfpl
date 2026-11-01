@@ -365,6 +365,87 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65747,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 23,
+      "extra": null,
+      "player1": {
+        "id": 25939,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48190/32165_2026_150_48190.jpg",
+        "name": "Жедсон",
+        "lastname": "Карвалью Фернандеш",
+        "nickname": "",
+        "keyword": "Carvalho-Fernandes-Gedson",
+        "amplua": 2,
+        "public_lastname": "Фернандеш",
+        "public_name": "Жедсон"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65748,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 24,
+      "extra": null,
+      "player1": {
+        "id": 25798,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48188/30482_2026_150_48188.jpg",
+        "name": "Пабло Сесар",
+        "lastname": "Солари Феррейра",
+        "nickname": "",
+        "keyword": "Solari-Ferreyra-Pablo-Cesar",
+        "amplua": 2,
+        "public_lastname": "Солари",
+        "public_name": "Пабло"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65749,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 24,
+      "extra": null,
+      "player1": {
+        "id": 21530,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48117/11968_2026_150_48117.jpg",
+        "name": "Александр",
+        "lastname": "Руденко",
+        "nickname": "",
+        "keyword": "Rudenko-Aleksandr-Aleksandrovich",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
