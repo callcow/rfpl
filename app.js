@@ -884,23 +884,11 @@ async function init() {
                             : null;
                         const statusInfo = getMatchStatusDisplay(m, broadcast);
                         
-                        // Находим точку внутри бейджа (если она есть)
-                        const existingDot = badge.querySelector('.live-dot');
-                        
+                        // Просто обновляем HTML бейджа. Класс live-status сам покажет точку через CSS
                         if (statusInfo.isLive) {
-                            // Если точка уже есть — просто обновляем текст
-                            if (existingDot) {
-                                // Убираем старый текст, оставляем точку
-                                badge.innerHTML = '';
-                                badge.appendChild(existingDot);
-                                badge.appendChild(document.createTextNode(statusInfo.text));
-                            } else {
-                                // Если точки нет (например, матч только что начался) — добавляем
-                                badge.innerHTML = `<span class="live-dot"></span>${statusInfo.text}`;
-                            }
+                            badge.innerHTML = `<span class="live-dot"></span>${statusInfo.text}`;
                             badge.classList.add('live-status');
                         } else {
-                            // Матч закончился — убираем точку и класс
                             badge.innerHTML = statusInfo.text;
                             badge.classList.remove('live-status');
                         }
@@ -971,11 +959,6 @@ function renderMatchCard(m) {
     const statusInfo = getMatchStatusDisplay(m, broadcast);
     let statusText = statusInfo.text;
     let isLive = statusInfo.isLive;
-
-    // Если матч идет, добавляем пульсирующую точку
-    if (isLive) {
-        statusText = `<span class="live-dot"></span>${statusText}`;
-    }
 
     // Если матч еще не начался (status 0), принудительно показываем дату и время
     if (m.status === 0) {
@@ -1097,15 +1080,8 @@ async function updateLiveMatches() {
                             ? window._currentMatchBroadcast[matchId] 
                             : null;
                         const statusInfo = getMatchStatusDisplay(freshData, currentBroadcast);
-                        const existingDot = badge.querySelector('.live-dot');
                         if (statusInfo.isLive) {
-                            if (existingDot) {
-                                badge.innerHTML = '';
-                                badge.appendChild(existingDot);
-                                badge.appendChild(document.createTextNode(statusInfo.text));
-                            } else {
-                                badge.innerHTML = `<span class="live-dot"></span>${statusInfo.text}`;
-                            }
+                            badge.innerHTML = `<span class="live-dot"></span>${statusInfo.text}`;
                             badge.classList.add('live-status');
                         } else {
                             badge.innerHTML = statusInfo.text;
@@ -2162,30 +2138,31 @@ window.openMatchModal = async function(matchId) {
                     });
                     
                     broadcastEvents.forEach(e => {
+                        // 1. ГОЛЫ
                         if (e.action === "Goal") {
                             const existingIdx = allEvents.findIndex(
                                 p => p.type === 1 && p.time === e.time && p.club === e.club
                             );
                             if (existingIdx !== -1) {
-                                allEvents[existingIdx] = { ...e, _type: 'goal', _clubId: e.club };
+                                allEvents[existingIdx] = { ...e, _type: 'goal', _clubId: e.club, _source: 'broadcast' };
                             } else {
-                                allEvents.push({ ...e, _type: 'goal', _clubId: e.club });
+                                allEvents.push({ ...e, _type: 'goal', _clubId: e.club, _source: 'broadcast' });
                             }
                         }
-                        if (e.action === "AutoGoal") {
-                            // Для автогола клуб в событии - это тот, кто забил в свои ворота.
-                            // Значит, гол засчитывается противоположной команде.
+                        
+                        // 2. АВТОГОЛЫ
+                        else if (e.action === "AutoGoal") {
                             const oppositeClubId = (e.club === homeClub?.id) ? awayClub?.id : homeClub?.id;
-                            
-                            // Проверяем, нет ли уже такого события из protocol (type 11)
                             const existingIdx = allEvents.findIndex(
                                 p => (p.type === 11 || p.action === "AutoGoal" || p._type === 'autogoal') && p.time === e.time && p.player1?.id === e.player1?.id
                             );
                             if (existingIdx === -1) {
-                                allEvents.push({ ...e, _type: 'autogoal', _clubId: oppositeClubId });
+                                allEvents.push({ ...e, _type: 'autogoal', _clubId: oppositeClubId, _source: 'broadcast' });
                             }
                         }
-                        if (e.action === "AppointedPenalty") {
+                        
+                        // 3. ПЕНАЛЬТИ
+                        else if (e.action === "AppointedPenalty") {
                             const hasGoal = protocolEvents.some(p => 
                                 p.type === 10 && p.time === e.time && p.club === e.club
                             );
@@ -2195,12 +2172,30 @@ window.openMatchModal = async function(matchId) {
                                     _penalty: true,
                                     _penaltyMissed: e.isPenaltyRealized === false,
                                     _clubId: e.club,
-                                    _isAppointed: true // <--- ДОБАВИЛИ ФЛАГ
+                                    _isAppointed: true,
+                                    _source: 'broadcast'
                                 });
                             }
                         }
-                        if (e.action === "Corner") {
-                            allEvents.push({ ...e, _isCorner: true, _clubId: e.club });
+                        
+                        // 4. УГЛОВЫЕ
+                        else if (e.action === "Corner") {
+                            allEvents.push({ ...e, _isCorner: true, _clubId: e.club, _source: 'broadcast' });
+                        }
+                        
+                        // 5. ЖЁЛТЫЕ КАРТОЧКИ
+                        else if (e.action === "YellowCard") {
+                            allEvents.push({ ...e, _clubId: e.club, _source: 'broadcast' });
+                        }
+                        
+                        // 6. КРАСНЫЕ КАРТОЧКИ
+                        else if (e.action === "RedCard") {
+                            allEvents.push({ ...e, _clubId: e.club, _source: 'broadcast' });
+                        }
+                        
+                        // 7. ЗАМЕНЫ (в broadcast игрок уходит из player1, приходит в player2)
+                        else if (e.action === "Substitution") {
+                            allEvents.push({ ...e, _clubId: e.club, _source: 'broadcast' });
                         }
                     });
                     
