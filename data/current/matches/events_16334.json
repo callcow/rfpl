@@ -2550,6 +2550,33 @@
       "deleted": null
     },
     {
+      "id": 65564,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 90,
+      "extra": 5,
+      "player1": {
+        "id": 24958,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48034/29350_2026_150_48034.jpg",
+        "name": "Матвей",
+        "lastname": "Кисляк",
+        "nickname": "",
+        "keyword": "Kislyak-Matvey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 65560,
       "type": "EventAdded",
       "action": "Corner",
