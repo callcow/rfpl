@@ -1273,6 +1273,60 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65696,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 68,
+      "extra": null,
+      "player1": {
+        "id": 25897,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48146/32110_2026_150_48146.jpg",
+        "name": "Брайан Александр",
+        "lastname": "Хиль Хуртадо",
+        "nickname": "",
+        "keyword": "Gil-Hurtado-Brayan-Alexander",
+        "amplua": 3,
+        "public_lastname": "Хиль",
+        "public_name": "Брайан"
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65697,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 68,
+      "extra": null,
+      "player1": {
+        "id": 25935,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48327/32162_2026_500_48327.png",
+        "name": "Иван",
+        "lastname": "Беликов",
+        "nickname": "",
+        "keyword": "Belikov-Ivan",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
