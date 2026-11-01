@@ -341,6 +341,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65578,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 22,
+      "extra": null,
+      "player1": {
+        "id": 24700,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48363/28796_2026_150_48363.jpg",
+        "name": "Олакунле Джуниор",
+        "lastname": "Олусегун",
+        "nickname": "",
+        "keyword": "Olusegun-Olakunle-Dzhunior",
+        "amplua": 3,
+        "public_lastname": "Олусегун",
+        "public_name": "Олакунле"
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
