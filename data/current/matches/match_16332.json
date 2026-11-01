@@ -85,11 +85,11 @@
     "erid": "2W5zFFunycm"
   },
   "comments": "",
-  "weather": "17.8°C, Облачно",
+  "weather": "18.5°C, Облачно",
   "documents": {
     "protocol": null,
     "report": null,
-    "lineup": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD13_DMH-ROS_LU_RU.pdf",
     "preview": null
   },
   "protocol": false,

@@ -1151,6 +1151,50 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65506,
+      "type": "GamePeriodOpen",
+      "action": null,
+      "time": 45,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65507,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 46,
+      "extra": null,
+      "player1": {
+        "id": 25181,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48273/29679_2026_150_48273.jpg",
+        "name": "Гедеон",
+        "lastname": "Гузина",
+        "nickname": "",
+        "keyword": "Guzina-Gedeon",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
