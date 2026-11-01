@@ -1932,9 +1932,9 @@
       "deleted": null
     },
     {
-      "id": 65635,
+      "id": 65636,
       "type": "EventAdded",
-      "action": "Foul",
+      "action": "YellowCard",
       "time": 85,
       "extra": null,
       "player1": {
@@ -1959,10 +1959,10 @@
       "deleted": null
     },
     {
-      "id": 65636,
+      "id": 65635,
       "type": "EventAdded",
-      "action": "YellowCard",
-      "time": 85,
+      "action": "Foul",
+      "time": 86,
       "extra": null,
       "player1": {
         "id": 26087,
@@ -1976,6 +1976,43 @@
         "public_name": ""
       },
       "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65637,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 86,
+      "extra": null,
+      "player1": {
+        "id": 26087,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48128/32368_2026_150_48128.jpg",
+        "name": "Игор",
+        "lastname": "Ногейра де Паула",
+        "nickname": "Игор Ногейра",
+        "keyword": "Ygor-Nogueira",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 24739,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48016/28856_2026_150_48016.jpg",
+        "name": "Давид",
+        "lastname": "Семенчук",
+        "nickname": "",
+        "keyword": "Semenchuk-David",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
       "club": 11,
       "gameStateNumber": null,
       "periodNumber": 2,
