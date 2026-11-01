@@ -522,6 +522,29 @@
       "deleted": null
     },
     {
+      "id": 100,
+      "type": "Photo",
+      "action": null,
+      "time": 27,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 100,
+        "image": "https://cdn.premierliga.ru/resources/24/88/DMH_ROS_Moment_27.jpg",
+        "title": "",
+        "description": "",
+        "author": "«Динамо» (Махачкала)"
+      },
+      "deleted": null
+    },
+    {
       "id": 65585,
       "type": "EventAdded",
       "action": "Foul",
