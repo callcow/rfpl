@@ -1026,6 +1026,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65603,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 49,
+      "extra": null,
+      "player1": {
+        "id": 22666,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48012/25393_2026_150_48012.jpg",
+        "name": "Тимур",
+        "lastname": "Сулейманов",
+        "nickname": "",
+        "keyword": "Suleymanov-Timur-Igramutdinovich",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
