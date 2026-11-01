@@ -641,6 +641,70 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65756,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 33,
+      "extra": null,
+      "player1": {
+        "id": 16678,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48118/11384_2026_150_48118.jpg",
+        "name": "Николай",
+        "lastname": "Комличенко",
+        "nickname": "",
+        "keyword": "Komlichenko-Nikolai",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65757,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 33,
+      "extra": null,
+      "player1": {
+        "id": 26089,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48197/32374_2026_500_48197.png",
+        "name": "Виктор",
+        "lastname": "Парада Гонсалес",
+        "nickname": "",
+        "keyword": "Parada-Gonzalez-Victor",
+        "amplua": 1,
+        "public_lastname": "Парада",
+        "public_name": "Виктор"
+      },
+      "player2": {
+        "id": 25939,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48190/32165_2026_150_48190.jpg",
+        "name": "Жедсон",
+        "lastname": "Карвалью Фернандеш",
+        "nickname": "",
+        "keyword": "Carvalho-Fernandes-Gedson",
+        "amplua": 2,
+        "public_lastname": "Фернандеш",
+        "public_name": "Жедсон"
+      },
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
