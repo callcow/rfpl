@@ -1731,6 +1731,80 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65628,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 74,
+      "extra": null,
+      "player1": {
+        "id": 21491,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48013/12626_2026_150_48013.jpg",
+        "name": "Константин",
+        "lastname": "Кучаев",
+        "nickname": "",
+        "keyword": "Kuchaev-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25044,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48001/29492_2026_150_48001.jpg",
+        "name": "Имран",
+        "lastname": "Азнауров",
+        "nickname": null,
+        "keyword": "Aznaurov-Imran",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65629,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 75,
+      "extra": null,
+      "player1": {
+        "id": 24700,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48363/28796_2026_150_48363.jpg",
+        "name": "Олакунле Джуниор",
+        "lastname": "Олусегун",
+        "nickname": "",
+        "keyword": "Olusegun-Olakunle-Dzhunior",
+        "amplua": 3,
+        "public_lastname": "Олусегун",
+        "public_name": "Олакунле"
+      },
+      "player2": {
+        "id": 24380,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48018/28359_2026_150_48018.jpg",
+        "name": "Даниил",
+        "lastname": "Шанталий",
+        "nickname": null,
+        "keyword": "Shantaliy-Daniil",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
