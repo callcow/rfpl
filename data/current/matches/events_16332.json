@@ -2210,6 +2210,23 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65645,
+      "type": "GamePeriodEnd",
+      "action": null,
+      "time": 90,
+      "extra": 5,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
