@@ -27,21 +27,21 @@ body.modal-open {
 .container {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 36px 24px;
+  padding: 16px 24px 36px 24px; /* Уменьшили верхний отступ с 36px до 16px */
 }
 
 /* =========================================
    ШАПКА И ТАБЫ
    ========================================= */
 .header {
-  margin-bottom: 30px;
+  margin-bottom: 16px; /* Уменьшили отступ снизу с 30px до 16px */
   position: sticky;
   top: 0;
   z-index: 100;
   /* Убираем серый фон шапки, чтобы не было стыков */
   background: transparent;
   padding: 0;
-  margin-top: 15px; 
+  margin-top: 0; /* Убрали верхний отступ (было 15px) */
   /* Добавляем тень панели, чтобы она перекрывала карточки */
   padding-bottom: 5px; 
 }
@@ -64,9 +64,6 @@ body.modal-open {
 .tab-btn {
   flex: 1;
   text-align: center;
-}
-
-.tab-btn {
   background: transparent;
   border: none;
   padding: 10px 19px;
@@ -75,13 +72,34 @@ body.modal-open {
   color: var(--text-muted);
   cursor: pointer;
   border-radius: 7px;
-  transition: all 0.25s ease-in-out;
+  /* Убираем стандартную подсветку тапа на iOS и Android */
+  -webkit-tap-highlight-color: transparent; 
+  /* Оставляем плавность только для цвета текста */
+  transition: color 0.2s ease-in-out; 
+  position: relative;
+  z-index: 1; /* Чтобы текст всегда был над бегунком */
 }
 .tab-btn:hover { color: var(--text); }
 .tab-btn.active {
-  background: #f3f4f6;
   color: var(--text);
+  background: transparent; /* Убрали статичный фон */
+  box-shadow: none;
+  position: relative;
+  z-index: 1; /* Чтобы текст был поверх бегунка */
+}
+
+/* Сам бегунок */
+.tab-slider {
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 0;
+  background: #f3f4f6;
+  border-radius: 7px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
+  pointer-events: none;
 }
 
 /* =========================================
@@ -247,6 +265,7 @@ tbody tr:hover { background-color: transparent; }
 .select-option { padding: 10px 12px; font-size: 14px; color: var(--text); transition: background 0.1s; }
 .select-option:hover { background: var(--bg); }
 .select-option.selected { background: #f3f4f6; font-weight: 600; }
+.select-option.is-current { font-weight: 700; color: #111827; }
 .reset-btn-icon { width: 38px; height: 38px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg); color: var(--text-muted); font-size: 16px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s ease; margin-left: auto; margin-bottom: 0; padding: 0; line-height: 1; box-sizing: border-box; }
 .reset-btn-icon:hover { background: #fee2e2; color: var(--loss); border-color: #fca5a5; }
 .hidden { display: none !important; }
@@ -272,18 +291,26 @@ tbody tr:hover { background-color: transparent; }
 /* =========================================
    КЛИКАБЕЛЬНЫЕ ЭЛЕМЕНТЫ
    ========================================= */
+* { -webkit-tap-highlight-color: transparent; }
 .team-clickable { cursor: pointer; transition: opacity 0.2s ease; }
-.team-info.team-clickable:hover { opacity: 0.7; }
+.team-info.team-clickable:hover { opacity: 1; font-weight: 700; }
+
+/* На телефоне клик по карточке всегда открывает матч, команды не перехватывают нажатие */
+@media (max-width: 850px) {
+  .match-card .team-info { pointer-events: none; }
+}
 .club-card.team-clickable:hover,
 tbody tr.team-clickable:hover { opacity: 1; }
-.cal-team.team-clickable:hover { text-decoration: underline; opacity: 1; }
+.cal-team.team-clickable:hover { font-weight: 700; opacity: 1; }
 tbody tr.team-clickable:hover { background-color: rgba(0, 0, 0, 0.03); cursor: pointer; }
 tbody tr.team-clickable:hover td { opacity: 1; }
+tbody tr.team-clickable td { cursor: default; }
+tbody tr.team-clickable td:nth-child(2):hover { font-weight: 700; cursor: pointer; }
 .form-dot.team-clickable { cursor: pointer; transition: transform 0.2s ease, filter 0.2s ease; }
 .form-dot.team-clickable:hover { transform: scale(1.2); filter: brightness(0.9); opacity: 1; }
 #form-tooltip { position: absolute; display: none; background: #ffffff; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); font-size: 13px; color: var(--text); pointer-events: none; z-index: 1000; white-space: nowrap; min-width: 150px; }
 .cal-tour.team-clickable { display: inline-block; transition: color 0.2s ease; }
-.cal-tour.team-clickable:hover { color: #2563eb; text-decoration: underline; opacity: 1; }
+.cal-tour.team-clickable:hover { color: #111827; font-weight: 700; opacity: 1; }
 
 /* =========================================
    МОДАЛЬНОЕ ОКНО
@@ -454,11 +481,28 @@ tbody tr.team-clickable:hover td { opacity: 1; }
   -webkit-overflow-scrolling: touch;
   border-bottom: 1px solid var(--border);
   margin-bottom: 20px;
-  scrollbar-width: none; /* Скрываем скроллбар в Firefox */
+  scrollbar-width: none;
+  position: relative; /* Важно для позиционирования бегунка */
+  -webkit-tap-highlight-color: transparent;
 }
 .match-tabs-nav::-webkit-scrollbar {
-  display: none; /* Скрываем скроллбар в Chrome/Safari */
+  display: none;
 }
+
+/* Обновленный бегунок внутри модалок */
+.match-tabs-nav .tab-slider {
+  position: absolute;
+  bottom: -1px; /* Прижимаем к нижней границе */
+  left: 0;
+  height: 2px; /* Толщина линии */
+  background: var(--text); /* Цвет линии */
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+  border-radius: 2px;
+  top: auto; /* Перебиваем стили от навбара */
+  box-shadow: none; /* Убираем тень от навбара */
+}
+
 .match-tab-btn {
   padding: 10px 14px;
   background: none;
@@ -467,16 +511,17 @@ tbody tr.team-clickable:hover td { opacity: 1; }
   font-size: 14px;
   color: #6b7280;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: color 0.2s;
   white-space: nowrap;
   flex-shrink: 0;
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid transparent; /* Оставляем прозрачным */
   margin-bottom: -1px;
+  -webkit-tap-highlight-color: transparent;
 }
 .match-tab-btn.active {
   font-weight: 600;
   color: var(--text);
-  border-bottom-color: var(--text);
+  border-bottom-color: transparent; /* Убираем статичную полоску, ее заменит бегунок */
 }
 
 /* Обзор */
@@ -552,6 +597,8 @@ tbody tr.team-clickable:hover td { opacity: 1; }
   appearance: none;
   white-space: nowrap;
 }
+.official-toggle-btn { color: #374151; }
+.official-toggle-btn:hover { text-decoration: none; font-weight: 700; }
 .official-toggle-btn:hover {
   text-decoration: underline;
 }
@@ -628,6 +675,7 @@ tbody tr.team-clickable:hover td { opacity: 1; }
   display: flex;
   gap: 8px;
   margin-bottom: 16px;
+  position: relative; /* Важно для позиционирования бегунка */
 }
 .half-buttons-wrapper button {
   flex: 1;
@@ -639,13 +687,30 @@ tbody tr.team-clickable:hover td { opacity: 1; }
   font-size: 13px;
   cursor: pointer;
   color: #6b7280;
-  transition: all 0.2s ease;
+  transition: color 0.2s ease, border-color 0.2s ease;
+  position: relative;
+  z-index: 1; /* Чтобы текст был поверх бегунка */
+  -webkit-tap-highlight-color: transparent;
 }
 .half-buttons-wrapper button.active {
-  background: #f3f4f6;
   border-color: transparent;
   font-weight: 600;
   color: #111827;
+}
+
+/* Бегунок для кнопок таймов */
+.half-slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: #f3f4f6;
+  border-radius: 6px;
+  border: 1px solid transparent; /* Чтобы размеры совпадали с кнопками */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 0;
+  pointer-events: none;
 }
 
 /* События */
@@ -658,6 +723,8 @@ tbody tr.team-clickable:hover td { opacity: 1; }
   border-bottom: 1px solid #f3f4f6;
   font-size: 13px;
 }
+.event-row { overflow: hidden; max-height: 200px; transition: opacity 0.3s ease, max-height 0.3s ease, padding 0.3s ease, border-bottom-width 0.3s ease; }
+.event-row.ev-collapsed { opacity: 0; max-height: 0; padding-top: 0; padding-bottom: 0; border-bottom-width: 0; pointer-events: none; }
 .event-text-right { text-align: right; font-weight: 500; }
 .event-text-left { text-align: left; font-weight: 500; }
 .event-time { text-align: center; font-weight: 700; color: #6b7280; font-size: 12px; }
@@ -688,6 +755,7 @@ tbody tr.team-clickable:hover td { opacity: 1; }
 }
 .stat-bar-home { background: #388e3c; }
 .stat-bar-away { background: #d16b6b; }
+.stat-bar-home, .stat-bar-away { transition: width 0.4s ease; }
 
 .fallback-note { font-size: 12px; color: #9ca3af; margin-top: 20px; }
 
@@ -836,7 +904,7 @@ tbody tr.team-clickable:hover td { opacity: 1; }
 .club-stadium-name { font-weight: 600; font-size: 15px; color: var(--text); }
 .club-stadium-capacity { font-size: 13px; color: #6b7280; }
 
-.club-squad-wrapper { border-top: 1px solid var(--border); padding-top: 20px; }
+.club-squad-wrapper { padding-top: 20px; }
 .club-section-title { font-size: 18px; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
 
 .club-players-group { margin-bottom: 15px; }
@@ -885,13 +953,18 @@ tbody tr.team-clickable:hover td { opacity: 1; }
    ========================================= */
 @media (max-width: 850px) {
   .header { 
-    margin-bottom: 20px; 
+    margin-bottom: 16px; 
     top: 0;
     padding-top: 0;
     padding-bottom: 5px;
-    margin-top: 10px;
+    margin-top: 0; /* Убрали лишний отступ на мобилке */
   }
-  .tab-btn { padding: 8px 5px; font-size: 15px; white-space: nowrap; }
+  .tab-btn { 
+    padding: 8px 5px; 
+    font-size: 15px; 
+    white-space: nowrap; 
+    transition: color 0.3s ease-in-out; /* Цвет текста будет меняться плавнее */
+  }
   .legend { display: none; }
   .standings-header { margin-bottom: 15px; }
   .table-wrapper { overflow-x: hidden; }
@@ -1056,6 +1129,36 @@ tbody tr.team-clickable:hover td { opacity: 1; }
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   }
 
+  /* Скользящий бегунок переключателя составов */
+  .mobile-lineup-switch { position: relative; }
+  .mobile-lineup-switch::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    width: calc(50% - 4px);
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .lineups-wrapper.show-away .mobile-lineup-switch::before { transform: translateX(100%); }
+  .mobile-lineup-switch button { position: relative; z-index: 1; transition: color 0.3s ease; }
+  .mobile-lineup-switch button.active { background: transparent; box-shadow: none; }
+
+  /* Плавная смена содержимого составов */
+  @keyframes lineupFadeInLeft {
+    from { opacity: 0; transform: translateX(-14px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  @keyframes lineupFadeInRight {
+    from { opacity: 0; transform: translateX(14px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+  .lineups-wrapper:not(.show-away) .lineup-grid > div:nth-child(1) { animation: lineupFadeInLeft 0.35s ease; }
+  .lineups-wrapper.show-away .lineup-grid > div:nth-child(2) { animation: lineupFadeInRight 0.35s ease; }
+
   /* Фильтры в сетку (2 колонки) */
   .calendar-filters {
     display: grid;
@@ -1096,6 +1199,12 @@ tbody tr.team-clickable:hover td { opacity: 1; }
   background-color: #eab308;
   border-radius: 12px 0 0 12px;
 }
+/* Убираем боковую полоску, цвет теперь в плашке счёта */
+.calendar-row.res-win::before, .calendar-row.res-loss::before, .calendar-row.res-draw::before { display: none; }
+.calendar-row.res-win .cal-score { background: #dcfce7; color: #15803d; }
+.calendar-row.res-loss .cal-score { background: #fee2e2; color: #b91c1c; }
+.calendar-row.res-draw .cal-score { background: #fef9c3; color: #a16207; }
+
 /* Акцент на команде, по которой включен фильтр */
 .active-team-filter {
   font-weight: 700;
@@ -1398,11 +1507,45 @@ tbody tr.team-clickable:hover td { opacity: 1; }
 
 /* Панели вкладок (вместо style.display) */
 .match-tab-pane, .club-tab-pane { display: none; }
-.match-tab-pane.active, .club-tab-pane.active { display: block; }
+.match-tab-pane.active, .club-tab-pane.active { 
+  display: block; 
+  /* Плавное появление контента */
+  animation: fadeInSlide 0.3s ease-out forwards;
+}
+
+/* Анимация появления */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 /* Судьи: раскрытие через класс is-open */
 .official-role--all, .toggle-less { display: none; }
-.official-block.is-open .official-details { display: flex; }
+/* Плавное раскрытие/закрытие блока судей */
+.official-details {
+  display: flex;
+  flex-direction: column;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  margin-top: 0;
+  padding-top: 0;
+  border-top-width: 0;
+  transition: max-height 0.35s ease, opacity 0.25s ease, margin-top 0.35s ease, padding-top 0.35s ease, border-top-width 0.35s ease;
+}
+.official-block.is-open .official-details {
+  max-height: 600px;
+  opacity: 1;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top-width: 1px;
+}
 .official-block.is-open .official-role--short,
 .official-block.is-open .official-name-bold,
 .official-block.is-open .toggle-more { display: none; }
@@ -1445,6 +1588,10 @@ tbody tr.team-clickable:hover td { opacity: 1; }
 #past-matches-rest,
 #btn-hide-future,
 #btn-hide-past { display: none; }
+
+/* Плавное раскрытие списков матчей в модалке клуба */
+#future-matches-rest, #past-matches-rest { display: block; max-height: 0; overflow: hidden; opacity: 0; transition: max-height 0.4s ease, opacity 0.3s ease; }
+#future-matches-rest.is-open, #past-matches-rest.is-open { max-height: 5000px; opacity: 1; }
 
 /* Модалка клуба: на ПК тренер слева, стадион справа */
 @media (min-width: 851px) {
@@ -1540,4 +1687,12 @@ tbody tr.team-clickable:hover td { opacity: 1; }
     height: 44px;
     z-index: 2010; /* Поднимаем выше модалки (у которой 2000) */
   }
+}
+.sub-out {
+    color: #ef4444; /* Красный цвет */
+    font-weight: 500;
+}
+.sub-in {
+    color: #22c55e; /* Зелёный цвет */
+    font-weight: 500;
 }
