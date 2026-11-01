@@ -196,6 +196,87 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65654,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 18,
+      "extra": null,
+      "player1": {
+        "id": 23612,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48151/26909_2026_150_48151.jpg",
+        "name": "Константин",
+        "lastname": "Шильцов",
+        "nickname": "",
+        "keyword": "Shilcov-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65655,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 19,
+      "extra": null,
+      "player1": {
+        "id": 22614,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48287/25342_2026_150_48287.jpg",
+        "name": "Константин",
+        "lastname": "Марадишвили",
+        "nickname": "",
+        "keyword": "Maradishvili-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65656,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 20,
+      "extra": null,
+      "player1": {
+        "id": 25638,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48536/30267_2026_150_48536.jpg",
+        "name": "Артём",
+        "lastname": "Шуманский",
+        "nickname": "",
+        "keyword": "Shumanskiy-Artem",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
