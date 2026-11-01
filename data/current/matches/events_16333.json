@@ -44,6 +44,87 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65648,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 12,
+      "extra": null,
+      "player1": {
+        "id": 23612,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48151/26909_2026_150_48151.jpg",
+        "name": "Константин",
+        "lastname": "Шильцов",
+        "nickname": "",
+        "keyword": "Shilcov-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65649,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 12,
+      "extra": null,
+      "player1": {
+        "id": 26102,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48306/32389_2026_150_48306.jpg",
+        "name": "Слободан",
+        "lastname": "Тедич",
+        "nickname": "",
+        "keyword": "Tedic-Slobodan",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65650,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 13,
+      "extra": null,
+      "player1": {
+        "id": 22589,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48344/25317_2026_150_48344.jpg",
+        "name": "Йонуц",
+        "lastname": "Неделчару",
+        "nickname": "",
+        "keyword": "Nedelcharu-Ionuc",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
