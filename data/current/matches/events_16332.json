@@ -152,6 +152,60 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65571,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 12,
+      "extra": null,
+      "player1": {
+        "id": 26150,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48483/32457_2026_150_48483.jpg",
+        "name": "Махмуджон",
+        "lastname": "Махамаджонов",
+        "nickname": "",
+        "keyword": "Makhamadjonov-Makhmudjon",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65572,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 12,
+      "extra": null,
+      "player1": {
+        "id": 26150,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48483/32457_2026_150_48483.jpg",
+        "name": "Махмуджон",
+        "lastname": "Махамаджонов",
+        "nickname": "",
+        "keyword": "Makhamadjonov-Makhmudjon",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
