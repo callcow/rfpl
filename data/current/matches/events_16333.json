@@ -544,6 +544,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65668,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 35,
+      "extra": null,
+      "player1": {
+        "id": 26102,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48306/32389_2026_150_48306.jpg",
+        "name": "Слободан",
+        "lastname": "Тедич",
+        "nickname": "",
+        "keyword": "Tedic-Slobodan",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
