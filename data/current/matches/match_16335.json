@@ -72,20 +72,20 @@
   "stadium": "«РЖД Арена»",
   "stadiumLink": "",
   "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00001.jpg",
-  "attendance": null,
+  "attendance": 21263,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_551bb14fd76750bd79b8b95e62fa9a52_hd/17_1034817/7f445344cd85422ab269e7a3826b577f/4949228198?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
   "videoReviewLink": "",
   "ticketsLink": "https://www.fclm.ru/tickets/",
   "winline": null,
   "comments": "",
-  "weather": "4.3°C, Облачно",
+  "weather": "3.8°C, Пасмурно",
   "documents": {
-    "protocol": null,
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD13_LOK-SPA_FR_RU.pdf",
     "report": null,
     "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD13_LOK-SPA_LU_RU.pdf",
     "preview": null
   },
-  "protocol": false,
+  "protocol": true,
   "countVideos": null
 }
