@@ -73,7 +73,7 @@ function getMatchClock(match, broadcastEvents) {
     }
 
     if (phase === 'halftime') {
-        return { text: "Перерыв", isLive: true, minute: null, phase };
+        return { text: "Перерыв", isLive: true, minute: null, phase, showDot: false };
     }
 
     if (phase === 'second_half') {
@@ -107,7 +107,7 @@ function getMatchClock(match, broadcastEvents) {
         return { text: "Доп. время", isLive: true, minute: null, phase: 'unknown' };
     }
     if (match.status === 5) {
-        return { text: "Перерыв", isLive: true, minute: null, phase: 'halftime' };
+        return { text: "Перерыв", isLive: true, minute: null, phase: 'halftime', showDot: false };
     }
 
     return { text: "Идёт матч", isLive: true, minute: null, phase: 'unknown' };
@@ -301,7 +301,7 @@ function getMatchScoreDisplay(match, broadcastEvents = null) {
     
     if (match.status !== 0) {
         // Для живых матчей (идет, перерыв, доп. время) добавляем пульсирующую точку
-        const livePrefix = statusInfo.isLive ? `<span class="live-dot live-dot--inline"></span>` : '';
+        const livePrefix = (statusInfo.isLive && statusInfo.showDot !== false) ? `<span class="live-dot live-dot--inline"></span>` : '';
         return {
             score: `${match.goalH || 0} - ${match.goalA || 0}`,
             statusText: `${livePrefix}${statusInfo.text}`,
@@ -596,8 +596,23 @@ window.switchTab = function(tabId, event) {
   
   if (event && event.target) {
     event.target.classList.add('active');
+    
+    // Плавно перемещаем бегунок
+    const targetBtn = event.target;
+    const slider = document.getElementById('tab-slider');
+    if (slider) {
+      const tabsContainer = targetBtn.parentElement;
+      // Позиция кнопки относительно контейнера (учитывая padding)
+      const targetLeft = targetBtn.offsetLeft - tabsContainer.offsetLeft;
+      
+      slider.style.width = `${targetBtn.offsetWidth}px`;
+      slider.style.transform = `translateX(${targetLeft}px)`;
+    }
   }
   document.getElementById(`tab-${tabId}`).classList.add('active');
+
+  // Принудительно прокручиваем страницу наверх при переключении вкладки (мгновенно)
+  window.scrollTo(0, 0);
 
   // Если переключаемся на главную или календарь — просто перерисовываем из кэша
   // (не делаем fetch, чтобы не мигало)
@@ -609,9 +624,11 @@ window.switchTab = function(tabId, event) {
   }
 };
 
-async function loadJSON(name) {
+// fresh=true — всегда свежие данные (таблица, матчи, тур); fresh=false — из кэша браузера (клубы, стадии)
+async function loadJSON(name, fresh = true) {
   // Добавляем ?t=... чтобы браузер всегда запрашивал свежую версию
-  const res = await fetch(`${DATA_BASE}/${name}.json?t=${Date.now()}`, { cache: 'no-store' });
+  const q = fresh ? `?t=${Date.now()}` : '';
+  const res = await fetch(`${DATA_BASE}/${name}.json${q}`, { cache: fresh ? 'no-store' : 'default' });
   if (!res.ok) throw new Error(`Не удалось загрузить ${name}.json`);
   return res.json();
 }
@@ -622,15 +639,16 @@ async function init() {
       loadJSON("standings"),
       loadJSON("matches_flat"),
       loadJSON("current_tour").catch(() => null),
-      fetch(`./data/seasons.json?t=${Date.now()}`, { cache: 'no-store' }).then(r => r.json()).catch(() => null),
-      loadJSON("clubs").catch(() => []),
-      loadJSON("stages").catch(() => [])
+      fetch("./data/seasons.json").then(r => r.json()).catch(() => null),
+      loadJSON("clubs", false).catch(() => []),
+      loadJSON("stages", false).catch(() => [])
     ]);
     window._stages = stages || [];
     
     if (seasons && seasons.length > 0) {
       window._seasons = seasons;
     if (currentTour) {
+      window._currentTourName = currentTour.name;
       const tourTitleEl = document.getElementById("tour-title");
       if (tourTitleEl) tourTitleEl.textContent = currentTour.name;
     }
@@ -842,7 +860,7 @@ async function init() {
         }
 
         return `
-          <tr class="team-clickable" onclick="openClubModal(${r.clubId})">
+          <tr class="team-clickable" onclick="if (event.target.closest('td:nth-child(2)')) openClubModal(${r.clubId})">
             <td>${r.position}</td>
             <td>
               ${logoHtml}
@@ -875,6 +893,29 @@ async function init() {
 
         // 1. Обновляем карточки на главной
         if (allMatchesData && allMatchesData.length > 0) {
+            // --- ДОБАВЛЕНО: Проверяем, нужно ли пересортировать матчи (живые наверх) ---
+            // Создаем копию, сортируем по тому же принципу, что и в init()
+            const sortedMatches = [...allMatchesData].sort((a, b) => {
+                const aIsLive = (a.status !== 4 && a.status !== 0);
+                const bIsLive = (b.status !== 4 && b.status !== 0);
+                if (aIsLive && !bIsLive) return -1;
+                if (!aIsLive && bIsLive) return 1;
+                return compareMatchesByDateAsc(a, b);
+            });
+
+            // Проверяем, изменился ли порядок (сравниваем ID элементов)
+            const currentOrder = allMatchesData.map(m => m.id).join(',');
+            const newOrder = sortedMatches.map(m => m.id).join(',');
+
+            if (currentOrder !== newOrder) {
+                // Если порядок изменился — обновляем данные и перерисовываем сетку
+                allMatchesData = sortedMatches;
+                const grid = document.getElementById("matches-grid");
+                if (grid) grid.innerHTML = allMatchesData.map(m => renderMatchCard(m)).join("");
+            }
+            // -------------------------------------------------------------------------
+
+            // Далее обновляем бейджи (этот код остается как был)
             allMatchesData.forEach(m => {
                 if (m.status !== 0) {
                     const matchKey = m.matchId || m.id;
@@ -887,7 +928,7 @@ async function init() {
                         
                         // Просто обновляем HTML бейджа. Класс live-status сам покажет точку через CSS
                         if (statusInfo.isLive) {
-                            badge.innerHTML = `<span class="live-dot"></span>${statusInfo.text}`;
+                            badge.innerHTML = `${statusInfo.showDot === false ? '' : '<span class="live-dot"></span>'}${statusInfo.text}`;
                             badge.classList.add('live-status');
                         } else {
                             badge.innerHTML = statusInfo.text;
@@ -916,10 +957,10 @@ async function init() {
                         if (statusInfo.isLive) {
                             if (existingDot) {
                                 statusEl.innerHTML = '';
-                                statusEl.appendChild(existingDot);
+                                if (statusInfo.showDot !== false) statusEl.appendChild(existingDot);
                                 statusEl.appendChild(document.createTextNode(statusInfo.text));
                             } else {
-                                statusEl.innerHTML = `<span class="live-dot live-dot--inline"></span>${statusInfo.text}`;
+                                statusEl.innerHTML = `${statusInfo.showDot === false ? '' : '<span class="live-dot live-dot--inline"></span>'}${statusInfo.text}`;
                             }
                             statusEl.parentElement.classList.add('live');
                         } else {
@@ -990,7 +1031,7 @@ function renderMatchCard(m) {
                 <div class="match-header">
           <span>${tourName}</span>
           <span class="badge ${isLive ? 'live-status' : ''}" id="match-badge-${m.id}">
-            ${isLive ? `<span class="live-dot"></span>` : ''}${statusText}
+            ${isLive && statusInfo.showDot !== false ? `<span class="live-dot"></span>` : ''}${statusText}
           </span>
         </div>
         
@@ -1090,6 +1131,15 @@ async function updateLiveMatches() {
 
                 // Теперь обновляем данные в объектах
                 updateObj(allMatchesData, false);
+                if (allMatchesData) {
+                    allMatchesData.sort((a, b) => {
+                        const aL = (a.status !== 4 && a.status !== 0), bL = (b.status !== 4 && b.status !== 0);
+                        if (aL !== bL) return aL ? -1 : 1;
+                        return compareMatchesByDateAsc(a, b);
+                    });
+                    const grid = document.getElementById("matches-grid");
+                    if (grid) grid.innerHTML = allMatchesData.map(m => renderMatchCard(m)).join("");
+                }
                 updateObj(allCalendarMatches, true);
 
 
@@ -1112,7 +1162,7 @@ async function updateLiveMatches() {
                             : null;
                         const statusInfo = getMatchStatusDisplay(freshData, currentBroadcast);
                         if (statusInfo.isLive) {
-                            badge.innerHTML = `<span class="live-dot"></span>${statusInfo.text}`;
+                            badge.innerHTML = `${statusInfo.showDot === false ? '' : '<span class="live-dot"></span>'}${statusInfo.text}`;
                             badge.classList.add('live-status');
                         } else {
                             badge.innerHTML = statusInfo.text;
@@ -1141,10 +1191,10 @@ async function updateLiveMatches() {
                         if (statusInfo.isLive) {
                             if (existingDot) {
                                 statusEl.innerHTML = '';
-                                statusEl.appendChild(existingDot);
+                                if (statusInfo.showDot !== false) statusEl.appendChild(existingDot);
                                 statusEl.appendChild(document.createTextNode(statusInfo.text));
                             } else {
-                                statusEl.innerHTML = `<span class="live-dot live-dot--inline"></span>${statusInfo.text}`;
+                                statusEl.innerHTML = `${statusInfo.showDot === false ? '' : '<span class="live-dot live-dot--inline"></span>'}${statusInfo.text}`;
                             }
                             statusEl.parentElement.classList.add('live');
                         } else {
@@ -1174,7 +1224,14 @@ function populateFilters() {
     });
 
     uniqueTours.forEach(tour => {
-        optionsTour.innerHTML += `<div class="select-option" data-value="${tour}">${tour}</div>`;
+        const tourMatches = allCalendarMatches.filter(m => m.tour === tour);
+        const started = m => m.status === 4 || (normalizeMatchDate(m.date)?.getTime() <= Date.now());
+        const inProgress = m => m.status !== 4 && started(m) && Date.now() <= Math.max(...allCalendarMatches.filter(x => x.tour === m.tour).map(x => normalizeMatchDate(x.date)?.getTime() || 0)) + 86400000;
+        const isCur = tourMatches.some(started) && tourMatches.some(inProgress);
+        const curExists = uniqueTours.some(t => { const tm = allCalendarMatches.filter(m => m.tour === t); return tm.some(started) && tm.some(inProgress); });
+        const nextTour = curExists ? null : uniqueTours.find(t => !allCalendarMatches.some(m => m.tour === t && started(m)));
+        const label = isCur ? ' · идёт' : (tour === nextTour ? ' · следующий' : '');
+        optionsTour.innerHTML += `<div class="select-option${isCur ? ' is-current' : ''}" data-value="${tour}">${tour}${label}</div>`;
     });
 
     const uniqueClubs = [...globalClubsList].sort((a, b) => {
@@ -1542,6 +1599,8 @@ window.filterByMatchForm = function(clubId, formIndex) {
     const targetMatch = last5[formIndex];
     
     if (!targetMatch) return;
+    openMatchModal(targetMatch.matchId || targetMatch.id);
+    return;
 
     resetCalendarFilters();
     
@@ -1598,6 +1657,14 @@ window.filterByTeam = function(clubId) {
 };
 
 // Открытие модального окна матча
+// Для завершённых матчей файлы берём из кэша, для остальных — всегда свежие
+function matchFetchOpts(matchId) {
+    const m = (allMatchesData && allMatchesData.find(x => x.id === matchId)) ||
+              (allCalendarMatches && allCalendarMatches.find(x => (x.matchId || x.id) === matchId));
+    if (m && m.status === 4) return { q: '', opts: { cache: 'default' } };
+    return { q: `?t=${Date.now()}`, opts: { cache: 'no-store' } };
+}
+
 window.openMatchModal = async function(matchId) {
     if (typeof matchId === 'string') matchId = parseInt(matchId, 10);
     const modal = document.getElementById('match-modal');
@@ -1631,7 +1698,8 @@ window.openMatchModal = async function(matchId) {
         let isFallback = false;
 
         try {
-            const res = await fetch(`./data/current/matches/match_${matchId}.json?t=${Date.now()}`, { cache: 'no-store' });
+            const mf1 = matchFetchOpts(matchId);
+            const res = await fetch(`./data/current/matches/match_${matchId}.json${mf1.q}`, mf1.opts);
             if (res.ok) {
                 data = await res.json();
             } else {
@@ -1688,8 +1756,8 @@ window.openMatchModal = async function(matchId) {
         const awayClub = allClubs[data.clubA];
         const logoBase = `${DATA_BASE}/`;
 
-        const homeLogo = homeClub?.logo ? `<img src="${logoBase}${homeClub.logo}" class="modal-team-logo">` : "";
-        const awayLogo = awayClub?.logo ? `<img src="${logoBase}${awayClub.logo}" class="modal-team-logo">` : "";
+        const homeLogo = homeClub?.logo ? `<img src="${logoBase}${homeClub.logo}" class="modal-team-logo team-clickable" onclick="event.stopPropagation(); openClubModal(${homeClub.id})">` : "";
+        const awayLogo = awayClub?.logo ? `<img src="${logoBase}${awayClub.logo}" class="modal-team-logo team-clickable" onclick="event.stopPropagation(); openClubModal(${awayClub.id})">` : "";
 
         // Данные тренеров уже загружены в window._allStaffs при инициализации (staffs_all.json)
         // Поэтому здесь ничего скачивать не нужно.
@@ -1764,7 +1832,8 @@ window.openMatchModal = async function(matchId) {
         let matchEvents = null;
         let matchBroadcast = [];
         try {
-            const evRes = await fetch(`./data/current/matches/events_${matchId}.json?t=${Date.now()}`, { cache: 'no-store' });
+            const mf2 = matchFetchOpts(matchId);
+            const evRes = await fetch(`./data/current/matches/events_${matchId}.json${mf2.q}`, mf2.opts);
             if (evRes.ok) {
                 const ev = await evRes.json();
                 matchEvents = ev.protocol || [];
@@ -1805,7 +1874,8 @@ window.openMatchModal = async function(matchId) {
         let lineupsData = null; // <-- Сохраняем данные
         
         try {
-            const lineupsRes = await fetch(`./data/current/matches/lineups_${matchId}.json?t=${Date.now()}`, { cache: 'no-store' });
+            const mf3 = matchFetchOpts(matchId);
+            const lineupsRes = await fetch(`./data/current/matches/lineups_${matchId}.json${mf3.q}`, mf3.opts);
             if (lineupsRes.ok) {
                 lineupsData = await lineupsRes.json();
                 const lineups = lineupsData;
@@ -2281,9 +2351,101 @@ window.openMatchModal = async function(matchId) {
                         return true;
                     });
 
-                    finalEvents.sort((a, b) => (a.time + (a.extra || 0) / 100) - (b.time + (b.extra || 0) / 100));
+                    // ─── ФИНАЛЬНАЯ ФИЛЬТРАЦИЯ ДУБЛЕЙ (для прошедших матчей) ───
+                    // Протокол и broadcast часто дублируют друг друга (карточки, замены, углы, голы)
+                    const uniqueEvents = [];
+                    finalEvents.forEach(ev => {
+                        // Формируем уникальный ключ для события (тип, минута, игроки)
+                        let evType = ev.action || ev.type || (ev._isCorner ? 'Corner' : '');
+                        let p1 = ev.player1?.id || 0;
+                        let p2 = ev.player2?.id || 0;
+                        
+                        // Учитываем автоголы и пенальти
+                        if (ev.type === 11 || ev.action === "AutoGoal" || ev._type === 'autogoal') evType = 'AutoGoal';
+                        if (ev._penalty || ev.type === 10 || ev.action === "AppointedPenalty") evType = 'Penalty';
+                        
+                        // Проверяем, нет ли уже такого же события (с той же минутой, типом и игроками)
+                        const isDup = uniqueEvents.some(u => {
+                            let uType = u.action || u.type || (u._isCorner ? 'Corner' : '');
+                            if (u.type === 11 || u.action === "AutoGoal" || u._type === 'autogoal') uType = 'AutoGoal';
+                            if (u._penalty || u.type === 10 || u.action === "AppointedPenalty") uType = 'Penalty';
+                            
+                            const uP1 = u.player1?.id || 0;
+                            const uP2 = u.player2?.id || 0;
+                            
+                            // Если совпадает время и тип события — это дубль
+                            // (сравниваем только время, так как в протоколе и broadcast могут различаться ID игроков на заменах)
+                            return u.time === ev.time && u.extra === ev.extra && uType === evType;
+                        });
+
+                        if (!isDup) {
+                            uniqueEvents.push(ev);
+                        }
+                    });
+
+                    uniqueEvents.sort((a, b) => (a.time + (a.extra || 0) / 100) - (b.time + (b.extra || 0) / 100));
                     allEvents.length = 0; // Очищаем старый массив
-                    allEvents.push(...finalEvents);
+                    
+                    // ─── УМНАЯ ДЕДУПЛИКАЦИЯ (с допуском по времени) ───
+                    const finalUniqueEvents = [];
+                    uniqueEvents.forEach(ev => {
+                        // 1. Нормализуем тип события
+                        const getEventType = (e) => {
+                            if (e.type === 1 || e.type === 10 || e.action === "Goal" || e.action === "PenaltyGoal") return 'goal';
+                            if (e.type === 11 || e.action === "AutoGoal" || e._type === 'autogoal') return 'autogoal';
+                            if (e.type === 2 || e.action === "Substitution") return 'substitution';
+                            if (e.type === 3 || e.action === "YellowCard") return 'yellow';
+                            if (e.type === 4 || e.action === "RedCard") return 'red';
+                            if (e._isCorner || e.action === "Corner") return 'corner';
+                            if (e._penalty || e.action === "AppointedPenalty") return 'penalty_appointed';
+                            return 'unknown';
+                        };
+                        
+                        const normType = getEventType(ev);
+
+                        // 2. Ищем дубль в уже отфильтрованных событиях
+                        const isDup = finalUniqueEvents.some(existing => {
+                            if (getEventType(existing) !== normType) return false;
+
+                            // Сравниваем время с допуском ±2 минуты (так как broadcast и протокол могут давать разное время)
+                            const timeDiff = Math.abs(existing.time - ev.time);
+                            if (timeDiff > 2) return false;
+
+                            const p1 = ev.player1?.id;
+                            const ep1 = existing.player1?.id;
+                            const p2 = ev.player2?.id;
+                            const ep2 = existing.player2?.id;
+
+                            // --- ЗАМЕНЫ ---
+                            // Если у обоих есть игроки и они РАЗНЫЕ — это не дубль (например, две замены подряд)
+                            if (normType === 'substitution') {
+                                if (p1 && ep1 && p1 !== ep1) return false; // Уходит разный игрок
+                                if (p2 && ep2 && p2 !== ep2) return false; // Приходит разный игрок
+                                // Если ID совпадают или отсутствуют — это дубль
+                                return true;
+                            }
+
+                            // --- ГОЛЫ ---
+                            if (normType === 'goal') {
+                                // Если это разные игроки (например, дубль оформил один игрок на 50 и 52 минуте) — не удаляем
+                                if (p1 && ep1 && p1 !== ep1) return false;
+                                // Если игрок один и тот же (или не указан) — это дубль
+                                return true;
+                            }
+
+                            // --- КАРТОЧКИ, УГЛОВЫЕ И ОСТАЛЬНОЕ ---
+                            // Если у обоих есть игроки и они разные — не дубль
+                            if (p1 && ep1 && p1 !== ep1) return false;
+                            // Если игрок один — дубль
+                            return true;
+                        });
+
+                        if (!isDup) {
+                            finalUniqueEvents.push(ev);
+                        }
+                    });
+
+                    allEvents.push(...finalUniqueEvents);
                     
                     // Собираем список голов для отображения под счетом
                     window._matchScorers = [];
@@ -2401,12 +2563,19 @@ window.openMatchModal = async function(matchId) {
                         } else if (e.type === 4 || e.action === "RedCard") {
                             icon = "🟥"; label = "Красная";
                         } else if (e.type === 2 || e.action === "Substitution") {
-                            icon = "🔄"; label = "Замена";
+                            // Иконку замены выводим вручную между именами, чтобы не дублировалась
+                            icon = ""; label = "Замена";
                         }
                         
-                        let text = e.player1 ? formatPlayerName(e.player1) : "";
-                        if (e.player2 && (e.type === 2 || e.action === "Substitution")) {
-                            text += ` → ${formatPlayerName(e.player2)}`;
+                        let text = "";
+                        if (e.player2 && (e.type === 2 || e.action === "Substitution") && e.player1) {
+                            // Меняем имена местами: сначала player2 (зелёный), потом иконка, потом player1 (красный)
+                            text += `<span class="sub-in">${formatPlayerName(e.player2)}</span>`;
+                            text += ` <span class="sub-icon">🔄</span> `;
+                            text += `<span class="sub-out">${formatPlayerName(e.player1)}</span>`;
+                        } else {
+                            // Для всех остальных событий (голы, карточки) выводим как обычно
+                            if (e.player1) text += formatPlayerName(e.player1);
                         }
                         
                         if (e.type === 11 || e.action === "AutoGoal" || e._type === 'autogoal') {
@@ -2457,13 +2626,20 @@ window.openMatchModal = async function(matchId) {
                         `;
                     };
                     
+                    // Проверяем, есть ли уже события во 2-м тайме или матч уже перешел во 2-й тайм
+                    const hasSecondHalfEvents = allEvents.some(e => e.time > 45);
+                    const currentPhase = getMatchStatusDisplay(data, matchBroadcast).phase;
+                    const showHalfButtons = hasSecondHalfEvents || currentPhase === 'second_half' || currentPhase === 'finished';
+
                     eventsHtml = `
                         <div class="tab-pad">
+                            ${showHalfButtons ? `
                             <div class="half-buttons-wrapper">
                                 <button class="event-half-btn active" onclick="filterEventsByHalf('all', event)">Все</button>
                                 <button class="event-half-btn" onclick="filterEventsByHalf('1', event)">1-й тайм</button>
                                 <button class="event-half-btn" onclick="filterEventsByHalf('2', event)">2-й тайм</button>
                             </div>
+                            ` : ''}
                             <div id="events-list">
                                 ${allEvents.map(renderEventRow).join('')}
                             </div>
@@ -2479,13 +2655,20 @@ window.openMatchModal = async function(matchId) {
                     
                     const stats = calculateMatchStats(broadcastEvents, homeClub?.id, awayClub?.id);
                     
+                    // Проверяем, есть ли уже события во 2-м тайме или матч уже перешел во 2-й тайм
+                    const hasSecondHalfStats = broadcastEvents.some(e => e.time > 45);
+                    const currentPhaseStats = getMatchStatusDisplay(data, matchBroadcast).phase;
+                    const showStatsHalfButtons = hasSecondHalfStats || currentPhaseStats === 'second_half' || currentPhaseStats === 'finished';
+
                     statsHtml = `
                         <div class="tab-pad">
+                            ${showStatsHalfButtons ? `
                             <div class="half-buttons-wrapper">
                                 <button class="stats-half-btn active" onclick="filterStatsByHalf('all', event)">Весь матч</button>
                                 <button class="stats-half-btn" onclick="filterStatsByHalf('1', event)">1-й тайм</button>
                                 <button class="stats-half-btn" onclick="filterStatsByHalf('2', event)">2-й тайм</button>
                             </div>
+                            ` : ''}
                             
                             <div id="stats-list" data-all='${JSON.stringify(stats)}'>
                                 <div class="stats-header">
@@ -2554,7 +2737,7 @@ window.openMatchModal = async function(matchId) {
                         <!-- ДОМАШНЯЯ КОМАНДА -->
                         <div class="score-team-block is-home">
                              ${homeLogo}
-                             <span class="score-team-name">${formatTeamName(homeClub?.name)}</span>
+                             <span class="score-team-name team-clickable" onclick="event.stopPropagation(); openClubModal(${homeClub?.id})">${formatTeamName(homeClub?.name)}</span>
                             <div class="score-team-scorers">
                                 ${(() => {
                                     const events = window._matchScorers || [];
@@ -2575,7 +2758,7 @@ window.openMatchModal = async function(matchId) {
                             <div id="match-live-status" class="modal-live-status ${getMatchStatusDisplay(data, matchBroadcast).isLive ? 'live' : ''}">
                                 ${(() => {
                                     const statusInfo = getMatchStatusDisplay(data, matchBroadcast);
-                                    if (statusInfo.isLive) {
+                                    if (statusInfo.isLive && statusInfo.showDot !== false) {
                                         return `<span class="live-dot"></span> <span id="match-minute-text">${statusInfo.text}</span>`;
                                     }
                                     return `<span id="match-minute-text">${statusInfo.text}</span>`;
@@ -2586,7 +2769,7 @@ window.openMatchModal = async function(matchId) {
                         <!-- ГОСТЕВАЯ КОМАНДА -->
                         <div class="score-team-block is-away">
                             ${awayLogo}
-                            <span class="score-team-name">${formatTeamName(awayClub?.name)}</span>
+                            <span class="score-team-name team-clickable" onclick="event.stopPropagation(); openClubModal(${awayClub?.id})">${formatTeamName(awayClub?.name)}</span>
                             <div class="score-team-scorers">
                                 ${(() => {
                                     const events = window._matchScorers || [];
@@ -2656,6 +2839,17 @@ window.openMatchModal = async function(matchId) {
         
         // Сбрасываем кнопку при открытии (чтобы не висела, если была открыта ранее)
         checkScrollToTopVisibility();
+
+        // Инициализируем бегунки в модалке
+        setTimeout(() => {
+            // 1. Бегунок для вкладок (Обзор, Составы...)
+            const activeBtn = modal.querySelector('.match-tab-btn.active');
+            if (activeBtn) moveModalSlider(activeBtn);
+
+            // 2. Бегунки для кнопок таймов (Статистика, События)
+            const activeHalfBtns = modal.querySelectorAll('.half-buttons-wrapper button.active');
+            activeHalfBtns.forEach(btn => moveHalfSlider(btn));
+        }, 50);
 
         // Запускаем локальный таймер, чтобы обновлять минуту каждую секунду
         // Сначала удаляем старый таймер, если он был (чтобы не было дублей)
@@ -2758,11 +2952,26 @@ window.openMatchModal = async function(matchId) {
 window.toggleOfficials = function(btn, event) {
     if (event) event.stopPropagation();
     const block = btn.closest('.official-block');
-    if (block) block.classList.toggle('is-open');
+    if (block) {
+        const scroller = block.closest('.modal-content');
+        if (!block.classList.contains('is-open')) {
+            block._savedScroll = scroller ? scroller.scrollTop : 0;
+            block.classList.add('is-open');
+            setTimeout(() => {
+                if (!scroller) return;
+                const r = block.getBoundingClientRect(), sr = scroller.getBoundingClientRect();
+                if (r.bottom > sr.bottom) scroller.scrollBy({ top: r.bottom - sr.bottom + 16, behavior: 'smooth' });
+            }, 380);
+        } else {
+            block.classList.remove('is-open');
+            if (scroller) scroller.scrollTo({ top: block._savedScroll || 0, behavior: 'smooth' });
+        }
+    }
 };
 
 // Функция переключения вкладок в модалке матча
 window.switchMatchTab = function(tabId, event) {
+    setTimeout(refreshHalfSliders, 0);
     document.querySelectorAll('.match-tab-btn').forEach(btn => {
         btn.classList.remove('active');
     });
@@ -2778,6 +2987,37 @@ window.switchMatchTab = function(tabId, event) {
     
     const target = document.getElementById(`match-tab-${tabId}`);
     if (target) target.classList.add('active');
+
+    // Двигаем бегунок в модалке матча
+    if (event && event.target) {
+        moveModalSlider(event.target);
+    }
+};
+
+// Универсальная функция перемещения бегунка в модалках
+window.moveModalSlider = function(targetBtn) {
+    const navContainer = targetBtn.closest('.match-tabs-nav');
+    if (!navContainer) return;
+    
+    let slider = navContainer.querySelector('.tab-slider');
+    if (!slider) {
+        slider = document.createElement('div');
+        slider.className = 'tab-slider';
+        navContainer.appendChild(slider);
+    }
+    
+    // Позиция кнопки относительно контейнера с учетом скролла
+    const updatePosition = () => {
+        const targetLeft = targetBtn.offsetLeft - navContainer.scrollLeft;
+        slider.style.width = `${targetBtn.offsetWidth}px`;
+        slider.style.transform = `translateX(${targetLeft}px)`;
+    };
+
+    updatePosition();
+
+    // Небольшой фикс: если из-за смены контента появился/исчез скроллбар, 
+    // позиция может сбиться. Обновляем ее еще раз через 50мс.
+    setTimeout(updatePosition, 50);
 };
 
 window.switchMobileLineup = function(side, event) {
@@ -3041,7 +3281,7 @@ window.openClubModal = async function(clubId) {
             const tourName = m.tour || "";
 
             return `
-                <div class="calendar-row club-matches-row ${resultClass}${m.status === 4 ? '' : ' no-video'}" onclick="closeClubModal(event); openMatchModal(${m.matchId || m.id})">
+                <div class="calendar-row club-matches-row ${resultClass}${m.status === 4 ? '' : ' no-video'}" onclick="closeClubModal(event, true); openMatchModal(${m.matchId || m.id})">
                     <div class="cal-col-left">
                         <div class="cal-tour">${tourName}</div>
                         <div class="cal-date">${dateTimeStr}</div>
@@ -3072,8 +3312,8 @@ window.openClubModal = async function(clubId) {
                         <div id="future-matches-rest">
                             ${futureRest.map(renderClubMatchRow).join('')}
                         </div>
-                        <button id="btn-show-future" class="btn-show-all-matches" onclick="document.getElementById('future-matches-rest').style.display='block'; this.style.display='none'; document.getElementById('btn-hide-future').style.display='block';">Показать все будущие матчи</button>
-                        <button id="btn-hide-future" class="btn-show-all-matches" onclick="document.getElementById('future-matches-rest').style.display='none'; this.style.display='none'; document.getElementById('btn-show-future').style.display='block';">Скрыть все будущие матчи</button>
+                        <button id="btn-show-future" class="btn-show-all-matches" onclick="document.getElementById('future-matches-rest').classList.add('is-open'); this.style.display='none'; document.getElementById('btn-hide-future').style.display='block';">Показать все будущие матчи</button>
+                        <button id="btn-hide-future" class="btn-show-all-matches" onclick="document.getElementById('future-matches-rest').classList.remove('is-open'); this.style.display='none'; document.getElementById('btn-show-future').style.display='block';">Скрыть все будущие матчи</button>
                     ` : ''}
                 </div>
 
@@ -3086,8 +3326,8 @@ window.openClubModal = async function(clubId) {
                         <div id="past-matches-rest">
                             ${pastRest.map(renderClubMatchRow).join('')}
                         </div>
-                        <button id="btn-show-past" class="btn-show-all-matches" onclick="document.getElementById('past-matches-rest').style.display='block'; this.style.display='none'; document.getElementById('btn-hide-past').style.display='block';">Показать все прошедшие матчи</button>
-                        <button id="btn-hide-past" class="btn-show-all-matches" onclick="document.getElementById('past-matches-rest').style.display='none'; this.style.display='none'; document.getElementById('btn-show-past').style.display='block';">Скрыть все прошедшие матчи</button>
+                        <button id="btn-show-past" class="btn-show-all-matches" onclick="document.getElementById('past-matches-rest').classList.add('is-open'); this.style.display='none'; document.getElementById('btn-hide-past').style.display='block';">Показать все прошедшие матчи</button>
+                        <button id="btn-hide-past" class="btn-show-all-matches" onclick="document.getElementById('past-matches-rest').classList.remove('is-open'); this.style.display='none'; document.getElementById('btn-show-past').style.display='block';">Скрыть все прошедшие матчи</button>
                     ` : ''}
                 </div>
             </div>
@@ -3140,6 +3380,7 @@ window.openClubModal = async function(clubId) {
 };
 
 window.switchClubTab = function(tabId, event) {
+    setTimeout(refreshHalfSliders, 0);
     document.querySelectorAll('#club-modal .match-tab-btn').forEach(btn => {
         btn.classList.remove('active');
     });
@@ -3156,19 +3397,24 @@ window.switchClubTab = function(tabId, event) {
     const target = document.getElementById(`club-tab-${tabId}`);
     if (target) target.classList.add('active');
 
+    // Двигаем бегунок в модалке клуба
+    if (event && event.target) {
+        moveModalSlider(event.target);
+    }
+
     // Сбрасываем развёрнутые списки при переходе на вкладку "Матчи"
     if (tabId === 'matches') {
         const futureRest = document.getElementById('future-matches-rest');
         const btnShowFuture = document.getElementById('btn-show-future');
         const btnHideFuture = document.getElementById('btn-hide-future');
-        if (futureRest) futureRest.style.display = 'none';
+        if (futureRest) futureRest.classList.remove('is-open');
         if (btnShowFuture) btnShowFuture.style.display = 'block';
         if (btnHideFuture) btnHideFuture.style.display = 'none';
 
         const pastRest = document.getElementById('past-matches-rest');
         const btnShowPast = document.getElementById('btn-show-past');
         const btnHidePast = document.getElementById('btn-hide-past');
-        if (pastRest) pastRest.style.display = 'none';
+        if (pastRest) pastRest.classList.remove('is-open');
         if (btnShowPast) btnShowPast.style.display = 'block';
         if (btnHidePast) btnHidePast.style.display = 'none';
     }
@@ -3199,10 +3445,52 @@ window.filterEventsByHalf = function(half, event) {
     });
     if (event && event.target) {
         event.target.classList.add('active');
+        moveHalfSlider(event.target);
     }
     
     document.querySelectorAll('.event-row').forEach(row => {
-        row.classList.toggle('hidden', !(half === 'all' || row.dataset.half === half));
+        row.classList.toggle('ev-collapsed', !(half === 'all' || row.dataset.half === half));
+    });
+};
+
+// Универсальная функция для перемещения бегунка в кнопках таймов
+window.refreshHalfSliders = function() {
+    document.querySelectorAll('.half-buttons-wrapper button.active').forEach(btn => moveHalfSlider(btn));
+};
+
+window.moveHalfSlider = function(targetBtn) {
+    const container = targetBtn.closest('.half-buttons-wrapper');
+    if (!container) return;
+    
+    let slider = container.querySelector('.half-slider');
+    if (!slider) {
+        slider = document.createElement('div');
+        slider.className = 'half-slider';
+        container.appendChild(slider);
+    }
+    
+    slider.style.width = `${targetBtn.offsetWidth}px`;
+    slider.style.transform = `translateX(${targetBtn.offsetLeft}px)`;
+};
+
+// Плавное обновление строк статистики без полной перерисовки
+window.updateStatsRowsSmooth = function(container, stats) {
+    const tmp = document.createElement('div');
+    tmp.innerHTML = renderStatsRowsHtml(stats);
+    const newRows = tmp.querySelectorAll('.stat-row');
+    const oldRows = container.querySelectorAll('.stat-row');
+    if (oldRows.length !== newRows.length) {
+        container.innerHTML = tmp.innerHTML;
+        return;
+    }
+    newRows.forEach((nr, i) => {
+        const or = oldRows[i];
+        const nSpans = nr.querySelectorAll('.stat-labels span');
+        const oSpans = or.querySelectorAll('.stat-labels span');
+        if (oSpans[0].textContent !== nSpans[0].textContent) oSpans[0].textContent = nSpans[0].textContent;
+        if (oSpans[2].textContent !== nSpans[2].textContent) oSpans[2].textContent = nSpans[2].textContent;
+        or.querySelector('.stat-bar-home').style.width = nr.querySelector('.stat-bar-home').style.width;
+        or.querySelector('.stat-bar-away').style.width = nr.querySelector('.stat-bar-away').style.width;
     });
 };
 
@@ -3212,6 +3500,7 @@ window.filterStatsByHalf = function(half, event) {
     });
     if (event && event.target) {
         event.target.classList.add('active');
+        moveHalfSlider(event.target);
     }
     
     if (!window._currentBroadcastEvents || !window._currentHomeClub || !window._currentAwayClub) return;
@@ -3224,7 +3513,7 @@ window.filterStatsByHalf = function(half, event) {
     
     const rows = document.getElementById('stats-rows');
     if (rows) {
-        rows.innerHTML = renderStatsRowsHtml(stats);
+        updateStatsRowsSmooth(rows, stats);
     }
 };
 
@@ -3244,30 +3533,34 @@ window.addEventListener('popstate', function(event) {
 
 // ─── ЛОГИКА КНОПКИ "НАВЕРХ" ───
 
-// Проверяем, нужно ли показать кнопку (учитываем и страницу, и модалки)
+// Проверяем, нужно ли показать кнопку
 function checkScrollToTopVisibility() {
     const btn = document.getElementById('scroll-to-top');
     if (!btn) return;
 
+    const matchModal = document.getElementById('match-modal');
+    const clubModal = document.getElementById('club-modal');
+    const isMatchModalOpen = matchModal && matchModal.classList.contains('active');
+    const isClubModalOpen = clubModal && clubModal.classList.contains('active');
+
     let shouldShow = false;
 
-    // 1. Проверяем скролл самой страницы
-    if (window.scrollY > 300) {
-        shouldShow = true;
+    if (isMatchModalOpen || isClubModalOpen) {
+        // Если открыта модалка — смотрим ТОЛЬКО на её собственный скролл
+        // и игнорируем скролл страницы (window.scrollY)
+        if (isMatchModalOpen) {
+            const content = matchModal.querySelector('.modal-content');
+            if (content && content.scrollTop > 300) shouldShow = true;
+        }
+        if (isClubModalOpen) {
+            const content = clubModal.querySelector('.modal-content');
+            if (content && content.scrollTop > 300) shouldShow = true;
+        }
+    } else {
+        // Если модалки нет — смотрим на скролл страницы
+        if (window.scrollY > 300) shouldShow = true;
     }
 
-    // 2. Проверяем скролл внутри открытых модалок (без привязки к ширине экрана)
-    const activeMatchModal = document.querySelector('#match-modal.active .modal-content');
-    const activeClubModal = document.querySelector('#club-modal.active .modal-content');
-
-    if (activeMatchModal && activeMatchModal.scrollTop > 300) {
-        shouldShow = true;
-    }
-    if (activeClubModal && activeClubModal.scrollTop > 300) {
-        shouldShow = true;
-    }
-
-    // Применяем класс
     if (shouldShow) {
         btn.classList.add('visible');
     } else {
@@ -3311,4 +3604,18 @@ window.scrollToTop = function() {
     }
 };
 
-document.addEventListener("DOMContentLoaded", init);
+document.addEventListener("DOMContentLoaded", () => {
+    init();
+    
+    // Инициализация позиции бегунка при старте
+    setTimeout(() => {
+        const activeBtn = document.querySelector('.tab-btn.active');
+        const slider = document.getElementById('tab-slider');
+        if (activeBtn && slider) {
+            const tabsContainer = activeBtn.parentElement;
+            const targetLeft = activeBtn.offsetLeft - tabsContainer.offsetLeft;
+            slider.style.width = `${activeBtn.offsetWidth}px`;
+            slider.style.transform = `translateX(${targetLeft}px)`;
+        }
+    }, 50); // Небольшая задержка для правильного рендера шрифтов
+});
