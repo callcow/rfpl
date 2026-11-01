@@ -1353,6 +1353,97 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65783,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 54,
+      "extra": null,
+      "player1": {
+        "id": 26089,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48197/32374_2026_150_48197.jpg",
+        "name": "Виктор",
+        "lastname": "Парада Гонсалес",
+        "nickname": "",
+        "keyword": "Parada-Gonzalez-Victor",
+        "amplua": 1,
+        "public_lastname": "Парада",
+        "public_name": "Виктор"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65784,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 55,
+      "extra": null,
+      "player1": {
+        "id": 21458,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48100/11995_2026_150_48100.jpg",
+        "name": "Максим",
+        "lastname": "Ненахов",
+        "nickname": "",
+        "keyword": "Nenahov-Maksim",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65785,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 55,
+      "extra": null,
+      "player1": {
+        "id": 21530,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48117/11968_2026_150_48117.jpg",
+        "name": "Александр",
+        "lastname": "Руденко",
+        "nickname": "",
+        "keyword": "Rudenko-Aleksandr-Aleksandrovich",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 23305,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48105/26354_2026_150_48105.jpg",
+        "name": "Сергей",
+        "lastname": "Пиняев",
+        "nickname": "",
+        "keyword": "Pinyaev-Sergey",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
