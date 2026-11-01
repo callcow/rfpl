@@ -574,6 +574,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65587,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 31,
+      "extra": null,
+      "player1": {
+        "id": 24266,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48006/28191_2026_150_48006.jpg",
+        "name": "Виктор",
+        "lastname": "Мелёхин",
+        "nickname": null,
+        "keyword": "Melehin-Viktor",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
