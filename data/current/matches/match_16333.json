@@ -72,7 +72,7 @@
   "stadium": "«Ростех Арена»",
   "stadiumLink": "",
   "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01796.jpg",
-  "attendance": null,
+  "attendance": 9004,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_8738cf449f6004f4bb988dd694336aae_hd/17_1038858/69f6b4659efe6e171ac9967e952b3068/4949221225?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
   "videoReviewLink": "",
@@ -81,11 +81,11 @@
   "comments": "",
   "weather": "9.6°C, Облачно",
   "documents": {
-    "protocol": null,
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD13_BAL-AKR_FR_RU.pdf",
     "report": null,
     "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD13_BAL-AKR_LU_RU.pdf",
     "preview": null
   },
-  "protocol": false,
+  "protocol": true,
   "countVideos": null
 }
