@@ -17,6 +17,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65732,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 3,
+      "extra": null,
+      "player1": {
+        "id": 25212,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48189/29728_2026_150_48189.jpg",
+        "name": "Игорь",
+        "lastname": "Дмитриев",
+        "nickname": "",
+        "keyword": "Dmitriev-Igor",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
