@@ -976,6 +976,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65685,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 52,
+      "extra": null,
+      "player1": {
+        "id": 25897,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48146/32110_2026_500_48146.png",
+        "name": "Брайан Александр",
+        "lastname": "Хиль Хуртадо",
+        "nickname": "",
+        "keyword": "Gil-Hurtado-Brayan-Alexander",
+        "amplua": 3,
+        "public_lastname": "Хиль",
+        "public_name": "Брайан"
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
