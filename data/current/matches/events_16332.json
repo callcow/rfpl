@@ -1859,6 +1859,77 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65632,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 81,
+      "extra": null,
+      "player1": {
+        "id": 25995,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48090/32227_2026_150_48090.jpg",
+        "name": "Валдемиру Пинту",
+        "lastname": "Домингуш",
+        "nickname": "Миро",
+        "keyword": "Miro",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65633,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 81,
+      "extra": null,
+      "player1": {
+        "id": 22521,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48005/25229_2026_150_48005.jpg",
+        "name": "Андрей",
+        "lastname": "Лангович",
+        "nickname": "",
+        "keyword": "Langovich-Andrey",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65634,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 81,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
