@@ -1640,6 +1640,60 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65794,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 68,
+      "extra": null,
+      "player1": {
+        "id": 25383,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48182/29938_2026_150_48182.jpg",
+        "name": "Манфред Алонсо",
+        "lastname": "Угальде Арсе",
+        "nickname": "",
+        "keyword": "Ugalde-Arse-Manfred-Alonso",
+        "amplua": 3,
+        "public_lastname": "Угальде",
+        "public_name": "Манфред"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65795,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 68,
+      "extra": null,
+      "player1": {
+        "id": 26089,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48197/32374_2026_150_48197.jpg",
+        "name": "Виктор",
+        "lastname": "Парада Гонсалес",
+        "nickname": "",
+        "keyword": "Parada-Gonzalez-Victor",
+        "amplua": 1,
+        "public_lastname": "Парада",
+        "public_name": "Виктор"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
