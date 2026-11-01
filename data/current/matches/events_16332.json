@@ -260,6 +260,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65575,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 16,
+      "extra": null,
+      "player1": {
+        "id": 25706,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48082/30376_2026_150_48082.jpg",
+        "name": "Хуссем Эддин",
+        "lastname": "Мрезиг",
+        "nickname": "",
+        "keyword": "Mrezige-Husem-Edin",
+        "amplua": 2,
+        "public_lastname": "Мрезиг",
+        "public_name": "Хуссем"
+      },
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
