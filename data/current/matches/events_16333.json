@@ -1302,6 +1302,33 @@
       "deleted": null
     },
     {
+      "id": 65698,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 68,
+      "extra": null,
+      "player1": {
+        "id": 25885,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48143/32094_2026_150_48143.jpg",
+        "name": "Элдар",
+        "lastname": "Чивич",
+        "nickname": "",
+        "keyword": "Civic-Eldar",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 65697,
       "type": "EventAdded",
       "action": "Goal",
@@ -1315,6 +1342,33 @@
         "nickname": "",
         "keyword": "Belikov-Ivan",
         "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65699,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 70,
+      "extra": null,
+      "player1": {
+        "id": 25225,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48293/29742_2026_150_48293.jpg",
+        "name": "Владислав",
+        "lastname": "Поспелов",
+        "nickname": "",
+        "keyword": "Pospelov-Vladislav",
+        "amplua": 2,
         "public_lastname": null,
         "public_name": null
       },
