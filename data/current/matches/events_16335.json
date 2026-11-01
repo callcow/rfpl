@@ -577,6 +577,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65754,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 30,
+      "extra": null,
+      "player1": {
+        "id": 21530,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48117/11968_2026_150_48117.jpg",
+        "name": "Александр",
+        "lastname": "Руденко",
+        "nickname": "",
+        "keyword": "Rudenko-Aleksandr-Aleksandrovich",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
