@@ -610,7 +610,8 @@ window.switchTab = function(tabId, event) {
 };
 
 async function loadJSON(name) {
-  const res = await fetch(`${DATA_BASE}/${name}.json`);
+  // Добавляем ?t=... чтобы браузер всегда запрашивал свежую версию
+  const res = await fetch(`${DATA_BASE}/${name}.json?t=${Date.now()}`, { cache: 'no-store' });
   if (!res.ok) throw new Error(`Не удалось загрузить ${name}.json`);
   return res.json();
 }
@@ -621,7 +622,7 @@ async function init() {
       loadJSON("standings"),
       loadJSON("matches_flat"),
       loadJSON("current_tour").catch(() => null),
-      fetch("./data/seasons.json").then(r => r.json()).catch(() => null),
+      fetch(`./data/seasons.json?t=${Date.now()}`, { cache: 'no-store' }).then(r => r.json()).catch(() => null),
       loadJSON("clubs").catch(() => []),
       loadJSON("stages").catch(() => [])
     ]);
@@ -1042,25 +1043,55 @@ async function updateLiveMatches() {
                 const updateObj = (list, isCalendar) => {
                     const m = list.find(x => (isCalendar ? (x.matchId === matchId || x.id === matchId) : x.id === matchId));
                     if (m) {
-                        if (freshData.goalH !== undefined) m.goalH = freshData.goalH;
-                        if (freshData.goalA !== undefined) m.goalA = freshData.goalA;
+                        // Для лайва счет мы уже посчитали выше по событиям, 
+                        // поэтому из match.json берем счет только для завершенных матчей
+                        if (freshData.status === 4) {
+                            if (freshData.goalH !== undefined) m.goalH = freshData.goalH;
+                            if (freshData.goalA !== undefined) m.goalA = freshData.goalA;
+                        }
                         if (freshData.status !== undefined) m.status = freshData.status;
                         if (freshData.dateStartStatus) m.dateStartStatus = freshData.dateStartStatus;
                     }
                 };
                 
+                // Сначала обновляем события (broadcast), чтобы вычислить счет
+                try {
+                    const evRes = await fetch(`${DATA_BASE}/matches/events_${matchId}.json?t=${Date.now()}`, { cache: 'no-store' });
+                    if (evRes.ok) {
+                        const ev = await evRes.json();
+                        const newBroadcast = ev.broadcast || [];
+                        window._currentMatchBroadcast = window._currentMatchBroadcast || {};
+                        window._currentMatchBroadcast[matchId] = newBroadcast;
+
+                        // Вычисляем счет по событиям из broadcast
+                        let hGoals = 0;
+                        let aGoals = 0;
+                        newBroadcast.forEach(evt => {
+                            const isGoal = evt.action === "Goal" || evt.action === "PenaltyGoal";
+                            const isAutoGoal = evt.action === "AutoGoal";
+                            if (isGoal || isAutoGoal) {
+                                // Учитываем только реализованные пенальти (если есть флаг)
+                                if (evt.action === "AppointedPenalty" && evt.isPenaltyRealized === false) return;
+                                
+                                let scoringClub = evt.club;
+                                if (isAutoGoal) {
+                                    // При автоголе засчитываем противоположной команде
+                                    scoringClub = (evt.club === freshData.clubH) ? freshData.clubA : freshData.clubH;
+                                }
+                                if (scoringClub === freshData.clubH) hGoals++;
+                                if (scoringClub === freshData.clubA) aGoals++;
+                            }
+                        });
+                        
+                        freshData.goalH = hGoals;
+                        freshData.goalA = aGoals;
+                    }
+                } catch (_) {}
+
+                // Теперь обновляем данные в объектах
                 updateObj(allMatchesData, false);
                 updateObj(allCalendarMatches, true);
 
-                // Обновляем broadcast, чтобы корректно определять перерыв / 2-й тайм
-                try {
-                    const evRes = await fetch(`${DATA_BASE}/matches/events_${matchId}.json`, { cache: 'no-store' });
-                    if (evRes.ok) {
-                        const ev = await evRes.json();
-                        window._currentMatchBroadcast = window._currentMatchBroadcast || {};
-                        window._currentMatchBroadcast[matchId] = ev.broadcast || [];
-                    }
-                } catch (_) {}
 
                 // 2. Обновляем визуальную карточку на главной
                 const card = document.querySelector(`.match-card[onclick="openMatchModal(${matchId})"]`);
@@ -1600,7 +1631,7 @@ window.openMatchModal = async function(matchId) {
         let isFallback = false;
 
         try {
-            const res = await fetch(`./data/current/matches/match_${matchId}.json`);
+            const res = await fetch(`./data/current/matches/match_${matchId}.json?t=${Date.now()}`, { cache: 'no-store' });
             if (res.ok) {
                 data = await res.json();
             } else {
@@ -1733,7 +1764,7 @@ window.openMatchModal = async function(matchId) {
         let matchEvents = null;
         let matchBroadcast = [];
         try {
-            const evRes = await fetch(`./data/current/matches/events_${matchId}.json`);
+            const evRes = await fetch(`./data/current/matches/events_${matchId}.json?t=${Date.now()}`, { cache: 'no-store' });
             if (evRes.ok) {
                 const ev = await evRes.json();
                 matchEvents = ev.protocol || [];
@@ -1747,13 +1778,34 @@ window.openMatchModal = async function(matchId) {
             console.log('events не загружены', err);
         }
 
+        // ─── Пересчет счета по событиям для лайва ───
+        if (data.status !== 0 && data.status !== 4 && matchBroadcast.length > 0) {
+            let hGoals = 0;
+            let aGoals = 0;
+            matchBroadcast.forEach(evt => {
+                const isGoal = evt.action === "Goal" || evt.action === "PenaltyGoal";
+                const isAutoGoal = evt.action === "AutoGoal";
+                if (isGoal || isAutoGoal) {
+                    if (evt.action === "AppointedPenalty" && evt.isPenaltyRealized === false) return;
+                    let scoringClub = evt.club;
+                    if (isAutoGoal) {
+                        scoringClub = (evt.club === data.clubH) ? data.clubA : data.clubH;
+                    }
+                    if (scoringClub === data.clubH) hGoals++;
+                    if (scoringClub === data.clubA) aGoals++;
+                }
+            });
+            data.goalH = hGoals;
+            data.goalA = aGoals;
+        }
+
         // ─── Загрузка составов ───
         let lineupsHtml = '<div class="empty-state">Составы не загружены</div>';
         let hasLineups = false; // <-- Выносим флаг сюда
         let lineupsData = null; // <-- Сохраняем данные
         
         try {
-            const lineupsRes = await fetch(`./data/current/matches/lineups_${matchId}.json`);
+            const lineupsRes = await fetch(`./data/current/matches/lineups_${matchId}.json?t=${Date.now()}`, { cache: 'no-store' });
             if (lineupsRes.ok) {
                 lineupsData = await lineupsRes.json();
                 const lineups = lineupsData;
