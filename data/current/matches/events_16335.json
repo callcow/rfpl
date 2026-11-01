@@ -1114,6 +1114,87 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65775,
+      "type": "GamePeriodOpen",
+      "action": null,
+      "time": 45,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65776,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 46,
+      "extra": null,
+      "player1": {
+        "id": 17559,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48116/11671_2026_150_48116.jpg",
+        "name": "Зелимхан",
+        "lastname": "Бакаев",
+        "nickname": "",
+        "keyword": "Bakaev-Zelimhan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 23855,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48124/27486_2026_150_48124.jpg",
+        "name": "Александр",
+        "lastname": "Коваленко",
+        "nickname": "",
+        "keyword": "Kovalenko-Aleksandr-Igorevich",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65777,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 46,
+      "extra": null,
+      "player1": {
+        "id": 25698,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48183/30366_2026_150_48183.jpg",
+        "name": "Эсекьель Омар",
+        "lastname": "Барко",
+        "nickname": "",
+        "keyword": "Barko-Esekel-Omar",
+        "amplua": 2,
+        "public_lastname": "Барко",
+        "public_name": "Эсекьель"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
