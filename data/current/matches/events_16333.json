@@ -142,6 +142,60 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65652,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 15,
+      "extra": null,
+      "player1": {
+        "id": 25308,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48145/29841_2026_150_48145.jpg",
+        "name": "Натан Баба",
+        "lastname": "Гассама",
+        "nickname": "",
+        "keyword": "Gassama-Natan-Baba",
+        "amplua": 1,
+        "public_lastname": "Гассама",
+        "public_name": "Натан"
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65653,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 16,
+      "extra": null,
+      "player1": {
+        "id": 25885,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48143/32094_2026_150_48143.jpg",
+        "name": "Элдар",
+        "lastname": "Чивич",
+        "nickname": "",
+        "keyword": "Civic-Eldar",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
