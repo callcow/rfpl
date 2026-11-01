@@ -2960,7 +2960,7 @@ window.toggleOfficials = function(btn, event) {
             setTimeout(() => {
                 if (!scroller) return;
                 const r = block.getBoundingClientRect(), sr = scroller.getBoundingClientRect();
-                if (r.bottom > sr.bottom) scroller.scrollBy({ top: r.bottom - sr.bottom + 16, behavior: 'smooth' });
+                scroller.scrollTo({ top: scroller.scrollHeight, behavior: 'smooth' });
             }, 380);
         } else {
             block.classList.remove('is-open');
@@ -3217,8 +3217,9 @@ window.openClubModal = async function(clubId) {
                         <div class="club-players-grid">
                             ${list.sort((a,b) => a.number - b.number).map(p => {
                                 return `
-                                    <div class="club-player-card" onclick="closeClubModal(event); filterByTeam(${clubId})">
-                                        <div class="club-player-number">${p.number || '-'}</div>
+                                    <div class="club-player-card" data-lt="${p.lineupType}" onclick="closeClubModal(event); filterByTeam(${clubId})">
+                                        <div class="club-player-pos">${({0: 'ВР', 1: 'ЗЩ', 2: 'ПЗ', 3: 'НП'})[p.amplua] || ''}</div>
+                                        <div class="player-circle">${p.number || '-'}</div>
                                         <div class="club-player-name">
                                             ${getPlayerNameWithFlag(p, false)}
                                         </div>
@@ -3353,7 +3354,11 @@ window.openClubModal = async function(clubId) {
             </div>
 
             <div id="club-tab-squad" class="club-tab-pane active">
-                <div class="club-squad-wrapper">
+                <div class="squad-filter-nav">
+                    <button class="squad-filter-btn active" onclick="switchSquadFilter('main', event)">Основной состав</button>
+                    <button class="squad-filter-btn" onclick="switchSquadFilter('full', event)">Полная заявка</button>
+                </div>
+                <div class="club-squad-wrapper squad-mode-main">
                     ${playersHtml}
                 </div>
             </div>
@@ -3369,6 +3374,10 @@ window.openClubModal = async function(clubId) {
             clubModalContent.removeEventListener('scroll', checkScrollToTopVisibility);
             clubModalContent.addEventListener('scroll', checkScrollToTopVisibility);
         }
+        setTimeout(() => {
+            moveSquadSlider();
+            applySquadFilter(document.querySelector('#club-tab-squad .club-squad-wrapper'), 'main', false);
+        }, 0);
         
         // Сбрасываем кнопку при открытии
         checkScrollToTopVisibility();
@@ -3377,6 +3386,67 @@ window.openClubModal = async function(clubId) {
         console.error(e);
         body.innerHTML = `<div class="modal-state modal-state--error">Ошибка загрузки: ${e.message}</div>`;
     }
+};
+
+window.moveSquadSlider = function() {
+    const nav = document.querySelector('#club-tab-squad .squad-filter-nav');
+    const activeBtn = nav && nav.querySelector('.squad-filter-btn.active');
+    if (!nav || !activeBtn) return;
+
+    let slider = nav.querySelector('.squad-filter-slider');
+    if (!slider) {
+        slider = document.createElement('div');
+        slider.className = 'squad-filter-slider';
+        nav.appendChild(slider);
+    }
+    slider.style.width = `${activeBtn.offsetWidth}px`;
+    slider.style.transform = `translateX(${activeBtn.offsetLeft}px)`;
+};
+
+window.applySquadFilter = function(wrap, mode, animate) {
+    if (!wrap) return;
+    const LEAVE_MS = 250;
+    const isHiddenByMode = card => mode === 'main' && card.dataset.lt === '2';
+
+    const toggleItem = (el, hide) => {
+        clearTimeout(el._squadTimer);
+        if (hide) {
+            if (el.classList.contains('is-hidden') || el.classList.contains('is-leaving')) return;
+            if (!animate) { el.classList.add('is-hidden'); return; }
+            el.classList.remove('is-entering');
+            el.classList.add('is-leaving');
+            el._squadTimer = setTimeout(() => {
+                el.classList.remove('is-leaving');
+                el.classList.add('is-hidden');
+            }, LEAVE_MS);
+        } else {
+            if (!el.classList.contains('is-hidden') && !el.classList.contains('is-leaving')) return;
+            el.classList.remove('is-hidden', 'is-leaving');
+            if (animate) {
+                el.classList.add('is-entering');
+                el.addEventListener('animationend', () => el.classList.remove('is-entering'), { once: true });
+            }
+        }
+    };
+
+    wrap.querySelectorAll('.club-player-card').forEach(card => {
+        toggleItem(card, isHiddenByMode(card));
+    });
+
+    wrap.querySelectorAll('.club-players-group').forEach(group => {
+        const hasVisible = [...group.querySelectorAll('.club-player-card')].some(c => !isHiddenByMode(c));
+        toggleItem(group, !hasVisible);
+    });
+};
+
+window.switchSquadFilter = function(mode, event) {
+    const wrap = document.querySelector('#club-tab-squad .club-squad-wrapper');
+    if (!wrap) return;
+    wrap.classList.toggle('squad-mode-main', mode === 'main');
+    document.querySelectorAll('#club-tab-squad .squad-filter-btn').forEach(b => b.classList.remove('active'));
+    if (event && event.target) event.target.classList.add('active');
+    moveSquadSlider();
+    applySquadFilter(wrap, mode, true);
 };
 
 window.switchClubTab = function(tabId, event) {
