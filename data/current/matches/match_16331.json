@@ -43,11 +43,11 @@
       "lastname": "Сафьян"
     },
     {
-      "id": 437,
+      "id": 181,
       "photo": "",
       "position": "Инспектор",
-      "name": "Александр",
-      "lastname": "Гвардис"
+      "name": "Андрей",
+      "lastname": "Бутенко"
     },
     {
       "id": 395,
@@ -79,13 +79,13 @@
   "ticketsLink": "https://pfcks.ru/tickets/",
   "winline": {
     "outcome1": 5.6,
-    "outcome2": 4.5,
+    "outcome2": 4.4,
     "outcome3": 1.55,
     "link": "https://winline.ru/plus/16969335",
     "erid": "2W5zFJkMwNy"
   },
   "comments": "",
-  "weather": "4.8°C, Безоблачно",
+  "weather": "3.9°C, Малооблачно",
   "documents": {
     "protocol": null,
     "report": null,
