@@ -88,6 +88,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65832,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 8,
+      "extra": null,
+      "player1": {
+        "id": 25704,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47891/30372_2026_150_47891.jpg",
+        "name": "Даниэль",
+        "lastname": "Фернандес Фернандес",
+        "nickname": "",
+        "keyword": "Fernandes-Fernandes-Daniel",
+        "amplua": 1,
+        "public_lastname": "Фернандес",
+        "public_name": "Дани"
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
