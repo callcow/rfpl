@@ -1,0 +1,14 @@
+[
+  {
+    "id": 3906,
+    "photo": "https://cdn.premierliga.ru/resources/25/20/Andrey_Talalaev.jpg",
+    "name": "Андрей",
+    "lastname": "Талалаев",
+    "citizenship": "Россия",
+    "club": 444,
+    "keyword": "",
+    "isCurrentCoach": true,
+    "photoBig": "https://cdn.premierliga.ru/resources/25/20/Andrey_Talalaev.png",
+    "birthday": "1972-10-05"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": 504,
+  "name": "Оренбург",
+  "nameShort": "ОРЕ",
+  "year": "1976",
+  "city": "Оренбург",
+  "color": "001e5a",
+  "logo": "logos/club_ore_color_main.svg",
+  "site": "www.fcorenburg.ru",
+  "phone": "+7 (3532) 440011",
+  "email": "info@fcorenburg.ru",
+  "address": "460008, Оренбургская область, п. Ростоши, ул. Газпромовская, д. 65",
+  "achievements": "",
+  "socials": {
+    "telegram": "https://t.me/fcorenburg",
+    "vkontakte": "https://vk.com/fcorenburg",
+    "youtube": "https://www.youtube.com/fcorenburg"
+  }
+}

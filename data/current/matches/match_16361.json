@@ -1,0 +1,33 @@
+{
+  "id": 16361,
+  "tournament": 724,
+  "stage": 2977,
+  "mainMatchPhoto": null,
+  "clubH": 264,
+  "clubA": 1,
+  "goalH": null,
+  "goalA": null,
+  "date": "2026-11-30UTC19:30:00",
+  "status": 0,
+  "dateStartStatus": null,
+  "city": "Воронеж",
+  "stadium": "«Факел»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01833.jpg",
+  "attendance": null,
+  "broadcastLink": null,
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://lk.fakelfc.ru/login?from=http://fakelfc.ru",
+  "winline": null,
+  "comments": null,
+  "weather": "",
+  "documents": {
+    "protocol": null,
+    "report": null,
+    "lineup": null,
+    "preview": null
+  },
+  "protocol": false,
+  "countVideos": null
+}

@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3770,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3770_150.jpg",
+      "position": "Главный судья",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 4629,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4629_150.jpg",
+      "position": "Резервный судья",
+      "name": "Андрей",
+      "lastname": "Прокопов"
+    },
+    {
+      "id": 4530,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Ермаков"
+    },
+    {
+      "id": 3829,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Веретёшкин"
+    },
+    {
+      "id": 4038,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
+      "position": "ВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 4192,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4192_150.jpg",
+      "position": "АВАР",
+      "name": "Роман",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 421,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Французов"
+    },
+    {
+      "id": 587,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Илья",
+      "lastname": "Хламов"
+    }
+  ],
+  "id": 16258,
+  "tournament": 724,
+  "stage": 2964,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/SPA_KRA_Title_2.JPG",
+  "clubH": 1,
+  "clubA": 584,
+  "goalH": 1,
+  "goalA": 2,
+  "date": "2026-08-09UTC20:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-09UTC21:57:00",
+  "city": "Москва",
+  "stadium": "«Лукойл Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01744.jpg",
+  "attendance": 38846,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_b68ff495b38ee71c6a5ace3cdfc13005_hd/17_1024210/83e58bbc8561a8c94dc9174a2b8c9494/4941975679?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.spartak.com/?utm_source=rpl&utm_medium=button&utm_campaign=tickets",
+  "winline": null,
+  "comments": "",
+  "weather": "19.5°C, Малооблачно, небольшой дождь",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD03_SPA-KRA_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD03_SPA-KRA_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

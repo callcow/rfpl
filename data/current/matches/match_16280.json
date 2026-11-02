@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3361,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3361_150.jpg",
+      "position": "Главный судья",
+      "name": "Сергей",
+      "lastname": "Иванов"
+    },
+    {
+      "id": 4635,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4635_150.jpg",
+      "position": "Резервный судья",
+      "name": "Игорь",
+      "lastname": "Капленков"
+    },
+    {
+      "id": 3835,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Образко"
+    },
+    {
+      "id": 3935,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Денис",
+      "lastname": "Петров"
+    },
+    {
+      "id": 3845,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3845_150.jpg",
+      "position": "ВАР",
+      "name": "Антон",
+      "lastname": "Фролов"
+    },
+    {
+      "id": 3819,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
+      "position": "АВАР",
+      "name": "Иван",
+      "lastname": "Абросимов"
+    },
+    {
+      "id": 477,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Вячеслав",
+      "lastname": "Харламов"
+    },
+    {
+      "id": 461,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Цитович"
+    }
+  ],
+  "id": 16280,
+  "tournament": 724,
+  "stage": 2966,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/FKL_ORE_Title_1.jpg",
+  "clubH": 264,
+  "clubA": 504,
+  "goalH": 0,
+  "goalA": 0,
+  "date": "2026-08-22UTC15:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-22UTC17:30:00",
+  "city": "Воронеж",
+  "stadium": "«Факел»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01833.jpg",
+  "attendance": 8001,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_915b33934ce4bfd901635505e92f216f_hd/17_1026536/e6430438eef10190debaf3bb47ba04e4/4943082684?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://lk.fakelfc.ru/login?from=http://fakelfc.ru",
+  "winline": null,
+  "comments": "",
+  "weather": "23.1°C, Малооблачно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD05_FKL-ORE_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD05_FKL-ORE_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

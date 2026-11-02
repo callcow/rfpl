@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4630,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Nikita_Novikov.jpg",
+      "position": "Главный судья",
+      "name": "Никита",
+      "lastname": "Новиков"
+    },
+    {
+      "id": 4635,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4635_150.jpg",
+      "position": "Резервный судья",
+      "name": "Игорь",
+      "lastname": "Капленков"
+    },
+    {
+      "id": 2819,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Лунёв"
+    },
+    {
+      "id": 4643,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Никита",
+      "lastname": "Матиеску"
+    },
+    {
+      "id": 4038,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
+      "position": "ВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 3219,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
+      "position": "АВАР",
+      "name": "Владимир",
+      "lastname": "Москалёв"
+    },
+    {
+      "id": 421,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Французов"
+    },
+    {
+      "id": 587,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Илья",
+      "lastname": "Хламов"
+    }
+  ],
+  "id": 16265,
+  "tournament": 724,
+  "stage": 2965,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/KS_DMH_Title_1.jpg",
+  "clubH": 10,
+  "clubA": 125,
+  "goalH": 1,
+  "goalA": 4,
+  "date": "2026-08-16UTC17:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-16UTC18:57:00",
+  "city": "Самара",
+  "stadium": "«Солидарность Самара Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01789.jpg",
+  "attendance": 9035,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_29732ddee6ed69e8f34c6b320fa5b8bf_hd/17_1025494/a2d8f7c638c5237ffa512fe268d4bc31/4947738206?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://pfcks.ru/tickets/",
+  "winline": null,
+  "comments": "",
+  "weather": "14.3°C, Облачно, небольшой дождь",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD04_KRS-DMH_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD04_KRS-DMH_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

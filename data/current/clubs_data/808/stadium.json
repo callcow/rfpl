@@ -1,0 +1,13 @@
+{
+  "id": 1380,
+  "photo": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01380.jpg",
+  "name": "«Арена Химки»",
+  "year": "2008",
+  "capacity": 14950,
+  "city": "Химки",
+  "address": {
+    "name": "г. Химки,  ул. Кирова, вл. 24",
+    "coords": "55.885435, 37.453310"
+  },
+  "information": ""
+}

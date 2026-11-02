@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4004,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
+      "position": "Главный судья",
+      "name": "Сергей",
+      "lastname": "Цыганок"
+    },
+    {
+      "id": 4060,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4060_150.jpg",
+      "position": "Резервный судья",
+      "name": "Инал",
+      "lastname": "Танашев"
+    },
+    {
+      "id": 4274,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Варанцо",
+      "lastname": "Петросян"
+    },
+    {
+      "id": 4278,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Денис",
+      "lastname": "Березнов"
+    },
+    {
+      "id": 3845,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3845_150.jpg",
+      "position": "ВАР",
+      "name": "Антон",
+      "lastname": "Фролов"
+    },
+    {
+      "id": 3219,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
+      "position": "АВАР",
+      "name": "Владимир",
+      "lastname": "Москалёв"
+    },
+    {
+      "id": 504,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Виктор",
+      "lastname": "Кулагин"
+    },
+    {
+      "id": 761,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Попов"
+    }
+  ],
+  "id": 16261,
+  "tournament": 724,
+  "stage": 2964,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/LOKO_AKR_Title_2_0.JPG",
+  "clubH": 5,
+  "clubA": 807,
+  "goalH": 0,
+  "goalA": 0,
+  "date": "2026-08-08UTC18:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-08UTC19:56:00",
+  "city": "Москва",
+  "stadium": "«РЖД Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00001.jpg",
+  "attendance": 8495,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_f75fa525cbb73d67f2c56a62597dd4d3_hd/17_1024200/002fb81ed57736da644348d082fbcf8b/4941881993?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://www.fclm.ru/tickets/",
+  "winline": null,
+  "comments": "",
+  "weather": "22.4°C, Малооблачно, небольшой дождь",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD03_LOK-AKR_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD03_LOK-AKR_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

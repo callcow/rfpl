@@ -1,0 +1,33 @@
+{
+  "id": 16367,
+  "tournament": 724,
+  "stage": 2978,
+  "mainMatchPhoto": null,
+  "clubH": 808,
+  "clubA": 2,
+  "goalH": null,
+  "goalA": null,
+  "date": "2026-12-05UTC15:15:00",
+  "status": 0,
+  "dateStartStatus": null,
+  "city": "Химки",
+  "stadium": "«Арена Химки»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01380.jpg",
+  "attendance": null,
+  "broadcastLink": null,
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://rodina.moscow/tickets",
+  "winline": null,
+  "comments": null,
+  "weather": "",
+  "documents": {
+    "protocol": null,
+    "report": null,
+    "lineup": null,
+    "preview": null
+  },
+  "protocol": false,
+  "countVideos": null
+}

@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "photo": "https://cdn.premierliga.ru/resources/15/10/club_cover_001_05092026.jpg",
+  "name": "Спартак-Москва",
+  "nameShort": "СПА",
+  "nameOfficial": "АО «ФК «Спартак-Москва»",
+  "logo": "https://cdn.premierliga.ru/resources/15/10/club_spa_color_main.svg",
+  "color": "C8102E",
+  "year": "1922",
+  "city": "Москва",
+  "site": "spartak.com",
+  "tickets": "https://tickets.spartak.com/?utm_source=rpl&utm_medium=button&utm_campaign=tickets",
+  "store": "https://store.spartak.com/",
+  "socials": {
+    "telegram": "https://t.me/fcsmtg",
+    "max": "https://max.ru/fcsm",
+    "youtube": "https://www.youtube.com/user/fcsmofficial",
+    "vkontakte": "https://vk.com/public15502770",
+    "tiktok": "https://www.tiktok.com/@fcsm"
+  },
+  "address": "125424, г. Москва, Волоколамское шоссе, д. 69, стр. 2",
+  "phone": "+7 (495) 530-95-08",
+  "email": "spartak@spartak.com",
+  "info": "<p><ins>Названия команды:</ins></p>\r\n<p>МКС (1922)<br />\r\n&laquo;Красная Пресня&raquo; (1923&ndash;1926)<br />\r\n&laquo;Пищевики&raquo; (1926&ndash;1931)<br />\r\n&laquo;Промкооперация&raquo; (1931&ndash;1934)<br />\r\n&laquo;Спартак&raquo; (с 1934-го)</p>",
+  "achievements": "<p>Чемпион России &ndash; 1992, 1993, 1994, 1996, 1997, 1998, 1999, 2000, 2001, 2016/17</p>\r\n<p>Серебряный призёр чемпионата России &ndash; 2005, 2006, 2007, 2009, 2011/12, 2020/21</p>\r\n<p>Бронзовый призёр чемпионата России &ndash; 1995, 2002, 2017/18, 2022/23</p>\r\n<p>Обладатель Кубка России &ndash; 1993/94, 1997/98, 2002/03, 2021/22, 2025/26</p>\r\n<p>Финалист Кубка России &ndash; 1995/96, 2005/06</p>\r\n<p>Обладатель Суперкубка России &ndash; 2017</p>\r\n<p>Чемпион СССР &ndash; 1936, 1938, 1939, 1952, 1953, 1956, 1958, 1962, 1969, 1979, 1987, 1989</p>\r\n<p>Серебряный призёр чемпионата СССР: 1937, 1954, 1955, 1963, 1968, 1974, 1980, 1981, 1983, 1984, 1985, 1991</p>\r\n<p>Бронзовый призёр чемпионата СССР: 1936, 1940, 1948, 1949, 1957, 1961, 1970, 1982, 1986</p>\r\n<p>Обладатель Кубка СССР &ndash; 1938, 1939, 1946, 1947, 1950, 1958, 1963, 1965, 1971, 1992</p>\r\n<p>Победитель Кубка&nbsp;Содружества&nbsp;&ndash; 1993, 1994, 1995, 1999, 2000, 2001</p>",
+  "countVideos": 1,
+  "countNews": 1,
+  "hasStadium": true
+}

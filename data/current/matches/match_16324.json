@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3854,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3854_150.jpg",
+      "position": "Главный судья",
+      "name": "Сергей",
+      "lastname": "Чебан"
+    },
+    {
+      "id": 3776,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3776_150.jpg",
+      "position": "Резервный судья",
+      "name": "Евгений",
+      "lastname": "Буланов"
+    },
+    {
+      "id": 2799,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Максим",
+      "lastname": "Гаврилин"
+    },
+    {
+      "id": 3935,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Денис",
+      "lastname": "Петров"
+    },
+    {
+      "id": 4004,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
+      "position": "ВАР",
+      "name": "Сергей",
+      "lastname": "Цыганок"
+    },
+    {
+      "id": 979,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0979_150.jpg",
+      "position": "АВАР",
+      "name": "Василий",
+      "lastname": "Казарцев"
+    },
+    {
+      "id": 569,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Алексей",
+      "lastname": "Резников"
+    },
+    {
+      "id": 534,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Вячеслав",
+      "lastname": "Семёнов"
+    }
+  ],
+  "id": 16324,
+  "tournament": 724,
+  "stage": 2973,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/AKH_ORE_Title_1_0.jpg",
+  "clubH": 702,
+  "clubA": 504,
+  "goalH": 0,
+  "goalA": 1,
+  "date": "2026-10-23UTC19:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-23UTC21:27:03",
+  "city": "Грозный",
+  "stadium": "«Ахмат Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01718.jpg",
+  "attendance": 3963,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_9d833eb18a97844938909132e12d384b_hd/17_1037403/e36dc99736f7559dcadf6eee7a24c7fa/4948451297?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://akhmat-arena.ru/2019-04-20-16-51-31?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
+  "winline": null,
+  "comments": "",
+  "weather": "14.9°C, Пасмурно, небольшой дождь",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD12_AKH-ORE_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD12_AKH-ORE_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

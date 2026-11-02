@@ -1,0 +1,29 @@
+{
+  "id": 11,
+  "photo": "https://cdn.premierliga.ru/resources/15/10/club_cover_011_29082026.jpg",
+  "name": "Ростов",
+  "nameShort": "РОС",
+  "nameOfficial": "АО «ФК «Ростов»",
+  "logo": "https://cdn.premierliga.ru/resources/15/10/club_ros_color_main.svg",
+  "color": "FEDD00",
+  "year": "1930",
+  "city": "Ростов-на-Дону",
+  "site": "www.fc-rostov.ru",
+  "tickets": "https://tickets.fc-rostov.ru/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
+  "store": "https://fc-rostov.ru/shop",
+  "socials": {
+    "telegram": "https://t.me/fcrostov_official",
+    "max": "https://max.ru/id6166035680_gos",
+    "youtube": "https://www.youtube.com/user/fcrostovlive",
+    "vkontakte": "https://vk.com/fcrostov",
+    "tiktok": null
+  },
+  "address": "344029, г. Ростов-на-Дону, ул. Шолохова, д. 31E",
+  "phone": "+7 (918) 554-00-69",
+  "email": "info@fc-rostov.ru",
+  "info": "",
+  "achievements": "<p class=\"awards\">Серебряный призёр чемпионата России &ndash; 2015/16</p>\r\n<p class=\"awards\">Обладатель Кубка России &ndash; 2013/14</p>\r\n<p class=\"awards\">Финалист Кубка России &ndash; 2002/03, 2024/25</p>",
+  "countVideos": 1,
+  "countNews": 1,
+  "hasStadium": true
+}

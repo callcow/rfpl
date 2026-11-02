@@ -1,0 +1,33 @@
+{
+  "id": 16359,
+  "tournament": 724,
+  "stage": 2977,
+  "mainMatchPhoto": null,
+  "clubH": 2,
+  "clubA": 3,
+  "goalH": null,
+  "goalA": null,
+  "date": "2026-11-28UTC16:30:00",
+  "status": 0,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
+  "city": "Москва",
+  "stadium": "«ВЭБ Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01754.jpg",
+  "attendance": null,
+  "broadcastLink": "",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.pfc-cska.com/",
+  "winline": null,
+  "comments": "",
+  "weather": "",
+  "documents": {
+    "protocol": null,
+    "report": null,
+    "lineup": null,
+    "preview": null
+  },
+  "protocol": false,
+  "countVideos": null
+}
