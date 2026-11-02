@@ -16,11 +16,11 @@
     {
       "id": 16331,
       "date": "2026-11-02UTC18:00:00",
-      "status": 0,
+      "status": 1,
       "clubH": 10,
       "clubA": 3,
-      "goalH": null,
-      "goalA": null,
+      "goalH": 0,
+      "goalA": 0,
       "city": "Самара",
       "stadium": "«Солидарность Самара Арена»"
     },
