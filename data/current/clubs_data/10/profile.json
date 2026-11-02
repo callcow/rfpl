@@ -1,0 +1,29 @@
+{
+  "id": 10,
+  "photo": "https://cdn.premierliga.ru/resources/15/10/club_cover_010_05092026.JPG",
+  "name": "Крылья Советов",
+  "nameShort": "КРС",
+  "nameOfficial": "АО «ПФК «Крылья Советов»",
+  "logo": "https://cdn.premierliga.ru/resources/15/10/club_krs_color_main.svg",
+  "color": "2556B3",
+  "year": "1942",
+  "city": "Самара",
+  "site": "www.pfcks.ru",
+  "tickets": "https://pfcks.ru/tickets/",
+  "store": "https://store.pfcks.ru/",
+  "socials": {
+    "telegram": "https://t.me/fckssamara_official",
+    "max": null,
+    "youtube": "https://www.youtube.com/tvkssamara",
+    "vkontakte": "https://vk.com/fckssamara",
+    "tiktok": null
+  },
+  "address": "443011, г. Самара, ул. Шушенская, д. 50А",
+  "phone": "+7 (846) 335-16-35",
+  "email": "fc@ks-samara.com",
+  "info": "",
+  "achievements": "<p class=\"awards\">Бронзовый призёр чемпионата России &ndash; 2004</p>\r\n<p class=\"awards\">Финалист Кубка России &ndash; 2003/04, 2020/21</p>\r\n<p class=\"awards\">Финалист Кубка СССР &ndash; 1953, 1964</p>",
+  "countVideos": 1,
+  "countNews": 1,
+  "hasStadium": true
+}

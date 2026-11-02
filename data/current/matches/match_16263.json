@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4635,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4635_150.jpg",
+      "position": "Главный судья",
+      "name": "Игорь",
+      "lastname": "Капленков"
+    },
+    {
+      "id": 4638,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Matvey_Zaika.jpg",
+      "position": "Резервный судья",
+      "name": "Матвей",
+      "lastname": "Заика"
+    },
+    {
+      "id": 4346,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Рустам",
+      "lastname": "Мухтаров"
+    },
+    {
+      "id": 3990,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Руслан",
+      "lastname": "Шекемов"
+    },
+    {
+      "id": 3776,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3776_150.jpg",
+      "position": "ВАР",
+      "name": "Евгений",
+      "lastname": "Буланов"
+    },
+    {
+      "id": 3845,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3845_150.jpg",
+      "position": "АВАР",
+      "name": "Антон",
+      "lastname": "Фролов"
+    },
+    {
+      "id": 438,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Эдуард",
+      "lastname": "Малый"
+    },
+    {
+      "id": 431,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Ильдар",
+      "lastname": "Зарипов"
+    }
+  ],
+  "id": 16263,
+  "tournament": 724,
+  "stage": 2964,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ZEN_ROD_Title_3.jpg",
+  "clubH": 3,
+  "clubA": 808,
+  "goalH": 1,
+  "goalA": 2,
+  "date": "2026-08-09UTC17:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-09UTC18:58:00",
+  "city": "Санкт-Петербург",
+  "stadium": "«Газпром Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01758.jpg",
+  "attendance": 27841,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_bf724a95d1e89c83b3a2c5c4e908a46c_hd/17_1024208/b3a21a4a9f4563b88498c7b8a9afd974/4941967292?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.fc-zenit.ru/football/tickets/#zenit",
+  "winline": null,
+  "comments": "",
+  "weather": "18.1°C, Облачно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD03_ZEN-ROD_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD03_ZEN-ROD_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

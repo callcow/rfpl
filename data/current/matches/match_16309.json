@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4060,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4060_150.jpg",
+      "position": "Главный судья",
+      "name": "Инал",
+      "lastname": "Танашев"
+    },
+    {
+      "id": 4635,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4635_150.jpg",
+      "position": "Резервный судья",
+      "name": "Игорь",
+      "lastname": "Капленков"
+    },
+    {
+      "id": 3961,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 4346,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Рустам",
+      "lastname": "Мухтаров"
+    },
+    {
+      "id": 3776,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3776_150.jpg",
+      "position": "ВАР",
+      "name": "Евгений",
+      "lastname": "Буланов"
+    },
+    {
+      "id": 3845,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3845_150.jpg",
+      "position": "АВАР",
+      "name": "Антон",
+      "lastname": "Фролов"
+    },
+    {
+      "id": 438,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Эдуард",
+      "lastname": "Малый"
+    },
+    {
+      "id": 766,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Сергей",
+      "lastname": "Беседин"
+    }
+  ],
+  "id": 16309,
+  "tournament": 724,
+  "stage": 2971,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/KRA_ZEN_Title_2_0.jpg",
+  "clubH": 584,
+  "clubA": 3,
+  "goalH": 2,
+  "goalA": 3,
+  "date": "2026-10-10UTC19:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-10UTC21:33:53",
+  "city": "Краснодар",
+  "stadium": "«Ozon Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01755.jpg",
+  "attendance": 35055,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_4e3a35a1322e12d38c9f9033b342edba_hd/17_1035247/bebcc1b950a38318e4479d4ba3dd93f9/4947331775?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://fckrasnodar.ru/stadium/tickets/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage#grafik-tab",
+  "winline": null,
+  "comments": "",
+  "weather": "16.3°C, Малооблачно, небольшой дождь",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD10_KRA-ZEN_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD10_KRA-ZEN_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

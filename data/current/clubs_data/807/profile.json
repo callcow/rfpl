@@ -1,0 +1,29 @@
+{
+  "id": 807,
+  "photo": "https://cdn.premierliga.ru/resources/15/10/club_cover_807_29082026.jpg",
+  "name": "Акрон",
+  "nameShort": "АКР",
+  "nameOfficial": "АНО «ФК «АКРОН»",
+  "logo": "https://cdn.premierliga.ru/resources/15/10/club_akr_color_main.svg",
+  "color": "CE112D",
+  "year": "2018",
+  "city": "Тольятти",
+  "site": "www.fcakron.ru",
+  "tickets": "https://matchday.fcakron.ru/",
+  "store": "https://shop.fcakron.ru/",
+  "socials": {
+    "telegram": "https://t.me/fcakron",
+    "max": "https://max.ru/fcakron",
+    "youtube": "https://www.youtube.com/fcakron",
+    "vkontakte": "https://vk.com/fcakron",
+    "tiktok": null
+  },
+  "address": "445054, Самарская область, г. Тольятти, ул. Баныкина, д. 48",
+  "phone": "+7 (848) 294-07-00",
+  "email": "info@fcakron.ru",
+  "info": "",
+  "achievements": "",
+  "countVideos": 1,
+  "countNews": 1,
+  "hasStadium": true
+}

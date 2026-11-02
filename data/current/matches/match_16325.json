@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3770,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3770_150.jpg",
+      "position": "Главный судья",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 4060,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4060_150.jpg",
+      "position": "Резервный судья",
+      "name": "Инал",
+      "lastname": "Танашев"
+    },
+    {
+      "id": 4530,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Ермаков"
+    },
+    {
+      "id": 3829,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Веретёшкин"
+    },
+    {
+      "id": 979,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0979_150.jpg",
+      "position": "ВАР",
+      "name": "Василий",
+      "lastname": "Казарцев"
+    },
+    {
+      "id": 660,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0660_150.jpg",
+      "position": "АВАР",
+      "name": "Павел",
+      "lastname": "Шадыханов"
+    },
+    {
+      "id": 438,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Эдуард",
+      "lastname": "Малый"
+    },
+    {
+      "id": 502,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Суворов"
+    }
+  ],
+  "id": 16325,
+  "tournament": 724,
+  "stage": 2973,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/CSKA_SPA_Title_1_0.jpg",
+  "clubH": 2,
+  "clubA": 1,
+  "goalH": 2,
+  "goalA": 0,
+  "date": "2026-10-25UTC16:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-25UTC18:11:15",
+  "city": "Москва",
+  "stadium": "«ВЭБ Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01754.jpg",
+  "attendance": 29969,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_78e6d7be96c9f67b2221b300a8276f41_hd/17_1034815/f1f0b5d624e30cd60193925d69ecbcc8/4948614916?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.pfc-cska.com/",
+  "winline": null,
+  "comments": "",
+  "weather": "12.4°C, Безоблачно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD12_CSKA-SPA_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD12_CSKA-SPA_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4630,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Nikita_Novikov.jpg",
+      "position": "Главный судья",
+      "name": "Никита",
+      "lastname": "Новиков"
+    },
+    {
+      "id": 4303,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4303_150.jpg",
+      "position": "Резервный судья",
+      "name": "Рафаэль",
+      "lastname": "Шафеев"
+    },
+    {
+      "id": 3974,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Кирилл",
+      "lastname": "Большаков"
+    },
+    {
+      "id": 3829,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Веретёшкин"
+    },
+    {
+      "id": 4004,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
+      "position": "ВАР",
+      "name": "Сергей",
+      "lastname": "Цыганок"
+    },
+    {
+      "id": 3770,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3770_150.jpg",
+      "position": "АВАР",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 561,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Олег",
+      "lastname": "Соколов"
+    },
+    {
+      "id": 395,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Радик",
+      "lastname": "Ахмадуллин"
+    }
+  ],
+  "id": 16306,
+  "tournament": 724,
+  "stage": 2971,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/KS_SPA_Title_1.jpg",
+  "clubH": 10,
+  "clubA": 1,
+  "goalH": 1,
+  "goalA": 1,
+  "date": "2026-10-10UTC17:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-10UTC19:28:01",
+  "city": "Самара",
+  "stadium": "«Солидарность Самара Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01789.jpg",
+  "attendance": 18739,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_67f0adc02b4e714da9711ebdda88271b_hd/17_1035243/933e5c523294500e426ecd720a89eeb5/4947320922?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://pfcks.ru/tickets/",
+  "winline": null,
+  "comments": "",
+  "weather": "15°C, Облачно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD10_KRS-SPA_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD10_KRS-SPA_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

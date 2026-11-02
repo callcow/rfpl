@@ -1,0 +1,29 @@
+{
+  "id": 264,
+  "photo": "https://cdn.premierliga.ru/resources/15/10/club_cover_264_05092026.jpg",
+  "name": "Факел",
+  "nameShort": "ФКЛ",
+  "nameOfficial": "АФК «ФАКЕЛ»",
+  "logo": "https://cdn.premierliga.ru/resources/15/10/club_fkl_color_main.svg",
+  "color": "0047B1",
+  "year": "1947",
+  "city": "Воронеж",
+  "site": "www.fakelfc.ru",
+  "tickets": "https://lk.fakelfc.ru/login?from=http://fakelfc.ru",
+  "store": "https://shop.fakelfc.ru/",
+  "socials": {
+    "telegram": "https://t.me/pfcfakel",
+    "max": "https://max.ru/pfcfakel",
+    "youtube": "https://www.youtube.com/c/fakelTv",
+    "vkontakte": "https://vk.com/pfcfakel",
+    "tiktok": null
+  },
+  "address": "394011, Воронеж, Красноармейский пер., д. 3A (БЦ «Москва»), 3-й этаж",
+  "phone": "+7 (473) 272-71-47",
+  "email": "office@fakelfc.ru",
+  "info": "",
+  "achievements": "",
+  "countVideos": 1,
+  "countNews": 1,
+  "hasStadium": true
+}

@@ -1,0 +1,29 @@
+{
+  "id": 584,
+  "photo": "https://cdn.premierliga.ru/resources/15/10/club_cover_584_05092026.jpg",
+  "name": "Краснодар",
+  "nameShort": "КРА",
+  "nameOfficial": "ООО «ФК «Краснодар»",
+  "logo": "https://cdn.premierliga.ru/resources/15/10/club_kra_color_main.svg",
+  "color": "004923",
+  "year": "2008",
+  "city": "Краснодар",
+  "site": "www.fckrasnodar.ru",
+  "tickets": "https://fckrasnodar.ru/stadium/tickets/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage#grafik-tab",
+  "store": "https://shop.fckrasnodar.ru/",
+  "socials": {
+    "telegram": "https://t.me/fckrasnodar",
+    "max": "https://max.ru/fckrasnodar",
+    "youtube": "https://www.youtube.com/user/KrasnodarFC",
+    "vkontakte": "https://vk.com/fckrasnodar",
+    "tiktok": "https://www.tiktok.com/@fckrasnodar"
+  },
+  "address": "350901, г. Краснодар, ул. Разведчика Леонова, д. 1",
+  "phone": "+7 (861) 210-89-90",
+  "email": "info@fckrasnodar.ru",
+  "info": "",
+  "achievements": "<p class=\"awards\">Чемпион России &ndash; 2024/25</p>\r\n<p class=\"awards\">Серебряный призёр чемпионата России &ndash; 2023/24, 2025/26</p>\r\n<p class=\"awards\">Бронзовый призёр чемпионата России &ndash; 2014/15, 2018/19, 2019/20</p>\r\n<p class=\"awards\">Финалист Кубка России &ndash; 2013/14, 2022/23, 2025/26</p>",
+  "countVideos": 1,
+  "countNews": 1,
+  "hasStadium": true
+}

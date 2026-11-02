@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4630,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Nikita_Novikov.jpg",
+      "position": "Главный судья",
+      "name": "Никита",
+      "lastname": "Новиков"
+    },
+    {
+      "id": 4638,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Matvey_Zaika.jpg",
+      "position": "Резервный судья",
+      "name": "Матвей",
+      "lastname": "Заика"
+    },
+    {
+      "id": 4346,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Рустам",
+      "lastname": "Мухтаров"
+    },
+    {
+      "id": 4614,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Семёнов"
+    },
+    {
+      "id": 3819,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
+      "position": "ВАР",
+      "name": "Иван",
+      "lastname": "Абросимов"
+    },
+    {
+      "id": 3219,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
+      "position": "АВАР",
+      "name": "Владимир",
+      "lastname": "Москалёв"
+    },
+    {
+      "id": 436,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Александр",
+      "lastname": "Гончар"
+    },
+    {
+      "id": 485,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Владислав",
+      "lastname": "Барановский"
+    }
+  ],
+  "id": 16319,
+  "tournament": 724,
+  "stage": 2972,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/LOKO_KRA_Title_1.jpg",
+  "clubH": 5,
+  "clubA": 584,
+  "goalH": 3,
+  "goalA": 3,
+  "date": "2026-10-17UTC19:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-17UTC21:27:23",
+  "city": "Москва",
+  "stadium": "«РЖД Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00001.jpg",
+  "attendance": 16578,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_2784963e00a13c51fb0cbf971c4608e9_hd/17_1034811/22b93f7cb3c19646dc2e04eea7328bf0/4947932069?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://www.fclm.ru/tickets/",
+  "winline": null,
+  "comments": "",
+  "weather": "14.7°C, Пасмурно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD11_LOK-KRA_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD11_LOK-KRA_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

@@ -1,0 +1,97 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3827,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3827_150.jpg",
+      "position": "Главный судья",
+      "name": "Евгений",
+      "lastname": "Кукуляк"
+    },
+    {
+      "id": 4060,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4060_150.jpg",
+      "position": "Резервный судья",
+      "name": "Инал",
+      "lastname": "Танашев"
+    },
+    {
+      "id": 4346,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Рустам",
+      "lastname": "Мухтаров"
+    },
+    {
+      "id": 1404,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Болотенков"
+    },
+    {
+      "id": 4004,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
+      "position": "ВАР",
+      "name": "Сергей",
+      "lastname": "Цыганок"
+    },
+    {
+      "id": 4192,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4192_150.jpg",
+      "position": "АВАР",
+      "name": "Роман",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 181,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Андрей",
+      "lastname": "Бутенко"
+    },
+    {
+      "id": 395,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Радик",
+      "lastname": "Ахмадуллин"
+    }
+  ],
+  "id": 16331,
+  "tournament": 724,
+  "stage": 2974,
+  "mainMatchPhoto": null,
+  "clubH": 10,
+  "clubA": 3,
+  "goalH": 0,
+  "goalA": 0,
+  "date": "2026-11-02UTC18:00:00",
+  "status": 1,
+  "dateStartStatus": "2026-11-02UTC18:03:23",
+  "city": "Самара",
+  "stadium": "«Солидарность Самара Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01789.jpg",
+  "attendance": null,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_0cc50622f045225103a949c45ad409ef_hd/17_1040045/ae0f04cdedb06f463b5774ded86ed0f9/4949043440?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://pfcks.ru/tickets/",
+  "winline": {
+    "outcome1": 6,
+    "outcome2": 4.6,
+    "outcome3": 1.55,
+    "link": "https://winline.ru/plus/16969335",
+    "erid": "2W5zFJkMwNy"
+  },
+  "comments": "",
+  "weather": "3.4°C, Безоблачно",
+  "documents": {
+    "protocol": null,
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD13_KRS-ZEN_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": false,
+  "countVideos": null
+}

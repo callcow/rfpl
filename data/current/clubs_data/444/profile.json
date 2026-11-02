@@ -1,0 +1,29 @@
+{
+  "id": 444,
+  "photo": "https://cdn.premierliga.ru/resources/15/10/club_cover_444_20102026.jpg",
+  "name": "Балтика",
+  "nameShort": "БАЛ",
+  "nameOfficial": "АО «ФК «Балтика»",
+  "logo": "https://cdn.premierliga.ru/resources/15/10/club_bal_color_main.svg",
+  "color": "0C3E8C",
+  "year": "1954",
+  "city": "Калининград",
+  "site": "www.fc-baltika.ru",
+  "tickets": "https://tickets.fc-baltika.ru/",
+  "store": "https://shop.fc-baltika.ru/",
+  "socials": {
+    "telegram": "https://t.me/fc_baltika",
+    "max": null,
+    "youtube": "https://www.youtube.com/user/fcbaltika",
+    "vkontakte": "https://vk.com/fcbaltika",
+    "tiktok": null
+  },
+  "address": "236000, г. Калининград, ул. Дмитрия Донского, д.2",
+  "phone": "+7 (4012) 21-65-01",
+  "email": "info@fc-baltika.ru",
+  "info": "",
+  "achievements": "<p class=\"awards\">Финалист Кубка России &ndash; 2023/24</p>",
+  "countVideos": 1,
+  "countNews": 1,
+  "hasStadium": true
+}
