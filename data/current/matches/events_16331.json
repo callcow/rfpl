@@ -149,7 +149,17 @@
       "action": "Foul",
       "time": 15,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 26027,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47968/32280_2026_150_47968.jpg",
+        "name": "Джонатан",
+        "lastname": "дос Сантос Роза",
+        "nickname": "Джон Джон",
+        "keyword": "Jhon-Jhon",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
       "player2": null,
       "club": 3,
       "gameStateNumber": null,
