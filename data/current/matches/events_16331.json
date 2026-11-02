@@ -1,4 +1,39 @@
 {
   "protocol": [],
-  "broadcast": []
+  "broadcast": [
+    {
+      "id": 65828,
+      "type": "GamePeriodOpen",
+      "action": null,
+      "time": 0,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 65829,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 1,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    }
+  ]
 }
