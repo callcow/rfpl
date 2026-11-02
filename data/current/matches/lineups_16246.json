@@ -1,0 +1,755 @@
+{
+  "protocol": {
+    "clubH": {
+      "players": [
+        {
+          "id": 21525,
+          "lastname": "Ставер",
+          "name": "Евгений",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48051/9649_2026_150_48051.jpg",
+          "number": 38,
+          "keyword": "Staver-Evgeniy",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 23455,
+          "lastname": "Тесленко",
+          "name": "Егор",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48069/26647_2026_150_48069.jpg",
+          "number": 2,
+          "keyword": "Teslenko-Egor",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 24409,
+          "lastname": "Нижегородов",
+          "name": "Константин",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48309/28401_2026_150_48309.jpg",
+          "number": 4,
+          "keyword": "Nizhegorodov-Konstantin",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 25209,
+          "lastname": "Вуячич",
+          "name": "Игор",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48042/29725_2026_150_48042.jpg",
+          "number": 5,
+          "keyword": "Vuyachich-Igor",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25991,
+          "lastname": "Арройо Кордоба",
+          "name": "Андерсон",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48049/32221_2026_150_48049.jpg",
+          "number": 12,
+          "keyword": "Arroyo-Cordoba-Anderson",
+          "public_lastname": "Арройо",
+          "public_name": "Андерсон"
+        },
+        {
+          "id": 22506,
+          "lastname": "Безруков",
+          "name": "Руслан",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48068/25210_2026_150_48068.jpg",
+          "number": 23,
+          "keyword": "Bezrukov-Ruslan",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 23331,
+          "lastname": "Рожков",
+          "name": "Илья",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48070/26483_2026_150_48070.jpg",
+          "number": 51,
+          "keyword": "Rozhkov-Ilya",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 26076,
+          "lastname": "Грипши",
+          "name": "Назми",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48052/32311_2026_150_48052.jpg",
+          "number": 11,
+          "keyword": "Gripshi-Nazmi",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 25532,
+          "lastname": "Сааведра Пино",
+          "name": "Игнасио Антонио",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48313/30131_2026_150_48313.jpg",
+          "number": 14,
+          "keyword": "Saavedra-Pino-Ignasio-Antonio",
+          "public_lastname": "Сааведра",
+          "public_name": "Игнасио"
+        },
+        {
+          "id": 25757,
+          "lastname": "Ходжа",
+          "name": "Велдин",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48046/30435_2026_150_48046.jpg",
+          "number": 22,
+          "keyword": "Hodzha-Veldin",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25228,
+          "lastname": "Даку",
+          "name": "Мирлинд",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48043/29745_2026_150_48043.jpg",
+          "number": 10,
+          "keyword": "Daku-Mirlind",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 9835,
+          "lastname": "Нигматуллин",
+          "name": "Артур",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48047/9377_2026_150_48047.jpg",
+          "number": 25,
+          "keyword": "Nigmatullin-Artur",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 23330,
+          "lastname": "Корец",
+          "name": "Никита",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47971/26482_2026_150_47971.jpg",
+          "number": 86,
+          "keyword": "Korec-Nikita",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25902,
+          "lastname": "Мальдонадо Мунгуйя",
+          "name": "Дениль Омар",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48048/32120_2026_150_48048.jpg",
+          "number": 3,
+          "keyword": "Maldonado-Munguyya-Denil-Omar",
+          "public_lastname": "Мальдонадо",
+          "public_name": "Дениль"
+        },
+        {
+          "id": 26118,
+          "lastname": "Игнатьев",
+          "name": "Максим",
+          "nickname": null,
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48059/32354_2026_150_48059.jpg",
+          "number": 18,
+          "keyword": "Ignatev-Maksim",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 16964,
+          "lastname": "Кабутов",
+          "name": "Дмитрий",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48308/10004_2026_150_48308.jpg",
+          "number": 70,
+          "keyword": "Kabutov-Dmitrii",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 22501,
+          "lastname": "Самошников",
+          "name": "Илья",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48060/25177_2026_150_48060.jpg",
+          "number": 71,
+          "keyword": "Samoshnikov-Ilya",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 24749,
+          "lastname": "Лобов",
+          "name": "Никита",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48071/28873_2026_150_48071.jpg",
+          "number": 98,
+          "keyword": "Lobov-Nikita",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25571,
+          "lastname": "Йочич",
+          "name": "Богдан",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48383/30170_2026_150_48383.jpg",
+          "number": 8,
+          "keyword": "Yochich-Bogdan",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 23967,
+          "lastname": "Кузнецов",
+          "name": "Даниил",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48072/27654_2026_150_48072.jpg",
+          "number": 44,
+          "keyword": "Kuznecov-Daniil-Andreevich",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25570,
+          "lastname": "Юкич",
+          "name": "Александар",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48384/30169_2026_150_48384.jpg",
+          "number": 77,
+          "keyword": "Yukich-Aleksandar",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25994,
+          "lastname": "Сиве",
+          "name": "Жак Жюльен",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48050/32226_2026_150_48050.jpg",
+          "number": 43,
+          "keyword": "Siwe-Jacques-Jullien",
+          "public_lastname": "Сиве",
+          "public_name": "Жак"
+        },
+        {
+          "id": 23206,
+          "lastname": "Моторин",
+          "name": "Даниил",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47844/26279_2026_150_47844.jpg",
+          "number": 59,
+          "keyword": "Motorin-Daniil",
+          "public_lastname": "",
+          "public_name": ""
+        }
+      ],
+      "main": [
+        {
+          "id": 21525,
+          "amplua": 0,
+          "captain": false
+        },
+        {
+          "id": 23455,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 24409,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25209,
+          "amplua": 1,
+          "captain": true
+        },
+        {
+          "id": 25991,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 22506,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 23331,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 26076,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25532,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25757,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25228,
+          "amplua": 3,
+          "captain": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": 9835,
+          "amplua": 0,
+          "captain": false
+        },
+        {
+          "id": 23330,
+          "amplua": 0,
+          "captain": false
+        },
+        {
+          "id": 25902,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 26118,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 16964,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 22501,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 24749,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25571,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 23967,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25570,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25994,
+          "amplua": 3,
+          "captain": false
+        },
+        {
+          "id": 23206,
+          "amplua": 3,
+          "captain": false
+        }
+      ],
+      "coaches": [
+        {
+          "id": 7355,
+          "photo": "https://cdn.premierliga.ru/resources/25/20/Frank_Artiga.jpg",
+          "lastname": "Артига Себриан",
+          "name": "Франк",
+          "position": "Главный тренер",
+          "keyword": ""
+        }
+      ]
+    },
+    "clubA": {
+      "players": [
+        {
+          "id": 22841,
+          "lastname": "Агкацев",
+          "name": "Станислав",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47919/25742_2026_150_47919.jpg",
+          "number": 1,
+          "keyword": "Agkacev-Stanislav",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25313,
+          "lastname": "Тормена де Фариас",
+          "name": "Витор",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47897/29851_2026_150_47897.jpg",
+          "number": 3,
+          "keyword": "Tormena-De-Farias-Vitor",
+          "public_lastname": "Тормена",
+          "public_name": "Витор"
+        },
+        {
+          "id": 25894,
+          "lastname": "Роша Мендес Жуниор",
+          "name": "Жубал",
+          "nickname": "Жубал",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47921/32107_2026_150_47921.jpg",
+          "number": 5,
+          "keyword": "Rocha-Mendes-Junior-Jubal",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 25288,
+          "lastname": "Оласа Катрофе",
+          "name": "Лукас Рене",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47900/29819_2026_150_47900.jpg",
+          "number": 15,
+          "keyword": "Olasa-Katrofe-Lukas-Rene",
+          "public_lastname": "Оласа",
+          "public_name": "Лукас"
+        },
+        {
+          "id": 22612,
+          "lastname": "Вахания",
+          "name": "Илья",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48026/25340_2026_150_48026.jpg",
+          "number": 40,
+          "keyword": "Vahaniya-Ilya",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25915,
+          "lastname": "Соарес Гомес",
+          "name": "Дуглас Аугусто",
+          "nickname": "Дуглас Аугусто",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47926/32148_2026_150_47926.jpg",
+          "number": 8,
+          "keyword": "Soares-Gomes-Douglas-Augusto",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 25084,
+          "lastname": "Фортеш Батчиеза",
+          "name": "Жоау Педру",
+          "nickname": "Батчи",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47923/29539_2026_150_47923.jpg",
+          "number": 11,
+          "keyword": "Fortesh-Bashieza-Zhoao-Pedru",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 21945,
+          "lastname": "Черников",
+          "name": "Александр",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47895/24232_2026_150_47895.jpg",
+          "number": 53,
+          "keyword": "Chernikov-Aleksandr-Evgenevich",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 24683,
+          "lastname": "Кривцов",
+          "name": "Никита",
+          "nickname": null,
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47910/28762_2026_150_47910.jpg",
+          "number": 88,
+          "keyword": "Krivcov-Nikita",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 17789,
+          "lastname": "Воробьёв",
+          "name": "Дмитрий",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48379/12116_2026_150_48379.jpg",
+          "number": 10,
+          "keyword": "Vorobev-Dmitriy",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25338,
+          "lastname": "Боселли Граф",
+          "name": "Хуан Мануэль",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47946/29879_2026_150_47946.jpg",
+          "number": 23,
+          "keyword": "Boselli-Graf-Huan-Manuel",
+          "public_lastname": "Боселли",
+          "public_name": "Хуан"
+        },
+        {
+          "id": 23430,
+          "lastname": "Корякин",
+          "name": "Александр",
+          "nickname": null,
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47920/26601_2026_150_47920.jpg",
+          "number": 16,
+          "keyword": "Koryakin-Aleksandr",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 26004,
+          "lastname": "Карпенко",
+          "name": "Андрей",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47935/28913_2026_150_47935.jpg",
+          "number": 34,
+          "keyword": "Karpenko-Andrey",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 25693,
+          "lastname": "Коста Барбоза",
+          "name": "Диего Энрике",
+          "nickname": "Диего Коста",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47899/30358_2026_150_47899.jpg",
+          "number": 4,
+          "keyword": "Kosta-Barboza-Diego-Enrike",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 22971,
+          "lastname": "Пальцев",
+          "name": "Валентин",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47933/25866_2026_150_47933.jpg",
+          "number": 17,
+          "keyword": "Palcev-Valentin",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 24346,
+          "lastname": "Хмарин",
+          "name": "Артём",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47902/28284_2026_150_47902.jpg",
+          "number": 59,
+          "keyword": "Hmarin-Artem",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25087,
+          "lastname": "Гонсалвеш Перейра де Пина",
+          "name": "Кевин Ленини",
+          "nickname": "Кевин Пина",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47894/29542_2026_150_47894.jpg",
+          "number": 6,
+          "keyword": "Gonsalvesh-Pereyra-de-Pina-Kevin-Lenini",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 26099,
+          "lastname": "Алвес Кардозо",
+          "name": "Кристиан Роберто",
+          "nickname": "Кристиан",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48292/32385_2026_150_48292.jpg",
+          "number": 18,
+          "keyword": "Christian",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 9921,
+          "lastname": "Оздоев",
+          "name": "Магомед",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48054/10240_2026_150_48054.jpg",
+          "number": 21,
+          "keyword": "Ozdoev-Magomed",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 21519,
+          "lastname": "Уткин",
+          "name": "Даниил",
+          "nickname": "",
+          "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48058/12643_2026_150_48058.jpg",
+          "number": 47,
+          "keyword": "Utkin-Daniil",
+          "public_lastname": null,
+          "public_name": null
+        }
+      ],
+      "main": [
+        {
+          "id": 22841,
+          "amplua": 0,
+          "captain": true
+        },
+        {
+          "id": 25313,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25894,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25288,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 22612,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25915,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25084,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 21945,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 24683,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 17789,
+          "amplua": 3,
+          "captain": false
+        },
+        {
+          "id": 25338,
+          "amplua": 3,
+          "captain": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": 23430,
+          "amplua": 0,
+          "captain": false
+        },
+        {
+          "id": 26004,
+          "amplua": 0,
+          "captain": false
+        },
+        {
+          "id": 25693,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 22971,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 24346,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25087,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 26099,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 9921,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 21519,
+          "amplua": 2,
+          "captain": false
+        }
+      ],
+      "coaches": [
+        {
+          "id": 5736,
+          "photo": "https://cdn.premierliga.ru/resources/25/20/Murad_Musaev.jpg",
+          "lastname": "Мусаев",
+          "name": "Мурад",
+          "position": "Главный тренер",
+          "keyword": ""
+        }
+      ]
+    }
+  },
+  "broadcast": {
+    "hasTactic": false,
+    "clubH": {
+      "coaches": [
+        {
+          "id": 7355,
+          "photo": "https://cdn.premierliga.ru/resources/25/20/Frank_Artiga.jpg",
+          "lastname": "Артига Себриан",
+          "name": "Франк",
+          "position": "Главный тренер",
+          "keyword": ""
+        }
+      ]
+    },
+    "clubA": {
+      "coaches": [
+        {
+          "id": 5736,
+          "photo": "https://cdn.premierliga.ru/resources/25/20/Murad_Musaev.jpg",
+          "lastname": "Мусаев",
+          "name": "Мурад",
+          "position": "Главный тренер",
+          "keyword": ""
+        }
+      ]
+    }
+  }
+}

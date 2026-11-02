@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4303,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4303_150.jpg",
+      "position": "Главный судья",
+      "name": "Рафаэль",
+      "lastname": "Шафеев"
+    },
+    {
+      "id": 4641,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Mihail_Plisko.jpg",
+      "position": "Резервный судья",
+      "name": "Михаил",
+      "lastname": "Плиско"
+    },
+    {
+      "id": 2799,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Максим",
+      "lastname": "Гаврилин"
+    },
+    {
+      "id": 3835,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Образко"
+    },
+    {
+      "id": 3781,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3781_150.jpg",
+      "position": "ВАР",
+      "name": "Артём",
+      "lastname": "Чистяков"
+    },
+    {
+      "id": 3827,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3827_150.jpg",
+      "position": "АВАР",
+      "name": "Евгений",
+      "lastname": "Кукуляк"
+    },
+    {
+      "id": 557,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Мацюра"
+    },
+    {
+      "id": 432,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Сергей",
+      "lastname": "Кочетов"
+    }
+  ],
+  "id": 16321,
+  "tournament": 724,
+  "stage": 2972,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ZEN_AKH_Title_2_0.jpg",
+  "clubH": 3,
+  "clubA": 702,
+  "goalH": 3,
+  "goalA": 2,
+  "date": "2026-10-18UTC14:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-18UTC15:59:58",
+  "city": "Санкт-Петербург",
+  "stadium": "«Газпром Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01758.jpg",
+  "attendance": 42685,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_b5b0fe2e1092e1acbe744c34e7113d2f_hd/17_1035349/4d6b72264f969bdd6dcafa8d06210497/4948002403?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.fc-zenit.ru/football/tickets/#zenit",
+  "winline": null,
+  "comments": "",
+  "weather": "9.3°C, Пасмурно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD11_ZEN-AKH_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD11_ZEN-AKH_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

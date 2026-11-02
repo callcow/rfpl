@@ -1,0 +1,19 @@
+{
+  "id": 584,
+  "name": "Краснодар",
+  "nameShort": "КРА",
+  "year": "2008",
+  "city": "Краснодар",
+  "color": "004923",
+  "logo": "logos/club_kra_color_main.svg",
+  "site": "www.fckrasnodar.ru",
+  "phone": "+7 (861) 210-89-90",
+  "email": "info@fckrasnodar.ru",
+  "address": "350901, г. Краснодар, ул. Разведчика Леонова, д. 1",
+  "achievements": "<p class=\"awards\">Чемпион России &ndash; 2024/25</p>\r\n<p class=\"awards\">Серебряный призёр чемпионата России &ndash; 2023/24, 2025/26</p>\r\n<p class=\"awards\">Бронзовый призёр чемпионата России &ndash; 2014/15, 2018/19, 2019/20</p>\r\n<p class=\"awards\">Финалист Кубка России &ndash; 2013/14, 2022/23, 2025/26</p>",
+  "socials": {
+    "telegram": "https://t.me/fckrasnodar",
+    "vkontakte": "https://vk.com/fckrasnodar",
+    "youtube": "https://www.youtube.com/user/KrasnodarFC"
+  }
+}

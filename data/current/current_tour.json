@@ -1,0 +1,94 @@
+{
+  "stageId": 2975,
+  "name": "Тур 14",
+  "matches": [
+    {
+      "id": 16338,
+      "date": "2026-11-08UTC16:15:00",
+      "status": 0,
+      "clubH": 1,
+      "clubA": 807,
+      "goalH": null,
+      "goalA": null,
+      "city": "Москва",
+      "stadium": "«Лукойл Арена»"
+    },
+    {
+      "id": 16339,
+      "date": "2026-11-08UTC14:00:00",
+      "status": 0,
+      "clubH": 10,
+      "clubA": 504,
+      "goalH": null,
+      "goalA": null,
+      "city": "Самара",
+      "stadium": "«Солидарность Самара Арена»"
+    },
+    {
+      "id": 16340,
+      "date": "2026-11-08UTC20:45:00",
+      "status": 0,
+      "clubH": 444,
+      "clubA": 125,
+      "goalH": null,
+      "goalA": null,
+      "city": "Калининград",
+      "stadium": "«Ростех Арена»"
+    },
+    {
+      "id": 16341,
+      "date": "2026-11-06UTC19:30:00",
+      "status": 0,
+      "clubH": 5,
+      "clubA": 4,
+      "goalH": null,
+      "goalA": null,
+      "city": "Москва",
+      "stadium": "«РЖД Арена»"
+    },
+    {
+      "id": 16342,
+      "date": "2026-11-07UTC19:30:00",
+      "status": 0,
+      "clubH": 584,
+      "clubA": 2,
+      "goalH": null,
+      "goalA": null,
+      "city": "Краснодар",
+      "stadium": "«Ozon Арена»"
+    },
+    {
+      "id": 16343,
+      "date": "2026-11-07UTC16:30:00",
+      "status": 0,
+      "clubH": 702,
+      "clubA": 808,
+      "goalH": null,
+      "goalA": null,
+      "city": "Грозный",
+      "stadium": "«Ахмат Арена»"
+    },
+    {
+      "id": 16344,
+      "date": "2026-11-08UTC18:30:00",
+      "status": 0,
+      "clubH": 3,
+      "clubA": 11,
+      "goalH": null,
+      "goalA": null,
+      "city": "Санкт-Петербург",
+      "stadium": "«Газпром Арена»"
+    },
+    {
+      "id": 16345,
+      "date": "2026-11-07UTC14:00:00",
+      "status": 0,
+      "clubH": 264,
+      "clubA": 7,
+      "goalH": null,
+      "goalA": null,
+      "city": "Воронеж",
+      "stadium": "«Факел»"
+    }
+  ]
+}

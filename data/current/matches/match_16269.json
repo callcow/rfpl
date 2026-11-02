@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 350,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0350_150.jpg",
+      "position": "Главный судья",
+      "name": "Сергей",
+      "lastname": "Карасёв"
+    },
+    {
+      "id": 3799,
+      "photo": "",
+      "position": "Резервный судья",
+      "name": "Антон",
+      "lastname": "Анопа"
+    },
+    {
+      "id": 1404,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Болотенков"
+    },
+    {
+      "id": 4210,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Ермилов"
+    },
+    {
+      "id": 979,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0979_150.jpg",
+      "position": "ВАР",
+      "name": "Василий",
+      "lastname": "Казарцев"
+    },
+    {
+      "id": 3854,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3854_150.jpg",
+      "position": "АВАР",
+      "name": "Сергей",
+      "lastname": "Чебан"
+    },
+    {
+      "id": 455,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Лапочкин"
+    },
+    {
+      "id": 461,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Цитович"
+    }
+  ],
+  "id": 16269,
+  "tournament": 724,
+  "stage": 2965,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/KRA_AKH_Title_2.JPG",
+  "clubH": 584,
+  "clubA": 702,
+  "goalH": 1,
+  "goalA": 0,
+  "date": "2026-08-15UTC20:45:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-15UTC22:41:00",
+  "city": "Краснодар",
+  "stadium": "«Ozon Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01755.jpg",
+  "attendance": 29365,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_dbb9fdcccb48a5a77650810c8faf68db_hd/17_1025440/ec0620523fca483d2e84980caf9fcd89/4942496713?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://fckrasnodar.ru/stadium/tickets/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage#grafik-tab",
+  "winline": null,
+  "comments": "",
+  "weather": "22.2°C, Безоблачно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD04_KRA-AKH_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD04_KRA-AKH_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

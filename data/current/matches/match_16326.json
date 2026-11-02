@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4638,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Matvey_Zaika.jpg",
+      "position": "Главный судья",
+      "name": "Матвей",
+      "lastname": "Заика"
+    },
+    {
+      "id": 4632,
+      "photo": "",
+      "position": "Резервный судья",
+      "name": "Сергей",
+      "lastname": "Федотов"
+    },
+    {
+      "id": 3835,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Образко"
+    },
+    {
+      "id": 3971,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Филипкин"
+    },
+    {
+      "id": 4192,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4192_150.jpg",
+      "position": "ВАР",
+      "name": "Роман",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 4004,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
+      "position": "АВАР",
+      "name": "Сергей",
+      "lastname": "Цыганок"
+    },
+    {
+      "id": 426,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Александр",
+      "lastname": "Колобаев"
+    },
+    {
+      "id": 395,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Радик",
+      "lastname": "Ахмадуллин"
+    }
+  ],
+  "id": 16326,
+  "tournament": 724,
+  "stage": 2973,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/RUB_KS_Title_2.jpg",
+  "clubH": 4,
+  "clubA": 10,
+  "goalH": 0,
+  "goalA": 2,
+  "date": "2026-10-24UTC17:15:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-24UTC19:09:06",
+  "city": "Казань",
+  "stadium": "«Ак Барс Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01745.jpg",
+  "attendance": 10442,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_a0802b059ef25e135f18e0fc23e669b5_hd/17_1037461/b8e765f995c3982c33ccc635a15fca1e/4948531866?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://www.rubin-kazan.ru/tickets/",
+  "winline": null,
+  "comments": "",
+  "weather": "9.6°C, Безоблачно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD12_RUB-KRS_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD12_RUB-KRS_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

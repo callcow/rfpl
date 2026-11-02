@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4630,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Nikita_Novikov.jpg",
+      "position": "Главный судья",
+      "name": "Никита",
+      "lastname": "Новиков"
+    },
+    {
+      "id": 4633,
+      "photo": "",
+      "position": "Резервный судья",
+      "name": "Ефим",
+      "lastname": "Рубцов"
+    },
+    {
+      "id": 2819,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Лунёв"
+    },
+    {
+      "id": 4614,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Семёнов"
+    },
+    {
+      "id": 3845,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3845_150.jpg",
+      "position": "ВАР",
+      "name": "Антон",
+      "lastname": "Фролов"
+    },
+    {
+      "id": 4004,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
+      "position": "АВАР",
+      "name": "Сергей",
+      "lastname": "Цыганок"
+    },
+    {
+      "id": 426,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Александр",
+      "lastname": "Колобаев"
+    },
+    {
+      "id": 485,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Владислав",
+      "lastname": "Барановский"
+    }
+  ],
+  "id": 16243,
+  "tournament": 724,
+  "stage": 2962,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ORE_ROS_Title_2.JPG",
+  "clubH": 504,
+  "clubA": 11,
+  "goalH": 2,
+  "goalA": 1,
+  "date": "2026-07-26UTC19:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-07-26UTC21:33:00",
+  "city": "Оренбург",
+  "stadium": "«Газовик»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01301.jpg",
+  "attendance": 4803,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_eb7728c870f7ad96299f71806fe53e1c_hd/17_1022544/271a98e041b7c00cd08a193e4270c419/4947738084?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.fcorenburg.ru/ru/",
+  "winline": null,
+  "comments": "",
+  "weather": "27.8°C, Безоблачно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD01_ORE-ROS_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD01_ORE-ROS_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

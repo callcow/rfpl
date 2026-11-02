@@ -1,0 +1,33 @@
+{
+  "id": 16480,
+  "tournament": 724,
+  "stage": 2991,
+  "mainMatchPhoto": null,
+  "clubH": 3,
+  "clubA": 4,
+  "goalH": null,
+  "goalA": null,
+  "date": "2027-05-29UTC00:00:00",
+  "status": 0,
+  "dateStartStatus": null,
+  "city": null,
+  "stadium": null,
+  "stadiumLink": null,
+  "stadiumPhoto": null,
+  "attendance": null,
+  "broadcastLink": null,
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.fc-zenit.ru/football/tickets/#zenit",
+  "winline": null,
+  "comments": null,
+  "weather": "",
+  "documents": {
+    "protocol": null,
+    "report": null,
+    "lineup": null,
+    "preview": null
+  },
+  "protocol": false,
+  "countVideos": null
+}

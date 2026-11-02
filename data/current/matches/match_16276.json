@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3599,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3599_150.jpg",
+      "position": "Главный судья",
+      "name": "Алексей",
+      "lastname": "Сухой"
+    },
+    {
+      "id": 4636,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Naboka.jpg",
+      "position": "Резервный судья",
+      "name": "Данил",
+      "lastname": "Набока"
+    },
+    {
+      "id": 2819,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Лунёв"
+    },
+    {
+      "id": 2879,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Александр",
+      "lastname": "Богданов"
+    },
+    {
+      "id": 3819,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
+      "position": "ВАР",
+      "name": "Иван",
+      "lastname": "Абросимов"
+    },
+    {
+      "id": 350,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0350_150.jpg",
+      "position": "АВАР",
+      "name": "Сергей",
+      "lastname": "Карасёв"
+    },
+    {
+      "id": 438,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Эдуард",
+      "lastname": "Малый"
+    },
+    {
+      "id": 587,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Илья",
+      "lastname": "Хламов"
+    }
+  ],
+  "id": 16276,
+  "tournament": 724,
+  "stage": 2966,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/BAL_RUB_Title_1_0.JPG",
+  "clubH": 444,
+  "clubA": 4,
+  "goalH": 1,
+  "goalA": 1,
+  "date": "2026-08-24UTC20:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-24UTC22:28:00",
+  "city": "Калининград",
+  "stadium": "«Ростех Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01796.jpg",
+  "attendance": 13612,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_a34cc2d1288cd5f26811fbff65939fa0_hd/17_1025753/cc71757e7fdf6c82bc13955a3acd2304/4943273400?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.fc-baltika.ru/",
+  "winline": null,
+  "comments": "",
+  "weather": "14.8°C, Облачно, дождь",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD05_BAL-RUB_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD05_BAL-RUB_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

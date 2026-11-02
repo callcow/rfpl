@@ -1,0 +1,42 @@
+{
+  "matchOfficials": [
+    {
+      "id": 764,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Андрей",
+      "lastname": "Клименков"
+    }
+  ],
+  "id": 16338,
+  "tournament": 724,
+  "stage": 2975,
+  "mainMatchPhoto": null,
+  "clubH": 1,
+  "clubA": 807,
+  "goalH": null,
+  "goalA": null,
+  "date": "2026-11-08UTC16:15:00",
+  "status": 0,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
+  "city": "Москва",
+  "stadium": "«Лукойл Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01744.jpg",
+  "attendance": null,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_51f290031f9c7f5d97db10edc5d47337_hd/17_1040052/4bf911a38a0b3e324724a0f87e8d2975/4949318473?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.spartak.com/?utm_source=rpl&utm_medium=button&utm_campaign=tickets",
+  "winline": null,
+  "comments": "",
+  "weather": "4.2°C, Пасмурно",
+  "documents": {
+    "protocol": null,
+    "report": null,
+    "lineup": null,
+    "preview": null
+  },
+  "protocol": false,
+  "countVideos": null
+}
