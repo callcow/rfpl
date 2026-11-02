@@ -169,6 +169,33 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65835,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 17,
+      "extra": null,
+      "player1": {
+        "id": 23061,
+        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/47957/26100_2026_150_47957.jpg",
+        "name": "Максим",
+        "lastname": "Глушенков",
+        "nickname": "",
+        "keyword": "Glushenkov-Maksim",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
