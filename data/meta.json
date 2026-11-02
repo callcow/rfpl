@@ -1,12 +1,11 @@
 {
-  "last_updated": "2026-11-02T07:05:55.843811+00:00",
+  "last_updated": "2026-11-02T14:51:12.216082+00:00",
   "import_status": {
     "api_ok": true,
     "from_archive": [],
     "errors": [],
     "warnings": [
       "Матч 16330: нет ['winline']",
-      "Матч 16331: составы пустые (clubH: 0, clubA: 0)",
       "Матч 16332: нет ['winline']",
       "Матч 16333: нет ['winline']",
       "Матч 16334: нет ['winline']",
