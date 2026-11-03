@@ -28,7 +28,13 @@
   "broadcastDescription": null,
   "videoReviewLink": "",
   "ticketsLink": "https://www.fclm.ru/tickets/",
-  "winline": null,
+  "winline": {
+    "outcome1": 2.07,
+    "outcome2": 3.5,
+    "outcome3": 3.5,
+    "link": "https://winline.ru/plus/17021109",
+    "erid": "2W5zFGtS9nz"
+  },
   "comments": "",
   "weather": "1.2°C, Пасмурно",
   "documents": {

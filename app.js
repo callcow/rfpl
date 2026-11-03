@@ -619,6 +619,8 @@ window.switchTab = function(tabId, event) {
   if (tabId === 'matches' && allMatchesData) {
       const grid = document.getElementById("matches-grid");
       if (grid) grid.innerHTML = allMatchesData.map(m => renderMatchCard(m)).join("");
+  } else if (tabId === 'stats') {
+      renderStatsPage();
   } else if (tabId === 'calendar') {
       applyCalendarFilters();
   }
@@ -4015,6 +4017,91 @@ window.scrollToTop = function() {
         clubModalContent.scrollTo({ top: 0, behavior: 'smooth' });
     }
 };
+
+// ─── СТРАНИЦА «СТАТИСТИКА» (топ-5 по 6 показателям) ───
+window.renderStatsPage = async function() {
+    const box = document.getElementById('stats-content');
+    if (!box || box.dataset.loaded) return;
+    box.innerHTML = '<div class="modal-state">Загрузка статистики...</div>';
+
+    const ps = await fetchPlayersStatsOnce();
+    if (!ps) {
+        box.innerHTML = '<div class="empty-note">Статистика пока не загружена</div>';
+        return;
+    }
+
+    const list = Object.values(ps).filter(r => r.currentClub).map(r => ({
+        r, id: r.id, ident: r.identity || {}, club: r.currentClub, t: r.total || {}
+    }));
+
+    const cats = [
+        { title: 'Голы',              get: x => x.t.goals || 0 },
+        { title: 'Передачи',          get: x => x.t.assists || 0 },
+        { title: 'Гол + пас',         get: x => (x.t.goals || 0) + (x.t.assists || 0) },
+        { title: 'Жёлтые карточки',   get: x => x.t.yellowCards || 0 },
+        { title: 'Красные карточки',  get: x => x.t.redCards || 0 },
+        { title: 'Минуты на поле',    get: x => x.t.minutesPlayed || 0 }
+    ];
+
+    box.innerHTML = `<div class="stats-grid">${cats.map(c => renderStatCard(c, list)).join('')}</div>`;
+    box.dataset.loaded = '1';
+};
+
+function renderStatCard(c, list) {
+    // Дополнительные критерии при равенстве показателя (по порядку)
+    const openPlay = x => (x.t.goals || 0) - (x.t.penaltyGoals || 0);
+    const gs = x => x.t.goals || 0;
+    const as = x => x.t.assists || 0;
+    const mins = x => x.t.minutesPlayed || 0;
+    const extraKeys = {
+        'Голы': [openPlay, as],
+        'Передачи': [gs],
+        'Гол + пас': [gs, as],
+        'Жёлтые карточки': [],
+        'Красные карточки': [],
+        'Минуты на поле': []
+    }[c.title] || [];
+
+    const rows = list
+        .map(x => ({ ...x, v: c.get(x) }))
+        .filter(x => x.v > 0)
+        .sort((a, b) => {
+            if (b.v !== a.v) return b.v - a.v;
+            for (const k of extraKeys) {
+                const d = k(b) - k(a);
+                if (d) return d;
+            }
+            return mins(a) - mins(b);
+        });
+
+    // Ровно 5 строк, места 1–5 по итоговому порядку
+    const top = rows.slice(0, 5).map((x, i) => ({ ...x, place: i + 1 }));
+
+    if (!top.length) {
+        return `<div class="stats-card"><div class="stats-card-head"><h3>${c.title}</h3></div><div class="empty-note">Нет данных</div></div>`;
+    }
+
+    const nameOf = x => formatPlayerName(x.ident) || `ID ${x.id}`;
+
+    return `
+        <div class="stats-card">
+            <div class="stats-card-head"><h3>${c.title}</h3></div>
+            <div class="table-wrapper">
+                <table class="stats-table"><tbody>
+                    ${top.map(x => {
+                        const clubId = x.club || Object.keys(x.r.clubs || {})[0] || 0;
+                        const logo = allClubs[x.club] ? getTeamLogoHtml(allClubs[x.club], 'stats-club-logo', 20) : '';
+                        return `<tr onclick="openPlayerModal(${clubId}, ${x.id})">
+                            <td class="stats-place">${x.place}</td>
+                            <td class="stats-club">${logo}</td>
+                            <td class="stats-name">${nameOf(x)}</td>
+                            <td class="stats-val">${x.v}</td>
+                        </tr>`;
+                    }).join('')}
+                </tbody></table>
+            </div>
+        </div>`;
+}
 
 document.addEventListener("DOMContentLoaded", () => {
     init();

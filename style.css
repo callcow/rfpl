@@ -1054,6 +1054,8 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   content: "А"; font-size: 10px; font-weight: 700; color: #6b7280; line-height: 1; display: block; margin: 0;
 }
 .pm-match-link { cursor: pointer; }
+
+
 .pm-match-row { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
 .pm-match-date { grid-column: 1 / -1; font-size: 12px; color: #6b7280; }
 .pm-match-teams { font-weight: 600; }
@@ -1910,3 +1912,33 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 }
 
 
+/* ─── Навбар на телефоне: короткая подпись «Стат.» и уменьшенный шрифт ─── */
+@media (max-width: 850px) {
+  .tabs .tab-btn { min-width: 0; flex: 1 1 0; padding: 8px 0; font-size: 12px; overflow: hidden; }
+  .tabs .tab-btn[data-short] { font-size: 0; }
+  .tabs .tab-btn[data-short]::before { content: attr(data-short); font-size: 12px; }
+}
+
+/* ─── Страница «Статистика» ─── */
+#tab-stats { max-width: none; width: 100%; margin: 0; }
+#tab-stats .stats-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media (min-width: 851px) {
+  #tab-stats .stats-grid { grid-template-columns: 1fr 1fr; }
+}
+#tab-stats .stats-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; min-width: 0; }
+#tab-stats .stats-card-head h3 { margin: 0 0 8px; font-size: 15px; font-weight: 700; }
+#tab-stats .stats-leader { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+#tab-stats .stats-leader-photo { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; object-position: top; flex-shrink: 0; background: #f3f4f6; }
+#tab-stats .stats-leader-name { font-size: 15px; font-weight: 700; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+#tab-stats table.stats-table { width: 100%; min-width: 0; table-layout: fixed; border-collapse: collapse; }
+#tab-stats table.stats-table tr { cursor: pointer; }
+#tab-stats table.stats-table th,
+#tab-stats table.stats-table td {
+  display: table-cell !important; padding: 7px 2px; font-size: 13px; font-weight: 500; text-align: left;
+  border-bottom: 1px solid var(--border) !important; box-shadow: none !important;
+}
+#tab-stats .stats-place { width: 24px; text-align: center !important; color: var(--text-muted); font-weight: 600; }
+#tab-stats .stats-club { width: 26px; text-align: center !important; }
+#tab-stats .stats-club-logo { width: 18px; height: 18px; object-fit: contain; display: block; margin: 0 auto; }
+#tab-stats .stats-name { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#tab-stats .stats-val { width: 40px; text-align: right !important; font-weight: 700; padding-right: 4px; }

@@ -28,7 +28,13 @@
   "broadcastDescription": null,
   "videoReviewLink": "",
   "ticketsLink": "https://lk.fakelfc.ru/login?from=http://fakelfc.ru",
-  "winline": null,
+  "winline": {
+    "outcome1": 5,
+    "outcome2": 4,
+    "outcome3": 1.67,
+    "link": "https://winline.ru/plus/17021110",
+    "erid": "2W5zFH6J43k"
+  },
   "comments": "",
   "weather": "1.4°C, Пасмурно",
   "documents": {

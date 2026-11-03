@@ -1570,9 +1570,11 @@ def _build_players_season_stats(status: dict):
     log.info("Собираю статистику игроков за сезон (players_stats.json)...")
     flat = _load_json(CURRENT_DIR / "matches_flat.json", []) or []
     players_all = _load_json(CURRENT_DIR / "players_all.json", {}) or {}
+    profiles_all = _load_json(INTERNAL_DIR / "player_profiles.json", {}) or {}
     matches_dir = CURRENT_DIR / "matches"
 
     stats = {}       # (pid, clubId) -> {ключ: значение}
+    names = {}       # pid -> имена из составов (там есть никнейм, как в модалке матча)
     match_recs = {}  # pid -> {matchId: запись}
 
     def get_s(pid, cid):
@@ -1631,6 +1633,9 @@ def _build_players_season_stats(status: dict):
                 pid = pl.get("id")
                 if not pid:
                     continue
+                if pl.get("nickname") or pl.get("public_name") or pl.get("public_lastname") or pid not in names:
+                    names[pid] = {"nickname": pl.get("nickname"), "public_name": pl.get("public_name"),
+                                  "public_lastname": pl.get("public_lastname")}
                 entry = main.get(pid)
                 in_main = entry is not None
                 amplua = entry.get("amplua") if in_main else None
@@ -1719,10 +1724,16 @@ def _build_players_season_stats(status: dict):
             out[str(pid)]["matches"] = sorted(recs.values(), key=lambda r: r["matchId"])
     for sid, o in out.items():
         pa = players_all.get(sid) or {}
+        pr = profiles_all.get(sid) or {}
+        nm = names.get(int(sid)) or {}
         o["identity"] = {
             "id": o["id"], "name": pa.get("name", ""), "lastname": pa.get("lastname", ""),
             "amplua": pa.get("amplua"), "number": pa.get("number"),
             "citizenship": pa.get("citizenship"), "birthday": pa.get("birthday"),
+            "nickname": nm.get("nickname") or pa.get("nickname"),
+            "public_name": nm.get("public_name") or pa.get("public_name"),
+            "public_lastname": nm.get("public_lastname") or pa.get("public_lastname"),
+            "photo": pr.get("photo"), "photoSmall": pr.get("photoSmall"),
         }
 
     current_club = {}

@@ -193,7 +193,12 @@
       "amplua": 0,
       "number": 99,
       "citizenship": 2,
-      "birthday": "1991-11-13"
+      "birthday": "1991-11-13",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/andrey_lunev.png",
+      "photoSmall": "players/andrey_lunev_small.jpg"
     },
     "currentClub": 7
   },
@@ -505,7 +510,12 @@
       "amplua": 1,
       "number": 7,
       "citizenship": 2,
-      "birthday": "1997-03-02"
+      "birthday": "1997-03-02",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/dmitriy_skopintsev.png",
+      "photoSmall": "players/dmitriy_skopintsev_small.jpg"
     },
     "currentClub": 7
   },
@@ -798,7 +808,12 @@
       "amplua": 1,
       "number": 55,
       "citizenship": 2,
-      "birthday": "1994-05-16"
+      "birthday": "1994-05-16",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_osipenko.png",
+      "photoSmall": "players/maksim_osipenko_small.jpg"
     },
     "currentClub": 7
   },
@@ -1110,7 +1125,12 @@
       "amplua": 1,
       "number": 56,
       "citizenship": 2,
-      "birthday": "2004-07-08"
+      "birthday": "2004-07-08",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/leon_zaydenzal.png",
+      "photoSmall": "players/leon_zaydenzal_small.jpg"
     },
     "currentClub": 7
   },
@@ -1422,7 +1442,12 @@
       "amplua": 1,
       "number": 57,
       "citizenship": 17,
-      "birthday": "2002-12-21"
+      "birthday": "2002-12-21",
+      "nickname": "Давид Рикардо",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/davidrikardo_loyoladasilva.png",
+      "photoSmall": "players/davidrikardo_loyoladasilva_small.jpg"
     },
     "currentClub": 7
   },
@@ -1734,7 +1759,12 @@
       "amplua": 2,
       "number": 10,
       "citizenship": 17,
-      "birthday": "2000-01-07"
+      "birthday": "2000-01-07",
+      "nickname": "Бителло",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/zhoaopaulo_desouzamares.png",
+      "photoSmall": "players/zhoaopaulo_desouzamares_small.jpg"
     },
     "currentClub": 7
   },
@@ -2046,7 +2076,12 @@
       "amplua": 2,
       "number": 15,
       "citizenship": 2,
-      "birthday": "1999-11-03"
+      "birthday": "1999-11-03",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/danil_glebov.png",
+      "photoSmall": "players/danil_glebov_small.jpg"
     },
     "currentClub": 7
   },
@@ -2320,7 +2355,12 @@
       "amplua": 2,
       "number": 74,
       "citizenship": 2,
-      "birthday": "1997-03-02"
+      "birthday": "1997-03-02",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_fomin.png",
+      "photoSmall": "players/daniil_fomin_small.jpg"
     },
     "currentClub": 7
   },
@@ -2632,7 +2672,12 @@
       "amplua": 3,
       "number": 11,
       "citizenship": 17,
-      "birthday": "1998-07-03"
+      "birthday": "1998-07-03",
+      "nickname": "",
+      "public_name": "Артур",
+      "public_lastname": "Гомес",
+      "photo": "players/artur_gomeslourenso.png",
+      "photoSmall": "players/artur_gomeslourenso_small.jpg"
     },
     "currentClub": 7
   },
@@ -2906,7 +2951,12 @@
       "amplua": 3,
       "number": 70,
       "citizenship": 2,
-      "birthday": "2002-06-22"
+      "birthday": "2002-06-22",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/konstantin_tyukavin.png",
+      "photoSmall": "players/konstantin_tyukavin_small.jpg"
     },
     "currentClub": 7
   },
@@ -3218,7 +3268,12 @@
       "amplua": 3,
       "number": 91,
       "citizenship": 2,
-      "birthday": "2003-05-05"
+      "birthday": "2003-05-05",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/yaroslav_gladyshev.png",
+      "photoSmall": "players/yaroslav_gladyshev_small.jpg"
     },
     "currentClub": 7
   },
@@ -3530,7 +3585,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "2006-01-05"
+      "birthday": "2006-01-05",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kurban_rasulov.png",
+      "photoSmall": "players/kurban_rasulov_small.jpg"
     },
     "currentClub": 7
   },
@@ -3842,7 +3902,12 @@
       "amplua": 0,
       "number": 31,
       "citizenship": 2,
-      "birthday": "1996-02-20"
+      "birthday": "1996-02-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/igor_leschuk.png",
+      "photoSmall": "players/igor_leschuk_small.jpg"
     },
     "currentClub": 7
   },
@@ -4097,7 +4162,12 @@
       "amplua": 1,
       "number": 2,
       "citizenship": 41,
-      "birthday": "2001-03-17"
+      "birthday": "2001-03-17",
+      "nickname": "",
+      "public_name": "Николас",
+      "public_lastname": "Маричаль",
+      "photo": "players/nikolas_marichalperes.png",
+      "photoSmall": "players/nikolas_marichalperes_small.jpg"
     },
     "currentClub": 7
   },
@@ -4276,7 +4346,12 @@
       "amplua": 1,
       "number": 5,
       "citizenship": 530,
-      "birthday": "2005-02-21"
+      "birthday": "2005-02-21",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/milan_maystorovich.png",
+      "photoSmall": "players/milan_maystorovich_small.jpg"
     },
     "currentClub": 7
   },
@@ -4588,7 +4663,12 @@
       "amplua": 1,
       "number": 6,
       "citizenship": 43,
-      "birthday": "2000-06-07"
+      "birthday": "2000-06-07",
+      "nickname": "",
+      "public_name": "Роберто",
+      "public_lastname": "Фернандес",
+      "photo": "players/roberto_fernandesurbieta.png",
+      "photoSmall": "players/roberto_fernandesurbieta_small.jpg"
     },
     "currentClub": 7
   },
@@ -4881,7 +4961,12 @@
       "amplua": 1,
       "number": 8,
       "citizenship": 17,
-      "birthday": "2001-06-21"
+      "birthday": "2001-06-21",
+      "nickname": "Рубенс",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/rubensantonio_dias.png",
+      "photoSmall": "players/rubensantonio_dias_small.jpg"
     },
     "currentClub": 7
   },
@@ -5136,7 +5221,12 @@
       "amplua": 2,
       "number": 21,
       "citizenship": 2,
-      "birthday": "1995-10-17"
+      "birthday": "1995-10-17",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/anton_miranchuk.png",
+      "photoSmall": "players/anton_miranchuk_small.jpg"
     },
     "currentClub": 7
   },
@@ -5258,7 +5348,12 @@
       "amplua": 2,
       "number": 50,
       "citizenship": 2,
-      "birthday": "2002-01-01"
+      "birthday": "2002-01-01",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_kutitskiy.png",
+      "photoSmall": "players/aleksandr_kutitskiy_small.jpg"
     },
     "currentClub": 7
   },
@@ -5519,7 +5614,12 @@
       "amplua": 2,
       "number": 52,
       "citizenship": 2,
-      "birthday": "2005-03-11"
+      "birthday": "2005-03-11",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/egor_smelov.png",
+      "photoSmall": "players/egor_smelov_small.jpg"
     },
     "currentClub": 125
   },
@@ -5831,7 +5931,12 @@
       "amplua": 2,
       "number": 88,
       "citizenship": 2,
-      "birthday": "2006-12-30"
+      "birthday": "2006-12-30",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/viktor_okishor.png",
+      "photoSmall": "players/viktor_okishor_small.jpg"
     },
     "currentClub": 7
   },
@@ -6149,7 +6254,12 @@
       "amplua": 2,
       "number": 7,
       "citizenship": 2,
-      "birthday": "2004-03-30"
+      "birthday": "2004-03-30",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/ulvi_babaev.png",
+      "photoSmall": "players/ulvi_babaev_small.jpg"
     },
     "currentClub": 4
   },
@@ -6461,7 +6571,12 @@
       "amplua": 3,
       "number": 33,
       "citizenship": 2,
-      "birthday": "1995-05-11"
+      "birthday": "1995-05-11",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ivan_sergeev.png",
+      "photoSmall": "players/ivan_sergeev_small.jpg"
     },
     "currentClub": 7
   },
@@ -6659,7 +6774,12 @@
       "amplua": 0,
       "number": 30,
       "citizenship": 2,
-      "birthday": "1988-12-16"
+      "birthday": "1988-12-16",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/sergey_pesyakov.png",
+      "photoSmall": "players/sergey_pesyakov_small.jpg"
     },
     "currentClub": 10
   },
@@ -6971,7 +7091,12 @@
       "amplua": 1,
       "number": 2,
       "citizenship": 10,
-      "birthday": "1997-03-18"
+      "birthday": "1997-03-18",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kirill_pechenin.png",
+      "photoSmall": "players/kirill_pechenin_small.jpg"
     },
     "currentClub": 10
   },
@@ -7283,7 +7408,12 @@
       "amplua": 1,
       "number": 15,
       "citizenship": 2,
-      "birthday": "1998-01-04"
+      "birthday": "1998-01-04",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikolay_rasskazov.png",
+      "photoSmall": "players/nikolay_rasskazov_small.jpg"
     },
     "currentClub": 10
   },
@@ -7557,7 +7687,12 @@
       "amplua": 1,
       "number": 23,
       "citizenship": 2,
-      "birthday": "1996-01-14"
+      "birthday": "1996-01-14",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikita_chernov.png",
+      "photoSmall": "players/nikita_chernov_small.jpg"
     },
     "currentClub": 10
   },
@@ -7869,7 +8004,12 @@
       "amplua": 1,
       "number": 47,
       "citizenship": 2,
-      "birthday": "1994-09-12"
+      "birthday": "1994-09-12",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/sergey_bozhin.png",
+      "photoSmall": "players/sergey_bozhin_small.jpg"
     },
     "currentClub": 10
   },
@@ -8187,7 +8327,12 @@
       "amplua": 2,
       "number": 6,
       "citizenship": 2,
-      "birthday": "2002-09-25"
+      "birthday": "2002-09-25",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/sergey_babkin.png",
+      "photoSmall": "players/sergey_babkin_small.jpg"
     },
     "currentClub": 5
   },
@@ -8442,7 +8587,12 @@
       "amplua": 2,
       "number": 7,
       "citizenship": 530,
-      "birthday": "1999-11-10"
+      "birthday": "1999-11-10",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/mihaylo_banyats.png",
+      "photoSmall": "players/mihaylo_banyats_small.jpg"
     },
     "currentClub": 10
   },
@@ -8754,7 +8904,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 2,
-      "birthday": "1998-02-01"
+      "birthday": "1998-02-01",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_vityugov.png",
+      "photoSmall": "players/maksim_vityugov_small.jpg"
     },
     "currentClub": 10
   },
@@ -9066,7 +9221,12 @@
       "amplua": 2,
       "number": 11,
       "citizenship": 16,
-      "birthday": "1994-05-13"
+      "birthday": "1994-05-13",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/amar_rahmanovich.png",
+      "photoSmall": "players/amar_rahmanovich_small.jpg"
     },
     "currentClub": 10
   },
@@ -9403,7 +9563,12 @@
       "amplua": 2,
       "number": 19,
       "citizenship": 2,
-      "birthday": "1998-08-24"
+      "birthday": "1998-08-24",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/ivan_oleynikov.png",
+      "photoSmall": "players/ivan_oleynikov_small.jpg"
     },
     "currentClub": 2
   },
@@ -9696,7 +9861,12 @@
       "amplua": 2,
       "number": 22,
       "citizenship": 19,
-      "birthday": "1998-11-29"
+      "birthday": "1998-11-29",
+      "nickname": "",
+      "public_name": "Фернандо",
+      "public_lastname": "Костанца",
+      "photo": "players/fernando_peyshotukostanza.png",
+      "photoSmall": "players/fernando_peyshotukostanza_small.jpg"
     },
     "currentClub": 10
   },
@@ -10008,7 +10178,12 @@
       "amplua": 0,
       "number": 39,
       "citizenship": 2,
-      "birthday": "1988-02-05"
+      "birthday": "1988-02-05",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/evgeniy_frolov.png",
+      "photoSmall": "players/evgeniy_frolov_small.jpg"
     },
     "currentClub": 10
   },
@@ -10320,7 +10495,12 @@
       "amplua": 0,
       "number": 80,
       "citizenship": 2,
-      "birthday": "2003-01-08"
+      "birthday": "2003-01-08",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikita_kokarev.png",
+      "photoSmall": "players/nikita_kokarev_small.jpg"
     },
     "currentClub": 10
   },
@@ -10613,7 +10793,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 45,
-      "birthday": "1998-11-20"
+      "birthday": "1998-11-20",
+      "nickname": "",
+      "public_name": "Томас",
+      "public_lastname": "Галдамес",
+      "photo": "players/tomasignasio_galdamesmilyan.png",
+      "photoSmall": "players/tomasignasio_galdamesmilyan_small.jpg"
     },
     "currentClub": 10
   },
@@ -10925,7 +11110,12 @@
       "amplua": 1,
       "number": 5,
       "citizenship": 101,
-      "birthday": "2000-10-29"
+      "birthday": "2000-10-29",
+      "nickname": "",
+      "public_name": "Доминик",
+      "public_lastname": "Ороз",
+      "photo": "players/aloisdominik_oroz.png",
+      "photoSmall": "players/aloisdominik_oroz_small.jpg"
     },
     "currentClub": 10
   },
@@ -11237,7 +11427,12 @@
       "amplua": 1,
       "number": 18,
       "citizenship": 2,
-      "birthday": "2005-01-19"
+      "birthday": "2005-01-19",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ivan_lepskiy.png",
+      "photoSmall": "players/ivan_lepskiy_small.jpg"
     },
     "currentClub": 10
   },
@@ -11549,7 +11744,12 @@
       "amplua": 1,
       "number": 72,
       "citizenship": 210,
-      "birthday": "1997-04-30"
+      "birthday": "1997-04-30",
+      "nickname": "",
+      "public_name": "Дани",
+      "public_lastname": "Фернандес",
+      "photo": "players/daniel_fernandesfernandes.png",
+      "photoSmall": "players/daniel_fernandesfernandes_small.jpg"
     },
     "currentClub": 10
   },
@@ -11823,7 +12023,12 @@
       "amplua": 2,
       "number": 10,
       "citizenship": 32,
-      "birthday": "1997-11-14"
+      "birthday": "1997-11-14",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/martin_kramarich.png",
+      "photoSmall": "players/martin_kramarich_small.jpg"
     },
     "currentClub": 10
   },
@@ -12116,7 +12321,12 @@
       "amplua": 2,
       "number": 20,
       "citizenship": 2,
-      "birthday": "2004-04-08"
+      "birthday": "2004-04-08",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kirill_stolbov.png",
+      "photoSmall": "players/kirill_stolbov_small.jpg"
     },
     "currentClub": 10
   },
@@ -12409,7 +12619,12 @@
       "amplua": 2,
       "number": 77,
       "citizenship": 2,
-      "birthday": "1998-02-18"
+      "birthday": "1998-02-18",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/denis_makarov.png",
+      "photoSmall": "players/denis_makarov_small.jpg"
     },
     "currentClub": 10
   },
@@ -12569,7 +12784,12 @@
       "amplua": 3,
       "number": null,
       "citizenship": 26,
-      "birthday": "1997-10-01UTC00:00:00"
+      "birthday": "1997-10-01UTC00:00:00",
+      "nickname": "",
+      "public_name": "Чинеду",
+      "public_lastname": "Джеффри",
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -12881,7 +13101,12 @@
       "amplua": 3,
       "number": 73,
       "citizenship": 2,
-      "birthday": "2003-05-07"
+      "birthday": "2003-05-07",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vladislav_shitov.png",
+      "photoSmall": "players/vladislav_shitov_small.jpg"
     },
     "currentClub": 10
   },
@@ -12965,7 +13190,12 @@
       "amplua": 3,
       "number": null,
       "citizenship": 2,
-      "birthday": "2006-05-12UTC00:00:00"
+      "birthday": "2006-05-12UTC00:00:00",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -13258,7 +13488,12 @@
       "amplua": 0,
       "number": 98,
       "citizenship": 2,
-      "birthday": "1998-03-19"
+      "birthday": "1998-03-19",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_maksimenko.png",
+      "photoSmall": "players/aleksandr_maksimenko_small.jpg"
     },
     "currentClub": 1
   },
@@ -13551,7 +13786,12 @@
       "amplua": 1,
       "number": 6,
       "citizenship": 530,
-      "birthday": "1996-04-22"
+      "birthday": "1996-04-22",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/srdzhan_babich.png",
+      "photoSmall": "players/srdzhan_babich_small.jpg"
     },
     "currentClub": 1
   },
@@ -13863,7 +14103,12 @@
       "amplua": 1,
       "number": 33,
       "citizenship": 210,
-      "birthday": "2002-04-04"
+      "birthday": "2002-04-04",
+      "nickname": "",
+      "public_name": "Виктор",
+      "public_lastname": "Парада",
+      "photo": "players/viktor_paradagonsales.png",
+      "photoSmall": "players/viktor_paradagonsales_small.jpg"
     },
     "currentClub": 1
   },
@@ -14099,7 +14344,12 @@
       "amplua": 1,
       "number": 68,
       "citizenship": 2,
-      "birthday": "2001-08-18"
+      "birthday": "2001-08-18",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ruslan_litvinov.png",
+      "photoSmall": "players/ruslan_litvinov_small.jpg"
     },
     "currentClub": 1
   },
@@ -14354,7 +14604,12 @@
       "amplua": 2,
       "number": 5,
       "citizenship": 15,
-      "birthday": "1999-03-29"
+      "birthday": "1999-03-29",
+      "nickname": "",
+      "public_name": "Эсекьель",
+      "public_lastname": "Барко",
+      "photo": "players/esekelomar_barko.png",
+      "photoSmall": "players/esekelomar_barko_small.jpg"
     },
     "currentClub": 1
   },
@@ -14666,7 +14921,12 @@
       "amplua": 2,
       "number": 7,
       "citizenship": 15,
-      "birthday": "2001-03-22"
+      "birthday": "2001-03-22",
+      "nickname": "",
+      "public_name": "Пабло",
+      "public_lastname": "Солари",
+      "photo": "players/pablosesar_solariferreyra.png",
+      "photoSmall": "players/pablosesar_solariferreyra_small.jpg"
     },
     "currentClub": 1
   },
@@ -14978,7 +15238,12 @@
       "amplua": 2,
       "number": 10,
       "citizenship": 17,
-      "birthday": "1999-10-24"
+      "birthday": "1999-10-24",
+      "nickname": "Маркиньос",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/zhozemarkos_kostamartins.png",
+      "photoSmall": "players/zhozemarkos_kostamartins_small.jpg"
     },
     "currentClub": 1
   },
@@ -15290,7 +15555,12 @@
       "amplua": 2,
       "number": 18,
       "citizenship": 2,
-      "birthday": "2000-06-27"
+      "birthday": "2000-06-27",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nail_umyarov.png",
+      "photoSmall": "players/nail_umyarov_small.jpg"
     },
     "currentClub": 1
   },
@@ -15602,7 +15872,12 @@
       "amplua": 2,
       "number": 47,
       "citizenship": 2,
-      "birthday": "1994-02-11"
+      "birthday": "1994-02-11",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/roman_zobnin.png",
+      "photoSmall": "players/roman_zobnin_small.jpg"
     },
     "currentClub": 1
   },
@@ -15895,7 +16170,12 @@
       "amplua": 2,
       "number": 83,
       "citizenship": 82,
-      "birthday": "1999-01-09"
+      "birthday": "1999-01-09",
+      "nickname": "",
+      "public_name": "Жедсон",
+      "public_lastname": "Фернандеш",
+      "photo": "players/zhedson_karvalyufernandesh.png",
+      "photoSmall": "players/zhedson_karvalyufernandesh_small.jpg"
     },
     "currentClub": 1
   },
@@ -16207,7 +16487,12 @@
       "amplua": 3,
       "number": 9,
       "citizenship": 11,
-      "birthday": "2002-05-25"
+      "birthday": "2002-05-25",
+      "nickname": "",
+      "public_name": "Манфред",
+      "public_lastname": "Угальде",
+      "photo": "players/manfredalonso_ugaldearse.png",
+      "photoSmall": "players/manfredalonso_ugaldearse_small.jpg"
     },
     "currentClub": 1
   },
@@ -16519,7 +16804,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "1996-08-16"
+      "birthday": "1996-08-16",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilya_pomazun.png",
+      "photoSmall": "players/ilya_pomazun_small.jpg"
     },
     "currentClub": 1
   },
@@ -16831,7 +17121,12 @@
       "amplua": 0,
       "number": 56,
       "citizenship": 2,
-      "birthday": "1987-04-10"
+      "birthday": "1987-04-10",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_dovbnya.png",
+      "photoSmall": "players/aleksandr_dovbnya_small.jpg"
     },
     "currentClub": 1
   },
@@ -17124,7 +17419,12 @@
       "amplua": 1,
       "number": 4,
       "citizenship": 61,
-      "birthday": "1994-08-09"
+      "birthday": "1994-08-09",
+      "nickname": "",
+      "public_name": "Александер",
+      "public_lastname": "Джику",
+      "photo": "players/aleksanderkvabenabaydu_dzhiku.png",
+      "photoSmall": "players/aleksanderkvabenabaydu_dzhiku_small.jpg"
     },
     "currentClub": 1
   },
@@ -17436,7 +17736,12 @@
       "amplua": 1,
       "number": 17,
       "citizenship": 2,
-      "birthday": "2003-08-06"
+      "birthday": "2003-08-06",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vladislav_saus.png",
+      "photoSmall": "players/vladislav_saus_small.jpg"
     },
     "currentClub": 1
   },
@@ -17748,7 +18053,12 @@
       "amplua": 1,
       "number": 27,
       "citizenship": 2,
-      "birthday": "2004-07-24"
+      "birthday": "2004-07-24",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/igor_dmitriev.png",
+      "photoSmall": "players/igor_dmitriev_small.jpg"
     },
     "currentClub": 1
   },
@@ -18009,7 +18319,12 @@
       "amplua": 1,
       "number": 26,
       "citizenship": 2,
-      "birthday": "2001-02-26"
+      "birthday": "2001-02-26",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/daniil_hlusevich.png",
+      "photoSmall": "players/daniil_hlusevich_small.jpg"
     },
     "currentClub": 11
   },
@@ -18321,7 +18636,12 @@
       "amplua": 1,
       "number": 97,
       "citizenship": 2,
-      "birthday": "2002-10-21"
+      "birthday": "2002-10-21",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_denisov.png",
+      "photoSmall": "players/daniil_denisov_small.jpg"
     },
     "currentClub": 1
   },
@@ -18633,7 +18953,12 @@
       "amplua": 2,
       "number": 24,
       "citizenship": 2,
-      "birthday": "2007-10-09"
+      "birthday": "2007-10-09",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikita_massalyga.png",
+      "photoSmall": "players/nikita_massalyga_small.jpg"
     },
     "currentClub": 1
   },
@@ -18945,7 +19270,12 @@
       "amplua": 2,
       "number": 25,
       "citizenship": 2,
-      "birthday": "2000-03-25"
+      "birthday": "2000-03-25",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/danil_prutsev.png",
+      "photoSmall": "players/danil_prutsev_small.jpg"
     },
     "currentClub": 1
   },
@@ -19067,7 +19397,12 @@
       "amplua": 2,
       "number": 35,
       "citizenship": 642,
-      "birthday": "1997-02-19"
+      "birthday": "1997-02-19",
+      "nickname": "",
+      "public_name": "Кристофер",
+      "public_lastname": "Мартинс",
+      "photo": "players/kristofer_martinspereyra.png",
+      "photoSmall": "players/kristofer_martinspereyra_small.jpg"
     },
     "currentClub": 1
   },
@@ -19341,7 +19676,12 @@
       "amplua": 2,
       "number": 40,
       "citizenship": 2,
-      "birthday": "2008-06-07"
+      "birthday": "2008-06-07",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ivan_sorokin.png",
+      "photoSmall": "players/ivan_sorokin_small.jpg"
     },
     "currentClub": 1
   },
@@ -19444,7 +19784,12 @@
       "amplua": 3,
       "number": null,
       "citizenship": 641,
-      "birthday": "1997-11-20UTC00:00:00"
+      "birthday": "1997-11-20UTC00:00:00",
+      "nickname": "",
+      "public_name": "Ливай",
+      "public_lastname": "Гарсия",
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -19756,7 +20101,12 @@
       "amplua": 0,
       "number": 13,
       "citizenship": 2,
-      "birthday": "1995-05-10"
+      "birthday": "1995-05-10",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/sergey_volkov.png",
+      "photoSmall": "players/sergey_volkov_small.jpg"
     },
     "currentClub": 808
   },
@@ -20049,7 +20399,12 @@
       "amplua": 1,
       "number": 26,
       "citizenship": 2,
-      "birthday": "1996-02-19"
+      "birthday": "1996-02-19",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/artem_meschaninov.png",
+      "photoSmall": "players/artem_meschaninov_small.jpg"
     },
     "currentClub": 808
   },
@@ -20285,7 +20640,12 @@
       "amplua": 1,
       "number": 49,
       "citizenship": 2,
-      "birthday": "2004-01-12"
+      "birthday": "2004-01-12",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/ilya_dyatlov.png",
+      "photoSmall": "players/ilya_dyatlov_small.jpg"
     },
     "currentClub": 808
   },
@@ -20559,7 +20919,12 @@
       "amplua": 1,
       "number": 55,
       "citizenship": 32,
-      "birthday": "1997-06-05"
+      "birthday": "1997-06-05",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/mitya_krizhan.png",
+      "photoSmall": "players/mitya_krizhan_small.jpg"
     },
     "currentClub": 808
   },
@@ -20776,7 +21141,12 @@
       "amplua": 1,
       "number": 88,
       "citizenship": 2,
-      "birthday": "1997-06-11"
+      "birthday": "1997-06-11",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/artem_sokol.png",
+      "photoSmall": "players/artem_sokol_small.jpg"
     },
     "currentClub": 808
   },
@@ -21069,7 +21439,12 @@
       "amplua": 2,
       "number": 5,
       "citizenship": 2,
-      "birthday": "1993-02-14"
+      "birthday": "1993-02-14",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/andrey_egorychev.png",
+      "photoSmall": "players/andrey_egorychev_small.jpg"
     },
     "currentClub": 808
   },
@@ -21362,7 +21737,12 @@
       "amplua": 2,
       "number": 6,
       "citizenship": 2,
-      "birthday": "2000-06-09"
+      "birthday": "2000-06-09",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ruslan_fischenko.png",
+      "photoSmall": "players/ruslan_fischenko_small.jpg"
     },
     "currentClub": 808
   },
@@ -21674,7 +22054,12 @@
       "amplua": 2,
       "number": 10,
       "citizenship": 50,
-      "birthday": "1993-09-17"
+      "birthday": "1993-09-17",
+      "nickname": "",
+      "public_name": "Йорди",
+      "public_lastname": "Рейна",
+      "photo": "players/hoseyordi_reynaserna.png",
+      "photoSmall": "players/hoseyordi_reynaserna_small.jpg"
     },
     "currentClub": 808
   },
@@ -21967,7 +22352,12 @@
       "amplua": 2,
       "number": 17,
       "citizenship": 2,
-      "birthday": "1999-08-05"
+      "birthday": "1999-08-05",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/soltmurad_bakaev.png",
+      "photoSmall": "players/soltmurad_bakaev_small.jpg"
     },
     "currentClub": 808
   },
@@ -22279,7 +22669,12 @@
       "amplua": 3,
       "number": 9,
       "citizenship": 2,
-      "birthday": "1998-05-27"
+      "birthday": "1998-05-27",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/artem_maksimenko.png",
+      "photoSmall": "players/artem_maksimenko_small.jpg"
     },
     "currentClub": 808
   },
@@ -22591,7 +22986,12 @@
       "amplua": 3,
       "number": 99,
       "citizenship": 2,
-      "birthday": "1999-05-09"
+      "birthday": "1999-05-09",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ivan_timoshenko.png",
+      "photoSmall": "players/ivan_timoshenko_small.jpg"
     },
     "currentClub": 808
   },
@@ -22903,7 +23303,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "1998-05-29"
+      "birthday": "1998-05-29",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/sergey_aydarov.png",
+      "photoSmall": "players/sergey_aydarov_small.jpg"
     },
     "currentClub": 808
   },
@@ -23063,7 +23468,12 @@
       "amplua": 0,
       "number": 71,
       "citizenship": 2,
-      "birthday": "2000-09-25"
+      "birthday": "2000-09-25",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilya_svinov.png",
+      "photoSmall": "players/ilya_svinov_small.jpg"
     },
     "currentClub": 808
   },
@@ -23356,7 +23766,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 2,
-      "birthday": "1997-05-29"
+      "birthday": "1997-05-29",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/leo_goglichidze.png",
+      "photoSmall": "players/leo_goglichidze_small.jpg"
     },
     "currentClub": 808
   },
@@ -23440,7 +23855,12 @@
       "amplua": 1,
       "number": 15,
       "citizenship": 2,
-      "birthday": "1999-03-17"
+      "birthday": "1999-03-17",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/dmitriy_shadrintsev.png",
+      "photoSmall": "players/dmitriy_shadrintsev_small.jpg"
     },
     "currentClub": 808
   },
@@ -23733,7 +24153,12 @@
       "amplua": 1,
       "number": 19,
       "citizenship": 2,
-      "birthday": "1998-05-12"
+      "birthday": "1998-05-12",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/dmitriy_tananeev.png",
+      "photoSmall": "players/dmitriy_tananeev_small.jpg"
     },
     "currentClub": 808
   },
@@ -24045,7 +24470,12 @@
       "amplua": 1,
       "number": 80,
       "citizenship": 2,
-      "birthday": "2004-03-11"
+      "birthday": "2004-03-11",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/stanislav_bessmertnyy.png",
+      "photoSmall": "players/stanislav_bessmertnyy_small.jpg"
     },
     "currentClub": 808
   },
@@ -24300,7 +24730,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 210,
-      "birthday": "2000-08-06"
+      "birthday": "2000-08-06",
+      "nickname": "",
+      "public_name": "Икер",
+      "public_lastname": "Посо",
+      "photo": "players/iker_posolarosa.png",
+      "photoSmall": "players/iker_posolarosa_small.jpg"
     },
     "currentClub": 808
   },
@@ -24612,7 +25047,12 @@
       "amplua": 2,
       "number": 23,
       "citizenship": 2,
-      "birthday": "2000-01-24"
+      "birthday": "2000-01-24",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kirill_ushatov.png",
+      "photoSmall": "players/kirill_ushatov_small.jpg"
     },
     "currentClub": 808
   },
@@ -24924,7 +25364,12 @@
       "amplua": 2,
       "number": 38,
       "citizenship": 2,
-      "birthday": "1999-01-25"
+      "birthday": "1999-01-25",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/leon_musaev.png",
+      "photoSmall": "players/leon_musaev_small.jpg"
     },
     "currentClub": 808
   },
@@ -25160,7 +25605,12 @@
       "amplua": 2,
       "number": 72,
       "citizenship": 2,
-      "birthday": "1997-03-30"
+      "birthday": "1997-03-30",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/astemir_gordyushenko.png",
+      "photoSmall": "players/astemir_gordyushenko_small.jpg"
     },
     "currentClub": 808
   },
@@ -25434,7 +25884,12 @@
       "amplua": 3,
       "number": 18,
       "citizenship": 2,
-      "birthday": "2003-05-01"
+      "birthday": "2003-05-01",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/magomedhabib_abdusalamov.png",
+      "photoSmall": "players/magomedhabib_abdusalamov_small.jpg"
     },
     "currentClub": 808
   },
@@ -25708,7 +26163,12 @@
       "amplua": 3,
       "number": 95,
       "citizenship": 110,
-      "birthday": "1999-08-16"
+      "birthday": "1999-08-16",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/kerfala_sissoko.png",
+      "photoSmall": "players/kerfala_sissoko_small.jpg"
     },
     "currentClub": 808
   },
@@ -26001,7 +26461,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "1999-01-05"
+      "birthday": "1999-01-05",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/bogdan_ovsyannikov.png",
+      "photoSmall": "players/bogdan_ovsyannikov_small.jpg"
     },
     "currentClub": 504
   },
@@ -26313,7 +26778,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 2,
-      "birthday": "2001-06-06"
+      "birthday": "2001-06-06",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/danila_vedernikov.png",
+      "photoSmall": "players/danila_vedernikov_small.jpg"
     },
     "currentClub": 504
   },
@@ -26549,7 +27019,12 @@
       "amplua": 1,
       "number": 4,
       "citizenship": 2,
-      "birthday": "2002-10-01"
+      "birthday": "2002-10-01",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/danila_hotulev.png",
+      "photoSmall": "players/danila_hotulev_small.jpg"
     },
     "currentClub": 504
   },
@@ -26842,7 +27317,12 @@
       "amplua": 1,
       "number": 6,
       "citizenship": 111,
-      "birthday": "1999-10-02"
+      "birthday": "1999-10-02",
+      "nickname": "",
+      "public_name": "Джон",
+      "public_lastname": "Паласиос",
+      "photo": "players/dzhonaleksander_palasiossantos.png",
+      "photoSmall": "players/dzhonaleksander_palasiossantos_small.jpg"
     },
     "currentClub": 504
   },
@@ -27135,7 +27615,12 @@
       "amplua": 1,
       "number": 24,
       "citizenship": 61,
-      "birthday": "1998-04-01"
+      "birthday": "1998-04-01",
+      "nickname": "",
+      "public_name": "Максим",
+      "public_lastname": "Сивис",
+      "photo": "players/maksimdzheyms_sivis.png",
+      "photoSmall": "players/maksimdzheyms_sivis_small.jpg"
     },
     "currentClub": 504
   },
@@ -27428,7 +27913,12 @@
       "amplua": 1,
       "number": 57,
       "citizenship": 2,
-      "birthday": "2001-06-04"
+      "birthday": "2001-06-04",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/evgeniy_bolotov.png",
+      "photoSmall": "players/evgeniy_bolotov_small.jpg"
     },
     "currentClub": 504
   },
@@ -27740,7 +28230,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 15,
-      "birthday": "2002-09-15"
+      "birthday": "2002-09-15",
+      "nickname": "",
+      "public_name": "Дамиан",
+      "public_lastname": "Пуэбла",
+      "photo": "players/damianariel_puebla.png",
+      "photoSmall": "players/damianariel_puebla_small.jpg"
     },
     "currentClub": 504
   },
@@ -28052,7 +28547,12 @@
       "amplua": 2,
       "number": 11,
       "citizenship": 2,
-      "birthday": "2005-08-03"
+      "birthday": "2005-08-03",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/egor_nazarenko.png",
+      "photoSmall": "players/egor_nazarenko_small.jpg"
     },
     "currentClub": 504
   },
@@ -28364,7 +28864,12 @@
       "amplua": 2,
       "number": 20,
       "citizenship": 2,
-      "birthday": "1998-08-19"
+      "birthday": "1998-08-19",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/dmitriy_rybchinskiy.png",
+      "photoSmall": "players/dmitriy_rybchinskiy_small.jpg"
     },
     "currentClub": 504
   },
@@ -28638,7 +29143,12 @@
       "amplua": 2,
       "number": 27,
       "citizenship": 2,
-      "birthday": "2005-08-30"
+      "birthday": "2005-08-30",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/renat_golybin.png",
+      "photoSmall": "players/renat_golybin_small.jpg"
     },
     "currentClub": 504
   },
@@ -28760,7 +29270,12 @@
       "amplua": 3,
       "number": 9,
       "citizenship": 2,
-      "birthday": "2002-01-22"
+      "birthday": "2002-01-22",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/maksim_savelev.png",
+      "photoSmall": "players/maksim_savelev_small.jpg"
     },
     "currentClub": 504
   },
@@ -28863,7 +29378,12 @@
       "amplua": 0,
       "number": 88,
       "citizenship": 2,
-      "birthday": "1996-01-22"
+      "birthday": "1996-01-22",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/maksim_rudakov.png",
+      "photoSmall": "players/maksim_rudakov_small.jpg"
     },
     "currentClub": 504
   },
@@ -29156,7 +29676,12 @@
       "amplua": 1,
       "number": 5,
       "citizenship": 2,
-      "birthday": "1998-10-08"
+      "birthday": "1998-10-08",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/aleksey_tataev.png",
+      "photoSmall": "players/aleksey_tataev_small.jpg"
     },
     "currentClub": 504
   },
@@ -29468,7 +29993,12 @@
       "amplua": 1,
       "number": 38,
       "citizenship": 2,
-      "birthday": "2003-04-17"
+      "birthday": "2003-04-17",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/artem_kasimov.png",
+      "photoSmall": "players/artem_kasimov_small.jpg"
     },
     "currentClub": 504
   },
@@ -29685,7 +30215,12 @@
       "amplua": 2,
       "number": 65,
       "citizenship": 2,
-      "birthday": "2007-10-31"
+      "birthday": "2007-10-31",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/ivan_ivaschenko.png",
+      "photoSmall": "players/ivan_ivaschenko_small.jpg"
     },
     "currentClub": 504
   },
@@ -29978,7 +30513,12 @@
       "amplua": 2,
       "number": 63,
       "citizenship": 2,
-      "birthday": "2006-01-04"
+      "birthday": "2006-01-04",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/omar_minatulaev.png",
+      "photoSmall": "players/omar_minatulaev_small.jpg"
     },
     "currentClub": 504
   },
@@ -30271,7 +30811,12 @@
       "amplua": 2,
       "number": 78,
       "citizenship": 2,
-      "birthday": "2000-02-22"
+      "birthday": "2000-02-22",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/ruslan_kul.png",
+      "photoSmall": "players/ruslan_kul_small.jpg"
     },
     "currentClub": 504
   },
@@ -30374,7 +30919,12 @@
       "amplua": 2,
       "number": 96,
       "citizenship": 2,
-      "birthday": "2006-01-24"
+      "birthday": "2006-01-24",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/kirill_dudarin.png",
+      "photoSmall": "players/kirill_dudarin_small.jpg"
     },
     "currentClub": 504
   },
@@ -30610,7 +31160,12 @@
       "amplua": 3,
       "number": 7,
       "citizenship": 111,
-      "birthday": "2001-09-15"
+      "birthday": "2001-09-15",
+      "nickname": "",
+      "public_name": "Джерссон",
+      "public_lastname": "Гонсалес",
+      "photo": "players/dzherssondavid_gonsalesnino.png",
+      "photoSmall": "players/dzherssondavid_gonsalesnino_small.jpg"
     },
     "currentClub": 504
   },
@@ -30846,7 +31401,12 @@
       "amplua": 3,
       "number": 19,
       "citizenship": 17,
-      "birthday": "2001-09-16"
+      "birthday": "2001-09-16",
+      "nickname": "Алешандре Жезус",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/aleshandre_dezhezuszherusalemzhunior.png",
+      "photoSmall": "players/aleshandre_dezhezuszherusalemzhunior_small.jpg"
     },
     "currentClub": 504
   },
@@ -31063,7 +31623,12 @@
       "amplua": 3,
       "number": 21,
       "citizenship": 15,
-      "birthday": "2005-06-15"
+      "birthday": "2005-06-15",
+      "nickname": "",
+      "public_name": "Бенхамин",
+      "public_lastname": "Бош",
+      "photo": "players/dzhanlukabenhamin_bosh.png",
+      "photoSmall": "players/dzhanlukabenhamin_bosh_small.jpg"
     },
     "currentClub": 504
   },
@@ -31375,7 +31940,12 @@
       "amplua": 3,
       "number": 30,
       "citizenship": 16,
-      "birthday": "1993-12-26"
+      "birthday": "1993-12-26",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/gedeon_guzina.png",
+      "photoSmall": "players/gedeon_guzina_small.jpg"
     },
     "currentClub": 504
   },
@@ -31687,7 +32257,12 @@
       "amplua": 3,
       "number": 77,
       "citizenship": 2,
-      "birthday": "2007-10-02"
+      "birthday": "2007-10-02",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/andrey_kasadzhikov.png",
+      "photoSmall": "players/andrey_kasadzhikov_small.jpg"
     },
     "currentClub": 504
   },
@@ -31961,7 +32536,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "1998-07-13"
+      "birthday": "1998-07-13",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/rustam_yatimov.png",
+      "photoSmall": "players/rustam_yatimov_small.jpg"
     },
     "currentClub": 11
   },
@@ -32254,7 +32834,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 106,
-      "birthday": "1996-05-04"
+      "birthday": "1996-05-04",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/umar_sako.png",
+      "photoSmall": "players/umar_sako_small.jpg"
     },
     "currentClub": 11
   },
@@ -32547,7 +33132,12 @@
       "amplua": 1,
       "number": 4,
       "citizenship": 2,
-      "birthday": "2003-12-16"
+      "birthday": "2003-12-16",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/viktor_melehin.png",
+      "photoSmall": "players/viktor_melehin_small.jpg"
     },
     "currentClub": 11
   },
@@ -32840,7 +33430,12 @@
       "amplua": 1,
       "number": 40,
       "citizenship": 17,
-      "birthday": "1995-03-27"
+      "birthday": "1995-03-27",
+      "nickname": "Игор Ногейра",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/igor_nogeyradepaula.png",
+      "photoSmall": "players/igor_nogeyradepaula_small.jpg"
     },
     "currentClub": 11
   },
@@ -33152,7 +33747,12 @@
       "amplua": 1,
       "number": 87,
       "citizenship": 2,
-      "birthday": "2003-05-28"
+      "birthday": "2003-05-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/andrey_langovich.png",
+      "photoSmall": "players/andrey_langovich_small.jpg"
     },
     "currentClub": 11
   },
@@ -33426,7 +34026,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 2,
-      "birthday": "2000-01-01"
+      "birthday": "2000-01-01",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksey_mironov.png",
+      "photoSmall": "players/aleksey_mironov_small.jpg"
     },
     "currentClub": 11
   },
@@ -33738,7 +34343,12 @@
       "amplua": 2,
       "number": 10,
       "citizenship": 2,
-      "birthday": "2003-04-15"
+      "birthday": "2003-04-15",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ivan_komarov.png",
+      "photoSmall": "players/ivan_komarov_small.jpg"
     },
     "currentClub": 11
   },
@@ -33974,7 +34584,12 @@
       "amplua": 2,
       "number": 16,
       "citizenship": 2,
-      "birthday": "2001-11-04"
+      "birthday": "2001-11-04",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_muhin.png",
+      "photoSmall": "players/maksim_muhin_small.jpg"
     },
     "currentClub": 11
   },
@@ -34267,7 +34882,12 @@
       "amplua": 2,
       "number": 18,
       "citizenship": 2,
-      "birthday": "1998-03-18"
+      "birthday": "1998-03-18",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/konstantin_kuchaev.png",
+      "photoSmall": "players/konstantin_kuchaev_small.jpg"
     },
     "currentClub": 11
   },
@@ -34541,7 +35161,12 @@
       "amplua": 3,
       "number": 7,
       "citizenship": 17,
-      "birthday": "2000-12-07"
+      "birthday": "2000-12-07",
+      "nickname": "Роналдо",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ronaldosezar_soaresdossantos.png",
+      "photoSmall": "players/ronaldosezar_soaresdossantos_small.jpg"
     },
     "currentClub": 11
   },
@@ -34853,7 +35478,12 @@
       "amplua": 3,
       "number": 99,
       "citizenship": 2,
-      "birthday": "2000-03-17"
+      "birthday": "2000-03-17",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/timur_suleymanov.png",
+      "photoSmall": "players/timur_suleymanov_small.jpg"
     },
     "currentClub": 11
   },
@@ -35165,7 +35795,12 @@
       "amplua": 0,
       "number": 34,
       "citizenship": 2,
-      "birthday": "2004-03-24"
+      "birthday": "2004-03-24",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_golikov.png",
+      "photoSmall": "players/daniil_golikov_small.jpg"
     },
     "currentClub": 11
   },
@@ -35477,7 +36112,12 @@
       "amplua": 0,
       "number": 84,
       "citizenship": 2,
-      "birthday": "2008-02-24"
+      "birthday": "2008-02-24",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/artem_petrov.png",
+      "photoSmall": "players/artem_petrov_small.jpg"
     },
     "currentClub": 11
   },
@@ -35789,7 +36429,12 @@
       "amplua": 1,
       "number": 22,
       "citizenship": 2,
-      "birthday": "2004-10-22"
+      "birthday": "2004-10-22",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/david_semenchuk.png",
+      "photoSmall": "players/david_semenchuk_small.jpg"
     },
     "currentClub": 11
   },
@@ -36101,7 +36746,12 @@
       "amplua": 1,
       "number": 27,
       "citizenship": 2,
-      "birthday": "2001-05-24"
+      "birthday": "2001-05-24",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/danila_prohin.png",
+      "photoSmall": "players/danila_prohin_small.jpg"
     },
     "currentClub": 11
   },
@@ -36185,7 +36835,12 @@
       "amplua": 1,
       "number": 67,
       "citizenship": 2,
-      "birthday": "2005-08-11"
+      "birthday": "2005-08-11",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/german_ignatov.png",
+      "photoSmall": "players/german_ignatov_small.jpg"
     },
     "currentClub": 11
   },
@@ -36421,7 +37076,12 @@
       "amplua": 1,
       "number": 80,
       "citizenship": 2,
-      "birthday": "2008-05-20"
+      "birthday": "2008-05-20",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/karim_madrahimov.png",
+      "photoSmall": "players/karim_madrahimov_small.jpg"
     },
     "currentClub": 11
   },
@@ -36733,7 +37393,12 @@
       "amplua": 2,
       "number": 5,
       "citizenship": 2,
-      "birthday": "2003-04-28"
+      "birthday": "2003-04-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/yaroslav_mihaylov.png",
+      "photoSmall": "players/yaroslav_mihaylov_small.jpg"
     },
     "currentClub": 11
   },
@@ -37045,7 +37710,12 @@
       "amplua": 2,
       "number": 21,
       "citizenship": 2,
-      "birthday": "2004-05-25"
+      "birthday": "2004-05-25",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_shantaliy.png",
+      "photoSmall": "players/daniil_shantaliy_small.jpg"
     },
     "currentClub": 11
   },
@@ -37186,7 +37856,12 @@
       "amplua": 2,
       "number": 57,
       "citizenship": 2,
-      "birthday": "2004-07-25"
+      "birthday": "2004-07-25",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilya_zhbanov.png",
+      "photoSmall": "players/ilya_zhbanov_small.jpg"
     },
     "currentClub": 11
   },
@@ -37498,7 +38173,12 @@
       "amplua": 2,
       "number": 73,
       "citizenship": 2,
-      "birthday": "2004-08-23"
+      "birthday": "2004-08-23",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/imran_aznaurov.png",
+      "photoSmall": "players/imran_aznaurov_small.jpg"
     },
     "currentClub": 11
   },
@@ -37810,7 +38490,12 @@
       "amplua": 3,
       "number": 6,
       "citizenship": 26,
-      "birthday": "2002-04-23"
+      "birthday": "2002-04-23",
+      "nickname": "",
+      "public_name": "Олакунле",
+      "public_lastname": "Олусегун",
+      "photo": "players/olakunledzhunior_olusegun.png",
+      "photoSmall": "players/olakunledzhunior_olusegun_small.jpg"
     },
     "currentClub": 11
   },
@@ -38103,7 +38788,12 @@
       "amplua": 3,
       "number": 91,
       "citizenship": 2,
-      "birthday": "2005-03-28"
+      "birthday": "2005-03-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/anton_shamonin.png",
+      "photoSmall": "players/anton_shamonin_small.jpg"
     },
     "currentClub": 11
   },
@@ -38377,7 +39067,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "1996-02-08"
+      "birthday": "1996-02-08",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/anton_mitryushkin.png",
+      "photoSmall": "players/anton_mitryushkin_small.jpg"
     },
     "currentClub": 5
   },
@@ -38670,7 +39365,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 17,
-      "birthday": "2001-05-30"
+      "birthday": "2001-05-30",
+      "nickname": "Лукас Фассон",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/lukas_fassondossantos.png",
+      "photoSmall": "players/lukas_fassondossantos_small.jpg"
     },
     "currentClub": 5
   },
@@ -38925,7 +39625,12 @@
       "amplua": 1,
       "number": 5,
       "citizenship": 61,
-      "birthday": "1997-01-22"
+      "birthday": "1997-01-22",
+      "nickname": "",
+      "public_name": "Жерзино",
+      "public_lastname": "Ньямси",
+      "photo": "players/zherzinokemtchu_nyamsi.png",
+      "photoSmall": "players/zherzinokemtchu_nyamsi_small.jpg"
     },
     "currentClub": 5
   },
@@ -39199,7 +39904,12 @@
       "amplua": 1,
       "number": 45,
       "citizenship": 2,
-      "birthday": "2001-02-17"
+      "birthday": "2001-02-17",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_silyanov.png",
+      "photoSmall": "players/aleksandr_silyanov_small.jpg"
     },
     "currentClub": 5
   },
@@ -39473,7 +40183,12 @@
       "amplua": 1,
       "number": 85,
       "citizenship": 2,
-      "birthday": "2001-02-14"
+      "birthday": "2001-02-14",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/evgeniy_morozov.png",
+      "photoSmall": "players/evgeniy_morozov_small.jpg"
     },
     "currentClub": 5
   },
@@ -39785,7 +40500,12 @@
       "amplua": 2,
       "number": 7,
       "citizenship": 2,
-      "birthday": "1996-07-01"
+      "birthday": "1996-07-01",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/zelimhan_bakaev.png",
+      "photoSmall": "players/zelimhan_bakaev_small.jpg"
     },
     "currentClub": 5
   },
@@ -39926,7 +40646,12 @@
       "amplua": 2,
       "number": null,
       "citizenship": 2,
-      "birthday": "2005-06-09UTC00:00:00"
+      "birthday": "2005-06-09UTC00:00:00",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -40244,7 +40969,12 @@
       "amplua": 2,
       "number": 93,
       "citizenship": 2,
-      "birthday": "2002-06-13"
+      "birthday": "2002-06-13",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/artem_karpukas.png",
+      "photoSmall": "players/artem_karpukas_small.jpg"
     },
     "currentClub": 3
   },
@@ -40537,7 +41267,12 @@
       "amplua": 3,
       "number": 9,
       "citizenship": 2,
-      "birthday": "2004-11-02"
+      "birthday": "2004-11-02",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/sergey_pinyaev.png",
+      "photoSmall": "players/sergey_pinyaev_small.jpg"
     },
     "currentClub": 5
   },
@@ -40849,7 +41584,12 @@
       "amplua": 3,
       "number": 11,
       "citizenship": 2,
-      "birthday": "2005-01-09"
+      "birthday": "2005-01-09",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vadim_rakov.png",
+      "photoSmall": "players/vadim_rakov_small.jpg"
     },
     "currentClub": 5
   },
@@ -41161,7 +41901,12 @@
       "amplua": 3,
       "number": 19,
       "citizenship": 2,
-      "birthday": "1999-03-15"
+      "birthday": "1999-03-15",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_rudenko.png",
+      "photoSmall": "players/aleksandr_rudenko_small.jpg"
     },
     "currentClub": 5
   },
@@ -41473,7 +42218,12 @@
       "amplua": 0,
       "number": 22,
       "citizenship": 2,
-      "birthday": "1995-11-11"
+      "birthday": "1995-11-11",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilya_lantratov.png",
+      "photoSmall": "players/ilya_lantratov_small.jpg"
     },
     "currentClub": 5
   },
@@ -41728,7 +42478,12 @@
       "amplua": 1,
       "number": 14,
       "citizenship": 2,
-      "birthday": "1993-11-21"
+      "birthday": "1993-11-21",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/georgiy_dzhikiya.png",
+      "photoSmall": "players/georgiy_dzhikiya_small.jpg"
     },
     "currentClub": 5
   },
@@ -42040,7 +42795,12 @@
       "amplua": 1,
       "number": 24,
       "citizenship": 2,
-      "birthday": "1998-12-13"
+      "birthday": "1998-12-13",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_nenahov.png",
+      "photoSmall": "players/maksim_nenahov_small.jpg"
     },
     "currentClub": 5
   },
@@ -42295,7 +43055,12 @@
       "amplua": 1,
       "number": 59,
       "citizenship": 2,
-      "birthday": "2004-03-01"
+      "birthday": "2004-03-01",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/egor_pogostnov.png",
+      "photoSmall": "players/egor_pogostnov_small.jpg"
     },
     "currentClub": 5
   },
@@ -42588,7 +43353,12 @@
       "amplua": 1,
       "number": 74,
       "citizenship": 2,
-      "birthday": "2006-08-22"
+      "birthday": "2006-08-22",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_chevardin.png",
+      "photoSmall": "players/daniil_chevardin_small.jpg"
     },
     "currentClub": 5
   },
@@ -42881,7 +43651,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 2,
-      "birthday": "2003-08-08"
+      "birthday": "2003-08-08",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_kovalenko.png",
+      "photoSmall": "players/aleksandr_kovalenko_small.jpg"
     },
     "currentClub": 5
   },
@@ -43218,7 +43993,12 @@
       "amplua": 2,
       "number": 14,
       "citizenship": 2,
-      "birthday": "2004-08-11"
+      "birthday": "2004-08-11",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/nikita_saltykov.png",
+      "photoSmall": "players/nikita_saltykov_small.jpg"
     },
     "currentClub": 10
   },
@@ -43359,7 +44139,12 @@
       "amplua": 2,
       "number": 32,
       "citizenship": 15,
-      "birthday": "1997-04-18"
+      "birthday": "1997-04-18",
+      "nickname": "",
+      "public_name": "Лукас",
+      "public_lastname": "Вера",
+      "photo": "players/lukasgabriel_vera.png",
+      "photoSmall": "players/lukasgabriel_vera_small.jpg"
     },
     "currentClub": 5
   },
@@ -43671,7 +44456,12 @@
       "amplua": 2,
       "number": 75,
       "citizenship": 2,
-      "birthday": "2008-07-13"
+      "birthday": "2008-07-13",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilya_eremeev.png",
+      "photoSmall": "players/ilya_eremeev_small.jpg"
     },
     "currentClub": 5
   },
@@ -43983,7 +44773,12 @@
       "amplua": 2,
       "number": 88,
       "citizenship": 2,
-      "birthday": "2005-07-08"
+      "birthday": "2005-07-08",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/mihail_schetinin.png",
+      "photoSmall": "players/mihail_schetinin_small.jpg"
     },
     "currentClub": 5
   },
@@ -44238,7 +45033,12 @@
       "amplua": 3,
       "number": 63,
       "citizenship": 2,
-      "birthday": "2008-07-16"
+      "birthday": "2008-07-16",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vladislav_golubev.png",
+      "photoSmall": "players/vladislav_golubev_small.jpg"
     },
     "currentClub": 5
   },
@@ -44474,7 +45274,12 @@
       "amplua": 3,
       "number": 99,
       "citizenship": 10,
-      "birthday": "2006-05-07"
+      "birthday": "2006-05-07",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ruslan_myalkovskiy.png",
+      "photoSmall": "players/ruslan_myalkovskiy_small.jpg"
     },
     "currentClub": 5
   },
@@ -44710,7 +45515,12 @@
       "amplua": 0,
       "number": 88,
       "citizenship": 2,
-      "birthday": "1988-12-11"
+      "birthday": "1988-12-11",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/giorgi_sheliya.png",
+      "photoSmall": "players/giorgi_sheliya_small.jpg"
     },
     "currentClub": 702
   },
@@ -44965,7 +45775,12 @@
       "amplua": 1,
       "number": 4,
       "citizenship": 2,
-      "birthday": "2002-02-18"
+      "birthday": "2002-02-18",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/turpal-ali_ibishev.png",
+      "photoSmall": "players/turpal-ali_ibishev_small.jpg"
     },
     "currentClub": 702
   },
@@ -45277,7 +46092,12 @@
       "amplua": 1,
       "number": 5,
       "citizenship": 190,
-      "birthday": "1999-05-02"
+      "birthday": "1999-05-02",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/klisman_tsake.png",
+      "photoSmall": "players/klisman_tsake_small.jpg"
     },
     "currentClub": 702
   },
@@ -45589,7 +46409,12 @@
       "amplua": 1,
       "number": 8,
       "citizenship": 530,
-      "birthday": "1996-10-14"
+      "birthday": "1996-10-14",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/miroslav_bogosavats.png",
+      "photoSmall": "players/miroslav_bogosavats_small.jpg"
     },
     "currentClub": 702
   },
@@ -45901,7 +46726,12 @@
       "amplua": 1,
       "number": 95,
       "citizenship": 2,
-      "birthday": "1999-10-20"
+      "birthday": "1999-10-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/arsen_adamov.png",
+      "photoSmall": "players/arsen_adamov_small.jpg"
     },
     "currentClub": 702
   },
@@ -46194,7 +47024,12 @@
       "amplua": 2,
       "number": 7,
       "citizenship": 2,
-      "birthday": "2000-01-08"
+      "birthday": "2000-01-08",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/lechi_sadulaev.png",
+      "photoSmall": "players/lechi_sadulaev_small.jpg"
     },
     "currentClub": 702
   },
@@ -46506,7 +47341,12 @@
       "amplua": 2,
       "number": 11,
       "citizenship": 17,
-      "birthday": "1994-12-01"
+      "birthday": "1994-12-01",
+      "nickname": "Исмаэл Силва",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ismael_silvalima.png",
+      "photoSmall": "players/ismael_silvalima_small.jpg"
     },
     "currentClub": 702
   },
@@ -46780,7 +47620,12 @@
       "amplua": 2,
       "number": 17,
       "citizenship": 84,
-      "birthday": "1997-10-29"
+      "birthday": "1997-10-29",
+      "nickname": "",
+      "public_name": "Эгаш",
+      "public_lastname": "Касинтура",
+      "photo": "players/egashpalangadossantos_kasintura.png",
+      "photoSmall": "players/egashpalangadossantos_kasintura_small.jpg"
     },
     "currentClub": 702
   },
@@ -47016,7 +47861,12 @@
       "amplua": 2,
       "number": 18,
       "citizenship": 17,
-      "birthday": "1998-03-29"
+      "birthday": "1998-03-29",
+      "nickname": "Жулио Ромао",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/zhulio_rodrigesromao.png",
+      "photoSmall": "players/zhulio_rodrigesromao_small.jpg"
     },
     "currentClub": 702
   },
@@ -47290,7 +48140,12 @@
       "amplua": 2,
       "number": 20,
       "citizenship": 3,
-      "birthday": "2002-06-29"
+      "birthday": "2002-06-29",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_samorodov.png",
+      "photoSmall": "players/maksim_samorodov_small.jpg"
     },
     "currentClub": 702
   },
@@ -47564,7 +48419,12 @@
       "amplua": 3,
       "number": 77,
       "citizenship": 2,
-      "birthday": "1997-04-04"
+      "birthday": "1997-04-04",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/georgiy_melkadze.png",
+      "photoSmall": "players/georgiy_melkadze_small.jpg"
     },
     "currentClub": 702
   },
@@ -47876,7 +48736,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "2001-10-07"
+      "birthday": "2001-10-07",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vadim_ulyanov.png",
+      "photoSmall": "players/vadim_ulyanov_small.jpg"
     },
     "currentClub": 702
   },
@@ -48188,7 +49053,12 @@
       "amplua": 0,
       "number": 71,
       "citizenship": 2,
-      "birthday": "2002-08-03"
+      "birthday": "2002-08-03",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/rasul_mitsaev.png",
+      "photoSmall": "players/rasul_mitsaev_small.jpg"
     },
     "currentClub": 702
   },
@@ -48500,7 +49370,12 @@
       "amplua": 1,
       "number": 81,
       "citizenship": 2,
-      "birthday": "1998-03-18"
+      "birthday": "1998-03-18",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_sidorov.png",
+      "photoSmall": "players/maksim_sidorov_small.jpg"
     },
     "currentClub": 702
   },
@@ -48736,7 +49611,12 @@
       "amplua": 1,
       "number": 90,
       "citizenship": 29,
-      "birthday": "1999-09-20"
+      "birthday": "1999-09-20",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/usman_ndong.png",
+      "photoSmall": "players/usman_ndong_small.jpg"
     },
     "currentClub": 702
   },
@@ -49048,7 +49928,12 @@
       "amplua": 2,
       "number": 10,
       "citizenship": 2,
-      "birthday": "2002-01-17"
+      "birthday": "2002-01-17",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kirill_schetinin.png",
+      "photoSmall": "players/kirill_schetinin_small.jpg"
     },
     "currentClub": 702
   },
@@ -49284,7 +50169,12 @@
       "amplua": 2,
       "number": 23,
       "citizenship": 3,
-      "birthday": "2003-02-12"
+      "birthday": "2003-02-12",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/galymzhan_kenzhebek.png",
+      "photoSmall": "players/galymzhan_kenzhebek_small.jpg"
     },
     "currentClub": 702
   },
@@ -49558,7 +50448,12 @@
       "amplua": 2,
       "number": 42,
       "citizenship": 84,
-      "birthday": "2003-01-16"
+      "birthday": "2003-01-16",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/keliano_manuel.png",
+      "photoSmall": "players/keliano_manuel_small.jpg"
     },
     "currentClub": 702
   },
@@ -49870,7 +50765,12 @@
       "amplua": 2,
       "number": 70,
       "citizenship": 2,
-      "birthday": "2003-12-31"
+      "birthday": "2003-12-31",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/abakar_gadzhiev.png",
+      "photoSmall": "players/abakar_gadzhiev_small.jpg"
     },
     "currentClub": 702
   },
@@ -50182,7 +51082,12 @@
       "amplua": 3,
       "number": 76,
       "citizenship": 190,
-      "birthday": "2004-05-10"
+      "birthday": "2004-05-10",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/erald_maksuti.png",
+      "photoSmall": "players/erald_maksuti_small.jpg"
     },
     "currentClub": 702
   },
@@ -50494,7 +51399,12 @@
       "amplua": 3,
       "number": 97,
       "citizenship": 2,
-      "birthday": "2007-10-02"
+      "birthday": "2007-10-02",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksey_kasadzhikov.png",
+      "photoSmall": "players/aleksey_kasadzhikov_small.jpg"
     },
     "currentClub": 702
   },
@@ -50806,7 +51716,12 @@
       "amplua": 0,
       "number": 49,
       "citizenship": 2,
-      "birthday": "2003-11-07"
+      "birthday": "2003-11-07",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vladislav_torop.png",
+      "photoSmall": "players/vladislav_torop_small.jpg"
     },
     "currentClub": 2
   },
@@ -51118,7 +52033,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 2,
-      "birthday": "1998-05-28"
+      "birthday": "1998-05-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/danil_krugovoy.png",
+      "photoSmall": "players/danil_krugovoy_small.jpg"
     },
     "currentClub": 2
   },
@@ -51411,7 +52331,12 @@
       "amplua": 1,
       "number": 4,
       "citizenship": 17,
-      "birthday": "1998-07-17"
+      "birthday": "1998-07-17",
+      "nickname": "Жоао Виктор",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/zhoaoviktor_dasilvamarselino.png",
+      "photoSmall": "players/zhoaoviktor_dasilvamarselino_small.jpg"
     },
     "currentClub": 2
   },
@@ -51552,7 +52477,12 @@
       "amplua": 1,
       "number": 27,
       "citizenship": 17,
-      "birthday": "1995-03-11"
+      "birthday": "1995-03-11",
+      "nickname": "Мойзес",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/moyzesroberto_barboza.png",
+      "photoSmall": "players/moyzesroberto_barboza_small.jpg"
     },
     "currentClub": 2
   },
@@ -51864,7 +52794,12 @@
       "amplua": 1,
       "number": 79,
       "citizenship": 2,
-      "birthday": "2007-08-12"
+      "birthday": "2007-08-12",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kirill_danilov.png",
+      "photoSmall": "players/kirill_danilov_small.jpg"
     },
     "currentClub": 2
   },
@@ -52176,7 +53111,12 @@
       "amplua": 2,
       "number": 10,
       "citizenship": 2,
-      "birthday": "1998-07-05"
+      "birthday": "1998-07-05",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ivan_oblyakov.png",
+      "photoSmall": "players/ivan_oblyakov_small.jpg"
     },
     "currentClub": 2
   },
@@ -52488,7 +53428,12 @@
       "amplua": 2,
       "number": 17,
       "citizenship": 2,
-      "birthday": "2005-11-10"
+      "birthday": "2005-11-10",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kirill_glebov.png",
+      "photoSmall": "players/kirill_glebov_small.jpg"
     },
     "currentClub": 2
   },
@@ -52800,7 +53745,12 @@
       "amplua": 2,
       "number": 18,
       "citizenship": 2,
-      "birthday": "2005-01-19"
+      "birthday": "2005-01-19",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/danila_kozlov.png",
+      "photoSmall": "players/danila_kozlov_small.jpg"
     },
     "currentClub": 2
   },
@@ -53112,7 +54062,12 @@
       "amplua": 2,
       "number": 31,
       "citizenship": 2,
-      "birthday": "2005-07-26"
+      "birthday": "2005-07-26",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/matvey_kislyak.png",
+      "photoSmall": "players/matvey_kislyak_small.jpg"
     },
     "currentClub": 2
   },
@@ -53424,7 +54379,12 @@
       "amplua": 3,
       "number": 20,
       "citizenship": 530,
-      "birthday": "2006-01-08"
+      "birthday": "2006-01-08",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/matiya_popovich.png",
+      "photoSmall": "players/matiya_popovich_small.jpg"
     },
     "currentClub": 2
   },
@@ -53717,7 +54677,12 @@
       "amplua": 3,
       "number": 32,
       "citizenship": 15,
-      "birthday": "2001-06-22"
+      "birthday": "2001-06-22",
+      "nickname": "",
+      "public_name": "Лусиано",
+      "public_lastname": "Гонду",
+      "photo": "players/lusianoemilio_gondusaneli.png",
+      "photoSmall": "players/lusianoemilio_gondusaneli_small.jpg"
     },
     "currentClub": 2
   },
@@ -53934,7 +54899,12 @@
       "amplua": 0,
       "number": 85,
       "citizenship": 2,
-      "birthday": "2006-01-03"
+      "birthday": "2006-01-03",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/egor_besaev.png",
+      "photoSmall": "players/egor_besaev_small.jpg"
     },
     "currentClub": 2
   },
@@ -54113,7 +55083,12 @@
       "amplua": 0,
       "number": 99,
       "citizenship": 2,
-      "birthday": "2006-09-05"
+      "birthday": "2006-09-05",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikolay_barovskiy.png",
+      "photoSmall": "players/nikolay_barovskiy_small.jpg"
     },
     "currentClub": 2
   },
@@ -54368,7 +55343,12 @@
       "amplua": 1,
       "number": 2,
       "citizenship": 17,
-      "birthday": "1995-02-18"
+      "birthday": "1995-02-18",
+      "nickname": "Матеус Рейс",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/mateus_reysdelima.png",
+      "photoSmall": "players/mateus_reysdelima_small.jpg"
     },
     "currentClub": 2
   },
@@ -54680,7 +55660,12 @@
       "amplua": 1,
       "number": 23,
       "citizenship": 2,
-      "birthday": "2005-03-23"
+      "birthday": "2005-03-23",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/dzhamalutdin_abdulkadyrov.png",
+      "photoSmall": "players/dzhamalutdin_abdulkadyrov_small.jpg"
     },
     "currentClub": 2
   },
@@ -54992,7 +55977,12 @@
       "amplua": 1,
       "number": 90,
       "citizenship": 2,
-      "birthday": "2004-04-27"
+      "birthday": "2004-04-27",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/matvey_lukin.png",
+      "photoSmall": "players/matvey_lukin_small.jpg"
     },
     "currentClub": 2
   },
@@ -55304,7 +56294,12 @@
       "amplua": 2,
       "number": 7,
       "citizenship": 17,
-      "birthday": "2005-03-05"
+      "birthday": "2005-03-05",
+      "nickname": "Матеус Алвес",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/mateus_alvesnasimento.png",
+      "photoSmall": "players/mateus_alvesnasimento_small.jpg"
     },
     "currentClub": 2
   },
@@ -55483,7 +56478,12 @@
       "amplua": 2,
       "number": 22,
       "citizenship": 530,
-      "birthday": "1996-01-28"
+      "birthday": "1996-01-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/milan_gayich.png",
+      "photoSmall": "players/milan_gayich_small.jpg"
     },
     "currentClub": 2
   },
@@ -55795,7 +56795,12 @@
       "amplua": 2,
       "number": 37,
       "citizenship": 17,
-      "birthday": "2006-11-09"
+      "birthday": "2006-11-09",
+      "nickname": "Энрике Кармо",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/enrikefabiano_dokarmo.png",
+      "photoSmall": "players/enrikefabiano_dokarmo_small.jpg"
     },
     "currentClub": 2
   },
@@ -56069,7 +57074,12 @@
       "amplua": 2,
       "number": 52,
       "citizenship": 2,
-      "birthday": "2005-09-20"
+      "birthday": "2005-09-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/artem_bandikyan.png",
+      "photoSmall": "players/artem_bandikyan_small.jpg"
     },
     "currentClub": 2
   },
@@ -56381,7 +57391,12 @@
       "amplua": 3,
       "number": 11,
       "citizenship": 2,
-      "birthday": "2001-07-29"
+      "birthday": "2001-07-29",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/tamerlan_musaev.png",
+      "photoSmall": "players/tamerlan_musaev_small.jpg"
     },
     "currentClub": 2
   },
@@ -56693,7 +57708,12 @@
       "amplua": 3,
       "number": 62,
       "citizenship": 2,
-      "birthday": "2008-02-22"
+      "birthday": "2008-02-22",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/imran_firov.png",
+      "photoSmall": "players/imran_firov_small.jpg"
     },
     "currentClub": 2
   },
@@ -57030,7 +58050,12 @@
       "amplua": 0,
       "number": 39,
       "citizenship": 2,
-      "birthday": "2000-02-15"
+      "birthday": "2000-02-15",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_borisko.png",
+      "photoSmall": "players/maksim_borisko_small.jpg"
     },
     "currentClub": 2
   },
@@ -57342,7 +58367,12 @@
       "amplua": 1,
       "number": 2,
       "citizenship": 2,
-      "birthday": "2003-06-27"
+      "birthday": "2003-06-27",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/sergey_varatynov.png",
+      "photoSmall": "players/sergey_varatynov_small.jpg"
     },
     "currentClub": 444
   },
@@ -57635,7 +58665,12 @@
       "amplua": 1,
       "number": 4,
       "citizenship": 61,
-      "birthday": "2001-01-05"
+      "birthday": "2001-01-05",
+      "nickname": "",
+      "public_name": "Натан",
+      "public_lastname": "Гассама",
+      "photo": "players/natanbaba_gassama.png",
+      "photoSmall": "players/natanbaba_gassama_small.jpg"
     },
     "currentClub": 444
   },
@@ -57871,7 +58906,12 @@
       "amplua": 1,
       "number": 18,
       "citizenship": 38,
-      "birthday": "1996-05-05"
+      "birthday": "1996-05-05",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/fahd_mufi.png",
+      "photoSmall": "players/fahd_mufi_small.jpg"
     },
     "currentClub": 444
   },
@@ -58164,7 +59204,12 @@
       "amplua": 1,
       "number": 21,
       "citizenship": 103,
-      "birthday": "2001-01-31"
+      "birthday": "2001-01-31",
+      "nickname": "",
+      "public_name": "Эдуардо",
+      "public_lastname": "Андерсон",
+      "photo": "players/eduardoantonio_andersongomes.png",
+      "photoSmall": "players/eduardoantonio_andersongomes_small.jpg"
     },
     "currentClub": 444
   },
@@ -58476,7 +59521,12 @@
       "amplua": 1,
       "number": 22,
       "citizenship": 2,
-      "birthday": "1995-11-30"
+      "birthday": "1995-11-30",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/mingiyan_beveev.png",
+      "photoSmall": "players/mingiyan_beveev_small.jpg"
     },
     "currentClub": 444
   },
@@ -58769,7 +59819,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 2,
-      "birthday": "1995-04-17"
+      "birthday": "1995-04-17",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/andrey_mendel.png",
+      "photoSmall": "players/andrey_mendel_small.jpg"
     },
     "currentClub": 444
   },
@@ -59081,7 +60136,12 @@
       "amplua": 2,
       "number": 10,
       "citizenship": 2,
-      "birthday": "1995-06-27"
+      "birthday": "1995-06-27",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilya_petrov.png",
+      "photoSmall": "players/ilya_petrov_small.jpg"
     },
     "currentClub": 444
   },
@@ -59418,7 +60478,12 @@
       "amplua": 2,
       "number": 18,
       "citizenship": 2,
-      "birthday": "2000-08-18"
+      "birthday": "2000-08-18",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/nikolay_titkov.png",
+      "photoSmall": "players/nikolay_titkov_small.jpg"
     },
     "currentClub": 5
   },
@@ -59730,7 +60795,12 @@
       "amplua": 2,
       "number": 73,
       "citizenship": 2,
-      "birthday": "2001-01-18"
+      "birthday": "2001-01-18",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_petrov.png",
+      "photoSmall": "players/maksim_petrov_small.jpg"
     },
     "currentClub": 444
   },
@@ -60042,7 +61112,12 @@
       "amplua": 3,
       "number": 9,
       "citizenship": 26,
-      "birthday": "2000-05-27"
+      "birthday": "2000-05-27",
+      "nickname": "",
+      "public_name": "Чинонсо",
+      "public_lastname": "Оффор",
+      "photo": "players/nnamdichinonso_offor.png",
+      "photoSmall": "players/nnamdichinonso_offor_small.jpg"
     },
     "currentClub": 444
   },
@@ -60335,7 +61410,12 @@
       "amplua": 0,
       "number": 44,
       "citizenship": 2,
-      "birthday": "1999-06-28"
+      "birthday": "1999-06-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/egor_lyubakov.png",
+      "photoSmall": "players/egor_lyubakov_small.jpg"
     },
     "currentClub": 444
   },
@@ -60609,7 +61689,12 @@
       "amplua": 0,
       "number": 81,
       "citizenship": 2,
-      "birthday": "2002-07-24"
+      "birthday": "2002-07-24",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ivan_kukushkin.png",
+      "photoSmall": "players/ivan_kukushkin_small.jpg"
     },
     "currentClub": 444
   },
@@ -60883,7 +61968,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 2,
-      "birthday": "2004-09-21"
+      "birthday": "2004-09-21",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilya_kirsh.png",
+      "photoSmall": "players/ilya_kirsh_small.jpg"
     },
     "currentClub": 444
   },
@@ -61043,7 +62133,12 @@
       "amplua": 1,
       "number": 19,
       "citizenship": 2,
-      "birthday": "2004-04-19"
+      "birthday": "2004-04-19",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_shnaptsev.png",
+      "photoSmall": "players/maksim_shnaptsev_small.jpg"
     },
     "currentClub": 444
   },
@@ -61355,7 +62450,12 @@
       "amplua": 1,
       "number": 26,
       "citizenship": 2,
-      "birthday": "2004-07-25"
+      "birthday": "2004-07-25",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ivan_belikov.png",
+      "photoSmall": "players/ivan_belikov_small.jpg"
     },
     "currentClub": 444
   },
@@ -61667,7 +62767,12 @@
       "amplua": 1,
       "number": 68,
       "citizenship": 2,
-      "birthday": "2005-09-18"
+      "birthday": "2005-09-18",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/mihail_ryadno.png",
+      "photoSmall": "players/mihail_ryadno_small.jpg"
     },
     "currentClub": 444
   },
@@ -61941,7 +63046,12 @@
       "amplua": 1,
       "number": 77,
       "citizenship": 16,
-      "birthday": "1996-05-28"
+      "birthday": "1996-05-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/eldar_chivich.png",
+      "photoSmall": "players/eldar_chivich_small.jpg"
     },
     "currentClub": 444
   },
@@ -62215,7 +63325,12 @@
       "amplua": 2,
       "number": 5,
       "citizenship": 38,
-      "birthday": "2000-05-07"
+      "birthday": "2000-05-07",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ayman_murid.png",
+      "photoSmall": "players/ayman_murid_small.jpg"
     },
     "currentClub": 444
   },
@@ -62527,7 +63642,12 @@
       "amplua": 2,
       "number": 42,
       "citizenship": 2,
-      "birthday": "2006-09-25"
+      "birthday": "2006-09-25",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vladislav_pospelov.png",
+      "photoSmall": "players/vladislav_pospelov_small.jpg"
     },
     "currentClub": 444
   },
@@ -62687,7 +63807,12 @@
       "amplua": 3,
       "number": null,
       "citizenship": 26,
-      "birthday": "2000-07-07UTC00:00:00"
+      "birthday": "2000-07-07UTC00:00:00",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -62809,7 +63934,12 @@
       "amplua": 3,
       "number": null,
       "citizenship": 2,
-      "birthday": "2006-10-31UTC00:00:00"
+      "birthday": "2006-10-31UTC00:00:00",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -63121,7 +64251,12 @@
       "amplua": 3,
       "number": 91,
       "citizenship": 111,
-      "birthday": "2001-06-28"
+      "birthday": "2001-06-28",
+      "nickname": "",
+      "public_name": "Брайан",
+      "public_lastname": "Хиль",
+      "photo": "players/brayanaleksandr_hilhurtado.png",
+      "photoSmall": "players/brayanaleksandr_hilhurtado_small.jpg"
     },
     "currentClub": 444
   },
@@ -63433,7 +64568,12 @@
       "amplua": 0,
       "number": 38,
       "citizenship": 2,
-      "birthday": "1998-02-16"
+      "birthday": "1998-02-16",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/evgeniy_staver.png",
+      "photoSmall": "players/evgeniy_staver_small.jpg"
     },
     "currentClub": 4
   },
@@ -63745,7 +64885,12 @@
       "amplua": 1,
       "number": 2,
       "citizenship": 2,
-      "birthday": "2001-01-31"
+      "birthday": "2001-01-31",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/egor_teslenko.png",
+      "photoSmall": "players/egor_teslenko_small.jpg"
     },
     "currentClub": 4
   },
@@ -63981,7 +65126,12 @@
       "amplua": 1,
       "number": 4,
       "citizenship": 2,
-      "birthday": "2002-06-21"
+      "birthday": "2002-06-21",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/konstantin_nizhegorodov.png",
+      "photoSmall": "players/konstantin_nizhegorodov_small.jpg"
     },
     "currentClub": 4
   },
@@ -64274,7 +65424,12 @@
       "amplua": 1,
       "number": 5,
       "citizenship": 530,
-      "birthday": "1994-08-08"
+      "birthday": "1994-08-08",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/igor_vuyachich.png",
+      "photoSmall": "players/igor_vuyachich_small.jpg"
     },
     "currentClub": 4
   },
@@ -64586,7 +65741,12 @@
       "amplua": 1,
       "number": 12,
       "citizenship": 111,
-      "birthday": "1999-09-27"
+      "birthday": "1999-09-27",
+      "nickname": "",
+      "public_name": "Андерсон",
+      "public_lastname": "Арройо",
+      "photo": "players/anderson_arroyokordoba.png",
+      "photoSmall": "players/anderson_arroyokordoba_small.jpg"
     },
     "currentClub": 4
   },
@@ -64898,7 +66058,12 @@
       "amplua": 1,
       "number": 23,
       "citizenship": 2,
-      "birthday": "2002-03-21"
+      "birthday": "2002-03-21",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ruslan_bezrukov.png",
+      "photoSmall": "players/ruslan_bezrukov_small.jpg"
     },
     "currentClub": 4
   },
@@ -65191,7 +66356,12 @@
       "amplua": 1,
       "number": 51,
       "citizenship": 2,
-      "birthday": "2005-03-29"
+      "birthday": "2005-03-29",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilya_rozhkov.png",
+      "photoSmall": "players/ilya_rozhkov_small.jpg"
     },
     "currentClub": 4
   },
@@ -65484,7 +66654,12 @@
       "amplua": 2,
       "number": 11,
       "citizenship": 190,
-      "birthday": "1997-07-05"
+      "birthday": "1997-07-05",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/nazmi_gripshi.png",
+      "photoSmall": "players/nazmi_gripshi_small.jpg"
     },
     "currentClub": 4
   },
@@ -65796,7 +66971,12 @@
       "amplua": 2,
       "number": 14,
       "citizenship": 45,
-      "birthday": "1999-01-12"
+      "birthday": "1999-01-12",
+      "nickname": "",
+      "public_name": "Игнасио",
+      "public_lastname": "Сааведра",
+      "photo": "players/ignasioantonio_saavedrapino.png",
+      "photoSmall": "players/ignasioantonio_saavedrapino_small.jpg"
     },
     "currentClub": 4
   },
@@ -66108,7 +67288,12 @@
       "amplua": 2,
       "number": 22,
       "citizenship": 34,
-      "birthday": "2002-10-15"
+      "birthday": "2002-10-15",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/veldin_hodzha.png",
+      "photoSmall": "players/veldin_hodzha_small.jpg"
     },
     "currentClub": 4
   },
@@ -66445,7 +67630,12 @@
       "amplua": 3,
       "number": 19,
       "citizenship": 190,
-      "birthday": "1998-01-01"
+      "birthday": "1998-01-01",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/mirlind_daku.png",
+      "photoSmall": "players/mirlind_daku_small.jpg"
     },
     "currentClub": 1
   },
@@ -66757,7 +67947,12 @@
       "amplua": 0,
       "number": 25,
       "citizenship": 2,
-      "birthday": "1991-05-17"
+      "birthday": "1991-05-17",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/artur_nigmatullin.png",
+      "photoSmall": "players/artur_nigmatullin_small.jpg"
     },
     "currentClub": 4
   },
@@ -67050,7 +68245,12 @@
       "amplua": 0,
       "number": 86,
       "citizenship": 2,
-      "birthday": "2005-03-25"
+      "birthday": "2005-03-25",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikita_korets.png",
+      "photoSmall": "players/nikita_korets_small.jpg"
     },
     "currentClub": 4
   },
@@ -67305,7 +68505,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 659,
-      "birthday": "1998-05-26"
+      "birthday": "1998-05-26",
+      "nickname": "",
+      "public_name": "Дениль",
+      "public_lastname": "Мальдонадо",
+      "photo": "players/denilomar_maldonadomunguyya.png",
+      "photoSmall": "players/denilomar_maldonadomunguyya_small.jpg"
     },
     "currentClub": 4
   },
@@ -67579,7 +68784,12 @@
       "amplua": 1,
       "number": 18,
       "citizenship": 2,
-      "birthday": "2000-01-30"
+      "birthday": "2000-01-30",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_ignatev.png",
+      "photoSmall": "players/maksim_ignatev_small.jpg"
     },
     "currentClub": 4
   },
@@ -67815,7 +69025,12 @@
       "amplua": 1,
       "number": 70,
       "citizenship": 2,
-      "birthday": "1992-03-26"
+      "birthday": "1992-03-26",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/dmitriy_kabutov.png",
+      "photoSmall": "players/dmitriy_kabutov_small.jpg"
     },
     "currentClub": 4
   },
@@ -68089,7 +69304,12 @@
       "amplua": 1,
       "number": 71,
       "citizenship": 2,
-      "birthday": "1997-11-14"
+      "birthday": "1997-11-14",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilya_samoshnikov.png",
+      "photoSmall": "players/ilya_samoshnikov_small.jpg"
     },
     "currentClub": 4
   },
@@ -68401,7 +69621,12 @@
       "amplua": 1,
       "number": 98,
       "citizenship": 2,
-      "birthday": "2005-07-21"
+      "birthday": "2005-07-21",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikita_lobov.png",
+      "photoSmall": "players/nikita_lobov_small.jpg"
     },
     "currentClub": 4
   },
@@ -68675,7 +69900,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 530,
-      "birthday": "2001-01-11"
+      "birthday": "2001-01-11",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/bogdan_yochich.png",
+      "photoSmall": "players/bogdan_yochich_small.jpg"
     },
     "currentClub": 4
   },
@@ -68949,7 +70179,12 @@
       "amplua": 2,
       "number": 44,
       "citizenship": 2,
-      "birthday": "2003-04-23"
+      "birthday": "2003-04-23",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_kuznetsov.png",
+      "photoSmall": "players/daniil_kuznetsov_small.jpg"
     },
     "currentClub": 4
   },
@@ -69147,7 +70382,12 @@
       "amplua": 2,
       "number": 77,
       "citizenship": 101,
-      "birthday": "2000-07-26"
+      "birthday": "2000-07-26",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandar_yukich.png",
+      "photoSmall": "players/aleksandar_yukich_small.jpg"
     },
     "currentClub": 4
   },
@@ -69440,7 +70680,12 @@
       "amplua": 3,
       "number": 43,
       "citizenship": 61,
-      "birthday": "2001-07-29"
+      "birthday": "2001-07-29",
+      "nickname": "",
+      "public_name": "Жак",
+      "public_lastname": "Сиве",
+      "photo": "players/zhakzhyulen_sive.png",
+      "photoSmall": "players/zhakzhyulen_sive_small.jpg"
     },
     "currentClub": 4
   },
@@ -69752,7 +70997,12 @@
       "amplua": 3,
       "number": 59,
       "citizenship": 2,
-      "birthday": "2004-07-16"
+      "birthday": "2004-07-16",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/daniil_motorin.png",
+      "photoSmall": "players/daniil_motorin_small.jpg"
     },
     "currentClub": 4
   },
@@ -70064,7 +71314,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "2002-01-09"
+      "birthday": "2002-01-09",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/stanislav_agkatsev.png",
+      "photoSmall": "players/stanislav_agkatsev_small.jpg"
     },
     "currentClub": 584
   },
@@ -70357,7 +71612,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 17,
-      "birthday": "1996-01-04"
+      "birthday": "1996-01-04",
+      "nickname": "",
+      "public_name": "Витор",
+      "public_lastname": "Тормена",
+      "photo": "players/vitor_tormenadefarias.png",
+      "photoSmall": "players/vitor_tormenadefarias_small.jpg"
     },
     "currentClub": 584
   },
@@ -70669,7 +71929,12 @@
       "amplua": 1,
       "number": 5,
       "citizenship": 17,
-      "birthday": "1993-08-29"
+      "birthday": "1993-08-29",
+      "nickname": "Жубал",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/zhubal_roshamendeszhunior.png",
+      "photoSmall": "players/zhubal_roshamendeszhunior_small.jpg"
     },
     "currentClub": 584
   },
@@ -70981,7 +72246,12 @@
       "amplua": 1,
       "number": 15,
       "citizenship": 210,
-      "birthday": "1994-07-21"
+      "birthday": "1994-07-21",
+      "nickname": "",
+      "public_name": "Лукас",
+      "public_lastname": "Оласа",
+      "photo": "players/lukasrene_olasakatrofe.png",
+      "photoSmall": "players/lukasrene_olasakatrofe_small.jpg"
     },
     "currentClub": 584
   },
@@ -71274,7 +72544,12 @@
       "amplua": 1,
       "number": 40,
       "citizenship": 2,
-      "birthday": "2001-01-14"
+      "birthday": "2001-01-14",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilya_vahaniya.png",
+      "photoSmall": "players/ilya_vahaniya_small.jpg"
     },
     "currentClub": 584
   },
@@ -71529,7 +72804,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 17,
-      "birthday": "1997-01-13"
+      "birthday": "1997-01-13",
+      "nickname": "Дуглас Аугусто",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/duglasaugusto_soaresgomes.png",
+      "photoSmall": "players/duglasaugusto_soaresgomes_small.jpg"
     },
     "currentClub": 584
   },
@@ -71841,7 +73121,12 @@
       "amplua": 2,
       "number": 11,
       "citizenship": 82,
-      "birthday": "1998-05-01"
+      "birthday": "1998-05-01",
+      "nickname": "Батчи",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/zhoaupedru_forteshbatchieza.png",
+      "photoSmall": "players/zhoaupedru_forteshbatchieza_small.jpg"
     },
     "currentClub": 584
   },
@@ -72153,7 +73438,12 @@
       "amplua": 2,
       "number": 53,
       "citizenship": 2,
-      "birthday": "2000-02-01"
+      "birthday": "2000-02-01",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_chernikov.png",
+      "photoSmall": "players/aleksandr_chernikov_small.jpg"
     },
     "currentClub": 584
   },
@@ -72294,7 +73584,12 @@
       "amplua": 2,
       "number": 88,
       "citizenship": 2,
-      "birthday": "2002-08-18"
+      "birthday": "2002-08-18",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikita_krivtsov.png",
+      "photoSmall": "players/nikita_krivtsov_small.jpg"
     },
     "currentClub": 584
   },
@@ -72606,7 +73901,12 @@
       "amplua": 3,
       "number": 10,
       "citizenship": 2,
-      "birthday": "1997-11-28"
+      "birthday": "1997-11-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/dmitriy_vorobev.png",
+      "photoSmall": "players/dmitriy_vorobev_small.jpg"
     },
     "currentClub": 584
   },
@@ -72880,7 +74180,12 @@
       "amplua": 3,
       "number": 23,
       "citizenship": 19,
-      "birthday": "1999-11-09"
+      "birthday": "1999-11-09",
+      "nickname": "",
+      "public_name": "Хуан",
+      "public_lastname": "Боселли",
+      "photo": "players/huanmanuel_boselligraf.png",
+      "photoSmall": "players/huanmanuel_boselligraf_small.jpg"
     },
     "currentClub": 584
   },
@@ -73192,7 +74497,12 @@
       "amplua": 0,
       "number": 16,
       "citizenship": 2,
-      "birthday": "2002-03-10"
+      "birthday": "2002-03-10",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_koryakin.png",
+      "photoSmall": "players/aleksandr_koryakin_small.jpg"
     },
     "currentClub": 584
   },
@@ -73276,7 +74586,12 @@
       "amplua": 0,
       "number": 34,
       "citizenship": 2,
-      "birthday": "2008-07-28"
+      "birthday": "2008-07-28",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/andrey_karpenko.png",
+      "photoSmall": "players/andrey_karpenko_small.jpg"
     },
     "currentClub": 584
   },
@@ -73455,7 +74770,12 @@
       "amplua": 1,
       "number": null,
       "citizenship": 17,
-      "birthday": "1999-07-21UTC00:00:00"
+      "birthday": "1999-07-21UTC00:00:00",
+      "nickname": "Диего Коста",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -73767,7 +75087,12 @@
       "amplua": 1,
       "number": 17,
       "citizenship": 2,
-      "birthday": "2001-07-12"
+      "birthday": "2001-07-12",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/valentin_paltsev.png",
+      "photoSmall": "players/valentin_paltsev_small.jpg"
     },
     "currentClub": 584
   },
@@ -74003,7 +75328,12 @@
       "amplua": 1,
       "number": 59,
       "citizenship": 2,
-      "birthday": "2007-05-03"
+      "birthday": "2007-05-03",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/artem_hmarin.png",
+      "photoSmall": "players/artem_hmarin_small.jpg"
     },
     "currentClub": 584
   },
@@ -74315,7 +75645,12 @@
       "amplua": 2,
       "number": 6,
       "citizenship": 640,
-      "birthday": "1997-01-27"
+      "birthday": "1997-01-27",
+      "nickname": "Кевин Пина",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kevinlenini_gonsalveshpereyradepina.png",
+      "photoSmall": "players/kevinlenini_gonsalveshpereyradepina_small.jpg"
     },
     "currentClub": 584
   },
@@ -74589,7 +75924,12 @@
       "amplua": 2,
       "number": 18,
       "citizenship": 17,
-      "birthday": "2000-12-19"
+      "birthday": "2000-12-19",
+      "nickname": "Кристиан",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/kristianroberto_alveskardozo.png",
+      "photoSmall": "players/kristianroberto_alveskardozo_small.jpg"
     },
     "currentClub": 584
   },
@@ -74901,7 +76241,12 @@
       "amplua": 2,
       "number": 21,
       "citizenship": 2,
-      "birthday": "1992-11-05"
+      "birthday": "1992-11-05",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/magomed_ozdoev.png",
+      "photoSmall": "players/magomed_ozdoev_small.jpg"
     },
     "currentClub": 584
   },
@@ -75213,7 +76558,12 @@
       "amplua": 2,
       "number": 47,
       "citizenship": 2,
-      "birthday": "1999-10-12"
+      "birthday": "1999-10-12",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_utkin.png",
+      "photoSmall": "players/daniil_utkin_small.jpg"
     },
     "currentClub": 584
   },
@@ -75525,7 +76875,12 @@
       "amplua": 0,
       "number": 88,
       "citizenship": 2,
-      "birthday": "1995-04-22"
+      "birthday": "1995-04-22",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/vitaliy_gudiev.png",
+      "photoSmall": "players/vitaliy_gudiev_small.jpg"
     },
     "currentClub": 807
   },
@@ -75818,7 +77173,12 @@
       "amplua": 1,
       "number": 13,
       "citizenship": 2,
-      "birthday": "2002-05-25"
+      "birthday": "2002-05-25",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vyacheslav_bardybahin.png",
+      "photoSmall": "players/vyacheslav_bardybahin_small.jpg"
     },
     "currentClub": 807
   },
@@ -76092,7 +77452,12 @@
       "amplua": 1,
       "number": 19,
       "citizenship": 2,
-      "birthday": "2001-07-17"
+      "birthday": "2001-07-17",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/marat_bokoev.png",
+      "photoSmall": "players/marat_bokoev_small.jpg"
     },
     "currentClub": 807
   },
@@ -76385,7 +77750,12 @@
       "amplua": 1,
       "number": 21,
       "citizenship": 632,
-      "birthday": "1999-07-12"
+      "birthday": "1999-07-12",
+      "nickname": "",
+      "public_name": "Роберто",
+      "public_lastname": "Фернандес",
+      "photo": "players/robertokarlos_fernandestoro.png",
+      "photoSmall": "players/robertokarlos_fernandestoro_small.jpg"
     },
     "currentClub": 807
   },
@@ -76621,7 +77991,12 @@
       "amplua": 1,
       "number": 24,
       "citizenship": 13,
-      "birthday": "1996-04-25"
+      "birthday": "1996-04-25",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/yonuts_nedelcharu.png",
+      "photoSmall": "players/yonuts_nedelcharu_small.jpg"
     },
     "currentClub": 807
   },
@@ -76781,7 +78156,12 @@
       "amplua": 2,
       "number": 5,
       "citizenship": 530,
-      "birthday": "2002-12-23"
+      "birthday": "2002-12-23",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/aleksa_dzhurasovich.png",
+      "photoSmall": "players/aleksa_dzhurasovich_small.jpg"
     },
     "currentClub": 807
   },
@@ -77074,7 +78454,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 34,
-      "birthday": "1998-04-09"
+      "birthday": "1998-04-09",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kristiyan_bistrovich.png",
+      "photoSmall": "players/kristiyan_bistrovich_small.jpg"
     },
     "currentClub": 807
   },
@@ -77367,7 +78752,12 @@
       "amplua": 2,
       "number": 15,
       "citizenship": 531,
-      "birthday": "1996-02-19"
+      "birthday": "1996-02-19",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/stefan_lonchar.png",
+      "photoSmall": "players/stefan_lonchar_small.jpg"
     },
     "currentClub": 807
   },
@@ -77641,7 +79031,12 @@
       "amplua": 3,
       "number": 9,
       "citizenship": 530,
-      "birthday": "2000-04-13"
+      "birthday": "2000-04-13",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/slobodan_tedich.png",
+      "photoSmall": "players/slobodan_tedich_small.jpg"
     },
     "currentClub": 807
   },
@@ -77934,7 +79329,12 @@
       "amplua": 3,
       "number": 10,
       "citizenship": 41,
-      "birthday": "2006-06-06"
+      "birthday": "2006-06-06",
+      "nickname": "",
+      "public_name": "Кевин",
+      "public_lastname": "Аревало",
+      "photo": "players/kevinnauel_arevalodias.png",
+      "photoSmall": "players/kevinnauel_arevalodias_small.jpg"
     },
     "currentClub": 807
   },
@@ -78246,7 +79646,12 @@
       "amplua": 3,
       "number": 69,
       "citizenship": 2,
-      "birthday": "2007-07-18"
+      "birthday": "2007-07-18",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/arseniy_dmitriev.png",
+      "photoSmall": "players/arseniy_dmitriev_small.jpg"
     },
     "currentClub": 807
   },
@@ -78539,7 +79944,12 @@
       "amplua": 0,
       "number": 32,
       "citizenship": 2,
-      "birthday": "2006-03-27"
+      "birthday": "2006-03-27",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ignat_terehovskiy.png",
+      "photoSmall": "players/ignat_terehovskiy_small.jpg"
     },
     "currentClub": 807
   },
@@ -78813,7 +80223,12 @@
       "amplua": 0,
       "number": 98,
       "citizenship": 2,
-      "birthday": "2008-05-23"
+      "birthday": "2008-05-23",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/roman_volochay.png",
+      "photoSmall": "players/roman_volochay_small.jpg"
     },
     "currentClub": 807
   },
@@ -79125,7 +80540,12 @@
       "amplua": 1,
       "number": 2,
       "citizenship": 632,
-      "birthday": "2003-06-21"
+      "birthday": "2003-06-21",
+      "nickname": "",
+      "public_name": "Йомар",
+      "public_lastname": "Роча",
+      "photo": "players/yomarrene_rocharodriges.png",
+      "photoSmall": "players/yomarrene_rocharodriges_small.jpg"
     },
     "currentClub": 807
   },
@@ -79437,7 +80857,12 @@
       "amplua": 1,
       "number": 26,
       "citizenship": 82,
-      "birthday": "1997-05-08"
+      "birthday": "1997-05-08",
+      "nickname": "",
+      "public_name": "Родриго",
+      "public_lastname": "Эсковаль",
+      "photo": "players/zhoaorodrigo_pereyraeskoval.png",
+      "photoSmall": "players/zhoaorodrigo_pereyraeskoval_small.jpg"
     },
     "currentClub": 807
   },
@@ -79559,7 +80984,12 @@
       "amplua": 1,
       "number": 47,
       "citizenship": 2,
-      "birthday": "2006-01-07"
+      "birthday": "2006-01-07",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/egor_vedernikov.png",
+      "photoSmall": "players/egor_vedernikov_small.jpg"
     },
     "currentClub": 807
   },
@@ -79700,7 +81130,12 @@
       "amplua": 2,
       "number": 14,
       "citizenship": 2,
-      "birthday": "2002-11-15"
+      "birthday": "2002-11-15",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/yuriy_zheleznov.png",
+      "photoSmall": "players/yuriy_zheleznov_small.jpg"
     },
     "currentClub": 807
   },
@@ -79955,7 +81390,12 @@
       "amplua": 2,
       "number": 22,
       "citizenship": 2,
-      "birthday": "2000-02-07"
+      "birthday": "2000-02-07",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/konstantin_maradishvili.png",
+      "photoSmall": "players/konstantin_maradishvili_small.jpg"
     },
     "currentClub": 807
   },
@@ -80248,7 +81688,12 @@
       "amplua": 2,
       "number": 80,
       "citizenship": 2,
-      "birthday": "1998-06-18"
+      "birthday": "1998-06-18",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/hetag_hosonov.png",
+      "photoSmall": "players/hetag_hosonov_small.jpg"
     },
     "currentClub": 807
   },
@@ -80503,7 +81948,12 @@
       "amplua": 2,
       "number": 81,
       "citizenship": 2,
-      "birthday": "2006-06-05"
+      "birthday": "2006-06-05",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/nikita_bazilevskiy.png",
+      "photoSmall": "players/nikita_bazilevskiy_small.jpg"
     },
     "currentClub": 807
   },
@@ -80815,7 +82265,12 @@
       "amplua": 2,
       "number": 89,
       "citizenship": 2,
-      "birthday": "2006-10-03"
+      "birthday": "2006-10-03",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/denis_popenkov.png",
+      "photoSmall": "players/denis_popenkov_small.jpg"
     },
     "currentClub": 807
   },
@@ -81070,7 +82525,12 @@
       "amplua": 3,
       "number": 7,
       "citizenship": 82,
-      "birthday": "2001-12-29"
+      "birthday": "2001-12-29",
+      "nickname": "",
+      "public_name": "Жилсон",
+      "public_lastname": "Беншимол",
+      "photo": "players/zhilson_benshimoltavaresh.png",
+      "photoSmall": "players/zhilson_benshimoltavaresh_small.jpg"
     },
     "currentClub": 807
   },
@@ -81382,7 +82842,12 @@
       "amplua": 0,
       "number": 16,
       "citizenship": 2,
-      "birthday": "1998-02-20"
+      "birthday": "1998-02-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/denis_adamov.png",
+      "photoSmall": "players/denis_adamov_small.jpg"
     },
     "currentClub": 3
   },
@@ -81675,7 +83140,12 @@
       "amplua": 1,
       "number": 33,
       "citizenship": 17,
-      "birthday": "1997-04-10"
+      "birthday": "1997-04-10",
+      "nickname": "Нино",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/marsilio_florensiomotafilo.png",
+      "photoSmall": "players/marsilio_florensiomotafilo_small.jpg"
     },
     "currentClub": 3
   },
@@ -81968,7 +83438,12 @@
       "amplua": 1,
       "number": 66,
       "citizenship": 15,
-      "birthday": "2004-01-01"
+      "birthday": "2004-01-01",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/romangabriel_vega.png",
+      "photoSmall": "players/romangabriel_vega_small.jpg"
     },
     "currentClub": 3
   },
@@ -82204,7 +83679,12 @@
       "amplua": 1,
       "number": 78,
       "citizenship": 2,
-      "birthday": "1999-09-27"
+      "birthday": "1999-09-27",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/igor_diveev.png",
+      "photoSmall": "players/igor_diveev_small.jpg"
     },
     "currentClub": 3
   },
@@ -82516,7 +83996,12 @@
       "amplua": 2,
       "number": 5,
       "citizenship": 111,
-      "birthday": "1993-10-16"
+      "birthday": "1993-10-16",
+      "nickname": "",
+      "public_name": "Вильмар",
+      "public_lastname": "Барриос",
+      "photo": "players/vilmarenrike_barriosteran.png",
+      "photoSmall": "players/vilmarenrike_barriosteran_small.jpg"
     },
     "currentClub": 3
   },
@@ -82714,7 +84199,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 17,
-      "birthday": "1997-08-28"
+      "birthday": "1997-08-28",
+      "nickname": "Вендел",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/markusvendel_valledasilva.png",
+      "photoSmall": "players/markusvendel_valledasilva_small.jpg"
     },
     "currentClub": 3
   },
@@ -83007,7 +84497,12 @@
       "amplua": 2,
       "number": 14,
       "citizenship": 17,
-      "birthday": "2002-09-09"
+      "birthday": "2002-09-09",
+      "nickname": "Джон Джон",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/dzhonatan_dossantosroza.png",
+      "photoSmall": "players/dzhonatan_dossantosroza_small.jpg"
     },
     "currentClub": 3
   },
@@ -83300,7 +84795,12 @@
       "amplua": 2,
       "number": 31,
       "citizenship": 17,
-      "birthday": "2001-06-20"
+      "birthday": "2001-06-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/gustavo_mantuan.png",
+      "photoSmall": "players/gustavo_mantuan_small.jpg"
     },
     "currentClub": 3
   },
@@ -83593,7 +85093,12 @@
       "amplua": 3,
       "number": 7,
       "citizenship": 2,
-      "birthday": "1997-03-07"
+      "birthday": "1997-03-07",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_sobolev.png",
+      "photoSmall": "players/aleksandr_sobolev_small.jpg"
     },
     "currentClub": 3
   },
@@ -83886,7 +85391,12 @@
       "amplua": 3,
       "number": 10,
       "citizenship": 2,
-      "birthday": "1999-07-28"
+      "birthday": "1999-07-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_glushenkov.png",
+      "photoSmall": "players/maksim_glushenkov_small.jpg"
     },
     "currentClub": 3
   },
@@ -84179,7 +85689,12 @@
       "amplua": 3,
       "number": 20,
       "citizenship": 17,
-      "birthday": "2006-02-05"
+      "birthday": "2006-02-05",
+      "nickname": "Педро",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/pedroenrike_silvaarantesdossantos.png",
+      "photoSmall": "players/pedroenrike_silvaarantesdossantos_small.jpg"
     },
     "currentClub": 3
   },
@@ -84516,7 +86031,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "1998-06-21"
+      "birthday": "1998-06-21",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/evgeniy_latyshonok.png",
+      "photoSmall": "players/evgeniy_latyshonok_small.jpg"
     },
     "currentClub": 444
   },
@@ -84828,7 +86348,12 @@
       "amplua": 0,
       "number": 57,
       "citizenship": 2,
-      "birthday": "2004-04-30"
+      "birthday": "2004-04-30",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/bogdan_moskvichev.png",
+      "photoSmall": "players/bogdan_moskvichev_small.jpg"
     },
     "currentClub": 3
   },
@@ -85146,7 +86671,12 @@
       "amplua": 1,
       "number": 4,
       "citizenship": 2,
-      "birthday": "1999-03-13"
+      "birthday": "1999-03-13",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/yuriy_gorshkov.png",
+      "photoSmall": "players/yuriy_gorshkov_small.jpg"
     },
     "currentClub": 10
   },
@@ -85268,7 +86798,12 @@
       "amplua": 1,
       "number": null,
       "citizenship": 32,
-      "birthday": "1999-10-30UTC00:00:00"
+      "birthday": "1999-10-30UTC00:00:00",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -85580,7 +87115,12 @@
       "amplua": 1,
       "number": 15,
       "citizenship": 2,
-      "birthday": "1995-05-20"
+      "birthday": "1995-05-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vyacheslav_karavaev.png",
+      "photoSmall": "players/vyacheslav_karavaev_small.jpg"
     },
     "currentClub": 3
   },
@@ -85892,7 +87432,12 @@
       "amplua": 1,
       "number": 25,
       "citizenship": 111,
-      "birthday": "1999-06-16"
+      "birthday": "1999-06-16",
+      "nickname": "",
+      "public_name": "Кевин",
+      "public_lastname": "Андраде",
+      "photo": "players/kevinorlando_andrademurillo.png",
+      "photoSmall": "players/kevinorlando_andrademurillo_small.jpg"
     },
     "currentClub": 3
   },
@@ -86204,7 +87749,12 @@
       "amplua": 1,
       "number": 28,
       "citizenship": 3,
-      "birthday": "1999-12-22"
+      "birthday": "1999-12-22",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nuraly_alip.png",
+      "photoSmall": "players/nuraly_alip_small.jpg"
     },
     "currentClub": 3
   },
@@ -86459,7 +88009,12 @@
       "amplua": 1,
       "number": 82,
       "citizenship": 2,
-      "birthday": "2002-09-09"
+      "birthday": "2002-09-09",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/sergey_volkov.png",
+      "photoSmall": "players/sergey_volkov_small.jpg"
     },
     "currentClub": 3
   },
@@ -86758,7 +88313,12 @@
       "amplua": 2,
       "number": 77,
       "citizenship": 2,
-      "birthday": "1997-11-05"
+      "birthday": "1997-11-05",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/andrey_mostovoy.png",
+      "photoSmall": "players/andrey_mostovoy_small.jpg"
     },
     "currentClub": 5
   },
@@ -87032,7 +88592,12 @@
       "amplua": 2,
       "number": 21,
       "citizenship": 2,
-      "birthday": "1989-10-13"
+      "birthday": "1989-10-13",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_erohin.png",
+      "photoSmall": "players/aleksandr_erohin_small.jpg"
     },
     "currentClub": 3
   },
@@ -87344,7 +88909,12 @@
       "amplua": 2,
       "number": 61,
       "citizenship": 2,
-      "birthday": "2008-03-06"
+      "birthday": "2008-03-06",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_kondakov.png",
+      "photoSmall": "players/daniil_kondakov_small.jpg"
     },
     "currentClub": 3
   },
@@ -87656,7 +89226,12 @@
       "amplua": 3,
       "number": 9,
       "citizenship": 17,
-      "birthday": "2004-02-18"
+      "birthday": "2004-02-18",
+      "nickname": "Фелипе Аугусто",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/felipeaugusto_dasilva.png",
+      "photoSmall": "players/felipeaugusto_dasilva_small.jpg"
     },
     "currentClub": 3
   },
@@ -87968,7 +89543,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "2001-05-15"
+      "birthday": "2001-05-15",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_frolkin.png",
+      "photoSmall": "players/daniil_frolkin_small.jpg"
     },
     "currentClub": 264
   },
@@ -88261,7 +89841,12 @@
       "amplua": 1,
       "number": 5,
       "citizenship": 2,
-      "birthday": "1997-09-28"
+      "birthday": "1997-09-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/albert_gabaraev.png",
+      "photoSmall": "players/albert_gabaraev_small.jpg"
     },
     "currentClub": 264
   },
@@ -88535,7 +90120,12 @@
       "amplua": 1,
       "number": 20,
       "citizenship": 2,
-      "birthday": "1993-12-10"
+      "birthday": "1993-12-10",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/igor_yurganov.png",
+      "photoSmall": "players/igor_yurganov_small.jpg"
     },
     "currentClub": 264
   },
@@ -88847,7 +90437,12 @@
       "amplua": 1,
       "number": 44,
       "citizenship": 2,
-      "birthday": "1996-06-29"
+      "birthday": "1996-06-29",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/yuriy_zhuravlev.png",
+      "photoSmall": "players/yuriy_zhuravlev_small.jpg"
     },
     "currentClub": 264
   },
@@ -89140,7 +90735,12 @@
       "amplua": 1,
       "number": 55,
       "citizenship": 16,
-      "birthday": "1997-05-05"
+      "birthday": "1997-05-05",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/darko_todorovich.png",
+      "photoSmall": "players/darko_todorovich_small.jpg"
     },
     "currentClub": 264
   },
@@ -89414,7 +91014,12 @@
       "amplua": 2,
       "number": 10,
       "citizenship": 2,
-      "birthday": "1993-08-31"
+      "birthday": "1993-08-31",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ilnur_alshin.png",
+      "photoSmall": "players/ilnur_alshin_small.jpg"
     },
     "currentClub": 264
   },
@@ -89726,7 +91331,12 @@
       "amplua": 2,
       "number": 23,
       "citizenship": 2,
-      "birthday": "1998-01-05"
+      "birthday": "1998-01-05",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vyacheslav_yakimov.png",
+      "photoSmall": "players/vyacheslav_yakimov_small.jpg"
     },
     "currentClub": 264
   },
@@ -90038,7 +91648,12 @@
       "amplua": 2,
       "number": 52,
       "citizenship": 2,
-      "birthday": "1993-03-03"
+      "birthday": "1993-03-03",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ravil_netfullin.png",
+      "photoSmall": "players/ravil_netfullin_small.jpg"
     },
     "currentClub": 264
   },
@@ -90350,7 +91965,12 @@
       "amplua": 2,
       "number": 97,
       "citizenship": 2,
-      "birthday": "1997-12-25"
+      "birthday": "1997-12-25",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/butta_magomedov.png",
+      "photoSmall": "players/butta_magomedov_small.jpg"
     },
     "currentClub": 264
   },
@@ -90662,7 +92282,12 @@
       "amplua": 3,
       "number": 9,
       "citizenship": 61,
-      "birthday": "2001-08-28"
+      "birthday": "2001-08-28",
+      "nickname": "",
+      "public_name": "Аксель",
+      "public_lastname": "Гнапи",
+      "photo": "players/akselaymerik_gnapidable.png",
+      "photoSmall": "players/akselaymerik_gnapidable_small.jpg"
     },
     "currentClub": 264
   },
@@ -90974,7 +92599,12 @@
       "amplua": 3,
       "number": 19,
       "citizenship": 190,
-      "birthday": "1998-01-23"
+      "birthday": "1998-01-23",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/belaydi_pusi.png",
+      "photoSmall": "players/belaydi_pusi_small.jpg"
     },
     "currentClub": 264
   },
@@ -91286,7 +92916,12 @@
       "amplua": 0,
       "number": 35,
       "citizenship": 2,
-      "birthday": "2003-09-14"
+      "birthday": "2003-09-14",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vyacheslav_dorovskih.png",
+      "photoSmall": "players/vyacheslav_dorovskih_small.jpg"
     },
     "currentClub": 264
   },
@@ -91579,7 +93214,12 @@
       "amplua": 0,
       "number": 96,
       "citizenship": 2,
-      "birthday": "1996-05-29"
+      "birthday": "1996-05-29",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/igor_obuhov.png",
+      "photoSmall": "players/igor_obuhov_small.jpg"
     },
     "currentClub": 264
   },
@@ -91872,7 +93512,12 @@
       "amplua": 1,
       "number": 53,
       "citizenship": 2,
-      "birthday": "2006-03-24"
+      "birthday": "2006-03-24",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/matvey_bardachev.png",
+      "photoSmall": "players/matvey_bardachev_small.jpg"
     },
     "currentClub": 264
   },
@@ -92184,7 +93829,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 2,
-      "birthday": "2004-10-18"
+      "birthday": "2004-10-18",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/abdula_bagamaev.png",
+      "photoSmall": "players/abdula_bagamaev_small.jpg"
     },
     "currentClub": 264
   },
@@ -92458,7 +94108,12 @@
       "amplua": 2,
       "number": 11,
       "citizenship": 2,
-      "birthday": "1994-01-10"
+      "birthday": "1994-01-10",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksey_sutormin.png",
+      "photoSmall": "players/aleksey_sutormin_small.jpg"
     },
     "currentClub": 264
   },
@@ -92770,7 +94425,12 @@
       "amplua": 2,
       "number": 17,
       "citizenship": 10,
-      "birthday": "2000-04-19"
+      "birthday": "2000-04-19",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/anton_kovalev.png",
+      "photoSmall": "players/anton_kovalev_small.jpg"
     },
     "currentClub": 264
   },
@@ -92987,7 +94647,12 @@
       "amplua": 2,
       "number": 18,
       "citizenship": 2,
-      "birthday": "2006-05-24"
+      "birthday": "2006-05-24",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kirill_simonov.png",
+      "photoSmall": "players/kirill_simonov_small.jpg"
     },
     "currentClub": 264
   },
@@ -93261,7 +94926,12 @@
       "amplua": 2,
       "number": 99,
       "citizenship": 2,
-      "birthday": "1997-07-16"
+      "birthday": "1997-07-16",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/nikolay_giorgobiani.png",
+      "photoSmall": "players/nikolay_giorgobiani_small.jpg"
     },
     "currentClub": 264
   },
@@ -93535,7 +95205,12 @@
       "amplua": 3,
       "number": 7,
       "citizenship": 2,
-      "birthday": "2002-03-05"
+      "birthday": "2002-03-05",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_turischev.png",
+      "photoSmall": "players/maksim_turischev_small.jpg"
     },
     "currentClub": 264
   },
@@ -93752,7 +95427,12 @@
       "amplua": 3,
       "number": 25,
       "citizenship": 2,
-      "birthday": "2006-01-23"
+      "birthday": "2006-01-23",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_belyaev.png",
+      "photoSmall": "players/aleksandr_belyaev_small.jpg"
     },
     "currentClub": 264
   },
@@ -93931,7 +95611,12 @@
       "amplua": 3,
       "number": null,
       "citizenship": 2,
-      "birthday": "1993-04-07UTC00:00:00"
+      "birthday": "1993-04-07UTC00:00:00",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -94243,7 +95928,12 @@
       "amplua": 0,
       "number": 39,
       "citizenship": 2,
-      "birthday": "2001-12-20"
+      "birthday": "2001-12-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/timur_magomedov.png",
+      "photoSmall": "players/timur_magomedov_small.jpg"
     },
     "currentClub": 125
   },
@@ -94555,7 +96245,12 @@
       "amplua": 1,
       "number": 13,
       "citizenship": 2,
-      "birthday": "1996-08-20"
+      "birthday": "1996-08-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/soslan_kagermazov.png",
+      "photoSmall": "players/soslan_kagermazov_small.jpg"
     },
     "currentClub": 125
   },
@@ -94867,7 +96562,12 @@
       "amplua": 1,
       "number": 24,
       "citizenship": 111,
-      "birthday": "2001-05-19"
+      "birthday": "2001-05-19",
+      "nickname": "",
+      "public_name": "Андрес",
+      "public_lastname": "Аларкон",
+      "photo": "players/andresmaurisio_alarkonmendosa.png",
+      "photoSmall": "players/andresmaurisio_alarkonmendosa_small.jpg"
     },
     "currentClub": 125
   },
@@ -95103,7 +96803,12 @@
       "amplua": 1,
       "number": 72,
       "citizenship": 2,
-      "birthday": "2002-01-02"
+      "birthday": "2002-01-02",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_sandrachuk.png",
+      "photoSmall": "players/aleksandr_sandrachuk_small.jpg"
     },
     "currentClub": 125
   },
@@ -95396,7 +97101,12 @@
       "amplua": 1,
       "number": 99,
       "citizenship": 2,
-      "birthday": "1997-06-18"
+      "birthday": "1997-06-18",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/mutalip_alibekov.png",
+      "photoSmall": "players/mutalip_alibekov_small.jpg"
     },
     "currentClub": 125
   },
@@ -95689,7 +97399,12 @@
       "amplua": 2,
       "number": 6,
       "citizenship": 2,
-      "birthday": "2001-05-27"
+      "birthday": "2001-05-27",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/marat_apshatsev.png",
+      "photoSmall": "players/marat_apshatsev_small.jpg"
     },
     "currentClub": 125
   },
@@ -96001,7 +97716,12 @@
       "amplua": 2,
       "number": 16,
       "citizenship": 652,
-      "birthday": "2000-03-23"
+      "birthday": "2000-03-23",
+      "nickname": "",
+      "public_name": "Хуссем",
+      "public_lastname": "Мрезиг",
+      "photo": "players/hussemeddin_mrezig.png",
+      "photoSmall": "players/hussemeddin_mrezig_small.jpg"
     },
     "currentClub": 125
   },
@@ -96313,7 +98033,12 @@
       "amplua": 2,
       "number": 47,
       "citizenship": 2,
-      "birthday": "1999-03-19"
+      "birthday": "1999-03-19",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikita_glushkov.png",
+      "photoSmall": "players/nikita_glushkov_small.jpg"
     },
     "currentClub": 125
   },
@@ -96606,7 +98331,12 @@
       "amplua": 2,
       "number": 77,
       "citizenship": 2,
-      "birthday": "2001-09-17"
+      "birthday": "2001-09-17",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/temirkan_sundukov.png",
+      "photoSmall": "players/temirkan_sundukov_small.jpg"
     },
     "currentClub": 125
   },
@@ -96918,7 +98648,12 @@
       "amplua": 3,
       "number": 11,
       "citizenship": 84,
-      "birthday": "2003-04-22"
+      "birthday": "2003-04-22",
+      "nickname": "Миро",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/valdemirupintu_domingush.png",
+      "photoSmall": "players/valdemirupintu_domingush_small.jpg"
     },
     "currentClub": 125
   },
@@ -97230,7 +98965,12 @@
       "amplua": 3,
       "number": 25,
       "citizenship": 2,
-      "birthday": "2000-07-16"
+      "birthday": "2000-07-16",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/gamid_agalarov.png",
+      "photoSmall": "players/gamid_agalarov_small.jpg"
     },
     "currentClub": 125
   },
@@ -97504,7 +99244,12 @@
       "amplua": 0,
       "number": 1,
       "citizenship": 2,
-      "birthday": "2001-04-11"
+      "birthday": "2001-04-11",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/david_volk.png",
+      "photoSmall": "players/david_volk_small.jpg"
     },
     "currentClub": 125
   },
@@ -97841,7 +99586,12 @@
       "amplua": 1,
       "number": 21,
       "citizenship": 652,
-      "birthday": "2002-05-11"
+      "birthday": "2002-05-11",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/mohammed_azzi.png",
+      "photoSmall": "players/mohammed_azzi_small.jpg"
     },
     "currentClub": 2
   },
@@ -98115,7 +99865,12 @@
       "amplua": 1,
       "number": 43,
       "citizenship": 2,
-      "birthday": "2007-04-02"
+      "birthday": "2007-04-02",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/ilyas_ahmedov.png",
+      "photoSmall": "players/ilyas_ahmedov_small.jpg"
     },
     "currentClub": 125
   },
@@ -98370,7 +100125,12 @@
       "amplua": 2,
       "number": 8,
       "citizenship": 2,
-      "birthday": "2001-03-02"
+      "birthday": "2001-03-02",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vladimir_hubulov.png",
+      "photoSmall": "players/vladimir_hubulov_small.jpg"
     },
     "currentClub": 125
   },
@@ -98625,7 +100385,12 @@
       "amplua": 2,
       "number": 10,
       "citizenship": 570,
-      "birthday": "2003-03-26"
+      "birthday": "2003-03-26",
+      "nickname": "",
+      "public_name": "Джавад",
+      "public_lastname": "Хоссейннеджад",
+      "photo": "players/mohammadzhavad_hosseynnedzhadmahalenkolay.png",
+      "photoSmall": "players/mohammadzhavad_hosseynnedzhadmahalenkolay_small.jpg"
     },
     "currentClub": 125
   },
@@ -98937,7 +100702,12 @@
       "amplua": 2,
       "number": 19,
       "citizenship": 10,
-      "birthday": "2003-03-05"
+      "birthday": "2003-03-05",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kirill_zinovich.png",
+      "photoSmall": "players/kirill_zinovich_small.jpg"
     },
     "currentClub": 125
   },
@@ -99249,7 +101019,12 @@
       "amplua": 2,
       "number": 21,
       "citizenship": 2,
-      "birthday": "2004-11-24"
+      "birthday": "2004-11-24",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/abdulpasha_dzhabrailov.png",
+      "photoSmall": "players/abdulpasha_dzhabrailov_small.jpg"
     },
     "currentClub": 125
   },
@@ -99561,7 +101336,12 @@
       "amplua": 2,
       "number": 88,
       "citizenship": 2,
-      "birthday": "1998-01-12"
+      "birthday": "1998-01-12",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_lesovoy.png",
+      "photoSmall": "players/daniil_lesovoy_small.jpg"
     },
     "currentClub": 125
   },
@@ -99854,7 +101634,12 @@
       "amplua": 3,
       "number": 9,
       "citizenship": 2,
-      "birthday": "2000-10-03"
+      "birthday": "2000-10-03",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/razhab_magomedov.png",
+      "photoSmall": "players/razhab_magomedov_small.jpg"
     },
     "currentClub": 125
   },
@@ -99938,7 +101723,12 @@
       "amplua": 1,
       "number": null,
       "citizenship": 32,
-      "birthday": "2002-09-17UTC00:00:00"
+      "birthday": "2002-09-17UTC00:00:00",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -100060,7 +101850,12 @@
       "amplua": 3,
       "number": null,
       "citizenship": 312,
-      "birthday": "1997-06-18UTC00:00:00"
+      "birthday": "1997-06-18UTC00:00:00",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -100239,7 +102034,12 @@
       "amplua": 3,
       "number": 28,
       "citizenship": 2,
-      "birthday": "1994-03-10"
+      "birthday": "1994-03-10",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/serder_serderov.png",
+      "photoSmall": "players/serder_serderov_small.jpg"
     },
     "currentClub": 125
   },
@@ -100513,7 +102313,12 @@
       "amplua": 0,
       "number": 16,
       "citizenship": 2,
-      "birthday": "2005-01-30"
+      "birthday": "2005-01-30",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_veselov.png",
+      "photoSmall": "players/daniil_veselov_small.jpg"
     },
     "currentClub": 5
   },
@@ -100806,7 +102611,12 @@
       "amplua": 2,
       "number": 7,
       "citizenship": 2,
-      "birthday": "2002-05-07"
+      "birthday": "2002-05-07",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/konstantin_shiltsov.png",
+      "photoSmall": "players/konstantin_shiltsov_small.jpg"
     },
     "currentClub": 444
   },
@@ -100890,7 +102700,12 @@
       "amplua": 0,
       "number": null,
       "citizenship": 10,
-      "birthday": "2003-09-02UTC00:00:00"
+      "birthday": "2003-09-02UTC00:00:00",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -101164,7 +102979,12 @@
       "amplua": 1,
       "number": 4,
       "citizenship": 15,
-      "birthday": "2000-06-01"
+      "birthday": "2000-06-01",
+      "nickname": "",
+      "public_name": "Хуан",
+      "public_lastname": "Касерес",
+      "photo": "players/huanhose_kaseres.png",
+      "photoSmall": "players/huanhose_kaseres_small.jpg"
     },
     "currentClub": 7
   },
@@ -101457,7 +103277,12 @@
       "amplua": 2,
       "number": 60,
       "citizenship": 2,
-      "birthday": "2008-06-02"
+      "birthday": "2008-06-02",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/timofey_marinkin.png",
+      "photoSmall": "players/timofey_marinkin_small.jpg"
     },
     "currentClub": 7
   },
@@ -101579,7 +103404,12 @@
       "amplua": 0,
       "number": 53,
       "citizenship": 2,
-      "birthday": "2005-11-09"
+      "birthday": "2005-11-09",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/vyacheslav_korobov.png",
+      "photoSmall": "players/vyacheslav_korobov_small.jpg"
     },
     "currentClub": 504
   },
@@ -101758,7 +103588,12 @@
       "amplua": 0,
       "number": null,
       "citizenship": 2,
-      "birthday": "2004-09-08UTC00:00:00"
+      "birthday": "2004-09-08UTC00:00:00",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -101918,7 +103753,12 @@
       "amplua": 1,
       "number": 2,
       "citizenship": 2,
-      "birthday": "2004-04-24"
+      "birthday": "2004-04-24",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/stanislav_poroykov.png",
+      "photoSmall": "players/stanislav_poroykov_small.jpg"
     },
     "currentClub": 504
   },
@@ -102211,7 +104051,12 @@
       "amplua": 1,
       "number": 26,
       "citizenship": 8,
-      "birthday": "2002-04-26"
+      "birthday": "2002-04-26",
+      "nickname": "",
+      "public_name": "Эмил",
+      "public_lastname": "Ценов",
+      "photo": "players/emilivanov_tsenov.png",
+      "photoSmall": "players/emilivanov_tsenov_small.jpg"
     },
     "currentClub": 504
   },
@@ -102428,7 +104273,12 @@
       "amplua": 0,
       "number": 71,
       "citizenship": 2,
-      "birthday": "2003-01-22"
+      "birthday": "2003-01-22",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/daniil_odoevskiy.png",
+      "photoSmall": "players/daniil_odoevskiy_small.jpg"
     },
     "currentClub": 3
   },
@@ -102683,7 +104533,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 2,
-      "birthday": "1994-03-22"
+      "birthday": "1994-03-22",
+      "nickname": "Дуглас Сантос",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/duglas_dosantoszhustinodemelo.png",
+      "photoSmall": "players/duglas_dosantoszhustinodemelo_small.jpg"
     },
     "currentClub": 3
   },
@@ -102976,7 +104831,12 @@
       "amplua": 2,
       "number": 11,
       "citizenship": 17,
-      "birthday": "2001-01-02"
+      "birthday": "2001-01-02",
+      "nickname": "Луиc Энрике",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/luicenrikeandre_rozadasilva.png",
+      "photoSmall": "players/luicenrikeandre_rozadasilva_small.jpg"
     },
     "currentClub": 3
   },
@@ -103275,7 +105135,12 @@
       "amplua": 3,
       "number": 67,
       "citizenship": 2,
-      "birthday": "2007-06-01"
+      "birthday": "2007-06-01",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/kazbek_mukailov.png",
+      "photoSmall": "players/kazbek_mukailov_small.jpg"
     },
     "currentClub": 10
   },
@@ -103536,7 +105401,12 @@
       "amplua": 3,
       "number": 90,
       "citizenship": 2,
-      "birthday": "2004-12-20"
+      "birthday": "2004-12-20",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_koksharov.png",
+      "photoSmall": "players/aleksandr_koksharov_small.jpg"
     },
     "currentClub": 264
   },
@@ -103810,7 +105680,12 @@
       "amplua": 2,
       "number": 6,
       "citizenship": 61,
-      "birthday": "1999-01-28"
+      "birthday": "1999-01-28",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kalidu_sidibe.png",
+      "photoSmall": "players/kalidu_sidibe_small.jpg"
     },
     "currentClub": 702
   },
@@ -104084,7 +105959,12 @@
       "amplua": 1,
       "number": 3,
       "citizenship": 61,
-      "birthday": "2001-09-18"
+      "birthday": "2001-09-18",
+      "nickname": "",
+      "public_name": "Кристофер",
+      "public_lastname": "Ву",
+      "photo": "players/kristofermoris_vu.png",
+      "photoSmall": "players/kristofermoris_vu_small.jpg"
     },
     "currentClub": 1
   },
@@ -104225,7 +106105,12 @@
       "amplua": 2,
       "number": 6,
       "citizenship": 2,
-      "birthday": "1996-09-11"
+      "birthday": "1996-09-11",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/dmitriy_barinov.png",
+      "photoSmall": "players/dmitriy_barinov_small.jpg"
     },
     "currentClub": 2
   },
@@ -104404,7 +106289,12 @@
       "amplua": 2,
       "number": 26,
       "citizenship": 11,
-      "birthday": "1997-10-08"
+      "birthday": "1997-10-08",
+      "nickname": "",
+      "public_name": "Джимми",
+      "public_lastname": "Марин",
+      "photo": "players/dzhimmi_marinvilches.png",
+      "photoSmall": "players/dzhimmi_marinvilches_small.jpg"
     },
     "currentClub": 10
   },
@@ -104564,7 +106454,12 @@
       "amplua": 2,
       "number": 78,
       "citizenship": 2,
-      "birthday": "2007-09-11"
+      "birthday": "2007-09-11",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/denis_malikov.png",
+      "photoSmall": "players/denis_malikov_small.jpg"
     },
     "currentClub": 10
   },
@@ -104819,7 +106714,12 @@
       "amplua": 3,
       "number": 77,
       "citizenship": 2,
-      "birthday": "2006-07-29"
+      "birthday": "2006-07-29",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/artur_garibyan.png",
+      "photoSmall": "players/artur_garibyan_small.jpg"
     },
     "currentClub": 808
   },
@@ -105017,7 +106917,12 @@
       "amplua": 1,
       "number": 59,
       "citizenship": 2,
-      "birthday": "2006-01-05"
+      "birthday": "2006-01-05",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/nikita_babakin.png",
+      "photoSmall": "players/nikita_babakin_small.jpg"
     },
     "currentClub": 11
   },
@@ -105272,7 +107177,12 @@
       "amplua": 3,
       "number": 13,
       "citizenship": 5,
-      "birthday": "2006-11-06"
+      "birthday": "2006-11-06",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/denis_titov.png",
+      "photoSmall": "players/denis_titov_small.jpg"
     },
     "currentClub": 11
   },
@@ -105451,7 +107361,12 @@
       "amplua": 2,
       "number": 67,
       "citizenship": 2,
-      "birthday": "2006-12-14"
+      "birthday": "2006-12-14",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/nikita_platon.png",
+      "photoSmall": "players/nikita_platon_small.jpg"
     },
     "currentClub": 807
   },
@@ -105535,7 +107450,12 @@
       "amplua": 3,
       "number": 51,
       "citizenship": 2,
-      "birthday": "2007-09-30"
+      "birthday": "2007-09-30",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/ruslan_metkalov.png",
+      "photoSmall": "players/ruslan_metkalov_small.jpg"
     },
     "currentClub": 807
   },
@@ -105657,7 +107577,12 @@
       "amplua": 3,
       "number": 99,
       "citizenship": 101,
-      "birthday": "2001-04-23"
+      "birthday": "2001-04-23",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/dardan_shabanhadzhay.png",
+      "photoSmall": "players/dardan_shabanhadzhay_small.jpg"
     },
     "currentClub": 4
   },
@@ -105855,7 +107780,12 @@
       "amplua": 2,
       "number": 24,
       "citizenship": 332,
-      "birthday": "1996-01-15"
+      "birthday": "1996-01-15",
+      "nickname": "",
+      "public_name": "Луис",
+      "public_lastname": "Чавес",
+      "photo": "players/luisherardo_chavesmagalon.png",
+      "photoSmall": "players/luisherardo_chavesmagalon_small.jpg"
     },
     "currentClub": 7
   },
@@ -106129,7 +108059,12 @@
       "amplua": 3,
       "number": 62,
       "citizenship": 2,
-      "birthday": "2009-12-02"
+      "birthday": "2009-12-02",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/pavel_poleh.png",
+      "photoSmall": "players/pavel_poleh_small.jpg"
     },
     "currentClub": 1
   },
@@ -106403,7 +108338,12 @@
       "amplua": 1,
       "number": 24,
       "citizenship": 61,
-      "birthday": "2001-05-22"
+      "birthday": "2001-05-22",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/loris_muyokolo.png",
+      "photoSmall": "players/loris_muyokolo_small.jpg"
     },
     "currentClub": 444
   },
@@ -106620,7 +108560,12 @@
       "amplua": 2,
       "number": 14,
       "citizenship": 530,
-      "birthday": "1999-01-14"
+      "birthday": "1999-01-14",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/stefan_kovach.png",
+      "photoSmall": "players/stefan_kovach_small.jpg"
     },
     "currentClub": 444
   },
@@ -106894,7 +108839,12 @@
       "amplua": 3,
       "number": 11,
       "citizenship": 17,
-      "birthday": "2002-07-17"
+      "birthday": "2002-07-17",
+      "nickname": "Дуду Родригес",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/eduardo_fernandesrodrigesdesouza.png",
+      "photoSmall": "players/eduardo_fernandesrodrigesdesouza_small.jpg"
     },
     "currentClub": 807
   },
@@ -107149,7 +109099,12 @@
       "amplua": 1,
       "number": 13,
       "citizenship": 4,
-      "birthday": "2004-01-18"
+      "birthday": "2004-01-18",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/zhahongir_urozov.png",
+      "photoSmall": "players/zhahongir_urozov_small.jpg"
     },
     "currentClub": 4
   },
@@ -107404,7 +109359,12 @@
       "amplua": 2,
       "number": 6,
       "citizenship": 9,
-      "birthday": "1999-11-28"
+      "birthday": "1999-11-28",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ugochukvuhristas_ivu.png",
+      "photoSmall": "players/ugochukvuhristas_ivu_small.jpg"
     },
     "currentClub": 4
   },
@@ -107526,7 +109486,12 @@
       "amplua": 1,
       "number": 59,
       "citizenship": 2,
-      "birthday": "2004-06-24"
+      "birthday": "2004-06-24",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/maksim_syschenko.png",
+      "photoSmall": "players/maksim_syschenko_small.jpg"
     },
     "currentClub": 504
   },
@@ -107629,7 +109594,12 @@
       "amplua": 2,
       "number": 18,
       "citizenship": 2,
-      "birthday": "2004-06-16"
+      "birthday": "2004-06-16",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/dmitriy_vasilev.png",
+      "photoSmall": "players/dmitriy_vasilev_small.jpg"
     },
     "currentClub": 504
   },
@@ -107808,7 +109778,12 @@
       "amplua": 2,
       "number": 11,
       "citizenship": 15,
-      "birthday": "1997-04-16"
+      "birthday": "1997-04-16",
+      "nickname": "",
+      "public_name": "Брайан",
+      "public_lastname": "Мансилья",
+      "photo": "players/brayanesekel_mansilya.png",
+      "photoSmall": "players/brayanesekel_mansilya_small.jpg"
     },
     "currentClub": 808
   },
@@ -108082,7 +110057,12 @@
       "amplua": 1,
       "number": 22,
       "citizenship": 38,
-      "birthday": "1999-11-13"
+      "birthday": "1999-11-13",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/hodeyfa_el-mhassani.png",
+      "photoSmall": "players/hodeyfa_el-mhassani_small.jpg"
     },
     "currentClub": 264
   },
@@ -108343,7 +110323,12 @@
       "amplua": 3,
       "number": 69,
       "citizenship": 2,
-      "birthday": "1999-07-07"
+      "birthday": "1999-07-07",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/egor_golenkov.png",
+      "photoSmall": "players/egor_golenkov_small.jpg"
     },
     "currentClub": 444
   },
@@ -108598,7 +110583,12 @@
       "amplua": 2,
       "number": 47,
       "citizenship": 2,
-      "birthday": "2004-04-20"
+      "birthday": "2004-04-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/danila_godyaev.png",
+      "photoSmall": "players/danila_godyaev_small.jpg"
     },
     "currentClub": 5
   },
@@ -108853,7 +110843,12 @@
       "amplua": 3,
       "number": 13,
       "citizenship": 2,
-      "birthday": "1997-12-12"
+      "birthday": "1997-12-12",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/mohamed_konate.png",
+      "photoSmall": "players/mohamed_konate_small.jpg"
     },
     "currentClub": 702
   },
@@ -109013,7 +111008,12 @@
       "amplua": 1,
       "number": 71,
       "citizenship": 2,
-      "birthday": "2006-12-08"
+      "birthday": "2006-12-08",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/dmitriy_pestryakov.png",
+      "photoSmall": "players/dmitriy_pestryakov_small.jpg"
     },
     "currentClub": 807
   },
@@ -109097,7 +111097,12 @@
       "amplua": 0,
       "number": 51,
       "citizenship": 2,
-      "birthday": "2010-12-16"
+      "birthday": "2010-12-16",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ruslan_dzhioev.png",
+      "photoSmall": "players/ruslan_dzhioev_small.jpg"
     },
     "currentClub": 7
   },
@@ -109358,7 +111363,12 @@
       "amplua": 2,
       "number": 30,
       "citizenship": 2,
-      "birthday": "2006-07-31"
+      "birthday": "2006-07-31",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/dmitriy_aleksandrov.png",
+      "photoSmall": "players/dmitriy_aleksandrov_small.jpg"
     },
     "currentClub": 125
   },
@@ -109594,7 +111604,12 @@
       "amplua": 1,
       "number": 98,
       "citizenship": 2,
-      "birthday": "1991-01-02"
+      "birthday": "1991-01-02",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/sergey_petrov.png",
+      "photoSmall": "players/sergey_petrov_small.jpg"
     },
     "currentClub": 584
   },
@@ -109830,7 +111845,12 @@
       "amplua": 3,
       "number": 9,
       "citizenship": 111,
-      "birthday": "1993-05-11"
+      "birthday": "1993-05-11",
+      "nickname": "",
+      "public_name": "Джон",
+      "public_lastname": "Кордоба",
+      "photo": "players/dzhonandres_kordobakopete.png",
+      "photoSmall": "players/dzhonandres_kordobakopete_small.jpg"
     },
     "currentClub": 584
   },
@@ -109914,7 +111934,12 @@
       "amplua": 1,
       "number": 64,
       "citizenship": 2,
-      "birthday": "2004-06-12"
+      "birthday": "2004-06-12",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/osman_gasanbekov.png",
+      "photoSmall": "players/osman_gasanbekov_small.jpg"
     },
     "currentClub": 444
   },
@@ -109998,7 +112023,12 @@
       "amplua": 2,
       "number": 57,
       "citizenship": 2,
-      "birthday": "2006-04-11"
+      "birthday": "2006-04-11",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/eldzhat_mamedov.png",
+      "photoSmall": "players/eldzhat_mamedov_small.jpg"
     },
     "currentClub": 444
   },
@@ -110158,7 +112188,12 @@
       "amplua": 2,
       "number": 87,
       "citizenship": 2,
-      "birthday": "2007-12-01"
+      "birthday": "2007-12-01",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/ahmed_elberdov.png",
+      "photoSmall": "players/ahmed_elberdov_small.jpg"
     },
     "currentClub": 702
   },
@@ -110318,7 +112353,12 @@
       "amplua": 2,
       "number": 11,
       "citizenship": 26,
-      "birthday": "2005-05-26"
+      "birthday": "2005-05-26",
+      "nickname": "",
+      "public_name": "Аджаса",
+      "public_lastname": "Ибрагим",
+      "photo": "players/mahfusadzhasa_ibragim.png",
+      "photoSmall": "players/mahfusadzhasa_ibragim_small.jpg"
     },
     "currentClub": 11
   },
@@ -110535,7 +112575,12 @@
       "amplua": 2,
       "number": 84,
       "citizenship": 2,
-      "birthday": "2006-01-20"
+      "birthday": "2006-01-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksandr_vakulich.png",
+      "photoSmall": "players/aleksandr_vakulich_small.jpg"
     },
     "currentClub": 2
   },
@@ -110714,7 +112759,12 @@
       "amplua": 1,
       "number": 23,
       "citizenship": 332,
-      "birthday": "1997-02-24"
+      "birthday": "1997-02-24",
+      "nickname": "",
+      "public_name": "Сесар",
+      "public_lastname": "Монтес",
+      "photo": "players/sesarhasib_monteskastro.png",
+      "photoSmall": "players/sesarhasib_monteskastro_small.jpg"
     },
     "currentClub": 5
   },
@@ -110817,7 +112867,12 @@
       "amplua": 1,
       "number": null,
       "citizenship": 17,
-      "birthday": "2001-07-19UTC00:00:00"
+      "birthday": "2001-07-19UTC00:00:00",
+      "nickname": "Пауло Витор",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -110920,7 +112975,12 @@
       "amplua": 1,
       "number": 72,
       "citizenship": 2,
-      "birthday": "2008-04-24"
+      "birthday": "2008-04-24",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/marat_hametov.png",
+      "photoSmall": "players/marat_hametov_small.jpg"
     },
     "currentClub": 807
   },
@@ -111137,7 +113197,12 @@
       "amplua": 2,
       "number": 17,
       "citizenship": 3,
-      "birthday": "1999-11-21"
+      "birthday": "1999-11-21",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/islam_chesnokov.png",
+      "photoSmall": "players/islam_chesnokov_small.jpg"
     },
     "currentClub": 10
   },
@@ -111373,7 +113438,12 @@
       "amplua": 2,
       "number": 80,
       "citizenship": 2,
-      "birthday": "2006-07-01"
+      "birthday": "2006-07-01",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/mihail_pyhcheev.png",
+      "photoSmall": "players/mihail_pyhcheev_small.jpg"
     },
     "currentClub": 504
   },
@@ -111457,7 +113527,12 @@
       "amplua": 1,
       "number": null,
       "citizenship": 2,
-      "birthday": "1997-01-29UTC00:00:00"
+      "birthday": "1997-01-29UTC00:00:00",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": null,
+      "photoSmall": null
     },
     "currentClub": null
   },
@@ -111674,7 +113749,12 @@
       "amplua": 1,
       "number": 75,
       "citizenship": 61,
-      "birthday": "1999-03-04"
+      "birthday": "1999-03-04",
+      "nickname": "",
+      "public_name": "Микаэль",
+      "public_lastname": "Наде",
+      "photo": "players/mikaelble_nade.png",
+      "photoSmall": "players/mikaelble_nade_small.jpg"
     },
     "currentClub": 808
   },
@@ -111872,7 +113952,12 @@
       "amplua": 3,
       "number": 7,
       "citizenship": 2,
-      "birthday": "1996-07-06"
+      "birthday": "1996-07-06",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/german_onugha.png",
+      "photoSmall": "players/german_onugha_small.jpg"
     },
     "currentClub": 808
   },
@@ -112051,7 +114136,12 @@
       "amplua": 1,
       "number": 27,
       "citizenship": 2,
-      "birthday": "1995-05-25"
+      "birthday": "1995-05-25",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/aleksey_gritsaenko.png",
+      "photoSmall": "players/aleksey_gritsaenko_small.jpg"
     },
     "currentClub": 4
   },
@@ -112135,7 +114225,12 @@
       "amplua": 3,
       "number": 33,
       "citizenship": 2,
-      "birthday": "2005-10-09"
+      "birthday": "2005-10-09",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/maksim_holodov.png",
+      "photoSmall": "players/maksim_holodov_small.jpg"
     },
     "currentClub": 807
   },
@@ -112238,7 +114333,12 @@
       "amplua": 3,
       "number": 39,
       "citizenship": 2,
-      "birthday": "2006-03-24"
+      "birthday": "2006-03-24",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/nazar_makeev.png",
+      "photoSmall": "players/nazar_makeev_small.jpg"
     },
     "currentClub": 807
   },
@@ -112341,7 +114441,12 @@
       "amplua": 2,
       "number": 87,
       "citizenship": 2,
-      "birthday": "2007-01-27"
+      "birthday": "2007-01-27",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/artem_ponomarchuk.png",
+      "photoSmall": "players/artem_ponomarchuk_small.jpg"
     },
     "currentClub": 2
   },
@@ -112558,7 +114663,12 @@
       "amplua": 2,
       "number": 38,
       "citizenship": 2,
-      "birthday": "2008-09-01"
+      "birthday": "2008-09-01",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/amir_musaev.png",
+      "photoSmall": "players/amir_musaev_small.jpg"
     },
     "currentClub": 3
   },
@@ -112756,7 +114866,12 @@
       "amplua": 3,
       "number": 51,
       "citizenship": 2,
-      "birthday": "2008-03-15"
+      "birthday": "2008-03-15",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/vadim_shilov.png",
+      "photoSmall": "players/vadim_shilov_small.jpg"
     },
     "currentClub": 3
   },
@@ -112840,7 +114955,12 @@
       "amplua": 1,
       "number": 71,
       "citizenship": 2,
-      "birthday": "2007-08-24"
+      "birthday": "2007-08-24",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/aleksandr_dobroditskiy.png",
+      "photoSmall": "players/aleksandr_dobroditskiy_small.jpg"
     },
     "currentClub": 1
   },
@@ -113019,7 +115139,12 @@
       "amplua": 0,
       "number": 33,
       "citizenship": 2,
-      "birthday": "2002-06-30"
+      "birthday": "2002-06-30",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikita_karabashev.png",
+      "photoSmall": "players/nikita_karabashev_small.jpg"
     },
     "currentClub": 125
   },
@@ -113217,7 +115342,12 @@
       "amplua": 1,
       "number": 23,
       "citizenship": 4,
-      "birthday": "2003-06-30"
+      "birthday": "2003-06-30",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/mahmudzhon_mahamadzhonov.png",
+      "photoSmall": "players/mahmudzhon_mahamadzhonov_small.jpg"
     },
     "currentClub": 125
   },
@@ -113415,7 +115545,12 @@
       "amplua": 1,
       "number": 40,
       "citizenship": 17,
-      "birthday": "2000-04-04"
+      "birthday": "2000-04-04",
+      "nickname": "Клейтон",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/kleyton_sampayopereyra.png",
+      "photoSmall": "players/kleyton_sampayopereyra_small.jpg"
     },
     "currentClub": 264
   },
@@ -113613,7 +115748,12 @@
       "amplua": 3,
       "number": 27,
       "citizenship": 2,
-      "birthday": "1995-06-29"
+      "birthday": "1995-06-29",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/nikolay_komlichenko.png",
+      "photoSmall": "players/nikolay_komlichenko_small.jpg"
     },
     "currentClub": 5
   },
@@ -113811,7 +115951,12 @@
       "amplua": 3,
       "number": 10,
       "citizenship": 45,
-      "birthday": "2004-08-10"
+      "birthday": "2004-08-10",
+      "nickname": "",
+      "public_name": "Хорди",
+      "public_lastname": "Томпсон",
+      "photo": "players/hordieduardo_tompsondavila.png",
+      "photoSmall": "players/hordieduardo_tompsondavila_small.jpg"
     },
     "currentClub": 504
   },
@@ -114009,7 +116154,12 @@
       "amplua": 3,
       "number": 6,
       "citizenship": 9,
-      "birthday": "2005-04-26"
+      "birthday": "2005-04-26",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/karlen_oganesyan.png",
+      "photoSmall": "players/karlen_oganesyan_small.jpg"
     },
     "currentClub": 807
   },
@@ -114150,7 +116300,12 @@
       "amplua": 2,
       "number": 19,
       "citizenship": 2,
-      "birthday": "2002-12-16"
+      "birthday": "2002-12-16",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/sergey_pryahin.png",
+      "photoSmall": "players/sergey_pryahin_small.jpg"
     },
     "currentClub": 702
   },
@@ -114329,7 +116484,12 @@
       "amplua": 1,
       "number": 54,
       "citizenship": 2,
-      "birthday": "2006-09-20"
+      "birthday": "2006-09-20",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/kirill_kistenev.png",
+      "photoSmall": "players/kirill_kistenev_small.jpg"
     },
     "currentClub": 702
   },
@@ -114508,7 +116668,12 @@
       "amplua": 3,
       "number": 28,
       "citizenship": 45,
-      "birthday": "2004-05-03"
+      "birthday": "2004-05-03",
+      "nickname": "",
+      "public_name": "Максимилиано",
+      "public_lastname": "Гутьеррес",
+      "photo": "players/maksimilianohose_guterreshara.png",
+      "photoSmall": "players/maksimilianohose_guterreshara_small.jpg"
     },
     "currentClub": 7
   },
@@ -114687,7 +116852,12 @@
       "amplua": 0,
       "number": 35,
       "citizenship": 2,
-      "birthday": "2005-04-27"
+      "birthday": "2005-04-27",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/aleksandr_degtev.png",
+      "photoSmall": "players/aleksandr_degtev_small.jpg"
     },
     "currentClub": 504
   },
@@ -114866,7 +117036,12 @@
       "amplua": 1,
       "number": 22,
       "citizenship": 10,
-      "birthday": "2004-09-16"
+      "birthday": "2004-09-16",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/anton_lukashov.png",
+      "photoSmall": "players/anton_lukashov_small.jpg"
     },
     "currentClub": 504
   },
@@ -114988,7 +117163,12 @@
       "amplua": 1,
       "number": 44,
       "citizenship": 82,
-      "birthday": "1999-01-14"
+      "birthday": "1999-01-14",
+      "nickname": "Жуан Силва",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/zhuanpedru_eyraantuneshdasilva.png",
+      "photoSmall": "players/zhuanpedru_eyraantuneshdasilva_small.jpg"
     },
     "currentClub": 504
   },
@@ -115167,7 +117347,12 @@
       "amplua": 2,
       "number": 97,
       "citizenship": 2,
-      "birthday": "1997-12-31"
+      "birthday": "1997-12-31",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/ilzat_ahmetov.png",
+      "photoSmall": "players/ilzat_ahmetov_small.jpg"
     },
     "currentClub": 10
   },
@@ -115346,7 +117531,12 @@
       "amplua": 1,
       "number": 2,
       "citizenship": 41,
-      "birthday": "2003-05-22"
+      "birthday": "2003-05-22",
+      "nickname": "",
+      "public_name": "Майсон",
+      "public_lastname": "Родригес",
+      "photo": "players/aleksmayson_rodrigesgonsales.png",
+      "photoSmall": "players/aleksmayson_rodrigesgonsales_small.jpg"
     },
     "currentClub": 584
   },
@@ -115506,7 +117696,12 @@
       "amplua": 2,
       "number": 17,
       "citizenship": 2,
-      "birthday": "2007-01-03"
+      "birthday": "2007-01-03",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/artem_sidorenko.png",
+      "photoSmall": "players/artem_sidorenko_small.jpg"
     },
     "currentClub": 807
   },
@@ -115685,7 +117880,12 @@
       "amplua": 2,
       "number": 91,
       "citizenship": 2,
-      "birthday": "2004-03-31"
+      "birthday": "2004-03-31",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_boldyrev.png",
+      "photoSmall": "players/maksim_boldyrev_small.jpg"
     },
     "currentClub": 807
   },
@@ -115864,7 +118064,12 @@
       "amplua": 3,
       "number": 99,
       "citizenship": 10,
-      "birthday": "2004-11-25"
+      "birthday": "2004-11-25",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/artem_shumanskiy.png",
+      "photoSmall": "players/artem_shumanskiy_small.jpg"
     },
     "currentClub": 807
   },
@@ -115967,7 +118172,12 @@
       "amplua": 1,
       "number": 60,
       "citizenship": 2,
-      "birthday": "2007-03-04"
+      "birthday": "2007-03-04",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/gleb_belotelov.png",
+      "photoSmall": "players/gleb_belotelov_small.jpg"
     },
     "currentClub": 5
   },
@@ -116089,7 +118299,12 @@
       "amplua": 1,
       "number": 61,
       "citizenship": 2,
-      "birthday": "2007-02-22"
+      "birthday": "2007-02-22",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/pavel_filyushin.png",
+      "photoSmall": "players/pavel_filyushin_small.jpg"
     },
     "currentClub": 2
   },
@@ -116249,7 +118464,12 @@
       "amplua": 1,
       "number": 78,
       "citizenship": 2,
-      "birthday": "1994-01-13"
+      "birthday": "1994-01-13",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/dmitriy_chistyakov.png",
+      "photoSmall": "players/dmitriy_chistyakov_small.jpg"
     },
     "currentClub": 11
   },
@@ -116409,7 +118629,12 @@
       "amplua": 3,
       "number": 77,
       "citizenship": 61,
-      "birthday": "2001-09-24"
+      "birthday": "2001-09-24",
+      "nickname": "",
+      "public_name": "Жозуэ",
+      "public_lastname": "Казимир",
+      "photo": "players/zhozuezheremi_kazimir.png",
+      "photoSmall": "players/zhozuezheremi_kazimir_small.jpg"
     },
     "currentClub": 7
   },
@@ -116569,7 +118794,12 @@
       "amplua": 3,
       "number": 11,
       "citizenship": 2,
-      "birthday": "2001-06-11"
+      "birthday": "2001-06-11",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/ilya_porohov.png",
+      "photoSmall": "players/ilya_porohov_small.jpg"
     },
     "currentClub": 444
   },
@@ -116653,7 +118883,12 @@
       "amplua": 2,
       "number": 14,
       "citizenship": 111,
-      "birthday": "2000-10-06"
+      "birthday": "2000-10-06",
+      "nickname": "",
+      "public_name": "Роберт",
+      "public_lastname": "Мехия",
+      "photo": "players/robertandres_mehiyanavarrete.png",
+      "photoSmall": "players/robertandres_mehiyanavarrete_small.jpg"
     },
     "currentClub": 504
   },
@@ -116813,7 +119048,12 @@
       "amplua": 1,
       "number": 20,
       "citizenship": 111,
-      "birthday": "1993-09-02"
+      "birthday": "1993-09-02",
+      "nickname": "",
+      "public_name": "Дейвер",
+      "public_lastname": "Мачадо",
+      "photo": "players/deyver_machadomena.png",
+      "photoSmall": "players/deyver_machadomena_small.jpg"
     },
     "currentClub": 808
   },
@@ -116973,7 +119213,12 @@
       "amplua": 1,
       "number": 50,
       "citizenship": 17,
-      "birthday": "1996-01-19"
+      "birthday": "1996-01-19",
+      "nickname": "Родриго Бекао",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/rodrigo_nasimentofransa.png",
+      "photoSmall": "players/rodrigo_nasimentofransa_small.jpg"
     },
     "currentClub": 808
   },
@@ -117095,7 +119340,12 @@
       "amplua": 2,
       "number": 55,
       "citizenship": 530,
-      "birthday": "2001-02-21"
+      "birthday": "2001-02-21",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/milutin_vidosavlevich.png",
+      "photoSmall": "players/milutin_vidosavlevich_small.jpg"
     },
     "currentClub": 807
   },
@@ -117236,7 +119486,12 @@
       "amplua": 2,
       "number": 14,
       "citizenship": 2,
-      "birthday": "1993-01-15"
+      "birthday": "1993-01-15",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/daler_kuzyaev.png",
+      "photoSmall": "players/daler_kuzyaev_small.jpg"
     },
     "currentClub": 125
   },
@@ -117377,7 +119632,12 @@
       "amplua": 0,
       "number": 96,
       "citizenship": 2,
-      "birthday": "2008-03-10"
+      "birthday": "2008-03-10",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/maksim_zaytsev.png",
+      "photoSmall": "players/maksim_zaytsev_small.jpg"
     },
     "currentClub": 3
   },
@@ -117499,7 +119759,12 @@
       "amplua": 1,
       "number": 98,
       "citizenship": 2,
-      "birthday": "2007-08-18"
+      "birthday": "2007-08-18",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/german_iva.png",
+      "photoSmall": "players/german_iva_small.jpg"
     },
     "currentClub": 444
   },
@@ -117640,7 +119905,12 @@
       "amplua": 3,
       "number": 97,
       "citizenship": 2,
-      "birthday": "2007-10-18"
+      "birthday": "2007-10-18",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/maksim_voronov.png",
+      "photoSmall": "players/maksim_voronov_small.jpg"
     },
     "currentClub": 2
   },
@@ -117781,7 +120051,12 @@
       "amplua": 1,
       "number": 2,
       "citizenship": 17,
-      "birthday": "1996-08-21"
+      "birthday": "1996-08-21",
+      "nickname": "Игор Силва",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/igor_silvadealmeyda.png",
+      "photoSmall": "players/igor_silvadealmeyda_small.jpg"
     },
     "currentClub": 808
   },
@@ -117922,7 +120197,12 @@
       "amplua": 3,
       "number": 10,
       "citizenship": 19,
-      "birthday": "2001-10-01"
+      "birthday": "2001-10-01",
+      "nickname": "",
+      "public_name": "Эдди",
+      "public_lastname": "Сальседо",
+      "photo": "players/eddiantoni_salsedomora.png",
+      "photoSmall": "players/eddiantoni_salsedomora_small.jpg"
     },
     "currentClub": 4
   },
@@ -118025,7 +120305,12 @@
       "amplua": 1,
       "number": 27,
       "citizenship": 2,
-      "birthday": "1999-03-27"
+      "birthday": "1999-03-27",
+      "nickname": null,
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/stanislav_magkeev.png",
+      "photoSmall": "players/stanislav_magkeev_small.jpg"
     },
     "currentClub": 264
   },
@@ -118109,7 +120394,12 @@
       "amplua": 3,
       "number": 66,
       "citizenship": 2,
-      "birthday": "2007-05-29"
+      "birthday": "2007-05-29",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/nikita_patkovich.png",
+      "photoSmall": "players/nikita_patkovich_small.jpg"
     },
     "currentClub": 264
   },
@@ -118193,7 +120483,12 @@
       "amplua": 0,
       "number": 86,
       "citizenship": 2,
-      "birthday": "2008-12-05"
+      "birthday": "2008-12-05",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/pavel_egorov.png",
+      "photoSmall": "players/pavel_egorov_small.jpg"
     },
     "currentClub": 1
   },
@@ -118277,7 +120572,12 @@
       "amplua": 2,
       "number": 89,
       "citizenship": 2,
-      "birthday": "2007-01-28"
+      "birthday": "2007-01-28",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/matvey_ivanov.png",
+      "photoSmall": "players/matvey_ivanov_small.jpg"
     },
     "currentClub": 4
   },
@@ -118399,7 +120699,12 @@
       "amplua": 2,
       "number": 27,
       "citizenship": 2,
-      "birthday": "2008-04-15"
+      "birthday": "2008-04-15",
+      "nickname": "",
+      "public_name": null,
+      "public_lastname": null,
+      "photo": "players/efim_burkin.png",
+      "photoSmall": "players/efim_burkin_small.jpg"
     },
     "currentClub": 584
   },
@@ -118483,7 +120788,12 @@
       "amplua": 1,
       "number": 4,
       "citizenship": 2,
-      "birthday": "1999-06-05"
+      "birthday": "1999-06-05",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/idar_shumahov.png",
+      "photoSmall": "players/idar_shumahov_small.jpg"
     },
     "currentClub": 125
   },
@@ -118567,7 +120877,12 @@
       "amplua": 3,
       "number": 79,
       "citizenship": 2,
-      "birthday": "2006-02-21"
+      "birthday": "2006-02-21",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/kirill_cheburakov.png",
+      "photoSmall": "players/kirill_cheburakov_small.jpg"
     },
     "currentClub": 11
   },
@@ -118651,7 +120966,12 @@
       "amplua": 1,
       "number": 68,
       "citizenship": 2,
-      "birthday": "2008-03-31"
+      "birthday": "2008-03-31",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/sarkis_tveritnev.png",
+      "photoSmall": "players/sarkis_tveritnev_small.jpg"
     },
     "currentClub": 2
   },
@@ -118735,7 +121055,12 @@
       "amplua": 0,
       "number": 39,
       "citizenship": 2,
-      "birthday": "2006-02-06"
+      "birthday": "2006-02-06",
+      "nickname": "",
+      "public_name": "",
+      "public_lastname": "",
+      "photo": "players/ilya_ezhov.png",
+      "photoSmall": "players/ilya_ezhov_small.jpg"
     },
     "currentClub": 4
   }

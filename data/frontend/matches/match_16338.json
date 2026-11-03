@@ -28,7 +28,13 @@
   "broadcastDescription": null,
   "videoReviewLink": "",
   "ticketsLink": "https://tickets.spartak.com/?utm_source=rpl&utm_medium=button&utm_campaign=tickets",
-  "winline": null,
+  "winline": {
+    "outcome1": 1.26,
+    "outcome2": 6.4,
+    "outcome3": 9.8,
+    "link": "https://winline.ru/plus/17021114",
+    "erid": "2W5zFGwR8oU"
+  },
   "comments": "",
   "weather": "4.2°C, Пасмурно",
   "documents": {

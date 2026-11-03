@@ -28,7 +28,13 @@
   "broadcastDescription": null,
   "videoReviewLink": "",
   "ticketsLink": "https://akhmat-arena.ru/2019-04-20-16-51-31?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
-  "winline": null,
+  "winline": {
+    "outcome1": 1.71,
+    "outcome2": 4.3,
+    "outcome3": 4.3,
+    "link": "https://winline.ru/plus/17021111",
+    "erid": "2W5zFHJ9xJW"
+  },
   "comments": "",
   "weather": "12.6°C, Малооблачно",
   "documents": {

@@ -28,7 +28,13 @@
   "broadcastDescription": null,
   "videoReviewLink": "",
   "ticketsLink": "https://fckrasnodar.ru/stadium/tickets/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage#grafik-tab",
-  "winline": null,
+  "winline": {
+    "outcome1": 2.12,
+    "outcome2": 3.6,
+    "outcome3": 3.35,
+    "link": "https://winline.ru/plus/17021112",
+    "erid": "2W5zFGTFNSv"
+  },
   "comments": "",
   "weather": "7.3°C, Малооблачно",
   "documents": {
