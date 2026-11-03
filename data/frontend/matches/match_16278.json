@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3770,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3770_150.jpg",
+      "position": "Главный судья",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 3774,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3774_150.jpg",
+      "position": "Резервный судья",
+      "name": "Николай",
+      "lastname": "Волошин"
+    },
+    {
+      "id": 4530,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Ермаков"
+    },
+    {
+      "id": 3829,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Веретёшкин"
+    },
+    {
+      "id": 660,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0660_150.jpg",
+      "position": "ВАР",
+      "name": "Павел",
+      "lastname": "Шадыханов"
+    },
+    {
+      "id": 3854,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3854_150.jpg",
+      "position": "АВАР",
+      "name": "Сергей",
+      "lastname": "Чебан"
+    },
+    {
+      "id": 181,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Андрей",
+      "lastname": "Бутенко"
+    },
+    {
+      "id": 432,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Сергей",
+      "lastname": "Кочетов"
+    }
+  ],
+  "id": 16278,
+  "tournament": 724,
+  "stage": 2966,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/CSKA_LOKO_Title_3.JPG",
+  "clubH": 2,
+  "clubA": 5,
+  "goalH": 3,
+  "goalA": 2,
+  "date": "2026-08-22UTC20:15:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-22UTC22:14:00",
+  "city": "Москва",
+  "stadium": "«ВЭБ Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01754.jpg",
+  "attendance": 19235,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_4d82d21c3656d45d7cda23c817ba8b15_hd/17_1025739/ce3d3fc7ef1176fe0f6fcd6b0b7bdb77/4947738254?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.pfc-cska.com/",
+  "winline": null,
+  "comments": "",
+  "weather": "18.9°C, Малооблачно, небольшой дождь",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD05_CSKA-LOK_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD05_CSKA-LOK_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

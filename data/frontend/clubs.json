@@ -1,0 +1,146 @@
+[
+  {
+    "id": 3,
+    "name": "Зенит",
+    "city": "Санкт-Петербург",
+    "logo": "logos/club_zen_color_main.svg",
+    "color": "009EE1",
+    "nameShort": "ЗЕН",
+    "year": "1925"
+  },
+  {
+    "id": 584,
+    "name": "Краснодар",
+    "city": "Краснодар",
+    "logo": "logos/club_kra_color_main.svg",
+    "color": "004923",
+    "nameShort": "КРА",
+    "year": "2008"
+  },
+  {
+    "id": 5,
+    "name": "Локомотив",
+    "city": "Москва",
+    "logo": "logos/club_lok_color_main.svg",
+    "color": "FF1A1A",
+    "nameShort": "ЛОК",
+    "year": "1922"
+  },
+  {
+    "id": 1,
+    "name": "Спартак-Москва",
+    "city": "Москва",
+    "logo": "logos/club_spa_color_main.svg",
+    "color": "C8102E",
+    "nameShort": "СПА",
+    "year": "1922"
+  },
+  {
+    "id": 2,
+    "name": "ПФК ЦСКА",
+    "city": "Москва",
+    "logo": "logos/club_cska_color_main.svg",
+    "color": "293484",
+    "nameShort": "ЦСКА",
+    "year": "1911"
+  },
+  {
+    "id": 444,
+    "name": "Балтика",
+    "city": "Калининград",
+    "logo": "logos/club_bal_color_main.svg",
+    "color": "0C3E8C",
+    "nameShort": "БАЛ",
+    "year": "1954"
+  },
+  {
+    "id": 7,
+    "name": "Динамо-Москва",
+    "city": "Москва",
+    "logo": "logos/club_dyn_color_main.svg",
+    "color": "1227E2",
+    "nameShort": "ДИН",
+    "year": "1923"
+  },
+  {
+    "id": 4,
+    "name": "Рубин",
+    "city": "Казань",
+    "logo": "logos/club_rub_color_main.svg",
+    "color": "8A1538",
+    "nameShort": "РУБ",
+    "year": "1958"
+  },
+  {
+    "id": 702,
+    "name": "Ахмат",
+    "city": "Грозный",
+    "logo": "logos/club_akh_color_main.svg",
+    "color": "265F4F",
+    "nameShort": "АХМ",
+    "year": "1958"
+  },
+  {
+    "id": 11,
+    "name": "Ростов",
+    "city": "Ростов-на-Дону",
+    "logo": "logos/club_ros_color_main.svg",
+    "color": "FEDD00",
+    "nameShort": "РОС",
+    "year": "1930"
+  },
+  {
+    "id": 10,
+    "name": "Крылья Советов",
+    "city": "Самара",
+    "logo": "logos/club_krs_color_main.svg",
+    "color": "2556B3",
+    "nameShort": "КРС",
+    "year": "1942"
+  },
+  {
+    "id": 504,
+    "name": "Оренбург",
+    "city": "Оренбург",
+    "logo": "logos/club_ore_color_main.svg",
+    "color": "001e5a",
+    "nameShort": "ОРЕ",
+    "year": "1976"
+  },
+  {
+    "id": 807,
+    "name": "Акрон",
+    "city": "Тольятти",
+    "logo": "logos/club_akr_color_main.svg",
+    "color": "CE112D",
+    "nameShort": "АКР",
+    "year": "2018"
+  },
+  {
+    "id": 125,
+    "name": "Динамо Махачкала",
+    "city": "Махачкала",
+    "logo": "logos/club_dmx_color_main.svg",
+    "color": "10069f",
+    "nameShort": "ДМХ",
+    "year": "1927"
+  },
+  {
+    "id": 808,
+    "name": "Родина",
+    "city": "Москва",
+    "logo": "logos/club_rod_color_main_.svg",
+    "color": "00B3E4",
+    "nameShort": "РОД",
+    "year": "2015"
+  },
+  {
+    "id": 264,
+    "name": "Факел",
+    "city": "Воронеж",
+    "logo": "logos/club_fkl_color_main.svg",
+    "color": "0047B1",
+    "nameShort": "ФКЛ",
+    "year": "1947"
+  }
+]

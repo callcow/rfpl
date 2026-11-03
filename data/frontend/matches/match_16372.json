@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3781,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3781_150.jpg",
+      "position": "Главный судья",
+      "name": "Артём",
+      "lastname": "Чистяков"
+    },
+    {
+      "id": 4635,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4635_150.jpg",
+      "position": "Резервный судья",
+      "name": "Игорь",
+      "lastname": "Капленков"
+    },
+    {
+      "id": 3835,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Образко"
+    },
+    {
+      "id": 2279,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Ширяев"
+    },
+    {
+      "id": 3776,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3776_150.jpg",
+      "position": "ВАР",
+      "name": "Евгений",
+      "lastname": "Буланов"
+    },
+    {
+      "id": 4342,
+      "photo": "",
+      "position": "АВАР",
+      "name": "Анатолий",
+      "lastname": "Жабченко"
+    },
+    {
+      "id": 418,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Юрий",
+      "lastname": "Баскаков"
+    },
+    {
+      "id": 503,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Поляков"
+    }
+  ],
+  "id": 16372,
+  "tournament": 724,
+  "stage": 2970,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/BAL_ZEN_Title_1.jpg",
+  "clubH": 444,
+  "clubA": 3,
+  "goalH": 2,
+  "goalA": 3,
+  "date": "2026-09-16UTC20:45:00",
+  "status": 4,
+  "dateStartStatus": "2026-09-16UTC22:43:00",
+  "city": "Калининград",
+  "stadium": "«Ростех Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01796.jpg",
+  "attendance": 15838,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_d41e42931f130c8ef9d2536a59c5c7e6_hd/17_1032204/cc10c92c5bbd3b6c888da1255f27cac5/4945262387?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.fc-baltika.ru/",
+  "winline": null,
+  "comments": "",
+  "weather": "17.4°C, Облачно, дождь, гроза",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD09_BAL-ZEN_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD09_BAL-ZEN_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

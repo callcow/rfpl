@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3845,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3845_150.jpg",
+      "position": "Главный судья",
+      "name": "Антон",
+      "lastname": "Фролов"
+    },
+    {
+      "id": 4638,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Matvey_Zaika.jpg",
+      "position": "Резервный судья",
+      "name": "Матвей",
+      "lastname": "Заика"
+    },
+    {
+      "id": 3961,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 4274,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Варанцо",
+      "lastname": "Петросян"
+    },
+    {
+      "id": 4342,
+      "photo": "",
+      "position": "ВАР",
+      "name": "Анатолий",
+      "lastname": "Жабченко"
+    },
+    {
+      "id": 3776,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3776_150.jpg",
+      "position": "АВАР",
+      "name": "Евгений",
+      "lastname": "Буланов"
+    },
+    {
+      "id": 569,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Алексей",
+      "lastname": "Резников"
+    },
+    {
+      "id": 761,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Попов"
+    }
+  ],
+  "id": 16288,
+  "tournament": 724,
+  "stage": 2967,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/FKL_ZEN_Title_1_0.jpg",
+  "clubH": 264,
+  "clubA": 3,
+  "goalH": 0,
+  "goalA": 1,
+  "date": "2026-08-29UTC15:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-29UTC16:58:00",
+  "city": "Воронеж",
+  "stadium": "«Факел»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01833.jpg",
+  "attendance": 10069,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_66bcc91772ee7a49361206bb8b9d4064_hd/17_1028185/2abbfd9b14551fe6fa0afa41b80fb493/4943685541?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://lk.fakelfc.ru/login?from=http://fakelfc.ru",
+  "winline": null,
+  "comments": "",
+  "weather": "16.5°C, Малооблачно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD06_FKL-ZEN_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD06_FKL-ZEN_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

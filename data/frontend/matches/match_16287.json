@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 660,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0660_150.jpg",
+      "position": "Главный судья",
+      "name": "Павел",
+      "lastname": "Шадыханов"
+    },
+    {
+      "id": 4633,
+      "photo": "",
+      "position": "Резервный судья",
+      "name": "Ефим",
+      "lastname": "Рубцов"
+    },
+    {
+      "id": 4278,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Денис",
+      "lastname": "Березнов"
+    },
+    {
+      "id": 4644,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Альмир",
+      "lastname": "Хатмуллин"
+    },
+    {
+      "id": 4099,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4099_150.jpg",
+      "position": "ВАР",
+      "name": "Ян",
+      "lastname": "Бобровский"
+    },
+    {
+      "id": 4038,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
+      "position": "АВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 455,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Лапочкин"
+    },
+    {
+      "id": 431,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Ильдар",
+      "lastname": "Зарипов"
+    }
+  ],
+  "id": 16287,
+  "tournament": 724,
+  "stage": 2967,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/AKR_CSKA_Title_1_0.jpg",
+  "clubH": 807,
+  "clubA": 2,
+  "goalH": 2,
+  "goalA": 2,
+  "date": "2026-08-28UTC18:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-28UTC19:54:00",
+  "city": "Самара",
+  "stadium": "«Солидарность Самара Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01789.jpg",
+  "attendance": 4144,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_f446decca2c3653fbe97620999b4ec2d_hd/17_1028142/ad64febb8366ad08161ed9b1cb3f7484/4943609704?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://matchday.fcakron.ru/",
+  "winline": null,
+  "comments": "",
+  "weather": "15.1°C, Малооблачно",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD06_AKR-CSKA_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD06_AKR-CSKA_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 5829,
+    "photo": "https://cdn.premierliga.ru/resources/25/20/Stanislav_Cherchesov.jpg",
+    "name": "Станислав",
+    "lastname": "Черчесов",
+    "citizenship": "Россия",
+    "club": 702,
+    "keyword": "",
+    "isCurrentCoach": true,
+    "photoBig": "https://cdn.premierliga.ru/resources/25/20/Stanislav_Cherchesov.png",
+    "birthday": "1963-09-02"
+  }
+]

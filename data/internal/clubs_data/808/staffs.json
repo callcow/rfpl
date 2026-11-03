@@ -1,0 +1,14 @@
+[
+  {
+    "id": 6298,
+    "photo": "https://cdn.premierliga.ru/resources/25/20/Jonatan_Alba.jpg",
+    "name": "Хонатан",
+    "lastname": "Альба Кабельо",
+    "citizenship": "Испания",
+    "club": 808,
+    "keyword": "",
+    "isCurrentCoach": true,
+    "photoBig": "https://cdn.premierliga.ru/resources/25/20/Jonatan_Alba.png",
+    "birthday": "1981-11-16"
+  }
+]

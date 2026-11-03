@@ -1,0 +1,91 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4636,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Naboka.jpg",
+      "position": "Главный судья",
+      "name": "Данил",
+      "lastname": "Набока"
+    },
+    {
+      "id": 4634,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Kashirin.jpg",
+      "position": "Резервный судья",
+      "name": "Данил",
+      "lastname": "Каширин"
+    },
+    {
+      "id": 4614,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Семёнов"
+    },
+    {
+      "id": 4210,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Ермилов"
+    },
+    {
+      "id": 4342,
+      "photo": "",
+      "position": "ВАР",
+      "name": "Анатолий",
+      "lastname": "Жабченко"
+    },
+    {
+      "id": 4038,
+      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
+      "position": "АВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 417,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Николай",
+      "lastname": "Иванов"
+    },
+    {
+      "id": 502,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Суворов"
+    }
+  ],
+  "id": 16307,
+  "tournament": 724,
+  "stage": 2971,
+  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ROS_AKR_Title_1.jpg",
+  "clubH": 11,
+  "clubA": 807,
+  "goalH": 1,
+  "goalA": 0,
+  "date": "2026-10-09UTC19:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-09UTC21:24:11",
+  "city": "Ростов-на-Дону",
+  "stadium": "«Ростов Арена»",
+  "stadiumLink": "",
+  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01783.jpg",
+  "attendance": 7972,
+  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_de4bed091a1aaeb6497db8bfb2774245_hd/17_1035193/38de131219fc059832ab7dfea966700f/4947244010?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+  "broadcastDescription": null,
+  "videoReviewLink": "",
+  "ticketsLink": "https://tickets.fc-rostov.ru/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
+  "winline": null,
+  "comments": "",
+  "weather": "16.2°C, Малооблачно, туман",
+  "documents": {
+    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD10_ROS-AKR_FR_RU.pdf",
+    "report": null,
+    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD10_ROS-AKR_LU_RU.pdf",
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}
