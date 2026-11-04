@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3776,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3776_150.jpg",
       "position": "Главный судья",
       "name": "Евгений",
       "lastname": "Буланов"
     },
     {
       "id": 4626,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4626_150.jpg",
       "position": "Резервный судья",
       "name": "Станислав",
       "lastname": "Матвеев"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4004,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
       "position": "ВАР",
       "name": "Сергей",
       "lastname": "Цыганок"
     },
     {
       "id": 660,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0660_150.jpg",
       "position": "АВАР",
       "name": "Павел",
       "lastname": "Шадыханов"
@@ -60,7 +56,6 @@
   "id": 16273,
   "tournament": 724,
   "stage": 2966,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/DYN_ROD_Title_2.JPG",
   "clubH": 7,
   "clubA": 808,
   "goalH": 3,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«ВТБ Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00002.jpg",
   "attendance": 15801,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_1cfc214d2a1359dfd6a29719892f3600_hd/17_1025745/c3e148045d7b17041f256098e36d0a95/4943167901?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "20.2°C, Малооблачно, дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD05_DYN-ROD_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD05_DYN-ROD_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

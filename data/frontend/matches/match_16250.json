@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4060,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4060_150.jpg",
       "position": "Главный судья",
       "name": "Инал",
       "lastname": "Танашев"
     },
     {
       "id": 4641,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Mihail_Plisko.jpg",
       "position": "Резервный судья",
       "name": "Михаил",
       "lastname": "Плиско"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3770,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3770_150.jpg",
       "position": "ВАР",
       "name": "Кирилл",
       "lastname": "Левников"
     },
     {
       "id": 3781,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3781_150.jpg",
       "position": "АВАР",
       "name": "Артём",
       "lastname": "Чистяков"
@@ -60,7 +56,6 @@
   "id": 16250,
   "tournament": 724,
   "stage": 2963,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/BAL_DYN_Title_1.jpg",
   "clubH": 444,
   "clubA": 7,
   "goalH": 2,
@@ -71,7 +66,6 @@
   "city": "Калининград",
   "stadium": "«Ростех Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01796.jpg",
   "attendance": 15311,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_44e1593111962005c4a5a307205cd78a_hd/17_1023161/dc196323b78c06c6d1155237c79ae993/4941286991?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "18°C, Облачно, ливневый дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD02_BAL-DYN_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD02_BAL-DYN_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

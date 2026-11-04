@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4629,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4629_150.jpg",
       "position": "Главный судья",
       "name": "Андрей",
       "lastname": "Прокопов"
     },
     {
       "id": 4626,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4626_150.jpg",
       "position": "Резервный судья",
       "name": "Станислав",
       "lastname": "Матвеев"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3361,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3361_150.jpg",
       "position": "ВАР",
       "name": "Сергей",
       "lastname": "Иванов"
     },
     {
       "id": 4303,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4303_150.jpg",
       "position": "АВАР",
       "name": "Рафаэль",
       "lastname": "Шафеев"
@@ -60,7 +56,6 @@
   "id": 16267,
   "tournament": 724,
   "stage": 2965,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/BAL_SPA_Title_1.JPG",
   "clubH": 444,
   "clubA": 1,
   "goalH": 1,
@@ -71,7 +66,6 @@
   "city": "Калининград",
   "stadium": "«Ростех Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01796.jpg",
   "attendance": 26758,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_7cc2c323e06bf78598fff0f513502c31_hd/17_1025508/d386ecd47e0eeaf6bbaa8568b58b1c94/4942578583?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "18.7°C, Облачно, небольшой дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD04_BAL-SPA_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD04_BAL-SPA_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

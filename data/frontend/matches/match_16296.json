@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4629,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4629_150.jpg",
       "position": "Главный судья",
       "name": "Андрей",
       "lastname": "Прокопов"
     },
     {
       "id": 4630,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Nikita_Novikov.jpg",
       "position": "Резервный судья",
       "name": "Никита",
       "lastname": "Новиков"
@@ -30,14 +28,12 @@
     },
     {
       "id": 660,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0660_150.jpg",
       "position": "ВАР",
       "name": "Павел",
       "lastname": "Шадыханов"
     },
     {
       "id": 4192,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4192_150.jpg",
       "position": "АВАР",
       "name": "Роман",
       "lastname": "Сафьян"
@@ -60,7 +56,6 @@
   "id": 16296,
   "tournament": 724,
   "stage": 2968,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ZEN_CSKA_Title_2.jpg",
   "clubH": 3,
   "clubA": 2,
   "goalH": 1,
@@ -71,7 +66,6 @@
   "city": "Санкт-Петербург",
   "stadium": "«Газпром Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01758.jpg",
   "attendance": 32735,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_0f29f86a2ce3950e75aaabd1c0587a13_hd/17_1029531/8554c417ce57d27323ad8c12b63c9ac9/4944296699?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "12.5°C, Облачно, небольшой дождь, туман",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD07_ZEN-CSKA_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD07_ZEN-CSKA_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3845,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3845_150.jpg",
       "position": "Главный судья",
       "name": "Антон",
       "lastname": "Фролов"
     },
     {
       "id": 4630,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Nikita_Novikov.jpg",
       "position": "Резервный судья",
       "name": "Никита",
       "lastname": "Новиков"
@@ -30,7 +28,6 @@
     },
     {
       "id": 4004,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
       "position": "ВАР",
       "name": "Сергей",
       "lastname": "Цыганок"
@@ -60,7 +57,6 @@
   "id": 16253,
   "tournament": 724,
   "stage": 2963,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/AKH_SPA_Title_2.jpg",
   "clubH": 702,
   "clubA": 1,
   "goalH": 1,
@@ -71,7 +67,6 @@
   "city": "Грозный",
   "stadium": "«Ахмат Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01718.jpg",
   "attendance": 5191,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_14fe810fbef649439e7cb036818483c0_hd/17_1023164/3a4f1ebebfa92a8c3e8f215fbea2478e/4947738173?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +76,7 @@
   "comments": "",
   "weather": "25.7°C, Безоблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD02_AKH-SPA_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD02_AKH-SPA_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

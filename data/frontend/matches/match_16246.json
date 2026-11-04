@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3781,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3781_150.jpg",
       "position": "Главный судья",
       "name": "Артём",
       "lastname": "Чистяков"
     },
     {
       "id": 4462,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4462_150.jpg",
       "position": "Резервный судья",
       "name": "Михаил",
       "lastname": "Черемных"
@@ -30,14 +28,12 @@
     },
     {
       "id": 979,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0979_150.jpg",
       "position": "ВАР",
       "name": "Василий",
       "lastname": "Казарцев"
     },
     {
       "id": 3854,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3854_150.jpg",
       "position": "АВАР",
       "name": "Сергей",
       "lastname": "Чебан"
@@ -60,7 +56,6 @@
   "id": 16246,
   "tournament": 724,
   "stage": 2962,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/RUB_KRA_Title_1.JPG",
   "clubH": 4,
   "clubA": 584,
   "goalH": 1,
@@ -71,7 +66,6 @@
   "city": "Казань",
   "stadium": "«Ак Барс Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01745.jpg",
   "attendance": 18866,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_ea6830fb5b9ce2ace91493a292b29eb2_hd/17_1022552/ba6f53daef2ad5709bf4e1c1fc0bbfa1/4940764536?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "27.3°C, Облачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD01_RUB-KRA_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD01_RUB-KRA_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

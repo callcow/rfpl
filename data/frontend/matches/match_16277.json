@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4099,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4099_150.jpg",
       "position": "Главный судья",
       "name": "Ян",
       "lastname": "Бобровский"
     },
     {
       "id": 4462,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4462_150.jpg",
       "position": "Резервный судья",
       "name": "Михаил",
       "lastname": "Черемных"
@@ -37,7 +35,6 @@
     },
     {
       "id": 3219,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
       "position": "АВАР",
       "name": "Владимир",
       "lastname": "Москалёв"
@@ -60,7 +57,6 @@
   "id": 16277,
   "tournament": 724,
   "stage": 2966,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/AKH_ROS_Title_2_0.jpg",
   "clubH": 702,
   "clubA": 11,
   "goalH": 4,
@@ -71,7 +67,6 @@
   "city": "Грозный",
   "stadium": "«Ахмат Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01718.jpg",
   "attendance": 3906,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_2e67e0c7efa23e9c10a6b43a65f59e14_hd/17_1026546/182e72acd92669037832abf245762e1e/4943091910?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +76,7 @@
   "comments": "",
   "weather": "23.9°C, Безоблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD05_AKH-ROS_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD05_AKH-ROS_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4060,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4060_150.jpg",
       "position": "Главный судья",
       "name": "Инал",
       "lastname": "Танашев"
     },
     {
       "id": 4636,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Naboka.jpg",
       "position": "Резервный судья",
       "name": "Данил",
       "lastname": "Набока"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4099,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4099_150.jpg",
       "position": "ВАР",
       "name": "Ян",
       "lastname": "Бобровский"
     },
     {
       "id": 4004,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
       "position": "АВАР",
       "name": "Сергей",
       "lastname": "Цыганок"
@@ -60,7 +56,6 @@
   "id": 16270,
   "tournament": 724,
   "stage": 2965,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/CSKA_FKL_Title_2.JPG",
   "clubH": 2,
   "clubA": 264,
   "goalH": 1,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«ВЭБ Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01754.jpg",
   "attendance": 13952,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_115dbba3e3da6e50ebab7038d6f45472_hd/17_1025416/cfec6424464a87fc1eab7f4ac0234c83/4942481786?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "15.8°C, Малооблачно, небольшой дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD04_CSKA-FKL_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD04_CSKA-FKL_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

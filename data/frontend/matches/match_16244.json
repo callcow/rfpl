@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3770,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3770_150.jpg",
       "position": "Главный судья",
       "name": "Кирилл",
       "lastname": "Левников"
     },
     {
       "id": 4636,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Naboka.jpg",
       "position": "Резервный судья",
       "name": "Данил",
       "lastname": "Набока"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4038,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
       "position": "ВАР",
       "name": "Артур",
       "lastname": "Фёдоров"
     },
     {
       "id": 3827,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3827_150.jpg",
       "position": "АВАР",
       "name": "Евгений",
       "lastname": "Кукуляк"
@@ -60,7 +56,6 @@
   "id": 16244,
   "tournament": 724,
   "stage": 2962,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/LOKO_AKH_Title_1.JPG",
   "clubH": 5,
   "clubA": 702,
   "goalH": 1,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«РЖД Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00001.jpg",
   "attendance": 10051,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_ba4527a6730fb8b9cee937a20f55536f_hd/17_1022548/b1346a82ad52af5e7d135255dff4d2bc/4940755009?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "17.2°C, Облачно, дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD01_LOK-AKH_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD01_LOK-AKH_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

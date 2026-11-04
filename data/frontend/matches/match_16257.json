@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4303,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4303_150.jpg",
       "position": "Главный судья",
       "name": "Рафаэль",
       "lastname": "Шафеев"
     },
     {
       "id": 4636,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Naboka.jpg",
       "position": "Резервный судья",
       "name": "Данил",
       "lastname": "Набока"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4099,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4099_150.jpg",
       "position": "ВАР",
       "name": "Ян",
       "lastname": "Бобровский"
     },
     {
       "id": 3827,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3827_150.jpg",
       "position": "АВАР",
       "name": "Евгений",
       "lastname": "Кукуляк"
@@ -60,7 +56,6 @@
   "id": 16257,
   "tournament": 724,
   "stage": 2964,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/DYN_DMH_Title_2_0.jpg",
   "clubH": 7,
   "clubA": 125,
   "goalH": 3,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«ВТБ Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00002.jpg",
   "attendance": 14757,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_7b7a15df4f836f7eee8cb411fdb04c22_hd/17_1024205/0a17c20b439920387ac673897a011bc5/4941959497?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "19.4°C, Малооблачно, небольшой дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD03_DYN-DMH_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD03_DYN-DMH_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

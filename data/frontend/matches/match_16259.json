@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3781,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3781_150.jpg",
       "position": "Главный судья",
       "name": "Артём",
       "lastname": "Чистяков"
     },
     {
       "id": 4641,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Mihail_Plisko.jpg",
       "position": "Резервный судья",
       "name": "Михаил",
       "lastname": "Плиско"
@@ -30,7 +28,6 @@
     },
     {
       "id": 350,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0350_150.jpg",
       "position": "ВАР",
       "name": "Сергей",
       "lastname": "Карасёв"
@@ -60,7 +57,6 @@
   "id": 16259,
   "tournament": 724,
   "stage": 2964,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/KS_BAL_Title_1.jpg",
   "clubH": 10,
   "clubA": 444,
   "goalH": 0,
@@ -71,7 +67,6 @@
   "city": "Самара",
   "stadium": "«Солидарность Самара Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01789.jpg",
   "attendance": 11259,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_a29ef6ec6c2453d26910eef7e8845438_hd/17_1024199/c5f3a29fa66cf9acc1eba9e84a1955de/4941873118?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +76,7 @@
   "comments": "",
   "weather": "27°C, Малооблачно, небольшой дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD03_KRS-BAL_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD03_KRS-BAL_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

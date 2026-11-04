@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3827,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3827_150.jpg",
       "position": "Главный судья",
       "name": "Евгений",
       "lastname": "Кукуляк"
     },
     {
       "id": 4641,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Mihail_Plisko.jpg",
       "position": "Резервный судья",
       "name": "Михаил",
       "lastname": "Плиско"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4038,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
       "position": "ВАР",
       "name": "Артур",
       "lastname": "Фёдоров"
     },
     {
       "id": 4192,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4192_150.jpg",
       "position": "АВАР",
       "name": "Роман",
       "lastname": "Сафьян"
@@ -60,7 +56,6 @@
   "id": 16285,
   "tournament": 724,
   "stage": 2967,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ROD_BAL_Title_1.jpg",
   "clubH": 808,
   "clubA": 444,
   "goalH": 0,
@@ -71,7 +66,6 @@
   "city": "Химки",
   "stadium": "«Арена Химки»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01380.jpg",
   "attendance": 4412,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_2f51507362e2fd12dee1f79be7490a8d_hd/17_1028254/fa33045a44255dfa5cc1a271e2b00562/4943771851?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "16.3°C, Облачно, дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD06_ROD-BAL_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD06_ROD-BAL_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

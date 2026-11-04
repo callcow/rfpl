@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4635,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4635_150.jpg",
       "position": "Главный судья",
       "name": "Игорь",
       "lastname": "Капленков"
     },
     {
       "id": 4641,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Mihail_Plisko.jpg",
       "position": "Резервный судья",
       "name": "Михаил",
       "lastname": "Плиско"
@@ -30,7 +28,6 @@
     },
     {
       "id": 350,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0350_150.jpg",
       "position": "ВАР",
       "name": "Сергей",
       "lastname": "Карасёв"
@@ -60,7 +57,6 @@
   "id": 16248,
   "tournament": 724,
   "stage": 2962,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/FKL_DMH_Title_1.jpg",
   "clubH": 264,
   "clubA": 125,
   "goalH": 1,
@@ -71,7 +67,6 @@
   "city": "Воронеж",
   "stadium": "«Факел»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01833.jpg",
   "attendance": 9289,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_a3dd138be9c4882175a4a02be69384f3_hd/17_1022511/7be705c26d9f493c198800fa60444008/4940674092?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +76,7 @@
   "comments": "",
   "weather": "20.3°C, Пасмурно, небольшой дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD01_FKL-DMH_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD01_FKL-DMH_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

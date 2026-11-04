@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4638,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Matvey_Zaika.jpg",
       "position": "Главный судья",
       "name": "Матвей",
       "lastname": "Заика"
     },
     {
       "id": 4060,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4060_150.jpg",
       "position": "Резервный судья",
       "name": "Инал",
       "lastname": "Танашев"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3819,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
       "position": "ВАР",
       "name": "Иван",
       "lastname": "Абросимов"
     },
     {
       "id": 979,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0979_150.jpg",
       "position": "АВАР",
       "name": "Василий",
       "lastname": "Казарцев"
@@ -60,7 +56,6 @@
   "id": 16384,
   "tournament": 724,
   "stage": 2970,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/AKR_AKH_Title_2.jpg",
   "clubH": 807,
   "clubA": 702,
   "goalH": 2,
@@ -71,7 +66,6 @@
   "city": "Самара",
   "stadium": "«Солидарность Самара Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01789.jpg",
   "attendance": 2604,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_9bd786d0eaf8b3ebc5da9bbb55114a13_hd/17_1032232/a646a0401d6aa2c39af94bff6964a0ac/4945340264?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "14.4°C, Пасмурно, небольшой дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD09_AKR-AKH_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD09_AKR-AKH_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

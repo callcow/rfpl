@@ -2,7 +2,6 @@
   "matchOfficials": [
     {
       "id": 4099,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4099_150.jpg",
       "position": "Главный судья",
       "name": "Ян",
       "lastname": "Бобровский"
@@ -30,14 +29,12 @@
     },
     {
       "id": 3819,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
       "position": "ВАР",
       "name": "Иван",
       "lastname": "Абросимов"
     },
     {
       "id": 4303,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4303_150.jpg",
       "position": "АВАР",
       "name": "Рафаэль",
       "lastname": "Шафеев"
@@ -60,7 +57,6 @@
   "id": 16256,
   "tournament": 724,
   "stage": 2963,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/AKR_RUB_Title_1.jpg",
   "clubH": 807,
   "clubA": 4,
   "goalH": 1,
@@ -71,7 +67,6 @@
   "city": "Самара",
   "stadium": "«Солидарность Самара Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01789.jpg",
   "attendance": 3673,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_7c6cad7d749514b1410f8401d9a0a540_hd/17_1023158/ce96777feb6dc091cea8b80d532ee53f/4941262663?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +76,7 @@
   "comments": "",
   "weather": "20.7°C, Малооблачно, небольшой дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD02_AKR-RUB_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD02_AKR-RUB_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

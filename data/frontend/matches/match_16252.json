@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4626,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4626_150.jpg",
       "position": "Главный судья",
       "name": "Станислав",
       "lastname": "Матвеев"
     },
     {
       "id": 4629,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4629_150.jpg",
       "position": "Резервный судья",
       "name": "Андрей",
       "lastname": "Прокопов"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4038,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
       "position": "ВАР",
       "name": "Артур",
       "lastname": "Фёдоров"
     },
     {
       "id": 4192,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4192_150.jpg",
       "position": "АВАР",
       "name": "Роман",
       "lastname": "Сафьян"
@@ -60,7 +56,6 @@
   "id": 16252,
   "tournament": 724,
   "stage": 2963,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/KRA_FKL_Title_1_0.jpg",
   "clubH": 584,
   "clubA": 264,
   "goalH": 3,
@@ -71,7 +66,6 @@
   "city": "Краснодар",
   "stadium": "«Ozon Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01755.jpg",
   "attendance": 30953,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_ad850139336396ebf4599e38ee786668_hd/17_1023163/babdc7c8eaf752ef733a38067c9cff16/4947738134?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "27.6°C, Безоблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD02_KRA-FKL_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD02_KRA-FKL_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

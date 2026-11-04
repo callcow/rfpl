@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3827,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3827_150.jpg",
       "position": "Главный судья",
       "name": "Евгений",
       "lastname": "Кукуляк"
     },
     {
       "id": 4638,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Matvey_Zaika.jpg",
       "position": "Резервный судья",
       "name": "Матвей",
       "lastname": "Заика"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3914,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3914_150.jpg",
       "position": "ВАР",
       "name": "Павел",
       "lastname": "Кукуян"
     },
     {
       "id": 3219,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
       "position": "АВАР",
       "name": "Владимир",
       "lastname": "Москалёв"
@@ -60,7 +56,6 @@
   "id": 16251,
   "tournament": 724,
   "stage": 2963,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ORE_ZEN_Title_2.jpg",
   "clubH": 504,
   "clubA": 3,
   "goalH": 0,
@@ -71,7 +66,6 @@
   "city": "Оренбург",
   "stadium": "«Газовик»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01301.jpg",
   "attendance": 8249,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_6f38a589db7f0ee61def8ed2b6997339_hd/17_1023162/bc2f6dcc68fc208191f69e8684e5261d/4941356347?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "20.9°C, Облачно, небольшой дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD02_ORE-ZEN_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD02_ORE-ZEN_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

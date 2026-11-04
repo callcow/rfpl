@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3819,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
       "position": "Главный судья",
       "name": "Иван",
       "lastname": "Абросимов"
     },
     {
       "id": 4635,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4635_150.jpg",
       "position": "Резервный судья",
       "name": "Игорь",
       "lastname": "Капленков"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4004,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
       "position": "ВАР",
       "name": "Сергей",
       "lastname": "Цыганок"
     },
     {
       "id": 3219,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
       "position": "АВАР",
       "name": "Владимир",
       "lastname": "Москалёв"
@@ -60,7 +56,6 @@
   "id": 16282,
   "tournament": 724,
   "stage": 2967,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/LOKO_DYN_Title_2.JPG",
   "clubH": 5,
   "clubA": 7,
   "goalH": 0,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«РЖД Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00001.jpg",
   "attendance": 16154,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_892a0a1cbda00789011120c82c544a9d_hd/17_1028206/30b357c2e989beaefa4272d746f28b93/4943704340?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "17.2°C, Облачно, небольшой дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD06_LOK-DYN_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD06_LOK-DYN_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

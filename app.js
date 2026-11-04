@@ -1078,7 +1078,7 @@ function renderMatchCard(m) {
 
         <div class="match-footer">
           <span class="stadium-name" title="${stadium}">${String(stadium).startsWith('«') ? stadium : `«${stadium}»`}</span>
-          <span class="match-watch">Смотреть</span>
+          <span class="match-watch">Подробнее</span>
         </div>
       </div>
     `;
@@ -3985,11 +3985,12 @@ window.addEventListener('popstate', function(event) {
     if (playerModal && playerModal.classList.contains('active') && landed !== 'player') {
         closePlayerModal(true);
     }
-    // Если закрываем не через кнопку "Назад", удаляем фейковую запись из истории
-    if (!fromPopstate) {
-        history.back();
-    }   
-    else if (clubModal && clubModal.classList.contains('active') && landed !== 'club') {
+
+    if (matchModal && matchModal.classList.contains('active') && landed !== 'match') {
+        closeMatchModal(null, true);
+    }
+
+    if (clubModal && clubModal.classList.contains('active') && landed !== 'club') {
         closeClubModal(null, true);
     }
 });

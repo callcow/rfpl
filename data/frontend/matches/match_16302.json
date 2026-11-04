@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4060,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4060_150.jpg",
       "position": "Главный судья",
       "name": "Инал",
       "lastname": "Танашев"
     },
     {
       "id": 3774,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3774_150.jpg",
       "position": "Резервный судья",
       "name": "Николай",
       "lastname": "Волошин"
@@ -30,14 +28,12 @@
     },
     {
       "id": 350,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0350_150.jpg",
       "position": "ВАР",
       "name": "Сергей",
       "lastname": "Карасёв"
     },
     {
       "id": 3854,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3854_150.jpg",
       "position": "АВАР",
       "name": "Сергей",
       "lastname": "Чебан"
@@ -60,7 +56,6 @@
   "id": 16302,
   "tournament": 724,
   "stage": 2969,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/CSKA_RUB_Title_2.jpg",
   "clubH": 2,
   "clubA": 4,
   "goalH": 1,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«ВЭБ Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01754.jpg",
   "attendance": 16809,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_2b250bd83c39cbbaca4c0dfc121b1005_hd/17_1030957/f2f15c62b84fdbfbe5af589fe2a617b6/4944917144?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "13.6°C, Облачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD08_CSKA-RUB_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD08_CSKA-RUB_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

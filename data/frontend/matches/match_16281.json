@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3781,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3781_150.jpg",
       "position": "Главный судья",
       "name": "Артём",
       "lastname": "Чистяков"
     },
     {
       "id": 4462,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4462_150.jpg",
       "position": "Резервный судья",
       "name": "Михаил",
       "lastname": "Черемных"
@@ -30,7 +28,6 @@
     },
     {
       "id": 3770,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3770_150.jpg",
       "position": "ВАР",
       "name": "Кирилл",
       "lastname": "Левников"
@@ -60,7 +57,6 @@
   "id": 16281,
   "tournament": 724,
   "stage": 2967,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/SPA_ORE_Title_1.JPG",
   "clubH": 1,
   "clubA": 504,
   "goalH": 1,
@@ -71,7 +67,6 @@
   "city": "Москва",
   "stadium": "«Лукойл Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01744.jpg",
   "attendance": 27651,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_24ae08e4a893adffa38d66aa5ea159ab_hd/17_1028272/65e26d1ffaf981e0128011338e653615/4943780923?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +76,7 @@
   "comments": "",
   "weather": "17.3°C, Облачно, дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD06_SPA-ORE_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD06_SPA-ORE_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

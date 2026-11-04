@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 350,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0350_150.jpg",
       "position": "Главный судья",
       "name": "Сергей",
       "lastname": "Карасёв"
     },
     {
       "id": 3774,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3774_150.jpg",
       "position": "Резервный судья",
       "name": "Николай",
       "lastname": "Волошин"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3361,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3361_150.jpg",
       "position": "ВАР",
       "name": "Сергей",
       "lastname": "Иванов"
     },
     {
       "id": 3854,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3854_150.jpg",
       "position": "АВАР",
       "name": "Сергей",
       "lastname": "Чебан"
@@ -60,7 +56,6 @@
   "id": 16249,
   "tournament": 724,
   "stage": 2963,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/DMH_LOKO_Title_2.jpg",
   "clubH": 125,
   "clubA": 5,
   "goalH": 2,
@@ -71,7 +66,6 @@
   "city": "Каспийск",
   "stadium": "«Анжи-Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00547_30102025.jpg",
   "attendance": 6539,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_8b5a1a20747765de40331aed6f46a312_hd/17_1023160/50f9d6f2c072ae34661018f82bc8ea7c/4941282226?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "24.8°C, Облачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD02_DMH-LOK_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD02_DMH-LOK_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

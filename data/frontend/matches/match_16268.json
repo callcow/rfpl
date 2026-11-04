@@ -2,7 +2,6 @@
   "matchOfficials": [
     {
       "id": 3845,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3845_150.jpg",
       "position": "Главный судья",
       "name": "Антон",
       "lastname": "Фролов"
@@ -30,7 +29,6 @@
     },
     {
       "id": 3770,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3770_150.jpg",
       "position": "ВАР",
       "name": "Кирилл",
       "lastname": "Левников"
@@ -60,7 +58,6 @@
   "id": 16268,
   "tournament": 724,
   "stage": 2965,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ORE_LOKO_Title_1_0.jpg",
   "clubH": 504,
   "clubA": 5,
   "goalH": 1,
@@ -71,7 +68,6 @@
   "city": "Оренбург",
   "stadium": "«Газовик»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01301.jpg",
   "attendance": 5678,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_fcc8d53aee21a8fc2a2941e0c47f5a40_hd/17_1025362/1369171d1b5e53d094267ed17496f84d/4942396865?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +77,7 @@
   "comments": "",
   "weather": "18.3°C, Малооблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD04_ORE-LOK_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD04_ORE-LOK_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

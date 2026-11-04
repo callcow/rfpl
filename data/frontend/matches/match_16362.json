@@ -2,7 +2,6 @@
   "matchOfficials": [
     {
       "id": 3845,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3845_150.jpg",
       "position": "Главный судья",
       "name": "Антон",
       "lastname": "Фролов"
@@ -37,7 +36,6 @@
     },
     {
       "id": 4192,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4192_150.jpg",
       "position": "АВАР",
       "name": "Роман",
       "lastname": "Сафьян"
@@ -60,7 +58,6 @@
   "id": 16362,
   "tournament": 724,
   "stage": 2970,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/DMH_CSKA_Title_2.jpg",
   "clubH": 125,
   "clubA": 2,
   "goalH": 1,
@@ -71,7 +68,6 @@
   "city": "Каспийск",
   "stadium": "«Анжи-Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00547_30102025.jpg",
   "attendance": 7355,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_025b8ee3d315dbdda11fff5482b221f2_hd/17_1032240/47062f378fa4061f0db269c41171cebf/4945348156?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +77,7 @@
   "comments": "",
   "weather": "23.6°C, Облачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD09_DMH-CSKA_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD09_DMH-CSKA_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

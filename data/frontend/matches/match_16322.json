@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3219,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
       "position": "Главный судья",
       "name": "Владимир",
       "lastname": "Москалёв"
     },
     {
       "id": 4641,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Mihail_Plisko.jpg",
       "position": "Резервный судья",
       "name": "Михаил",
       "lastname": "Плиско"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4038,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
       "position": "ВАР",
       "name": "Артур",
       "lastname": "Фёдоров"
     },
     {
       "id": 3599,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3599_150.jpg",
       "position": "АВАР",
       "name": "Алексей",
       "lastname": "Сухой"
@@ -60,7 +56,6 @@
   "id": 16322,
   "tournament": 724,
   "stage": 2973,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ROS_LOKO_Title_2.jpg",
   "clubH": 11,
   "clubA": 5,
   "goalH": 2,
@@ -71,7 +66,6 @@
   "city": "Ростов-на-Дону",
   "stadium": "«Ростов Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01783.jpg",
   "attendance": 12259,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_d565df2ac1b895a1a31d25ff70ae8556_hd/17_1037491/6747480902935bc3c79b1d0e616dcb43/4948605725?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "16°C, Безоблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD12_ROS-LOK_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD12_ROS-LOK_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

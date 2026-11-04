@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3819,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
       "position": "Главный судья",
       "name": "Иван",
       "lastname": "Абросимов"
     },
     {
       "id": 4017,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4017_150.jpg",
       "position": "Резервный судья",
       "name": "Ранэль",
       "lastname": "Зияков"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3599,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3599_150.jpg",
       "position": "ВАР",
       "name": "Алексей",
       "lastname": "Сухой"
     },
     {
       "id": 3914,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3914_150.jpg",
       "position": "АВАР",
       "name": "Павел",
       "lastname": "Кукуян"
@@ -60,7 +56,6 @@
   "id": 16329,
   "tournament": 724,
   "stage": 2973,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/FKL_ROD_Title_1.jpg",
   "clubH": 264,
   "clubA": 808,
   "goalH": 0,
@@ -71,7 +66,6 @@
   "city": "Воронеж",
   "stadium": "«Факел»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01833.jpg",
   "attendance": 8541,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_b0cc1c38069a24c4ceb00ac0049357a7_hd/17_1037443/c257231127734329e8ece177e84266ec/4948520455?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "15.9°C, Безоблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD12_FKL-ROD_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD12_FKL-ROD_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3819,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
       "position": "Главный судья",
       "name": "Иван",
       "lastname": "Абросимов"
     },
     {
       "id": 4626,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4626_150.jpg",
       "position": "Резервный судья",
       "name": "Станислав",
       "lastname": "Матвеев"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4004,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
       "position": "ВАР",
       "name": "Сергей",
       "lastname": "Цыганок"
     },
     {
       "id": 3776,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3776_150.jpg",
       "position": "АВАР",
       "name": "Евгений",
       "lastname": "Буланов"
@@ -60,7 +56,6 @@
   "id": 16298,
   "tournament": 724,
   "stage": 2969,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/SPA_ROS_Title_2_0.jpg",
   "clubH": 1,
   "clubA": 11,
   "goalH": 3,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«Лукойл Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01744.jpg",
   "attendance": 29848,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_09ad5092169360646f697dfeb48f0317_hd/17_1031007/c4bc7bdffb3fe42f4d1cc2c59d5de725/4944988869?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "14.1°C, Облачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD08_SPA-ROS_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD08_SPA-ROS_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

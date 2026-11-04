@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4629,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4629_150.jpg",
       "position": "Главный судья",
       "name": "Андрей",
       "lastname": "Прокопов"
     },
     {
       "id": 4060,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4060_150.jpg",
       "position": "Резервный судья",
       "name": "Инал",
       "lastname": "Танашев"
@@ -30,7 +28,6 @@
     },
     {
       "id": 660,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0660_150.jpg",
       "position": "ВАР",
       "name": "Павел",
       "lastname": "Шадыханов"
@@ -60,7 +57,6 @@
   "id": 16247,
   "tournament": 724,
   "stage": 2962,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/AKR_ZEN_Title_2.jpg",
   "clubH": 807,
   "clubA": 3,
   "goalH": 0,
@@ -71,7 +67,6 @@
   "city": "Самара",
   "stadium": "«Солидарность Самара Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01789.jpg",
   "attendance": 6303,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_6441d82c3f023fa3406f4e96ec547055_hd/17_1022504/506283af59c65b34a307594a80b75070/4940668041?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +76,7 @@
   "comments": "",
   "weather": "28.1°C, Малооблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD01_AKR-ZEN_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD01_AKR-ZEN_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

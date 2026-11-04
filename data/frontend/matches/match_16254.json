@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3776,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3776_150.jpg",
       "position": "Главный судья",
       "name": "Евгений",
       "lastname": "Буланов"
     },
     {
       "id": 4634,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Kashirin.jpg",
       "position": "Резервный судья",
       "name": "Данил",
       "lastname": "Каширин"
@@ -30,7 +28,6 @@
     },
     {
       "id": 979,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0979_150.jpg",
       "position": "ВАР",
       "name": "Василий",
       "lastname": "Казарцев"
@@ -60,7 +57,6 @@
   "id": 16254,
   "tournament": 724,
   "stage": 2963,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/CSKA_KS_Title_2.jpg",
   "clubH": 2,
   "clubA": 10,
   "goalH": 1,
@@ -71,7 +67,6 @@
   "city": "Москва",
   "stadium": "«ВЭБ Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01754.jpg",
   "attendance": 16590,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_bf233b2a3c7101423be1bbd9fe53b0d9_hd/17_1023159/7c548018de5ab5ecf3f8959f0ec761ce/4941271612?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +76,7 @@
   "comments": "",
   "weather": "22.2°C, Безоблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD02_CSKA-KRS_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD02_CSKA-KRS_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

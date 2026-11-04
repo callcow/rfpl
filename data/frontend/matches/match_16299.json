@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3219,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
       "position": "Главный судья",
       "name": "Владимир",
       "lastname": "Москалёв"
     },
     {
       "id": 4634,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Kashirin.jpg",
       "position": "Резервный судья",
       "name": "Данил",
       "lastname": "Каширин"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4192,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4192_150.jpg",
       "position": "ВАР",
       "name": "Роман",
       "lastname": "Сафьян"
     },
     {
       "id": 4038,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
       "position": "АВАР",
       "name": "Артур",
       "lastname": "Фёдоров"
@@ -60,7 +56,6 @@
   "id": 16299,
   "tournament": 724,
   "stage": 2969,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/KS_ROD_Title_2.jpg",
   "clubH": 10,
   "clubA": 808,
   "goalH": 2,
@@ -71,7 +66,6 @@
   "city": "Самара",
   "stadium": "«Солидарность Самара Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01789.jpg",
   "attendance": 7142,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_d0ec40ad01e0c72d043fd07350778730_hd/17_1030879/d11cbb7747f021892e6e510371e7cc88/4944822246?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "13.6°C, Облачно, туман",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD08_KRS-ROD_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD08_KRS-ROD_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

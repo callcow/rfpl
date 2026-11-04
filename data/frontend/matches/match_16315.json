@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3845,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3845_150.jpg",
       "position": "Главный судья",
       "name": "Антон",
       "lastname": "Фролов"
     },
     {
       "id": 4017,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4017_150.jpg",
       "position": "Резервный судья",
       "name": "Ранэль",
       "lastname": "Зияков"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3599,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3599_150.jpg",
       "position": "ВАР",
       "name": "Алексей",
       "lastname": "Сухой"
     },
     {
       "id": 3819,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
       "position": "АВАР",
       "name": "Иван",
       "lastname": "Абросимов"
@@ -60,7 +56,6 @@
   "id": 16315,
   "tournament": 724,
   "stage": 2972,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/SPA_RUB_Title_2.jpg",
   "clubH": 1,
   "clubA": 4,
   "goalH": 4,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«Лукойл Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01744.jpg",
   "attendance": 33353,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_59694f3b44062b0ceb34f35543863594_hd/17_1036112/3551a305c0505cf6b5cf8568665185d2/4948019224?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "13.4°C, Пасмурно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD11_SPA-RUB_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD11_SPA-RUB_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

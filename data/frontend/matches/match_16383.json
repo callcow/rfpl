@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4303,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4303_150.jpg",
       "position": "Главный судья",
       "name": "Рафаэль",
       "lastname": "Шафеев"
     },
     {
       "id": 4634,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Kashirin.jpg",
       "position": "Резервный судья",
       "name": "Данил",
       "lastname": "Каширин"
@@ -30,14 +28,12 @@
     },
     {
       "id": 660,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0660_150.jpg",
       "position": "ВАР",
       "name": "Павел",
       "lastname": "Шадыханов"
     },
     {
       "id": 3827,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3827_150.jpg",
       "position": "АВАР",
       "name": "Евгений",
       "lastname": "Кукуляк"
@@ -60,7 +56,6 @@
   "id": 16383,
   "tournament": 724,
   "stage": 2970,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ROD_RUB_Title_1.jpg",
   "clubH": 808,
   "clubA": 4,
   "goalH": 1,
@@ -71,7 +66,6 @@
   "city": "Химки",
   "stadium": "«Арена Химки»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01380.jpg",
   "attendance": 4572,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_69521d50663b54997885546fcf01464f_hd/17_1032194/9673106035a234607378753a15d78a67/4945250051?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "11°C, Безоблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD09_ROD-RUB_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD09_ROD-RUB_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

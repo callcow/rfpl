@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4629,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4629_150.jpg",
       "position": "Главный судья",
       "name": "Андрей",
       "lastname": "Прокопов"
     },
     {
       "id": 4630,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Nikita_Novikov.jpg",
       "position": "Резервный судья",
       "name": "Никита",
       "lastname": "Новиков"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3219,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
       "position": "ВАР",
       "name": "Владимир",
       "lastname": "Москалёв"
     },
     {
       "id": 3776,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3776_150.jpg",
       "position": "АВАР",
       "name": "Евгений",
       "lastname": "Буланов"
@@ -60,7 +56,6 @@
   "id": 16371,
   "tournament": 724,
   "stage": 2970,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ROS_DYN_1.jpg",
   "clubH": 11,
   "clubA": 7,
   "goalH": 0,
@@ -71,7 +66,6 @@
   "city": "Ростов-на-Дону",
   "stadium": "«Ростов Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01783.jpg",
   "attendance": 9171,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_7dbff99bb4fc59c2b541288584f9b359_hd/17_1032230/32f0e358b6b0b265857027d371c7956c/4945337659?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "17°C, Облачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD09_ROS-DYN_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD09_ROS-DYN_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

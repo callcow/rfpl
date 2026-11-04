@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 350,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0350_150.jpg",
       "position": "Главный судья",
       "name": "Сергей",
       "lastname": "Карасёв"
     },
     {
       "id": 3774,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3774_150.jpg",
       "position": "Резервный судья",
       "name": "Николай",
       "lastname": "Волошин"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3776,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3776_150.jpg",
       "position": "ВАР",
       "name": "Евгений",
       "lastname": "Буланов"
     },
     {
       "id": 4099,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4099_150.jpg",
       "position": "АВАР",
       "name": "Ян",
       "lastname": "Бобровский"
@@ -60,7 +56,6 @@
   "id": 16330,
   "tournament": 724,
   "stage": 2974,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/DYN_AKH_Title_2.jpg",
   "clubH": 7,
   "clubA": 702,
   "goalH": 2,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«ВТБ Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00002.jpg",
   "attendance": 15409,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_244ce078def57502e3c7399b76d777ba_hd/17_1038813/5182086b867bd041163505180851a656/4949137752?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "8.6°C, Пасмурно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD13_DYN-AKH_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD13_DYN-AKH_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

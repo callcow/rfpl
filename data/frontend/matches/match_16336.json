@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4303,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4303_150.jpg",
       "position": "Главный судья",
       "name": "Рафаэль",
       "lastname": "Шафеев"
     },
     {
       "id": 4638,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Matvey_Zaika.jpg",
       "position": "Резервный судья",
       "name": "Матвей",
       "lastname": "Заика"
@@ -30,14 +28,12 @@
     },
     {
       "id": 979,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_0979_150.jpg",
       "position": "ВАР",
       "name": "Василий",
       "lastname": "Казарцев"
     },
     {
       "id": 4038,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4038_150.jpg",
       "position": "АВАР",
       "name": "Артур",
       "lastname": "Фёдоров"
@@ -60,7 +56,6 @@
   "id": 16336,
   "tournament": 724,
   "stage": 2974,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/ROD_KRA_Title_1.jpg",
   "clubH": 808,
   "clubA": 584,
   "goalH": 2,
@@ -71,7 +66,6 @@
   "city": "Химки",
   "stadium": "«Арена Химки»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01380.jpg",
   "attendance": 9695,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_32d512aca8a9f617d3c6a9ceb9a4eecc_hd/17_1038821/0c61594d25e1abfec528ba345605457c/4949142936?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "5.5°C, Безоблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD13_ROD-KRA_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD13_ROD-KRA_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

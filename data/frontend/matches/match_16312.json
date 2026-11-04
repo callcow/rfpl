@@ -2,7 +2,6 @@
   "matchOfficials": [
     {
       "id": 3819,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
       "position": "Главный судья",
       "name": "Иван",
       "lastname": "Абросимов"
@@ -30,7 +29,6 @@
     },
     {
       "id": 3770,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3770_150.jpg",
       "position": "ВАР",
       "name": "Кирилл",
       "lastname": "Левников"
@@ -60,7 +58,6 @@
   "id": 16312,
   "tournament": 724,
   "stage": 2971,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/RUB_DYN_Title_1_0.jpg",
   "clubH": 4,
   "clubA": 7,
   "goalH": 0,
@@ -71,7 +68,6 @@
   "city": "Казань",
   "stadium": "«Ак Барс Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01745.jpg",
   "attendance": 15479,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_eb8da242637bc58845c527d1b85823a3_hd/17_1035305/1eddcfec3ac374bd0fc7dea4b680bdec/4947415559?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +77,7 @@
   "comments": "",
   "weather": "10.2°C, Безоблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD10_RUB-DYN_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD10_RUB-DYN_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

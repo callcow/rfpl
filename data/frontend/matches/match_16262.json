@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3914,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3914_150.jpg",
       "position": "Главный судья",
       "name": "Павел",
       "lastname": "Кукуян"
     },
     {
       "id": 4634,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Kashirin.jpg",
       "position": "Резервный судья",
       "name": "Данил",
       "lastname": "Каширин"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3819,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3819_150.jpg",
       "position": "ВАР",
       "name": "Иван",
       "lastname": "Абросимов"
     },
     {
       "id": 3854,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3854_150.jpg",
       "position": "АВАР",
       "name": "Сергей",
       "lastname": "Чебан"
@@ -60,7 +56,6 @@
   "id": 16262,
   "tournament": 724,
   "stage": 2964,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/RUB_ORE_Title_1_0.jpg",
   "clubH": 4,
   "clubA": 504,
   "goalH": 1,
@@ -71,7 +66,6 @@
   "city": "Казань",
   "stadium": "«Ак Барс Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01745.jpg",
   "attendance": 9904,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_4843515adbfd82db6c5101c4740c5daf_hd/17_1024211/310bc40e2e6548cb8f9717862399485e/4941977209?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "19.2°C, Облачно, дождь, гроза",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD03_RUB-ORE_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD03_RUB-ORE_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

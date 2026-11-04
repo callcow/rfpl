@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4303,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4303_150.jpg",
       "position": "Главный судья",
       "name": "Рафаэль",
       "lastname": "Шафеев"
     },
     {
       "id": 4634,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Danil_Kashirin.jpg",
       "position": "Резервный судья",
       "name": "Данил",
       "lastname": "Каширин"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3914,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3914_150.jpg",
       "position": "ВАР",
       "name": "Павел",
       "lastname": "Кукуян"
     },
     {
       "id": 3219,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
       "position": "АВАР",
       "name": "Владимир",
       "lastname": "Москалёв"
@@ -60,7 +56,6 @@
   "id": 16242,
   "tournament": 724,
   "stage": 2962,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/SPA_ROD_Title_2.JPG",
   "clubH": 1,
   "clubA": 808,
   "goalH": 3,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«Лукойл Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01744.jpg",
   "attendance": 23601,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_e594ad6a7a860b2e4d81ea747fde4afb_hd/17_1022513/864b7f8b6306c7aa5653465466d7d503/4940682338?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "19.7°C, Облачно, небольшой дождь",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD01_SPA-ROD_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD01_SPA-ROD_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

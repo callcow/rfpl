@@ -145,8 +145,21 @@ def _save_json(path: Path, data) -> None:
     
     # Если файла нет или данные новые — сохраняем
     path.parent.mkdir(parents=True, exist_ok=True)
+    
+    # Функция для рекурсивного удаления переменных с CDN-ссылками
+    def clean_cdn(obj):
+        if isinstance(obj, dict):
+            return {k: clean_cdn(v) for k, v in obj.items() 
+                    if not (isinstance(v, str) and "https://cdn.premierliga.ru/" in v)}
+        elif isinstance(obj, list):
+            return [clean_cdn(item) for item in obj]
+        return obj
+    
+    # Очищаем данные от CDN-ссылок
+    cleaned_data = clean_cdn(data)
+    
     with path.open("w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+        json.dump(cleaned_data, f, ensure_ascii=False, indent=2)
     log.info(f"Сохранено (были изменения): {path}")
 
 

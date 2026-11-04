@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 3914,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3914_150.jpg",
       "position": "Главный судья",
       "name": "Павел",
       "lastname": "Кукуян"
     },
     {
       "id": 4629,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4629_150.jpg",
       "position": "Резервный судья",
       "name": "Андрей",
       "lastname": "Прокопов"
@@ -30,14 +28,12 @@
     },
     {
       "id": 3599,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3599_150.jpg",
       "position": "ВАР",
       "name": "Алексей",
       "lastname": "Сухой"
     },
     {
       "id": 3827,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3827_150.jpg",
       "position": "АВАР",
       "name": "Евгений",
       "lastname": "Кукуляк"
@@ -60,7 +56,6 @@
   "id": 16297,
   "tournament": 724,
   "stage": 2969,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/DYN_ORE_Title_1_0.jpg",
   "clubH": 7,
   "clubA": 504,
   "goalH": 1,
@@ -71,7 +66,6 @@
   "city": "Москва",
   "stadium": "«РЖД Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00001.jpg",
   "attendance": 6261,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_26fd8feb9d75d1fef056684329dcc7c0_hd/17_1030947/2881b3dc5cdc77c18ffaf5eccecdb348/4944903932?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "13.6°C, Облачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD08_DYN-ORE_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD08_DYN-ORE_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

@@ -2,14 +2,12 @@
   "matchOfficials": [
     {
       "id": 4060,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4060_150.jpg",
       "position": "Главный судья",
       "name": "Инал",
       "lastname": "Танашев"
     },
     {
       "id": 4641,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/Mihail_Plisko.jpg",
       "position": "Резервный судья",
       "name": "Михаил",
       "lastname": "Плиско"
@@ -30,14 +28,12 @@
     },
     {
       "id": 4004,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4004_150.jpg",
       "position": "ВАР",
       "name": "Сергей",
       "lastname": "Цыганок"
     },
     {
       "id": 3219,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3219_150.jpg",
       "position": "АВАР",
       "name": "Владимир",
       "lastname": "Москалёв"
@@ -60,7 +56,6 @@
   "id": 16290,
   "tournament": 724,
   "stage": 2968,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/KS_KRA_Title_1_0.jpg",
   "clubH": 10,
   "clubA": 584,
   "goalH": 2,
@@ -71,7 +66,6 @@
   "city": "Самара",
   "stadium": "«Солидарность Самара Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_01789.jpg",
   "attendance": 12175,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_548e61cebfc4c8ff18c6aac56a853718_hd/17_1029495/e3ac38fe8a7b10e740acf9dbfb4a25c1/4944286820?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +75,7 @@
   "comments": "",
   "weather": "22.9°C, Облачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD07_KRS-KRA_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD07_KRS-KRA_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

@@ -2,7 +2,6 @@
   "matchOfficials": [
     {
       "id": 4099,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_4099_150.jpg",
       "position": "Главный судья",
       "name": "Ян",
       "lastname": "Бобровский"
@@ -30,14 +29,12 @@
     },
     {
       "id": 3914,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3914_150.jpg",
       "position": "ВАР",
       "name": "Павел",
       "lastname": "Кукуян"
     },
     {
       "id": 3827,
-      "photo": "https://cdn.premierliga.ru/resources/27/22/referee_3827_150.jpg",
       "position": "АВАР",
       "name": "Евгений",
       "lastname": "Кукуляк"
@@ -60,7 +57,6 @@
   "id": 16291,
   "tournament": 724,
   "stage": 2968,
-  "mainMatchPhoto": "https://cdn.premierliga.ru/resources/20/15/DMH_ROD_Title_2.jpg",
   "clubH": 125,
   "clubA": 808,
   "goalH": 2,
@@ -71,7 +67,6 @@
   "city": "Каспийск",
   "stadium": "«Анжи-Арена»",
   "stadiumLink": "",
-  "stadiumPhoto": "https://cdn.premierliga.ru/resources/16/11/STADIUM_00547_30102025.jpg",
   "attendance": 5115,
   "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_b20d632941124ba52efdfe4e98ebd1ad_hd/17_1029590/a1884180d85a27436b2722e9df9b163d/4944386600?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
   "broadcastDescription": null,
@@ -81,9 +76,7 @@
   "comments": "",
   "weather": "25.4°C, Безоблачно",
   "documents": {
-    "protocol": "https://cdn.premierliga.ru/resources/sb_pdf/protocol/RPL_2026-2027_MD07_DMH-ROD_FR_RU.pdf",
     "report": null,
-    "lineup": "https://cdn.premierliga.ru/resources/sb_pdf/participants/RPL_2026-2027_MD07_DMH-ROD_LU_RU.pdf",
     "preview": null
   },
   "protocol": true,

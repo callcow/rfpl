@@ -1945,9 +1945,9 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 @media (max-width: 850px) {
   .tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
   .tabs::-webkit-scrollbar { display: none; }
-  .tabs .tab-btn { flex: 1 0 auto; min-width: max-content; white-space: nowrap; padding: 8px 12px; font-size: 12px; overflow: visible; }
+  .tabs .tab-btn { flex: 1 0 auto; min-width: max-content; white-space: nowrap; padding: 8px 12px; font-size: 14px; overflow: visible; }
   .tabs .tab-btn[data-short] { font-size: 0; }
-  .tabs .tab-btn[data-short]::before { content: attr(data-short); font-size: 12px; }
+  .tabs .tab-btn[data-short]::before { content: attr(data-short); font-size: 14px; }
 }
 
 /* ─── Страница «Статистика» (новые карточки .sc-*) ─── */
