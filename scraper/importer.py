@@ -734,8 +734,9 @@ def import_all() -> dict:
                 if should_fetch_lineups:
                     lineups_raw = post("getLineups", {"id": match_id})
                     if lineups_raw:
-                        _save_json(lineups_file, lineups_raw)
-                        log.info(f"Сохранены составы матча {match_id}")
+                        # Очищаем от лишних фото перед сохранением
+                        lineups_clean = _clean_events_and_lineups(lineups_raw)
+                        _save_json(lineups_file, lineups_clean)
                         
                         # ─── Проверка неполных данных ───
                         protocol = lineups_raw.get("protocol") or {}
@@ -771,7 +772,9 @@ def import_all() -> dict:
                 if should_fetch_events:
                     events_raw = post("getEvents", {"id": match_id})
                     if events_raw:
-                        _save_json(events_file, events_raw)
+                        # Очищаем от лишних фото перед сохранением
+                        events_clean = _clean_events_and_lineups(events_raw)
+                        _save_json(events_file, events_clean)
                         log.info(f"Сохранены события матча {match_id}")
                         
                         # ─── Проверка неполных данных ───
@@ -1748,6 +1751,28 @@ def _build_players_season_stats(status: dict):
     _save_json(CURRENT_DIR / "players_stats.json", out)
     log.info(f"players_stats: игроков {len(out)}")
 
+
+def _clean_events_and_lineups(data: dict) -> dict:
+    """Удаляет поля photo и photoBig из вложенных объектов игроков (player1, player2 и т.д.), 
+    чтобы не раздувать файлы events_*.json и lineups_*.json."""
+    if not isinstance(data, dict):
+        return data
+    
+    cleaned = {}
+    for key, value in data.items():
+        if isinstance(value, dict):
+            # Если это объект игрока (например, в player1, player2)
+            if "id" in value and ("name" in value or "lastname" in value or "nickname" in value):
+                cleaned_val = {k: v for k, v in value.items() if k not in ("photo", "photoBig")}
+                # Рекурсивно проверяем вложенные поля на всякий случай
+                cleaned[key] = _clean_events_and_lineups(cleaned_val)
+            else:
+                cleaned[key] = _clean_events_and_lineups(value)
+        elif isinstance(value, list):
+            cleaned[key] = [_clean_events_and_lineups(item) for item in value]
+        else:
+            cleaned[key] = value
+    return cleaned
 
 def _write_club_stats_files(club_players: dict, tournament_id: int, matches_played: int, club_matches: dict | None = None, club_corners: dict | None = None, halves_acc: dict | None = None, att_acc: dict | None = None):
     """Сохраняет club_stats.json для каждого клуба."""

@@ -7,7 +7,6 @@
       "extra": null,
       "player1": {
         "id": 22521,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48005/25229_2026_150_48005.jpg",
         "name": "Андрей",
         "lastname": "Лангович",
         "nickname": "",
@@ -30,7 +29,6 @@
       "extra": null,
       "player1": {
         "id": 24700,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48363/28796_2026_150_48363.jpg",
         "name": "Олакунле Джуниор",
         "lastname": "Олусегун",
         "nickname": "",
@@ -53,7 +51,6 @@
       "extra": null,
       "player1": {
         "id": 17559,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48116/11671_2026_150_48116.jpg",
         "name": "Зелимхан",
         "lastname": "Бакаев",
         "nickname": "",
@@ -63,7 +60,6 @@
       },
       "player2": {
         "id": 23855,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48124/27486_2026_150_48124.jpg",
         "name": "Александр",
         "lastname": "Коваленко",
         "nickname": "",
@@ -85,7 +81,6 @@
       "extra": null,
       "player1": {
         "id": 25907,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48119/32130_2026_150_48119.jpg",
         "name": "Илья",
         "lastname": "Еремеев",
         "nickname": null,
@@ -95,7 +90,6 @@
       },
       "player2": {
         "id": 24327,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48411/28263_2026_150_48411.jpg",
         "name": "Михаил",
         "lastname": "Щетинин",
         "nickname": null,
@@ -117,7 +111,6 @@
       "extra": null,
       "player1": {
         "id": 21530,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48117/11968_2026_150_48117.jpg",
         "name": "Александр",
         "lastname": "Руденко",
         "nickname": "",
@@ -127,7 +120,6 @@
       },
       "player2": {
         "id": 24730,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48410/28838_2026_150_48410.jpg",
         "name": "Вадим",
         "lastname": "Раков",
         "nickname": "",
@@ -149,7 +141,6 @@
       "extra": null,
       "player1": {
         "id": 23077,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48004/26132_2026_150_48004.jpg",
         "name": "Иван",
         "lastname": "Комаров",
         "nickname": "",
@@ -159,7 +150,6 @@
       },
       "player2": {
         "id": 25381,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48014/29936_2026_150_48014.jpg",
         "name": "Роналдо Сезар",
         "lastname": "Соарес дос Сантос",
         "nickname": "Роналдо",
@@ -181,7 +171,6 @@
       "extra": null,
       "player1": {
         "id": 24700,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48363/28796_2026_150_48363.jpg",
         "name": "Олакунле Джуниор",
         "lastname": "Олусегун",
         "nickname": "",
@@ -191,7 +180,6 @@
       },
       "player2": {
         "id": 22664,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48544/25391_2026_150_48544.jpg",
         "name": "Даниил",
         "lastname": "Хлусевич",
         "nickname": "",
@@ -213,7 +201,6 @@
       "extra": null,
       "player1": {
         "id": 21491,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48013/12626_2026_150_48013.jpg",
         "name": "Константин",
         "lastname": "Кучаев",
         "nickname": "",
@@ -223,7 +210,6 @@
       },
       "player2": {
         "id": 24380,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48018/28359_2026_150_48018.jpg",
         "name": "Даниил",
         "lastname": "Шанталий",
         "nickname": null,
@@ -245,7 +231,6 @@
       "extra": null,
       "player1": {
         "id": 22666,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48012/25393_2026_150_48012.jpg",
         "name": "Тимур",
         "lastname": "Сулейманов",
         "nickname": "",
@@ -255,7 +240,6 @@
       },
       "player2": {
         "id": 25196,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48017/29706_2026_150_48017.jpg",
         "name": "Антон",
         "lastname": "Шамонин",
         "nickname": "",
@@ -277,7 +261,6 @@
       "extra": 1,
       "player1": {
         "id": 25381,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48014/29936_2026_150_48014.jpg",
         "name": "Роналдо Сезар",
         "lastname": "Соарес дос Сантос",
         "nickname": "Роналдо",
@@ -334,7 +317,6 @@
       "extra": null,
       "player1": {
         "id": 23070,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48103/26120_2026_150_48103.jpg",
         "name": "Александр",
         "lastname": "Сильянов",
         "nickname": null,
@@ -361,7 +343,6 @@
       "extra": null,
       "player1": {
         "id": 24266,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48006/28191_2026_150_48006.jpg",
         "name": "Виктор",
         "lastname": "Мелёхин",
         "nickname": null,
@@ -422,7 +403,6 @@
       "extra": null,
       "player1": {
         "id": 25481,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48107/30058_2026_150_48107.jpg",
         "name": "Жерзино Кемтчу",
         "lastname": "Ньямси",
         "nickname": "",
@@ -449,7 +429,6 @@
       "extra": null,
       "player1": {
         "id": 21491,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48013/12626_2026_150_48013.jpg",
         "name": "Константин",
         "lastname": "Кучаев",
         "nickname": "",
@@ -476,7 +455,6 @@
       "extra": null,
       "player1": {
         "id": 24700,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48363/28796_2026_150_48363.jpg",
         "name": "Олакунле Джуниор",
         "lastname": "Олусегун",
         "nickname": "",
@@ -503,7 +481,6 @@
       "extra": null,
       "player1": {
         "id": 22666,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48012/25393_2026_150_48012.jpg",
         "name": "Тимур",
         "lastname": "Сулейманов",
         "nickname": "",
@@ -547,7 +524,6 @@
       "extra": null,
       "player1": {
         "id": 23077,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48004/26132_2026_150_48004.jpg",
         "name": "Иван",
         "lastname": "Комаров",
         "nickname": "",
@@ -574,7 +550,6 @@
       "extra": null,
       "player1": {
         "id": 22521,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48005/25229_2026_500_48005.png",
         "name": "Андрей",
         "lastname": "Лангович",
         "nickname": "",
@@ -585,7 +560,6 @@
       },
       "player2": {
         "id": 21491,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48013/12626_2026_150_48013.jpg",
         "name": "Константин",
         "lastname": "Кучаев",
         "nickname": "",
@@ -634,7 +608,6 @@
       "extra": null,
       "player1": {
         "id": 26087,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48128/32368_2026_150_48128.jpg",
         "name": "Игор",
         "lastname": "Ногейра де Паула",
         "nickname": "Игор Ногейра",
@@ -695,7 +668,6 @@
       "extra": null,
       "player1": {
         "id": 23107,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48104/26164_2026_150_48104.jpg",
         "name": "Евгений",
         "lastname": "Морозов",
         "nickname": null,
@@ -722,7 +694,6 @@
       "extra": null,
       "player1": {
         "id": 22848,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48526/25762_2026_150_48526.jpg",
         "name": "Николай",
         "lastname": "Титков",
         "nickname": "",
@@ -766,7 +737,6 @@
       "extra": null,
       "player1": {
         "id": 24700,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48363/28796_2026_500_48363.png",
         "name": "Олакунле Джуниор",
         "lastname": "Олусегун",
         "nickname": "",
@@ -777,7 +747,6 @@
       },
       "player2": {
         "id": 25382,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48007/29937_2026_150_48007.jpg",
         "name": "Умар",
         "lastname": "Сако",
         "nickname": "",
@@ -826,7 +795,6 @@
       "extra": null,
       "player1": {
         "id": 17559,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48116/11671_2026_150_48116.jpg",
         "name": "Зелимхан",
         "lastname": "Бакаев",
         "nickname": "",
@@ -837,7 +805,6 @@
       },
       "player2": {
         "id": 23855,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48124/27486_2026_150_48124.jpg",
         "name": "Александр",
         "lastname": "Коваленко",
         "nickname": "",
@@ -863,7 +830,6 @@
       "extra": null,
       "player1": {
         "id": 21530,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48117/11968_2026_150_48117.jpg",
         "name": "Александр",
         "lastname": "Руденко",
         "nickname": "",
@@ -890,7 +856,6 @@
       "extra": null,
       "player1": {
         "id": 23855,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48124/27486_2026_150_48124.jpg",
         "name": "Александр",
         "lastname": "Коваленко",
         "nickname": "",
@@ -917,7 +882,6 @@
       "extra": null,
       "player1": {
         "id": 25907,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48119/32130_2026_150_48119.jpg",
         "name": "Илья",
         "lastname": "Еремеев",
         "nickname": null,
@@ -944,7 +908,6 @@
       "extra": null,
       "player1": {
         "id": 21327,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48003/7461_2026_150_48003.jpg",
         "name": "Алексей",
         "lastname": "Миронов",
         "nickname": null,
@@ -971,7 +934,6 @@
       "extra": null,
       "player1": {
         "id": 22666,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48012/25393_2026_150_48012.jpg",
         "name": "Тимур",
         "lastname": "Сулейманов",
         "nickname": "",
@@ -998,7 +960,6 @@
       "extra": null,
       "player1": {
         "id": 22521,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48005/25229_2026_150_48005.jpg",
         "name": "Андрей",
         "lastname": "Лангович",
         "nickname": "",
@@ -1025,7 +986,6 @@
       "extra": null,
       "player1": {
         "id": 23855,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48124/27486_2026_150_48124.jpg",
         "name": "Александр",
         "lastname": "Коваленко",
         "nickname": "",
@@ -1052,7 +1012,6 @@
       "extra": null,
       "player1": {
         "id": 21530,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48117/11968_2026_150_48117.jpg",
         "name": "Александр",
         "lastname": "Руденко",
         "nickname": "",
@@ -1079,7 +1038,6 @@
       "extra": null,
       "player1": {
         "id": 22597,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48010/25325_2026_150_48010.jpg",
         "name": "Данила",
         "lastname": "Прохин",
         "nickname": "",
@@ -1106,7 +1064,6 @@
       "extra": null,
       "player1": {
         "id": 21530,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48117/11968_2026_150_48117.jpg",
         "name": "Александр",
         "lastname": "Руденко",
         "nickname": "",
@@ -1133,7 +1090,6 @@
       "extra": null,
       "player1": {
         "id": 23070,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48103/26120_2026_150_48103.jpg",
         "name": "Александр",
         "lastname": "Сильянов",
         "nickname": null,
@@ -1160,7 +1116,6 @@
       "extra": null,
       "player1": {
         "id": 26087,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48128/32368_2026_150_48128.jpg",
         "name": "Игор",
         "lastname": "Ногейра де Паула",
         "nickname": "Игор Ногейра",
@@ -1187,7 +1142,6 @@
       "extra": null,
       "player1": {
         "id": 23077,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48004/26132_2026_150_48004.jpg",
         "name": "Иван",
         "lastname": "Комаров",
         "nickname": "",
@@ -1214,7 +1168,6 @@
       "extra": null,
       "player1": {
         "id": 21327,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48003/7461_2026_150_48003.jpg",
         "name": "Алексей",
         "lastname": "Миронов",
         "nickname": null,
@@ -1275,7 +1228,6 @@
       "extra": null,
       "player1": {
         "id": 22597,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48010/25325_2026_150_48010.jpg",
         "name": "Данила",
         "lastname": "Прохин",
         "nickname": "",
@@ -1302,7 +1254,6 @@
       "extra": null,
       "player1": {
         "id": 23077,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48004/26132_2026_150_48004.jpg",
         "name": "Иван",
         "lastname": "Комаров",
         "nickname": "",
@@ -1329,7 +1280,6 @@
       "extra": 1,
       "player1": {
         "id": 23077,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48004/26132_2026_150_48004.jpg",
         "name": "Иван",
         "lastname": "Комаров",
         "nickname": "",
@@ -1373,7 +1323,6 @@
       "extra": 3,
       "player1": {
         "id": 25907,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48119/32130_2026_150_48119.jpg",
         "name": "Илья",
         "lastname": "Еремеев",
         "nickname": null,
@@ -1434,7 +1383,6 @@
       "extra": null,
       "player1": {
         "id": 25907,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48119/32130_2026_150_48119.jpg",
         "name": "Илья",
         "lastname": "Еремеев",
         "nickname": null,
@@ -1445,7 +1393,6 @@
       },
       "player2": {
         "id": 24327,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48411/28263_2026_150_48411.jpg",
         "name": "Михаил",
         "lastname": "Щетинин",
         "nickname": null,
@@ -1471,7 +1418,6 @@
       "extra": null,
       "player1": {
         "id": 23855,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48124/27486_2026_150_48124.jpg",
         "name": "Александр",
         "lastname": "Коваленко",
         "nickname": "",
@@ -1498,7 +1444,6 @@
       "extra": null,
       "player1": {
         "id": 16678,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48118/11384_2026_150_48118.jpg",
         "name": "Николай",
         "lastname": "Комличенко",
         "nickname": "",
@@ -1525,7 +1470,6 @@
       "extra": null,
       "player1": {
         "id": 22666,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48012/25393_2026_150_48012.jpg",
         "name": "Тимур",
         "lastname": "Сулейманов",
         "nickname": "",
@@ -1552,7 +1496,6 @@
       "extra": null,
       "player1": {
         "id": 16678,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48118/11384_2026_150_48118.jpg",
         "name": "Николай",
         "lastname": "Комличенко",
         "nickname": "",
@@ -1579,7 +1522,6 @@
       "extra": null,
       "player1": {
         "id": 16678,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48118/11384_2026_150_48118.jpg",
         "name": "Николай",
         "lastname": "Комличенко",
         "nickname": "",
@@ -1606,7 +1548,6 @@
       "extra": null,
       "player1": {
         "id": 21530,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48117/11968_2026_150_48117.jpg",
         "name": "Александр",
         "lastname": "Руденко",
         "nickname": "",
@@ -1633,7 +1574,6 @@
       "extra": null,
       "player1": {
         "id": 24327,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48411/28263_2026_150_48411.jpg",
         "name": "Михаил",
         "lastname": "Щетинин",
         "nickname": null,
@@ -1660,7 +1600,6 @@
       "extra": null,
       "player1": {
         "id": 22666,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48012/25393_2026_150_48012.jpg",
         "name": "Тимур",
         "lastname": "Сулейманов",
         "nickname": "",
@@ -1727,7 +1666,6 @@
       "extra": null,
       "player1": {
         "id": 22666,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48012/25393_2026_150_48012.jpg",
         "name": "Тимур",
         "lastname": "Сулейманов",
         "nickname": "",
@@ -1754,7 +1692,6 @@
       "extra": null,
       "player1": {
         "id": 26087,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48128/32368_2026_150_48128.jpg",
         "name": "Игор",
         "lastname": "Ногейра де Паула",
         "nickname": "Игор Ногейра",
@@ -1781,7 +1718,6 @@
       "extra": null,
       "player1": {
         "id": 21530,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48117/11968_2026_150_48117.jpg",
         "name": "Александр",
         "lastname": "Руденко",
         "nickname": "",
@@ -1792,7 +1728,6 @@
       },
       "player2": {
         "id": 24730,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48410/28838_2026_150_48410.jpg",
         "name": "Вадим",
         "lastname": "Раков",
         "nickname": "",
@@ -1818,7 +1753,6 @@
       "extra": null,
       "player1": {
         "id": 23077,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48004/26132_2026_150_48004.jpg",
         "name": "Иван",
         "lastname": "Комаров",
         "nickname": "",
@@ -1829,7 +1763,6 @@
       },
       "player2": {
         "id": 25381,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48014/29936_2026_150_48014.jpg",
         "name": "Роналдо Сезар",
         "lastname": "Соарес дос Сантос",
         "nickname": "Роналдо",
@@ -1855,7 +1788,6 @@
       "extra": null,
       "player1": {
         "id": 22597,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48010/25325_2026_150_48010.jpg",
         "name": "Данила",
         "lastname": "Прохин",
         "nickname": "",
@@ -1882,7 +1814,6 @@
       "extra": null,
       "player1": {
         "id": 21327,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48003/7461_2026_150_48003.jpg",
         "name": "Алексей",
         "lastname": "Миронов",
         "nickname": null,
@@ -1909,7 +1840,6 @@
       "extra": null,
       "player1": {
         "id": 24700,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48363/28796_2026_150_48363.jpg",
         "name": "Олакунле Джуниор",
         "lastname": "Олусегун",
         "nickname": "",
@@ -1936,7 +1866,6 @@
       "extra": null,
       "player1": {
         "id": 25381,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48014/29936_2026_150_48014.jpg",
         "name": "Роналдо Сезар",
         "lastname": "Соарес дос Сантос",
         "nickname": "Роналдо",
@@ -1963,7 +1892,6 @@
       "extra": null,
       "player1": {
         "id": 22666,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48012/25393_2026_150_48012.jpg",
         "name": "Тимур",
         "lastname": "Сулейманов",
         "nickname": "",
@@ -1990,7 +1918,6 @@
       "extra": null,
       "player1": {
         "id": 22597,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48010/25325_2026_150_48010.jpg",
         "name": "Данила",
         "lastname": "Прохин",
         "nickname": "",
@@ -2017,7 +1944,6 @@
       "extra": null,
       "player1": {
         "id": 24700,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48363/28796_2026_150_48363.jpg",
         "name": "Олакунле Джуниор",
         "lastname": "Олусегун",
         "nickname": "",
@@ -2044,7 +1970,6 @@
       "extra": null,
       "player1": {
         "id": 21272,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48479/10766_2026_150_48479.jpg",
         "name": "Андрей",
         "lastname": "Мостовой",
         "nickname": "",
@@ -2071,7 +1996,6 @@
       "extra": null,
       "player1": {
         "id": 23107,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48104/26164_2026_150_48104.jpg",
         "name": "Евгений",
         "lastname": "Морозов",
         "nickname": null,
@@ -2115,7 +2039,6 @@
       "extra": null,
       "player1": {
         "id": 16678,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48118/11384_2026_150_48118.jpg",
         "name": "Николай",
         "lastname": "Комличенко",
         "nickname": "",
@@ -2159,7 +2082,6 @@
       "extra": null,
       "player1": {
         "id": 16678,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48118/11384_2026_150_48118.jpg",
         "name": "Николай",
         "lastname": "Комличенко",
         "nickname": "",
@@ -2186,7 +2108,6 @@
       "extra": null,
       "player1": {
         "id": 24327,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48411/28263_2026_150_48411.jpg",
         "name": "Михаил",
         "lastname": "Щетинин",
         "nickname": null,
@@ -2213,7 +2134,6 @@
       "extra": null,
       "player1": {
         "id": 22666,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48012/25393_2026_150_48012.jpg",
         "name": "Тимур",
         "lastname": "Сулейманов",
         "nickname": "",
@@ -2240,7 +2160,6 @@
       "extra": null,
       "player1": {
         "id": 24700,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48363/28796_2026_150_48363.jpg",
         "name": "Олакунле Джуниор",
         "lastname": "Олусегун",
         "nickname": "",
@@ -2251,7 +2170,6 @@
       },
       "player2": {
         "id": 22664,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48544/25391_2026_150_48544.jpg",
         "name": "Даниил",
         "lastname": "Хлусевич",
         "nickname": "",
@@ -2277,7 +2195,6 @@
       "extra": null,
       "player1": {
         "id": 21491,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48013/12626_2026_150_48013.jpg",
         "name": "Константин",
         "lastname": "Кучаев",
         "nickname": "",
@@ -2288,7 +2205,6 @@
       },
       "player2": {
         "id": 24380,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48018/28359_2026_150_48018.jpg",
         "name": "Даниил",
         "lastname": "Шанталий",
         "nickname": null,
@@ -2314,7 +2230,6 @@
       "extra": null,
       "player1": {
         "id": 22666,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48012/25393_2026_150_48012.jpg",
         "name": "Тимур",
         "lastname": "Сулейманов",
         "nickname": "",
@@ -2325,7 +2240,6 @@
       },
       "player2": {
         "id": 25196,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48017/29706_2026_150_48017.jpg",
         "name": "Антон",
         "lastname": "Шамонин",
         "nickname": "",
@@ -2351,7 +2265,6 @@
       "extra": null,
       "player1": {
         "id": 24380,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48018/28359_2026_150_48018.jpg",
         "name": "Даниил",
         "lastname": "Шанталий",
         "nickname": null,
@@ -2378,7 +2291,6 @@
       "extra": null,
       "player1": {
         "id": 22597,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48010/25325_2026_150_48010.jpg",
         "name": "Данила",
         "lastname": "Прохин",
         "nickname": "",
@@ -2405,7 +2317,6 @@
       "extra": null,
       "player1": {
         "id": 25196,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48017/29706_2026_150_48017.jpg",
         "name": "Антон",
         "lastname": "Шамонин",
         "nickname": "",
@@ -2432,7 +2343,6 @@
       "extra": null,
       "player1": {
         "id": 22664,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48544/25391_2026_150_48544.jpg",
         "name": "Даниил",
         "lastname": "Хлусевич",
         "nickname": "",
@@ -2459,7 +2369,6 @@
       "extra": null,
       "player1": {
         "id": 22597,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48010/25325_2026_150_48010.jpg",
         "name": "Данила",
         "lastname": "Прохин",
         "nickname": "",
@@ -2486,7 +2395,6 @@
       "extra": null,
       "player1": {
         "id": 16678,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48118/11384_2026_150_48118.jpg",
         "name": "Николай",
         "lastname": "Комличенко",
         "nickname": "",
@@ -2513,7 +2421,6 @@
       "extra": null,
       "player1": {
         "id": 25196,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48017/29706_2026_150_48017.jpg",
         "name": "Антон",
         "lastname": "Шамонин",
         "nickname": "",
@@ -2540,7 +2447,6 @@
       "extra": null,
       "player1": {
         "id": 25196,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48017/29706_2026_150_48017.jpg",
         "name": "Антон",
         "lastname": "Шамонин",
         "nickname": "",
@@ -2567,7 +2473,6 @@
       "extra": 1,
       "player1": {
         "id": 21458,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48100/11995_2026_150_48100.jpg",
         "name": "Максим",
         "lastname": "Ненахов",
         "nickname": "",
@@ -2611,7 +2516,6 @@
       "extra": 3,
       "player1": {
         "id": 25381,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48014/29936_2026_150_48014.jpg",
         "name": "Роналдо Сезар",
         "lastname": "Соарес дос Сантос",
         "nickname": "Роналдо",
@@ -2638,7 +2542,6 @@
       "extra": 3,
       "player1": {
         "id": 25381,
-        "photo": "https://cdn.premierliga.ru/resources/sportbase/playerApplication/48014/29936_2026_150_48014.jpg",
         "name": "Роналдо Сезар",
         "lastname": "Соарес дос Сантос",
         "nickname": "Роналдо",

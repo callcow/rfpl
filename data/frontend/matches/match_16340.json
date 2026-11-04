@@ -29,14 +29,14 @@
   "videoReviewLink": "",
   "ticketsLink": "https://tickets.fc-baltika.ru/",
   "winline": {
-    "outcome1": 1.76,
+    "outcome1": 1.74,
     "outcome2": 3.55,
-    "outcome3": 5,
+    "outcome3": 5.2,
     "link": "https://winline.ru/plus/17021116",
     "erid": "2W5zFH9H34E"
   },
   "comments": "",
-  "weather": "5.8°C, Малооблачно",
+  "weather": "4.6°C, Облачно",
   "documents": {
     "protocol": null,
     "report": null,

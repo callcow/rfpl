@@ -590,7 +590,30 @@ window._seasons = [];
 window._stages = [];
 
 // Переключение вкладок
+// Синхронизация навбара: подсветка, бегунок и прокрутка к активной вкладке
+window.syncTabNav = function(btn) {
+  if (!btn) return;
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const tabs = btn.parentElement;
+  const slider = document.getElementById('tab-slider');
+  if (slider && tabs) {
+    slider.style.width = `${btn.offsetWidth}px`;
+    slider.style.transform = `translateX(${btn.offsetLeft - tabs.offsetLeft}px)`;
+  }
+  if (tabs && tabs.scrollWidth > tabs.clientWidth) {
+    const left = btn.offsetLeft - tabs.offsetLeft - (tabs.clientWidth - btn.offsetWidth) / 2;
+    tabs.scrollTo({ left: Math.max(0, left), behavior: 'smooth' });
+  }
+};
+
 window.switchTab = function(tabId, event) {
+  // Запоминаем переход между вкладками в истории браузера (кнопка «Назад»)
+  const _curSection = document.querySelector('.content-section.active');
+  const _curId = _curSection ? _curSection.id.replace('tab-', '') : null;
+  if (!window._restoringTab && _curId && _curId !== tabId) {
+    history.pushState({ tab: tabId }, '');
+  }
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
   
@@ -1681,7 +1704,7 @@ window.openMatchModal = async function(matchId) {
     
     // Добавляем состояние в историю, чтобы кнопка "Назад" закрывала модалку
     if (!wasOpenMatch) history.pushState({ modal: 'match' }, '');
-    modal.style.zIndex = document.getElementById('club-modal').classList.contains('active') ? 2070 : 2050;
+    modal.style.zIndex = document.getElementById('club-modal').classList.contains('active') ? 2090 : 2050;
 
     // Сброс справочника (на случай, если предыдущий матч был архивным)
     window._allPlayersArchive = null;
@@ -3165,8 +3188,14 @@ window.openClubModal = async function(clubId) {
     document.body.classList.add('modal-open');
     
     // Добавляем состояние в историю, чтобы кнопка "Назад" закрывала модалку
+    window._currentClubId = clubId;
     history.pushState({ modal: 'club' }, '');
-    modal.style.zIndex = document.getElementById('match-modal').classList.contains('active') ? 2080 : 2060;
+    // Если открыт матч — закрываем его, профиль открывается поверх
+    if (document.getElementById('match-modal').classList.contains('active')) {
+        window._matchOrigin = null;
+        closeMatchModal(null, true);
+    }
+    modal.style.zIndex = 2060;
 
     try {
         const res = { ok: false };
@@ -3685,10 +3714,12 @@ window.openPlayerModal = async function(clubId, playerId) {
         const isCaptain = capArr.length > 0 && capArr.reduce((a, b) => (b.captainMatches > a.captainMatches ? b : a)).id === p.id;
         const ageYears = p.birthday ? Math.floor((Date.now() - new Date(p.birthday + 'T00:00:00Z').getTime()) / (365.25 * 24 * 3600 * 1000)) : null;
         const ageWord = (ageYears % 10 === 1 && ageYears % 100 !== 11) ? 'год' : ((ageYears % 10 >= 2 && ageYears % 10 <= 4 && (ageYears % 100 < 12 || ageYears % 100 > 14)) ? 'года' : 'лет');
+        // Игрок, которого нет в текущих списках лиги (ушёл) — дату рождения и возраст не показываем
+        const isActivePlayer = !!(psRec && psRec.currentClub);
         const bioParts = [
             p.height ? `${p.height} см` : null,
             p.weight ? `${p.weight} кг` : null,
-            p.birthday ? `${p.birthday.split('-').reverse().join('.')}${ageYears !== null ? ` (${ageYears} ${ageWord})` : ''}` : null
+            (isActivePlayer && p.birthday) ? `${p.birthday.split('-').reverse().join('.')}${ageYears !== null ? ` (${ageYears} ${ageWord})` : ''}` : null
         ].filter(Boolean);
         const bioHtml = bioParts.length ? `<div class="player-modal-bio">${bioParts.join(' · ')}</div>` : '';
         let gkConceded = p.gkConceded ?? 0, cleanSheets = p.cleanSheets ?? 0, gkMatches = p.gkMatches ?? 0;
@@ -3749,15 +3780,20 @@ window.openPlayerModal = async function(clubId, playerId) {
         const seasonLabel = (window._seasons || []).find(x => x.is_current)?.name?.replace(/^Сезон\s+/i, '') || '';
         const fmtD = d => d ? d.split('-').reverse().join('.') : '';
         const lastPlayed = (allFlatMatches || []).filter(x => x.status === 4).map(x => (x.date || '').slice(0, 10)).sort().pop() || '';
-        const breakdownHtml = clubsBreak.length > 1 ? `<div class="player-modal-breakdown">${seasonLabel ? `<div class="player-modal-season">В сезоне ${seasonLabel}</div>` : ''}${clubsBreak.sort(([, a], [, b]) => (a.from || '').localeCompare(b.from || '')).map(([cid, s]) =>
+        const isDeparted = !!(psRec && !psRec.currentClub);
+        const breakdownHtml = (clubsBreak.length > 1 || (isDeparted && clubsBreak.length > 0)) ? `<div class="player-modal-breakdown">${seasonLabel ? `<div class="player-modal-season">В сезоне ${seasonLabel}</div>` : ''}${clubsBreak.sort(([, a], [, b]) => (a.from || '').localeCompare(b.from || '')).map(([cid, s]) =>
             `<div class="player-modal-breakdown-row"><span class="pmb-club">${getTeamLogoHtml(allClubs[cid], 'pmb-logo', 18)}<b>${formatTeamName(allClubs[cid]?.name) || 'Клуб ' + cid}</b> (${s.matchesPlayed || 0})</span><span>${String(cid) === String(psRec?.currentClub) ? `с ${fmtD(s.from)}` : `с ${fmtD(s.from)} по ${fmtD(s.to)}`}</span></div>`
         ).join('')}</div>` : '';
         const flagUrl = getCountryFlagUrl(p.citizenship);
         const countryName = getCountryName(p.citizenship);
         const flagHtml = flagUrl ? `<img src="${flagUrl}" class="player-modal-flag" alt="">${countryName ? `<span class="player-modal-country">${countryName}</span>` : ''}` : '';
-        const headClubId = psRec ? psRec.currentClub : clubId;
+        // Ушедший из лиги игрок: последний клуб, в котором он играл в заявке
+        const lastClubEntry = (psRec && !psRec.currentClub)
+            ? Object.entries(psRec.clubs || {}).filter(([, s]) => s.matchesInSquad > 0).sort(([, a], [, b]) => (b.to || '').localeCompare(a.to || ''))[0] || null
+            : null;
+        const headClubId = psRec ? (psRec.currentClub || (lastClubEntry ? lastClubEntry[0] : null)) : clubId;
         const clubObj = allClubs[headClubId];
-        const clubHtml = clubObj ? `${getTeamLogoHtml(clubObj, 'player-modal-club-logo', 18)}<b>${formatTeamName(clubObj.name)}</b>` : '';
+        const clubHtml = (clubObj && !isDeparted) ? `${getTeamLogoHtml(clubObj, 'player-modal-club-logo', 18)}<b>${formatTeamName(clubObj.name)}</b>` : '';
                 const mainStats = ["Матчей", "В старте", "Голы", "Ассисты", "Жёлтые карточки", "Красные карточки"];
                 const items = [
             ["Матчей", p.matchesPlayed ?? 0],
@@ -3915,6 +3951,20 @@ window.addEventListener('popstate', function(event) {
     const playerModal = document.getElementById('player-modal');
     const landed = event.state && event.state.modal;
 
+    // «Назад» между вкладками: возвращаем предыдущую вкладку (без открытых модалок)
+    const anyModalOpen = [matchModal, clubModal, playerModal].some(m => m && m.classList.contains('active'));
+    if (!anyModalOpen && (!event.state || event.state.tab)) {
+        const tabId = (event.state && event.state.tab) || 'matches';
+        const btn = [...document.querySelectorAll('.tab-btn')].find(b => (b.getAttribute('onclick') || '').includes(`'${tabId}'`));
+        if (btn && !document.getElementById(`tab-${tabId}`).classList.contains('active')) {
+            window._restoringTab = true;
+            switchTab(tabId, { target: btn });
+            syncTabNav(btn);
+            window._restoringTab = false;
+        }
+        return;
+    }
+
     // Вернулись к записи модалки игрока, которую прятали ради матча
     if (landed === 'player' && window._playerSuspended) {
         if (matchModal && matchModal.classList.contains('active')) closeMatchModal(null, true);
@@ -3935,9 +3985,10 @@ window.addEventListener('popstate', function(event) {
     if (playerModal && playerModal.classList.contains('active') && landed !== 'player') {
         closePlayerModal(true);
     }
-    else if (matchModal && matchModal.classList.contains('active') && landed !== 'match') {
-        closeMatchModal(null, true);
-    }
+    // Если закрываем не через кнопку "Назад", удаляем фейковую запись из истории
+    if (!fromPopstate) {
+        history.back();
+    }   
     else if (clubModal && clubModal.classList.contains('active') && landed !== 'club') {
         closeClubModal(null, true);
     }
@@ -4043,7 +4094,7 @@ window.renderStatsPage = async function() {
         { title: 'Минуты на поле',    get: x => x.t.minutesPlayed || 0 }
     ];
 
-    box.innerHTML = `<div class="stats-grid">${cats.map(c => renderStatCard(c, list)).join('')}</div>`;
+    box.innerHTML = `<div class="sc-grid">${cats.map(c => renderStatCard(c, list)).join('')}</div>`;
     box.dataset.loaded = '1';
 };
 
@@ -4078,27 +4129,25 @@ function renderStatCard(c, list) {
     const top = rows.slice(0, 5).map((x, i) => ({ ...x, place: i + 1 }));
 
     if (!top.length) {
-        return `<div class="stats-card"><div class="stats-card-head"><h3>${c.title}</h3></div><div class="empty-note">Нет данных</div></div>`;
+        return `<div class="sc-card"><div class="sc-title">${c.title}</div><div class="empty-note">Нет данных</div></div>`;
     }
 
     const nameOf = x => formatPlayerName(x.ident) || `ID ${x.id}`;
 
     return `
-        <div class="stats-card">
-            <div class="stats-card-head"><h3>${c.title}</h3></div>
-            <div class="table-wrapper">
-                <table class="stats-table"><tbody>
-                    ${top.map(x => {
-                        const clubId = x.club || Object.keys(x.r.clubs || {})[0] || 0;
-                        const logo = allClubs[x.club] ? getTeamLogoHtml(allClubs[x.club], 'stats-club-logo', 20) : '';
-                        return `<tr onclick="openPlayerModal(${clubId}, ${x.id})">
-                            <td class="stats-place">${x.place}</td>
-                            <td class="stats-club">${logo}</td>
-                            <td class="stats-name">${nameOf(x)}</td>
-                            <td class="stats-val">${x.v}</td>
-                        </tr>`;
-                    }).join('')}
-                </tbody></table>
+        <div class="sc-card">
+            <div class="sc-title">${c.title}</div>
+            <div class="sc-list">
+                ${top.map(x => {
+                    const clubId = x.club || Object.keys(x.r.clubs || {})[0] || 0;
+                    const logo = allClubs[x.club] ? getTeamLogoHtml(allClubs[x.club], 'sc-club-logo', 18) : '';
+                    return `<div class="sc-row" onclick="openPlayerModal(${clubId}, ${x.id})">
+                        <span class="sc-place">${x.place}</span>
+                        <span class="sc-club">${logo}</span>
+                        <span class="sc-name">${nameOf(x)}</span>
+                        <span class="sc-val">${x.v}</span>
+                    </div>`;
+                }).join('')}
             </div>
         </div>`;
 }

@@ -1354,12 +1354,20 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   background-color: #eab308;
   border-radius: 12px 0 0 12px;
 }
-/* Убираем боковую полоску, цвет теперь в плашке счёта */
-.calendar-row.res-win::before, .calendar-row.res-loss::before, .calendar-row.res-draw::before { display: none; }
-.calendar-row.res-win .cal-score { background: #dcfce7; color: #15803d; }
-.calendar-row.res-loss .cal-score { background: #fee2e2; color: #b91c1c; }
-.calendar-row.res-draw .cal-score { background: #fef9c3; color: #a16207; }
+/* Линия между последним матчем раскрытого блока и кнопкой «Скрыть все матчи» */
+#future-matches-rest .club-matches-row:last-child,
+#past-matches-rest .club-matches-row:last-child {
+  border-bottom: 1px solid var(--border) !important;
+}
 
+/* В профиле клуба будущие матчи (без результата) — серая полоска слева */
+.club-matches-row.res-win::before,
+.club-matches-row.res-loss::before,
+.club-matches-row.res-draw::before {
+  border-radius: 0;
+}
+
+/* Цвет результата — только боковая полоска слева, плашка счёта обычного цвета */
 /* Акцент на команде, по которой включен фильтр */
 .active-team-filter {
   font-weight: 700;
@@ -1801,7 +1809,7 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 #btn-hide-past { display: none; }
 
 /* Плавное раскрытие списков матчей в модалке клуба */
-#future-matches-rest, #past-matches-rest { display: block; max-height: 0; overflow: hidden; opacity: 0; transition: max-height 0.4s ease, opacity 0.3s ease; }
+#future-matches-rest, #past-matches-rest { display: block; margin: 0 -16px; padding: 0 16px; max-height: 0; overflow: hidden; opacity: 0; transition: max-height 0.4s ease, opacity 0.3s ease; }
 #future-matches-rest.is-open, #past-matches-rest.is-open { max-height: 5000px; opacity: 1; }
 
 /* Модалка клуба: на ПК тренер слева, стадион справа */
@@ -1912,33 +1920,94 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 }
 
 
-/* ─── Навбар на телефоне: короткая подпись «Стат.» и уменьшенный шрифт ─── */
+/* Нижний блок с информацией об источниках данных — стиль как у навбара */
+.site-footer {
+  width: calc(100% - 48px);
+  max-width: 1032px;
+  margin: -20px auto 24px;
+  padding: 12px 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* Авторы голов под командами в модалке матча: крупнее (ПК и телефон) */
+.score-team-scorers .scorer-item {
+  font-size: 13px !important;
+}
+
+/* ─── Навбар на телефоне: как было, а если не влазит — прокрутка пальцем ─── */
 @media (max-width: 850px) {
-  .tabs .tab-btn { min-width: 0; flex: 1 1 0; padding: 8px 0; font-size: 12px; overflow: hidden; }
+  .tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tabs .tab-btn { flex: 1 0 auto; min-width: max-content; white-space: nowrap; padding: 8px 12px; font-size: 12px; overflow: visible; }
   .tabs .tab-btn[data-short] { font-size: 0; }
   .tabs .tab-btn[data-short]::before { content: attr(data-short); font-size: 12px; }
 }
 
-/* ─── Страница «Статистика» ─── */
-#tab-stats { max-width: none; width: 100%; margin: 0; }
-#tab-stats .stats-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
-@media (min-width: 851px) {
-  #tab-stats .stats-grid { grid-template-columns: 1fr 1fr; }
+/* ─── Страница «Статистика» (новые карточки .sc-*) ─── */
+.sc-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 600px) {
+  .sc-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
-#tab-stats .stats-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; min-width: 0; }
-#tab-stats .stats-card-head h3 { margin: 0 0 8px; font-size: 15px; font-weight: 700; }
-#tab-stats .stats-leader { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
-#tab-stats .stats-leader-photo { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; object-position: top; flex-shrink: 0; background: #f3f4f6; }
-#tab-stats .stats-leader-name { font-size: 15px; font-weight: 700; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
-#tab-stats table.stats-table { width: 100%; min-width: 0; table-layout: fixed; border-collapse: collapse; }
-#tab-stats table.stats-table tr { cursor: pointer; }
-#tab-stats table.stats-table th,
-#tab-stats table.stats-table td {
-  display: table-cell !important; padding: 7px 2px; font-size: 13px; font-weight: 500; text-align: left;
-  border-bottom: 1px solid var(--border) !important; box-shadow: none !important;
+@media (min-width: 1000px) {
+  .sc-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 }
-#tab-stats .stats-place { width: 24px; text-align: center !important; color: var(--text-muted); font-weight: 600; }
-#tab-stats .stats-club { width: 26px; text-align: center !important; }
-#tab-stats .stats-club-logo { width: 18px; height: 18px; object-fit: contain; display: block; margin: 0 auto; }
-#tab-stats .stats-name { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-#tab-stats .stats-val { width: 40px; text-align: right !important; font-weight: 700; padding-right: 4px; }
+.sc-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  min-width: 0;
+}
+.sc-title { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+.sc-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  cursor: pointer;
+  min-width: 0;
+}
+.sc-row:last-child { border-bottom: none; }
+.sc-place {
+  width: 18px;
+  flex-shrink: 0;
+  text-align: center;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.sc-club {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sc-club-logo { width: 18px; height: 18px; object-fit: contain; display: block; }
+.sc-name {
+  flex: 1;
+  min-width: 0;
+  font-weight: 500;
+  line-height: 1.25;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.sc-val { flex-shrink: 0; font-weight: 700; min-width: 20px; text-align: right; }
+
+@media (min-width: 1000px) {
+  .sc-card { padding: 18px 20px; }
+  .sc-title { font-size: 20px; margin-bottom: 12px; }
+  .sc-row { font-size: 15px; padding: 9px 0; }
+  .sc-place, .sc-club { width: 22px; }
+  .sc-club-logo { width: 20px; height: 20px; }
+}
+
