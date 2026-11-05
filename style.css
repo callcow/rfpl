@@ -2001,6 +2001,14 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   white-space: normal;
   overflow-wrap: anywhere;
 }
+.sc-pos {
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-align: center;
+  min-width: 24px;
+}
 .sc-val { flex-shrink: 0; font-weight: 700; min-width: 20px; text-align: right; }
 
 @media (min-width: 1000px) {

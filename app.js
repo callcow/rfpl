@@ -4142,10 +4142,13 @@ function renderStatCard(c, list) {
                 ${top.map(x => {
                     const clubId = x.club || Object.keys(x.r.clubs || {})[0] || 0;
                     const logo = allClubs[x.club] ? getTeamLogoHtml(allClubs[x.club], 'sc-club-logo', 18) : '';
+                    const amplua = x.ident.amplua;
+                    const posLabel = ({0: 'ВР', 1: 'ЗЩ', 2: 'ПЗ', 3: 'НП'})[amplua] || '';
                     return `<div class="sc-row" onclick="openPlayerModal(${clubId}, ${x.id})">
                         <span class="sc-place">${x.place}</span>
                         <span class="sc-club">${logo}</span>
                         <span class="sc-name">${nameOf(x)}</span>
+                        <span class="sc-pos">${posLabel}</span>
                         <span class="sc-val">${x.v}</span>
                     </div>`;
                 }).join('')}
