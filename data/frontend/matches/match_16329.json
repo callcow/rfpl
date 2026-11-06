@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3819,
+      "position": "Главный судья",
+      "name": "Иван",
+      "lastname": "Абросимов"
+    },
+    {
+      "id": 4017,
+      "position": "Резервный судья",
+      "name": "Ранэль",
+      "lastname": "Зияков"
+    },
+    {
+      "id": 3974,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Кирилл",
+      "lastname": "Большаков"
+    },
+    {
+      "id": 3965,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Егор",
+      "lastname": "Болховитин"
+    },
+    {
+      "id": 3599,
+      "position": "ВАР",
+      "name": "Алексей",
+      "lastname": "Сухой"
+    },
+    {
+      "id": 3914,
+      "position": "АВАР",
+      "name": "Павел",
+      "lastname": "Кукуян"
+    },
+    {
+      "id": 561,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Олег",
+      "lastname": "Соколов"
+    },
+    {
+      "id": 764,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Андрей",
+      "lastname": "Клименков"
+    }
+  ],
+  "id": 16329,
+  "tournament": 724,
+  "stage": 2973,
+  "clubH": 264,
+  "clubA": 808,
+  "goalH": 0,
+  "goalA": 1,
+  "date": "2026-10-24UTC15:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-24UTC16:58:47",
+  "city": "Воронеж",
+  "stadium": "«Факел»",
+  "stadiumLink": "",
+  "attendance": 8541,
+  "comments": "",
+  "weather": "15.9°C, Безоблачно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

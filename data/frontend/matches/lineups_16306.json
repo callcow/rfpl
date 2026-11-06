@@ -1,0 +1,738 @@
+{
+  "protocol": {
+    "clubH": {
+      "players": [
+        {
+          "id": 23063,
+          "lastname": "Кокарев",
+          "name": "Никита",
+          "nickname": "",
+          "number": 80,
+          "keyword": "Kokarev-Nikita",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25032,
+          "lastname": "Печенин",
+          "name": "Кирилл",
+          "nickname": "",
+          "number": 2,
+          "keyword": "Pechenin-Kirill",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 23295,
+          "lastname": "Горшков",
+          "name": "Юрий",
+          "nickname": "",
+          "number": 4,
+          "keyword": "Gorshkov-Yuriy",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 21291,
+          "lastname": "Рассказов",
+          "name": "Николай",
+          "nickname": "",
+          "number": 15,
+          "keyword": "Rasskazov-Nikolay",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 16119,
+          "lastname": "Чернов",
+          "name": "Никита",
+          "nickname": "",
+          "number": 23,
+          "keyword": "Chernov-Nikita",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 16726,
+          "lastname": "Божин",
+          "name": "Сергей",
+          "nickname": "",
+          "number": 47,
+          "keyword": "Bozhin-Sergei",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 23293,
+          "lastname": "Витюгов",
+          "name": "Максим",
+          "nickname": null,
+          "number": 8,
+          "keyword": "Vityugov-Maksim",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25198,
+          "lastname": "Крамарич",
+          "name": "Мартин",
+          "nickname": "",
+          "number": 10,
+          "keyword": "Kramarich-Martin",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25089,
+          "lastname": "Рахманович",
+          "name": "Амар",
+          "nickname": "",
+          "number": 11,
+          "keyword": "Rahmanovich-Amar",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 23973,
+          "lastname": "Салтыков",
+          "name": "Никита",
+          "nickname": "",
+          "number": 14,
+          "keyword": "Saltykov-Nikita",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 24817,
+          "lastname": "Пейшоту Костанза",
+          "name": "Фернандо",
+          "nickname": "",
+          "number": 22,
+          "keyword": "Peyshotu-Kostanza-Fernando",
+          "public_lastname": "Костанца",
+          "public_name": "Фернандо"
+        },
+        {
+          "id": 5571,
+          "lastname": "Фролов",
+          "name": "Евгений",
+          "nickname": "",
+          "number": 39,
+          "keyword": "Frolov-Evgeniy-Konstantinovich",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25710,
+          "lastname": "Галдамес Мильян",
+          "name": "Томас Игнасио",
+          "nickname": "",
+          "number": 3,
+          "keyword": "Galdames-Milyan-Tomas-Ignasio",
+          "public_lastname": "Галдамес",
+          "public_name": "Томас"
+        },
+        {
+          "id": 25740,
+          "lastname": "Ороз",
+          "name": "Алоис Доминик",
+          "nickname": "",
+          "number": 5,
+          "keyword": "Oroz-Alois-Dominik",
+          "public_lastname": "Ороз",
+          "public_name": "Доминик"
+        },
+        {
+          "id": 23787,
+          "lastname": "Лепский",
+          "name": "Иван",
+          "nickname": "",
+          "number": 18,
+          "keyword": "Lepskiy-Ivan",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25704,
+          "lastname": "Фернандес Фернандес",
+          "name": "Даниэль",
+          "nickname": "",
+          "number": 72,
+          "keyword": "Fernandes-Fernandes-Daniel",
+          "public_lastname": "Фернандес",
+          "public_name": "Дани"
+        },
+        {
+          "id": 25051,
+          "lastname": "Баньяц",
+          "name": "Михайло",
+          "nickname": null,
+          "number": 7,
+          "keyword": "Banyac-Mihaylo",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 24062,
+          "lastname": "Столбов",
+          "name": "Кирилл",
+          "nickname": "",
+          "number": 20,
+          "keyword": "Stolbov-Kirill",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25053,
+          "lastname": "Марин Вильчес",
+          "name": "Джимми",
+          "nickname": "",
+          "number": 26,
+          "keyword": "Marin-Vilchez-Dzhimmi",
+          "public_lastname": "Марин",
+          "public_name": "Джимми"
+        },
+        {
+          "id": 22113,
+          "lastname": "Макаров",
+          "name": "Денис",
+          "nickname": "",
+          "number": 77,
+          "keyword": "Makarov-Denis",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 17823,
+          "lastname": "Ахметов",
+          "name": "Ильзат",
+          "nickname": "",
+          "number": 97,
+          "keyword": "Ahmetov-Ilzat",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 24357,
+          "lastname": "Мукаилов",
+          "name": "Казбек",
+          "nickname": "",
+          "number": 67,
+          "keyword": "Mukailov-Kazbek",
+          "public_lastname": "",
+          "public_name": ""
+        },
+        {
+          "id": 23722,
+          "lastname": "Шитов",
+          "name": "Владислав",
+          "nickname": null,
+          "number": 73,
+          "keyword": "Shitov-Vladislav",
+          "public_lastname": null,
+          "public_name": null
+        }
+      ],
+      "main": [
+        {
+          "id": 23063,
+          "amplua": 0,
+          "captain": false
+        },
+        {
+          "id": 25032,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 23295,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 21291,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 16119,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 16726,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 23293,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25198,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25089,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 23973,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 24817,
+          "amplua": 2,
+          "captain": true
+        }
+      ],
+      "reserve": [
+        {
+          "id": 5571,
+          "amplua": 0,
+          "captain": false
+        },
+        {
+          "id": 25710,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25740,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 23787,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25704,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25051,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 24062,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25053,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 22113,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 17823,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 24357,
+          "amplua": 3,
+          "captain": false
+        },
+        {
+          "id": 23722,
+          "amplua": 3,
+          "captain": false
+        }
+      ],
+      "coaches": [
+        {
+          "id": 10014,
+          "lastname": "Булатов",
+          "name": "Сергей",
+          "position": "Главный тренер",
+          "keyword": ""
+        }
+      ]
+    },
+    "clubA": {
+      "players": [
+        {
+          "id": 21206,
+          "lastname": "Максименко",
+          "name": "Александр",
+          "nickname": "",
+          "number": 98,
+          "keyword": "Maksimenko-Aleksandr-Vladimirovich",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25973,
+          "lastname": "Ву",
+          "name": "Кристофер Морис",
+          "nickname": "",
+          "number": 3,
+          "keyword": "Wooh-Christopher-Maurice",
+          "public_lastname": "Ву",
+          "public_name": "Кристофер"
+        },
+        {
+          "id": 25311,
+          "lastname": "Бабич",
+          "name": "Срджан",
+          "nickname": "",
+          "number": 6,
+          "keyword": "Babich-Srdzhan",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 22765,
+          "lastname": "Литвинов",
+          "name": "Руслан",
+          "nickname": "",
+          "number": 68,
+          "keyword": "Litvinov-Ruslan",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25698,
+          "lastname": "Барко",
+          "name": "Эсекьель Омар",
+          "nickname": "",
+          "number": 5,
+          "keyword": "Barko-Esekel-Omar",
+          "public_lastname": "Барко",
+          "public_name": "Эсекьель"
+        },
+        {
+          "id": 25798,
+          "lastname": "Солари Феррейра",
+          "name": "Пабло Сесар",
+          "nickname": "",
+          "number": 7,
+          "keyword": "Solari-Ferreyra-Pablo-Cesar",
+          "public_lastname": "Солари",
+          "public_name": "Пабло"
+        },
+        {
+          "id": 25711,
+          "lastname": "Коста Мартинс",
+          "name": "Жозе Маркос",
+          "nickname": "Маркиньос",
+          "number": 10,
+          "keyword": "Kosta-Martins-Zhoze-Markos",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 23060,
+          "lastname": "Умяров",
+          "name": "Наиль",
+          "nickname": "",
+          "number": 18,
+          "keyword": "Umyarov-Nail",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 17312,
+          "lastname": "Зобнин",
+          "name": "Роман",
+          "nickname": "",
+          "number": 47,
+          "keyword": "Zobnin-Roman",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25939,
+          "lastname": "Карвалью Фернандеш",
+          "name": "Жедсон",
+          "nickname": "",
+          "number": 83,
+          "keyword": "Carvalho-Fernandes-Gedson",
+          "public_lastname": "Фернандеш",
+          "public_name": "Жедсон"
+        },
+        {
+          "id": 25383,
+          "lastname": "Угальде Арсе",
+          "name": "Манфред Алонсо",
+          "nickname": "",
+          "number": 9,
+          "keyword": "Ugalde-Arse-Manfred-Alonso",
+          "public_lastname": "Угальде",
+          "public_name": "Манфред"
+        },
+        {
+          "id": 16117,
+          "lastname": "Помазун",
+          "name": "Илья",
+          "nickname": "",
+          "number": 1,
+          "keyword": "Pomazun-Ilya",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 14902,
+          "lastname": "Довбня",
+          "name": "Александр",
+          "nickname": "",
+          "number": 56,
+          "keyword": "Dovbnya-Aleksandr-Vyacheslavovich",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 23891,
+          "lastname": "Саусь",
+          "name": "Владислав",
+          "nickname": null,
+          "number": 17,
+          "keyword": "Saus-Vladislav",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25212,
+          "lastname": "Дмитриев",
+          "name": "Игорь",
+          "nickname": "",
+          "number": 27,
+          "keyword": "Dmitriev-Igor",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 26089,
+          "lastname": "Парада Гонсалес",
+          "name": "Виктор",
+          "nickname": "",
+          "number": 33,
+          "keyword": "Parada-Gonzalez-Victor",
+          "public_lastname": "Парада",
+          "public_name": "Виктор"
+        },
+        {
+          "id": 23447,
+          "lastname": "Денисов",
+          "name": "Даниил",
+          "nickname": null,
+          "number": 97,
+          "keyword": "Denisov-Daniil",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25353,
+          "lastname": "Массалыга",
+          "name": "Никита",
+          "nickname": "",
+          "number": 24,
+          "keyword": "Massalyga-Nikita",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 23306,
+          "lastname": "Пруцев",
+          "name": "Данил",
+          "nickname": null,
+          "number": 25,
+          "keyword": "Prucev-Danil",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 26035,
+          "lastname": "Сорокин",
+          "name": "Иван",
+          "nickname": "",
+          "number": 40,
+          "keyword": "Sorokin-Ivan",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 25228,
+          "lastname": "Даку",
+          "name": "Мирлинд",
+          "nickname": "",
+          "number": 19,
+          "keyword": "Daku-Mirlind",
+          "public_lastname": null,
+          "public_name": null
+        },
+        {
+          "id": 26046,
+          "lastname": "Полех",
+          "name": "Павел",
+          "nickname": null,
+          "number": 62,
+          "keyword": "Poleh-Pavel",
+          "public_lastname": null,
+          "public_name": null
+        }
+      ],
+      "main": [
+        {
+          "id": 21206,
+          "amplua": 0,
+          "captain": false
+        },
+        {
+          "id": 25973,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25311,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 22765,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25698,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25798,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25711,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 23060,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 17312,
+          "amplua": 2,
+          "captain": true
+        },
+        {
+          "id": 25939,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25383,
+          "amplua": 3,
+          "captain": false
+        }
+      ],
+      "reserve": [
+        {
+          "id": 16117,
+          "amplua": 0,
+          "captain": false
+        },
+        {
+          "id": 14902,
+          "amplua": 0,
+          "captain": false
+        },
+        {
+          "id": 23891,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25212,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 26089,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 23447,
+          "amplua": 1,
+          "captain": false
+        },
+        {
+          "id": 25353,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 23306,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 26035,
+          "amplua": 2,
+          "captain": false
+        },
+        {
+          "id": 25228,
+          "amplua": 3,
+          "captain": false
+        },
+        {
+          "id": 26046,
+          "amplua": 3,
+          "captain": false
+        }
+      ],
+      "coaches": [
+        {
+          "id": 10012,
+          "lastname": "Карседо Мардонес",
+          "name": "Хуан Карлос",
+          "position": "Главный тренер",
+          "keyword": ""
+        }
+      ]
+    }
+  },
+  "broadcast": {
+    "hasTactic": false,
+    "clubH": {
+      "coaches": [
+        {
+          "id": 10014,
+          "lastname": "Булатов",
+          "name": "Сергей",
+          "position": "Главный тренер",
+          "keyword": ""
+        }
+      ]
+    },
+    "clubA": {
+      "coaches": [
+        {
+          "id": 10012,
+          "lastname": "Карседо Мардонес",
+          "name": "Хуан Карлос",
+          "position": "Главный тренер",
+          "keyword": ""
+        }
+      ]
+    }
+  }
+}

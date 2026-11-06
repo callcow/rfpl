@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3770,
+      "position": "Главный судья",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 4636,
+      "position": "Резервный судья",
+      "name": "Данил",
+      "lastname": "Набока"
+    },
+    {
+      "id": 4530,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Ермаков"
+    },
+    {
+      "id": 3829,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Веретёшкин"
+    },
+    {
+      "id": 4038,
+      "position": "ВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 3827,
+      "position": "АВАР",
+      "name": "Евгений",
+      "lastname": "Кукуляк"
+    },
+    {
+      "id": 477,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Вячеслав",
+      "lastname": "Харламов"
+    },
+    {
+      "id": 432,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Сергей",
+      "lastname": "Кочетов"
+    }
+  ],
+  "id": 16244,
+  "tournament": 724,
+  "stage": 2962,
+  "clubH": 5,
+  "clubA": 702,
+  "goalH": 1,
+  "goalA": 1,
+  "date": "2026-07-26UTC17:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-07-26UTC18:55:00",
+  "city": "Москва",
+  "stadium": "«РЖД Арена»",
+  "stadiumLink": "",
+  "attendance": 10051,
+  "comments": "",
+  "weather": "17.2°C, Облачно, дождь",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4060,
+      "position": "Главный судья",
+      "name": "Инал",
+      "lastname": "Танашев"
+    },
+    {
+      "id": 4641,
+      "position": "Резервный судья",
+      "name": "Михаил",
+      "lastname": "Плиско"
+    },
+    {
+      "id": 4346,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Рустам",
+      "lastname": "Мухтаров"
+    },
+    {
+      "id": 3990,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Руслан",
+      "lastname": "Шекемов"
+    },
+    {
+      "id": 3770,
+      "position": "ВАР",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 3781,
+      "position": "АВАР",
+      "name": "Артём",
+      "lastname": "Чистяков"
+    },
+    {
+      "id": 504,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Виктор",
+      "lastname": "Кулагин"
+    },
+    {
+      "id": 764,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Андрей",
+      "lastname": "Клименков"
+    }
+  ],
+  "id": 16250,
+  "tournament": 724,
+  "stage": 2963,
+  "clubH": 444,
+  "clubA": 7,
+  "goalH": 2,
+  "goalA": 1,
+  "date": "2026-08-01UTC20:45:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-01UTC22:42:00",
+  "city": "Калининград",
+  "stadium": "«Ростех Арена»",
+  "stadiumLink": "",
+  "attendance": 15311,
+  "comments": "",
+  "weather": "18°C, Облачно, ливневый дождь",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

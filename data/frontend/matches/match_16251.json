@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3827,
+      "position": "Главный судья",
+      "name": "Евгений",
+      "lastname": "Кукуляк"
+    },
+    {
+      "id": 4638,
+      "position": "Резервный судья",
+      "name": "Матвей",
+      "lastname": "Заика"
+    },
+    {
+      "id": 4274,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Варанцо",
+      "lastname": "Петросян"
+    },
+    {
+      "id": 2279,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Ширяев"
+    },
+    {
+      "id": 3914,
+      "position": "ВАР",
+      "name": "Павел",
+      "lastname": "Кукуян"
+    },
+    {
+      "id": 3219,
+      "position": "АВАР",
+      "name": "Владимир",
+      "lastname": "Москалёв"
+    },
+    {
+      "id": 421,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Французов"
+    },
+    {
+      "id": 587,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Илья",
+      "lastname": "Хламов"
+    }
+  ],
+  "id": 16251,
+  "tournament": 724,
+  "stage": 2963,
+  "clubH": 504,
+  "clubA": 3,
+  "goalH": 0,
+  "goalA": 3,
+  "date": "2026-08-02UTC16:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-02UTC17:57:00",
+  "city": "Оренбург",
+  "stadium": "«Газовик»",
+  "stadiumLink": "",
+  "attendance": 8249,
+  "comments": "",
+  "weather": "20.9°C, Облачно, небольшой дождь",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

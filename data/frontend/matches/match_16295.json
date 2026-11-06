@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3776,
+      "position": "Главный судья",
+      "name": "Евгений",
+      "lastname": "Буланов"
+    },
+    {
+      "id": 4635,
+      "position": "Резервный судья",
+      "name": "Игорь",
+      "lastname": "Капленков"
+    },
+    {
+      "id": 3835,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Образко"
+    },
+    {
+      "id": 747,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Мосякин"
+    },
+    {
+      "id": 4038,
+      "position": "ВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 4192,
+      "position": "АВАР",
+      "name": "Роман",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 455,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Лапочкин"
+    },
+    {
+      "id": 461,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Цитович"
+    }
+  ],
+  "id": 16295,
+  "tournament": 724,
+  "stage": 2968,
+  "clubH": 4,
+  "clubA": 702,
+  "goalH": 1,
+  "goalA": 1,
+  "date": "2026-09-07UTC19:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-09-07UTC21:24:00",
+  "city": "Казань",
+  "stadium": "«Ак Барс Арена»",
+  "stadiumLink": "",
+  "attendance": 9653,
+  "comments": "",
+  "weather": "14.3°C, Облачно, небольшой дождь",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

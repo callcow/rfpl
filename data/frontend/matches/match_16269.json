@@ -1,0 +1,79 @@
+{
+  "matchOfficials": [
+    {
+      "id": 350,
+      "position": "Главный судья",
+      "name": "Сергей",
+      "lastname": "Карасёв"
+    },
+    {
+      "id": 3799,
+      "photo": "",
+      "position": "Резервный судья",
+      "name": "Антон",
+      "lastname": "Анопа"
+    },
+    {
+      "id": 1404,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Болотенков"
+    },
+    {
+      "id": 4210,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Ермилов"
+    },
+    {
+      "id": 979,
+      "position": "ВАР",
+      "name": "Василий",
+      "lastname": "Казарцев"
+    },
+    {
+      "id": 3854,
+      "position": "АВАР",
+      "name": "Сергей",
+      "lastname": "Чебан"
+    },
+    {
+      "id": 455,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Лапочкин"
+    },
+    {
+      "id": 461,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Цитович"
+    }
+  ],
+  "id": 16269,
+  "tournament": 724,
+  "stage": 2965,
+  "clubH": 584,
+  "clubA": 702,
+  "goalH": 1,
+  "goalA": 0,
+  "date": "2026-08-15UTC20:45:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-15UTC22:41:00",
+  "city": "Краснодар",
+  "stadium": "«Ozon Арена»",
+  "stadiumLink": "",
+  "attendance": 29365,
+  "comments": "",
+  "weather": "22.2°C, Безоблачно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

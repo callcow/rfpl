@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4629,
+      "position": "Главный судья",
+      "name": "Андрей",
+      "lastname": "Прокопов"
+    },
+    {
+      "id": 4630,
+      "position": "Резервный судья",
+      "name": "Никита",
+      "lastname": "Новиков"
+    },
+    {
+      "id": 3961,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 3965,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Егор",
+      "lastname": "Болховитин"
+    },
+    {
+      "id": 3219,
+      "position": "ВАР",
+      "name": "Владимир",
+      "lastname": "Москалёв"
+    },
+    {
+      "id": 3776,
+      "position": "АВАР",
+      "name": "Евгений",
+      "lastname": "Буланов"
+    },
+    {
+      "id": 557,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Мацюра"
+    },
+    {
+      "id": 432,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Сергей",
+      "lastname": "Кочетов"
+    }
+  ],
+  "id": 16371,
+  "tournament": 724,
+  "stage": 2970,
+  "clubH": 11,
+  "clubA": 7,
+  "goalH": 0,
+  "goalA": 3,
+  "date": "2026-09-17UTC18:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-09-17UTC20:27:05",
+  "city": "Ростов-на-Дону",
+  "stadium": "«Ростов Арена»",
+  "stadiumLink": "",
+  "attendance": 9171,
+  "comments": "",
+  "weather": "17°C, Облачно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

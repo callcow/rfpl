@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3770,
+      "position": "Главный судья",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 4629,
+      "position": "Резервный судья",
+      "name": "Андрей",
+      "lastname": "Прокопов"
+    },
+    {
+      "id": 4530,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Ермаков"
+    },
+    {
+      "id": 3829,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Веретёшкин"
+    },
+    {
+      "id": 4038,
+      "position": "ВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 4192,
+      "position": "АВАР",
+      "name": "Роман",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 421,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Французов"
+    },
+    {
+      "id": 587,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Илья",
+      "lastname": "Хламов"
+    }
+  ],
+  "id": 16258,
+  "tournament": 724,
+  "stage": 2964,
+  "clubH": 1,
+  "clubA": 584,
+  "goalH": 1,
+  "goalA": 2,
+  "date": "2026-08-09UTC20:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-09UTC21:57:00",
+  "city": "Москва",
+  "stadium": "«Лукойл Арена»",
+  "stadiumLink": "",
+  "attendance": 38846,
+  "comments": "",
+  "weather": "19.5°C, Малооблачно, небольшой дождь",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4626,
+      "position": "Главный судья",
+      "name": "Станислав",
+      "lastname": "Матвеев"
+    },
+    {
+      "id": 4017,
+      "position": "Резервный судья",
+      "name": "Ранэль",
+      "lastname": "Зияков"
+    },
+    {
+      "id": 2819,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Лунёв"
+    },
+    {
+      "id": 2879,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Александр",
+      "lastname": "Богданов"
+    },
+    {
+      "id": 4192,
+      "position": "ВАР",
+      "name": "Роман",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 4004,
+      "position": "АВАР",
+      "name": "Сергей",
+      "lastname": "Цыганок"
+    },
+    {
+      "id": 438,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Эдуард",
+      "lastname": "Малый"
+    },
+    {
+      "id": 485,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Владислав",
+      "lastname": "Барановский"
+    }
+  ],
+  "id": 16305,
+  "tournament": 724,
+  "stage": 2970,
+  "clubH": 1,
+  "clubA": 264,
+  "goalH": 1,
+  "goalA": 0,
+  "date": "2026-09-16UTC18:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-09-16UTC20:25:13",
+  "city": "Москва",
+  "stadium": "«Лукойл Арена»",
+  "stadiumLink": "",
+  "attendance": 17989,
+  "comments": "",
+  "weather": "12.7°C, Безоблачно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4630,
+      "position": "Главный судья",
+      "name": "Никита",
+      "lastname": "Новиков"
+    },
+    {
+      "id": 4638,
+      "position": "Резервный судья",
+      "name": "Матвей",
+      "lastname": "Заика"
+    },
+    {
+      "id": 4346,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Рустам",
+      "lastname": "Мухтаров"
+    },
+    {
+      "id": 4614,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Семёнов"
+    },
+    {
+      "id": 4038,
+      "position": "ВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 3776,
+      "position": "АВАР",
+      "name": "Евгений",
+      "lastname": "Буланов"
+    },
+    {
+      "id": 426,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Александр",
+      "lastname": "Колобаев"
+    },
+    {
+      "id": 461,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Цитович"
+    }
+  ],
+  "id": 16303,
+  "tournament": 724,
+  "stage": 2969,
+  "clubH": 3,
+  "clubA": 5,
+  "goalH": 2,
+  "goalA": 1,
+  "date": "2026-09-12UTC16:15:00",
+  "status": 4,
+  "dateStartStatus": "2026-09-12UTC18:10:51",
+  "city": "Санкт-Петербург",
+  "stadium": "«Газпром Арена»",
+  "stadiumLink": "",
+  "attendance": 28577,
+  "comments": "",
+  "weather": "13.4°C, Облачно, небольшой дождь",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4636,
+      "position": "Главный судья",
+      "name": "Данил",
+      "lastname": "Набока"
+    },
+    {
+      "id": 4462,
+      "position": "Резервный судья",
+      "name": "Михаил",
+      "lastname": "Черемных"
+    },
+    {
+      "id": 4645,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Александр",
+      "lastname": "Павлов"
+    },
+    {
+      "id": 4628,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Ярослав",
+      "lastname": "Калиниченко"
+    },
+    {
+      "id": 979,
+      "position": "ВАР",
+      "name": "Василий",
+      "lastname": "Казарцев"
+    },
+    {
+      "id": 3819,
+      "position": "АВАР",
+      "name": "Иван",
+      "lastname": "Абросимов"
+    },
+    {
+      "id": 767,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Игорь",
+      "lastname": "Писанко"
+    },
+    {
+      "id": 395,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Радик",
+      "lastname": "Ахмадуллин"
+    }
+  ],
+  "id": 16382,
+  "tournament": 724,
+  "stage": 2970,
+  "clubH": 5,
+  "clubA": 10,
+  "goalH": 1,
+  "goalA": 1,
+  "date": "2026-09-16UTC20:45:00",
+  "status": 4,
+  "dateStartStatus": "2026-09-16UTC22:38:23",
+  "city": "Москва",
+  "stadium": "«РЖД Арена»",
+  "stadiumLink": "",
+  "attendance": 7090,
+  "comments": "",
+  "weather": "12.7°C, Безоблачно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

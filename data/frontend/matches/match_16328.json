@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3845,
+      "position": "Главный судья",
+      "name": "Антон",
+      "lastname": "Фролов"
+    },
+    {
+      "id": 4626,
+      "position": "Резервный судья",
+      "name": "Станислав",
+      "lastname": "Матвеев"
+    },
+    {
+      "id": 2819,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Лунёв"
+    },
+    {
+      "id": 4278,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Денис",
+      "lastname": "Березнов"
+    },
+    {
+      "id": 350,
+      "position": "ВАР",
+      "name": "Сергей",
+      "lastname": "Карасёв"
+    },
+    {
+      "id": 4192,
+      "position": "АВАР",
+      "name": "Роман",
+      "lastname": "Сафьян"
+    },
+    {
+      "id": 501,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Владимир",
+      "lastname": "Казьменко"
+    },
+    {
+      "id": 503,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Поляков"
+    }
+  ],
+  "id": 16328,
+  "tournament": 724,
+  "stage": 2973,
+  "clubH": 3,
+  "clubA": 125,
+  "goalH": 2,
+  "goalA": 0,
+  "date": "2026-10-25UTC18:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-25UTC20:32:07",
+  "city": "Санкт-Петербург",
+  "stadium": "«Газпром Арена»",
+  "stadiumLink": "",
+  "attendance": 30008,
+  "comments": "",
+  "weather": "11.2°C, Пасмурно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

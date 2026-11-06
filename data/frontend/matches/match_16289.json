@@ -1,0 +1,79 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3770,
+      "position": "Главный судья",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 4638,
+      "position": "Резервный судья",
+      "name": "Матвей",
+      "lastname": "Заика"
+    },
+    {
+      "id": 4530,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Ермаков"
+    },
+    {
+      "id": 4346,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Рустам",
+      "lastname": "Мухтаров"
+    },
+    {
+      "id": 979,
+      "position": "ВАР",
+      "name": "Василий",
+      "lastname": "Казарцев"
+    },
+    {
+      "id": 4342,
+      "photo": "",
+      "position": "АВАР",
+      "name": "Анатолий",
+      "lastname": "Жабченко"
+    },
+    {
+      "id": 767,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Игорь",
+      "lastname": "Писанко"
+    },
+    {
+      "id": 502,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Суворов"
+    }
+  ],
+  "id": 16289,
+  "tournament": 724,
+  "stage": 2968,
+  "clubH": 7,
+  "clubA": 1,
+  "goalH": 2,
+  "goalA": 1,
+  "date": "2026-09-06UTC18:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-09-06UTC20:29:00",
+  "city": "Москва",
+  "stadium": "«ВТБ Арена»",
+  "stadiumLink": "",
+  "attendance": 23193,
+  "comments": "",
+  "weather": "14.2°C, Пасмурно, дождь, гроза",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

@@ -1,0 +1,79 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4099,
+      "position": "Главный судья",
+      "name": "Ян",
+      "lastname": "Бобровский"
+    },
+    {
+      "id": 3799,
+      "photo": "",
+      "position": "Резервный судья",
+      "name": "Антон",
+      "lastname": "Анопа"
+    },
+    {
+      "id": 3965,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Егор",
+      "lastname": "Болховитин"
+    },
+    {
+      "id": 4624,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Максим",
+      "lastname": "Белокур"
+    },
+    {
+      "id": 3914,
+      "position": "ВАР",
+      "name": "Павел",
+      "lastname": "Кукуян"
+    },
+    {
+      "id": 3827,
+      "position": "АВАР",
+      "name": "Евгений",
+      "lastname": "Кукуляк"
+    },
+    {
+      "id": 438,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Эдуард",
+      "lastname": "Малый"
+    },
+    {
+      "id": 503,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Поляков"
+    }
+  ],
+  "id": 16291,
+  "tournament": 724,
+  "stage": 2968,
+  "clubH": 125,
+  "clubA": 808,
+  "goalH": 2,
+  "goalA": 0,
+  "date": "2026-09-06UTC16:15:00",
+  "status": 4,
+  "dateStartStatus": "2026-09-06UTC18:15:00",
+  "city": "Каспийск",
+  "stadium": "«Анжи-Арена»",
+  "stadiumLink": "",
+  "attendance": 5115,
+  "comments": "",
+  "weather": "25.4°C, Безоблачно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

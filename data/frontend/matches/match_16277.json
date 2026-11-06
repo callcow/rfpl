@@ -1,0 +1,79 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4099,
+      "position": "Главный судья",
+      "name": "Ян",
+      "lastname": "Бобровский"
+    },
+    {
+      "id": 4462,
+      "position": "Резервный судья",
+      "name": "Михаил",
+      "lastname": "Черемных"
+    },
+    {
+      "id": 2799,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Максим",
+      "lastname": "Гаврилин"
+    },
+    {
+      "id": 4614,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Семёнов"
+    },
+    {
+      "id": 4342,
+      "photo": "",
+      "position": "ВАР",
+      "name": "Анатолий",
+      "lastname": "Жабченко"
+    },
+    {
+      "id": 3219,
+      "position": "АВАР",
+      "name": "Владимир",
+      "lastname": "Москалёв"
+    },
+    {
+      "id": 767,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Игорь",
+      "lastname": "Писанко"
+    },
+    {
+      "id": 502,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Суворов"
+    }
+  ],
+  "id": 16277,
+  "tournament": 724,
+  "stage": 2966,
+  "clubH": 702,
+  "clubA": 11,
+  "goalH": 4,
+  "goalA": 1,
+  "date": "2026-08-22UTC18:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-22UTC20:00:00",
+  "city": "Грозный",
+  "stadium": "«Ахмат Арена»",
+  "stadiumLink": "",
+  "attendance": 3906,
+  "comments": "",
+  "weather": "23.9°C, Безоблачно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

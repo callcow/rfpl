@@ -1,0 +1,14 @@
+[
+  {
+    "id": 6136,
+    "photo": "https://cdn.premierliga.ru/resources/25/20/Mihail_Galaktionov_2_.jpg",
+    "name": "Михаил",
+    "lastname": "Галактионов",
+    "citizenship": "Россия",
+    "club": 5,
+    "keyword": "",
+    "isCurrentCoach": true,
+    "photoBig": "https://cdn.premierliga.ru/resources/25/20/Mihail_Galaktionov_2_.png",
+    "birthday": "1984-05-21"
+  }
+]

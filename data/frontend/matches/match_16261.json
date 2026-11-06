@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4004,
+      "position": "Главный судья",
+      "name": "Сергей",
+      "lastname": "Цыганок"
+    },
+    {
+      "id": 4060,
+      "position": "Резервный судья",
+      "name": "Инал",
+      "lastname": "Танашев"
+    },
+    {
+      "id": 4274,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Варанцо",
+      "lastname": "Петросян"
+    },
+    {
+      "id": 4278,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Денис",
+      "lastname": "Березнов"
+    },
+    {
+      "id": 3845,
+      "position": "ВАР",
+      "name": "Антон",
+      "lastname": "Фролов"
+    },
+    {
+      "id": 3219,
+      "position": "АВАР",
+      "name": "Владимир",
+      "lastname": "Москалёв"
+    },
+    {
+      "id": 504,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Виктор",
+      "lastname": "Кулагин"
+    },
+    {
+      "id": 761,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Попов"
+    }
+  ],
+  "id": 16261,
+  "tournament": 724,
+  "stage": 2964,
+  "clubH": 5,
+  "clubA": 807,
+  "goalH": 0,
+  "goalA": 0,
+  "date": "2026-08-08UTC18:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-08UTC19:56:00",
+  "city": "Москва",
+  "stadium": "«РЖД Арена»",
+  "stadiumLink": "",
+  "attendance": 8495,
+  "comments": "",
+  "weather": "22.4°C, Малооблачно, небольшой дождь",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

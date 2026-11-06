@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4060,
+      "position": "Главный судья",
+      "name": "Инал",
+      "lastname": "Танашев"
+    },
+    {
+      "id": 4198,
+      "position": "Резервный судья",
+      "name": "Александр",
+      "lastname": "Машлякевич"
+    },
+    {
+      "id": 4274,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Варанцо",
+      "lastname": "Петросян"
+    },
+    {
+      "id": 3980,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Адлан",
+      "lastname": "Хатуев"
+    },
+    {
+      "id": 660,
+      "position": "ВАР",
+      "name": "Павел",
+      "lastname": "Шадыханов"
+    },
+    {
+      "id": 4099,
+      "position": "АВАР",
+      "name": "Ян",
+      "lastname": "Бобровский"
+    },
+    {
+      "id": 501,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Владимир",
+      "lastname": "Казьменко"
+    },
+    {
+      "id": 503,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Поляков"
+    }
+  ],
+  "id": 16320,
+  "tournament": 724,
+  "stage": 2972,
+  "clubH": 808,
+  "clubA": 504,
+  "goalH": 2,
+  "goalA": 2,
+  "date": "2026-10-19UTC19:30:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-19UTC21:25:49",
+  "city": "Химки",
+  "stadium": "«Арена Химки»",
+  "stadiumLink": "",
+  "attendance": 4208,
+  "comments": "",
+  "weather": "6.9°C, Безоблачно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

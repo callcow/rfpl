@@ -1,0 +1,80 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3845,
+      "position": "Главный судья",
+      "name": "Антон",
+      "lastname": "Фролов"
+    },
+    {
+      "id": 4639,
+      "photo": "",
+      "position": "Резервный судья",
+      "name": "Юрий",
+      "lastname": "Матвеев"
+    },
+    {
+      "id": 2879,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Александр",
+      "lastname": "Богданов"
+    },
+    {
+      "id": 4278,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Денис",
+      "lastname": "Березнов"
+    },
+    {
+      "id": 3770,
+      "position": "ВАР",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 4466,
+      "photo": "",
+      "position": "АВАР",
+      "name": "Вера",
+      "lastname": "Опейкина"
+    },
+    {
+      "id": 767,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Игорь",
+      "lastname": "Писанко"
+    },
+    {
+      "id": 503,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Поляков"
+    }
+  ],
+  "id": 16268,
+  "tournament": 724,
+  "stage": 2965,
+  "clubH": 504,
+  "clubA": 5,
+  "goalH": 1,
+  "goalA": 1,
+  "date": "2026-08-14UTC17:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-14UTC19:00:00",
+  "city": "Оренбург",
+  "stadium": "«Газовик»",
+  "stadiumLink": "",
+  "attendance": 5678,
+  "comments": "",
+  "weather": "18.3°C, Малооблачно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

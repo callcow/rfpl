@@ -1,0 +1,79 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4099,
+      "position": "Главный судья",
+      "name": "Ян",
+      "lastname": "Бобровский"
+    },
+    {
+      "id": 4034,
+      "photo": "",
+      "position": "Резервный судья",
+      "name": "Алексей",
+      "lastname": "Лапатухин"
+    },
+    {
+      "id": 4530,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Ермаков"
+    },
+    {
+      "id": 4624,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Максим",
+      "lastname": "Белокур"
+    },
+    {
+      "id": 3819,
+      "position": "ВАР",
+      "name": "Иван",
+      "lastname": "Абросимов"
+    },
+    {
+      "id": 4303,
+      "position": "АВАР",
+      "name": "Рафаэль",
+      "lastname": "Шафеев"
+    },
+    {
+      "id": 437,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Александр",
+      "lastname": "Гвардис"
+    },
+    {
+      "id": 395,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Радик",
+      "lastname": "Ахмадуллин"
+    }
+  ],
+  "id": 16256,
+  "tournament": 724,
+  "stage": 2963,
+  "clubH": 807,
+  "clubA": 4,
+  "goalH": 1,
+  "goalA": 2,
+  "date": "2026-08-01UTC14:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-08-01UTC15:54:00",
+  "city": "Самара",
+  "stadium": "«Солидарность Самара Арена»",
+  "stadiumLink": "",
+  "attendance": 3673,
+  "comments": "",
+  "weather": "20.7°C, Малооблачно, небольшой дождь",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

@@ -1,0 +1,78 @@
+{
+  "matchOfficials": [
+    {
+      "id": 3819,
+      "position": "Главный судья",
+      "name": "Иван",
+      "lastname": "Абросимов"
+    },
+    {
+      "id": 4198,
+      "position": "Резервный судья",
+      "name": "Александр",
+      "lastname": "Машлякевич"
+    },
+    {
+      "id": 3974,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Кирилл",
+      "lastname": "Большаков"
+    },
+    {
+      "id": 3965,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Егор",
+      "lastname": "Болховитин"
+    },
+    {
+      "id": 3776,
+      "position": "ВАР",
+      "name": "Евгений",
+      "lastname": "Буланов"
+    },
+    {
+      "id": 3361,
+      "position": "АВАР",
+      "name": "Сергей",
+      "lastname": "Иванов"
+    },
+    {
+      "id": 417,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Николай",
+      "lastname": "Иванов"
+    },
+    {
+      "id": 503,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Поляков"
+    }
+  ],
+  "id": 16245,
+  "tournament": 724,
+  "stage": 2962,
+  "clubH": 2,
+  "clubA": 444,
+  "goalH": 2,
+  "goalA": 1,
+  "date": "2026-07-24UTC20:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-07-24UTC22:01:00",
+  "city": "Москва",
+  "stadium": "«ВЭБ Арена»",
+  "stadiumLink": "",
+  "attendance": 15196,
+  "comments": "",
+  "weather": "18.9°C, Облачно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}

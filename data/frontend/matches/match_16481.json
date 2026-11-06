@@ -1,0 +1,27 @@
+{
+  "id": 16481,
+  "tournament": 724,
+  "stage": 2976,
+  "mainMatchPhoto": null,
+  "clubH": 7,
+  "clubA": 584,
+  "goalH": null,
+  "goalA": null,
+  "date": "2026-11-22UTC14:00:00",
+  "status": 0,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
+  "city": "Москва",
+  "stadium": "«ВТБ Арена»",
+  "stadiumLink": "",
+  "attendance": null,
+  "comments": "",
+  "weather": "",
+  "documents": {
+    "protocol": null,
+    "report": null,
+    "lineup": null,
+    "preview": null
+  },
+  "protocol": false,
+  "countVideos": null
+}

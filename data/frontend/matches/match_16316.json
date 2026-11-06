@@ -1,0 +1,79 @@
+{
+  "matchOfficials": [
+    {
+      "id": 4635,
+      "position": "Главный судья",
+      "name": "Игорь",
+      "lastname": "Капленков"
+    },
+    {
+      "id": 3854,
+      "position": "Резервный судья",
+      "name": "Сергей",
+      "lastname": "Чебан"
+    },
+    {
+      "id": 3990,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Руслан",
+      "lastname": "Шекемов"
+    },
+    {
+      "id": 4157,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Михаил",
+      "lastname": "Иванов"
+    },
+    {
+      "id": 3770,
+      "position": "ВАР",
+      "name": "Кирилл",
+      "lastname": "Левников"
+    },
+    {
+      "id": 4466,
+      "photo": "",
+      "position": "АВАР",
+      "name": "Вера",
+      "lastname": "Опейкина"
+    },
+    {
+      "id": 417,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Николай",
+      "lastname": "Иванов"
+    },
+    {
+      "id": 764,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Андрей",
+      "lastname": "Клименков"
+    }
+  ],
+  "id": 16316,
+  "tournament": 724,
+  "stage": 2972,
+  "clubH": 10,
+  "clubA": 264,
+  "goalH": 1,
+  "goalA": 2,
+  "date": "2026-10-17UTC14:00:00",
+  "status": 4,
+  "dateStartStatus": "2026-10-17UTC15:56:01",
+  "city": "Самара",
+  "stadium": "«Солидарность Самара Арена»",
+  "stadiumLink": "",
+  "attendance": 7001,
+  "comments": "",
+  "weather": "15.5°C, Пасмурно",
+  "documents": {
+    "report": null,
+    "preview": null
+  },
+  "protocol": true,
+  "countVideos": 1
+}
