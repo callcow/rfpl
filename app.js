@@ -2898,6 +2898,98 @@ window.openMatchModal = async function(matchId) {
 
                 <!-- Контент вкладок (Обзор показываем всегда) -->
                 <div id="match-tab-overview" class="match-tab-pane active">
+                    ${(() => {
+                        const timelineEvents = (matchBroadcast || []).filter(e =>
+                            e.action === "Goal" || e.action === "PenaltyGoal" ||
+                            e.action === "AutoGoal" || e.action === "YellowCard" || e.action === "RedCard" ||
+                            e.type === 1 || e.type === 3 || e.type === 4 || e.type === 10 || e.type === 11
+                        );
+                        if (timelineEvents.length === 0) return '';
+                        
+                        let lastMinute = 0;
+                        timelineEvents.forEach(e => {
+                            if (typeof e.time === 'number') {
+                                const m = e.time + (e.extra || 0);
+                                if (m > lastMinute) lastMinute = m;
+                            }
+                        });
+                        const totalMinutes = Math.max(90, lastMinute);
+                        const pct = (t) => (Math.min(t, totalMinutes) / totalMinutes) * 100;
+
+                        const homeMarkers = [];
+                        const awayMarkers = [];
+
+                        let currentH = 0;
+                        let currentA = 0;
+
+                        timelineEvents.forEach(e => {
+                            const min = typeof e.time === 'number' ? e.time + (e.extra || 0) : 0;
+                            let isHome = e.club === homeClub?.id;
+                            let isAway = e.club === awayClub?.id;
+                            
+                            let icon = '';
+                            let eventName = '';
+                            
+                            if (e.action === "Goal" || e.action === "PenaltyGoal" || e.type === 1 || e.type === 10) {
+                                icon = '⚽';
+                                eventName = e.action === "PenaltyGoal" ? 'Гол (пен.)' : 'Гол';
+                                if (isHome) currentH++; else if (isAway) currentA++;
+                            } else if (e.action === "AutoGoal" || e.type === 11) {
+                                icon = '⚽';
+                                eventName = 'Автогол';
+                                // Автогол засчитывается ПРОТИВОПОЛОЖНОЙ команде
+                                if (isHome) currentA++; else if (isAway) currentH++;
+                                
+                                // Меняем сторону для отображения на таймлайне, чтобы маркер был у той команды, в чьи ворота забит гол
+                                isHome = !isHome;
+                                isAway = !isAway;
+                            } else if (e.action === "YellowCard" || e.type === 3) {
+                                icon = '🟨';
+                                eventName = 'Жёлтая карточка';
+                            } else if (e.action === "RedCard" || e.type === 4) {
+                                icon = '🟥';
+                                eventName = 'Красная карточка';
+                            }
+                            
+                            if (!icon) return;
+
+                            const timeLabel = `${e.time}${e.extra ? '+' + e.extra : ''}'`;
+                            let playerName = formatPlayerName(e.player1) || 'Неизвестный';
+                            if ((e.action === "AutoGoal" || e.type === 11)) playerName += ' (авт.)';
+
+                            const tooltipText = `${timeLabel} — ${playerName}\nСчёт: ${currentH} - ${currentA}`;
+                            
+                            const markerHtml = `<span class="timeline-marker" style="left:${pct(min)}%;" data-tooltip="${tooltipText}">${icon}</span>`; 
+                            
+                            if (isHome) homeMarkers.push(markerHtml);
+                            if (isAway) awayMarkers.push(markerHtml);
+                        });
+
+                        return `
+                        <div class="match-timeline">
+                            <div class="timeline-content">
+                                <!-- Логотипы позиционируются абсолютно по краям таймлайна -->
+                                <div class="timeline-team-logo-home">${getTeamLogoHtml(homeClub, 'timeline-team-logo', 24)}</div>
+                                <div class="timeline-team-logo-away">${getTeamLogoHtml(awayClub, 'timeline-team-logo', 24)}</div>
+                                
+                                <!-- Верхняя дорожка (хозяева) -->
+                                <div class="timeline-track is-home">
+                                    ${homeMarkers.join('')}
+                                </div>
+                                
+                                <!-- Центральная полоса -->
+                                <div class="timeline-bar">
+                                    <div class="timeline-bar-half">45'</div>
+                                    <div class="timeline-bar-half">90'</div>
+                                </div>
+                                
+                                <!-- Нижняя дорожка (гости) -->
+                                <div class="timeline-track is-away">
+                                    ${awayMarkers.join('')}
+                                </div>
+                            </div>
+                        </div>`;
+                    })()}
                     <div class="match-overview-box">
                         <div class="overview-row">
                             <span class="overview-label">Дата и время</span>
@@ -4343,4 +4435,5 @@ document.addEventListener("DOMContentLoaded", () => {
             slider.style.transform = `translateX(${targetLeft}px)`;
         }
     }, 50); // Небольшая задержка для правильного рендера шрифтов
-});
+}); 
+
