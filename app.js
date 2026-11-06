@@ -3132,11 +3132,19 @@ window.openMatchModal = async function(matchId) {
             }
 
             const totalSec = Math.max(0, Math.floor(diff / 1000));
-            const h = Math.floor(totalSec / 3600);
+            const days = Math.floor(totalSec / 86400);
+            const h = Math.floor((totalSec % 86400) / 3600);
             const m = Math.floor((totalSec % 3600) / 60);
             const s = totalSec % 60;
             const pad = n => String(n).padStart(2, '0');
-            timerEl.textContent = `До начала матча: ${pad(h)}:${pad(m)}:${pad(s)}`;
+            
+            let timeStr = '';
+            if (days > 0) {
+                timeStr += `${days}д `;
+            }
+            timeStr += `${pad(h)}ч ${pad(m)}м ${pad(s)}с`;
+            
+            timerEl.textContent = `До начала матча: ${timeStr}`;
         };
 
         // Вызываем сразу (чтобы убрать задержку в 1 сек) и запускаем интервал
@@ -4644,5 +4652,64 @@ document.addEventListener('mouseout', function(e) {
     if (tooltip) {
         tooltip.style.display = 'none';
     }
-}); 
+});
+
+// ─── СВАЙПЫ ДЛЯ ПЕРЕКЛЮЧЕНИЯ ВКЛАДОК ───
+let touchStartX = 0;
+let touchEndX = 0;
+
+document.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+}, { passive: true });
+
+document.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+}, { passive: true });
+
+function handleSwipe() {
+    // Проверяем, нет ли открытых модалок или полноэкранного фото
+    const isModalOpen = document.querySelector('.modal-overlay.active') || 
+                        document.querySelector('.photo-view') || 
+                        document.getElementById('player-modal')?.classList.contains('active');
+
+    if (isModalOpen) return;
+
+    const threshold = 50; // Минимальная длина свайпа в пикселях
+    const diff = touchStartX - touchEndX;
+
+    if (Math.abs(diff) < threshold) return;
+
+    const tabs = ['matches', 'calendar', 'standings', 'stats', 'clubs'];
+    const activeTabBtn = document.querySelector('.tab-btn.active');
+    if (!activeTabBtn) return;
+    
+    const onclickAttr = activeTabBtn.getAttribute('onclick') || '';
+    const match = onclickAttr.match(/switchTab\('(\w+)'/);
+    if (!match) return;
+    const currentTabId = match[1];
+
+    let currentIndex = tabs.indexOf(currentTabId);
+    if (currentIndex === -1) return;
+
+    let nextIndex;
+    if (diff > 0) {
+        // Свайп влево -> следующий слайд
+        nextIndex = (currentIndex + 1) % tabs.length;
+    } else {
+        // Свайп вправо -> предыдущий слайд
+        nextIndex = (currentIndex - 1 + tabs.length) % tabs.length;
+    }
+
+    const nextTabId = tabs[nextIndex];
+    const nextTabBtn = Array.from(document.querySelectorAll('.tab-btn')).find(b => {
+        const oc = b.getAttribute('onclick') || '';
+        return oc.includes(`switchTab('${nextTabId}'`);
+    });
+
+    if (nextTabBtn) {
+        switchTab(nextTabId, { target: nextTabBtn });
+        syncTabNav(nextTabBtn);
+    }
+} 
 
