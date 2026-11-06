@@ -1,6 +1,51 @@
 {
   "matchOfficials": [
     {
+      "id": 4638,
+      "position": "Главный судья",
+      "name": "Матвей",
+      "lastname": "Заика"
+    },
+    {
+      "id": 4641,
+      "position": "Резервный судья",
+      "name": "Михаил",
+      "lastname": "Плиско"
+    },
+    {
+      "id": 4274,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Варанцо",
+      "lastname": "Петросян"
+    },
+    {
+      "id": 4210,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Ермилов"
+    },
+    {
+      "id": 4099,
+      "position": "ВАР",
+      "name": "Ян",
+      "lastname": "Бобровский"
+    },
+    {
+      "id": 3854,
+      "position": "АВАР",
+      "name": "Сергей",
+      "lastname": "Чебан"
+    },
+    {
+      "id": 62,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Зуев"
+    },
+    {
       "id": 766,
       "photo": "",
       "position": "Делегат",
@@ -23,19 +68,8 @@
   "stadium": "«Факел»",
   "stadiumLink": "",
   "attendance": null,
-  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_fdb3b7794ab6fd9043d471bf1d6534d5_hd/17_1040048/47983ace42286596116131b51c61114c/4949318441?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
-  "broadcastDescription": null,
-  "videoReviewLink": "",
-  "ticketsLink": "https://lk.fakelfc.ru/login?from=http://fakelfc.ru",
-  "winline": {
-    "outcome1": 5,
-    "outcome2": 4,
-    "outcome3": 1.67,
-    "link": "https://winline.ru/plus/17021110",
-    "erid": "2W5zFH6J43k"
-  },
   "comments": "",
-  "weather": "1.6°C, Пасмурно",
+  "weather": "1.3°C, Пасмурно, небольшой снег",
   "documents": {
     "protocol": null,
     "report": null,

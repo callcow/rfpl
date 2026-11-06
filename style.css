@@ -676,6 +676,71 @@ tbody tr.team-clickable td:nth-child(2):hover { font-weight: 700; cursor: pointe
 }
 .doc-protocol { background: #e0f2fe; color: #0369a1; }
 .doc-lineup { background: #dcfce7; color: #15803d; }
+.doc-stream { background: #e0f2fe; color: #0369a1; cursor: pointer; }
+
+/* Блок «Следить за трансляцией» */
+.modal-stream-block { margin-top: 15px; }
+.modal-stream-block .stream-toggle-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    font-family: inherit;
+    transition: background 0.2s ease;
+}
+.modal-stream-block .stream-toggle-btn:disabled {
+    cursor: default;
+    opacity: 0.85;
+}
+.modal-stream-block .stream-toggle-btn .stream-chevron {
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+.modal-stream-block.open .stream-toggle-btn .stream-chevron {
+    transform: rotate(180deg);
+}
+
+/* Плавное раскрытие списка качеств */
+.stream-quality-list {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, opacity 0.25s ease, margin-top 0.35s ease;
+}
+.modal-stream-block.open .stream-quality-list {
+    max-height: 200px;
+    opacity: 1;
+    margin-top: 8px;
+}
+
+.stream-quality-btn {
+    flex: 1;
+    min-width: 70px;
+    text-align: center;
+    padding: 8px;
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #111827;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.15s ease;
+}
+.stream-quality-btn:hover {
+    background: #e5e7eb;
+    transform: translateY(-1px);
+}
 
 /* Кнопки таймов */
 .half-buttons-wrapper {

@@ -2,6 +2,7 @@
 import functools
 import json
 import logging
+import re
 import requests
 
 
@@ -646,6 +647,8 @@ def import_all() -> dict:
         status["from_archive"].append("getMatches")
     if matches_raw:
         try:
+            if not fa:
+                _save_json(INTERNAL_DIR / "matches_raw.json", matches_raw)
             blocks = validate_matches(matches_raw)
             if not fa:
                 _save_json(INTERNAL_DIR / "matches.json", [b.model_dump() for b in blocks])
@@ -710,6 +713,8 @@ def import_all() -> dict:
                 if should_fetch_detail:
                     detail_raw = post("getFullDataMatch", {"id": match_id})
                     if detail_raw:
+                        for _k in ("broadcastLink", "broadcastDescription", "videoReviewLink", "ticketsLink", "winline"):
+                            detail_raw.pop(_k, None)
                         _save_json(detail_file, detail_raw)
                         log.info(
                             f"Сохранены детали матча {match_id} "
@@ -921,6 +926,7 @@ def _build_flat_and_standings(status: dict | None = None):
     clubs = _load_json(CURRENT_DIR / "clubs.json", [])
     stages = _load_json(CURRENT_DIR / "stages.json", [])
     matches_raw = _load_json(INTERNAL_DIR / "matches.json", [])
+    raw_matches_data = _load_json(INTERNAL_DIR / "matches_raw.json", [])
     
     if status is None:
         status = {"warnings": []}
@@ -1109,10 +1115,88 @@ def _build_flat_and_standings(status: dict | None = None):
 
     if best_stage is not None:
         stage_info = stages_by_id.get(best_stage, {})
+        current_tour_matches = []
+
+        # Загружаем список трансляций MatchTV для проверки 4K
+        matchtv_items = []
+        try:
+            mtv_resp = requests.get(
+                "https://matchtv.ru/api/v1/videohub/shelves/125/data?limit=25&offset=0",
+                headers={"User-Agent": "Mozilla/5.0"},
+                timeout=10,
+            )
+            if mtv_resp.ok:
+                mtv_data = mtv_resp.json()
+                matchtv_items = mtv_data.get("result", {}).get("items", [])
+        except Exception as e:
+            log.warning(f"Не удалось загрузить данные MatchTV для проверки 4K: {e}")
+
+        for b in matches_raw:
+            if b["stage"] == best_stage:
+                for m in b.get("matches", []):
+                    m_copy = dict(m)
+                    wl = m.get("winline")
+                    if not wl:
+                        raw_match = next(
+                            (rm for rb in (raw_matches_data or []) for rm in rb.get("matches", []) if rm.get("id") == m.get("id")),
+                            None
+                        )
+                        if raw_match:
+                            wl = raw_match.get("winline")
+                    link = (wl or {}).get("link") or ""
+                    try:
+                        m_copy["wid"] = int(link.rstrip("/").split("/")[-1]) if link else None
+                    except (ValueError, IndexError):
+                        m_copy["wid"] = None
+
+                    # Получаем ссылку на поток Winline по wid
+                    m_copy["stream"] = None
+                    if m_copy["wid"]:
+                        try:
+                            resp = requests.get(
+                                f"https://winline.ru/api/v2/videostream/source/73?idEvent={m_copy['wid']}",
+                                headers={"User-Agent": "Mozilla/5.0"},
+                                timeout=10,
+                            )
+                            stream_text = resp.text
+                            url_m = re.search(r'": "(.*?)"', stream_text)
+                            if url_m:
+                                url = url_m.group(1).replace("start", "playlist")
+                                # Формируем итоговый URL с 1080p50fps
+                                if len(url) >= 91:
+                                    stream_url = url[:91] + "/1080p50fps" + url[91:]
+                                else:
+                                    stream_url = url
+
+                                # Шифруем ссылку в Base64, чтобы её не было видно в исходниках
+                                import base64
+                                stream_url = base64.b64encode(stream_url.encode('utf-8')).decode('utf-8')
+
+                            
+
+                                # Проверяем, является ли матч 4K по данным MatchTV
+                                home_name = format_team_name(clubs_by_id.get(m["clubH"], {}).get("name"))
+                                away_name = format_team_name(clubs_by_id.get(m["clubA"], {}).get("name"))
+                                target_title = f"{home_name} - {away_name}"
+                                is_4k = False
+                                for item in matchtv_items:
+                                    if item.get("title") == target_title and item.get("is4k"):
+                                        is_4k = True
+                                        break
+                                if is_4k:
+                                    stream_url = stream_url.replace("/1080p50fps/", "/2160/")
+                                m_copy["stream"] = stream_url
+                            else:
+                                m_copy["stream"] = None
+                        except Exception as e:
+                            log.warning(f"Не удалось получить stream для wid={m_copy['wid']}: {e}")
+                            m_copy["stream"] = None
+
+                    current_tour_matches.append(m_copy)
         current_tour_data = {
             "stageId": best_stage,
             "name": stage_info.get("name", f"Тур {best_stage}"),
-            "matches": [m for b in matches_raw if b["stage"] == best_stage for m in b.get("matches", [])]
+            "matches": current_tour_matches
         }
         _save_json(CURRENT_DIR / "current_tour.json", current_tour_data)
         log.info(f"Определен текущий тур: {current_tour_data['name']} (ID: {best_stage})")

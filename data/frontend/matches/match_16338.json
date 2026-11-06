@@ -1,6 +1,52 @@
 {
   "matchOfficials": [
     {
+      "id": 4303,
+      "position": "Главный судья",
+      "name": "Рафаэль",
+      "lastname": "Шафеев"
+    },
+    {
+      "id": 4631,
+      "photo": "",
+      "position": "Резервный судья",
+      "name": "Олег",
+      "lastname": "Гусаков"
+    },
+    {
+      "id": 4614,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Дмитрий",
+      "lastname": "Семёнов"
+    },
+    {
+      "id": 3935,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Денис",
+      "lastname": "Петров"
+    },
+    {
+      "id": 3599,
+      "position": "ВАР",
+      "name": "Алексей",
+      "lastname": "Сухой"
+    },
+    {
+      "id": 4099,
+      "position": "АВАР",
+      "name": "Ян",
+      "lastname": "Бобровский"
+    },
+    {
+      "id": 455,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Лапочкин"
+    },
+    {
       "id": 764,
       "photo": "",
       "position": "Делегат",
@@ -23,17 +69,6 @@
   "stadium": "«Лукойл Арена»",
   "stadiumLink": "",
   "attendance": null,
-  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_51f290031f9c7f5d97db10edc5d47337_hd/17_1040052/4bf911a38a0b3e324724a0f87e8d2975/4949318473?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
-  "broadcastDescription": null,
-  "videoReviewLink": "",
-  "ticketsLink": "https://tickets.spartak.com/?utm_source=rpl&utm_medium=button&utm_campaign=tickets",
-  "winline": {
-    "outcome1": 1.26,
-    "outcome2": 6.4,
-    "outcome3": 9.8,
-    "link": "https://winline.ru/plus/17021114",
-    "erid": "2W5zFGwR8oU"
-  },
   "comments": "",
   "weather": "3.8°C, Пасмурно, небольшой дождь",
   "documents": {

@@ -1,6 +1,51 @@
 {
   "matchOfficials": [
     {
+      "id": 3361,
+      "position": "Главный судья",
+      "name": "Сергей",
+      "lastname": "Иванов"
+    },
+    {
+      "id": 4636,
+      "position": "Резервный судья",
+      "name": "Данил",
+      "lastname": "Набока"
+    },
+    {
+      "id": 4157,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Михаил",
+      "lastname": "Иванов"
+    },
+    {
+      "id": 4628,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Ярослав",
+      "lastname": "Калиниченко"
+    },
+    {
+      "id": 3914,
+      "position": "ВАР",
+      "name": "Павел",
+      "lastname": "Кукуян"
+    },
+    {
+      "id": 660,
+      "position": "АВАР",
+      "name": "Павел",
+      "lastname": "Шадыханов"
+    },
+    {
+      "id": 557,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Мацюра"
+    },
+    {
       "id": 461,
       "photo": "",
       "position": "Делегат",
@@ -23,19 +68,8 @@
   "stadium": "«Ростех Арена»",
   "stadiumLink": "",
   "attendance": null,
-  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_e50155beaba49d7feca96184da27ab3c_hd/17_1040054/1582dc81cf743e78c2afce43cf21cc9e/4949318484?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
-  "broadcastDescription": null,
-  "videoReviewLink": "",
-  "ticketsLink": "https://tickets.fc-baltika.ru/",
-  "winline": {
-    "outcome1": 1.74,
-    "outcome2": 3.55,
-    "outcome3": 5.2,
-    "link": "https://winline.ru/plus/17021116",
-    "erid": "2W5zFH9H34E"
-  },
   "comments": "",
-  "weather": "4.6°C, Облачно",
+  "weather": "3.4°C, Малооблачно",
   "documents": {
     "protocol": null,
     "report": null,

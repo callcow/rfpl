@@ -1,6 +1,51 @@
 {
   "matchOfficials": [
     {
+      "id": 3776,
+      "position": "Главный судья",
+      "name": "Евгений",
+      "lastname": "Буланов"
+    },
+    {
+      "id": 4630,
+      "position": "Резервный судья",
+      "name": "Никита",
+      "lastname": "Новиков"
+    },
+    {
+      "id": 1404,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Болотенков"
+    },
+    {
+      "id": 4624,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Максим",
+      "lastname": "Белокур"
+    },
+    {
+      "id": 660,
+      "position": "ВАР",
+      "name": "Павел",
+      "lastname": "Шадыханов"
+    },
+    {
+      "id": 3827,
+      "position": "АВАР",
+      "name": "Евгений",
+      "lastname": "Кукуляк"
+    },
+    {
+      "id": 767,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Игорь",
+      "lastname": "Писанко"
+    },
+    {
       "id": 503,
       "photo": "",
       "position": "Делегат",
@@ -23,19 +68,8 @@
   "stadium": "«Ахмат Арена»",
   "stadiumLink": "",
   "attendance": null,
-  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_67945f35a127ff0824c40df8e3378afd_hd/17_1040049/a1a9810f4b7fef925d0aa32ddf13b720/4949318447?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
-  "broadcastDescription": null,
-  "videoReviewLink": "",
-  "ticketsLink": "https://akhmat-arena.ru/2019-04-20-16-51-31?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
-  "winline": {
-    "outcome1": 1.71,
-    "outcome2": 4.3,
-    "outcome3": 4.3,
-    "link": "https://winline.ru/plus/17021111",
-    "erid": "2W5zFHJ9xJW"
-  },
   "comments": "",
-  "weather": "8.8°C, Облачно",
+  "weather": "7.8°C, Пасмурно",
   "documents": {
     "protocol": null,
     "report": null,

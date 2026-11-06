@@ -1,6 +1,52 @@
 {
   "matchOfficials": [
     {
+      "id": 4060,
+      "position": "Главный судья",
+      "name": "Инал",
+      "lastname": "Танашев"
+    },
+    {
+      "id": 4635,
+      "position": "Резервный судья",
+      "name": "Игорь",
+      "lastname": "Капленков"
+    },
+    {
+      "id": 4346,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Рустам",
+      "lastname": "Мухтаров"
+    },
+    {
+      "id": 3990,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Руслан",
+      "lastname": "Шекемов"
+    },
+    {
+      "id": 979,
+      "position": "ВАР",
+      "name": "Василий",
+      "lastname": "Казарцев"
+    },
+    {
+      "id": 4466,
+      "photo": "",
+      "position": "АВАР",
+      "name": "Вера",
+      "lastname": "Опейкина"
+    },
+    {
+      "id": 438,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Эдуард",
+      "lastname": "Малый"
+    },
+    {
       "id": 760,
       "photo": "",
       "position": "Делегат",
@@ -23,19 +69,8 @@
   "stadium": "«РЖД Арена»",
   "stadiumLink": "",
   "attendance": null,
-  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_50823dad6119db788f91acd0183e24b9_hd/17_1040046/ea8393f68989e6e49f5e3b77c41533c4/4949318424?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
-  "broadcastDescription": null,
-  "videoReviewLink": "",
-  "ticketsLink": "https://www.fclm.ru/tickets/",
-  "winline": {
-    "outcome1": 2.12,
-    "outcome2": 3.45,
-    "outcome3": 3.45,
-    "link": "https://winline.ru/plus/17021109",
-    "erid": "2W5zFGtS9nz"
-  },
   "comments": "",
-  "weather": "1.2°C, Пасмурно, небольшой снег с дождём",
+  "weather": "2°C, Пасмурно",
   "documents": {
     "protocol": null,
     "report": null,

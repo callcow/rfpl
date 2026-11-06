@@ -1,6 +1,51 @@
 {
   "matchOfficials": [
     {
+      "id": 4626,
+      "position": "Главный судья",
+      "name": "Станислав",
+      "lastname": "Матвеев"
+    },
+    {
+      "id": 4629,
+      "position": "Резервный судья",
+      "name": "Андрей",
+      "lastname": "Прокопов"
+    },
+    {
+      "id": 2799,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Максим",
+      "lastname": "Гаврилин"
+    },
+    {
+      "id": 3835,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Андрей",
+      "lastname": "Образко"
+    },
+    {
+      "id": 4038,
+      "position": "ВАР",
+      "name": "Артур",
+      "lastname": "Фёдоров"
+    },
+    {
+      "id": 3827,
+      "position": "АВАР",
+      "name": "Евгений",
+      "lastname": "Кукуляк"
+    },
+    {
+      "id": 421,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Французов"
+    },
+    {
       "id": 485,
       "photo": "",
       "position": "Делегат",
@@ -23,19 +68,8 @@
   "stadium": "«Газпром Арена»",
   "stadiumLink": "",
   "attendance": null,
-  "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_55d406e72d41c712e4d70b3fb71d600e_hd/17_1040053/f1a89f48a0fddf9db47e2ffbe7caf882/4949318479?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
-  "broadcastDescription": null,
-  "videoReviewLink": "",
-  "ticketsLink": "https://tickets.fc-zenit.ru/football/tickets/#zenit",
-  "winline": {
-    "outcome1": 1.35,
-    "outcome2": 5.2,
-    "outcome3": 8.4,
-    "link": "https://winline.ru/plus/17021115",
-    "erid": "2W5zFH1s6eW"
-  },
   "comments": "",
-  "weather": "6.5°C, Пасмурно",
+  "weather": "5.9°C, Пасмурно",
   "documents": {
     "protocol": null,
     "report": null,

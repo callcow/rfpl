@@ -11,7 +11,9 @@
       "goalH": null,
       "goalA": null,
       "city": "Москва",
-      "stadium": "«Лукойл Арена»"
+      "stadium": "«Лукойл Арена»",
+      "wid": 17021114,
+      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfNTFmMjkwMDMxZjljN2Y1ZDk3ZGIxMGVkYzVkNDczMzcvMTdfMTA0MDA1Mi8xMDgwcDUwZnBzLzIyNTk1YzY1MzU3Mjc2YmY4N2I5YmNjOWFkZWUwNTNkLzQ5NDk2MzkxMDEubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTRiYjZlM2UyZDczYTRjNzBkOTY3MGMzODc4ZGE0ZDZk"
     },
     {
       "id": 16339,
@@ -22,7 +24,9 @@
       "goalH": null,
       "goalA": null,
       "city": "Самара",
-      "stadium": "«Солидарность Самара Арена»"
+      "stadium": "«Солидарность Самара Арена»",
+      "wid": 17021113,
+      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfMDljYTI0NGY0ZWI5NTQwNjkwYzg0NTkwYmEwMWY3ZTgvMTdfMTA0MDA1MS8xMDgwcDUwZnBzLzJlMjcwZTVmZTA2MjVkOTYzYTE3ODU1ZTMxMDk5ZTE2LzQ5NDk2MzkxMDEubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTRiYjZlM2UyZDczYTRjNzBkOTY3MGMzODc4ZGE0ZDZk"
     },
     {
       "id": 16340,
@@ -33,7 +37,9 @@
       "goalH": null,
       "goalA": null,
       "city": "Калининград",
-      "stadium": "«Ростех Арена»"
+      "stadium": "«Ростех Арена»",
+      "wid": 17021116,
+      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfZTUwMTU1YmVhYmE0OWQ3ZmVjYTk2MTg0ZGEyN2FiM2MvMTdfMTA0MDA1NC8xMDgwcDUwZnBzL2ZjYzg2OGYzNDY3NDIzYjgyMGUwNTQ1YmUwMWMyZjIxLzQ5NDk2MzkxMDEubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTRiYjZlM2UyZDczYTRjNzBkOTY3MGMzODc4ZGE0ZDZk"
     },
     {
       "id": 16341,
@@ -44,7 +50,9 @@
       "goalH": null,
       "goalA": null,
       "city": "Москва",
-      "stadium": "«РЖД Арена»"
+      "stadium": "«РЖД Арена»",
+      "wid": 17021109,
+      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfNTA4MjNkYWQ2MTE5ZGI3ODhmOTFhY2QwMTgzZTI0YjkvMTdfMTA0MDA0Ni8xMDgwcDUwZnBzLzBiZjdhZDc1OGFkZTkxYmNkZjI5M2YwNDBiNGRmZTRkLzQ5NDk2MzkxMDEubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTRiYjZlM2UyZDczYTRjNzBkOTY3MGMzODc4ZGE0ZDZk"
     },
     {
       "id": 16342,
@@ -55,7 +63,9 @@
       "goalH": null,
       "goalA": null,
       "city": "Краснодар",
-      "stadium": "«Ozon Арена»"
+      "stadium": "«Ozon Арена»",
+      "wid": 17021112,
+      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfMzE5NGY5YmUyYmJiNjRiZWQ3ODFhNTYxODU2Y2NmY2EvMTdfMTA0MDA1MC8xMDgwcDUwZnBzLzA4MzY2Yzc4NDc3Zjk2ZDU4NGMxNzk0ZDAxZDgyNTgzLzQ5NDk2MzkxMDEubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTRiYjZlM2UyZDczYTRjNzBkOTY3MGMzODc4ZGE0ZDZk"
     },
     {
       "id": 16343,
@@ -66,7 +76,9 @@
       "goalH": null,
       "goalA": null,
       "city": "Грозный",
-      "stadium": "«Ахмат Арена»"
+      "stadium": "«Ахмат Арена»",
+      "wid": 17021111,
+      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfNjc5NDVmMzVhMTI3ZmYwODI0YzQwZGY4ZTMzNzhhZmQvMTdfMTA0MDA0OS8xMDgwcDUwZnBzL2MyN2E4MWIxMjUyYjI5NzcwMDliNzBkNGQ0ZTMyMmUyLzQ5NDk2MzkxMDEubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTRiYjZlM2UyZDczYTRjNzBkOTY3MGMzODc4ZGE0ZDZk"
     },
     {
       "id": 16344,
@@ -77,7 +89,9 @@
       "goalH": null,
       "goalA": null,
       "city": "Санкт-Петербург",
-      "stadium": "«Газпром Арена»"
+      "stadium": "«Газпром Арена»",
+      "wid": 17021115,
+      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfNTVkNDA2ZTcyZDQxYzcxMmU0ZDcwYjNmYjcxZDYwMGUvMTdfMTA0MDA1My8xMDgwcDUwZnBzLzE0ZDk3ZmM5MTBhYWM1ZDU2YjY4NDU0ODU1NjMyNjYwLzQ5NDk2MzkxMDEubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTRiYjZlM2UyZDczYTRjNzBkOTY3MGMzODc4ZGE0ZDZk"
     },
     {
       "id": 16345,
@@ -88,7 +102,9 @@
       "goalH": null,
       "goalA": null,
       "city": "Воронеж",
-      "stadium": "«Факел»"
+      "stadium": "«Факел»",
+      "wid": 17021110,
+      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfZmRiM2I3Nzk0YWI2ZmQ5MDQzZDQ3MWJmMWQ2NTM0ZDUvMTdfMTA0MDA0OC8xMDgwcDUwZnBzLzc4ZGIyYmZjOGNiYmVmM2U4N2ZhZTVlNTJjMjM0YTE5LzQ5NDk2MzkxMDEubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTRiYjZlM2UyZDczYTRjNzBkOTY3MGMzODc4ZGE0ZDZk"
     }
   ]
 }

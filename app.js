@@ -1755,6 +1755,22 @@ window.openMatchModal = async function(matchId) {
             };
         }
         
+        // Подмешиваем stream и wid из текущего тура / календаря
+        const tourMatch = (allMatchesData || []).find(x => x.id === matchId)
+                       || (allCalendarMatches || []).find(x => (x.matchId || x.id) === matchId);
+        if (tourMatch) {
+            if (tourMatch.stream) {
+                try {
+                    // Расшифровываем Base64 обратно в ссылку
+                    data.stream = atob(tourMatch.stream);
+                } catch (e) {
+                    console.warn("Ошибка дешифровки ссылки на трансляцию", e);
+                    data.stream = tourMatch.stream; // fallback
+                }
+            }
+            if (tourMatch.wid) data.wid = tourMatch.wid;
+        }
+
         // Если матч архивный (из папки archive), подгружаем справочник игроков из архива
         if (isFallback && !window._allPlayersArchive) {
             try {
@@ -1850,6 +1866,68 @@ window.openMatchModal = async function(matchId) {
                     ${lineupUrl ? `<a href="${lineupUrl}" target="_blank" rel="noopener noreferrer" class="doc-btn doc-lineup">📋 <span>Составы (PDF)</span></a>` : ''}
                 </div>
             `;
+        }
+
+        // Кнопка «Следить за трансляцией» с выбором качества и таймером
+        let streamButtonHtml = "";
+        if (data.stream) {
+            const is4k = data.stream.includes("/2160/");
+            const baseUrl = data.stream;
+            let qualities = [];
+
+            if (is4k) {
+                qualities = [
+                    { label: "2160 (4K)", url: baseUrl },
+                    { label: "1080", url: baseUrl.replace("/2160/", "/1080/") },
+                    { label: "720",  url: baseUrl.replace("/2160/", "/720/") },
+                    { label: "480",  url: baseUrl.replace("/2160/", "/480/") },
+                    { label: "360",  url: baseUrl.replace("/2160/", "/360/") },
+                ];
+            } else {
+                qualities = [
+                    { label: "1080", url: baseUrl },
+                    { label: "720",  url: baseUrl.replace("/1080p50fps/", "/720/") },
+                    { label: "480",  url: baseUrl.replace("/1080p50fps/", "/480/") },
+                    { label: "360",  url: baseUrl.replace("/1080p50fps/", "/360/") },
+                ];
+            }
+
+            const qualitiesHtml = qualities.map(q =>
+                `<a href="${q.url}" target="_blank" rel="noopener noreferrer" class="stream-quality-btn">${q.label}</a>`
+            ).join("");
+
+            // Проверяем окно доступности (за 15 минут до старта и до окончания матча)
+            const startMs = data.date ? normalizeMatchDate(data.date)?.getTime() : null;
+            const now = Date.now();
+            const isFinished = data.status === 4;
+            const isLive = data.status === 1 || data.status === 2 || data.status === 3;
+            const beforeStart = startMs ? (startMs - now) > 15 * 60 * 1000 : true;
+            const isInWindow = !isFinished && (isLive || !beforeStart);
+
+            if (isInWindow) {
+                // Кнопка доступна (матч идёт или до старта <= 15 мин)
+                streamButtonHtml = `
+                    <div class="modal-stream-block" data-stream-start="${startMs || ''}" data-stream-status="${data.status}">
+                        <button type="button" class="doc-btn doc-stream stream-toggle-btn" onclick="this.closest('.modal-stream-block').classList.toggle('open')">
+                            <span class="stream-btn-label"><span>Следить за матчем</span></span>
+                            <svg class="stream-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </button>
+                        <div class="stream-quality-list">
+                            ${qualitiesHtml}
+                        </div>
+                    </div>
+                `;
+            } else if (!isFinished && startMs) {
+                // Матч ещё не начался и до старта больше 15 минут — показываем таймер
+                streamButtonHtml = `
+                    <div class="modal-stream-block" data-stream-start="${startMs}" data-stream-status="${data.status}">
+                        <button type="button" class="doc-btn doc-stream stream-toggle-btn" disabled onclick="return false;">
+                            <span class="stream-btn-label"><span class="stream-timer">До трансляции...</span></span>
+                        </button>
+                    </div>
+                `;
+            }
+            // Если isFinished — кнопка не выводится вовсе
         }
 
         // Предзагрузка событий (чтобы не делать 2 запроса)
@@ -2842,11 +2920,12 @@ window.openMatchModal = async function(matchId) {
                             </div>
                         ` : ''}
                         
-                        ${officialsHtml ? `<div class="officials-wrap">${officialsHtml}</div>` : ''}
-                    </div>
-                    
-                    ${documentsHtml}
+                            ${officialsHtml ? `<div class="officials-wrap">${officialsHtml}</div>` : ''}
                 </div>
+                
+                ${documentsHtml}
+                ${streamButtonHtml}
+            </div>
 
                 ${!isFutureNoDate && hasLineups ? `<div id="match-tab-lineups" class="match-tab-pane">${lineupsHtml}</div>` : ''}
                 ${!isFutureNoDate && hasStats ? `<div id="match-tab-stats" class="match-tab-pane">${statsHtml}</div>` : ''}
@@ -2882,10 +2961,99 @@ window.openMatchModal = async function(matchId) {
         if (window._matchTimer) clearInterval(window._matchTimer);
         if (window._matchReloadTimer) clearInterval(window._matchReloadTimer);
         
+        // Таймер обратного отсчёта для кнопки трансляции (работает независимо от статуса матча)
+        if (window._streamTimer) clearInterval(window._streamTimer);
+        
+        const updateStreamTimer = () => {
+            const block = document.querySelector('#match-modal .modal-stream-block');
+            if (!block) {
+                if (window._streamTimer) clearInterval(window._streamTimer);
+                window._streamTimer = null;
+                return;
+            }
+            const startMs = parseInt(block.dataset.streamStart || '0', 10);
+            const status = parseInt(block.dataset.streamStatus || '0', 10);
+            const timerEl = block.querySelector('.stream-timer');
+            
+            // Если нет таймера (например, он уже активен или завершен) — выходим
+            if (!startMs || !timerEl) return;
+
+            const now = Date.now();
+            const diff = startMs - now;
+
+            // Матч уже завершён — скрываем кнопку
+            if (status === 4) {
+                block.remove();
+                if (window._streamTimer) clearInterval(window._streamTimer);
+                window._streamTimer = null;
+                return;
+            }
+
+            // Если до старта <= 15 минут — превращаем кнопку в активную
+            if (diff <= 15 * 60 * 1000) {
+                if (window._streamTimer) clearInterval(window._streamTimer);
+                window._streamTimer = null;
+                const modal = document.getElementById('match-modal');
+                if (modal && modal.classList.contains('active')) {
+                    const btn = block.querySelector('.stream-toggle-btn');
+                    if (btn) {
+                        btn.disabled = false;
+                        btn.setAttribute('onclick', "this.closest('.modal-stream-block').classList.toggle('open')");
+                        const label = btn.querySelector('.stream-btn-label');
+                        if (label) {
+                            label.innerHTML = `<span>Следить за матчем</span>`;
+                        }
+                        if (!block.querySelector('.stream-quality-list')) {
+                            const streamUrl = data.stream;
+                            const is4k = streamUrl.includes("/2160/");
+                            let qualities = [];
+                            if (is4k) {
+                                qualities = [
+                                    { label: "2160 (4K)", url: streamUrl },
+                                    { label: "1080", url: streamUrl.replace("/2160/", "/1080/") },
+                                    { label: "720",  url: streamUrl.replace("/2160/", "/720/") },
+                                    { label: "480",  url: streamUrl.replace("/2160/", "/480/") },
+                                    { label: "360",  url: streamUrl.replace("/2160/", "/360/") },
+                                ];
+                            } else {
+                                qualities = [
+                                    { label: "1080", url: streamUrl },
+                                    { label: "720",  url: streamUrl.replace("/1080p50fps/", "/720/") },
+                                    { label: "480",  url: streamUrl.replace("/1080p50fps/", "/480/") },
+                                    { label: "360",  url: streamUrl.replace("/1080p50fps/", "/360/") },
+                                ];
+                            }
+                            const qualitiesHtml = qualities.map(q =>
+                                `<a href="${q.url}" target="_blank" rel="noopener noreferrer" class="stream-quality-btn">${q.label}</a>`
+                            ).join("");
+                            const list = document.createElement('div');
+                            list.className = 'stream-quality-list';
+                            list.innerHTML = qualitiesHtml;
+                            block.appendChild(list);
+                        }
+                    }
+                }
+                return;
+            }
+
+            const totalSec = Math.max(0, Math.floor(diff / 1000));
+            const h = Math.floor(totalSec / 3600);
+            const m = Math.floor((totalSec % 3600) / 60);
+            const s = totalSec % 60;
+            const pad = n => String(n).padStart(2, '0');
+            timerEl.textContent = `До начала матча: ${pad(h)}:${pad(m)}:${pad(s)}`;
+        };
+
+        // Вызываем сразу (чтобы убрать задержку в 1 сек) и запускаем интервал
+        updateStreamTimer();
+        if (document.querySelector('#match-modal .stream-timer')) {
+            window._streamTimer = setInterval(updateStreamTimer, 1000);
+        }
+
+               // ─── Таймер live-минуты (только для идущих матчей) ───
         if (data && data.status !== 0 && data.status !== 4) {
-            // 1) Тик минуты каждую секунду
+            if (window._matchTimer) clearInterval(window._matchTimer);
             window._matchTimer = setInterval(() => {
-                // Берём актуальный объект матча из кэша — dateStartStatus мог обновиться
                 const liveMatch =
                     (allMatchesData && allMatchesData.find(x => x.id === matchId)) ||
                     (allCalendarMatches && allCalendarMatches.find(x => (x.matchId || x.id) === matchId)) ||
@@ -2909,65 +3077,65 @@ window.openMatchModal = async function(matchId) {
                     }
                 }
             }, 1000);
-
-                        // 2) Периодическая перезагрузка данных матча (счёт, события, статистика)
-            const LIVE_RELOAD_MS = 120000; // Обновляем раз в 2 минуты (синхронизация с GitHub Actions)
-            const currentMatchId = matchId;
-            let lastSnapshot = JSON.stringify({
-                h: data.goalH, a: data.goalA, s: data.status,
-                ev: (matchEvents || []).length, bc: (matchBroadcast || []).length
-            });
-
-            window._matchReloadTimer = setInterval(async () => {
-                const modal = document.getElementById('match-modal');
-                if (!modal || !modal.classList.contains('active')) return;
-
-                try {
-                    const detailRes = await fetch(`./data/frontend/matches/match_${currentMatchId}.json`, { cache: 'no-store' });
-                    if (!detailRes.ok) return;
-                    const freshDetail = await detailRes.json();
-
-                    let freshProtocol = [];
-                    let freshBroadcast = [];
-                    try {
-                        const evRes = await fetch(`./data/frontend/matches/events_${currentMatchId}.json`, { cache: 'no-store' });
-                        if (evRes.ok) {
-                            const ev = await evRes.json();
-                            freshProtocol = ev.protocol || [];
-                            freshBroadcast = ev.broadcast || [];
-                        }
-                    } catch (_) {}
-
-                    const snapshot = JSON.stringify({
-                        h: freshDetail.goalH, a: freshDetail.goalA, s: freshDetail.status,
-                        ev: freshProtocol.length, bc: freshBroadcast.length
-                    });
-
-                    // Если ничего не изменилось — не трогаем DOM
-                    if (snapshot === lastSnapshot) return;
-                    lastSnapshot = snapshot;
-
-                    // Запоминаем активную вкладку
-                    const activeTabBtn = document.querySelector('#match-modal .match-tab-btn.active');
-                    let activeTab = 'overview';
-                    if (activeTabBtn) {
-                        const m = activeTabBtn.getAttribute('onclick')?.match(/switchMatchTab\('(\w+)'/);
-                        if (m) activeTab = m[1];
-                    }
-
-                    // Перезагружаем модалку (это обновит счёт, события, статистику, вкладки)
-                    await openMatchModal(currentMatchId);
-
-                    // Восстанавливаем активную вкладку
-                    setTimeout(() => {
-                        const btn = document.querySelector(`#match-modal .match-tab-btn[onclick*="switchMatchTab('${activeTab}'"]`);
-                        if (btn) switchMatchTab(activeTab, { target: btn });
-                    }, 50);
-                } catch (e) {
-                    // тихо игнорируем
-                }
-            }, LIVE_RELOAD_MS);
         }
+
+        // 2) Периодическая перезагрузка данных матча (счёт, события, статистика)
+        const LIVE_RELOAD_MS = 120000; // Обновляем раз в 2 минуты (синхронизация с GitHub Actions)
+        const currentMatchId = matchId;
+        let lastSnapshot = JSON.stringify({
+            h: data.goalH, a: data.goalA, s: data.status,
+            ev: (matchEvents || []).length, bc: (matchBroadcast || []).length
+        });
+
+        window._matchReloadTimer = setInterval(async () => {
+            const modal = document.getElementById('match-modal');
+            if (!modal || !modal.classList.contains('active')) return;
+
+            try {
+                const detailRes = await fetch(`./data/frontend/matches/match_${currentMatchId}.json`, { cache: 'no-store' });
+                if (!detailRes.ok) return;
+                const freshDetail = await detailRes.json();
+
+                let freshProtocol = [];
+                let freshBroadcast = [];
+                try {
+                    const evRes = await fetch(`./data/frontend/matches/events_${currentMatchId}.json`, { cache: 'no-store' });
+                    if (evRes.ok) {
+                        const ev = await evRes.json();
+                        freshProtocol = ev.protocol || [];
+                        freshBroadcast = ev.broadcast || [];
+                    }
+                } catch (_) {}
+
+                const snapshot = JSON.stringify({
+                    h: freshDetail.goalH, a: freshDetail.goalA, s: freshDetail.status,
+                    ev: freshProtocol.length, bc: freshBroadcast.length
+                });
+
+                // Если ничего не изменилось — не трогаем DOM
+                if (snapshot === lastSnapshot) return;
+                lastSnapshot = snapshot;
+
+                // Запоминаем активную вкладку
+                const activeTabBtn = document.querySelector('#match-modal .match-tab-btn.active');
+                let activeTab = 'overview';
+                if (activeTabBtn) {
+                    const m = activeTabBtn.getAttribute('onclick')?.match(/switchMatchTab\('(\w+)'/);
+                    if (m) activeTab = m[1];
+                }
+
+                // Перезагружаем модалку (это обновит счёт, события, статистику, вкладки)
+                await openMatchModal(currentMatchId);
+
+                // Восстанавливаем активную вкладку
+                setTimeout(() => {
+                    const btn = document.querySelector(`#match-modal .match-tab-btn[onclick*="switchMatchTab('${activeTab}'"]`);
+                    if (btn) switchMatchTab(activeTab, { target: btn });
+                }, 50);
+            } catch (e) {
+                // тихо игнорируем
+            }
+        }, LIVE_RELOAD_MS);
 
     } catch (e) {
         console.error(e);
@@ -3160,6 +3328,11 @@ window.closeMatchModal = function(event, fromPopstate = false) {
     if (window._matchReloadTimer) {
         clearInterval(window._matchReloadTimer);
         window._matchReloadTimer = null;
+    }
+    // Останавливаем таймер трансляции
+    if (window._streamTimer) {
+        clearInterval(window._streamTimer);
+        window._streamTimer = null;
     }
 };
 
