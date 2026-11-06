@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-CURRENT_DIR = Path("data/current")
+CURRENT_DIR = Path("data/frontend")
 NEXT_RUN_FILE = CURRENT_DIR / "next_run.json"
 
 # ─── Настройки «умного» расписания ───
@@ -98,40 +98,75 @@ def compute_next_run() -> dict:
         }
 
     # 4. Окно составов (70 мин) — будим РОВНО ОДИН раз
-    #    Признак «составы уже тянули» — флаг lineups_fetched_at в current_tour.json
     if delta <= LINEUPS_LEAD_SEC:
-        fetched = tour.get("lineups_fetched_at", {})
-        already = fetched.get(str(soonest_match["id"]))
-        if not already:
-            # Ещё не тянули — будим прямо сейчас
+        window_for = (soonest_start - timedelta(seconds=LINEUPS_LEAD_SEC)).isoformat()
+
+        # читаем next_run.json, чтобы понять, будили ли уже для этого окна
+        last_window = None
+        if NEXT_RUN_FILE.exists():
+            try:
+                existing = json.loads(NEXT_RUN_FILE.read_text(encoding="utf-8"))
+                last_window = existing.get("lineups_window_for")
+            except Exception:
+                last_window = None
+
+        if last_window != window_for:
+            # Ещё не будили для этого окна — будим сейчас И запоминаем окно
             return {
                 "next_run": now.isoformat(),
                 "reason": f"Пора тянуть составы для матча {soonest_match['id']} "
                           f"(старт {soonest_start.isoformat()})",
                 "updated_at": now.isoformat(),
+                "lineups_window_for": window_for,
             }
-        # Уже тянули — ждём 10-минутного окна
+
+        # Уже будили — ждём 10-минутного окна
         wake_at = soonest_start - timedelta(seconds=PRE_MATCH_WINDOW_SEC)
         return {
             "next_run": wake_at.isoformat(),
-            "reason": f"Составы уже получены, ждём 10-мин окна для матча {soonest_match['id']}",
+            "reason": f"Составы уже тянули, ждём 10-мин окна для матча {soonest_match['id']}",
             "updated_at": now.isoformat(),
+            "lineups_window_for": window_for,
         }
 
     # 5. До матча ещё далеко (> 70 мин) — планируем пробуждение за 70 мин до старта
     wake_at = soonest_start - timedelta(seconds=LINEUPS_LEAD_SEC)
-    return {
+    window_for = wake_at.isoformat()
+
+    # сохраняем lineups_window_for из старого next_run.json, если он относится к этому же окну
+    last_window = None
+    if NEXT_RUN_FILE.exists():
+        try:
+            existing = json.loads(NEXT_RUN_FILE.read_text(encoding="utf-8"))
+            last_window = existing.get("lineups_window_for")
+        except Exception:
+            last_window = None
+
+    result = {
         "next_run": wake_at.isoformat(),
         "reason": f"Ждём окна составов для матча {soonest_match['id']} "
                   f"(старт {soonest_start.isoformat()})",
         "updated_at": now.isoformat(),
     }
+    if last_window == window_for:
+        result["lineups_window_for"] = last_window
+    return result
 
 
 def write_next_run():
     """Пишет next_run.json в data/current."""
     try:
         data = compute_next_run()
+
+        # сохраняем lineups_window_for из старого файла, если новый его не вернул
+        if "lineups_window_for" not in data and NEXT_RUN_FILE.exists():
+            try:
+                existing = json.loads(NEXT_RUN_FILE.read_text(encoding="utf-8"))
+                if "lineups_window_for" in existing:
+                    data["lineups_window_for"] = existing["lineups_window_for"]
+            except Exception:
+                pass
+
         NEXT_RUN_FILE.parent.mkdir(parents=True, exist_ok=True)
         NEXT_RUN_FILE.write_text(
             json.dumps(data, ensure_ascii=False, indent=2),
