@@ -2,14 +2,17 @@ name: Update Premierliga Data & Deploy
 
 on:
   schedule:
-    - cron: "0 7 * * 1"
-    - cron: "0 20 * * 4"
-  workflow_dispatch:
-  repository_dispatch:
+    - cron: "0 7 * * 1"    # Понедельник 10:00 МСК = 07:00 UTC
+    - cron: "0 20 * * 4"   # Четверг 23:00 МСК = 20:00 UTC
+  workflow_dispatch:        # ручной запуск + Google Script
+  repository_dispatch:      # ← для Google Script
     types: [scheduled-check, manual-trigger]
 
+# Важно: для деплоя на Pages нужны эти разрешения
 permissions:
-  contents: write # Этого достаточно для пуша в gh-pages
+  contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: update-premierliga
@@ -49,13 +52,16 @@ jobs:
             git push
           fi
 
-      # === ЗАМЕНА: Деплой через ветку gh-pages ===
-      - name: Deploy to GitHub Pages (via gh-pages branch)
-        uses: peaceiris/actions-gh-pages@v4
+      # === НОВЫЕ ШАГИ ДЛЯ ДЕПЛОЯ ===
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .   # Укажите папку, которую нужно опубликовать (например, './public' или '.')
-          publish_branch: gh-pages # Ветка, куда будут пушиться файлы
-          # Опционально: чтобы избежать ошибок с правами, можно указать пользователя
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          # Укажите папку, которую нужно опубликовать (например, ./dist, ./public или корень ".")
+          path: '.' 
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
