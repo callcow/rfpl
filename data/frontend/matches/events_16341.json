@@ -1,4 +1,22 @@
 {
   "protocol": [],
-  "broadcast": []
+  "broadcast": [
+    {
+      "id": 65915,
+      "type": "GamePeriodOpen",
+      "action": null,
+      "time": 0,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    }
+  ]
 }

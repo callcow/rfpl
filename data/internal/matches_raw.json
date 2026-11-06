@@ -2657,12 +2657,12 @@
         "id": 16341,
         "clubH": 5,
         "clubA": 4,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "date": "2026-11-06UTC19:30:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 1,
+        "dateStartStatus": "2026-11-06UTC19:31:30",
         "city": "Москва",
         "stadium": "«РЖД Арена»",
         "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_50823dad6119db788f91acd0183e24b9_hd/17_1040046/ea8393f68989e6e49f5e3b77c41533c4/4949318424?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
@@ -2680,8 +2680,8 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": false,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 0,
+        "fairplayClub2": 0
       },
       {
         "id": 16342,
