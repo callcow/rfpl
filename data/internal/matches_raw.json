@@ -2672,9 +2672,9 @@
         "comments": "",
         "tvChannel1": 2,
         "tvChannel2": 0,
-        "countVideos": null,
+        "countVideos": 1,
         "winlineMatchTour": false,
-        "fairplayClub1": 1,
+        "fairplayClub1": 2,
         "fairplayClub2": 2
       },
       {
@@ -2693,9 +2693,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://fckrasnodar.ru/stadium/tickets/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage#grafik-tab",
         "winline": {
-          "outcome1": 2.16,
+          "outcome1": 2.21,
           "outcome2": 3.55,
-          "outcome3": 3.25,
+          "outcome3": 3.15,
           "link": "https://winline.ru/plus/17021112",
           "erid": "2W5zFGTFNSv"
         },
@@ -2723,9 +2723,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://akhmat-arena.ru/2019-04-20-16-51-31?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
         "winline": {
-          "outcome1": 1.75,
+          "outcome1": 1.78,
           "outcome2": 4,
-          "outcome3": 4.4,
+          "outcome3": 4.2,
           "link": "https://winline.ru/plus/17021111",
           "erid": "2W5zFHJ9xJW"
         },
