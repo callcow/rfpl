@@ -17,11 +17,13 @@ CURRENT_DIR = Path("data/current")
 NEXT_RUN_FILE = CURRENT_DIR / "next_run.json"
 
 # ─── Настройки «умного» расписания ───
-# Сколько секунд до старта матча начинать частые проверки
+# За сколько до старта ОДИН раз будим скрипт, чтобы подтянуть составы
+LINEUPS_LEAD_SEC = 70 * 60          # 70 минут
+# За сколько до старта начинаем частые проверки (live-режим)
 PRE_MATCH_WINDOW_SEC = 10 * 60      # 10 минут
-# Как часто проверять во время матча (в секундах)
-LIVE_INTERVAL_SEC = 3 * 60          # 3 минут
-# Как часто проверять после завершения матча (чтобы поймать обновление статуса)
+# Как часто проверять во время матча и в предматчевом окне
+LIVE_INTERVAL_SEC = 3 * 60          # 3 минуты
+# Как часто проверять после завершения матча
 POST_MATCH_WINDOW_SEC = 20 * 60     # 20 минут
 # Как часто проверять «на всякий случай», когда матчей нет
 IDLE_INTERVAL_HOURS = 6
@@ -37,7 +39,11 @@ def parse_match_date(s: str) -> datetime:
 def compute_next_run() -> dict:
     """
     Смотрит current_tour.json и решает, когда в следующий раз будить GitHub Actions.
-    Возвращает dict для записи в next_run.json.
+
+    Логика на каждый будущий матч:
+      1) ОДИН раз за LINEUPS_LEAD_SEC (70 мин) до старта — тянем составы.
+      2) Затем тишина до PRE_MATCH_WINDOW_SEC (10 мин) до старта.
+      3) С 10-минутного окна и до конца матча — частые проверки каждые LIVE_INTERVAL_SEC.
     """
     tour_file = CURRENT_DIR / "current_tour.json"
     if not tour_file.exists():
@@ -51,70 +57,73 @@ def compute_next_run() -> dict:
     matches = tour.get("matches", [])
     now = datetime.now(timezone.utc)
 
-    # 1. Есть ли live-матч (статус 1/2/3)?
+    # 1. Есть live-матч (статус 1/2/3) — частые проверки
     for m in matches:
         if m.get("status") in (1, 2, 3):
-            next_dt = now + timedelta(seconds=LIVE_INTERVAL_SEC)
             return {
-                "next_run": next_dt.isoformat(),
+                "next_run": (now + timedelta(seconds=LIVE_INTERVAL_SEC)).isoformat(),
                 "reason": f"Матч {m['id']} в прямом эфире",
                 "updated_at": now.isoformat(),
             }
 
-    # 2. Есть ли матч, который скоро начнётся (в пределах PRE_MATCH_WINDOW_SEC)?
-    soonest_start = None
-    soonest_match = None
-    for m in matches:
-        if m.get("status") != 0:
-            continue
-        try:
-            start = parse_match_date(m["date"]).astimezone(timezone.utc)
-        except Exception:
-            continue
-        delta = (start - now).total_seconds()
-        # Матч начнётся в пределах 10 минут или уже должен был начаться
-        if -POST_MATCH_WINDOW_SEC <= delta <= PRE_MATCH_WINDOW_SEC:
-            if soonest_start is None or start < soonest_start:
-                soonest_start = start
-                soonest_match = m
-
-    if soonest_start is not None:
-        next_dt = now + timedelta(seconds=LIVE_INTERVAL_SEC)
-        return {
-            "next_run": next_dt.isoformat(),
-            "reason": f"Матч {soonest_match['id']} начнётся {soonest_start.isoformat()}",
-            "updated_at": now.isoformat(),
-        }
-
-    # 3. Есть ли ближайший будущий матч — ставим проверку за 10 минут до старта
-    future_matches = []
+    # 2. Собираем будущие матчи (status == 0)
+    future = []
     for m in matches:
         if m.get("status") != 0:
             continue
         try:
             start = parse_match_date(m["date"]).astimezone(timezone.utc)
             if start > now:
-                future_matches.append((start, m))
+                future.append((start, m))
         except Exception:
             continue
 
-    if future_matches:
-        future_matches.sort(key=lambda x: x[0])
-        soonest_start, soonest_match = future_matches[0]
-        # Будим за PRE_MATCH_WINDOW_SEC до старта (минимум через 5 минут)
-        wake_at = max(now + timedelta(seconds=LIVE_INTERVAL_SEC),
-                      soonest_start - timedelta(seconds=PRE_MATCH_WINDOW_SEC))
+    if not future:
         return {
-            "next_run": wake_at.isoformat(),
-            "reason": f"Ближайший матч {soonest_match['id']} в {soonest_start.isoformat()}",
+            "next_run": (now + timedelta(hours=IDLE_INTERVAL_HOURS)).isoformat(),
+            "reason": "Нет будущих матчей в текущем туре",
             "updated_at": now.isoformat(),
         }
 
-    # 4. Матчей нет — проверяем раз в IDLE_INTERVAL_HOURS
-    next_dt = now + timedelta(hours=IDLE_INTERVAL_HOURS)
+    future.sort(key=lambda x: x[0])
+    soonest_start, soonest_match = future[0]
+    delta = (soonest_start - now).total_seconds()
+
+    # 3. Предматчевое окно (10 мин) или матч уже должен был начаться, но статус ещё 0
+    if delta <= PRE_MATCH_WINDOW_SEC:
+        return {
+            "next_run": (now + timedelta(seconds=LIVE_INTERVAL_SEC)).isoformat(),
+            "reason": f"Предматчевое окно: матч {soonest_match['id']} через {int(delta/60)} мин",
+            "updated_at": now.isoformat(),
+        }
+
+    # 4. Окно составов (70 мин) — будим РОВНО ОДИН раз
+    #    Признак «составы уже тянули» — флаг lineups_fetched_at в current_tour.json
+    if delta <= LINEUPS_LEAD_SEC:
+        fetched = tour.get("lineups_fetched_at", {})
+        already = fetched.get(str(soonest_match["id"]))
+        if not already:
+            # Ещё не тянули — будим прямо сейчас
+            return {
+                "next_run": now.isoformat(),
+                "reason": f"Пора тянуть составы для матча {soonest_match['id']} "
+                          f"(старт {soonest_start.isoformat()})",
+                "updated_at": now.isoformat(),
+            }
+        # Уже тянули — ждём 10-минутного окна
+        wake_at = soonest_start - timedelta(seconds=PRE_MATCH_WINDOW_SEC)
+        return {
+            "next_run": wake_at.isoformat(),
+            "reason": f"Составы уже получены, ждём 10-мин окна для матча {soonest_match['id']}",
+            "updated_at": now.isoformat(),
+        }
+
+    # 5. До матча ещё далеко (> 70 мин) — планируем пробуждение за 70 мин до старта
+    wake_at = soonest_start - timedelta(seconds=LINEUPS_LEAD_SEC)
     return {
-        "next_run": next_dt.isoformat(),
-        "reason": "Нет будущих матчей в текущем туре",
+        "next_run": wake_at.isoformat(),
+        "reason": f"Ждём окна составов для матча {soonest_match['id']} "
+                  f"(старт {soonest_start.isoformat()})",
         "updated_at": now.isoformat(),
     }
 
