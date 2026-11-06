@@ -2183,6 +2183,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65999,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": 3,
+      "player1": {
+        "id": 16678,
+        "name": "Николай",
+        "lastname": "Комличенко",
+        "nickname": "",
+        "keyword": "Komlichenko-Nikolai",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66000,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 90,
+      "extra": 3,
+      "player1": {
+        "id": 16678,
+        "name": "Николай",
+        "lastname": "Комличенко",
+        "nickname": "",
+        "keyword": "Komlichenko-Nikolai",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
