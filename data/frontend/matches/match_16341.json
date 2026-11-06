@@ -70,11 +70,10 @@
   "stadiumLink": "",
   "attendance": null,
   "comments": "",
-  "weather": "2°C, Пасмурно",
+  "weather": "1.3°C, Пасмурно",
   "documents": {
     "protocol": null,
     "report": null,
-    "lineup": null,
     "preview": null
   },
   "protocol": false,
