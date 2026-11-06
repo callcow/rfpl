@@ -1247,11 +1247,11 @@
       {
         "id": 16341,
         "date": "2026-11-06UTC19:30:00",
-        "status": 0,
+        "status": 4,
         "clubH": 5,
         "clubA": 4,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 1,
         "city": "Москва",
         "stadium": "«РЖД Арена»"
       },
