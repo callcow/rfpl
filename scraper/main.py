@@ -1,4 +1,3 @@
-"""Запуск импорта. Возвращает exit code для GitHub Actions."""
 import json
 import logging
 import sys
@@ -13,17 +12,15 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-CURRENT_DIR = Path("data/frontend")
+CURRENT_DIR = Path("data/current")
 NEXT_RUN_FILE = CURRENT_DIR / "next_run.json"
 
 # ─── Настройки «умного» расписания ───
-# За сколько до старта ОДИН раз будим скрипт, чтобы подтянуть составы
-LINEUPS_LEAD_SEC = 70 * 60          # 70 минут
-# За сколько до старта начинаем частые проверки (live-режим)
+# Сколько секунд до старта матча начинать частые проверки
 PRE_MATCH_WINDOW_SEC = 10 * 60      # 10 минут
-# Как часто проверять во время матча и в предматчевом окне
-LIVE_INTERVAL_SEC = 3 * 60          # 3 минуты
-# Как часто проверять после завершения матча
+# Как часто проверять во время матча (в секундах)
+LIVE_INTERVAL_SEC = 3 * 60          # 3 минут
+# Как часто проверять после завершения матча (чтобы поймать обновление статуса)
 POST_MATCH_WINDOW_SEC = 20 * 60     # 20 минут
 # Как часто проверять «на всякий случай», когда матчей нет
 IDLE_INTERVAL_HOURS = 6
@@ -39,11 +36,7 @@ def parse_match_date(s: str) -> datetime:
 def compute_next_run() -> dict:
     """
     Смотрит current_tour.json и решает, когда в следующий раз будить GitHub Actions.
-
-    Логика на каждый будущий матч:
-      1) ОДИН раз за LINEUPS_LEAD_SEC (70 мин) до старта — тянем составы.
-      2) Затем тишина до PRE_MATCH_WINDOW_SEC (10 мин) до старта.
-      3) С 10-минутного окна и до конца матча — частые проверки каждые LIVE_INTERVAL_SEC.
+    Возвращает dict для записи в next_run.json.
     """
     tour_file = CURRENT_DIR / "current_tour.json"
     if not tour_file.exists():
@@ -57,116 +50,78 @@ def compute_next_run() -> dict:
     matches = tour.get("matches", [])
     now = datetime.now(timezone.utc)
 
-    # 1. Есть live-матч (статус 1/2/3) — частые проверки
+    # 1. Есть ли live-матч (статус 1/2/3)?
     for m in matches:
         if m.get("status") in (1, 2, 3):
+            next_dt = now + timedelta(seconds=LIVE_INTERVAL_SEC)
             return {
-                "next_run": (now + timedelta(seconds=LIVE_INTERVAL_SEC)).isoformat(),
+                "next_run": next_dt.isoformat(),
                 "reason": f"Матч {m['id']} в прямом эфире",
                 "updated_at": now.isoformat(),
             }
 
-    # 2. Собираем будущие матчи (status == 0)
-    future = []
+    # 2. Есть ли матч, который скоро начнётся (в пределах PRE_MATCH_WINDOW_SEC)?
+    soonest_start = None
+    soonest_match = None
+    for m in matches:
+        if m.get("status") != 0:
+            continue
+        try:
+            start = parse_match_date(m["date"]).astimezone(timezone.utc)
+        except Exception:
+            continue
+        delta = (start - now).total_seconds()
+        # Матч начнётся в пределах 10 минут или уже должен был начаться
+        if -POST_MATCH_WINDOW_SEC <= delta <= PRE_MATCH_WINDOW_SEC:
+            if soonest_start is None or start < soonest_start:
+                soonest_start = start
+                soonest_match = m
+
+    if soonest_start is not None:
+        next_dt = now + timedelta(seconds=LIVE_INTERVAL_SEC)
+        return {
+            "next_run": next_dt.isoformat(),
+            "reason": f"Матч {soonest_match['id']} начнётся {soonest_start.isoformat()}",
+            "updated_at": now.isoformat(),
+        }
+
+    # 3. Есть ли ближайший будущий матч — ставим проверку за 10 минут до старта
+    future_matches = []
     for m in matches:
         if m.get("status") != 0:
             continue
         try:
             start = parse_match_date(m["date"]).astimezone(timezone.utc)
             if start > now:
-                future.append((start, m))
+                future_matches.append((start, m))
         except Exception:
             continue
 
-    if not future:
-        return {
-            "next_run": (now + timedelta(hours=IDLE_INTERVAL_HOURS)).isoformat(),
-            "reason": "Нет будущих матчей в текущем туре",
-            "updated_at": now.isoformat(),
-        }
-
-    future.sort(key=lambda x: x[0])
-    soonest_start, soonest_match = future[0]
-    delta = (soonest_start - now).total_seconds()
-
-    # 3. Предматчевое окно (10 мин) или матч уже должен был начаться, но статус ещё 0
-    if delta <= PRE_MATCH_WINDOW_SEC:
-        return {
-            "next_run": (now + timedelta(seconds=LIVE_INTERVAL_SEC)).isoformat(),
-            "reason": f"Предматчевое окно: матч {soonest_match['id']} через {int(delta/60)} мин",
-            "updated_at": now.isoformat(),
-        }
-
-    # 4. Окно составов (70 мин) — будим РОВНО ОДИН раз
-    if delta <= LINEUPS_LEAD_SEC:
-        window_for = (soonest_start - timedelta(seconds=LINEUPS_LEAD_SEC)).isoformat()
-
-        # читаем next_run.json, чтобы понять, будили ли уже для этого окна
-        last_window = None
-        if NEXT_RUN_FILE.exists():
-            try:
-                existing = json.loads(NEXT_RUN_FILE.read_text(encoding="utf-8"))
-                last_window = existing.get("lineups_window_for")
-            except Exception:
-                last_window = None
-
-        if last_window != window_for:
-            # Ещё не будили для этого окна — будим сейчас И запоминаем окно
-            return {
-                "next_run": now.isoformat(),
-                "reason": f"Пора тянуть составы для матча {soonest_match['id']} "
-                          f"(старт {soonest_start.isoformat()})",
-                "updated_at": now.isoformat(),
-                "lineups_window_for": window_for,
-            }
-
-        # Уже будили — ждём 10-минутного окна
-        wake_at = soonest_start - timedelta(seconds=PRE_MATCH_WINDOW_SEC)
+    if future_matches:
+        future_matches.sort(key=lambda x: x[0])
+        soonest_start, soonest_match = future_matches[0]
+        # Будим за PRE_MATCH_WINDOW_SEC до старта (минимум через 5 минут)
+        wake_at = max(now + timedelta(seconds=LIVE_INTERVAL_SEC),
+                      soonest_start - timedelta(seconds=PRE_MATCH_WINDOW_SEC))
         return {
             "next_run": wake_at.isoformat(),
-            "reason": f"Составы уже тянули, ждём 10-мин окна для матча {soonest_match['id']}",
+            "reason": f"Ближайший матч {soonest_match['id']} в {soonest_start.isoformat()}",
             "updated_at": now.isoformat(),
-            "lineups_window_for": window_for,
         }
 
-    # 5. До матча ещё далеко (> 70 мин) — планируем пробуждение за 70 мин до старта
-    wake_at = soonest_start - timedelta(seconds=LINEUPS_LEAD_SEC)
-    window_for = wake_at.isoformat()
-
-    # сохраняем lineups_window_for из старого next_run.json, если он относится к этому же окну
-    last_window = None
-    if NEXT_RUN_FILE.exists():
-        try:
-            existing = json.loads(NEXT_RUN_FILE.read_text(encoding="utf-8"))
-            last_window = existing.get("lineups_window_for")
-        except Exception:
-            last_window = None
-
-    result = {
-        "next_run": wake_at.isoformat(),
-        "reason": f"Ждём окна составов для матча {soonest_match['id']} "
-                  f"(старт {soonest_start.isoformat()})",
+    # 4. Матчей нет — проверяем раз в IDLE_INTERVAL_HOURS
+    next_dt = now + timedelta(hours=IDLE_INTERVAL_HOURS)
+    return {
+        "next_run": next_dt.isoformat(),
+        "reason": "Нет будущих матчей в текущем туре",
         "updated_at": now.isoformat(),
     }
-    if last_window == window_for:
-        result["lineups_window_for"] = last_window
-    return result
 
 
 def write_next_run():
     """Пишет next_run.json в data/current."""
     try:
         data = compute_next_run()
-
-        # сохраняем lineups_window_for из старого файла, если новый его не вернул
-        if "lineups_window_for" not in data and NEXT_RUN_FILE.exists():
-            try:
-                existing = json.loads(NEXT_RUN_FILE.read_text(encoding="utf-8"))
-                if "lineups_window_for" in existing:
-                    data["lineups_window_for"] = existing["lineups_window_for"]
-            except Exception:
-                pass
-
         NEXT_RUN_FILE.parent.mkdir(parents=True, exist_ok=True)
         NEXT_RUN_FILE.write_text(
             json.dumps(data, ensure_ascii=False, indent=2),

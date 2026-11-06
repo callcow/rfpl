@@ -1,18 +1,12 @@
-name: Update Premierliga Data & Deploy
+name: Update Premierliga Data
 
 on:
   schedule:
     - cron: "0 7 * * 1"    # Понедельник 10:00 МСК = 07:00 UTC
     - cron: "0 20 * * 4"   # Четверг 23:00 МСК = 20:00 UTC
   workflow_dispatch:        # ручной запуск + Google Script
-  repository_dispatch:      # ← для Google Script
+  repository_dispatch:      # ← для Google Script (дёргает по next_run.json)
     types: [scheduled-check, manual-trigger]
-
-# Важно: для деплоя на Pages нужны эти разрешения
-permissions:
-  contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: update-premierliga
@@ -21,6 +15,10 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -52,16 +50,15 @@ jobs:
             git push
           fi
 
-      # === НОВЫЕ ШАГИ ДЛЯ ДЕПЛОЯ ===
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Укажите папку, которую нужно опубликовать (например, ./dist, ./public или корень ".")
-          path: '.' 
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Trigger GitHub Pages Deployment
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -sS -L \
+            -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/${{ github.repository }}/actions/workflows/deploy-pages.yml/dispatches \
+            -d '{"ref":"main"}'
