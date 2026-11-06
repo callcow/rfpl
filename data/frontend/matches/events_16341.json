@@ -155,6 +155,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65922,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 9,
+      "extra": null,
+      "player1": {
+        "id": 23107,
+        "name": "Евгений",
+        "lastname": "Морозов",
+        "nickname": null,
+        "keyword": "Morozov-Evgeniy",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
