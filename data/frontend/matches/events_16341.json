@@ -1892,6 +1892,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 65989,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 82,
+      "extra": null,
+      "player1": {
+        "id": 23070,
+        "name": "Александр",
+        "lastname": "Сильянов",
+        "nickname": null,
+        "keyword": "Silyanov-Aleksandr",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 5,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
