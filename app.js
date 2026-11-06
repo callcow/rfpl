@@ -2481,7 +2481,7 @@ window.openMatchModal = async function(matchId) {
                             return u.time === ev.time && u.extra === ev.extra && uType === evType;
                         });
 
-                        if (!isDup) {
+                        if (!isDup || evType === 'Corner') {
                             uniqueEvents.push(ev);
                         }
                     });
@@ -2509,6 +2509,9 @@ window.openMatchModal = async function(matchId) {
                         // 2. Ищем дубль в уже отфильтрованных событиях
                         const isDup = finalUniqueEvents.some(existing => {
                             if (getEventType(existing) !== normType) return false;
+
+                            // Угловые могут повторяться в одну минуту. Не считаем их дублями.
+                            if (normType === 'corner') return false;
 
                             // Сравниваем время с допуском ±2 минуты (так как broadcast и протокол могут давать разное время)
                             const timeDiff = Math.abs(existing.time - ev.time);
@@ -2904,7 +2907,7 @@ window.openMatchModal = async function(matchId) {
                             e.action === "AutoGoal" || e.action === "YellowCard" || e.action === "RedCard" ||
                             e.type === 1 || e.type === 3 || e.type === 4 || e.type === 10 || e.type === 11
                         );
-                        if (timelineEvents.length === 0) return '';
+                        if (timelineEvents.length === 0 && data.status === 0) return '';
                         
                         let lastMinute = 0;
                         timelineEvents.forEach(e => {
@@ -4214,10 +4217,11 @@ window.addEventListener('popstate', function(event) {
     const matchModal = document.getElementById('match-modal');
     const clubModal = document.getElementById('club-modal');
     const playerModal = document.getElementById('player-modal');
+    const statsAllModal = document.getElementById('stats-all-modal');
     const landed = event.state && event.state.modal;
 
     // «Назад» между вкладками: возвращаем предыдущую вкладку (без открытых модалок)
-    const anyModalOpen = [matchModal, clubModal, playerModal].some(m => m && m.classList.contains('active'));
+    const anyModalOpen = [matchModal, clubModal, playerModal, statsAllModal].some(m => m && m.classList.contains('active'));
     if (!anyModalOpen && (!event.state || event.state.tab)) {
         const tabId = (event.state && event.state.tab) || 'matches';
         const btn = [...document.querySelectorAll('.tab-btn')].find(b => (b.getAttribute('onclick') || '').includes(`'${tabId}'`));
@@ -4251,6 +4255,10 @@ window.addEventListener('popstate', function(event) {
         closePlayerModal(true);
     }
 
+    if (statsAllModal && statsAllModal.classList.contains('active') && landed !== 'stats-all') {
+        closeStatsAllModal(null, true);
+    }
+
     if (matchModal && matchModal.classList.contains('active') && landed !== 'match') {
         closeMatchModal(null, true);
     }
@@ -4269,12 +4277,14 @@ function checkScrollToTopVisibility() {
 
     const matchModal = document.getElementById('match-modal');
     const clubModal = document.getElementById('club-modal');
+    const statsAllModal = document.getElementById('stats-all-modal');
     const isMatchModalOpen = matchModal && matchModal.classList.contains('active');
     const isClubModalOpen = clubModal && clubModal.classList.contains('active');
+    const isStatsAllModalOpen = statsAllModal && statsAllModal.classList.contains('active');
 
     let shouldShow = false;
 
-    if (isMatchModalOpen || isClubModalOpen) {
+    if (isMatchModalOpen || isClubModalOpen || isStatsAllModalOpen) {
         // Если открыта модалка — смотрим ТОЛЬКО на её собственный скролл
         // и игнорируем скролл страницы (window.scrollY)
         if (isMatchModalOpen) {
@@ -4283,6 +4293,10 @@ function checkScrollToTopVisibility() {
         }
         if (isClubModalOpen) {
             const content = clubModal.querySelector('.modal-content');
+            if (content && content.scrollTop > 300) shouldShow = true;
+        }
+        if (isStatsAllModalOpen) {
+            const content = statsAllModal.querySelector('.modal-content');
             if (content && content.scrollTop > 300) shouldShow = true;
         }
     } else {
@@ -4326,12 +4340,16 @@ window.scrollToTop = function() {
     // Скроллим модалки, если они открыты
     const matchModalContent = document.querySelector('#match-modal.active .modal-content');
     const clubModalContent = document.querySelector('#club-modal.active .modal-content');
+    const statsAllModalContent = document.querySelector('#stats-all-modal.active .modal-content');
 
     if (matchModalContent) {
         matchModalContent.scrollTo({ top: 0, behavior: 'smooth' });
     }
     if (clubModalContent) {
         clubModalContent.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    if (statsAllModalContent) {
+        statsAllModalContent.scrollTo({ top: 0, behavior: 'smooth' });
     }
 };
 
@@ -4400,10 +4418,30 @@ function renderStatCard(c, list) {
 
     const nameOf = x => formatPlayerName(x.ident) || `ID ${x.id}`;
 
+    if (!window._allStatsData) window._allStatsData = {};
+    window._allStatsData[c.title] = rows; // Сохраняем полный список
+
+    const hasMore = rows.length > 5;
+
+    let shortValName = 'Знач.';
+    if (c.title === 'Голы') shortValName = 'Гол';
+    else if (c.title === 'Передачи') shortValName = 'Пас';
+    else if (c.title === 'Гол + пас') shortValName = 'Г+П';
+    else if (c.title === 'Жёлтые карточки') shortValName = 'ЖК';
+    else if (c.title === 'Красные карточки') shortValName = 'КК';
+    else if (c.title === 'Минуты на поле') shortValName = 'Мин';
+
     return `
         <div class="sc-card">
             <div class="sc-title">${c.title}</div>
             <div class="sc-list">
+                <div class="sc-header-row">
+                    <span class="sc-place">#</span>
+                    <span class="sc-club"></span>
+                    <span class="sc-name">Игрок</span>
+                    <span class="sc-pos">Амплуа</span>
+                    <span class="sc-val">${shortValName}</span>
+                </div>
                 ${top.map(x => {
                     const clubId = x.club || Object.keys(x.r.clubs || {})[0] || 0;
                     const logo = allClubs[x.club] ? getTeamLogoHtml(allClubs[x.club], 'sc-club-logo', 18) : '';
@@ -4418,8 +4456,136 @@ function renderStatCard(c, list) {
                     </div>`;
                 }).join('')}
             </div>
+            ${hasMore ? `<button class="sc-show-all" onclick="openAllStatsModal('${c.title}')">Показать всех</button>` : ''}
         </div>`;
 }
+
+window.openAllStatsModal = function(title) {
+    const rows = window._allStatsData[title] || [];
+    const modal = document.getElementById('stats-all-modal');
+    const body = document.getElementById('stats-all-modal-body');
+    if (!modal || !body) return;
+
+    const nameOf = x => formatPlayerName(x.ident) || `ID ${x.id}`;
+
+    let shortValName = 'Знач.';
+    if (title === 'Голы') shortValName = 'Голы';
+    else if (title === 'Передачи') shortValName = 'Пас';
+    else if (title === 'Гол + пас') shortValName = 'Г+П';
+    else if (title === 'Жёлтые карточки') shortValName = 'ЖК';
+    else if (title === 'Красные карточки') shortValName = 'КК';
+    else if (title === 'Минуты на поле') shortValName = 'Мин';
+
+        const isGoals = (title === 'Голы');
+    const isAssists = (title === 'Передачи');
+    const isGoalPlusAssist = (title === 'Гол + пас');
+    const isYellow = (title === 'Жёлтые карточки');
+    const isRed = (title === 'Красные карточки');
+    const isMinutes = (title === 'Минуты на поле');
+    const isExtended = isGoals || isAssists || isGoalPlusAssist || isYellow || isRed || isMinutes;
+
+    let extraHeaders = '';
+    if (isGoals) {
+        extraHeaders = `
+            <span class="sc-pc-extra">Пенальти</span>
+            <span class="sc-pc-extra">Мин./гол</span>
+            <span class="sc-pc-extra">Минуты</span>
+            <span class="sc-pc-extra">Игры</span>
+        `;
+    } else if (isAssists) {
+        extraHeaders = `<span class="sc-pc-extra">Игры</span>`;
+    } else if (isGoalPlusAssist) {
+        extraHeaders = `
+            <span class="sc-pc-extra">Голы</span>
+            <span class="sc-pc-extra">Пасы</span>
+            <span class="sc-pc-extra">Игры</span>
+        `;
+    } else if (isYellow) {
+        extraHeaders = `<span class="sc-pc-extra">2ЖК</span>`;
+    } else if (isRed || isMinutes) {
+        extraHeaders = `<span class="sc-pc-extra">Игры</span>`;
+    }
+
+    let html = `<div class="sc-title" style="margin-bottom: 20px; font-size: 22px;">${title}</div>`;
+    html += `<div class="sc-list">`;
+    html += `<div class="sc-header-row ${isExtended ? 'sc-row-extended' : ''}">
+        <span class="sc-place">#</span>
+        <span class="sc-club"></span>
+        <span class="sc-name">Игрок</span>
+        <span class="sc-pos">Амплуа</span>
+        <span class="sc-val">${shortValName}</span>
+        ${extraHeaders}
+    </div>`;
+    html += rows.map((x, i) => {
+        const clubId = x.club || Object.keys(x.r.clubs || {})[0] || 0;
+        const logo = allClubs[x.club] ? getTeamLogoHtml(allClubs[x.club], 'sc-club-logo', 18) : '';
+        const amplua = x.ident.amplua;
+        const posLabel = ({0: 'ВР', 1: 'ЗЩ', 2: 'ПЗ', 3: 'НП'})[amplua] || '';
+        
+        const pen = x.t?.penaltyGoals || 0;
+        const mins = x.t?.minutesPlayed || 0;
+        const games = x.t?.matchesPlayed || 0;
+        const minPerGoal = x.v > 0 ? Math.round(mins / x.v) : '—';
+
+        let extraCells = '';
+        if (isGoals) {
+            extraCells = `
+                <span class="sc-pc-extra">${pen}</span>
+                <span class="sc-pc-extra">${minPerGoal}</span>
+                <span class="sc-pc-extra">${mins}</span>
+                <span class="sc-pc-extra">${games}</span>
+            `;
+        } else if (isAssists) {
+            extraCells = `<span class="sc-pc-extra">${games}</span>`;
+        } else if (isGoalPlusAssist) {
+            extraCells = `
+                <span class="sc-pc-extra">${x.t?.goals || 0}</span>
+                <span class="sc-pc-extra">${x.t?.assists || 0}</span>
+                <span class="sc-pc-extra">${games}</span>
+            `;
+        } else if (isYellow) {
+            extraCells = `<span class="sc-pc-extra">${x.t?.secondYellowCards || 0}</span>`;
+        } else if (isRed || isMinutes) {
+            extraCells = `<span class="sc-pc-extra">${games}</span>`;
+        }
+
+        return `<div class="sc-row ${isExtended ? 'sc-row-extended' : ''}" onclick="closeStatsAllModal(null, false, true); openPlayerModal(${clubId}, ${x.id})">
+            <span class="sc-place">${i + 1}</span>
+            <span class="sc-club">${logo}</span>
+            <span class="sc-name">${nameOf(x)}</span>
+            <span class="sc-pos">${posLabel}</span>
+            <span class="sc-val">${x.v}</span>
+            ${extraCells}
+        </div>`;
+    }).join('');
+    html += `</div>`;
+
+    body.innerHTML = html;
+    modal.classList.add('active');
+    document.body.classList.add('modal-open');
+    history.pushState({ modal: 'stats-all' }, '');
+};
+
+window.closeStatsAllModal = function(event, fromPopstate = false, skipHistory = false) {
+    if (event) event.stopPropagation();
+    
+    const modal = document.getElementById('stats-all-modal');
+    if (!modal || !modal.classList.contains('active')) return;
+
+    if (!fromPopstate && !skipHistory) {
+        history.back();
+    }
+
+    modal.classList.remove('active');
+    if (!document.getElementById('match-modal').classList.contains('active') && 
+        !document.getElementById('club-modal').classList.contains('active') &&
+        !document.querySelector('.player-modal-overlay.active')) {
+        document.body.classList.remove('modal-open');
+    }
+    if (typeof checkScrollToTopVisibility === 'function') {
+        checkScrollToTopVisibility();
+    }
+};
 
 document.addEventListener("DOMContentLoaded", () => {
     init();
@@ -4435,5 +4601,48 @@ document.addEventListener("DOMContentLoaded", () => {
             slider.style.transform = `translateX(${targetLeft}px)`;
         }
     }, 50); // Небольшая задержка для правильного рендера шрифтов
+});
+
+// Глобальный тултип для таймлайна (чтобы всегда был поверх контента)
+document.addEventListener('mouseover', function(e) {
+    const marker = e.target.closest('.timeline-marker');
+    if (!marker) return;
+    
+    const tooltipText = marker.getAttribute('data-tooltip');
+    if (!tooltipText) return;
+
+    let tooltip = document.getElementById('timeline-tooltip');
+    if (!tooltip) {
+        tooltip = document.createElement('div');
+        tooltip.id = 'timeline-tooltip';
+        tooltip.style.cssText = 'position: fixed; background: #111827; color: #fff; font-size: 11px; line-height: 1.4; padding: 6px 10px; border-radius: 6px; pointer-events: none; z-index: 99999; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); white-space: pre-line; text-align: center; font-family: "Inter", sans-serif; font-weight: 500; max-width: 200px;';
+        document.body.appendChild(tooltip);
+    }
+    
+    tooltip.innerText = tooltipText;
+    tooltip.style.display = 'block';
+
+    const rect = marker.getBoundingClientRect();
+    tooltip.style.left = `${rect.left + rect.width / 2 - tooltip.offsetWidth / 2}px`;
+    tooltip.style.top = `${rect.top - tooltip.offsetHeight - 10}px`;
+
+    // Защита от вылета за края экрана
+    const tooltipRect = tooltip.getBoundingClientRect();
+    if (tooltipRect.left < 10) {
+        tooltip.style.left = `10px`;
+    }
+    if (tooltipRect.right > window.innerWidth - 10) {
+        tooltip.style.left = `${window.innerWidth - tooltipRect.width - 10}px`;
+    }
+});
+
+document.addEventListener('mouseout', function(e) {
+    const marker = e.target.closest('.timeline-marker');
+    if (!marker) return;
+    
+    const tooltip = document.getElementById('timeline-tooltip');
+    if (tooltip) {
+        tooltip.style.display = 'none';
+    }
 }); 
 

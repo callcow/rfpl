@@ -1977,11 +1977,11 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 }
 .sub-out {
     color: #ef4444; /* Красный цвет */
-    font-weight: 500;
+    font-weight: 400;
 }
 .sub-in {
     color: #22c55e; /* Зелёный цвет */
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
@@ -2076,6 +2076,122 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 }
 .sc-val { flex-shrink: 0; font-weight: 700; min-width: 20px; text-align: right; }
 
+.sc-pc-extra {
+  display: none !important;
+}
+
+@media (min-width: 850px) {
+  .sc-row-extended, .sc-header-extended {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+  }
+  .sc-row-extended .sc-name, .sc-header-extended .sc-name {
+    flex: 1;
+    min-width: 0;
+  }
+  .sc-row-extended .sc-pc-extra, .sc-header-extended .sc-pc-extra {
+    display: block !important;
+    width: 65px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .sc-row-extended .sc-val, .sc-header-extended .sc-val {
+    width: 50px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .sc-row-extended .sc-pos, .sc-header-extended .sc-pos {
+    width: 60px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .sc-row-extended .sc-place, .sc-header-extended .sc-place {
+    width: 24px;
+    flex-shrink: 0;
+  }
+  .sc-row-extended .sc-club, .sc-header-extended .sc-club {
+    width: 20px;
+    flex-shrink: 0;
+  }
+}
+
+/* Кнопка "Показать всех" в статистике */
+.sc-show-all {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 12px;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  font-family: inherit;
+}
+.sc-show-all:hover {
+  color: var(--text);
+}
+
+/* Заголовки в блоках статистики */
+.sc-header-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 0 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.sc-pc-extra {
+  display: none !important;
+}
+
+@media (min-width: 850px) {
+  .sc-row-extended, .sc-header-extended {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+  }
+  .sc-row-extended .sc-name, .sc-header-extended .sc-name {
+    flex: 1;
+    min-width: 0;
+  }
+  .sc-row-extended .sc-pc-extra, .sc-header-extended .sc-pc-extra {
+    display: block !important;
+    width: 65px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .sc-row-extended .sc-val, .sc-header-extended .sc-val {
+    width: 50px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .sc-row-extended .sc-pos, .sc-header-extended .sc-pos {
+    width: 60px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .sc-row-extended .sc-place, .sc-header-extended .sc-place {
+    width: 24px;
+    flex-shrink: 0;
+  }
+  .sc-row-extended .sc-club, .sc-header-extended .sc-club {
+    width: 20px;
+    flex-shrink: 0;
+  }
+}
+
 @media (min-width: 1000px) {
   .sc-card { padding: 18px 20px; }
   .sc-title { font-size: 20px; margin-bottom: 12px; }
@@ -2165,60 +2281,9 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   z-index: 9999;
 }
 
-/* Плашка тултипа */
+/* Плашка тултипа (скрыта, теперь рендерится через JS) */
 .timeline-marker::before {
-  content: attr(data-tooltip);
-  position: absolute;
-  white-space: normal; /* Разрешаем перенос строк */
-  width: max-content;
-  max-width: 200px; /* Ограничиваем ширину, чтобы текст переносился */
-  background: #111827;
-  color: #fff;
-  font-size: 11px;
-  line-height: 1.4;
-  padding: 6px 10px;
-  border-radius: 6px;
-  pointer-events: none;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-  z-index: 10000;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
-  text-align: center;
-  
-  /* Позиционируем строго по центру маркера сверху */
-  bottom: 100%;
-  margin-bottom: 10px;
-  left: 50%;
-  transform: translate(-50%, 4px);
-}
-
-/* При наведении показываем */
-.timeline-marker:hover::before {
-  opacity: 1;
-  visibility: visible;
-  transform: translate(-50%, 0);
-}
-
-/* Защита от вылета за левый край */
-.timeline-track .timeline-marker:first-child::before {
-  left: 0;
-  transform: translate(0, 4px);
-}
-.timeline-track .timeline-marker:first-child:hover::before {
-  transform: translate(0, 0);
-}
-
-/* Защита от вылета за правый край */
-.timeline-track .timeline-marker:last-child::before {
-  left: auto;
-  right: 0;
-  transform: translate(0, 4px);
-}
-.timeline-track .timeline-marker:last-child:hover::before {
-  transform: translate(0, 0);
+  display: none !important;
 }
 
 /* Подсказка всегда поверх модалки и не обрезается по краям */
@@ -2230,13 +2295,6 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 #match-modal .timeline-content,
 #match-modal .timeline-track {
   overflow: visible !important;
-}
-.timeline-marker:hover::before,
-.timeline-track .timeline-marker:first-child:hover::before,
-.timeline-track .timeline-marker:last-child:hover::before {
-  z-index: 100000 !important;
-  opacity: 1;
-  visibility: visible;
 }
 
 /* Воскрешаем ТРЕУГОЛЬНИКИ (они были сломаны предыдущими правками) */

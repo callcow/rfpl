@@ -1657,7 +1657,7 @@ def _build_club_stats(tournament_id: int, status: dict):
 
 
 PS_KEYS = ["matchesInSquad", "matchesPlayed", "matchesStarted", "matchesSubIn", "minutesPlayed", "captainMatches",
-           "goals", "penaltyGoals", "penaltyMissed", "ownGoals", "assists", "yellowCards", "redCards",
+           "goals", "penaltyGoals", "penaltyMissed", "ownGoals", "assists", "yellowCards", "redCards", "secondYellowCards",
            "shots", "shotsOnTarget", "fouls", "corners", "offsides",
            "gkMatches", "gkConceded", "cleanSheets"]
 PS_MATCH_KEYS = ("goals", "assists", "yellowCards", "redCards")
@@ -1810,6 +1810,8 @@ def _build_players_season_stats(status: dict):
                 continue
             if action == "Goal":
                 bump((be.get("player2") or {}).get("id"), cid, "assists")
+            if action == "RedYellowCard":
+                bump(pid, cid, "secondYellowCards")
             if action in shot_keys:
                 bump(pid, cid, shot_keys[action])
 

@@ -158,6 +158,14 @@
     <p>Данные и статистика взяты из открытых источников и публикуются в информационных целях. Возможны неточности и задержки обновления. Все права на логотипы и названия принадлежат их владельцам.</p>
   </footer>
 
+  <!-- Модальное окно СТАТИСТИКИ (ВСЕ ИГРОКИ) -->
+  <div id="stats-all-modal" class="modal-overlay" onclick="closeStatsAllModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeStatsAllModal(event)">✕</button>
+      <div id="stats-all-modal-body"></div>
+    </div>
+  </div>
+
   <!-- Кнопка наверх -->
   <button id="scroll-to-top" onclick="scrollToTop()" title="Наверх">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
