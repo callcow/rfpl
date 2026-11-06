@@ -44,15 +44,15 @@
     {
       "id": 16341,
       "date": "2026-11-06UTC19:30:00",
-      "status": 3,
+      "status": 4,
       "clubH": 5,
       "clubA": 4,
       "goalH": 0,
       "goalA": 1,
       "city": "Москва",
       "stadium": "«РЖД Арена»",
-      "wid": 17021109,
-      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfNTA4MjNkYWQ2MTE5ZGI3ODhmOTFhY2QwMTgzZTI0YjkvMTdfMTA0MDA0Ni8xMDgwcDUwZnBzL2ViZDI1NWZmMmU3ZjQwNmFkMzliYmYyYjY0YjY5ODA0LzQ5NDk2NjI1MDIubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPWYyODI0YWNlZWVjMWZjNGE0YzNlYjYzMDliYzJjZDVh"
+      "wid": null,
+      "stream": null
     },
     {
       "id": 16342,
