@@ -896,6 +896,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66207,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 45,
+      "extra": 1,
+      "player1": {
+        "id": 21344,
+        "name": "Иван",
+        "lastname": "Олейников",
+        "nickname": "",
+        "keyword": "Oleynikov-Ivan",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
