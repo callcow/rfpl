@@ -2098,6 +2098,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66165,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": 3,
+      "player1": {
+        "id": 21973,
+        "name": "Мохамед",
+        "lastname": "Конате",
+        "nickname": "",
+        "keyword": "Konate-Mohamed",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
