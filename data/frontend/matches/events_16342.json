@@ -2193,6 +2193,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66255,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 82,
+      "extra": null,
+      "player1": {
+        "id": 24645,
+        "name": "Джон Андрес",
+        "lastname": "Кордоба Копете",
+        "nickname": "",
+        "keyword": "Kordoba-Kopete-Dzhon-Andres",
+        "amplua": 3,
+        "public_lastname": "Кордоба",
+        "public_name": "Джон"
+      },
+      "player2": {
+        "id": 26099,
+        "name": "Кристиан Роберто",
+        "lastname": "Алвес Кардозо",
+        "nickname": "Кристиан",
+        "keyword": "Christian",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
