@@ -70,15 +70,15 @@
     {
       "id": 16343,
       "date": "2026-11-07UTC16:30:00",
-      "status": 3,
+      "status": 4,
       "clubH": 702,
       "clubA": 808,
       "goalH": 1,
       "goalA": 0,
       "city": "Грозный",
       "stadium": "«Ахмат Арена»",
-      "wid": 17021111,
-      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfNjc5NDVmMzVhMTI3ZmYwODI0YzQwZGY4ZTMzNzhhZmQvMTdfMTA0MDA0OS8xMDgwcDUwZnBzL2JkOWI2ZGMwOWQ4M2FjOTFmODQ4YjUzM2M3Nzg1YzhhLzQ5NDk3MzgxMDIubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPWExNTcwNjY4Yzg4OWYzNmI0MDUwZjUxZTQwYzY5ZDZi"
+      "wid": null,
+      "stream": null
     },
     {
       "id": 16344,

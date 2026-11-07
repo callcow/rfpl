@@ -220,6 +220,28 @@
     ]
   },
   {
+    "clubId": 702,
+    "club": "Ахмат",
+    "played": 14,
+    "won": 3,
+    "drawn": 5,
+    "lost": 6,
+    "goalsFor": 16,
+    "goalsAgainst": 19,
+    "points": 14,
+    "maxPoints": 42,
+    "position": 11,
+    "goalDiff": -3,
+    "pointsPercent": 33.3,
+    "form": [
+      "d",
+      "l",
+      "l",
+      "l",
+      "w"
+    ]
+  },
+  {
     "clubId": 125,
     "club": "Динамо Мх",
     "played": 13,
@@ -230,7 +252,7 @@
     "goalsAgainst": 26,
     "points": 13,
     "maxPoints": 39,
-    "position": 11,
+    "position": 12,
     "goalDiff": -10,
     "pointsPercent": 33.3,
     "form": [
@@ -252,7 +274,7 @@
     "goalsAgainst": 23,
     "points": 12,
     "maxPoints": 39,
-    "position": 12,
+    "position": 13,
     "goalDiff": -7,
     "pointsPercent": 30.8,
     "form": [
@@ -266,44 +288,22 @@
   {
     "clubId": 808,
     "club": "Родина",
-    "played": 13,
+    "played": 14,
     "won": 3,
     "drawn": 3,
-    "lost": 7,
+    "lost": 8,
     "goalsFor": 15,
-    "goalsAgainst": 28,
+    "goalsAgainst": 29,
     "points": 12,
-    "maxPoints": 39,
-    "position": 13,
-    "goalDiff": -13,
-    "pointsPercent": 30.8,
+    "maxPoints": 42,
+    "position": 14,
+    "goalDiff": -14,
+    "pointsPercent": 28.6,
     "form": [
-      "d",
       "l",
       "d",
       "w",
-      "w"
-    ]
-  },
-  {
-    "clubId": 702,
-    "club": "Ахмат",
-    "played": 13,
-    "won": 2,
-    "drawn": 5,
-    "lost": 6,
-    "goalsFor": 15,
-    "goalsAgainst": 19,
-    "points": 11,
-    "maxPoints": 39,
-    "position": 14,
-    "goalDiff": -4,
-    "pointsPercent": 28.2,
-    "form": [
-      "l",
-      "d",
-      "l",
-      "l",
+      "w",
       "l"
     ]
   },
