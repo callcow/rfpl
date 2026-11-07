@@ -1968,6 +1968,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66160,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 85,
+      "extra": null,
+      "player1": {
+        "id": 26103,
+        "name": "Икер",
+        "lastname": "Посо Ла Роса",
+        "nickname": "",
+        "keyword": "Pozo-La-Rosa-Iker",
+        "amplua": 2,
+        "public_lastname": "Посо",
+        "public_name": "Икер"
+      },
+      "player2": null,
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66161,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 85,
+      "extra": null,
+      "player1": {
+        "id": 26103,
+        "name": "Икер",
+        "lastname": "Посо Ла Роса",
+        "nickname": "",
+        "keyword": "Pozo-La-Rosa-Iker",
+        "amplua": 2,
+        "public_lastname": "Посо",
+        "public_name": "Икер"
+      },
+      "player2": null,
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
