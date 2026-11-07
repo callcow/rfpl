@@ -2,6 +2,28 @@
   "protocol": [],
   "broadcast": [
     {
+      "id": 111,
+      "type": "Photo",
+      "action": null,
+      "time": null,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "BeforeMatch",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 111,
+        "title": "Дебют Гусева",
+        "description": "Евгений Буланов приветствует Ролана Гусева, проводящего первый матч на посту главного тренера &laquo;Ахмата&raquo;",
+        "author": "Ибрагим Мислаев / «Ахмат»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66086,
       "type": "GamePeriodOpen",
       "action": null,
@@ -1031,6 +1053,41 @@
       },
       "player2": null,
       "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66128,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 20912,
+        "name": "Георгий",
+        "lastname": "Мелкадзе",
+        "nickname": "",
+        "keyword": "Melkadze-Georgiy",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 21973,
+        "name": "Мохамед",
+        "lastname": "Конате",
+        "nickname": "",
+        "keyword": "Konate-Mohamed",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 702,
       "gameStateNumber": null,
       "periodNumber": 2,
       "timeSlot": "SecondHalf",
