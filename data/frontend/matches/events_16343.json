@@ -2072,6 +2072,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66164,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": 2,
+      "player1": {
+        "id": 21471,
+        "name": "Артём",
+        "lastname": "Максименко",
+        "nickname": "",
+        "keyword": "Maksimenko-Artem",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
