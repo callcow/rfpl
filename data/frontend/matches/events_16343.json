@@ -1,4 +1,48 @@
 {
   "protocol": [],
-  "broadcast": []
+  "broadcast": [
+    {
+      "id": 66086,
+      "type": "GamePeriodOpen",
+      "action": null,
+      "time": 0,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66087,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 1,
+      "extra": null,
+      "player1": {
+        "id": 24515,
+        "name": "Эгаш Паланга дос Сантос",
+        "lastname": "Касинтура",
+        "nickname": "",
+        "keyword": "Kasintura-Egash-Palanga-Dos-Santos",
+        "amplua": 2,
+        "public_lastname": "Касинтура",
+        "public_name": "Эгаш"
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    }
+  ]
 }
