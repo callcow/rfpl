@@ -320,6 +320,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66099,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 19,
+      "extra": null,
+      "player1": {
+        "id": 25150,
+        "name": "Хосе Йорди",
+        "lastname": "Рейна Серна",
+        "nickname": "",
+        "keyword": "Reyna-Serna-Hose-Yordi",
+        "amplua": 2,
+        "public_lastname": "Рейна",
+        "public_name": "Йорди"
+      },
+      "player2": null,
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
