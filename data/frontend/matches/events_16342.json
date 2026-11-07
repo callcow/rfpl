@@ -700,14 +700,14 @@
       "time": 33,
       "extra": null,
       "player1": {
-        "id": 25915,
-        "name": "Дуглас Аугусто",
-        "lastname": "Соарес Гомес",
-        "nickname": "Дуглас Аугусто",
-        "keyword": "Soares-Gomes-Douglas-Augusto",
-        "amplua": 2,
-        "public_lastname": "",
-        "public_name": ""
+        "id": 17789,
+        "name": "Дмитрий",
+        "lastname": "Воробьёв",
+        "nickname": "",
+        "keyword": "Vorobev-Dmitriy",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
       },
       "player2": null,
       "club": 584,
