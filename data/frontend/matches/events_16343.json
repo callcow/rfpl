@@ -779,6 +779,40 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66117,
+      "type": "GamePeriodOpen",
+      "action": null,
+      "time": 45,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66118,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 46,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
