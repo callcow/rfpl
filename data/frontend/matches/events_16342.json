@@ -1047,6 +1047,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66214,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 46,
+      "extra": null,
+      "player1": {
+        "id": 25741,
+        "name": "Лусиано Эмилио",
+        "lastname": "Гонду Санельи",
+        "nickname": "",
+        "keyword": "Gondu-Zanelli-Luchano-Emilio",
+        "amplua": 3,
+        "public_lastname": "Гонду",
+        "public_name": "Лусиано"
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66215,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 47,
+      "extra": null,
+      "player1": {
+        "id": 25834,
+        "name": "Мохаммед",
+        "lastname": "Аззи",
+        "nickname": "",
+        "keyword": "Azzi-Mohammed",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
