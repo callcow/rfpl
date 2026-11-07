@@ -820,6 +820,32 @@
       "deleted": null
     },
     {
+      "id": 66208,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 39,
+      "extra": null,
+      "player1": {
+        "id": 24958,
+        "name": "Матвей",
+        "lastname": "Кисляк",
+        "nickname": "",
+        "keyword": "Kislyak-Matvey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 66204,
       "type": "EventAdded",
       "action": "Shot",
