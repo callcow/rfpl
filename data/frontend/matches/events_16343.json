@@ -736,6 +736,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66115,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 41,
+      "extra": null,
+      "player1": {
+        "id": 25714,
+        "name": "Максим",
+        "lastname": "Самородов",
+        "nickname": "",
+        "keyword": "Samorodov-Maksim",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
