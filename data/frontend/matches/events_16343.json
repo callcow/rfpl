@@ -1855,6 +1855,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66156,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 81,
+      "extra": null,
+      "player1": {
+        "id": 24515,
+        "name": "Эгаш Паланга дос Сантос",
+        "lastname": "Касинтура",
+        "nickname": "",
+        "keyword": "Kasintura-Egash-Palanga-Dos-Santos",
+        "amplua": 2,
+        "public_lastname": "Касинтура",
+        "public_name": "Эгаш"
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66157,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 81,
+      "extra": null,
+      "player1": {
+        "id": 25714,
+        "name": "Максим",
+        "lastname": "Самородов",
+        "nickname": "",
+        "keyword": "Samorodov-Maksim",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
