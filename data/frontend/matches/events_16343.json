@@ -1438,6 +1438,102 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66141,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 69,
+      "extra": null,
+      "player1": {
+        "id": 21973,
+        "name": "Мохамед",
+        "lastname": "Конате",
+        "nickname": "",
+        "keyword": "Konate-Mohamed",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66142,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 69,
+      "extra": null,
+      "player1": {
+        "id": 22541,
+        "name": "Андрей",
+        "lastname": "Егорычев",
+        "nickname": "",
+        "keyword": "Egorychev-Andrey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25000,
+        "name": "Кирилл",
+        "lastname": "Ушатов",
+        "nickname": "",
+        "keyword": "Ushatov-Kirill",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66143,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 70,
+      "extra": null,
+      "player1": {
+        "id": 25150,
+        "name": "Хосе Йорди",
+        "lastname": "Рейна Серна",
+        "nickname": "",
+        "keyword": "Reyna-Serna-Hose-Yordi",
+        "amplua": 2,
+        "public_lastname": "Рейна",
+        "public_name": "Йорди"
+      },
+      "player2": {
+        "id": 26103,
+        "name": "Икер",
+        "lastname": "Посо Ла Роса",
+        "nickname": "",
+        "keyword": "Pozo-La-Rosa-Iker",
+        "amplua": 2,
+        "public_lastname": "Посо",
+        "public_name": "Икер"
+      },
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
