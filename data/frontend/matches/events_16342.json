@@ -1926,6 +1926,28 @@
       "deleted": null
     },
     {
+      "id": 117,
+      "type": "Photo",
+      "action": null,
+      "time": 74,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 117,
+        "title": "Гол Уткина",
+        "description": "Даниил Уткин своим подключением в штрафную приносит третий гол &laquo;Краснодару&raquo;",
+        "author": "Андрей Шрамко / «Краснодар»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66245,
       "type": "EventAdded",
       "action": "Foul",
