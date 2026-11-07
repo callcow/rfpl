@@ -2696,7 +2696,7 @@
         "comments": "",
         "tvChannel1": 1,
         "tvChannel2": 0,
-        "countVideos": null,
+        "countVideos": 1,
         "winlineMatchTour": true,
         "fairplayClub1": 2,
         "fairplayClub2": 0
@@ -2720,7 +2720,7 @@
         "comments": "",
         "tvChannel1": 2,
         "tvChannel2": 0,
-        "countVideos": null,
+        "countVideos": 1,
         "winlineMatchTour": false,
         "fairplayClub1": 1,
         "fairplayClub2": 3
@@ -2774,7 +2774,7 @@
         "comments": "",
         "tvChannel1": 2,
         "tvChannel2": 0,
-        "countVideos": null,
+        "countVideos": 1,
         "winlineMatchTour": false,
         "fairplayClub1": 5,
         "fairplayClub2": 4
