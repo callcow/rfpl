@@ -639,6 +639,28 @@
       "deleted": null
     },
     {
+      "id": 112,
+      "type": "Photo",
+      "action": null,
+      "time": 34,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 112,
+        "title": "Празднование Цаке",
+        "description": "Клисман Цаке радуется первому голу в нынешнем сезоне",
+        "author": "Ибрагим Мислаев / «Ахмат»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66110,
       "type": "EventAdded",
       "action": "ShotOnTarget",
@@ -1062,6 +1084,76 @@
       "deleted": null
     },
     {
+      "id": 66129,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 26148,
+        "name": "Микаэль Бле",
+        "lastname": "Наде",
+        "nickname": "",
+        "keyword": "Nade-Mickael-Ble",
+        "amplua": 1,
+        "public_lastname": "Наде",
+        "public_name": "Микаэль"
+      },
+      "player2": {
+        "id": 23521,
+        "name": "Артём",
+        "lastname": "Мещанинов",
+        "nickname": "",
+        "keyword": "Meschaninov-Artem",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66130,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 26124,
+        "name": "Магомедхабиб",
+        "lastname": "Абдусаламов",
+        "nickname": null,
+        "keyword": "Abdusalamov-Magomedhabib",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 21471,
+        "name": "Артём",
+        "lastname": "Максименко",
+        "nickname": "",
+        "keyword": "Maksimenko-Artem",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 66128,
       "type": "EventAdded",
       "action": "Substitution",
@@ -1087,6 +1179,32 @@
         "public_lastname": null,
         "public_name": null
       },
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66131,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 61,
+      "extra": null,
+      "player1": {
+        "id": 21973,
+        "name": "Мохамед",
+        "lastname": "Конате",
+        "nickname": "",
+        "keyword": "Konate-Mohamed",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
       "club": 702,
       "gameStateNumber": null,
       "periodNumber": 2,
