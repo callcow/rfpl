@@ -1324,7 +1324,16 @@
       "action": "Shot",
       "time": 65,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 22346,
+        "name": "Исмаэл",
+        "lastname": "Силва Лима",
+        "nickname": "Исмаэл Силва",
+        "keyword": "Silva-Lima-Ismael",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
       "player2": null,
       "club": 702,
       "gameStateNumber": null,
