@@ -2693,8 +2693,8 @@
         "videoReviewLink": "",
         "ticketsLink": "https://fckrasnodar.ru/stadium/tickets/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage#grafik-tab",
         "winline": {
-          "outcome1": 2.21,
-          "outcome2": 3.55,
+          "outcome1": 2.26,
+          "outcome2": 3.7,
           "outcome3": 3.15,
           "link": "https://winline.ru/plus/17021112",
           "erid": "2W5zFGTFNSv"
@@ -2723,9 +2723,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://akhmat-arena.ru/2019-04-20-16-51-31?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
         "winline": {
-          "outcome1": 1.78,
-          "outcome2": 4,
-          "outcome3": 4.2,
+          "outcome1": 1.85,
+          "outcome2": 3.85,
+          "outcome3": 4,
           "link": "https://winline.ru/plus/17021111",
           "erid": "2W5zFHJ9xJW"
         },
@@ -2771,21 +2771,21 @@
         "id": 16345,
         "clubH": 264,
         "clubA": 7,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 1,
+        "goalA": 1,
         "date": "2026-11-07UTC14:00:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 3,
+        "dateStartStatus": "2026-11-07UTC15:04:05",
         "city": "Воронеж",
         "stadium": "«Факел»",
-        "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_fdb3b7794ab6fd9043d471bf1d6534d5_hd/17_1040048/47983ace42286596116131b51c61114c/4949318441?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+        "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_fdb3b7794ab6fd9043d471bf1d6534d5_hd/17_1040048/e5acf673d85f901f9e0ef7087bdde1d7/4949726510?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
         "videoReviewLink": "",
         "ticketsLink": "https://lk.fakelfc.ru/login?from=http://fakelfc.ru",
         "winline": {
-          "outcome1": 5,
-          "outcome2": 4,
-          "outcome3": 1.67,
+          "outcome1": 6.4,
+          "outcome2": 4.4,
+          "outcome3": 1.5,
           "link": "https://winline.ru/plus/17021110",
           "erid": "2W5zFH6J43k"
         },
@@ -2794,8 +2794,8 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": false,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 2,
+        "fairplayClub2": 3
       }
     ]
   },

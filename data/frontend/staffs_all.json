@@ -161,5 +161,19 @@
     "lastname": "Нагайцев",
     "citizenship": "Россия",
     "club": null
+  },
+  "7022": {
+    "id": 7022,
+    "name": "Ролан",
+    "lastname": "Гусев",
+    "citizenship": null,
+    "club": null
+  },
+  "1006": {
+    "id": 1006,
+    "name": "Хасанби",
+    "lastname": "Биджиев",
+    "citizenship": null,
+    "club": null
   }
 }
