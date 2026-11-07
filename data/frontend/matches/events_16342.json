@@ -379,8 +379,26 @@
       "action": "Goal",
       "time": 16,
       "extra": null,
-      "player1": null,
-      "player2": null,
+      "player1": {
+        "id": 24645,
+        "name": "Джон Андрес",
+        "lastname": "Кордоба Копете",
+        "nickname": "",
+        "keyword": "Kordoba-Kopete-Dzhon-Andres",
+        "amplua": 3,
+        "public_lastname": "Кордоба",
+        "public_name": "Джон"
+      },
+      "player2": {
+        "id": 26099,
+        "name": "Кристиан Роберто",
+        "lastname": "Алвес Кардозо",
+        "nickname": "Кристиан",
+        "keyword": "Christian",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
       "club": 584,
       "gameStateNumber": null,
       "periodNumber": 1,
