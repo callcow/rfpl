@@ -1269,11 +1269,11 @@
       {
         "id": 16343,
         "date": "2026-11-07UTC16:30:00",
-        "status": 0,
+        "status": 1,
         "clubH": 702,
         "clubA": 808,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "city": "Грозный",
         "stadium": "«Ахмат Арена»"
       },

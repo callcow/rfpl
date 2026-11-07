@@ -2711,12 +2711,12 @@
         "id": 16343,
         "clubH": 702,
         "clubA": 808,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "date": "2026-11-07UTC16:30:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 1,
+        "dateStartStatus": "2026-11-07UTC16:33:39",
         "city": "Грозный",
         "stadium": "«Ахмат Арена»",
         "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_67945f35a127ff0824c40df8e3378afd_hd/17_1040049/a1a9810f4b7fef925d0aa32ddf13b720/4949318447?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
@@ -2734,8 +2734,8 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": false,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 0,
+        "fairplayClub2": 0
       },
       {
         "id": 16344,
