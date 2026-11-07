@@ -1711,6 +1711,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66238,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 68,
+      "extra": null,
+      "player1": {
+        "id": 25848,
+        "name": "Кирилл",
+        "lastname": "Данилов",
+        "nickname": "",
+        "keyword": "Danilov-Kirill",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
