@@ -1316,6 +1316,67 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66224,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 59,
+      "extra": null,
+      "player1": {
+        "id": 25084,
+        "name": "Жоау Педру",
+        "lastname": "Фортеш Батчиеза",
+        "nickname": "Батчи",
+        "keyword": "Fortesh-Bashieza-Zhoao-Pedru",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66225,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 21344,
+        "name": "Иван",
+        "lastname": "Олейников",
+        "nickname": "",
+        "keyword": "Oleynikov-Ivan",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 24384,
+        "name": "Кирилл",
+        "lastname": "Глебов",
+        "nickname": "",
+        "keyword": "Glebov-Kirill",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
