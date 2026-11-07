@@ -1369,6 +1369,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66138,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 67,
+      "extra": null,
+      "player1": {
+        "id": 23778,
+        "name": "Турпал-Али",
+        "lastname": "Ибишев",
+        "nickname": null,
+        "keyword": "Ibishev-Turpal-Ali",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
