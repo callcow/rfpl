@@ -1707,6 +1707,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66151,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 77,
+      "extra": null,
+      "player1": {
+        "id": 25033,
+        "name": "Брайан Эсекьель",
+        "lastname": "Мансилья",
+        "nickname": "",
+        "keyword": "Mansilya-Brayan-Esikiel",
+        "amplua": 2,
+        "public_lastname": "Мансилья",
+        "public_name": "Брайан"
+      },
+      "player2": {
+        "id": 25691,
+        "name": "Иван",
+        "lastname": "Тимошенко",
+        "nickname": "",
+        "keyword": "Timoshenko-Ivan",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
