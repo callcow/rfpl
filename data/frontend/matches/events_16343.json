@@ -934,6 +934,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66124,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 55,
+      "extra": null,
+      "player1": {
+        "id": 22346,
+        "name": "Исмаэл",
+        "lastname": "Силва Лима",
+        "nickname": "Исмаэл Силва",
+        "keyword": "Silva-Lima-Ismael",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
