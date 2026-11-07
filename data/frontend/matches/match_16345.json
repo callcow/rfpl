@@ -59,21 +59,20 @@
   "clubH": 264,
   "clubA": 7,
   "goalH": 1,
-  "goalA": 1,
+  "goalA": 2,
   "date": "2026-11-07UTC14:00:00",
-  "status": 3,
-  "dateStartStatus": "2026-11-07UTC15:04:05",
+  "status": 4,
+  "dateStartStatus": "2026-11-07UTC15:53:46",
   "city": "Воронеж",
   "stadium": "«Факел»",
   "stadiumLink": "",
-  "attendance": null,
+  "attendance": 7235,
   "comments": "",
-  "weather": "2.1°C, Облачно",
+  "weather": "2.3°C, Пасмурно",
   "documents": {
-    "protocol": null,
     "report": null,
     "preview": null
   },
-  "protocol": false,
+  "protocol": true,
   "countVideos": null
 }

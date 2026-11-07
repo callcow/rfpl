@@ -1,5 +1,27 @@
 [
   {
+    "clubId": 7,
+    "club": "Динамо М",
+    "played": 14,
+    "won": 10,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 23,
+    "goalsAgainst": 13,
+    "points": 31,
+    "maxPoints": 42,
+    "position": 1,
+    "goalDiff": 10,
+    "pointsPercent": 73.8,
+    "form": [
+      "w",
+      "w",
+      "l",
+      "w",
+      "w"
+    ]
+  },
+  {
     "clubId": 3,
     "club": "Зенит",
     "played": 13,
@@ -10,7 +32,7 @@
     "goalsAgainst": 13,
     "points": 30,
     "maxPoints": 39,
-    "position": 1,
+    "position": 2,
     "goalDiff": 17,
     "pointsPercent": 76.9,
     "form": [
@@ -18,28 +40,6 @@
       "w",
       "w",
       "w",
-      "w"
-    ]
-  },
-  {
-    "clubId": 7,
-    "club": "Динамо М",
-    "played": 13,
-    "won": 9,
-    "drawn": 1,
-    "lost": 3,
-    "goalsFor": 21,
-    "goalsAgainst": 12,
-    "points": 28,
-    "maxPoints": 39,
-    "position": 2,
-    "goalDiff": 9,
-    "pointsPercent": 71.8,
-    "form": [
-      "w",
-      "w",
-      "w",
-      "l",
       "w"
     ]
   },
@@ -332,21 +332,21 @@
   {
     "clubId": 264,
     "club": "Факел",
-    "played": 13,
+    "played": 14,
     "won": 1,
     "drawn": 3,
-    "lost": 9,
-    "goalsFor": 8,
-    "goalsAgainst": 21,
+    "lost": 10,
+    "goalsFor": 9,
+    "goalsAgainst": 23,
     "points": 6,
-    "maxPoints": 39,
+    "maxPoints": 42,
     "position": 16,
-    "goalDiff": -13,
-    "pointsPercent": 15.4,
+    "goalDiff": -14,
+    "pointsPercent": 14.3,
     "form": [
       "l",
-      "l",
       "w",
+      "l",
       "l",
       "l"
     ]
