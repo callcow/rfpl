@@ -328,14 +328,14 @@
       "time": 19,
       "extra": null,
       "player1": {
-        "id": 25150,
-        "name": "Хосе Йорди",
-        "lastname": "Рейна Серна",
+        "id": 22694,
+        "name": "Герман",
+        "lastname": "Онугха",
         "nickname": "",
-        "keyword": "Reyna-Serna-Hose-Yordi",
-        "amplua": 2,
-        "public_lastname": "Рейна",
-        "public_name": "Йорди"
+        "keyword": "Onugha-German",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
       },
       "player2": null,
       "club": 808,
