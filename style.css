@@ -1846,6 +1846,114 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 .pev-in { margin-right: 6px; color: #22c55e; font-weight: 700; font-size: 12px; }
 .pev-assist { margin-right: 6px; color: #6b7280; font-weight: 700; font-size: 12px; }
 
+
+/* Перечеркнутая иконка пенальти (незабитый) */
+.icon-penalty-missed {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+}
+.icon-penalty-missed::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140%;
+    height: 2px;
+    background-color: #ef4444;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 2;
+    border-radius: 2px;
+}
+
+/* Иконка автогола */
+.icon-autogoal {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+}
+.icon-autogoal::after {
+    content: "А";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8px;
+    font-weight: 900;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+}
+
+/* Иконка пенальти */
+.icon-penalty {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+}
+.icon-penalty::after {
+    content: "11";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8px;
+    font-weight: 900;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
+}
+
+/* Иконки карточек */
+.card-yellow {
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+    background: #facc15;
+    border-radius: 2px;
+    border: 1px solid #d97706;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+.card-red {
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+    background: #ef4444;
+    border-radius: 2px;
+    border: 1px solid #b91c1c;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+
+/* Иконка второй желтой карточки (наложение) */
+.card-double-yellow {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+.card-double-yellow .card-yellow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+.card-double-yellow .card-red {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
 /* Кружок с номером */
 .player-circle { background: #e0e7ff; color: #3730a3; }
 .player-circle--reserve { background: #f3f4f6; color: #6b7280; }
@@ -2317,5 +2425,23 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-bottom: 5px solid #fbbf24;
+}
+
+#timeline-tooltip {
+  position: fixed;
+  background: #111827;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 10px 16px;
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: 99999;
+  box-shadow: 0 4px 12px -1px rgba(0, 0, 0, 0.15);
+  white-space: pre-line;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  max-width: 280px;
 }
 

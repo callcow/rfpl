@@ -618,19 +618,7 @@ window.switchTab = function(tabId, event) {
   document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
   
   if (event && event.target) {
-    event.target.classList.add('active');
-    
-    // Плавно перемещаем бегунок
-    const targetBtn = event.target;
-    const slider = document.getElementById('tab-slider');
-    if (slider) {
-      const tabsContainer = targetBtn.parentElement;
-      // Позиция кнопки относительно контейнера (учитывая padding)
-      const targetLeft = targetBtn.offsetLeft - tabsContainer.offsetLeft;
-      
-      slider.style.width = `${targetBtn.offsetWidth}px`;
-      slider.style.transform = `translateX(${targetLeft}px)`;
-    }
+    syncTabNav(event.target);
   }
   document.getElementById(`tab-${tabId}`).classList.add('active');
 
@@ -2059,6 +2047,17 @@ window.openMatchModal = async function(matchId) {
                             }
                         }
                         
+                        // --- ВТОРЫЕ ЖЁЛТЫЕ КАРТОЧКИ ---
+                        else if (ev.action === "RedYellowCard") {
+                            if (ev.player1) {
+                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === 'redyellow');
+                                if (!isDup) {
+                                    if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
+                                    playerEvents[ev.player1.id].push({ type: 'redyellow', min });
+                                }
+                            }
+                        }
+                        
                         // --- КРАСНЫЕ КАРТОЧКИ ---
                         else if (ev.type === 4 || ev.action === "RedCard") {
                             if (ev.player1) {
@@ -2071,12 +2070,14 @@ window.openMatchModal = async function(matchId) {
                         }
                         
                         // --- ГОЛЫ И АССИСТЫ ---
-                        else if (ev.type === 1 || ev.type === 10 || ev.action === "Goal") {
+                        else if (ev.type === 1 || ev.type === 10 || ev.action === "Goal" || ev.action === "PenaltyGoal") {
                             if (ev.player1) {
-                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === 'goal');
+                                const isPenalty = ev.type === 10 || ev.action === "PenaltyGoal";
+                                const evType = isPenalty ? 'penalty_goal' : 'goal';
+                                const isDup = (playerEvents[ev.player1.id] || []).some(e => e.type === evType);
                                 if (!isDup) {
                                     if (!playerEvents[ev.player1.id]) playerEvents[ev.player1.id] = [];
-                                    playerEvents[ev.player1.id].push({ type: 'goal', min });
+                                    playerEvents[ev.player1.id].push({ type: evType, min });
                                 }
                                 
                                 // Ассистент (берем из этого же события, если он есть)
@@ -2111,9 +2112,11 @@ window.openMatchModal = async function(matchId) {
                         const events = playerEvents[player.id] || [];
                         const eventsHtml = events.map(e => {
                             if (e.type === 'goal') return `<span class="pev" title="Гол ${e.min}">⚽</span>`;
-                            if (e.type === 'autogoal') return `<span class="pev-autogoal" title="Автогол ${e.min}">⚽ <small>(автогол)</small></span>`;
-                            if (e.type === 'yellow') return `<span class="pev" title="Жёлтая ${e.min}">🟨</span>`;
-                            if (e.type === 'red') return `<span class="pev" title="Красная ${e.min}">🟥</span>`;
+                            if (e.type === 'penalty_goal') return `<span class="pev" title="Гол с пенальти ${e.min}"><span class="icon-penalty">⚽</span></span>`;
+                            if (e.type === 'autogoal') return `<span class="pev-autogoal" title="Автогол ${e.min}"><span class="icon-autogoal">⚽</span> <small>(автогол)</small></span>`;
+                            if (e.type === 'yellow') return `<span class="pev" title="Жёлтая ${e.min}"><span class="card-yellow"></span></span>`;
+                            if (e.type === 'red') return `<span class="pev" title="Красная ${e.min}"><span class="card-red"></span></span>`;
+                            if (e.type === 'redyellow') return `<span class="pev" title="Вторая жёлтая ${e.min}"><span class="card-double-yellow"><span class="card-yellow"></span><span class="card-red"></span></span></span>`;
                             if (e.type === 'out') return `<span class="pev-out" title="Заменён ${e.min}">↓ ${e.min}</span>`;
                             if (e.type === 'in') return `<span class="pev-in" title="Вышел ${e.min}">↑ ${e.min}</span>`;
                             if (e.type === 'assist') return `<span class="pev-assist" title="Голевой пас ${e.min}">(А)</span>`;
@@ -2286,8 +2289,8 @@ window.openMatchModal = async function(matchId) {
                                 <span><span class="legend-captain">(К)</span> — капитан</span>
                                 <span><span class="legend-assist">(А)</span> — голевой пас</span>
                                 <span>⚽ — гол</span>
-                                <span>🟨 — жёлтая карточка</span>
-                                <span>🟥 — красная карточка</span>
+                                <span><span class="card-yellow"></span> — жёлтая карточка</span>
+                                <span><span class="card-red"></span> — красная карточка</span>
                             </div>
 
                             <!-- ЗАГОЛОВКИ КОМАНД -->
@@ -2422,6 +2425,11 @@ window.openMatchModal = async function(matchId) {
                         else if (e.action === "Substitution") {
                             allEvents.push({ ...e, _clubId: e.club, _source: 'broadcast' });
                         }
+
+                        // 8. ВТОРЫЕ ЖЁЛТЫЕ КАРТОЧКИ
+                        else if (e.action === "RedYellowCard") {
+                            allEvents.push({ ...e, _clubId: e.club, _source: 'broadcast' });
+                        }
                     });
                     
                     // Убираем дубли назначенных пенальти, если позже был забит гол с пенальти или промах
@@ -2499,6 +2507,7 @@ window.openMatchModal = async function(matchId) {
                             if (e.type === 2 || e.action === "Substitution") return 'substitution';
                             if (e.type === 3 || e.action === "YellowCard") return 'yellow';
                             if (e.type === 4 || e.action === "RedCard") return 'red';
+                            if (e.action === "RedYellowCard") return 'redyellow';
                             if (e._isCorner || e.action === "Corner") return 'corner';
                             if (e._penalty || e.action === "AppointedPenalty") return 'penalty_appointed';
                             return 'unknown';
@@ -2646,10 +2655,10 @@ window.openMatchModal = async function(matchId) {
 
                         if (isPenaltyEvent && !e.isOwnGoal) {
                             if (isMissedPenalty) {
-                                icon = "❌"; label = "Незабитый пенальти";
+                                icon = `<span class="icon-penalty-missed"><span class="icon-penalty">⚽</span></span>`; label = "Незабитый пенальти";
                                 extraNote = " (пен.)";
                             } else {
-                                icon = "⚽"; label = "Гол с пенальти";
+                                icon = `<span class="icon-penalty">⚽</span>`; label = "Гол с пенальти";
                                 extraNote = " (пен.)";
                             }
                         } else if (e._isCorner) {
@@ -2663,11 +2672,13 @@ window.openMatchModal = async function(matchId) {
                             if (e.isOwnGoal) extraNote += " (авт.)";
                             if (e.player2) extraNote += ` <span class="event-assist player-link" onclick="event.stopPropagation(); openPlayerModal(${e.club}, ${e.player2.id})">(${e.player2.nickname ? e.player2.nickname : (e.player2.public_lastname || e.player2.lastname)})</span>`;
                         } else if (e.type === 11 || e.action === "AutoGoal" || e._type === 'autogoal') {
-                            icon = "⚽"; label = "Автогол";
+                            icon = `<span class="icon-autogoal">⚽</span>`; label = "Автогол";
                         } else if (e.type === 3 || e.action === "YellowCard") {
-                            icon = "🟨"; label = "Жёлтая";
+                            icon = `<span class="card-yellow"></span>`; label = "Жёлтая";
                         } else if (e.type === 4 || e.action === "RedCard") {
-                            icon = "🟥"; label = "Красная";
+                            icon = `<span class="card-red"></span>`; label = "Красная";
+                        } else if (e.action === "RedYellowCard") {
+                            icon = `<span class="card-double-yellow"><span class="card-yellow"></span><span class="card-red"></span></span>`; label = "Вторая жёлтая";
                         } else if (e.type === 2 || e.action === "Substitution") {
                             // Иконку замены выводим вручную между именами, чтобы не дублировалась
                             icon = ""; label = "Замена";
@@ -2903,8 +2914,8 @@ window.openMatchModal = async function(matchId) {
                 <div id="match-tab-overview" class="match-tab-pane active">
                     ${(() => {
                         const timelineEvents = (matchBroadcast || []).filter(e =>
-                            e.action === "Goal" || e.action === "PenaltyGoal" ||
-                            e.action === "AutoGoal" || e.action === "YellowCard" || e.action === "RedCard" ||
+                            e.action === "Goal" || e.action === "PenaltyGoal" || e.action === "AppointedPenalty" ||
+                            e.action === "AutoGoal" || e.action === "YellowCard" || e.action === "RedCard" || e.action === "RedYellowCard" ||
                             e.type === 1 || e.type === 3 || e.type === 4 || e.type === 10 || e.type === 11
                         );
                         if (timelineEvents.length === 0 && data.status === 0) return '';
@@ -2933,12 +2944,21 @@ window.openMatchModal = async function(matchId) {
                             let icon = '';
                             let eventName = '';
                             
-                            if (e.action === "Goal" || e.action === "PenaltyGoal" || e.type === 1 || e.type === 10) {
-                                icon = '⚽';
+                            if (e.action === "AppointedPenalty") {
+                                if (e.isPenaltyRealized === false) {
+                                    icon = '<span class="icon-penalty-missed"><span class="icon-penalty">⚽</span></span>';
+                                    eventName = 'Незабитый пенальти';
+                                } else {
+                                    icon = '<span class="icon-penalty">⚽</span>';
+                                    eventName = 'Гол (пен.)';
+                                    if (isHome) currentH++; else if (isAway) currentA++;
+                                }
+                            } else if (e.action === "Goal" || e.action === "PenaltyGoal" || e.type === 1 || e.type === 10) {
+                                icon = (e.action === "PenaltyGoal" || e.type === 10) ? '<span class="icon-penalty">⚽</span>' : '⚽';
                                 eventName = e.action === "PenaltyGoal" ? 'Гол (пен.)' : 'Гол';
                                 if (isHome) currentH++; else if (isAway) currentA++;
                             } else if (e.action === "AutoGoal" || e.type === 11) {
-                                icon = '⚽';
+                                icon = '<span class="icon-autogoal">⚽</span>';
                                 eventName = 'Автогол';
                                 // Автогол засчитывается ПРОТИВОПОЛОЖНОЙ команде
                                 if (isHome) currentA++; else if (isAway) currentH++;
@@ -2947,20 +2967,30 @@ window.openMatchModal = async function(matchId) {
                                 isHome = !isHome;
                                 isAway = !isAway;
                             } else if (e.action === "YellowCard" || e.type === 3) {
-                                icon = '🟨';
+                                icon = `<span class="card-yellow"></span>`;
                                 eventName = 'Жёлтая карточка';
                             } else if (e.action === "RedCard" || e.type === 4) {
-                                icon = '🟥';
+                                icon = `<span class="card-red"></span>`;
                                 eventName = 'Красная карточка';
+                            } else if (e.action === "RedYellowCard") {
+                                icon = `<span class="card-double-yellow"><span class="card-yellow"></span><span class="card-red"></span></span>`;
+                                eventName = 'Вторая жёлтая';
                             }
                             
                             if (!icon) return;
 
                             const timeLabel = `${e.time}${e.extra ? '+' + e.extra : ''}'`;
                             let playerName = formatPlayerName(e.player1) || 'Неизвестный';
-                            if ((e.action === "AutoGoal" || e.type === 11)) playerName += ' (авт.)';
+                            if (e.action === "AutoGoal" || e.type === 11) {
+                                playerName += ' (авт.)';
+                            } else if (e.action === "AppointedPenalty" || e.action === "PenaltyGoal" || e.type === 10) {
+                                playerName += ' (пен.)';
+                            }
 
-                            const tooltipText = `${timeLabel} — ${playerName}\nСчёт: ${currentH} - ${currentA}`;
+                            const isCard = e.action === "YellowCard" || e.action === "RedCard" || e.action === "RedYellowCard" || e.type === 3 || e.type === 4;
+                            const tooltipText = isCard
+                                ? `${timeLabel} — ${playerName}`
+                                : `${timeLabel} — ${playerName}\nСчёт: ${currentH} - ${currentA}`;
                             
                             const markerHtml = `<span class="timeline-marker" style="left:${pct(min)}%;" data-tooltip="${tooltipText}">${icon}</span>`; 
                             
@@ -4037,8 +4067,8 @@ window.openPlayerModal = async function(clubId, playerId) {
             const evs = [
                 r.goals ? ic('⚽').repeat(r.goals) : '',
                 r.assists ? ic('<span class="pev-assist"></span>').repeat(r.assists) : '',
-                r.yellowCards ? ic('🟨').repeat(r.yellowCards) : '',
-                r.redCards ? ic('🟥').repeat(r.redCards) : ''
+                r.yellowCards ? ic('<span class="card-yellow"></span>').repeat(r.yellowCards) : '',
+                r.redCards ? ic('<span class="card-red"></span>').repeat(r.redCards) : ''
             ].filter(Boolean).join('');
             const status = !r.played ? 'на скамейке' : (r.from != null && r.to != null ? `${r.from}' - ${r.to}'` : (r.started ? `1' - ${r.minutes}'` : 'вышел на замену'));
             return `<div class="pm-match-row pm-match-link" onclick="suspendPlayerModal(); openMatchModal(${r.matchId})">
@@ -4049,7 +4079,7 @@ window.openPlayerModal = async function(clubId, playerId) {
             </div>`;
         };
         const matchesPaneHtml = (pmMatches.length
-            ? `<div class="pm-legend"><span><span class="pm-ic">⚽</span> — гол</span><span><span class="pm-ic"><span class="pev-assist"></span></span> — голевой пас</span><span><span class="pm-ic">🟨</span> — жёлтая</span><span><span class="pm-ic">🟥</span> — красная</span></div>`
+            ? `<div class="pm-legend"><span><span class="pm-ic">⚽</span> — гол</span><span><span class="pm-ic"><span class="pev-assist"></span></span> — голевой пас</span><span><span class="pm-ic"><span class="card-yellow"></span></span> — жёлтая</span><span><span class="pm-ic"><span class="card-red"></span></span> — красная</span></div>`
               + pmMatches.map(pmRow).join('')
             : '<div class="player-modal-state">Матчей пока нет</div>');
         const clubsBreak = psRec ? Object.entries(psRec.clubs || {}).filter(([, s]) => s.matchesInSquad > 0) : [];
@@ -4619,14 +4649,13 @@ document.addEventListener('mouseover', function(e) {
     const tooltipText = marker.getAttribute('data-tooltip');
     if (!tooltipText) return;
 
-    let tooltip = document.getElementById('timeline-tooltip');
-    if (!tooltip) {
-        tooltip = document.createElement('div');
-        tooltip.id = 'timeline-tooltip';
-        tooltip.style.cssText = 'position: fixed; background: #111827; color: #fff; font-size: 11px; line-height: 1.4; padding: 6px 10px; border-radius: 6px; pointer-events: none; z-index: 99999; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); white-space: pre-line; text-align: center; font-family: "Inter", sans-serif; font-weight: 500; max-width: 200px;';
-        document.body.appendChild(tooltip);
-    }
-    
+        let tooltip = document.getElementById('timeline-tooltip');
+            if (!tooltip) {
+                tooltip = document.createElement('div');
+                tooltip.id = 'timeline-tooltip';
+                document.body.appendChild(tooltip);
+            }
+            
     tooltip.innerText = tooltipText;
     tooltip.style.display = 'block';
 
