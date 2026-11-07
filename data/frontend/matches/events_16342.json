@@ -742,32 +742,6 @@
       "deleted": null
     },
     {
-      "id": 66200,
-      "type": "EventAdded",
-      "action": "Goal",
-      "time": 35,
-      "extra": null,
-      "player1": {
-        "id": 24958,
-        "name": "Матвей",
-        "lastname": "Кисляк",
-        "nickname": "",
-        "keyword": "Kislyak-Matvey",
-        "amplua": 2,
-        "public_lastname": null,
-        "public_name": null
-      },
-      "player2": null,
-      "club": 2,
-      "gameStateNumber": null,
-      "periodNumber": 1,
-      "timeSlot": "FirstHalf",
-      "isPenaltyRealized": null,
-      "varCode": null,
-      "photo": null,
-      "deleted": null
-    },
-    {
       "id": 66201,
       "type": "EventAdded",
       "action": "ShotOnTarget",
@@ -782,6 +756,32 @@
         "amplua": 3,
         "public_lastname": "Гонду",
         "public_name": "Лусиано"
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66200,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 35,
+      "extra": null,
+      "player1": {
+        "id": 24958,
+        "name": "Матвей",
+        "lastname": "Кисляк",
+        "nickname": "",
+        "keyword": "Kislyak-Matvey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
       },
       "player2": null,
       "club": 2,
