@@ -830,6 +830,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66120,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 49,
+      "extra": null,
+      "player1": {
+        "id": 22717,
+        "name": "Родриго",
+        "lastname": "Насименто Франса",
+        "nickname": "Родриго Бекао",
+        "keyword": "Nasimento-Fransa-Rodrigo",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
