@@ -2019,6 +2019,7 @@ window.openMatchModal = async function(matchId) {
 
                     // 3. Единый проход по всем событиям с жесткой проверкой на дубли
                     combinedEvents.forEach(ev => {
+                        if (ev.time > 120) return; // Игнорируем некорректные события (например, 125-я минута)
                         const min = `${ev.time}${ev.extra ? `+${ev.extra}` : ''}'`;
                         
                         // --- ЗАМЕНЫ ---
@@ -2349,6 +2350,7 @@ window.openMatchModal = async function(matchId) {
                     const allEvents = [];
                     
                     protocolEvents.forEach(e => {
+                        if (e.time > 120) return; // Игнорируем некорректные события (например, 125-я минута)
                         if ([1, 2, 3, 4, 10, 11].includes(e.type) || e.action === "Goal" || e.action === "YellowCard") {
                             // Проверяем, нет ли уже такого гола в broadcast (чтобы не дублировать, когда время сдвинуто)
                             if (e.type === 1 || e.type === 10) {
@@ -4070,7 +4072,7 @@ window.openPlayerModal = async function(clubId, playerId) {
                 r.yellowCards ? ic('<span class="card-yellow"></span>').repeat(r.yellowCards) : '',
                 r.redCards ? ic('<span class="card-red"></span>').repeat(r.redCards) : ''
             ].filter(Boolean).join('');
-            const status = !r.played ? 'на скамейке' : (r.from != null && r.to != null ? `${r.from}' - ${r.to}'` : (r.started ? `1' - ${r.minutes}'` : 'вышел на замену'));
+            const status = r.in_squad === false ? 'не в заявке' : (!r.played ? 'на скамейке' : (r.from != null && r.to != null ? `${r.from}' - ${r.to}'` : (r.started ? `1' - ${r.minutes}'` : 'вышел на замену')));
             return `<div class="pm-match-row pm-match-link" onclick="suspendPlayerModal(); openMatchModal(${r.matchId})">
                 <div class="pm-match-date">${formatMatchDateOnly(r.date)}${r.tour ? ` · ${r.tour}` : ''}</div>
                 <div class="pm-match-teams">${home} — ${away}</div>
@@ -4602,6 +4604,9 @@ window.openAllStatsModal = function(title) {
     modal.classList.add('active');
     document.body.classList.add('modal-open');
     history.pushState({ modal: 'stats-all' }, '');
+
+    const content = modal.querySelector('.modal-content');
+    if (content) content.scrollTop = 0;
 };
 
 window.closeStatsAllModal = function(event, fromPopstate = false, skipHistory = false) {

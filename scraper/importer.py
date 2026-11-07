@@ -1676,6 +1676,12 @@ def _build_players_season_stats(status: dict):
     stats = {}       # (pid, clubId) -> {ключ: значение}
     names = {}       # pid -> имена из составов (там есть никнейм, как в модалке матча)
     match_recs = {}  # pid -> {matchId: запись}
+    
+    club_rosters = {}
+    for c in _load_json(CURRENT_DIR / "clubs.json", []) or []:
+        cid = c["id"]
+        pl = _load_json(INTERNAL_DIR / "clubs_data" / str(cid) / "players.json", []) or []
+        club_rosters[cid] = [p.get("id") for p in pl if p.get("id")]
 
     def get_s(pid, cid):
         if (pid, cid) not in stats:
@@ -1728,11 +1734,19 @@ def _build_players_season_stats(status: dict):
             main = {(x.get("id") if isinstance(x, dict) else x): x for x in (cd.get("main") or [])}
             reserve_ids = {(x.get("id") if isinstance(x, dict) else x) for x in (cd.get("reserve") or [])}
             conceded_here = score_a if side == "clubH" else score_h
+            
+            cd_players_map = {pl.get("id"): pl for pl in (cd.get("players") or []) if pl.get("id")}
+            roster_ids = set(club_rosters.get(cid, [])) | set(cd_players_map.keys())
 
-            for pl in cd.get("players") or []:
-                pid = pl.get("id")
-                if not pid:
-                    continue
+            for pid in roster_ids:
+                pl = cd_players_map.get(pid)
+                in_squad = pl is not None
+                
+                if not pl:
+                    pl = players_all.get(str(pid))
+                    if not pl:
+                        continue
+                
                 if pl.get("nickname") or pl.get("public_name") or pl.get("public_lastname") or pid not in names:
                     names[pid] = {"nickname": pl.get("nickname"), "public_name": pl.get("public_name"),
                                   "public_lastname": pl.get("public_lastname")}
@@ -1745,7 +1759,8 @@ def _build_players_season_stats(status: dict):
                     amplua = (players_all.get(str(pid)) or {}).get("amplua")
 
                 s = get_s(pid, cid)
-                s["matchesInSquad"] += 1
+                if in_squad:
+                    s["matchesInSquad"] += 1
                 _d = str(m.get("date") or "")[:10]
                 if _d and (not s.get("from") or _d < s["from"]):
                     s["from"] = _d
@@ -1767,7 +1782,7 @@ def _build_players_season_stats(status: dict):
                 if played:
                     get_s(pid, cid)["matchesPlayed"] += 1
                 match_recs.setdefault(pid, {})[mid] = {
-                    "matchId": mid, "clubId": cid, "minutes": minutes, "started": in_main, "played": played,
+                    "matchId": mid, "clubId": cid, "minutes": minutes, "started": in_main, "played": played, "in_squad": in_squad,
                     "from": 1 if in_main else (min(sub_in[pid]) if sub_in.get(pid) else None),
                     "to": min(sub_out.get(pid, [end])) if in_main else end,
                     "date": m.get("date"), "tour": m.get("tour"), "homeId": hid, "awayId": aid,
