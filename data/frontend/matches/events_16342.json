@@ -519,6 +519,75 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66188,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 24,
+      "extra": null,
+      "player1": {
+        "id": 25834,
+        "name": "Мохаммед",
+        "lastname": "Аззи",
+        "nickname": "",
+        "keyword": "Azzi-Mohammed",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66189,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 24,
+      "extra": null,
+      "player1": {
+        "id": 21344,
+        "name": "Иван",
+        "lastname": "Олейников",
+        "nickname": "",
+        "keyword": "Oleynikov-Ivan",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66190,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 24,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
