@@ -2014,6 +2014,28 @@
       "deleted": null
     },
     {
+      "id": 110,
+      "type": "Photo",
+      "action": null,
+      "time": 72,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 110,
+        "title": "10 на 10",
+        "description": "Матвей Заика удаляет Дарко Тодоровича за вторую жёлтую карточку и уравнивает составы команд",
+        "author": "«Факел»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66063,
       "type": "EventAdded",
       "action": "Corner",

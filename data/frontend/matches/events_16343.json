@@ -86,6 +86,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66090,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 7,
+      "extra": null,
+      "player1": {
+        "id": 22541,
+        "name": "Андрей",
+        "lastname": "Егорычев",
+        "nickname": "",
+        "keyword": "Egorychev-Andrey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
