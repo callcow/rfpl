@@ -493,6 +493,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66187,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 22,
+      "extra": null,
+      "player1": {
+        "id": 24645,
+        "name": "Джон Андрес",
+        "lastname": "Кордоба Копете",
+        "nickname": "",
+        "keyword": "Kordoba-Kopete-Dzhon-Andres",
+        "amplua": 3,
+        "public_lastname": "Кордоба",
+        "public_name": "Джон"
+      },
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
