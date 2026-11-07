@@ -1876,6 +1876,23 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66244,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 74,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
