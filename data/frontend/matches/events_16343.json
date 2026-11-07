@@ -986,6 +986,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66126,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 58,
+      "extra": null,
+      "player1": {
+        "id": 26148,
+        "name": "Микаэль Бле",
+        "lastname": "Наде",
+        "nickname": "",
+        "keyword": "Nade-Mickael-Ble",
+        "amplua": 1,
+        "public_lastname": "Наде",
+        "public_name": "Микаэль"
+      },
+      "player2": null,
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
