@@ -2410,6 +2410,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66263,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 88,
+      "extra": null,
+      "player1": {
+        "id": 25087,
+        "name": "Кевин Ленини",
+        "lastname": "Гонсалвеш Перейра де Пина",
+        "nickname": "Кевин Пина",
+        "keyword": "Gonsalvesh-Pereyra-de-Pina-Kevin-Lenini",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
