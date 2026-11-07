@@ -612,6 +612,32 @@
       "deleted": null
     },
     {
+      "id": 66212,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 27,
+      "extra": null,
+      "player1": {
+        "id": 21797,
+        "name": "Иван",
+        "lastname": "Обляков",
+        "nickname": "",
+        "keyword": "Oblyakov-Ivan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 66196,
       "type": "EventAdded",
       "action": "Offside",
