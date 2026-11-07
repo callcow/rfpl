@@ -138,6 +138,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66092,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 10,
+      "extra": null,
+      "player1": {
+        "id": 21709,
+        "name": "Леон",
+        "lastname": "Мусаев",
+        "nickname": "",
+        "keyword": "Musaev-Leon",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66093,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 10,
+      "extra": null,
+      "player1": {
+        "id": 26175,
+        "name": "Игор",
+        "lastname": "Силва де Алмейда",
+        "nickname": "Игор Силва",
+        "keyword": "Igor-Silva",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
