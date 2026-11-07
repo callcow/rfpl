@@ -1837,14 +1837,14 @@
       "time": 81,
       "extra": null,
       "player1": {
-        "id": 26169,
-        "name": "Дейвер",
-        "lastname": "Мачадо Мена",
+        "id": 25000,
+        "name": "Кирилл",
+        "lastname": "Ушатов",
         "nickname": "",
-        "keyword": "Machado-Mena-Deiver",
-        "amplua": 1,
-        "public_lastname": "Мачадо",
-        "public_name": "Дейвер"
+        "keyword": "Ushatov-Kirill",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
       },
       "player2": null,
       "club": 808,
