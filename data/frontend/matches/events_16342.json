@@ -1229,6 +1229,93 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66221,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 57,
+      "extra": null,
+      "player1": {
+        "id": 25915,
+        "name": "Дуглас Аугусто",
+        "lastname": "Соарес Гомес",
+        "nickname": "Дуглас Аугусто",
+        "keyword": "Soares-Gomes-Douglas-Augusto",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66222,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 58,
+      "extra": null,
+      "player1": {
+        "id": 25915,
+        "name": "Дуглас Аугусто",
+        "lastname": "Соарес Гомес",
+        "nickname": "Дуглас Аугусто",
+        "keyword": "Soares-Gomes-Douglas-Augusto",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66223,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 58,
+      "extra": null,
+      "player1": {
+        "id": 17789,
+        "name": "Дмитрий",
+        "lastname": "Воробьёв",
+        "nickname": "",
+        "keyword": "Vorobev-Dmitriy",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 21519,
+        "name": "Даниил",
+        "lastname": "Уткин",
+        "nickname": "",
+        "keyword": "Utkin-Daniil",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
