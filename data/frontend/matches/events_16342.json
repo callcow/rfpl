@@ -924,6 +924,28 @@
       "deleted": null
     },
     {
+      "id": 114,
+      "type": "Photo",
+      "action": null,
+      "time": 40,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 114,
+        "title": "Подарок для Батчи",
+        "description": "Батчи пользуется ошибками Максима Бориско и Жоао Виктора и возвращает &laquo;Краснодару&raquo; лидерство в счёте в WINLINE Матче тура",
+        "author": "Андрей Шрамко / «Краснодар»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66207,
       "type": "EventAdded",
       "action": "Shot",
