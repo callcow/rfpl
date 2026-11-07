@@ -294,6 +294,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66098,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 18,
+      "extra": null,
+      "player1": {
+        "id": 22655,
+        "name": "Кирилл",
+        "lastname": "Щетинин",
+        "nickname": "",
+        "keyword": "Schetinin-Kirill",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
