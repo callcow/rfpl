@@ -441,6 +441,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66185,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 21,
+      "extra": null,
+      "player1": {
+        "id": 21797,
+        "name": "Иван",
+        "lastname": "Обляков",
+        "nickname": "",
+        "keyword": "Oblyakov-Ivan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66186,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 22,
+      "extra": null,
+      "player1": {
+        "id": 24645,
+        "name": "Джон Андрес",
+        "lastname": "Кордоба Копете",
+        "nickname": "",
+        "keyword": "Kordoba-Kopete-Dzhon-Andres",
+        "amplua": 3,
+        "public_lastname": "Кордоба",
+        "public_name": "Джон"
+      },
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
