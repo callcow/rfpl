@@ -17,6 +17,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66168,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 1,
+      "extra": null,
+      "player1": {
+        "id": 25741,
+        "name": "Лусиано Эмилио",
+        "lastname": "Гонду Санельи",
+        "nickname": "",
+        "keyword": "Gondu-Zanelli-Luchano-Emilio",
+        "amplua": 3,
+        "public_lastname": "Гонду",
+        "public_name": "Лусиано"
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }

@@ -2681,12 +2681,12 @@
         "id": 16342,
         "clubH": 584,
         "clubA": 2,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "date": "2026-11-07UTC19:30:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 1,
+        "dateStartStatus": "2026-11-07UTC19:32:02",
         "city": "Краснодар",
         "stadium": "«Ozon Арена»",
         "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_3194f9be2bbb64bed781a561856ccfca_hd/17_1040050/c06d2ed73278ab6a1f4e56b1a7a51ce9/4949318456?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
@@ -2704,8 +2704,8 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": true,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 0,
+        "fairplayClub2": 0
       },
       {
         "id": 16343,
