@@ -1933,6 +1933,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66159,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 85,
+      "extra": null,
+      "player1": {
+        "id": 23778,
+        "name": "Турпал-Али",
+        "lastname": "Ибишев",
+        "nickname": null,
+        "keyword": "Ibishev-Turpal-Ali",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25904,
+        "name": "Келиано",
+        "lastname": "Мануэл",
+        "nickname": "",
+        "keyword": "Keliano-Manuel",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
