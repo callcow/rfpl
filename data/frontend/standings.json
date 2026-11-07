@@ -44,25 +44,47 @@
     ]
   },
   {
-    "clubId": 2,
-    "club": "ЦСКА",
-    "played": 13,
+    "clubId": 584,
+    "club": "Краснодар",
+    "played": 14,
     "won": 7,
     "drawn": 5,
-    "lost": 1,
-    "goalsFor": 21,
-    "goalsAgainst": 12,
+    "lost": 2,
+    "goalsFor": 25,
+    "goalsAgainst": 18,
     "points": 26,
-    "maxPoints": 39,
+    "maxPoints": 42,
     "position": 3,
-    "goalDiff": 9,
-    "pointsPercent": 66.7,
+    "goalDiff": 7,
+    "pointsPercent": 61.9,
     "form": [
-      "w",
+      "l",
+      "d",
+      "d",
+      "l",
+      "w"
+    ]
+  },
+  {
+    "clubId": 2,
+    "club": "ЦСКА",
+    "played": 14,
+    "won": 7,
+    "drawn": 5,
+    "lost": 2,
+    "goalsFor": 23,
+    "goalsAgainst": 16,
+    "points": 26,
+    "maxPoints": 42,
+    "position": 4,
+    "goalDiff": 7,
+    "pointsPercent": 61.9,
+    "form": [
       "w",
       "l",
       "w",
-      "d"
+      "d",
+      "l"
     ]
   },
   {
@@ -76,7 +98,7 @@
     "goalsAgainst": 10,
     "points": 26,
     "maxPoints": 39,
-    "position": 4,
+    "position": 5,
     "goalDiff": 15,
     "pointsPercent": 66.7,
     "form": [
@@ -85,28 +107,6 @@
       "w",
       "l",
       "w"
-    ]
-  },
-  {
-    "clubId": 584,
-    "club": "Краснодар",
-    "played": 13,
-    "won": 6,
-    "drawn": 5,
-    "lost": 2,
-    "goalsFor": 21,
-    "goalsAgainst": 16,
-    "points": 23,
-    "maxPoints": 39,
-    "position": 5,
-    "goalDiff": 5,
-    "pointsPercent": 59.0,
-    "form": [
-      "d",
-      "l",
-      "d",
-      "d",
-      "l"
     ]
   },
   {

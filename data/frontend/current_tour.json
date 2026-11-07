@@ -57,15 +57,15 @@
     {
       "id": 16342,
       "date": "2026-11-07UTC19:30:00",
-      "status": 3,
+      "status": 4,
       "clubH": 584,
       "clubA": 2,
       "goalH": 4,
       "goalA": 2,
       "city": "Краснодар",
       "stadium": "«Ozon Арена»",
-      "wid": 17021112,
-      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfMzE5NGY5YmUyYmJiNjRiZWQ3ODFhNTYxODU2Y2NmY2EvMTdfMTA0MDA1MC8xMDgwcDUwZnBzL2E5YjM3YzMyODZiZDI2MjkxZTZiYTgyMTUzOTQ5ODExLzQ5NDk3NDg5MDIubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTI5YzZjNmQ1MTJiNDExNmM4NjE0NDhhNGFjNzA5YTEw"
+      "wid": null,
+      "stream": null
     },
     {
       "id": 16343,
