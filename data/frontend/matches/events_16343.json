@@ -190,6 +190,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66094,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 15,
+      "extra": null,
+      "player1": {
+        "id": 25033,
+        "name": "Брайан Эсекьель",
+        "lastname": "Мансилья",
+        "nickname": "",
+        "keyword": "Mansilya-Brayan-Esikiel",
+        "amplua": 2,
+        "public_lastname": "Мансилья",
+        "public_name": "Брайан"
+      },
+      "player2": null,
+      "club": 808,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
