@@ -2028,6 +2028,128 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66249,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 77,
+      "extra": null,
+      "player1": {
+        "id": 25084,
+        "name": "Жоау Педру",
+        "lastname": "Фортеш Батчиеза",
+        "nickname": "Батчи",
+        "keyword": "Fortesh-Bashieza-Zhoao-Pedru",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66250,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 78,
+      "extra": null,
+      "player1": {
+        "id": 21797,
+        "name": "Иван",
+        "lastname": "Обляков",
+        "nickname": "",
+        "keyword": "Oblyakov-Ivan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66251,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 78,
+      "extra": null,
+      "player1": {
+        "id": 23755,
+        "name": "Матвей",
+        "lastname": "Лукин",
+        "nickname": "",
+        "keyword": "Lukin-Matvey",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 26001,
+        "name": "Энрике Фабиано",
+        "lastname": "до Кармо",
+        "nickname": "Энрике Кармо",
+        "keyword": "Henrique-Carmo",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66252,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 78,
+      "extra": null,
+      "player1": {
+        "id": 25899,
+        "name": "Матеус",
+        "lastname": "Алвес Насименто",
+        "nickname": "Матеус Алвес",
+        "keyword": "Alves-Nascimento-Matheus",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 23123,
+        "name": "Тамерлан",
+        "lastname": "Мусаев",
+        "nickname": "",
+        "keyword": "Musaev-Tamerlan",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
