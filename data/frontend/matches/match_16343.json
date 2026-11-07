@@ -66,14 +66,13 @@
   "city": "Грозный",
   "stadium": "«Ахмат Арена»",
   "stadiumLink": "",
-  "attendance": null,
+  "attendance": 3494,
   "comments": "",
   "weather": "8.4°C, Пасмурно",
   "documents": {
-    "protocol": null,
     "report": null,
     "preview": null
   },
-  "protocol": false,
+  "protocol": true,
   "countVideos": null
 }
