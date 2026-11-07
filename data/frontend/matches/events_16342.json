@@ -2273,6 +2273,32 @@
       "deleted": null
     },
     {
+      "id": 66261,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 85,
+      "extra": null,
+      "player1": {
+        "id": 26151,
+        "name": "Алекс Майсон",
+        "lastname": "Родригес Гонсалес",
+        "nickname": "",
+        "keyword": "Rodriguez-Gonzalez-Alex-Maizon",
+        "amplua": 1,
+        "public_lastname": "Родригес",
+        "public_name": "Майсон"
+      },
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 66258,
       "type": "EventAdded",
       "action": "YellowCard",
@@ -2360,6 +2386,23 @@
         "public_name": null
       },
       "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66262,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 88,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 584,
       "gameStateNumber": null,
       "periodNumber": 2,
       "timeSlot": "SecondHalf",
