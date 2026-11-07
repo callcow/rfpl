@@ -692,6 +692,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66197,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 30,
+      "extra": null,
+      "player1": {
+        "id": 25084,
+        "name": "Жоау Педру",
+        "lastname": "Фортеш Батчиеза",
+        "nickname": "Батчи",
+        "keyword": "Fortesh-Bashieza-Zhoao-Pedru",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
