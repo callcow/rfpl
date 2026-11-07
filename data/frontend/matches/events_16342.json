@@ -409,32 +409,6 @@
       "deleted": null
     },
     {
-      "id": 66193,
-      "type": "EventAdded",
-      "action": "Shot",
-      "time": 19,
-      "extra": null,
-      "player1": {
-        "id": 25834,
-        "name": "Мохаммед",
-        "lastname": "Аззи",
-        "nickname": "",
-        "keyword": "Azzi-Mohammed",
-        "amplua": 1,
-        "public_lastname": "",
-        "public_name": ""
-      },
-      "player2": null,
-      "club": 2,
-      "gameStateNumber": null,
-      "periodNumber": 1,
-      "timeSlot": "FirstHalf",
-      "isPenaltyRealized": null,
-      "varCode": null,
-      "photo": null,
-      "deleted": null
-    },
-    {
       "id": 66183,
       "type": "EventAdded",
       "action": "Corner",
@@ -706,6 +680,32 @@
         "nickname": "Батчи",
         "keyword": "Fortesh-Bashieza-Zhoao-Pedru",
         "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66198,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 30,
+      "extra": null,
+      "player1": {
+        "id": 25894,
+        "name": "Жубал",
+        "lastname": "Роша Мендес Жуниор",
+        "nickname": "Жубал",
+        "keyword": "Rocha-Mendes-Junior-Jubal",
+        "amplua": 1,
         "public_lastname": "",
         "public_name": ""
       },
