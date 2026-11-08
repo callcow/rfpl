@@ -1422,6 +1422,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66505,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 76,
+      "extra": null,
+      "player1": {
+        "id": 23094,
+        "name": "Вильмар Энрике",
+        "lastname": "Барриос Теран",
+        "nickname": "",
+        "keyword": "Barrios-Teran-Vilmar-Enrike",
+        "amplua": 2,
+        "public_lastname": "Барриос",
+        "public_name": "Вильмар"
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66506,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 76,
+      "extra": null,
+      "player1": {
+        "id": 23094,
+        "name": "Вильмар Энрике",
+        "lastname": "Барриос Теран",
+        "nickname": "",
+        "keyword": "Barrios-Teran-Vilmar-Enrike",
+        "amplua": 2,
+        "public_lastname": "Барриос",
+        "public_name": "Вильмар"
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
