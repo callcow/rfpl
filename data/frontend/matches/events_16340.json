@@ -909,6 +909,93 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66557,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 26030,
+        "name": "Эдуардо Антонио",
+        "lastname": "Андерсон Гомес",
+        "nickname": "",
+        "keyword": "Anderson-Gomez-Eduardo-Antonio",
+        "amplua": 1,
+        "public_lastname": "Андерсон",
+        "public_name": "Эдуардо"
+      },
+      "player2": {
+        "id": 24058,
+        "name": "Илья",
+        "lastname": "Кирш",
+        "nickname": "",
+        "keyword": "Kirsh-Ilya",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66558,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 21256,
+        "name": "Мингиян",
+        "lastname": "Бевеев",
+        "nickname": "",
+        "keyword": "Beveev-Mingiyan",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25945,
+        "name": "Фахд",
+        "lastname": "Муфи",
+        "nickname": null,
+        "keyword": "Moufi-Fahd",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66559,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 60,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
