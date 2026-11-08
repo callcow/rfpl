@@ -355,6 +355,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66534,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 29,
+      "extra": null,
+      "player1": {
+        "id": 21062,
+        "name": "Муталип",
+        "lastname": "Алибеков",
+        "nickname": "",
+        "keyword": "Alibekov-Mutalip",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
