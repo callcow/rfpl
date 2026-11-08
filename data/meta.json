@@ -1,18 +1,28 @@
 {
-  "last_updated": "2026-11-08T19:41:12.457643+00:00",
+  "last_updated": "2026-11-08T19:42:07.630150+00:00",
   "import_status": {
     "api_ok": true,
     "from_archive": [],
     "errors": [],
     "warnings": [
-      "Матч 16338: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16339: нет ['winline', 'ticketsLink', 'broadcastLink']",
       "Матч 16340: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16341: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16342: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16343: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16344: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16345: нет ['winline', 'ticketsLink', 'broadcastLink']"
+      "Матч 16340: завершён, но события пустые",
+      "Матч 16347: нет ['matchOfficials', 'weather', 'winline', 'ticketsLink', 'broadcastLink']",
+      "Матч 16347: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16348: нет ['matchOfficials', 'weather', 'winline', 'ticketsLink', 'broadcastLink']",
+      "Матч 16348: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16349: нет ['matchOfficials', 'weather', 'winline', 'ticketsLink', 'broadcastLink']",
+      "Матч 16349: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16350: нет ['matchOfficials', 'weather', 'winline', 'ticketsLink', 'broadcastLink']",
+      "Матч 16350: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16351: нет ['matchOfficials', 'weather', 'winline', 'ticketsLink', 'broadcastLink']",
+      "Матч 16351: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16352: нет ['matchOfficials', 'weather', 'winline', 'ticketsLink', 'broadcastLink']",
+      "Матч 16352: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16353: нет ['matchOfficials', 'weather', 'winline', 'ticketsLink', 'broadcastLink']",
+      "Матч 16353: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16481: нет ['matchOfficials', 'weather', 'winline', 'ticketsLink', 'broadcastLink']",
+      "Матч 16481: составы пустые (clubH: 0, clubA: 0)"
     ],
     "current_season": "Сезон 2026/27"
   }

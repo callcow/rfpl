@@ -178,23 +178,23 @@
   {
     "clubId": 444,
     "club": "Балтика",
-    "played": 13,
+    "played": 14,
     "won": 4,
     "drawn": 5,
-    "lost": 4,
+    "lost": 5,
     "goalsFor": 17,
-    "goalsAgainst": 14,
+    "goalsAgainst": 15,
     "points": 17,
-    "maxPoints": 39,
+    "maxPoints": 42,
     "position": 9,
-    "goalDiff": 3,
-    "pointsPercent": 43.6,
+    "goalDiff": 2,
+    "pointsPercent": 40.5,
     "form": [
-      "l",
       "d",
       "d",
       "d",
-      "w"
+      "w",
+      "l"
     ]
   },
   {
@@ -220,6 +220,28 @@
     ]
   },
   {
+    "clubId": 125,
+    "club": "Динамо Мх",
+    "played": 14,
+    "won": 5,
+    "drawn": 1,
+    "lost": 8,
+    "goalsFor": 17,
+    "goalsAgainst": 26,
+    "points": 16,
+    "maxPoints": 42,
+    "position": 11,
+    "goalDiff": -9,
+    "pointsPercent": 38.1,
+    "form": [
+      "l",
+      "d",
+      "l",
+      "l",
+      "w"
+    ]
+  },
+  {
     "clubId": 702,
     "club": "Ахмат",
     "played": 14,
@@ -230,7 +252,7 @@
     "goalsAgainst": 19,
     "points": 14,
     "maxPoints": 42,
-    "position": 11,
+    "position": 12,
     "goalDiff": -3,
     "pointsPercent": 33.3,
     "form": [
@@ -239,28 +261,6 @@
       "l",
       "l",
       "w"
-    ]
-  },
-  {
-    "clubId": 125,
-    "club": "Динамо Мх",
-    "played": 13,
-    "won": 4,
-    "drawn": 1,
-    "lost": 8,
-    "goalsFor": 16,
-    "goalsAgainst": 26,
-    "points": 13,
-    "maxPoints": 39,
-    "position": 12,
-    "goalDiff": -10,
-    "pointsPercent": 33.3,
-    "form": [
-      "l",
-      "l",
-      "d",
-      "l",
-      "l"
     ]
   },
   {
