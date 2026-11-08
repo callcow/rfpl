@@ -1042,6 +1042,28 @@
       "deleted": null
     },
     {
+      "id": 130,
+      "type": "Photo",
+      "action": null,
+      "time": 58,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 130,
+        "title": "Пополнение у Энрике",
+        "description": "Луис Энрике пополняет статистику в сезоне голом &laquo;Ростову&raquo;",
+        "author": "Вячеслав Евдокимов / «Зенит»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66491,
       "type": "EventAdded",
       "action": "Shot",
