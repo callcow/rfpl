@@ -1771,6 +1771,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66339,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 70,
+      "extra": null,
+      "player1": {
+        "id": 25704,
+        "name": "Даниэль",
+        "lastname": "Фернандес Фернандес",
+        "nickname": "",
+        "keyword": "Fernandes-Fernandes-Daniel",
+        "amplua": 1,
+        "public_lastname": "Фернандес",
+        "public_name": "Дани"
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66340,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 70,
+      "extra": null,
+      "player1": {
+        "id": 24357,
+        "name": "Казбек",
+        "lastname": "Мукаилов",
+        "nickname": "",
+        "keyword": "Mukailov-Kazbek",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
