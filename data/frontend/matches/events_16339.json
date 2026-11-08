@@ -1510,6 +1510,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66330,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 61,
+      "extra": null,
+      "player1": {
+        "id": 25089,
+        "name": "Амар",
+        "lastname": "Рахманович",
+        "nickname": "",
+        "keyword": "Rahmanovich-Amar",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 24357,
+        "name": "Казбек",
+        "lastname": "Мукаилов",
+        "nickname": "",
+        "keyword": "Mukailov-Kazbek",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
