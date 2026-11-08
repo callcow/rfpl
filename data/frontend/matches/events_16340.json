@@ -1446,6 +1446,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66579,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 86,
+      "extra": null,
+      "player1": {
+        "id": 25945,
+        "name": "Фахд",
+        "lastname": "Муфи",
+        "nickname": null,
+        "keyword": "Moufi-Fahd",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
