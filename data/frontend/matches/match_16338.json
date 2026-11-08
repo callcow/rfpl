@@ -67,14 +67,13 @@
   "city": "Москва",
   "stadium": "«Лукойл Арена»",
   "stadiumLink": "",
-  "attendance": null,
+  "attendance": 22508,
   "comments": "",
   "weather": "4.5°C, Пасмурно, снег с дождём",
   "documents": {
-    "protocol": null,
     "report": null,
     "preview": null
   },
-  "protocol": false,
+  "protocol": true,
   "countVideos": null
 }
