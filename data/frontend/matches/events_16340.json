@@ -1299,6 +1299,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66573,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 79,
+      "extra": null,
+      "player1": {
+        "id": 23612,
+        "name": "Константин",
+        "lastname": "Шильцов",
+        "nickname": "",
+        "keyword": "Shilcov-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
