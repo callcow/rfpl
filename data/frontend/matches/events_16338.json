@@ -1250,6 +1250,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66417,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 24136,
+        "name": "Марат",
+        "lastname": "Бокоев",
+        "nickname": "",
+        "keyword": "Bokoev-Marat",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66418,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 25383,
+        "name": "Манфред Алонсо",
+        "lastname": "Угальде Арсе",
+        "nickname": "",
+        "keyword": "Ugalde-Arse-Manfred-Alonso",
+        "amplua": 3,
+        "public_lastname": "Угальде",
+        "public_name": "Манфред"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
