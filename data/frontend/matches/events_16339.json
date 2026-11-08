@@ -2430,6 +2430,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66365,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 90,
+      "extra": 4,
+      "player1": {
+        "id": 26072,
+        "name": "Руслан",
+        "lastname": "Куль",
+        "nickname": "",
+        "keyword": "Kul-Ruslan",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66366,
+      "type": "GamePeriodEnd",
+      "action": null,
+      "time": 90,
+      "extra": 4,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
