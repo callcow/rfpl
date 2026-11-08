@@ -986,7 +986,16 @@
       "action": "Foul",
       "time": 60,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 25719,
+        "name": "Мохаммаджавад",
+        "lastname": "Хоссейннеджадмахаленколай",
+        "nickname": "",
+        "keyword": "Hosseinzhamadmahalenkolay-Mohammaddzhavad",
+        "amplua": 2,
+        "public_lastname": "Хоссейннеджад",
+        "public_name": "Джавад"
+      },
       "player2": null,
       "club": 125,
       "gameStateNumber": null,
