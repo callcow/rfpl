@@ -796,6 +796,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66553,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 57,
+      "extra": null,
+      "player1": {
+        "id": 24795,
+        "name": "Марат",
+        "lastname": "Апшацев",
+        "nickname": "",
+        "keyword": "Apshacev-Marat",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25670,
+        "name": "Абдулпаша",
+        "lastname": "Джабраилов",
+        "nickname": "",
+        "keyword": "Dzhabrailov-Abdulpasha",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
