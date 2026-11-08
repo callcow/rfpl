@@ -1380,6 +1380,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66422,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 67,
+      "extra": null,
+      "player1": {
+        "id": 25939,
+        "name": "Жедсон",
+        "lastname": "Карвалью Фернандеш",
+        "nickname": "",
+        "keyword": "Carvalho-Fernandes-Gedson",
+        "amplua": 2,
+        "public_lastname": "Фернандеш",
+        "public_name": "Жедсон"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66423,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 67,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
