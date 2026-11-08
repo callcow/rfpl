@@ -1094,6 +1094,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66411,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 51,
+      "extra": null,
+      "player1": {
+        "id": 25798,
+        "name": "Пабло Сесар",
+        "lastname": "Солари Феррейра",
+        "nickname": "",
+        "keyword": "Solari-Ferreyra-Pablo-Cesar",
+        "amplua": 2,
+        "public_lastname": "Солари",
+        "public_name": "Пабло"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
