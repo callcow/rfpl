@@ -674,6 +674,23 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66298,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 33,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
