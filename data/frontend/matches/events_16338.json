@@ -1232,7 +1232,16 @@
         "public_lastname": null,
         "public_name": null
       },
-      "player2": null,
+      "player2": {
+        "id": 25638,
+        "name": "Артём",
+        "lastname": "Шуманский",
+        "nickname": "",
+        "keyword": "Shumanskiy-Artem",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
       "club": 807,
       "gameStateNumber": null,
       "periodNumber": 2,
