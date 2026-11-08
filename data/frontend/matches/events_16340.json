@@ -1237,7 +1237,16 @@
       "action": "Foul",
       "time": 75,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 25670,
+        "name": "Абдулпаша",
+        "lastname": "Джабраилов",
+        "nickname": "",
+        "keyword": "Dzhabrailov-Abdulpasha",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
       "player2": null,
       "club": 125,
       "gameStateNumber": null,
