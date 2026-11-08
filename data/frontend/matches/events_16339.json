@@ -510,6 +510,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66291,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 26,
+      "extra": null,
+      "player1": {
+        "id": 26072,
+        "name": "Руслан",
+        "lastname": "Куль",
+        "nickname": "",
+        "keyword": "Kul-Ruslan",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66292,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 26,
+      "extra": null,
+      "player1": {
+        "id": 21270,
+        "name": "Дмитрий",
+        "lastname": "Рыбчинский",
+        "nickname": "",
+        "keyword": "Rybchinskiy-Dmitriy",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
