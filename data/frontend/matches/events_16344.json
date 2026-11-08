@@ -440,6 +440,28 @@
       "deleted": null
     },
     {
+      "id": 129,
+      "type": "Photo",
+      "action": null,
+      "time": 25,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 129,
+        "title": "",
+        "description": "",
+        "author": "Вячеслав Евдокимов / «Зенит»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66467,
       "type": "EventAdded",
       "action": "Shot",
