@@ -641,6 +641,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66476,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 42,
+      "extra": null,
+      "player1": {
+        "id": 23061,
+        "name": "Максим",
+        "lastname": "Глушенков",
+        "nickname": "",
+        "keyword": "Glushenkov-Maksim",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66477,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 43,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
