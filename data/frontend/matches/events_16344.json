@@ -319,7 +319,16 @@
       "action": "Foul",
       "time": 18,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 25807,
+        "name": "Луиc Энрике Андре",
+        "lastname": "Роза да Силва",
+        "nickname": "Луиc Энрике",
+        "keyword": "Rosa-da-Silva-Luiz-Henrique-Andre",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
       "player2": null,
       "club": 3,
       "gameStateNumber": null,
