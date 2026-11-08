@@ -771,6 +771,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66481,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 45,
+      "extra": 2,
+      "player1": {
+        "id": 25382,
+        "name": "Умар",
+        "lastname": "Сако",
+        "nickname": "",
+        "keyword": "Sako-Umar",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66482,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 45,
+      "extra": 2,
+      "player1": {
+        "id": 23094,
+        "name": "Вильмар Энрике",
+        "lastname": "Барриос Теран",
+        "nickname": "",
+        "keyword": "Barrios-Teran-Vilmar-Enrike",
+        "amplua": 2,
+        "public_lastname": "Барриос",
+        "public_name": "Вильмар"
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
