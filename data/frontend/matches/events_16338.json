@@ -572,6 +572,28 @@
       "deleted": null
     },
     {
+      "id": 123,
+      "type": "Photo",
+      "action": null,
+      "time": 31,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 123,
+        "title": "Максименко отнимает гол",
+        "description": "Слободан Тедич не реализует выход один на один против Александра Максименко",
+        "author": "«Спартак-Москва»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66391,
       "type": "EventAdded",
       "action": "Shot",
