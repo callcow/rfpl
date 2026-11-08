@@ -83,15 +83,15 @@
     {
       "id": 16344,
       "date": "2026-11-08UTC18:30:00",
-      "status": 3,
+      "status": 4,
       "clubH": 3,
       "clubA": 11,
       "goalH": 2,
       "goalA": 2,
       "city": "Санкт-Петербург",
       "stadium": "«Газпром Арена»",
-      "wid": 17021115,
-      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfNTVkNDA2ZTcyZDQxYzcxMmU0ZDcwYjNmYjcxZDYwMGUvMTdfMTA0MDA1My8xMDgwcDUwZnBzLzUxNmFhZDE3YTFlMTA2Y2ViYTVhODVkODgxNjIxMWY0LzQ5NDk4MzE3MDIubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPWUxM2M2NGVkMzVkMWU4MmY3NTAwNzRkOGVhYzEyOGRk"
+      "wid": null,
+      "stream": null
     },
     {
       "id": 16345,

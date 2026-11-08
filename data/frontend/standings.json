@@ -1,5 +1,27 @@
 [
   {
+    "clubId": 3,
+    "club": "Зенит",
+    "played": 14,
+    "won": 10,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 32,
+    "goalsAgainst": 15,
+    "points": 31,
+    "maxPoints": 42,
+    "position": 1,
+    "goalDiff": 17,
+    "pointsPercent": 73.8,
+    "form": [
+      "w",
+      "w",
+      "w",
+      "w",
+      "d"
+    ]
+  },
+  {
     "clubId": 7,
     "club": "Динамо М",
     "played": 14,
@@ -10,35 +32,13 @@
     "goalsAgainst": 13,
     "points": 31,
     "maxPoints": 42,
-    "position": 1,
+    "position": 2,
     "goalDiff": 10,
     "pointsPercent": 73.8,
     "form": [
       "w",
       "w",
       "l",
-      "w",
-      "w"
-    ]
-  },
-  {
-    "clubId": 3,
-    "club": "Зенит",
-    "played": 13,
-    "won": 10,
-    "drawn": 0,
-    "lost": 3,
-    "goalsFor": 30,
-    "goalsAgainst": 13,
-    "points": 30,
-    "maxPoints": 39,
-    "position": 2,
-    "goalDiff": 17,
-    "pointsPercent": 76.9,
-    "form": [
-      "w",
-      "w",
-      "w",
       "w",
       "w"
     ]
@@ -110,6 +110,28 @@
     ]
   },
   {
+    "clubId": 11,
+    "club": "Ростов",
+    "played": 14,
+    "won": 5,
+    "drawn": 4,
+    "lost": 5,
+    "goalsFor": 18,
+    "goalsAgainst": 19,
+    "points": 19,
+    "maxPoints": 42,
+    "position": 6,
+    "goalDiff": -1,
+    "pointsPercent": 45.2,
+    "form": [
+      "w",
+      "d",
+      "w",
+      "w",
+      "d"
+    ]
+  },
+  {
     "clubId": 10,
     "club": "Крылья Советов",
     "played": 14,
@@ -120,7 +142,7 @@
     "goalsAgainst": 20,
     "points": 18,
     "maxPoints": 42,
-    "position": 6,
+    "position": 7,
     "goalDiff": -1,
     "pointsPercent": 42.9,
     "form": [
@@ -128,28 +150,6 @@
       "l",
       "w",
       "l",
-      "w"
-    ]
-  },
-  {
-    "clubId": 11,
-    "club": "Ростов",
-    "played": 13,
-    "won": 5,
-    "drawn": 3,
-    "lost": 5,
-    "goalsFor": 16,
-    "goalsAgainst": 17,
-    "points": 18,
-    "maxPoints": 39,
-    "position": 7,
-    "goalDiff": -1,
-    "pointsPercent": 46.2,
-    "form": [
-      "l",
-      "w",
-      "d",
-      "w",
       "w"
     ]
   },
