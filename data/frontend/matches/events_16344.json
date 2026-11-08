@@ -487,6 +487,32 @@
       "deleted": null
     },
     {
+      "id": 66484,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 30,
+      "extra": null,
+      "player1": {
+        "id": 24700,
+        "name": "Олакунле Джуниор",
+        "lastname": "Олусегун",
+        "nickname": "",
+        "keyword": "Olusegun-Olakunle-Dzhunior",
+        "amplua": 3,
+        "public_lastname": "Олусегун",
+        "public_name": "Олакунле"
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 66471,
       "type": "EventAdded",
       "action": "Shot",
