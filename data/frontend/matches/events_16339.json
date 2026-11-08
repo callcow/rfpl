@@ -216,6 +216,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66279,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 14,
+      "extra": null,
+      "player1": {
+        "id": 23973,
+        "name": "Никита",
+        "lastname": "Салтыков",
+        "nickname": "",
+        "keyword": "Saltykov-Nikita",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
