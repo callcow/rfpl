@@ -1961,6 +1961,76 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66347,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 79,
+      "extra": null,
+      "player1": {
+        "id": 22450,
+        "name": "Евгений",
+        "lastname": "Болотов",
+        "nickname": "",
+        "keyword": "Bolotov-Evgeniy",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 22647,
+        "name": "Данила",
+        "lastname": "Ведерников",
+        "nickname": "",
+        "keyword": "Vedernikov-Danila",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66348,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 80,
+      "extra": null,
+      "player1": {
+        "id": 21270,
+        "name": "Дмитрий",
+        "lastname": "Рыбчинский",
+        "nickname": "",
+        "keyword": "Rybchinskiy-Dmitriy",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 25034,
+        "name": "Михаил",
+        "lastname": "Пыхчеев",
+        "nickname": "",
+        "keyword": "Pyhcheev-Mihail",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
