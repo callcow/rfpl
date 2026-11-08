@@ -1726,6 +1726,67 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66516,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 90,
+      "extra": 1,
+      "player1": {
+        "id": 21491,
+        "name": "Константин",
+        "lastname": "Кучаев",
+        "nickname": "",
+        "keyword": "Kuchaev-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 24380,
+        "name": "Даниил",
+        "lastname": "Шанталий",
+        "nickname": null,
+        "keyword": "Shantaliy-Daniil",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66517,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": 1,
+      "player1": {
+        "id": 25378,
+        "name": "Кевин Орландо",
+        "lastname": "Андраде Мурилло",
+        "nickname": "",
+        "keyword": "Andrade-Murillo-Kevin-Orlando",
+        "amplua": 1,
+        "public_lastname": "Андраде",
+        "public_name": "Кевин"
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
