@@ -2031,6 +2031,93 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66349,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 81,
+      "extra": null,
+      "player1": {
+        "id": 17823,
+        "name": "Ильзат",
+        "lastname": "Ахметов",
+        "nickname": "",
+        "keyword": "Ahmetov-Ilzat",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66350,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 81,
+      "extra": null,
+      "player1": {
+        "id": 23973,
+        "name": "Никита",
+        "lastname": "Салтыков",
+        "nickname": "",
+        "keyword": "Saltykov-Nikita",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 26143,
+        "name": "Ислам",
+        "lastname": "Чесноков",
+        "nickname": "",
+        "keyword": "Chesnokov-Islam",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66351,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 82,
+      "extra": null,
+      "player1": {
+        "id": 25550,
+        "name": "Хорди Эдуардо",
+        "lastname": "Томпсон Давила",
+        "nickname": "",
+        "keyword": "Tompson-Davila-Dzhordi-Eduardo",
+        "amplua": 3,
+        "public_lastname": "Томпсон",
+        "public_name": "Хорди"
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
