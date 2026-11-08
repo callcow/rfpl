@@ -338,6 +338,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66464,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 20,
+      "extra": null,
+      "player1": {
+        "id": 21327,
+        "name": "Алексей",
+        "lastname": "Миронов",
+        "nickname": null,
+        "keyword": "Mironov-Aleksey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
