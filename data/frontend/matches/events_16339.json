@@ -1311,7 +1311,7 @@
       "id": 66324,
       "type": "EventAdded",
       "action": "Foul",
-      "time": 50,
+      "time": 51,
       "extra": null,
       "player1": {
         "id": 17759,
