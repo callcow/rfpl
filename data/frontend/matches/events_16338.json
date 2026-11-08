@@ -1641,6 +1641,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66431,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 78,
+      "extra": null,
+      "player1": {
+        "id": 25638,
+        "name": "Артём",
+        "lastname": "Шуманский",
+        "nickname": "",
+        "keyword": "Shumanskiy-Artem",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
