@@ -2274,6 +2274,84 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66358,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 89,
+      "extra": null,
+      "player1": {
+        "id": 17823,
+        "name": "Ильзат",
+        "lastname": "Ахметов",
+        "nickname": "",
+        "keyword": "Ahmetov-Ilzat",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66359,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": null,
+      "player1": {
+        "id": 24357,
+        "name": "Казбек",
+        "lastname": "Мукаилов",
+        "nickname": "",
+        "keyword": "Mukailov-Kazbek",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66360,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": null,
+      "player1": {
+        "id": 26163,
+        "name": "Жуан Педру",
+        "lastname": "Эйра Антунеш да Силва",
+        "nickname": "Жуан Силва",
+        "keyword": "Joao-Silva",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
