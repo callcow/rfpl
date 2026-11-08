@@ -1193,6 +1193,23 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66319,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 48,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
