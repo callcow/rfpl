@@ -1597,6 +1597,23 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66333,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 64,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
