@@ -17,6 +17,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66452,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 1,
+      "extra": null,
+      "player1": {
+        "id": 25504,
+        "name": "Педро Энрике",
+        "lastname": "Силва Арантес дос Сантос",
+        "nickname": "Педро",
+        "keyword": "Silva-dos-Santos-Pedro-Enrike",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
