@@ -225,6 +225,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66460,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 14,
+      "extra": null,
+      "player1": {
+        "id": 26087,
+        "name": "Игор",
+        "lastname": "Ногейра де Паула",
+        "nickname": "Игор Ногейра",
+        "keyword": "Ygor-Nogueira",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
