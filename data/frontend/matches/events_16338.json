@@ -406,6 +406,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66385,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 23,
+      "extra": null,
+      "player1": {
+        "id": 22419,
+        "name": "Вячеслав",
+        "lastname": "Бардыбахин",
+        "nickname": "",
+        "keyword": "Bardybahin-Vyacheslav",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
