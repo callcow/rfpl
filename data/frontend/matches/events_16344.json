@@ -147,6 +147,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66457,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 10,
+      "extra": null,
+      "player1": {
+        "id": 25381,
+        "name": "Роналдо Сезар",
+        "lastname": "Соарес дос Сантос",
+        "nickname": "Роналдо",
+        "keyword": "Soaresh-dos-Santos-Ronaldo-Sesar",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
