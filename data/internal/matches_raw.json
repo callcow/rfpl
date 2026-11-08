@@ -2616,7 +2616,7 @@
         "clubH": 444,
         "clubA": 125,
         "goalH": 0,
-        "goalA": 0,
+        "goalA": 1,
         "date": "2026-11-08UTC20:45:00",
         "matchDateStatus": true,
         "status": 1,

@@ -86,6 +86,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66524,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 4,
+      "extra": null,
+      "player1": {
+        "id": 24477,
+        "name": "Кирилл",
+        "lastname": "Зинович",
+        "nickname": "",
+        "keyword": "Zinovich-Kirill",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25719,
+        "name": "Мохаммаджавад",
+        "lastname": "Хоссейннеджадмахаленколай",
+        "nickname": "",
+        "keyword": "Hosseinzhamadmahalenkolay-Mohammaddzhavad",
+        "amplua": 2,
+        "public_lastname": "Хоссейннеджад",
+        "public_name": "Джавад"
+      },
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
