@@ -1382,6 +1382,28 @@
       "deleted": null
     },
     {
+      "id": 126,
+      "type": "Photo",
+      "action": null,
+      "time": 65,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 126,
+        "title": "Пруцев возвращает лидерство",
+        "description": "Данил Пруцев быстро отвечает на гол &laquo;Акрона&raquo; и забивает третий для себя мяч в сезоне",
+        "author": "«Спартак-Москва»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66422,
       "type": "EventAdded",
       "action": "Shot",
