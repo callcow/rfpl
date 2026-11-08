@@ -1214,11 +1214,11 @@
       {
         "id": 16338,
         "date": "2026-11-08UTC16:15:00",
-        "status": 0,
+        "status": 1,
         "clubH": 1,
         "clubA": 807,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "city": "Москва",
         "stadium": "«Лукойл Арена»"
       },
