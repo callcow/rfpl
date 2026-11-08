@@ -1449,6 +1449,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66425,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 69,
+      "extra": null,
+      "player1": {
+        "id": 22419,
+        "name": "Вячеслав",
+        "lastname": "Бардыбахин",
+        "nickname": "",
+        "keyword": "Bardybahin-Vyacheslav",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25993,
+        "name": "Йомар Рене",
+        "lastname": "Роча Родригес",
+        "nickname": "",
+        "keyword": "Rocha-Rodriguez-Yomar-Rene",
+        "amplua": 1,
+        "public_lastname": "Роча",
+        "public_name": "Йомар"
+      },
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
