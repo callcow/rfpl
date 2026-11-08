@@ -562,6 +562,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66293,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 26,
+      "extra": null,
+      "player1": {
+        "id": 22450,
+        "name": "Евгений",
+        "lastname": "Болотов",
+        "nickname": "",
+        "keyword": "Bolotov-Evgeniy",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66294,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 27,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
