@@ -173,6 +173,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66527,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 19,
+      "extra": null,
+      "player1": {
+        "id": 25897,
+        "name": "Брайан Александр",
+        "lastname": "Хиль Хуртадо",
+        "nickname": "",
+        "keyword": "Gil-Hurtado-Brayan-Alexander",
+        "amplua": 3,
+        "public_lastname": "Хиль",
+        "public_name": "Брайан"
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
