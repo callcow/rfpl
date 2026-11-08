@@ -1350,14 +1350,14 @@
       "time": 81,
       "extra": null,
       "player1": {
-        "id": 25885,
-        "name": "Элдар",
-        "lastname": "Чивич",
+        "id": 21510,
+        "name": "Егор",
+        "lastname": "Голенков",
         "nickname": "",
-        "keyword": "Civic-Eldar",
-        "amplua": 1,
-        "public_lastname": null,
-        "public_name": null
+        "keyword": "Golenkov-Egor",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
       },
       "player2": null,
       "club": 444,
