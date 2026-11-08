@@ -251,6 +251,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66461,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 15,
+      "extra": null,
+      "player1": {
+        "id": 23352,
+        "name": "Дуглас",
+        "lastname": "до Сантос Жустино де Мело",
+        "nickname": "Дуглас Сантос",
+        "keyword": "Do-Santos-Zhustino-de-Melo-Duglas",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 23061,
+        "name": "Максим",
+        "lastname": "Глушенков",
+        "nickname": "",
+        "keyword": "Glushenkov-Maksim",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
