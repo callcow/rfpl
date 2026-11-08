@@ -2615,12 +2615,12 @@
         "id": 16340,
         "clubH": 444,
         "clubA": 125,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "date": "2026-11-08UTC20:45:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 1,
+        "dateStartStatus": "2026-11-08UTC20:45:58",
         "city": "Калининград",
         "stadium": "«Ростех Арена»",
         "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_e50155beaba49d7feca96184da27ab3c_hd/17_1040054/1582dc81cf743e78c2afce43cf21cc9e/4949318484?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
@@ -2638,8 +2638,8 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": false,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 0,
+        "fairplayClub2": 0
       },
       {
         "id": 16341,
