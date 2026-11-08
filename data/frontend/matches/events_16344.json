@@ -95,6 +95,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66455,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 8,
+      "extra": null,
+      "player1": {
+        "id": 24266,
+        "name": "Виктор",
+        "lastname": "Мелёхин",
+        "nickname": null,
+        "keyword": "Melehin-Viktor",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
