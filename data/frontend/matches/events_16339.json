@@ -2187,6 +2187,93 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66355,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 87,
+      "extra": null,
+      "player1": {
+        "id": 23293,
+        "name": "Максим",
+        "lastname": "Витюгов",
+        "nickname": null,
+        "keyword": "Vityugov-Maksim",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66356,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 88,
+      "extra": null,
+      "player1": {
+        "id": 26072,
+        "name": "Руслан",
+        "lastname": "Куль",
+        "nickname": "",
+        "keyword": "Kul-Ruslan",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66357,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 88,
+      "extra": null,
+      "player1": {
+        "id": 25550,
+        "name": "Хорди Эдуардо",
+        "lastname": "Томпсон Давила",
+        "nickname": "",
+        "keyword": "Tompson-Davila-Dzhordi-Eduardo",
+        "amplua": 3,
+        "public_lastname": "Томпсон",
+        "public_name": "Хорди"
+      },
+      "player2": {
+        "id": 26119,
+        "name": "Джерссон Давид",
+        "lastname": "Гонсалес Ниньо",
+        "nickname": "",
+        "keyword": "Gonzalez-Nino-Jersson-David",
+        "amplua": 3,
+        "public_lastname": "Гонсалес",
+        "public_name": "Джерссон"
+      },
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
