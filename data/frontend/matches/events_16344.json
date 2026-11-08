@@ -1552,6 +1552,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66510,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 83,
+      "extra": null,
+      "player1": {
+        "id": 23077,
+        "name": "Иван",
+        "lastname": "Комаров",
+        "nickname": "",
+        "keyword": "Komarov-Ivan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 22521,
+        "name": "Андрей",
+        "lastname": "Лангович",
+        "nickname": "",
+        "keyword": "Langovich-Andrey",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
