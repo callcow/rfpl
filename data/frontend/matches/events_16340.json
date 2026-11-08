@@ -1038,7 +1038,16 @@
       "action": "Foul",
       "time": 64,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 25945,
+        "name": "Фахд",
+        "lastname": "Муфи",
+        "nickname": null,
+        "keyword": "Moufi-Fahd",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
       "player2": null,
       "club": 444,
       "gameStateNumber": null,
