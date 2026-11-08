@@ -432,6 +432,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66386,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 24,
+      "extra": null,
+      "player1": {
+        "id": 25698,
+        "name": "Эсекьель Омар",
+        "lastname": "Барко",
+        "nickname": "",
+        "keyword": "Barko-Esekel-Omar",
+        "amplua": 2,
+        "public_lastname": "Барко",
+        "public_name": "Эсекьель"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66387,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 25,
+      "extra": null,
+      "player1": {
+        "id": 26089,
+        "name": "Виктор",
+        "lastname": "Парада Гонсалес",
+        "nickname": "",
+        "keyword": "Parada-Gonzalez-Victor",
+        "amplua": 1,
+        "public_lastname": "Парада",
+        "public_name": "Виктор"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
