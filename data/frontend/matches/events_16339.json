@@ -104,6 +104,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66274,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 6,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66275,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 7,
+      "extra": null,
+      "player1": {
+        "id": 24062,
+        "name": "Кирилл",
+        "lastname": "Столбов",
+        "nickname": "",
+        "keyword": "Stolbov-Kirill",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
