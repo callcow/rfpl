@@ -416,6 +416,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66467,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 27,
+      "extra": null,
+      "player1": {
+        "id": 21916,
+        "name": "Александр",
+        "lastname": "Соболев",
+        "nickname": "",
+        "keyword": "Sobolev-Aleksandr-Sergeevich",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
