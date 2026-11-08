@@ -708,6 +708,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66398,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 39,
+      "extra": null,
+      "player1": {
+        "id": 25798,
+        "name": "Пабло Сесар",
+        "lastname": "Солари Феррейра",
+        "nickname": "",
+        "keyword": "Solari-Ferreyra-Pablo-Cesar",
+        "amplua": 2,
+        "public_lastname": "Солари",
+        "public_name": "Пабло"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66399,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 39,
+      "extra": null,
+      "player1": {
+        "id": 25642,
+        "name": "Стефан",
+        "lastname": "Лончар",
+        "nickname": "",
+        "keyword": "Lonchar-Stefan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
