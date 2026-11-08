@@ -66,14 +66,13 @@
   "city": "Самара",
   "stadium": "«Солидарность Самара Арена»",
   "stadiumLink": "",
-  "attendance": null,
+  "attendance": 4789,
   "comments": "",
   "weather": "2.9°C, Облачно",
   "documents": {
-    "protocol": null,
     "report": null,
     "preview": null
   },
-  "protocol": false,
+  "protocol": true,
   "countVideos": null
 }
