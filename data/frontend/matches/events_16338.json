@@ -810,6 +810,28 @@
       "deleted": null
     },
     {
+      "id": 124,
+      "type": "Photo",
+      "action": null,
+      "time": 39,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 124,
+        "title": "",
+        "description": "",
+        "author": "«Спартак-Москва»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66401,
       "type": "EventAdded",
       "action": "Corner",
