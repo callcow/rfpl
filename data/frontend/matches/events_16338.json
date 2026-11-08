@@ -968,6 +968,93 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66407,
+      "type": "GamePeriodOpen",
+      "action": null,
+      "time": 45,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66408,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 45,
+      "extra": null,
+      "player1": {
+        "id": 25665,
+        "name": "Дмитрий",
+        "lastname": "Пестряков",
+        "nickname": "",
+        "keyword": "Pestryakov-Dmitriy",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 26121,
+        "name": "Эдуардо",
+        "lastname": "Фернандес Родригес де Соуза",
+        "nickname": "Дуду Родригес",
+        "keyword": "Dudu-Rodrigues",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66409,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 45,
+      "extra": null,
+      "player1": {
+        "id": 22614,
+        "name": "Константин",
+        "lastname": "Марадишвили",
+        "nickname": "",
+        "keyword": "Maradishvili-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 26149,
+        "name": "Карлен",
+        "lastname": "Оганесян",
+        "nickname": "",
+        "keyword": "Hovhannisyan-Karlen",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
