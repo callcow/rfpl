@@ -1118,6 +1118,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66565,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 71,
+      "extra": null,
+      "player1": {
+        "id": 26131,
+        "name": "Лорис",
+        "lastname": "Муйоколо",
+        "nickname": "",
+        "keyword": "Muyokolo-Loris",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
