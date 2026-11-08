@@ -842,7 +842,7 @@
     {
       "id": 66305,
       "type": "EventAdded",
-      "action": "Shot",
+      "action": "ShotOnTarget",
       "time": 41,
       "extra": null,
       "player1": {
@@ -926,6 +926,32 @@
       "player1": null,
       "player2": null,
       "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66309,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 45,
+      "extra": null,
+      "player1": {
+        "id": 26072,
+        "name": "Руслан",
+        "lastname": "Куль",
+        "nickname": "",
+        "keyword": "Kul-Ruslan",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
       "gameStateNumber": null,
       "periodNumber": 1,
       "timeSlot": "FirstHalf",
