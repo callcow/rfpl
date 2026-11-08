@@ -1536,6 +1536,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66428,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 73,
+      "extra": null,
+      "player1": {
+        "id": 25798,
+        "name": "Пабло Сесар",
+        "lastname": "Солари Феррейра",
+        "nickname": "",
+        "keyword": "Solari-Ferreyra-Pablo-Cesar",
+        "amplua": 2,
+        "public_lastname": "Солари",
+        "public_name": "Пабло"
+      },
+      "player2": {
+        "id": 25711,
+        "name": "Жозе Маркос",
+        "lastname": "Коста Мартинс",
+        "nickname": "Маркиньос",
+        "keyword": "Kosta-Martins-Zhoze-Markos",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
