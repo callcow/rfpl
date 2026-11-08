@@ -50,7 +50,16 @@
       "action": "Foul",
       "time": 3,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 22614,
+        "name": "Константин",
+        "lastname": "Марадишвили",
+        "nickname": "",
+        "keyword": "Maradishvili-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
       "player2": null,
       "club": 807,
       "gameStateNumber": null,
