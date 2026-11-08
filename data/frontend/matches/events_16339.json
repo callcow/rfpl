@@ -123,6 +123,32 @@
       "deleted": null
     },
     {
+      "id": 66280,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 6,
+      "extra": null,
+      "player1": {
+        "id": 23722,
+        "name": "Владислав",
+        "lastname": "Шитов",
+        "nickname": null,
+        "keyword": "Shitov-Vladislav",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 66275,
       "type": "EventAdded",
       "action": "Shot",
