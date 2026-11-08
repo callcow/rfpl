@@ -69,6 +69,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66371,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 4,
+      "extra": null,
+      "player1": {
+        "id": 25939,
+        "name": "Жедсон",
+        "lastname": "Карвалью Фернандеш",
+        "nickname": "",
+        "keyword": "Carvalho-Fernandes-Gedson",
+        "amplua": 2,
+        "public_lastname": "Фернандеш",
+        "public_name": "Жедсон"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
