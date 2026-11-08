@@ -66,14 +66,13 @@
   "city": "Санкт-Петербург",
   "stadium": "«Газпром Арена»",
   "stadiumLink": "",
-  "attendance": null,
+  "attendance": 34667,
   "comments": "",
   "weather": "6.2°C, Облачно",
   "documents": {
-    "protocol": null,
     "report": null,
     "preview": null
   },
-  "protocol": false,
+  "protocol": true,
   "countVideos": null
 }
