@@ -1059,7 +1059,7 @@
         "id": 130,
         "title": "Пополнение у Энрике",
         "description": "Луис Энрике пополняет статистику в сезоне голом &laquo;Ростову&raquo;",
-        "author": "Вячеслав Евдокимов / «Зенит»"
+        "author": "Анна Мейер / «Зенит»"
       },
       "deleted": null
     },
@@ -1443,6 +1443,28 @@
       "isPenaltyRealized": null,
       "varCode": null,
       "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 131,
+      "type": "Photo",
+      "action": null,
+      "time": 75,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 131,
+        "title": "",
+        "description": "",
+        "author": "Вячеслав Евдокимов / «Зенит»"
+      },
       "deleted": null
     },
     {

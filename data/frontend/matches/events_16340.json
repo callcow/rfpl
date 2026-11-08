@@ -121,6 +121,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66525,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 8,
+      "extra": null,
+      "player1": {
+        "id": 22821,
+        "name": "Максим",
+        "lastname": "Петров",
+        "nickname": null,
+        "keyword": "Petrov-Maksim-Vyacheslavovich",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
