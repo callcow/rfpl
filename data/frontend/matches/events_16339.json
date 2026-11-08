@@ -1942,32 +1942,6 @@
       "deleted": null
     },
     {
-      "id": 66345,
-      "type": "EventAdded",
-      "action": "Shot",
-      "time": 77,
-      "extra": null,
-      "player1": {
-        "id": 23293,
-        "name": "Максим",
-        "lastname": "Витюгов",
-        "nickname": null,
-        "keyword": "Vityugov-Maksim",
-        "amplua": 2,
-        "public_lastname": null,
-        "public_name": null
-      },
-      "player2": null,
-      "club": 10,
-      "gameStateNumber": null,
-      "periodNumber": 2,
-      "timeSlot": "SecondHalf",
-      "isPenaltyRealized": null,
-      "varCode": null,
-      "photo": null,
-      "deleted": null
-    },
-    {
       "id": 66346,
       "type": "EventAdded",
       "action": "Corner",
