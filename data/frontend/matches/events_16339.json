@@ -2432,6 +2432,32 @@
       "deleted": null
     },
     {
+      "id": 66367,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 90,
+      "extra": 3,
+      "player1": {
+        "id": 23295,
+        "name": "Юрий",
+        "lastname": "Горшков",
+        "nickname": "",
+        "keyword": "Gorshkov-Yuriy",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 66365,
       "type": "EventAdded",
       "action": "YellowCard",
