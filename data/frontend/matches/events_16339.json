@@ -43,6 +43,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66272,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 4,
+      "extra": null,
+      "player1": {
+        "id": 25089,
+        "name": "Амар",
+        "lastname": "Рахманович",
+        "nickname": "",
+        "keyword": "Rahmanovich-Amar",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
