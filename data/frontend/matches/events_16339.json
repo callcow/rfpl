@@ -1736,6 +1736,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66338,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 68,
+      "extra": null,
+      "player1": {
+        "id": 25181,
+        "name": "Гедеон",
+        "lastname": "Гузина",
+        "nickname": "",
+        "keyword": "Guzina-Gedeon",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 25249,
+        "name": "Ренат",
+        "lastname": "Голыбин",
+        "nickname": "",
+        "keyword": "Golybin-Renat",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
