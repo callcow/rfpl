@@ -1804,6 +1804,28 @@
       "deleted": null
     },
     {
+      "id": 127,
+      "type": "Photo",
+      "action": null,
+      "time": 82,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 127,
+        "title": "Максименко снова удалён",
+        "description": "Второй раз за сезон Александр Максименко покидает поле после прямой красной карточки",
+        "author": "«Спартак-Москва»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66436,
       "type": "EventAdded",
       "action": "Substitution",
