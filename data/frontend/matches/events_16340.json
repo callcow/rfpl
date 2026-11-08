@@ -640,6 +640,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66547,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 46,
+      "extra": null,
+      "player1": {
+        "id": 22821,
+        "name": "Максим",
+        "lastname": "Петров",
+        "nickname": null,
+        "keyword": "Petrov-Maksim-Vyacheslavovich",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 21510,
+        "name": "Егор",
+        "lastname": "Голенков",
+        "nickname": "",
+        "keyword": "Golenkov-Egor",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
