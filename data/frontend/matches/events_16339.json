@@ -17,6 +17,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66271,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 2,
+      "extra": null,
+      "player1": {
+        "id": 24817,
+        "name": "Фернандо",
+        "lastname": "Пейшоту Костанза",
+        "nickname": "",
+        "keyword": "Peyshotu-Kostanza-Fernando",
+        "amplua": 2,
+        "public_lastname": "Костанца",
+        "public_name": "Фернандо"
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
