@@ -433,6 +433,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66537,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 41,
+      "extra": null,
+      "player1": {
+        "id": 25998,
+        "name": "Андрес Маурисио",
+        "lastname": "Аларкон Мендоса",
+        "nickname": "",
+        "keyword": "Alarkon-Mendoza-Andres-Maurisio",
+        "amplua": 1,
+        "public_lastname": "Аларкон",
+        "public_name": "Андрес"
+      },
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
