@@ -251,6 +251,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66530,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 22,
+      "extra": null,
+      "player1": {
+        "id": 25308,
+        "name": "Натан Баба",
+        "lastname": "Гассама",
+        "nickname": "",
+        "keyword": "Gassama-Natan-Baba",
+        "amplua": 1,
+        "public_lastname": "Гассама",
+        "public_name": "Натан"
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66531,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 22,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 125,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
