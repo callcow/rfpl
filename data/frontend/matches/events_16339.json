@@ -246,18 +246,18 @@
     {
       "id": 66279,
       "type": "EventAdded",
-      "action": "Foul",
+      "action": "Offside",
       "time": 14,
       "extra": null,
       "player1": {
-        "id": 23973,
-        "name": "Никита",
-        "lastname": "Салтыков",
-        "nickname": "",
-        "keyword": "Saltykov-Nikita",
-        "amplua": 2,
-        "public_lastname": "",
-        "public_name": ""
+        "id": 23722,
+        "name": "Владислав",
+        "lastname": "Шитов",
+        "nickname": null,
+        "keyword": "Shitov-Vladislav",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
       },
       "player2": null,
       "club": 10,
