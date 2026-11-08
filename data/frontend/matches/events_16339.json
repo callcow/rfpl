@@ -1432,6 +1432,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66327,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 57,
+      "extra": null,
+      "player1": {
+        "id": 25089,
+        "name": "Амар",
+        "lastname": "Рахманович",
+        "nickname": "",
+        "keyword": "Rahmanovich-Amar",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66328,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 57,
+      "extra": null,
+      "player1": {
+        "id": 25089,
+        "name": "Амар",
+        "lastname": "Рахманович",
+        "nickname": "",
+        "keyword": "Rahmanovich-Amar",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
