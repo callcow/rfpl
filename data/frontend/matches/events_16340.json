@@ -459,6 +459,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66538,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 41,
+      "extra": null,
+      "player1": {
+        "id": 26030,
+        "name": "Эдуардо Антонио",
+        "lastname": "Андерсон Гомес",
+        "nickname": "",
+        "keyword": "Anderson-Gomez-Eduardo-Antonio",
+        "amplua": 1,
+        "public_lastname": "Андерсон",
+        "public_name": "Эдуардо"
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
