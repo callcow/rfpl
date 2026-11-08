@@ -44,6 +44,28 @@
     ]
   },
   {
+    "clubId": 1,
+    "club": "Спартак",
+    "played": 14,
+    "won": 9,
+    "drawn": 2,
+    "lost": 3,
+    "goalsFor": 27,
+    "goalsAgainst": 11,
+    "points": 29,
+    "maxPoints": 42,
+    "position": 3,
+    "goalDiff": 16,
+    "pointsPercent": 69.0,
+    "form": [
+      "d",
+      "w",
+      "l",
+      "w",
+      "w"
+    ]
+  },
+  {
     "clubId": 584,
     "club": "Краснодар",
     "played": 14,
@@ -54,7 +76,7 @@
     "goalsAgainst": 18,
     "points": 26,
     "maxPoints": 42,
-    "position": 3,
+    "position": 4,
     "goalDiff": 7,
     "pointsPercent": 61.9,
     "form": [
@@ -76,7 +98,7 @@
     "goalsAgainst": 16,
     "points": 26,
     "maxPoints": 42,
-    "position": 4,
+    "position": 5,
     "goalDiff": 7,
     "pointsPercent": 61.9,
     "form": [
@@ -85,28 +107,6 @@
       "w",
       "d",
       "l"
-    ]
-  },
-  {
-    "clubId": 1,
-    "club": "Спартак",
-    "played": 13,
-    "won": 8,
-    "drawn": 2,
-    "lost": 3,
-    "goalsFor": 25,
-    "goalsAgainst": 10,
-    "points": 26,
-    "maxPoints": 39,
-    "position": 5,
-    "goalDiff": 15,
-    "pointsPercent": 66.7,
-    "form": [
-      "w",
-      "d",
-      "w",
-      "l",
-      "w"
     ]
   },
   {
@@ -266,22 +266,22 @@
   {
     "clubId": 807,
     "club": "Акрон",
-    "played": 13,
+    "played": 14,
     "won": 2,
     "drawn": 6,
-    "lost": 5,
-    "goalsFor": 16,
-    "goalsAgainst": 23,
+    "lost": 6,
+    "goalsFor": 17,
+    "goalsAgainst": 25,
     "points": 12,
-    "maxPoints": 39,
+    "maxPoints": 42,
     "position": 13,
-    "goalDiff": -7,
-    "pointsPercent": 30.8,
+    "goalDiff": -8,
+    "pointsPercent": 28.6,
     "form": [
-      "w",
       "l",
       "d",
       "w",
+      "l",
       "l"
     ]
   },

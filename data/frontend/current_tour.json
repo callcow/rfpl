@@ -5,15 +5,15 @@
     {
       "id": 16338,
       "date": "2026-11-08UTC16:15:00",
-      "status": 3,
+      "status": 4,
       "clubH": 1,
       "clubA": 807,
       "goalH": 2,
       "goalA": 1,
       "city": "Москва",
       "stadium": "«Лукойл Арена»",
-      "wid": 17021114,
-      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfNTFmMjkwMDMxZjljN2Y1ZDk3ZGIxMGVkYzVkNDczMzcvMTdfMTA0MDA1Mi8xMDgwcDUwZnBzLzg3YmVlYzhhNmQwOGE2NmU0MjRkM2Q0MGRlODRlZTQ0LzQ5NDk4MjM2MDIubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTU5NjNiYjRhNWRlYWUyNjg1YjdhNzJhNjAyZGQzOGFm"
+      "wid": null,
+      "stream": null
     },
     {
       "id": 16339,
