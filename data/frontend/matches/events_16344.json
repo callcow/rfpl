@@ -288,6 +288,28 @@
       "deleted": null
     },
     {
+      "id": 128,
+      "type": "Photo",
+      "action": null,
+      "time": 15,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 128,
+        "title": "Послание от Сантоса",
+        "description": "Дуглас Сантос передаёт привет в честь первого для себя гола в сезоне",
+        "author": "Вячеслав Евдокимов / «Зенит»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66462,
       "type": "EventAdded",
       "action": "Shot",
