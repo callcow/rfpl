@@ -681,7 +681,16 @@
       "action": "Foul",
       "time": 33,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 26123,
+        "name": "Максим Джеймс",
+        "lastname": "Сивис",
+        "nickname": "",
+        "keyword": "Sivis-Maxime-James",
+        "amplua": 1,
+        "public_lastname": "Сивис",
+        "public_name": "Максим"
+      },
       "player2": null,
       "club": 504,
       "gameStateNumber": null,
