@@ -544,7 +544,16 @@
       "action": "Foul",
       "time": 34,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 21916,
+        "name": "Александр",
+        "lastname": "Соболев",
+        "nickname": "",
+        "keyword": "Sobolev-Aleksandr-Sergeevich",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
       "player2": null,
       "club": 3,
       "gameStateNumber": null,
