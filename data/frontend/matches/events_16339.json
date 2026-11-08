@@ -1599,6 +1599,28 @@
       "deleted": null
     },
     {
+      "id": 122,
+      "type": "Photo",
+      "action": null,
+      "time": 62,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 122,
+        "title": "",
+        "description": "",
+        "author": "Виктор Лунченко / «Крылья Советов»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66333,
       "type": "EventAdded",
       "action": "ShotOnTarget",
