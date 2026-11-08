@@ -102,6 +102,28 @@
       "deleted": null
     },
     {
+      "id": 119,
+      "type": "Photo",
+      "action": null,
+      "time": 4,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 119,
+        "title": "Быстрый гол Рахмановича",
+        "description": "Амар Рахманович в быстрой контратаке &laquo;Крыльев Советов&raquo; открывает счёт и забивает свой пятый гол в сезоне",
+        "author": "Виктор Лунченко / «Крылья Советов»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66273,
       "type": "EventAdded",
       "action": "Foul",
@@ -1286,6 +1308,32 @@
       "deleted": null
     },
     {
+      "id": 66324,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 50,
+      "extra": null,
+      "player1": {
+        "id": 17759,
+        "name": "Алексей",
+        "lastname": "Татаев",
+        "nickname": "",
+        "keyword": "Tataev-Aleksey",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 66323,
       "type": "EventAdded",
       "action": "RedYellowCard",
@@ -1303,6 +1351,32 @@
       },
       "player2": null,
       "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66325,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 53,
+      "extra": null,
+      "player1": {
+        "id": 25089,
+        "name": "Амар",
+        "lastname": "Рахманович",
+        "nickname": "",
+        "keyword": "Rahmanovich-Amar",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
       "gameStateNumber": null,
       "periodNumber": 2,
       "timeSlot": "SecondHalf",
