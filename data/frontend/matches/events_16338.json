@@ -95,6 +95,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66372,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 7,
+      "extra": null,
+      "player1": {
+        "id": 25798,
+        "name": "Пабло Сесар",
+        "lastname": "Солари Феррейра",
+        "nickname": "",
+        "keyword": "Solari-Ferreyra-Pablo-Cesar",
+        "amplua": 2,
+        "public_lastname": "Солари",
+        "public_name": "Пабло"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66373,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 7,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
