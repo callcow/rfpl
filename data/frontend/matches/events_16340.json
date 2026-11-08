@@ -772,6 +772,32 @@
       "deleted": null
     },
     {
+      "id": 66562,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 55,
+      "extra": null,
+      "player1": {
+        "id": 25897,
+        "name": "Брайан Александр",
+        "lastname": "Хиль Хуртадо",
+        "nickname": "",
+        "keyword": "Gil-Hurtado-Brayan-Alexander",
+        "amplua": 3,
+        "public_lastname": "Хиль",
+        "public_name": "Брайан"
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 66553,
       "type": "EventAdded",
       "action": "Substitution",
@@ -1023,6 +1049,41 @@
         "public_name": null
       },
       "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66563,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 67,
+      "extra": null,
+      "player1": {
+        "id": 25897,
+        "name": "Брайан Александр",
+        "lastname": "Хиль Хуртадо",
+        "nickname": "",
+        "keyword": "Gil-Hurtado-Brayan-Alexander",
+        "amplua": 3,
+        "public_lastname": "Хиль",
+        "public_name": "Брайан"
+      },
+      "player2": {
+        "id": 26170,
+        "name": "Илья",
+        "lastname": "Порохов",
+        "nickname": "",
+        "keyword": "Porokhov-Ilya",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
       "club": 444,
       "gameStateNumber": null,
       "periodNumber": 2,
