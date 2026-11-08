@@ -814,6 +814,32 @@
       "deleted": null
     },
     {
+      "id": 66313,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 40,
+      "extra": null,
+      "player1": {
+        "id": 25550,
+        "name": "Хорди Эдуардо",
+        "lastname": "Томпсон Давила",
+        "nickname": "",
+        "keyword": "Tompson-Davila-Dzhordi-Eduardo",
+        "amplua": 3,
+        "public_lastname": "Томпсон",
+        "public_name": "Хорди"
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 66304,
       "type": "EventAdded",
       "action": "Foul",
