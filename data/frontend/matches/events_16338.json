@@ -1345,6 +1345,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66421,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 65,
+      "extra": null,
+      "player1": {
+        "id": 23306,
+        "name": "Данил",
+        "lastname": "Пруцев",
+        "nickname": null,
+        "keyword": "Prucev-Danil",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25698,
+        "name": "Эсекьель Омар",
+        "lastname": "Барко",
+        "nickname": "",
+        "keyword": "Barko-Esekel-Omar",
+        "amplua": 2,
+        "public_lastname": "Барко",
+        "public_name": "Эсекьель"
+      },
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
