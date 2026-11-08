@@ -1825,6 +1825,28 @@
       "deleted": null
     },
     {
+      "id": 121,
+      "type": "Photo",
+      "action": null,
+      "time": 70,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 121,
+        "title": "Дебютный гол Мукаилова",
+        "description": "Казбек Мукаилов радуется первому в карьере голу как за &laquo;Крылья Советов&raquo;, так и в Альфа-Банк РПЛ",
+        "author": "Виктор Лунченко / «Крылья Советов»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66341,
       "type": "EventAdded",
       "action": "Substitution",
