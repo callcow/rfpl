@@ -389,6 +389,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66286,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 20,
+      "extra": null,
+      "player1": {
+        "id": 17759,
+        "name": "Алексей",
+        "lastname": "Татаев",
+        "nickname": "",
+        "keyword": "Tataev-Aleksey",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
