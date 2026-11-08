@@ -1823,6 +1823,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66341,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 72,
+      "extra": null,
+      "player1": {
+        "id": 25704,
+        "name": "Даниэль",
+        "lastname": "Фернандес Фернандес",
+        "nickname": "",
+        "keyword": "Fernandes-Fernandes-Daniel",
+        "amplua": 1,
+        "public_lastname": "Фернандес",
+        "public_name": "Дани"
+      },
+      "player2": {
+        "id": 17823,
+        "name": "Ильзат",
+        "lastname": "Ахметов",
+        "nickname": "",
+        "keyword": "Ahmetov-Ilzat",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
