@@ -927,6 +927,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66487,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 53,
+      "extra": null,
+      "player1": {
+        "id": 24700,
+        "name": "Олакунле Джуниор",
+        "lastname": "Олусегун",
+        "nickname": "",
+        "keyword": "Olusegun-Olakunle-Dzhunior",
+        "amplua": 3,
+        "public_lastname": "Олусегун",
+        "public_name": "Олакунле"
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66488,
+      "type": "EventAdded",
+      "action": "AutoGoal",
+      "time": 53,
+      "extra": null,
+      "player1": {
+        "id": 25378,
+        "name": "Кевин Орландо",
+        "lastname": "Андраде Мурилло",
+        "nickname": "",
+        "keyword": "Andrade-Murillo-Kevin-Orlando",
+        "amplua": 1,
+        "public_lastname": "Андраде",
+        "public_name": "Кевин"
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
