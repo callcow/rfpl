@@ -328,6 +328,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66382,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 20,
+      "extra": null,
+      "player1": {
+        "id": 25939,
+        "name": "Жедсон",
+        "lastname": "Карвалью Фернандеш",
+        "nickname": "",
+        "keyword": "Carvalho-Fernandes-Gedson",
+        "amplua": 2,
+        "public_lastname": "Фернандеш",
+        "public_name": "Жедсон"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66383,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 21,
+      "extra": null,
+      "player1": {
+        "id": 25383,
+        "name": "Манфред Алонсо",
+        "lastname": "Угальде Арсе",
+        "nickname": "",
+        "keyword": "Ugalde-Arse-Manfred-Alonso",
+        "amplua": 3,
+        "public_lastname": "Угальде",
+        "public_name": "Манфред"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
