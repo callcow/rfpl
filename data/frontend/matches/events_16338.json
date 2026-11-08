@@ -306,7 +306,7 @@
     {
       "id": 66381,
       "type": "EventAdded",
-      "action": "Shot",
+      "action": "ShotOnTarget",
       "time": 19,
       "extra": null,
       "player1": {
@@ -475,6 +475,23 @@
         "public_lastname": "Парада",
         "public_name": "Виктор"
       },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66388,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 26,
+      "extra": null,
+      "player1": null,
       "player2": null,
       "club": 1,
       "gameStateNumber": null,
