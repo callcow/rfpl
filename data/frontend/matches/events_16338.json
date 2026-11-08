@@ -1988,6 +1988,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66445,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": 1,
+      "player1": {
+        "id": 25222,
+        "name": "Роберто Карлос",
+        "lastname": "Фернандес Торо",
+        "nickname": "",
+        "keyword": "Fernandes-Toro-Roberto-Karlos",
+        "amplua": 1,
+        "public_lastname": "Фернандес",
+        "public_name": "Роберто"
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
