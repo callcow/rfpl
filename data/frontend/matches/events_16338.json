@@ -1163,6 +1163,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66414,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 55,
+      "extra": null,
+      "player1": {
+        "id": 25698,
+        "name": "Эсекьель Омар",
+        "lastname": "Барко",
+        "nickname": "",
+        "keyword": "Barko-Esekel-Omar",
+        "amplua": 2,
+        "public_lastname": "Барко",
+        "public_name": "Эсекьель"
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
