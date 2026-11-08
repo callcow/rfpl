@@ -1754,6 +1754,76 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66436,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 85,
+      "extra": null,
+      "player1": {
+        "id": 25698,
+        "name": "Эсекьель Омар",
+        "lastname": "Барко",
+        "nickname": "",
+        "keyword": "Barko-Esekel-Omar",
+        "amplua": 2,
+        "public_lastname": "Барко",
+        "public_name": "Эсекьель"
+      },
+      "player2": {
+        "id": 16117,
+        "name": "Илья",
+        "lastname": "Помазун",
+        "nickname": "",
+        "keyword": "Pomazun-Ilya",
+        "amplua": 0,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66437,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 85,
+      "extra": null,
+      "player1": {
+        "id": 17312,
+        "name": "Роман",
+        "lastname": "Зобнин",
+        "nickname": "",
+        "keyword": "Zobnin-Roman",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 23447,
+        "name": "Даниил",
+        "lastname": "Денисов",
+        "nickname": null,
+        "keyword": "Denisov-Daniil",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
