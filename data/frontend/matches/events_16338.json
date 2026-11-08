@@ -1758,7 +1758,7 @@
     {
       "id": 66435,
       "type": "EventAdded",
-      "action": "YellowCard",
+      "action": "RedCard",
       "time": 82,
       "extra": null,
       "player1": {
