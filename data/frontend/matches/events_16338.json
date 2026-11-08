@@ -901,6 +901,28 @@
       "deleted": null
     },
     {
+      "id": 125,
+      "type": "Photo",
+      "action": null,
+      "time": 42,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 125,
+        "title": "Барко организует автогол",
+        "description": "Эсекьель Барко празднует автогол &laquo;Акрона&raquo;, к которому привёл его удар и рикошет от Слободана Тедича",
+        "author": "«Спартак-Москва»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66404,
       "type": "EventAdded",
       "action": "Foul",
