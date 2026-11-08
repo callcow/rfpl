@@ -1040,6 +1040,102 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66491,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 63,
+      "extra": null,
+      "player1": {
+        "id": 21327,
+        "name": "Алексей",
+        "lastname": "Миронов",
+        "nickname": null,
+        "keyword": "Mironov-Aleksey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66492,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 63,
+      "extra": null,
+      "player1": {
+        "id": 21916,
+        "name": "Александр",
+        "lastname": "Соболев",
+        "nickname": "",
+        "keyword": "Sobolev-Aleksandr-Sergeevich",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 21674,
+        "name": "Игорь",
+        "lastname": "Дивеев",
+        "nickname": "",
+        "keyword": "Diveev-Igor",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66493,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 63,
+      "extra": null,
+      "player1": {
+        "id": 25059,
+        "name": "Густаво",
+        "lastname": "Мантуан",
+        "nickname": "",
+        "keyword": "Mantuan-Gustavo",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 24102,
+        "name": "Маркус Вендел",
+        "lastname": "Валле да Силва",
+        "nickname": "Вендел",
+        "keyword": "Vendel-Valle-da-Silva-Markus",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
