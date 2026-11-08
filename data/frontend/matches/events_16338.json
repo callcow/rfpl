@@ -1667,6 +1667,67 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66432,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 81,
+      "extra": null,
+      "player1": {
+        "id": 23306,
+        "name": "Данил",
+        "lastname": "Пруцев",
+        "nickname": null,
+        "keyword": "Prucev-Danil",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66433,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 81,
+      "extra": null,
+      "player1": {
+        "id": 25383,
+        "name": "Манфред Алонсо",
+        "lastname": "Угальде Арсе",
+        "nickname": "",
+        "keyword": "Ugalde-Arse-Manfred-Alonso",
+        "amplua": 3,
+        "public_lastname": "Угальде",
+        "public_name": "Манфред"
+      },
+      "player2": {
+        "id": 25228,
+        "name": "Мирлинд",
+        "lastname": "Даку",
+        "nickname": "",
+        "keyword": "Daku-Mirlind",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 1,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
