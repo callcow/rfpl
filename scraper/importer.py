@@ -308,12 +308,13 @@ def import_all() -> dict:
                 "current_tour.json", 
                 "matches_flat.json", 
                 "standings.json",
-                "players_all.json",  # <--- Добавили: удаляем после архивации
+                "players_all.json",
+                "matchtv_videos.json",  # <--- Добавили: удаляем после архивации
             ):
                 p = CURRENT_DIR / fname
                 if p.exists():
                     p.unlink()
-            log.info("Очищены clubs_data/, matches/, current_tour.json, matches_flat.json, standings.json, players_all.json")
+            log.info("Очищены clubs_data/, matches/, current_tour.json, matches_flat.json, standings.json, players_all.json, matchtv_videos.json")
 
         # Пробуем достать имя
         tournaments_raw = None
@@ -815,6 +816,7 @@ def import_all() -> dict:
     _build_flat_and_standings(status)
 
     # ─── 5.1. Клубная статистика игроков ───
+    _fetch_matchtv_videos()
     _build_club_stats(tournament_id, status)
     _build_players_season_stats(status)
     
@@ -1209,6 +1211,48 @@ def _build_flat_and_standings(status: dict | None = None):
             "matches": []
         })
         
+def _fetch_matchtv_videos():
+    import time
+    log.info("Скачиваю видео MatchTV...")
+    url = "https://gitverse.ru/api/repos/rutv/macthtv/raw/branch/master/matchtv_all_videos.json"
+    headers = {"User-Agent": "Mozilla/5.0"}
+    max_retries = 5
+    backoff = 2.0
+    last_error = None
+    data = None
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            r = requests.get(url, headers=headers, timeout=60)
+            if r.status_code == 429:
+                retry_after = r.headers.get("Retry-After", "")
+                try:
+                    wait = float(retry_after)
+                except (TypeError, ValueError):
+                    wait = backoff
+                if attempt < max_retries:
+                    log.warning(f"429 Too Many Requests (попытка {attempt}/{max_retries}), пауза {wait:.1f}с")
+                    time.sleep(wait)
+                    backoff = min(backoff * 2, 60.0)
+                    continue
+            r.raise_for_status()
+            data = r.json()
+            break
+        except requests.exceptions.RequestException as e:
+            last_error = e
+            if attempt < max_retries:
+                log.warning(f"Ошибка запроса (попытка {attempt}/{max_retries}): {e}, пауза {backoff:.1f}с")
+                time.sleep(backoff)
+                backoff = min(backoff * 2, 60.0)
+
+    if data is None:
+        log.error(f"Не удалось загрузить видео MatchTV: {last_error}")
+        return
+
+    _save_json(CURRENT_DIR / "matchtv_videos.json", data)
+    log.info(f"Видео MatchTV сохранены: {len(data)} шт.")
+
+
 def _build_staffs_all(tournament_id: int, status: dict):
     """Собирает единый справочник тренеров (staffs_all.json).
     1. Берет актуальные данные из staffs.json клубов (там есть гражданство).

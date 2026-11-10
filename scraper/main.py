@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-CURRENT_DIR = Path("data/current")
+CURRENT_DIR = Path("data/frontend")
 NEXT_RUN_FILE = CURRENT_DIR / "next_run.json"
 
 # ─── Настройки «умного» расписания ───

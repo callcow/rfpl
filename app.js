@@ -8,6 +8,33 @@ const TEAM_RENAMES = {
   "ПФК ЦСКА": "ЦСКА"
 };
 
+// Как название команды пишется в subtitle видео MatchTV
+// (может отличаться от name в clubs.json и от formatTeamName на сайте)
+const VIDEO_TEAM_NAMES = {
+  "Динамо-Москва": ["Динамо", "Динамо Москва"],
+  "Динамо Москва": ["Динамо", "Динамо Москва"],
+  "Спартак-Москва": ["Спартак", "Спартак Москва"],
+  "Спартак Москва": ["Спартак", "Спартак Москва"],
+  "ПФК ЦСКА": ["ЦСКА"],
+  "Динамо Махачкала": ["Динамо Махачкала"]
+};
+
+// Возвращает возможные варианты названия команды в subtitle видео
+function getVideoTeamNames(clubName) {
+  if (!clubName) return [];
+  return VIDEO_TEAM_NAMES[clubName] || [clubName];
+}
+
+// Разбирает subtitle видео ("Динамо - ЦСКА. 2:1.") на названия команд
+function parseSubtitleTeams(subtitle) {
+  if (!subtitle) return null;
+  const idx = subtitle.indexOf(".");
+  const head = idx >= 0 ? subtitle.slice(0, idx) : subtitle;
+  const parts = head.split(" - ");
+  if (parts.length < 2) return null;
+  return { home: parts[0].trim(), away: parts[1].trim() };
+}
+
 // ─────────────────────────────────────────────
 // ЕДИНЫЙ ТАЙМЕР МАТЧА (единственный источник правды)
 // ─────────────────────────────────────────────
@@ -586,6 +613,7 @@ let allClubs = {};
 let allCalendarMatches = [];
 let globalClubsList = [];
 let allStadiums = {};
+let allMatchtvVideos = [];
 window._seasons = [];
 window._stages = [];
 
@@ -648,14 +676,16 @@ async function loadJSON(name, fresh = true) {
 
 async function init() {
   try {
-    const [standings, matches, currentTour, seasons, clubs, stages] = await Promise.all([
+    const [standings, matches, currentTour, seasons, clubs, stages, matchtv] = await Promise.all([
       loadJSON("standings"),
       loadJSON("matches_flat"),
       loadJSON("current_tour").catch(() => null),
       fetch("./data/seasons.json").then(r => r.json()).catch(() => null),
       loadJSON("clubs", false).catch(() => []),
-      loadJSON("stages", false).catch(() => [])
+      loadJSON("stages", false).catch(() => []),
+      fetch(`${DATA_BASE}/matchtv_videos.json`).then(r => r.ok ? r.json() : []).catch(() => [])
     ]);
+    allMatchtvVideos = matchtv || [];
     window._stages = stages || [];
     
     if (seasons && seasons.length > 0) {
@@ -1782,6 +1812,43 @@ window.openMatchModal = async function(matchId) {
 
         const homeClub = allClubs[data.clubH];
         const awayClub = allClubs[data.clubA];
+        
+        // ─── Подготовка видео MatchTV ───
+        // Точное сравнение названий команд из subtitle с VIDEO_TEAM_NAMES:
+        // «Динамо М» (Динамо-Москва) и «Динамо Мх» (Динамо Махачкала) не путаются.
+        const homeNames = getVideoTeamNames(homeClub?.name).map(s => s.toLowerCase());
+        const awayNames = getVideoTeamNames(awayClub?.name).map(s => s.toLowerCase());
+
+        const matchVideos = (allMatchtvVideos || []).filter(v => {
+            const parsed = parseSubtitleTeams(v.subtitle);
+            if (!parsed) return false;
+            return homeNames.includes(parsed.home.toLowerCase())
+                && awayNames.includes(parsed.away.toLowerCase());
+        });
+
+        const getScoreFromSub = (sub) => {
+            const match = sub.match(/(\d+):(\d+)/);
+            return match ? `${match[1]}:${match[2]}` : null;
+        };
+
+        const isVideoForPlayer = (title, playerName) => {
+            if (!playerName) return false;
+            const parts = playerName.toLowerCase().replace(/ё/g, 'е').replace(/[^a-zа-яе\s]/g, '').trim().split(/\s+/);
+            if (parts.length === 0) return false;
+            const lastName = parts[parts.length - 1];
+            if (lastName.length < 3) return false;
+            const root = lastName.substring(0, Math.min(lastName.length, 4));
+            return title.toLowerCase().replace(/ё/g, 'е').includes(root);
+        };
+
+        const formatVideoUrl = (url) => {
+            if (!url) return "";
+            let newUrl = url.replace("/quote/start/", "/quote/playlist/");
+            // Вставляем /720/ после ID видео (перед хэшем)
+            return newUrl.replace(/(\/quote\/playlist\/[^/]+\/[^/]+)(\/[^/]+\/)/, "$1/720$2");
+        };
+        // ────────────────────────────────
+
         const logoBase = `${DATA_BASE}/`;
 
         const homeLogo = homeClub?.logo ? `<img src="${logoBase}${homeClub.logo}" class="modal-team-logo team-clickable" onclick="event.stopPropagation(); openClubModal(${homeClub.id})">` : "";
@@ -2569,6 +2636,9 @@ window.openMatchModal = async function(matchId) {
                     
                     // Чтобы избежать дублей из broadcast (когда гол приходит без ассистента на минуту позже)
                     const processedGoals = [];
+                    let currentH = 0;
+                    let currentA = 0;
+                    const usedVideoUrls = new Set();
 
                     allEvents.forEach(e => {
                         // Игнорируем назначенные пенальти, которые не были реализованы, чтобы не путать счет
@@ -2636,7 +2706,39 @@ window.openMatchModal = async function(matchId) {
                             );
 
                             if (!isDuplicate) {
-                                window._matchScorers.push({ clubId: scoringClubId, text: scorerText });
+                                // Обновляем текущий счет для точной привязки видео
+                                if (scoringClubId === homeClub?.id) currentH++;
+                                else if (scoringClubId === awayClub?.id) currentA++;
+                                const currentScoreStr = `${currentH}:${currentA}`;
+
+                                let videoIcon = "";
+                                if (matchVideos.length > 0 && e.player1) {
+                                    const shortName = getShortName(e.player1);
+                                    
+                                    // 1. Ищем в первую очередь по точному счету (защита от дублей голов одного игрока)
+                                    let goalVideo = matchVideos.find(v => 
+                                        !usedVideoUrls.has(v.video) &&
+                                        (v.title.startsWith('Гол') || v.title.startsWith('Автогол') || v.title.toLowerCase().includes('пенальти')) && 
+                                        isVideoForPlayer(v.title, shortName) &&
+                                        getScoreFromSub(v.subtitle) === currentScoreStr
+                                    );
+                                    
+                                    // 2. Фолбэк: если не нашли по счету, ищем просто по фамилии
+                                    if (!goalVideo) {
+                                        goalVideo = matchVideos.find(v => 
+                                            !usedVideoUrls.has(v.video) &&
+                                            (v.title.startsWith('Гол') || v.title.startsWith('Автогол') || v.title.toLowerCase().includes('пенальти')) && 
+                                            isVideoForPlayer(v.title, shortName)
+                                        );
+                                    }
+                                    
+                                    if (goalVideo) {
+                                        videoIcon = ` <a href="${formatVideoUrl(goalVideo.video)}" target="_blank" rel="noopener noreferrer" class="scorer-video-icon" onclick="event.stopPropagation();" title="Смотреть видео">▶</a>`;
+                                        usedVideoUrls.add(goalVideo.video);
+                                    }
+                                }
+
+                                window._matchScorers.push({ clubId: scoringClubId, text: scorerText + videoIcon });
                                 processedGoals.push({ 
                                     playerId: e.player1?.id, 
                                     clubId: scoringClubId, 
@@ -2909,6 +3011,7 @@ window.openMatchModal = async function(matchId) {
                     ${hasLineups ? `<button class="match-tab-btn" onclick="switchMatchTab('lineups', event)">Составы</button>` : ''}
                     ${hasStats ? `<button class="match-tab-btn" onclick="switchMatchTab('stats', event)">Статистика</button>` : ''}
                     ${hasEvents ? `<button class="match-tab-btn" onclick="switchMatchTab('events', event)">События</button>` : ''}
+                    ${matchVideos.length > 0 ? `<button class="match-tab-btn" onclick="switchMatchTab('videos', event)">Видео</button>` : ''}
                 </div>
                 ` : ''}
 
@@ -3057,6 +3160,22 @@ window.openMatchModal = async function(matchId) {
                 ${!isFutureNoDate && hasLineups ? `<div id="match-tab-lineups" class="match-tab-pane">${lineupsHtml}</div>` : ''}
                 ${!isFutureNoDate && hasStats ? `<div id="match-tab-stats" class="match-tab-pane">${statsHtml}</div>` : ''}
                 ${!isFutureNoDate && hasEvents ? `<div id="match-tab-events" class="match-tab-pane">${eventsHtml}</div>` : ''}
+                ${(() => {
+                    if (matchVideos.length === 0) return '';
+                    return `
+                    <div id="match-tab-videos" class="match-tab-pane">
+                        <div class="tab-pad">
+                            <div class="match-videos-list">
+                                ${matchVideos.map(v => `
+                                    <a href="${formatVideoUrl(v.video)}" target="_blank" rel="noopener noreferrer" class="match-video-item">
+                                        <div class="match-video-play">▶</div>
+                                        <div class="match-video-title">${v.title}</div>
+                                    </a>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>`;
+                })()}
 
                 ${isFallback && data.status !== 0 ? `<div class="fallback-note">Расширенная статистика появится после обновления базы данных.</div>` : ''}
             </div>
@@ -3309,7 +3428,7 @@ window.switchMatchTab = function(tabId, event) {
         event.target.classList.add('active');
     }
     
-    ['overview', 'lineups', 'stats', 'events'].forEach(id => {
+    ['overview', 'lineups', 'stats', 'events', 'videos'].forEach(id => {
         const el = document.getElementById(`match-tab-${id}`);
         if (el) el.classList.remove('active');
     });
@@ -4084,6 +4203,227 @@ window.openPlayerModal = async function(clubId, playerId) {
             ? `<div class="pm-legend"><span><span class="pm-ic">⚽</span> — гол</span><span><span class="pm-ic"><span class="pev-assist"></span></span> — голевой пас</span><span><span class="pm-ic"><span class="card-yellow"></span></span> — жёлтая</span><span><span class="pm-ic"><span class="card-red"></span></span> — красная</span></div>`
               + pmMatches.map(pmRow).join('')
             : '<div class="player-modal-state">Матчей пока нет</div>');
+
+        // ─── Поиск видео для игрока (сверка по событиям матча) ───
+        let playerVideos = [];
+        if (allMatchtvVideos && allMatchtvVideos.length) {
+            const targetId = Number(playerId);
+
+            // Нормализация строк (с заменой ё -> е для корректного поиска)
+            const cleanStr = (s) => String(s || "").toLowerCase().replace(/ё/g, "е").replace(/[^a-zа-яе0-9\s-]/g, " ").replace(/\s+/g, " ").trim();
+
+            // Проверка: имя из события (player1) упомянуто в title видео?
+            const nameInTitle = (title, player) => {
+                if (!player || !title) return false;
+                const t = cleanStr(title);
+                if (!t) return false;
+
+                const variants = new Set();
+                const add = (s) => { const v = cleanStr(s); if (v && v.length >= 3) variants.add(v); };
+
+                add(player.nickname);
+                add(player.public_lastname);
+                if (player.public_name && player.public_lastname) add(`${player.public_name} ${player.public_lastname}`);
+                // Первое слово реальной фамилии: «Фернандес Урбиета» → «фернандес»
+                if (player.lastname) {
+                    const first = cleanStr(player.lastname).split(/\s+/)[0];
+                    if (first.length >= 4) add(first);
+                }
+                add(player.public_lastname);
+
+                for (const key of variants) {
+                    if (!key) continue;
+                    if (t.includes(key)) return true;
+                    // Учёт падежей: 5-символьный корень
+                    if (key.length >= 5) {
+                        const stem = key.substring(0, 5);
+                        if (t.includes(stem)) return true;
+                    }
+                    // Многословные ключи: все значимые слова по 4-символьному корню
+                    const words = key.split(/\s+/).filter(w => w.length >= 4);
+                    if (words.length >= 2) {
+                        let ok = true;
+                        for (const w of words) {
+                            const wStem = w.substring(0, Math.min(w.length, 4));
+                            if (!t.includes(wStem)) { ok = false; break; }
+                        }
+                        if (ok) return true;
+                    }
+                }
+                return false;
+            };
+
+            // Парсинг subtitle → матч: точное сравнение названий команд из subtitle
+            // с VIDEO_TEAM_NAMES, чтобы «Динамо М» и «Динамо Мх» не путались.
+            const parseSubtitleScore = (subtitle) => {
+                if (!subtitle) return null;
+                const m = subtitle.match(/(\d+)\s*:\s*(\d+)/);
+                return m ? `${m[1]}:${m[2]}` : null;
+            };
+            const findMatchBySubtitle = (subtitle) => {
+                if (!subtitle) return null;
+                const parsed = parseSubtitleTeams(subtitle);
+                if (!parsed) return null;
+                const subScore = parseSubtitleScore(subtitle);
+                const parsedHome = parsed.home.toLowerCase();
+                const parsedAway = parsed.away.toLowerCase();
+
+                let best = null;
+                let bestScore = -1;
+                for (const m of (allFlatMatches || [])) {
+                    const homeClub = allClubs[m.homeId];
+                    const awayClub = allClubs[m.awayId];
+                    if (!homeClub || !awayClub) continue;
+
+                    const homeNames = getVideoTeamNames(homeClub.name).map(s => s.toLowerCase());
+                    const awayNames = getVideoTeamNames(awayClub.name).map(s => s.toLowerCase());
+                    if (!homeNames.includes(parsedHome)) continue;
+                    if (!awayNames.includes(parsedAway)) continue;
+
+                    let sc = 3;
+                    if (subScore && m.goalH != null && m.goalA != null) {
+                        if (`${m.goalH}:${m.goalA}` === subScore || `${m.goalA}:${m.goalH}` === subScore) sc += 10;
+                    }
+                    if (sc > bestScore) { bestScore = sc; best = m; }
+                }
+                return best;
+            };
+
+            // Глобальный кэш событий матча (сохраняется между открытиями карточек)
+            if (!window._playerVideosEventsCache) window._playerVideosEventsCache = {};
+            const eventsCache = window._playerVideosEventsCache;
+            const getMatchPlayers1 = (matchId) => {
+                if (!eventsCache[matchId]) {
+                    eventsCache[matchId] = (async () => {
+                        try {
+                            const r = await fetch(`./data/frontend/matches/events_${matchId}.json`);
+                            if (!r.ok) return [];
+                            const data = await r.json();
+                            const list = [];
+                            for (const arr of [data.protocol || [], data.broadcast || []]) {
+                                for (const e of arr) {
+                                    if (e.player1 && e.player1.id) list.push(e.player1);
+                                }
+                            }
+                            return list;
+                        } catch (e) {
+                            return [];
+                        }
+                    })();
+                }
+                return eventsCache[matchId];
+            };
+
+            // Глобальный кэш заявок матча
+            if (!window._playerVideosLineupsCache) window._playerVideosLineupsCache = {};
+            const lineupsCache = window._playerVideosLineupsCache;
+            const getMatchLineupIds = (matchId) => {
+                if (!lineupsCache[matchId]) {
+                    lineupsCache[matchId] = (async () => {
+                        try {
+                            const r = await fetch(`./data/frontend/matches/lineups_${matchId}.json`);
+                            if (!r.ok) return new Set();
+                            const lu = await r.json();
+                            const protocol = lu.protocol || lu;
+                            const ids = new Set();
+                            for (const side of ["clubH", "clubA"]) {
+                                const cd = protocol[side] || {};
+                                for (const pl of (cd.players || [])) {
+                                    if (pl && pl.id) ids.add(Number(pl.id));
+                                }
+                                for (const arr of ["main", "reserve"]) {
+                                    for (const it of (cd[arr] || [])) {
+                                        const id = (it && typeof it === "object") ? it.id : it;
+                                        if (id) ids.add(Number(id));
+                                    }
+                                }
+                            }
+                            return ids;
+                        } catch (e) {
+                            return new Set();
+                        }
+                    })();
+                }
+                return lineupsCache[matchId];
+            };
+
+            // Вратарь? Тогда применяем фолбэк по заявке.
+            const isGoalkeeper = Number(p.amplua) === 0;
+
+            // Собираем ID матчей, где игрок точно был в заявке (из players_stats.json)
+            const playerMatchIds = new Set((psRec?.matches || []).map(m => m.matchId));
+
+            // Проверка каждого видео:
+            // 1) Сначала быстро проверяем имя в title (без сетевых запросов). Если имени нет — отсеиваем видео.
+            // 2) Проверяем, что матч вообще есть в списке матчей игрока (экономит загрузку файлов).
+            // 3) основной путь — игрок player1 в событии матча;
+            // 4) фолбэк только для вратарей — игрок в заявке матча.
+            const checks = await Promise.all(
+                allMatchtvVideos.map(async (v) => {
+                    if (!v || !v.title) return null;
+
+                    // 1. Быстрая проверка имени нашего игрока в заголовке (сеть не нужна)
+                    if (!nameInTitle(v.title, p)) return null;
+
+                    const m = findMatchBySubtitle(v.subtitle);
+                    if (!m) return null;
+                    const matchId = m.matchId || m.id;
+                    if (!matchId) return null;
+
+                    // 2. Если известно, в каких матчах играл игрок — отсеиваем остальные
+                    if (playerMatchIds.size > 0 && !playerMatchIds.has(matchId)) return null;
+
+                    // 3. Основной путь — по событиям
+                    const players = await getMatchPlayers1(matchId);
+                    if (players.length) {
+                        const hit = players.some(pl => Number(pl.id) === targetId);
+                        if (hit) return v;
+                    }
+
+                    // 4. Фолбэк для вратарей — по заявке матча
+                    if (isGoalkeeper) {
+                        const lineupIds = await getMatchLineupIds(matchId);
+                        if (lineupIds.has(targetId)) {
+                            return v;
+                        }
+                    }
+
+                    return null;
+                })
+            );
+            playerVideos = checks.filter(Boolean);
+        }
+
+        const formatVideoUrl = (url) => {
+            if (!url) return "";
+            let newUrl = url.replace("/quote/start/", "/quote/playlist/");
+            return newUrl.replace(/(\/quote\/playlist\/[^/]+\/[^/]+)(\/[^/]+\/)/, "$1/480$2");
+        };
+
+        const videosPaneHtml = playerVideos.length > 0
+            ? `<div class="match-videos-list" style="padding-top: 10px;">
+                 ${playerVideos.map(v => {
+                     // Извлекаем название матча и счет из subtitle, убирая лишний текст
+                     const matchInfo = (v.subtitle || '')
+                         .replace(/\s*\(видео\)\.?/gi, '')
+                         .replace(/\.?\s*Альфа-Банк.*$/i, '')
+                         .trim();
+                     
+                     // Извлекаем дату матча
+                     const matchDate = v.startAt ? formatMatchDateOnly(v.startAt) : '';
+
+                     return `
+                     <a href="${formatVideoUrl(v.video)}" target="_blank" rel="noopener noreferrer" class="match-video-item">
+                         <div class="match-video-play">▶</div>
+                         <div class="match-video-title">
+                             ${v.title}
+                             ${(matchDate || matchInfo) ? `<div class="match-video-subtitle">${matchDate}${matchDate && matchInfo ? ' · ' : ''}${matchInfo}</div>` : ''}
+                         </div>
+                     </a>
+                     `;
+                 }).join('')}
+               </div>`
+            : '';
         const clubsBreak = psRec ? Object.entries(psRec.clubs || {}).filter(([, s]) => s.matchesInSquad > 0) : [];
         const seasonLabel = (window._seasons || []).find(x => x.is_current)?.name?.replace(/^Сезон\s+/i, '') || '';
         const fmtD = d => d ? d.split('-').reverse().join('.') : '';
@@ -4156,6 +4496,7 @@ window.openPlayerModal = async function(clubId, playerId) {
             <div class="pm-tabs">
                 <button class="pm-tab active" onclick="switchPlayerTab('stats', this)">Статистика</button>
                 <button class="pm-tab" onclick="switchPlayerTab('matches', this)">Матчи</button>
+                ${playerVideos.length > 0 ? `<button class="pm-tab" onclick="switchPlayerTab('videos', this)">Видео</button>` : ''}
             </div>
             <div id="pm-pane-stats" class="pm-pane active">
             ${breakdownHtml}
@@ -4168,7 +4509,8 @@ window.openPlayerModal = async function(clubId, playerId) {
                 <button type="button" class="player-modal-toggle" onclick="const g=this.parentElement; g.classList.toggle('expanded'); this.textContent=g.classList.contains('expanded')?'Свернуть ▴':'Вся статистика ▾'">Вся статистика ▾</button>
             </div>
             </div>
-            <div id="pm-pane-matches" class="pm-pane">${matchesPaneHtml}</div>`;
+            <div id="pm-pane-matches" class="pm-pane">${matchesPaneHtml}</div>
+            ${playerVideos.length > 0 ? `<div id="pm-pane-videos" class="pm-pane">${videosPaneHtml}</div>` : ''}`;
     } catch (err) {
         box.innerHTML = `<button class="player-modal-close" onclick="closePlayerModal()">✕</button><div class="player-modal-state">Не удалось загрузить данные</div>`;
     }
