@@ -481,8 +481,10 @@ tbody tr.team-clickable td:nth-child(2):hover { font-weight: 700; cursor: pointe
     padding-left: 1.5px; /* Сдвигает треугольник вправо, чтобы он был ровно по центру */
     box-sizing: border-box; /* Сохраняет размер кружка */
 }
-.scorer-video-icon:hover {
-    transform: scale(1.2);
+@media (hover: hover) {
+    .scorer-video-icon:hover {
+        transform: scale(1.2);
+    }
 }
 .match-videos-list {
     display: flex;
@@ -1159,11 +1161,12 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 .pmb-logo { width: 18px; height: 18px; object-fit: contain; flex-shrink: 0; }
 .player-modal-breakdown-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 8px; padding: 6px 0; border-bottom: 1px solid var(--border); }
 .player-modal-breakdown-row > span:last-child { white-space: nowrap; font-size: 12px; color: #6b7280; }
-.pm-tabs { display: flex; gap: 6px; margin: 10px 0; border-bottom: 1px solid var(--border); }
-.pm-tab { flex: 1; background: none; border: none; padding: 8px 0; cursor: pointer; color: #6b7280; font-weight: 600; border-bottom: 2px solid transparent; }
-.pm-tab.active { color: var(--text); border-bottom-color: var(--text); }
+.pm-tabs { display: flex; gap: 6px; margin: 10px 0; border-bottom: 1px solid var(--border); position: relative; }
+.pm-tab { flex: 1; background: none; border: none; padding: 8px 0; cursor: pointer; color: #6b7280; font-weight: 600; border-bottom: 2px solid transparent; position: relative; z-index: 1; }
+.pm-tab.active { color: var(--text); border-bottom-color: transparent; }
+.pm-tabs-slider { position: absolute; bottom: -1px; left: 0; height: 2px; background: var(--text); border-radius: 2px; transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), width 0.3s cubic-bezier(0.4, 0, 0.2, 1); pointer-events: none; z-index: 0; }
 .pm-pane { display: none; }
-.pm-pane.active { display: block; }
+.pm-pane.active { display: block; animation: fadeInSlide 0.3s ease-out forwards; }
 
 /* Капитан (К) — красный кружок */
 .player-captain, .legend-captain {
@@ -1228,8 +1231,28 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 .player-modal-state { text-align: center; padding: 24px 0; color: var(--text-muted); }
 .player-modal-toggle { width: 100%; margin-top: 8px; padding: 8px; background: none; border: none; font-size: 13px; color: var(--text-muted); cursor: pointer; }
 .player-modal-toggle:hover { color: #111827; }
-.player-modal-extra { display: none; }
-.player-modal-grid.expanded .player-modal-extra { display: flex; animation: pmStatIn 0.25s ease-out; }
+.player-modal-extra-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+.player-modal-extra-wrapper.expanded {
+    max-height: 1000px;
+    opacity: 1;
+}
+.pm-matches-extra-wrapper {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.4s ease, opacity 0.3s ease;
+}
+.pm-matches-extra-wrapper.expanded {
+    max-height: 3000px;
+    opacity: 1;
+}
 @keyframes pmStatIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } } 
 
 

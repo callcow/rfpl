@@ -3454,18 +3454,40 @@ window.moveModalSlider = function(targetBtn) {
         navContainer.appendChild(slider);
     }
     
-    // Позиция кнопки относительно контейнера с учетом скролла
+    // Позиция кнопки относительно контейнера (без вычитания скролла, так как бегунок находится внутри скроллируемой области)
     const updatePosition = () => {
-        const targetLeft = targetBtn.offsetLeft - navContainer.scrollLeft;
+        const targetLeft = targetBtn.offsetLeft;
         slider.style.width = `${targetBtn.offsetWidth}px`;
         slider.style.transform = `translateX(${targetLeft}px)`;
     };
 
     updatePosition();
 
+    // Прокручиваем контейнер к активной кнопке, если она не видна
+    if (navContainer.scrollWidth > navContainer.clientWidth) {
+        const targetLeft = targetBtn.offsetLeft - (navContainer.clientWidth - targetBtn.offsetWidth) / 2;
+        navContainer.scrollTo({ left: Math.max(0, targetLeft), behavior: 'smooth' });
+    }
+
     // Небольшой фикс: если из-за смены контента появился/исчез скроллбар, 
     // позиция может сбиться. Обновляем ее еще раз через 50мс.
     setTimeout(updatePosition, 50);
+
+    // Обновляем позицию бегунка при ручной прокрутке вкладок
+    if (!navContainer._sliderScrollHandler) {
+        navContainer._sliderScrollHandler = () => {
+            const activeBtn = navContainer.querySelector('.match-tab-btn.active');
+            if (activeBtn) {
+                const activeLeft = activeBtn.offsetLeft;
+                const s = navContainer.querySelector('.tab-slider');
+                if (s) {
+                    s.style.width = `${activeBtn.offsetWidth}px`;
+                    s.style.transform = `translateX(${activeLeft}px)`;
+                }
+            }
+        };
+        navContainer.addEventListener('scroll', navContainer._sliderScrollHandler, { passive: true });
+    }
 };
 
 window.switchMobileLineup = function(side, event) {
@@ -4092,6 +4114,16 @@ window.switchPlayerTab = function(tab, btn) {
     btn.classList.add('active');
     box.querySelectorAll('.pm-pane').forEach(p => p.classList.remove('active'));
     box.querySelector(`#pm-pane-${tab}`).classList.add('active');
+
+    // Двигаем бегунок
+    const navContainer = btn.closest('.pm-tabs');
+    if (navContainer) {
+        const slider = navContainer.querySelector('.pm-tabs-slider');
+        if (slider) {
+            slider.style.width = `${btn.offsetWidth}px`;
+            slider.style.transform = `translateX(${btn.offsetLeft}px)`;
+        }
+    }
 };
 
 // Статистика игроков за сезон (все клубы), грузится один раз на сессию
@@ -4201,7 +4233,13 @@ window.openPlayerModal = async function(clubId, playerId) {
         };
         const matchesPaneHtml = (pmMatches.length
             ? `<div class="pm-legend"><span><span class="pm-ic">⚽</span> — гол</span><span><span class="pm-ic"><span class="pev-assist"></span></span> — голевой пас</span><span><span class="pm-ic"><span class="card-yellow"></span></span> — жёлтая</span><span><span class="pm-ic"><span class="card-red"></span></span> — красная</span></div>`
-              + pmMatches.map(pmRow).join('')
+              + pmMatches.slice(0, 3).map(pmRow).join('')
+              + (pmMatches.length > 3 ? `
+                <div class="pm-matches-extra-wrapper" id="player-extra-matches">
+                    ${pmMatches.slice(3).map(pmRow).join('')}
+                </div>
+                <button type="button" class="player-modal-toggle" onclick="const w=document.getElementById('player-extra-matches'); w.classList.toggle('expanded'); this.textContent=w.classList.contains('expanded')?'Свернуть ▴':'Все матчи ▾'">Все матчи ▾</button>
+              ` : '')
             : '<div class="player-modal-state">Матчей пока нет</div>');
 
         // ─── Поиск видео для игрока (сверка по событиям матча) ───
@@ -4494,6 +4532,7 @@ window.openPlayerModal = async function(clubId, playerId) {
                 ${bioHtml}
             </div>
             <div class="pm-tabs">
+                <div class="pm-tabs-slider"></div>
                 <button class="pm-tab active" onclick="switchPlayerTab('stats', this)">Статистика</button>
                 <button class="pm-tab" onclick="switchPlayerTab('matches', this)">Матчи</button>
                 ${playerVideos.length > 0 ? `<button class="pm-tab" onclick="switchPlayerTab('videos', this)">Видео</button>` : ''}
@@ -4501,16 +4540,40 @@ window.openPlayerModal = async function(clubId, playerId) {
             <div id="pm-pane-stats" class="pm-pane active">
             ${breakdownHtml}
             <div class="player-modal-grid">
-                ${items.map(([label, val]) => `
-                    <div class="player-modal-item${mainStats.includes(label) ? '' : ' player-modal-extra'}">
+                ${items.filter(([label]) => mainStats.includes(label)).map(([label, val]) => `
+                    <div class="player-modal-item">
                         <span class="club-stat-label">${label}</span>
                         <span class="club-stat-value">${val}</span>
                     </div>`).join('')}
-                <button type="button" class="player-modal-toggle" onclick="const g=this.parentElement; g.classList.toggle('expanded'); this.textContent=g.classList.contains('expanded')?'Свернуть ▴':'Вся статистика ▾'">Вся статистика ▾</button>
+                
+                <div class="player-modal-extra-wrapper" id="player-extra-stats">
+                    ${items.filter(([label]) => !mainStats.includes(label)).map(([label, val]) => `
+                        <div class="player-modal-item">
+                            <span class="club-stat-label">${label}</span>
+                            <span class="club-stat-value">${val}</span>
+                        </div>`).join('')}
+                </div>
+                
+                ${items.some(([label]) => !mainStats.includes(label)) ? `
+                <button type="button" class="player-modal-toggle" onclick="const w=document.getElementById('player-extra-stats'); w.classList.toggle('expanded'); this.textContent=w.classList.contains('expanded')?'Свернуть ▴':'Вся статистика ▾'">Вся статистика ▾</button>
+                ` : ''}
             </div>
             </div>
             <div id="pm-pane-matches" class="pm-pane">${matchesPaneHtml}</div>
             ${playerVideos.length > 0 ? `<div id="pm-pane-videos" class="pm-pane">${videosPaneHtml}</div>` : ''}`;
+
+        // Инициализация позиции бегунка вкладок игрока при открытии
+        setTimeout(() => {
+            const activeBtn = box.querySelector('.pm-tab.active');
+            const navContainer = box.querySelector('.pm-tabs');
+            if (activeBtn && navContainer) {
+                const slider = navContainer.querySelector('.pm-tabs-slider');
+                if (slider) {
+                    slider.style.width = `${activeBtn.offsetWidth}px`;
+                    slider.style.transform = `translateX(${activeBtn.offsetLeft}px)`;
+                }
+            }
+        }, 0);
     } catch (err) {
         box.innerHTML = `<button class="player-modal-close" onclick="closePlayerModal()">✕</button><div class="player-modal-state">Не удалось загрузить данные</div>`;
     }
