@@ -1,3 +1,100 @@
+// === ТЕМА: при первом открытии — по теме устройства; иначе — сохранённый выбор ===
+(function initTheme() {
+    try {
+        const saved = localStorage.getItem('theme');
+        let theme;
+        if (saved === 'light' || saved === 'dark') {
+            theme = saved;
+        } else {
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            theme = prefersDark ? 'dark' : 'light';
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+})();
+
+window.toggleTheme = function() {
+    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    const next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+    const btn = document.getElementById('theme-toggle');
+    if (btn) {
+        btn.textContent = next === 'dark' ? '☀' : '☾';
+        btn.title = next === 'dark' ? 'Светлая тема' : 'Тёмная тема';
+    }
+};
+
+function createThemeToggle() {
+    if (document.getElementById('theme-toggle')) return;
+    const btn = document.createElement('button');
+    btn.id = 'theme-toggle';
+    btn.className = 'theme-toggle-btn';
+    btn.type = 'button';
+    btn.setAttribute('aria-label', 'Переключить тему');
+    btn.addEventListener('click', window.toggleTheme);
+    const theme = document.documentElement.getAttribute('data-theme') || 'light';
+    btn.textContent = theme === 'dark' ? '☀' : '☾';
+    btn.title = theme === 'dark' ? 'Светлая тема' : 'Тёмная тема';
+    
+    const header = document.querySelector('.header');
+    if (header) {
+        header.style.display = 'flex';
+        header.style.alignItems = 'stretch';
+        header.style.gap = '8px';
+        const tabs = header.querySelector('.tabs');
+        if (tabs) {
+            tabs.style.flex = '1';
+            tabs.style.minWidth = '0';
+            tabs.style.width = 'auto';
+        }
+        header.appendChild(btn);
+    } else {
+        document.body.appendChild(btn);
+    }
+
+    const updateThemeToggleVisibility = () => {
+        if (window.scrollY > 0) {
+            btn.classList.add('is-hidden');
+        } else {
+            btn.classList.remove('is-hidden');
+        }
+    };
+    updateThemeToggleVisibility();
+    window.addEventListener('scroll', updateThemeToggleVisibility, { passive: true });
+
+    // Пересчитываем позицию бегунка при изменении ширины навбара (например, когда кнопка скрывается)
+    if (window.ResizeObserver) {
+        const tabsEl = document.querySelector('.tabs');
+        if (tabsEl) {
+            new ResizeObserver(() => {
+                const activeBtn = document.querySelector('.tab-btn.active');
+                if (activeBtn && typeof window.syncTabNav === 'function') {
+                    const slider = document.getElementById('tab-slider');
+                    if (slider) {
+                        const originalTransition = slider.style.transition;
+                        slider.style.transition = 'none';
+                        window.syncTabNav(activeBtn);
+                        // Принудительно вызываем reflow, чтобы браузер применил позицию без анимации
+                        void slider.offsetWidth;
+                        slider.style.transition = originalTransition;
+                    } else {
+                        window.syncTabNav(activeBtn);
+                    }
+                }
+            }).observe(tabsEl);
+        }
+    }
+}
+
+if (document.body) {
+    createThemeToggle();
+} else {
+    document.addEventListener('DOMContentLoaded', createThemeToggle);
+}
+
 const DATA_BASE = "./data/frontend";
 
 // Словарь сокращений для команд
@@ -626,11 +723,14 @@ window.syncTabNav = function(btn) {
   const tabs = btn.parentElement;
   const slider = document.getElementById('tab-slider');
   if (slider && tabs) {
+    const btnRect = btn.getBoundingClientRect();
+    const tabsRect = tabs.getBoundingClientRect();
+    const offset = btnRect.left - tabsRect.left + tabs.scrollLeft;
     slider.style.width = `${btn.offsetWidth}px`;
-    slider.style.transform = `translateX(${btn.offsetLeft - tabs.offsetLeft}px)`;
+    slider.style.transform = `translateX(${offset}px)`;
   }
   if (tabs && tabs.scrollWidth > tabs.clientWidth) {
-    const left = btn.offsetLeft - tabs.offsetLeft - (tabs.clientWidth - btn.offsetWidth) / 2;
+    const left = btn.offsetLeft - (tabs.clientWidth - btn.offsetWidth) / 2;
     tabs.scrollTo({ left: Math.max(0, left), behavior: 'smooth' });
   }
 };
@@ -645,13 +745,17 @@ window.switchTab = function(tabId, event) {
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
   
-  if (event && event.target) {
-    syncTabNav(event.target);
-  }
-  document.getElementById(`tab-${tabId}`).classList.add('active');
-
   // Принудительно прокручиваем страницу наверх при переключении вкладки (мгновенно)
   window.scrollTo(0, 0);
+  
+  if (event && event.target) {
+    const targetBtn = event.target;
+    // Ждем, пока страница прокрутится и скроллбар исчезнет, чтобы взять точные координаты
+    setTimeout(() => {
+      syncTabNav(targetBtn);
+    }, 50);
+  }
+  document.getElementById(`tab-${tabId}`).classList.add('active');
 
   // Если переключаемся на главную или календарь — просто перерисовываем из кэша
   // (не делаем fetch, чтобы не мигало)
@@ -2181,7 +2285,7 @@ window.openMatchModal = async function(matchId) {
                         const eventsHtml = events.map(e => {
                             if (e.type === 'goal') return `<span class="pev" title="Гол ${e.min}">⚽</span>`;
                             if (e.type === 'penalty_goal') return `<span class="pev" title="Гол с пенальти ${e.min}"><span class="icon-penalty">⚽</span></span>`;
-                            if (e.type === 'autogoal') return `<span class="pev-autogoal" title="Автогол ${e.min}"><span class="icon-autogoal">⚽</span> <small>(автогол)</small></span>`;
+                            if (e.type === 'autogoal') return `<span class="pev-autogoal" title="Автогол ${e.min}"><span class="icon-autogoal">⚽</span></span>`;
                             if (e.type === 'yellow') return `<span class="pev" title="Жёлтая ${e.min}"><span class="card-yellow"></span></span>`;
                             if (e.type === 'red') return `<span class="pev" title="Красная ${e.min}"><span class="card-red"></span></span>`;
                             if (e.type === 'redyellow') return `<span class="pev" title="Вторая жёлтая ${e.min}"><span class="card-double-yellow"><span class="card-yellow"></span><span class="card-red"></span></span></span>`;
@@ -4435,7 +4539,7 @@ window.openPlayerModal = async function(clubId, playerId) {
         const formatVideoUrl = (url) => {
             if (!url) return "";
             let newUrl = url.replace("/quote/start/", "/quote/playlist/");
-            return newUrl.replace(/(\/quote\/playlist\/[^/]+\/[^/]+)(\/[^/]+\/)/, "$1/480$2");
+            return newUrl.replace(/(\/quote\/playlist\/[^/]+\/[^/]+)(\/[^/]+\/)/, "$1/720$2");
         };
 
         const videosPaneHtml = playerVideos.length > 0
@@ -5041,12 +5145,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Инициализация позиции бегунка при старте
     setTimeout(() => {
         const activeBtn = document.querySelector('.tab-btn.active');
-        const slider = document.getElementById('tab-slider');
-        if (activeBtn && slider) {
-            const tabsContainer = activeBtn.parentElement;
-            const targetLeft = activeBtn.offsetLeft - tabsContainer.offsetLeft;
-            slider.style.width = `${activeBtn.offsetWidth}px`;
-            slider.style.transform = `translateX(${targetLeft}px)`;
+        if (activeBtn && typeof syncTabNav === 'function') {
+            syncTabNav(activeBtn);
         }
     }, 50); // Небольшая задержка для правильного рендера шрифтов
 });
