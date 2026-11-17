@@ -22,10 +22,16 @@ window.toggleTheme = function() {
     try { localStorage.setItem('theme', next); } catch (e) {}
     const btn = document.getElementById('theme-toggle');
     if (btn) {
-        btn.textContent = next === 'dark' ? '☀' : '☾';
+        btn.innerHTML = next === 'dark' ? THEME_ICON_SUN : THEME_ICON_MOON;
+        btn.classList.remove('theme-anim');
+        void btn.offsetWidth;
+        btn.classList.add('theme-anim');
         btn.title = next === 'dark' ? 'Светлая тема' : 'Тёмная тема';
     }
 };
+
+const THEME_ICON_MOON = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+const THEME_ICON_SUN = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>';
 
 function createThemeToggle() {
     if (document.getElementById('theme-toggle')) return;
@@ -36,7 +42,7 @@ function createThemeToggle() {
     btn.setAttribute('aria-label', 'Переключить тему');
     btn.addEventListener('click', window.toggleTheme);
     const theme = document.documentElement.getAttribute('data-theme') || 'light';
-    btn.textContent = theme === 'dark' ? '☀' : '☾';
+    btn.innerHTML = theme === 'dark' ? THEME_ICON_SUN : THEME_ICON_MOON;
     btn.title = theme === 'dark' ? 'Светлая тема' : 'Тёмная тема';
     
     const header = document.querySelector('.header');
@@ -50,7 +56,7 @@ function createThemeToggle() {
             tabs.style.minWidth = '0';
             tabs.style.width = 'auto';
         }
-        header.appendChild(btn);
+        (tabs || header).appendChild(btn);
     } else {
         document.body.appendChild(btn);
     }
@@ -64,6 +70,13 @@ function createThemeToggle() {
     };
     updateThemeToggleVisibility();
     window.addEventListener('scroll', updateThemeToggleVisibility, { passive: true });
+
+    const tabsForCorners = document.querySelector('.tabs');
+    const updateTabsCorners = () => {
+        if (tabsForCorners) tabsForCorners.classList.toggle('is-scrolled', window.scrollY > 0);
+    };
+    updateTabsCorners();
+    window.addEventListener('scroll', updateTabsCorners, { passive: true });
 
     // Пересчитываем позицию бегунка при изменении ширины навбара (например, когда кнопка скрывается)
     if (window.ResizeObserver) {

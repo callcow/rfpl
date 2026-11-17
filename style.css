@@ -61,15 +61,22 @@ body.modal-open {
   overflow: hidden;
 }
 
+.tabs.is-scrolled {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-color: transparent;
+}
+
 /* Растягиваем кнопки равномерно */
 .tab-btn {
   flex: 1;
   text-align: center;
   background: transparent;
   border: none;
-  padding: 10px 19px;
+  padding: 12px 19px;
   font-size: 17px;
   font-weight: 500;
+  -webkit-text-stroke: 0.3px currentColor;
   color: var(--text-muted);
   cursor: pointer;
   border-radius: 13px;
@@ -2217,7 +2224,7 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 @media (max-width: 850px) {
   .tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
   .tabs::-webkit-scrollbar { display: none; }
-  .tabs .tab-btn { flex: 1 0 auto; min-width: max-content; white-space: nowrap; padding: 8px 12px; font-size: 14px; overflow: visible; }
+  .tabs .tab-btn { flex: 1 0 auto; min-width: max-content; white-space: nowrap; padding: 12px 12px; font-size: 14px; overflow: visible; }
   .tabs .tab-btn[data-short] { font-size: 0; }
   .tabs .tab-btn[data-short]::before { content: attr(data-short); font-size: 14px; }
 }
@@ -2764,6 +2771,19 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   overflow: hidden;
 }
 
+.theme-toggle-btn svg {
+  display: block;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+}
+.theme-toggle-btn.theme-anim svg {
+  animation: themeIconSpin 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@keyframes themeIconSpin {
+  0% { transform: rotate(-120deg) scale(0.4); opacity: 0; }
+  60% { transform: rotate(12deg) scale(1.1); opacity: 1; }
+  100% { transform: rotate(0) scale(1); opacity: 1; }
+}
+
 .theme-toggle-btn.is-hidden {
   width: 0;
   border-width: 0;
@@ -2786,6 +2806,15 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   .theme-toggle-btn {
     width: 42px;
     font-size: 18px;
+    position: sticky;
+    right: 0;
+    z-index: 2;
+    margin-left: 4px;
+    background: var(--card-bg);
+    box-shadow: 10px 0 0 0 var(--card-bg);
+  }
+  [data-theme="dark"] .theme-toggle-btn {
+    box-shadow: 10px 0 0 0 var(--card-bg);
   }
 }
 
