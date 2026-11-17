@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 461,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Цитович"
+    }
+  ],
   "id": 16349,
   "tournament": 724,
   "stage": 2976,
@@ -9,13 +18,13 @@
   "goalA": null,
   "date": "2026-11-21UTC13:00:00",
   "status": 0,
-  "dateStartStatus": null,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
   "city": "Оренбург",
   "stadium": "«Газовик»",
   "stadiumLink": "",
   "attendance": null,
-  "comments": null,
-  "weather": "",
+  "comments": "",
+  "weather": "6.1°C, Пасмурно",
   "documents": {
     "protocol": null,
     "report": null,

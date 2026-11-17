@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 485,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Владислав",
+      "lastname": "Барановский"
+    }
+  ],
   "id": 16353,
   "tournament": 724,
   "stage": 2976,
@@ -9,13 +18,13 @@
   "goalA": null,
   "date": "2026-11-21UTC15:15:00",
   "status": 0,
-  "dateStartStatus": null,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
   "city": "Самара",
   "stadium": "«Солидарность Самара Арена»",
   "stadiumLink": "",
   "attendance": null,
-  "comments": null,
-  "weather": "",
+  "comments": "",
+  "weather": "7.1°C, Пасмурно, дождь",
   "documents": {
     "protocol": null,
     "report": null,

@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 431,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Ильдар",
+      "lastname": "Зарипов"
+    }
+  ],
   "id": 16481,
   "tournament": 724,
   "stage": 2976,
@@ -15,7 +24,7 @@
   "stadiumLink": "",
   "attendance": null,
   "comments": "",
-  "weather": "",
+  "weather": "2°C, Пасмурно, небольшой мокрый снег",
   "documents": {
     "protocol": null,
     "report": null,
