@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 431,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Ильдар",
+      "lastname": "Зарипов"
+    }
+  ],
   "id": 16481,
   "tournament": 724,
   "stage": 2976,

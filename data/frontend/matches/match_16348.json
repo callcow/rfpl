@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 534,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Вячеслав",
+      "lastname": "Семёнов"
+    }
+  ],
   "id": 16348,
   "tournament": 724,
   "stage": 2976,
@@ -15,7 +24,7 @@
   "stadiumLink": "",
   "attendance": null,
   "comments": "",
-  "weather": "9.4°C, Облачно",
+  "weather": "11°C, Облачно, сильный дождь",
   "documents": {
     "protocol": null,
     "report": null,

@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 764,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Андрей",
+      "lastname": "Клименков"
+    }
+  ],
   "id": 16351,
   "tournament": 724,
   "stage": 2976,
@@ -15,7 +24,7 @@
   "stadiumLink": "",
   "attendance": null,
   "comments": "",
-  "weather": "0.6°C, Пасмурно, небольшой мокрый снег",
+  "weather": "0.9°C, Пасмурно, небольшой мокрый снег",
   "documents": {
     "protocol": null,
     "report": null,

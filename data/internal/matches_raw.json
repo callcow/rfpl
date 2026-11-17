@@ -2806,9 +2806,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.fc-rostov.ru/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
         "winline": {
-          "outcome1": 1.9,
-          "outcome2": 3.55,
-          "outcome3": 4.2,
+          "outcome1": 1.95,
+          "outcome2": 3.5,
+          "outcome3": 4,
           "link": "https://winline.ru/plus/17077199",
           "erid": "2W5zFFvEMcn"
         },
@@ -2836,8 +2836,8 @@
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.fcorenburg.ru/ru/",
         "winline": {
-          "outcome1": 3,
-          "outcome2": 3.15,
+          "outcome1": 2.9,
+          "outcome2": 3.2,
           "outcome3": 2.55,
           "link": "https://winline.ru/plus/17077200",
           "erid": "2W5zFGp7vUr"
@@ -2866,8 +2866,8 @@
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.pfc-cska.com/",
         "winline": {
-          "outcome1": 1.73,
-          "outcome2": 4,
+          "outcome1": 1.75,
+          "outcome2": 3.9,
           "outcome3": 4.5,
           "link": "https://winline.ru/plus/17077203",
           "erid": "2W5zFG86bMU"
@@ -2897,8 +2897,8 @@
         "ticketsLink": "https://rodina.moscow/tickets",
         "winline": {
           "outcome1": 2.7,
-          "outcome2": 3.7,
-          "outcome3": 2.45,
+          "outcome2": 3.6,
+          "outcome3": 2.48,
           "link": "https://winline.ru/plus/17077206",
           "erid": "2W5zFJ1ogCz"
         },

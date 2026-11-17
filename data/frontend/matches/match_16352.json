@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 432,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Сергей",
+      "lastname": "Кочетов"
+    }
+  ],
   "id": 16352,
   "tournament": 724,
   "stage": 2976,

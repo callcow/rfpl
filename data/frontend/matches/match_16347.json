@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 766,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Сергей",
+      "lastname": "Беседин"
+    }
+  ],
   "id": 16347,
   "tournament": 724,
   "stage": 2976,

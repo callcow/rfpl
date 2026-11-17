@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 485,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Владислав",
+      "lastname": "Барановский"
+    }
+  ],
   "id": 16353,
   "tournament": 724,
   "stage": 2976,

@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 461,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Цитович"
+    }
+  ],
   "id": 16349,
   "tournament": 724,
   "stage": 2976,
