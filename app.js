@@ -73,7 +73,17 @@ function createThemeToggle() {
 
     const tabsForCorners = document.querySelector('.tabs');
     const updateTabsCorners = () => {
-        if (tabsForCorners) tabsForCorners.classList.toggle('is-scrolled', window.scrollY > 0);
+        if (tabsForCorners) {
+            const nowScrolled = window.scrollY > 0;
+            const wasScrolled = tabsForCorners.classList.contains('is-scrolled');
+            tabsForCorners.classList.toggle('is-scrolled', nowScrolled);
+            if (wasScrolled && !nowScrolled) {
+                setTimeout(() => {
+                    const activeTab = tabsForCorners.querySelector('.tab-btn.active');
+                    if (activeTab && typeof window.syncTabNav === 'function') window.syncTabNav(activeTab);
+                }, 300);
+            }
+        }
     };
     updateTabsCorners();
     window.addEventListener('scroll', updateTabsCorners, { passive: true });
@@ -82,7 +92,7 @@ function createThemeToggle() {
     if (window.ResizeObserver) {
         const tabsEl = document.querySelector('.tabs');
         if (tabsEl) {
-            new ResizeObserver(() => {
+            const tabsRo = new ResizeObserver(() => {
                 const activeBtn = document.querySelector('.tab-btn.active');
                 if (activeBtn && typeof window.syncTabNav === 'function') {
                     const slider = document.getElementById('tab-slider');
@@ -97,7 +107,9 @@ function createThemeToggle() {
                         window.syncTabNav(activeBtn);
                     }
                 }
-            }).observe(tabsEl);
+            });
+            tabsRo.observe(tabsEl);
+            tabsEl.querySelectorAll('.tab-btn').forEach(b => tabsRo.observe(b));
         }
     }
 }
@@ -738,7 +750,7 @@ window.syncTabNav = function(btn) {
   if (slider && tabs) {
     const btnRect = btn.getBoundingClientRect();
     const tabsRect = tabs.getBoundingClientRect();
-    const offset = btnRect.left - tabsRect.left + tabs.scrollLeft;
+    const offset = btn.offsetLeft;
     slider.style.width = `${btn.offsetWidth}px`;
     slider.style.transform = `translateX(${offset}px)`;
   }

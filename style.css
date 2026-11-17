@@ -2752,6 +2752,7 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 .theme-toggle-btn {
   flex-shrink: 0;
   width: 46px;
+  margin-left: 6px;
   border-radius: 16px;
   background: var(--card-bg);
   border: 1px solid var(--border);
