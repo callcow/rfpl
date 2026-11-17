@@ -1177,7 +1177,7 @@ function renderMatchCard(m) {
       <div class="match-card ${isLive ? 'live' : ''}" onclick="openMatchModal(${m.id})">
                 <div class="match-header">
           <span>${tourName}</span>
-          <span class="badge ${isLive ? 'live-status' : ''}" id="match-badge-${m.id}">
+          <span class="badge ${isLive ? 'live-status' : ''} ${m.status === 0 ? 'badge-date' : ''}" id="match-badge-${m.id}">
             ${isLive && statusInfo.showDot !== false ? `<span class="live-dot"></span>` : ''}${statusText}
           </span>
         </div>
