@@ -43,7 +43,6 @@ function createThemeToggle() {
     btn.addEventListener('click', window.toggleTheme);
     const theme = document.documentElement.getAttribute('data-theme') || 'light';
     btn.innerHTML = theme === 'dark' ? THEME_ICON_SUN : THEME_ICON_MOON;
-    btn.title = theme === 'dark' ? 'Светлая тема' : 'Тёмная тема';
     
     const header = document.querySelector('.header');
     if (header) {
@@ -113,6 +112,47 @@ function createThemeToggle() {
         }
     }
 }
+
+(function () {
+    document.addEventListener('mouseover', (e) => {
+        const topBtn = e.target.closest && e.target.closest('#scroll-to-top');
+        if (topBtn) topBtn.removeAttribute('title');
+    }, true);
+
+    const siteTip = document.createElement('div');
+    siteTip.id = 'site-tooltip';
+    document.body.appendChild(siteTip);
+    let currentEl = null;
+
+    const restoreTitle = (el) => {
+        if (el && el._tipText !== undefined) {
+            el.setAttribute('title', el._tipText);
+            delete el._tipText;
+        }
+    };
+
+    document.addEventListener('mouseover', (e) => {
+        const el = e.target.closest('[title]');
+        if (!el || el === currentEl || !el.getAttribute('title')) return;
+        restoreTitle(currentEl);
+        currentEl = el;
+        el._tipText = el.getAttribute('title');
+        el.removeAttribute('title');
+        siteTip.textContent = el._tipText;
+        const r = el.getBoundingClientRect();
+        siteTip.style.left = `${r.left + r.width / 2}px`;
+        siteTip.style.top = `${r.top - 8}px`;
+        siteTip.classList.add('is-visible');
+    });
+
+    document.addEventListener('mouseout', (e) => {
+        if (currentEl && !currentEl.contains(e.relatedTarget)) {
+            restoreTitle(currentEl);
+            currentEl = null;
+            siteTip.classList.remove('is-visible');
+        }
+    });
+})();
 
 if (document.body) {
     createThemeToggle();
@@ -2311,9 +2351,9 @@ window.openMatchModal = async function(matchId) {
                             if (e.type === 'goal') return `<span class="pev" title="Гол ${e.min}">⚽</span>`;
                             if (e.type === 'penalty_goal') return `<span class="pev" title="Гол с пенальти ${e.min}"><span class="icon-penalty">⚽</span></span>`;
                             if (e.type === 'autogoal') return `<span class="pev-autogoal" title="Автогол ${e.min}"><span class="icon-autogoal">⚽</span></span>`;
-                            if (e.type === 'yellow') return `<span class="pev" title="Жёлтая ${e.min}"><span class="card-yellow"></span></span>`;
-                            if (e.type === 'red') return `<span class="pev" title="Красная ${e.min}"><span class="card-red"></span></span>`;
-                            if (e.type === 'redyellow') return `<span class="pev" title="Вторая жёлтая ${e.min}"><span class="card-double-yellow"><span class="card-yellow"></span><span class="card-red"></span></span></span>`;
+                            if (e.type === 'yellow') return `<span class="pev pev-tip" data-tip="Жёлтая ${e.min}"><span class="card-yellow"></span></span>`;
+                            if (e.type === 'red') return `<span class="pev pev-tip" data-tip="Красная ${e.min}"><span class="card-red"></span></span>`;
+                            if (e.type === 'redyellow') return `<span class="pev pev-tip" data-tip="Вторая жёлтая ${e.min}"><span class="card-double-yellow"><span class="card-yellow"></span><span class="card-red"></span></span></span>`;
                             if (e.type === 'out') return `<span class="pev-out" title="Заменён ${e.min}">↓ ${e.min}</span>`;
                             if (e.type === 'in') return `<span class="pev-in" title="Вышел ${e.min}">↑ ${e.min}</span>`;
                             if (e.type === 'assist') return `<span class="pev-assist" title="Голевой пас ${e.min}">(А)</span>`;
@@ -3934,7 +3974,6 @@ window.openClubModal = async function(clubId) {
                 const avgAtt = Number(cs?.avgHomeAttendance) || 0;
                 stadiumHtml = `
                     <div class="club-stadium-box">
-                        <div class="club-stadium-icon">🏟</div>
                         <div>
                             <div class="club-stadium-name">${stadium.name}</div>
                             <div class="club-stadium-capacity">Вместимость: ${stadium.capacity ? stadium.capacity.toLocaleString('ru-RU') : '-'} чел.</div>
@@ -4367,7 +4406,7 @@ window.openPlayerModal = async function(clubId, playerId) {
                 <div class="pm-matches-extra-wrapper" id="player-extra-matches">
                     ${pmMatches.slice(3).map(pmRow).join('')}
                 </div>
-                <button type="button" class="player-modal-toggle" onclick="const w=document.getElementById('player-extra-matches'); w.classList.toggle('expanded'); this.textContent=w.classList.contains('expanded')?'Свернуть ▴':'Все матчи ▾'">Все матчи ▾</button>
+                <button type="button" class="player-modal-toggle" onclick="const w=document.getElementById('player-extra-matches'); w.classList.toggle('expanded'); this.innerHTML=w.classList.contains('expanded')?'<span>Свернуть</span><span class=pmt-arrow-up></span>':'<span>Все матчи</span><span class=pmt-arrow></span>'"><span>Все матчи</span><span class=pmt-arrow></span></button>
               ` : '')
             : '<div class="player-modal-state">Матчей пока нет</div>');
 
@@ -4684,7 +4723,7 @@ window.openPlayerModal = async function(clubId, playerId) {
                 </div>
                 
                 ${items.some(([label]) => !mainStats.includes(label)) ? `
-                <button type="button" class="player-modal-toggle" onclick="const w=document.getElementById('player-extra-stats'); w.classList.toggle('expanded'); this.textContent=w.classList.contains('expanded')?'Свернуть ▴':'Вся статистика ▾'">Вся статистика ▾</button>
+                <button type="button" class="player-modal-toggle" onclick="const w=document.getElementById('player-extra-stats'); w.classList.toggle('expanded'); this.innerHTML=w.classList.contains('expanded')?'<span>Свернуть</span><span class=pmt-arrow-up></span>':'<span>Вся статистика</span><span class=pmt-arrow></span>'"><span>Вся статистика</span><span class=pmt-arrow></span></button>
                 ` : ''}
             </div>
             </div>
@@ -4875,18 +4914,19 @@ function checkScrollToTopVisibility() {
         }
     } else {
         // Если модалки нет — смотрим на скролл страницы
-        if (window.scrollY > 300) shouldShow = true;
+        const playerModalEl = document.getElementById('player-modal');
+        const isPlayerModalOpen = playerModalEl && playerModalEl.classList.contains('active');
+        if (window.scrollY > 300 && !document.body.classList.contains('modal-open') && !isPlayerModalOpen) shouldShow = true;
     }
 
-    if (shouldShow) {
-        btn.classList.add('visible');
-    } else {
-        btn.classList.remove('visible');
+    if (btn.classList.contains('visible') !== shouldShow) {
+        btn.classList.toggle('visible', shouldShow);
     }
 }
 
 // Слушаем скролл страницы
 window.addEventListener('scroll', checkScrollToTopVisibility);
+new MutationObserver(checkScrollToTopVisibility).observe(document.body, { attributes: true, attributeFilter: ['class'], subtree: true });
 // Ловим скролл внутри модалок (включая пересоздаваемые при открытии матча)
 document.addEventListener('scroll', checkScrollToTopVisibility, true);
 

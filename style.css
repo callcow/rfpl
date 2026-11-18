@@ -321,7 +321,7 @@ tbody tr.team-clickable td { cursor: default; }
 tbody tr.team-clickable td:nth-child(2):hover { font-weight: 700; cursor: pointer; }
 .form-dot.team-clickable { cursor: pointer; transition: transform 0.2s ease, filter 0.2s ease; }
 .form-dot.team-clickable:hover { transform: scale(1.2); filter: brightness(0.9); opacity: 1; }
-#form-tooltip { position: absolute; display: none; background: #ffffff; border: 1px solid var(--border); border-radius: 14px; padding: 10px 12px;  font-size: 13px; color: var(--text); pointer-events: none; z-index: 1000; white-space: nowrap; min-width: 150px; }
+#form-tooltip { position: absolute; display: none; background: #111827; border: none; border-radius: 14px; padding: 10px 16px; box-shadow: 0 4px 12px -1px rgba(0, 0, 0, 0.15); font-size: 14px; line-height: 1.5; font-weight: 500; font-family: "Inter", sans-serif; color: #fff; pointer-events: none; z-index: 1000; white-space: nowrap; min-width: 150px; text-align: center; }
 .cal-tour.team-clickable { display: inline-block; transition: color 0.2s ease; }
 .cal-tour.team-clickable:hover { color: #111827; font-weight: 700; opacity: 1; }
 
@@ -1239,7 +1239,28 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 .player-modal-item .club-stat-value { font-size: 14px; font-weight: 700; }
 .player-modal-item .club-stat-label { font-size: 13px; color: var(--text-muted); }
 .player-modal-state { text-align: center; padding: 24px 0; color: var(--text-muted); }
-.player-modal-toggle { width: 100%; margin-top: 8px; padding: 8px; background: none; border: none; font-size: 13px; color: var(--text-muted); cursor: pointer; }
+.player-modal-toggle { display: flex; align-items: center; justify-content: space-between; width: 100%; margin-top: 8px; padding: 8px 0; background: none; border: none; font-family: inherit; font-size: 13px; font-weight: 500; color: var(--text-muted); cursor: pointer; text-align: left; }
+.player-modal-toggle { display: flex !important; justify-content: space-between; }
+.player-modal-toggle .pmt-arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: auto;
+  border-top: 5px solid currentColor;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  transition: transform 0.3s ease;
+}
+.player-modal-toggle .pmt-arrow-up {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: auto;
+  border-top: 5px solid currentColor;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  transform: rotate(180deg);
+}
 .player-modal-toggle:hover { color: #111827; }
 .player-modal-extra-wrapper {
     display: flex;
@@ -1500,21 +1521,21 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 .calendar-row.res-win::before {
   content: "";
   position: absolute;
-  left: 0; top: 0; bottom: 0; width: 4px;
+  left: 0; top: 0; bottom: 0; width: 1px;
   background-color: #22c55e;
   border-radius: 12px 0 0 12px;
 }
 .calendar-row.res-loss::before {
   content: "";
   position: absolute;
-  left: 0; top: 0; bottom: 0; width: 4px;
+  left: 0; top: 0; bottom: 0; width: 1px;
   background-color: #ef4444;
   border-radius: 12px 0 0 12px;
 }
 .calendar-row.res-draw::before {
   content: "";
   position: absolute;
-  left: 0; top: 0; bottom: 0; width: 4px;
+  left: 0; top: 0; bottom: 0; width: 1px;
   background-color: #eab308;
   border-radius: 12px 0 0 12px;
 }
@@ -1761,7 +1782,9 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 
 /* Кнопка "Показать все" для матчей в профиле клуба */
 .btn-show-all-matches {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     padding: 10px 0;
     margin-top: 4px;
@@ -1770,17 +1793,19 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
     color: var(--text-muted);
     font-weight: 500;
     font-size: 13px;
-    text-align: center;
+    text-align: left;
     cursor: pointer;
     transition: color 0.2s ease;
     font-family: inherit;
 }
+.btn-show-all-matches:not([style*="none"]) { display: flex !important; }
 .btn-show-all-matches::before {
     content: "";
     display: inline-block;
+    order: 1;
     width: 0;
     height: 0;
-    margin-right: 8px;
+    margin-left: 8px;
     vertical-align: middle;
     border-top: 5px solid currentColor;
     border-left: 4px solid transparent;
@@ -1979,12 +2004,12 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
     transform: translate(-50%, -50%);
     font-size: 8px;
     font-weight: 900;
-    color: #fff;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     line-height: 1;
-    
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
 }
 
 /* Иконка пенальти */
@@ -2001,12 +2026,12 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
     transform: translate(-50%, -50%);
     font-size: 8px;
     font-weight: 900;
-    color: #fff;
+    color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     line-height: 1;
-    
+    text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff;
 }
 
 /* Иконки карточек */
@@ -2249,13 +2274,17 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 8px 0;
+  padding: 6px 0;
+  margin: 0;
+  border-radius: 0;
   border-bottom: 1px solid var(--border);
   font-size: 14px;
   cursor: pointer;
   min-width: 0;
+  transition: background-color 0.15s ease;
 }
-.sc-row:last-child { border-bottom: none; }
+.sc-row:last-child { border-bottom: 1px solid var(--border); }
+.sc-row:hover { background-color: rgba(15, 23, 42, 0.05); }
 .sc-place {
   width: 18px;
   flex-shrink: 0;
@@ -2288,7 +2317,7 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   text-align: center;
   min-width: 24px;
 }
-.sc-val { flex-shrink: 0; font-weight: 700; min-width: 20px; text-align: right; }
+.sc-val { flex-shrink: 0; font-weight: 700; min-width: 20px; text-align: right; margin-right: 6px; }
 
 .sc-pc-extra {
   display: none !important;
@@ -2333,9 +2362,11 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 
 /* Кнопка "Показать всех" в статистике */
 .sc-show-all {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-  text-align: center;
+  text-align: left;
   padding: 10px 0;
   margin-top: 12px;
   background: none;
@@ -2349,6 +2380,21 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 }
 .sc-show-all:hover {
   color: var(--text);
+}
+.sc-show-all::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 8px;
+  vertical-align: middle;
+  border-top: 5px solid currentColor;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  transition: transform 0.3s ease;
+}
+.sc-show-all:hover::after {
+  transform: rotate(180deg);
 }
 
 /* Заголовки в блоках статистики */
@@ -2499,6 +2545,52 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 .timeline-marker::before {
   display: none !important;
 }
+
+.pev-tip { position: relative; }
+.pev-tip::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: #111827;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  padding: 10px 16px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px -1px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 9999;
+}
+.pev-tip:hover::after { opacity: 1; }
+
+#site-tooltip {
+  position: fixed;
+  transform: translate(-50%, -100%);
+  background: #111827;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  padding: 10px 16px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px -1px rgba(0, 0, 0, 0.15);
+  white-space: pre-line;
+  text-align: center;
+  max-width: 280px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 99999;
+}
+#site-tooltip.is-visible { opacity: 1; }
 
 /* Подсказка всегда поверх модалки и не обрезается по краям */
 #match-modal .modal-content {
@@ -2732,6 +2824,7 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 [data-theme="dark"] .sc-card { background: #1e293b; border-color: #334155; }
 [data-theme="dark"] .sc-title { color: #f1f5f9; }
 [data-theme="dark"] .sc-row { border-bottom-color: #334155; }
+[data-theme="dark"] .sc-row:hover { background-color: rgba(255, 255, 255, 0.05); }
 [data-theme="dark"] .sc-header-row { border-bottom-color: #334155; color: #94a3b8; }
 [data-theme="dark"] .sc-place, [data-theme="dark"] .sc-pos { color: #94a3b8; }
 [data-theme="dark"] .sc-name { color: #f1f5f9; }
