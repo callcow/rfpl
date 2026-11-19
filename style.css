@@ -12,6 +12,15 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+@media (min-width: 851px) {
+  html { zoom: 1.1; }
+  .modal-content,
+  .player-modal-box {
+    max-height: calc((100vh - 40px) / 1.1);
+    overflow-y: auto;
+  }
+}
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--bg);

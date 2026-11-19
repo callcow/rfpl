@@ -26,7 +26,7 @@ window.toggleTheme = function() {
         btn.classList.remove('theme-anim');
         void btn.offsetWidth;
         btn.classList.add('theme-anim');
-        btn.title = next === 'dark' ? 'Светлая тема' : 'Тёмная тема';
+
     }
 };
 
