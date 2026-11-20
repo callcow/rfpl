@@ -969,6 +969,84 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66628,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 47,
+      "extra": null,
+      "player1": {
+        "id": 23295,
+        "name": "Юрий",
+        "lastname": "Горшков",
+        "nickname": "",
+        "keyword": "Gorshkov-Yuriy",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66629,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 48,
+      "extra": null,
+      "player1": {
+        "id": 21491,
+        "name": "Константин",
+        "lastname": "Кучаев",
+        "nickname": "",
+        "keyword": "Kuchaev-Konstantin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66630,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 48,
+      "extra": null,
+      "player1": {
+        "id": 22113,
+        "name": "Денис",
+        "lastname": "Макаров",
+        "nickname": "",
+        "keyword": "Makarov-Denis",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
