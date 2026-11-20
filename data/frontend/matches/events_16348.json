@@ -287,6 +287,28 @@
       "deleted": null
     },
     {
+      "id": 134,
+      "type": "Photo",
+      "action": null,
+      "time": 14,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 134,
+        "title": "",
+        "description": "",
+        "author": "«Ростов»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66601,
       "type": "EventAdded",
       "action": "Foul",
@@ -353,6 +375,58 @@
         "amplua": 3,
         "public_lastname": null,
         "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66604,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 19,
+      "extra": null,
+      "player1": {
+        "id": 23722,
+        "name": "Владислав",
+        "lastname": "Шитов",
+        "nickname": null,
+        "keyword": "Shitov-Vladislav",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66605,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 19,
+      "extra": null,
+      "player1": {
+        "id": 25704,
+        "name": "Даниэль",
+        "lastname": "Фернандес Фернандес",
+        "nickname": "",
+        "keyword": "Fernandes-Fernandes-Daniel",
+        "amplua": 1,
+        "public_lastname": "Фернандес",
+        "public_name": "Дани"
       },
       "player2": null,
       "club": 10,
