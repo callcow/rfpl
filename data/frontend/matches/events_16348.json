@@ -1094,7 +1094,7 @@
     {
       "id": 66634,
       "type": "EventAdded",
-      "action": "ShotOnTarget",
+      "action": "Shot",
       "time": 52,
       "extra": null,
       "player1": {
@@ -1135,6 +1135,32 @@
       },
       "player2": null,
       "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66636,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 53,
+      "extra": null,
+      "player1": {
+        "id": 22666,
+        "name": "Тимур",
+        "lastname": "Сулейманов",
+        "nickname": "",
+        "keyword": "Suleymanov-Timur-Igramutdinovich",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
       "gameStateNumber": null,
       "periodNumber": 2,
       "timeSlot": "SecondHalf",
