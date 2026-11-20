@@ -714,6 +714,75 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66618,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 41,
+      "extra": null,
+      "player1": {
+        "id": 23722,
+        "name": "Владислав",
+        "lastname": "Шитов",
+        "nickname": null,
+        "keyword": "Shitov-Vladislav",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66619,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 42,
+      "extra": null,
+      "player1": {
+        "id": 24062,
+        "name": "Кирилл",
+        "lastname": "Столбов",
+        "nickname": "",
+        "keyword": "Stolbov-Kirill",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66620,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 42,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
