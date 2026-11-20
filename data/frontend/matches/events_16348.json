@@ -1289,6 +1289,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66642,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 58,
+      "extra": null,
+      "player1": {
+        "id": 25051,
+        "name": "Михайло",
+        "lastname": "Баньяц",
+        "nickname": null,
+        "keyword": "Banyac-Mihaylo",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
