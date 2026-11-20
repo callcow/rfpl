@@ -943,6 +943,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66627,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 46,
+      "extra": null,
+      "player1": {
+        "id": 25382,
+        "name": "Умар",
+        "lastname": "Сако",
+        "nickname": "",
+        "keyword": "Sako-Umar",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
