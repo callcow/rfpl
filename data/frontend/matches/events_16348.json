@@ -844,6 +844,66 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66623,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 45,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66624,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 45,
+      "extra": 1,
+      "player1": {
+        "id": 16119,
+        "name": "Никита",
+        "lastname": "Чернов",
+        "nickname": "",
+        "keyword": "Chernov-Nikita",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66625,
+      "type": "GamePeriodEnd",
+      "action": null,
+      "time": 45,
+      "extra": 2,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
