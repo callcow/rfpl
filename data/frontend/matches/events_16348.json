@@ -1728,6 +1728,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66657,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 75,
+      "extra": null,
+      "player1": {
+        "id": 23295,
+        "name": "Юрий",
+        "lastname": "Горшков",
+        "nickname": "",
+        "keyword": "Gorshkov-Yuriy",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 10,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
