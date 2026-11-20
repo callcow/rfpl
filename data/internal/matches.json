@@ -1318,11 +1318,11 @@
       {
         "id": 16348,
         "date": "2026-11-20UTC19:30:00",
-        "status": 0,
+        "status": 1,
         "clubH": 11,
         "clubA": 10,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 1,
+        "goalA": 0,
         "city": "Ростов-на-Дону",
         "stadium": "«Ростов Арена»"
       },
