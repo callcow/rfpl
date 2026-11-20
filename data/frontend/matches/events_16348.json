@@ -2258,6 +2258,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66678,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 90,
+      "extra": 4,
+      "player1": {
+        "id": 24380,
+        "name": "Даниил",
+        "lastname": "Шанталий",
+        "nickname": null,
+        "keyword": "Shantaliy-Daniil",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 11,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66679,
+      "type": "GamePeriodEnd",
+      "action": null,
+      "time": 90,
+      "extra": 5,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
