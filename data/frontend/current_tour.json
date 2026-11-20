@@ -18,15 +18,15 @@
     {
       "id": 16348,
       "date": "2026-11-20UTC19:30:00",
-      "status": 3,
+      "status": 4,
       "clubH": 11,
       "clubA": 10,
       "goalH": 3,
       "goalA": 0,
       "city": "Ростов-на-Дону",
       "stadium": "«Ростов Арена»",
-      "wid": 17077199,
-      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfMWQ2OGMzYWQxMTdhZGRiMWY4NDFhZGJjM2M3MzIyOGUvMTdfNDFmODNlNC8xMDgwcDUwZnBzOGFiNGE5MmU1YWZkNTdjNmFiNTdiMjU4NC8yMTYzZTc4ZjU2NjMxNWMzMDZiOTA0NDkzYjQ4MDkyMC80ODMyNjcxOTY1Lm0zdTg/dHlwZV9pZD0mc3I9MjYmd2lkdGg9NjQwJmhlaWdodD0zNjAmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZzPTE1MWU1MTMxNWQ2MTQ3MzE3MGY0Njg3MTIzYjllMzMx"
+      "wid": null,
+      "stream": null
     },
     {
       "id": 16349,

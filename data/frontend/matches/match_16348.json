@@ -61,19 +61,18 @@
   "goalH": 3,
   "goalA": 0,
   "date": "2026-11-20UTC19:30:00",
-  "status": 3,
-  "dateStartStatus": "2026-11-20UTC20:34:40",
+  "status": 4,
+  "dateStartStatus": "2026-11-20UTC21:24:13",
   "city": "Ростов-на-Дону",
   "stadium": "«Ростов Арена»",
   "stadiumLink": "",
-  "attendance": null,
+  "attendance": 6429,
   "comments": "",
-  "weather": "11.2°C, Облачно, дождь",
+  "weather": "11.4°C, Облачно, дождь",
   "documents": {
-    "protocol": null,
     "report": null,
     "preview": null
   },
-  "protocol": false,
+  "protocol": true,
   "countVideos": null
 }

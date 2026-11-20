@@ -112,45 +112,45 @@
   {
     "clubId": 11,
     "club": "Ростов",
-    "played": 14,
-    "won": 5,
+    "played": 15,
+    "won": 6,
     "drawn": 4,
     "lost": 5,
-    "goalsFor": 18,
+    "goalsFor": 21,
     "goalsAgainst": 19,
-    "points": 19,
-    "maxPoints": 42,
+    "points": 22,
+    "maxPoints": 45,
     "position": 6,
-    "goalDiff": -1,
-    "pointsPercent": 45.2,
+    "goalDiff": 2,
+    "pointsPercent": 48.9,
     "form": [
-      "w",
       "d",
       "w",
       "w",
-      "d"
+      "d",
+      "w"
     ]
   },
   {
     "clubId": 10,
     "club": "Крылья Советов",
-    "played": 14,
+    "played": 15,
     "won": 4,
     "drawn": 6,
-    "lost": 4,
+    "lost": 5,
     "goalsFor": 19,
-    "goalsAgainst": 20,
+    "goalsAgainst": 23,
     "points": 18,
-    "maxPoints": 42,
+    "maxPoints": 45,
     "position": 7,
-    "goalDiff": -1,
-    "pointsPercent": 42.9,
+    "goalDiff": -4,
+    "pointsPercent": 40.0,
     "form": [
-      "d",
       "l",
       "w",
       "l",
-      "w"
+      "w",
+      "l"
     ]
   },
   {
