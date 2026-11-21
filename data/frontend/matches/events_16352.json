@@ -930,6 +930,137 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66896,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 59,
+      "extra": null,
+      "player1": {
+        "id": 26174,
+        "name": "Эдди Антони",
+        "lastname": "Сальседо Мора",
+        "nickname": "",
+        "keyword": "Salcedo-Mora-Eddie-Anthony",
+        "amplua": 3,
+        "public_lastname": "Сальседо",
+        "public_name": "Эдди"
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66897,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 25571,
+        "name": "Богдан",
+        "lastname": "Йочич",
+        "nickname": "",
+        "keyword": "Yochich-Bogdan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25757,
+        "name": "Велдин",
+        "lastname": "Ходжа",
+        "nickname": "",
+        "keyword": "Hodzha-Veldin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66898,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 24081,
+        "name": "Ульви",
+        "lastname": "Бабаев",
+        "nickname": "",
+        "keyword": "Babaev-Ulvi",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 25410,
+        "name": "Дардан",
+        "lastname": "Шабанхаджай",
+        "nickname": "",
+        "keyword": "Shabanhadzhay-Dardan",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66899,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 26174,
+        "name": "Эдди Антони",
+        "lastname": "Сальседо Мора",
+        "nickname": "",
+        "keyword": "Salcedo-Mora-Eddie-Anthony",
+        "amplua": 3,
+        "public_lastname": "Сальседо",
+        "public_name": "Эдди"
+      },
+      "player2": {
+        "id": 25994,
+        "name": "Жак Жюльен",
+        "lastname": "Сиве",
+        "nickname": "",
+        "keyword": "Siwe-Jacques-Jullien",
+        "amplua": 3,
+        "public_lastname": "Сиве",
+        "public_name": "Жак"
+      },
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
