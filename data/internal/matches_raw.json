@@ -2842,7 +2842,7 @@
         "countVideos": null,
         "winlineMatchTour": false,
         "fairplayClub1": 1,
-        "fairplayClub2": 1
+        "fairplayClub2": 2
       },
       {
         "id": 16350,
@@ -2920,8 +2920,8 @@
         "videoReviewLink": "",
         "ticketsLink": "https://www.rubin-kazan.ru/tickets/",
         "winline": {
-          "outcome1": 6.4,
-          "outcome2": 4.2,
+          "outcome1": 6.2,
+          "outcome2": 4.3,
           "outcome3": 1.57,
           "link": "https://winline.ru/plus/17077202",
           "erid": "2W5zFHusPbg"
@@ -2980,9 +2980,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.fcdm.ru/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
         "winline": {
-          "outcome1": 2.14,
-          "outcome2": 3.6,
-          "outcome3": 3.3,
+          "outcome1": 2.19,
+          "outcome2": 3.5,
+          "outcome3": 3.25,
           "link": "https://winline.ru/plus/17077204",
           "erid": "2W5zFGdkLzN"
         },
