@@ -17,6 +17,75 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66681,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 1,
+      "extra": null,
+      "player1": {
+        "id": 26131,
+        "name": "Лорис",
+        "lastname": "Муйоколо",
+        "nickname": "",
+        "keyword": "Muyokolo-Loris",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66682,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 4,
+      "extra": null,
+      "player1": {
+        "id": 25887,
+        "name": "Айман",
+        "lastname": "Мурид",
+        "nickname": "",
+        "keyword": "Aymane-Mourid",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66683,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 5,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
