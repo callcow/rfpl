@@ -1530,6 +1530,75 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66917,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 80,
+      "extra": null,
+      "player1": {
+        "id": 25994,
+        "name": "Жак Жюльен",
+        "lastname": "Сиве",
+        "nickname": "",
+        "keyword": "Siwe-Jacques-Jullien",
+        "amplua": 3,
+        "public_lastname": "Сиве",
+        "public_name": "Жак"
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66918,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 81,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66919,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 82,
+      "extra": null,
+      "player1": {
+        "id": 26081,
+        "name": "Фелипе Аугусто",
+        "lastname": "да Силва",
+        "nickname": "Фелипе Аугусто",
+        "keyword": "Felipe-Augusto",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
