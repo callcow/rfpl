@@ -802,6 +802,28 @@
       "deleted": null
     },
     {
+      "id": 143,
+      "type": "Photo",
+      "action": null,
+      "time": 50,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 143,
+        "title": "",
+        "description": "",
+        "author": "Анна Мейер / «Зенит»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66891,
       "type": "EventAdded",
       "action": "Foul",
