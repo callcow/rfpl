@@ -631,6 +631,75 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66884,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 46,
+      "extra": null,
+      "player1": {
+        "id": 25504,
+        "name": "Педро Энрике",
+        "lastname": "Силва Арантес дос Сантос",
+        "nickname": "Педро",
+        "keyword": "Silva-dos-Santos-Pedro-Enrike",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66885,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 46,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66886,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 48,
+      "extra": null,
+      "player1": {
+        "id": 25504,
+        "name": "Педро Энрике",
+        "lastname": "Силва Арантес дос Сантос",
+        "nickname": "Педро",
+        "keyword": "Silva-dos-Santos-Pedro-Enrike",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
