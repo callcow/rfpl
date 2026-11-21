@@ -1,7 +1,7 @@
 {
   "clubId": 444,
   "season": "Сезон 2026/27",
-  "updatedAt": "2026-11-21T12:00:39.528226+00:00",
+  "updatedAt": "2026-11-21T12:05:00.167696+00:00",
   "matchesPlayed": 15,
   "corners": 81,
   "halves": {
@@ -228,7 +228,7 @@
       "redCards": 0,
       "shots": 4,
       "shotsOnTarget": 0,
-      "fouls": 13,
+      "fouls": 14,
       "corners": 0,
       "offsides": 0
     },
@@ -1246,7 +1246,7 @@
       "redCards": 0,
       "shots": 0,
       "shotsOnTarget": 0,
-      "fouls": 4,
+      "fouls": 3,
       "corners": 0,
       "offsides": 0
     },
