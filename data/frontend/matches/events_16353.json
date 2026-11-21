@@ -1100,6 +1100,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66832,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 61,
+      "extra": null,
+      "player1": {
+        "id": 23025,
+        "name": "Бутта",
+        "lastname": "Магомедов",
+        "nickname": "",
+        "keyword": "Magomedov-Butta",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 264,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
