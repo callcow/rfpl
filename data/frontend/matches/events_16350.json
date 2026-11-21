@@ -865,6 +865,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66970,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 47,
+      "extra": null,
+      "player1": {
+        "id": 21544,
+        "name": "Данил",
+        "lastname": "Круговой",
+        "nickname": "",
+        "keyword": "Krugovoy-Danil",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66971,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 48,
+      "extra": null,
+      "player1": {
+        "id": 25955,
+        "name": "Жоао Виктор",
+        "lastname": "да Силва Марселино",
+        "nickname": "Жоао Виктор",
+        "keyword": "Da-Silva-Marcelino-Joao-Victor",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
