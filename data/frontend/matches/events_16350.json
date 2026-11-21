@@ -397,6 +397,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66952,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 26,
+      "extra": null,
+      "player1": {
+        "id": 26013,
+        "name": "Клисман",
+        "lastname": "Цаке",
+        "nickname": null,
+        "keyword": "Cake-Klisman",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
