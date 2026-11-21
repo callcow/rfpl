@@ -408,6 +408,28 @@
       "deleted": null
     },
     {
+      "id": 137,
+      "type": "Photo",
+      "action": null,
+      "time": 21,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 137,
+        "title": "",
+        "description": "",
+        "author": "«Оренбург»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66698,
       "type": "EventAdded",
       "action": "Offside",
