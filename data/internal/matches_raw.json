@@ -2822,11 +2822,11 @@
         "goalA": 1,
         "date": "2026-11-21UTC13:00:00",
         "matchDateStatus": true,
-        "status": 1,
-        "dateStartStatus": "2026-11-21UTC13:02:46",
+        "status": 2,
+        "dateStartStatus": "2026-11-21UTC13:52:12",
         "city": "Оренбург",
         "stadium": "«Газовик»",
-        "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_3a6c0ee262097c313cf4c85df8efbec9_hd/17_1042599/33ecb2af138585f9ab1596e5a83b45ce/4950254850?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+        "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_3a6c0ee262097c313cf4c85df8efbec9_hd/17_1042599/fdd0712df718e2615f1af86ae71c3c59/4950931848?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.fcorenburg.ru/ru/",
         "winline": {
@@ -2841,7 +2841,7 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": false,
-        "fairplayClub1": 0,
+        "fairplayClub1": 1,
         "fairplayClub2": 0
       },
       {
