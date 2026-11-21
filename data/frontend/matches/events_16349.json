@@ -2443,6 +2443,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66779,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 89,
+      "extra": null,
+      "player1": {
+        "id": 26170,
+        "name": "Илья",
+        "lastname": "Порохов",
+        "nickname": "",
+        "keyword": "Porokhov-Ilya",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
