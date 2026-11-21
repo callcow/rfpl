@@ -2809,7 +2809,7 @@
         "comments": "",
         "tvChannel1": 2,
         "tvChannel2": 0,
-        "countVideos": null,
+        "countVideos": 1,
         "winlineMatchTour": false,
         "fairplayClub1": 1,
         "fairplayClub2": 0
@@ -2830,9 +2830,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.fcorenburg.ru/ru/",
         "winline": {
-          "outcome1": 2.9,
-          "outcome2": 3.2,
-          "outcome3": 2.55,
+          "outcome1": 2.7,
+          "outcome2": 3.15,
+          "outcome3": 2.75,
           "link": "https://winline.ru/plus/17077200",
           "erid": "2W5zFGp7vUr"
         },
@@ -2860,9 +2860,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.pfc-cska.com/",
         "winline": {
-          "outcome1": 1.78,
-          "outcome2": 3.9,
-          "outcome3": 4.4,
+          "outcome1": 1.7,
+          "outcome2": 4.1,
+          "outcome3": 4.5,
           "link": "https://winline.ru/plus/17077203",
           "erid": "2W5zFG86bMU"
         },
@@ -2950,9 +2950,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://matchday.fcakron.ru/",
         "winline": {
-          "outcome1": 2.11,
-          "outcome2": 3.35,
-          "outcome3": 3.6,
+          "outcome1": 2.12,
+          "outcome2": 3.3,
+          "outcome3": 3.65,
           "link": "https://winline.ru/plus/17077201",
           "erid": "2W5zFHRhdF8"
         },
