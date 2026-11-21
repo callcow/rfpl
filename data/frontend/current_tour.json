@@ -83,15 +83,15 @@
     {
       "id": 16353,
       "date": "2026-11-21UTC15:15:00",
-      "status": 3,
+      "status": 4,
       "clubH": 807,
       "clubA": 264,
       "goalH": 0,
       "goalA": 2,
       "city": "Самара",
       "stadium": "«Солидарность Самара Арена»",
-      "wid": 17077201,
-      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfMmU1NGFhMTg2Y2QxNjJkNWE4ZjgyYzM5ZDgzOTI1NDYvMTdfMTA0MjYxMC8xMDgwcDUwZnBzLzM0NDA2YTViOGQ4Njk2MTkyZjk1ZmFiZTUxNzhkYTg0LzQ5NTA5NDMyMDEubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPWNjNzg2ZjlkODQ0OWM2OTkwN2YzY2NiMzZkZDc4YTU4"
+      "wid": null,
+      "stream": null
     },
     {
       "id": 16481,

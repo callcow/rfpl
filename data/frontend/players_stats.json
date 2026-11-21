@@ -174146,7 +174146,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -174411,6 +174411,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -174450,7 +174470,7 @@
   "25222": {
     "id": 25222,
     "total": {
-      "matchesInSquad": 13,
+      "matchesInSquad": 14,
       "matchesPlayed": 13,
       "matchesStarted": 12,
       "matchesSubIn": 1,
@@ -174466,7 +174486,7 @@
       "secondYellowCards": 0,
       "shots": 4,
       "shotsOnTarget": 0,
-      "fouls": 12,
+      "fouls": 13,
       "corners": 0,
       "offsides": 2,
       "gkMatches": 0,
@@ -174475,7 +174495,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 13,
+        "matchesInSquad": 14,
         "matchesPlayed": 13,
         "matchesStarted": 12,
         "matchesSubIn": 1,
@@ -174491,14 +174511,14 @@
         "secondYellowCards": 0,
         "shots": 4,
         "shotsOnTarget": 0,
-        "fouls": 12,
+        "fouls": 13,
         "corners": 0,
         "offsides": 2,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -174763,6 +174783,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 94,
@@ -174850,7 +174890,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -175115,6 +175155,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -175154,7 +175214,7 @@
   "26121": {
     "id": 26121,
     "total": {
-      "matchesInSquad": 12,
+      "matchesInSquad": 13,
       "matchesPlayed": 12,
       "matchesStarted": 6,
       "matchesSubIn": 6,
@@ -175179,7 +175239,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 12,
+        "matchesInSquad": 13,
         "matchesPlayed": 12,
         "matchesStarted": 6,
         "matchesSubIn": 6,
@@ -175202,7 +175262,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -175467,6 +175527,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 70,
@@ -175554,7 +175634,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -175819,6 +175899,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -175858,7 +175958,7 @@
   "25993": {
     "id": 25993,
     "total": {
-      "matchesInSquad": 14,
+      "matchesInSquad": 15,
       "matchesPlayed": 9,
       "matchesStarted": 4,
       "matchesSubIn": 5,
@@ -175883,7 +175983,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 14,
+        "matchesInSquad": 15,
         "matchesPlayed": 9,
         "matchesStarted": 4,
         "matchesSubIn": 5,
@@ -175906,7 +176006,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -176171,6 +176271,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -176258,7 +176378,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -176523,6 +176643,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -176562,11 +176702,11 @@
   "22419": {
     "id": 22419,
     "total": {
-      "matchesInSquad": 13,
-      "matchesPlayed": 13,
-      "matchesStarted": 12,
+      "matchesInSquad": 14,
+      "matchesPlayed": 14,
+      "matchesStarted": 13,
       "matchesSubIn": 1,
-      "minutesPlayed": 1072,
+      "minutesPlayed": 1166,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -176578,7 +176718,7 @@
       "secondYellowCards": 0,
       "shots": 2,
       "shotsOnTarget": 0,
-      "fouls": 20,
+      "fouls": 21,
       "corners": 0,
       "offsides": 0,
       "gkMatches": 0,
@@ -176587,11 +176727,11 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 13,
-        "matchesPlayed": 13,
-        "matchesStarted": 12,
+        "matchesInSquad": 14,
+        "matchesPlayed": 14,
+        "matchesStarted": 13,
         "matchesSubIn": 1,
-        "minutesPlayed": 1072,
+        "minutesPlayed": 1166,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -176603,14 +176743,14 @@
         "secondYellowCards": 0,
         "shots": 2,
         "shotsOnTarget": 0,
-        "fouls": 20,
+        "fouls": 21,
         "corners": 0,
         "offsides": 0,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -176875,6 +177015,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 94,
@@ -176914,11 +177074,11 @@
   "22548": {
     "id": 22548,
     "total": {
-      "matchesInSquad": 13,
-      "matchesPlayed": 13,
-      "matchesStarted": 9,
+      "matchesInSquad": 14,
+      "matchesPlayed": 14,
+      "matchesStarted": 10,
       "matchesSubIn": 4,
-      "minutesPlayed": 848,
+      "minutesPlayed": 942,
       "captainMatches": 0,
       "goals": 1,
       "penaltyGoals": 0,
@@ -176930,7 +177090,7 @@
       "secondYellowCards": 0,
       "shots": 2,
       "shotsOnTarget": 3,
-      "fouls": 12,
+      "fouls": 13,
       "corners": 0,
       "offsides": 0,
       "gkMatches": 0,
@@ -176939,11 +177099,11 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 13,
-        "matchesPlayed": 13,
-        "matchesStarted": 9,
+        "matchesInSquad": 14,
+        "matchesPlayed": 14,
+        "matchesStarted": 10,
         "matchesSubIn": 4,
-        "minutesPlayed": 848,
+        "minutesPlayed": 942,
         "captainMatches": 0,
         "goals": 1,
         "penaltyGoals": 0,
@@ -176955,14 +177115,14 @@
         "secondYellowCards": 0,
         "shots": 2,
         "shotsOnTarget": 3,
-        "fouls": 12,
+        "fouls": 13,
         "corners": 0,
         "offsides": 0,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -177227,6 +177387,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 81,
@@ -177266,7 +177446,7 @@
   "21536": {
     "id": 21536,
     "total": {
-      "matchesInSquad": 13,
+      "matchesInSquad": 14,
       "matchesPlayed": 12,
       "matchesStarted": 3,
       "matchesSubIn": 9,
@@ -177291,7 +177471,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 13,
+        "matchesInSquad": 14,
         "matchesPlayed": 12,
         "matchesStarted": 3,
         "matchesSubIn": 9,
@@ -177314,7 +177494,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -177579,6 +177759,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 13,
@@ -177666,7 +177866,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -177931,6 +178131,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -178018,7 +178238,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -178283,6 +178503,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -178322,7 +178562,7 @@
   "26149": {
     "id": 26149,
     "total": {
-      "matchesInSquad": 8,
+      "matchesInSquad": 9,
       "matchesPlayed": 8,
       "matchesStarted": 4,
       "matchesSubIn": 4,
@@ -178347,7 +178587,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 8,
+        "matchesInSquad": 9,
         "matchesPlayed": 8,
         "matchesStarted": 4,
         "matchesSubIn": 4,
@@ -178370,7 +178610,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -178635,6 +178875,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 24,
@@ -178674,11 +178934,11 @@
   "25638": {
     "id": 25638,
     "total": {
-      "matchesInSquad": 7,
-      "matchesPlayed": 7,
-      "matchesStarted": 4,
+      "matchesInSquad": 8,
+      "matchesPlayed": 8,
+      "matchesStarted": 5,
       "matchesSubIn": 3,
-      "minutesPlayed": 440,
+      "minutesPlayed": 534,
       "captainMatches": 0,
       "goals": 2,
       "penaltyGoals": 0,
@@ -178688,9 +178948,9 @@
       "yellowCards": 1,
       "redCards": 0,
       "secondYellowCards": 0,
-      "shots": 11,
-      "shotsOnTarget": 1,
-      "fouls": 4,
+      "shots": 13,
+      "shotsOnTarget": 2,
+      "fouls": 6,
       "corners": 0,
       "offsides": 0,
       "gkMatches": 0,
@@ -178699,11 +178959,11 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 7,
-        "matchesPlayed": 7,
-        "matchesStarted": 4,
+        "matchesInSquad": 8,
+        "matchesPlayed": 8,
+        "matchesStarted": 5,
         "matchesSubIn": 3,
-        "minutesPlayed": 440,
+        "minutesPlayed": 534,
         "captainMatches": 0,
         "goals": 2,
         "penaltyGoals": 0,
@@ -178713,16 +178973,16 @@
         "yellowCards": 1,
         "redCards": 0,
         "secondYellowCards": 0,
-        "shots": 11,
-        "shotsOnTarget": 1,
-        "fouls": 4,
+        "shots": 13,
+        "shotsOnTarget": 2,
+        "fouls": 6,
         "corners": 0,
         "offsides": 0,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -178987,6 +179247,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 13,
@@ -179074,7 +179354,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -179339,6 +179619,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -179378,12 +179678,12 @@
   "25642": {
     "id": 25642,
     "total": {
-      "matchesInSquad": 13,
-      "matchesPlayed": 13,
-      "matchesStarted": 13,
+      "matchesInSquad": 14,
+      "matchesPlayed": 14,
+      "matchesStarted": 14,
       "matchesSubIn": 0,
-      "minutesPlayed": 1224,
-      "captainMatches": 3,
+      "minutesPlayed": 1318,
+      "captainMatches": 4,
       "goals": 2,
       "penaltyGoals": 0,
       "penaltyMissed": 0,
@@ -179392,9 +179692,9 @@
       "yellowCards": 5,
       "redCards": 0,
       "secondYellowCards": 0,
-      "shots": 12,
+      "shots": 15,
       "shotsOnTarget": 9,
-      "fouls": 21,
+      "fouls": 22,
       "corners": 0,
       "offsides": 2,
       "gkMatches": 0,
@@ -179403,12 +179703,12 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 13,
-        "matchesPlayed": 13,
-        "matchesStarted": 13,
+        "matchesInSquad": 14,
+        "matchesPlayed": 14,
+        "matchesStarted": 14,
         "matchesSubIn": 0,
-        "minutesPlayed": 1224,
-        "captainMatches": 3,
+        "minutesPlayed": 1318,
+        "captainMatches": 4,
         "goals": 2,
         "penaltyGoals": 0,
         "penaltyMissed": 0,
@@ -179417,16 +179717,16 @@
         "yellowCards": 5,
         "redCards": 0,
         "secondYellowCards": 0,
-        "shots": 12,
+        "shots": 15,
         "shotsOnTarget": 9,
-        "fouls": 21,
+        "fouls": 22,
         "corners": 0,
         "offsides": 2,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -179691,6 +179991,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 94,
@@ -179778,7 +180098,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -180043,6 +180363,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -180130,7 +180470,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -180395,6 +180735,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -180434,7 +180794,7 @@
   "24758": {
     "id": 24758,
     "total": {
-      "matchesInSquad": 6,
+      "matchesInSquad": 7,
       "matchesPlayed": 1,
       "matchesStarted": 0,
       "matchesSubIn": 1,
@@ -180459,7 +180819,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 6,
+        "matchesInSquad": 7,
         "matchesPlayed": 1,
         "matchesStarted": 0,
         "matchesSubIn": 1,
@@ -180482,7 +180842,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -180747,6 +181107,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -180786,7 +181166,7 @@
   "26173": {
     "id": 26173,
     "total": {
-      "matchesInSquad": 4,
+      "matchesInSquad": 5,
       "matchesPlayed": 2,
       "matchesStarted": 0,
       "matchesSubIn": 2,
@@ -180811,7 +181191,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 4,
+        "matchesInSquad": 5,
         "matchesPlayed": 2,
         "matchesStarted": 0,
         "matchesSubIn": 2,
@@ -180834,7 +181214,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -181099,6 +181479,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -181138,7 +181538,7 @@
   "25662": {
     "id": 25662,
     "total": {
-      "matchesInSquad": 6,
+      "matchesInSquad": 7,
       "matchesPlayed": 3,
       "matchesStarted": 3,
       "matchesSubIn": 0,
@@ -181163,7 +181563,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 6,
+        "matchesInSquad": 7,
         "matchesPlayed": 3,
         "matchesStarted": 3,
         "matchesSubIn": 0,
@@ -181186,7 +181586,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -181451,6 +181851,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -181490,11 +181910,11 @@
   "22589": {
     "id": 22589,
     "total": {
-      "matchesInSquad": 10,
-      "matchesPlayed": 4,
-      "matchesStarted": 2,
+      "matchesInSquad": 11,
+      "matchesPlayed": 5,
+      "matchesStarted": 3,
       "matchesSubIn": 2,
-      "minutesPlayed": 206,
+      "minutesPlayed": 300,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -181515,11 +181935,11 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 10,
-        "matchesPlayed": 4,
-        "matchesStarted": 2,
+        "matchesInSquad": 11,
+        "matchesPlayed": 5,
+        "matchesStarted": 3,
         "matchesSubIn": 2,
-        "minutesPlayed": 206,
+        "minutesPlayed": 300,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -181538,7 +181958,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -181803,6 +182223,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -181842,7 +182282,7 @@
   "25535": {
     "id": 25535,
     "total": {
-      "matchesInSquad": 13,
+      "matchesInSquad": 14,
       "matchesPlayed": 0,
       "matchesStarted": 0,
       "matchesSubIn": 0,
@@ -181867,7 +182307,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 13,
+        "matchesInSquad": 14,
         "matchesPlayed": 0,
         "matchesStarted": 0,
         "matchesSubIn": 0,
@@ -181890,7 +182330,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -182155,6 +182595,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -182194,11 +182654,11 @@
   "25665": {
     "id": 25665,
     "total": {
-      "matchesInSquad": 6,
-      "matchesPlayed": 4,
-      "matchesStarted": 3,
+      "matchesInSquad": 7,
+      "matchesPlayed": 5,
+      "matchesStarted": 4,
       "matchesSubIn": 1,
-      "minutesPlayed": 191,
+      "minutesPlayed": 285,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -182219,11 +182679,11 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 6,
-        "matchesPlayed": 4,
-        "matchesStarted": 3,
+        "matchesInSquad": 7,
+        "matchesPlayed": 5,
+        "matchesStarted": 4,
         "matchesSubIn": 1,
-        "minutesPlayed": 191,
+        "minutesPlayed": 285,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -182242,7 +182702,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -182507,6 +182967,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -182594,7 +183074,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -182859,6 +183339,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 24,
@@ -182898,11 +183398,11 @@
   "25663": {
     "id": 25663,
     "total": {
-      "matchesInSquad": 14,
-      "matchesPlayed": 13,
-      "matchesStarted": 13,
+      "matchesInSquad": 15,
+      "matchesPlayed": 14,
+      "matchesStarted": 14,
       "matchesSubIn": 0,
-      "minutesPlayed": 1244,
+      "minutesPlayed": 1338,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -182914,7 +183414,7 @@
       "secondYellowCards": 0,
       "shots": 6,
       "shotsOnTarget": 0,
-      "fouls": 14,
+      "fouls": 15,
       "corners": 0,
       "offsides": 0,
       "gkMatches": 0,
@@ -182923,11 +183423,11 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 14,
-        "matchesPlayed": 13,
-        "matchesStarted": 13,
+        "matchesInSquad": 15,
+        "matchesPlayed": 14,
+        "matchesStarted": 14,
         "matchesSubIn": 0,
-        "minutesPlayed": 1244,
+        "minutesPlayed": 1338,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -182939,14 +183439,14 @@
         "secondYellowCards": 0,
         "shots": 6,
         "shotsOnTarget": 0,
-        "fouls": 14,
+        "fouls": 15,
         "corners": 0,
         "offsides": 0,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -183211,6 +183711,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 94,
@@ -183298,7 +183818,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -183563,6 +184083,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -183650,7 +184190,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -183915,6 +184455,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 94,
@@ -183954,11 +184514,11 @@
   "25929": {
     "id": 25929,
     "total": {
-      "matchesInSquad": 14,
-      "matchesPlayed": 4,
-      "matchesStarted": 2,
+      "matchesInSquad": 15,
+      "matchesPlayed": 5,
+      "matchesStarted": 3,
       "matchesSubIn": 2,
-      "minutesPlayed": 194,
+      "minutesPlayed": 288,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -183970,7 +184530,7 @@
       "secondYellowCards": 0,
       "shots": 3,
       "shotsOnTarget": 0,
-      "fouls": 5,
+      "fouls": 6,
       "corners": 0,
       "offsides": 0,
       "gkMatches": 0,
@@ -183979,11 +184539,11 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 14,
-        "matchesPlayed": 4,
-        "matchesStarted": 2,
+        "matchesInSquad": 15,
+        "matchesPlayed": 5,
+        "matchesStarted": 3,
         "matchesSubIn": 2,
-        "minutesPlayed": 194,
+        "minutesPlayed": 288,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -183995,14 +184555,14 @@
         "secondYellowCards": 0,
         "shots": 3,
         "shotsOnTarget": 0,
-        "fouls": 5,
+        "fouls": 6,
         "corners": 0,
         "offsides": 0,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -184267,6 +184827,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -184306,7 +184886,7 @@
   "25676": {
     "id": 25676,
     "total": {
-      "matchesInSquad": 7,
+      "matchesInSquad": 8,
       "matchesPlayed": 6,
       "matchesStarted": 0,
       "matchesSubIn": 6,
@@ -184331,7 +184911,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 7,
+        "matchesInSquad": 8,
         "matchesPlayed": 6,
         "matchesStarted": 0,
         "matchesSubIn": 6,
@@ -184354,7 +184934,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -184619,6 +185199,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 3,
@@ -184706,7 +185306,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -184971,6 +185571,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -185010,11 +185630,11 @@
   "22614": {
     "id": 22614,
     "total": {
-      "matchesInSquad": 11,
-      "matchesPlayed": 11,
-      "matchesStarted": 10,
+      "matchesInSquad": 12,
+      "matchesPlayed": 12,
+      "matchesStarted": 11,
       "matchesSubIn": 1,
-      "minutesPlayed": 667,
+      "minutesPlayed": 761,
       "captainMatches": 0,
       "goals": 1,
       "penaltyGoals": 0,
@@ -185024,7 +185644,7 @@
       "yellowCards": 1,
       "redCards": 0,
       "secondYellowCards": 0,
-      "shots": 10,
+      "shots": 11,
       "shotsOnTarget": 4,
       "fouls": 13,
       "corners": 0,
@@ -185035,11 +185655,11 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 11,
-        "matchesPlayed": 11,
-        "matchesStarted": 10,
+        "matchesInSquad": 12,
+        "matchesPlayed": 12,
+        "matchesStarted": 11,
         "matchesSubIn": 1,
-        "minutesPlayed": 667,
+        "minutesPlayed": 761,
         "captainMatches": 0,
         "goals": 1,
         "penaltyGoals": 0,
@@ -185049,7 +185669,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "secondYellowCards": 0,
-        "shots": 10,
+        "shots": 11,
         "shotsOnTarget": 4,
         "fouls": 13,
         "corners": 0,
@@ -185058,7 +185678,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -185323,6 +185943,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 70,
@@ -185410,7 +186050,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -185669,6 +186309,26 @@
         "awayId": 807,
         "goalH": 2,
         "goalA": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -185762,7 +186422,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -186027,6 +186687,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -186114,7 +186794,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -186379,6 +187059,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 0,
@@ -186418,11 +187118,11 @@
   "16483": {
     "id": 16483,
     "total": {
-      "matchesInSquad": 14,
-      "matchesPlayed": 14,
-      "matchesStarted": 14,
+      "matchesInSquad": 15,
+      "matchesPlayed": 15,
+      "matchesStarted": 15,
       "matchesSubIn": 0,
-      "minutesPlayed": 1339,
+      "minutesPlayed": 1433,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -186437,17 +187137,17 @@
       "fouls": 0,
       "corners": 0,
       "offsides": 0,
-      "gkMatches": 14,
-      "gkConceded": 25,
+      "gkMatches": 15,
+      "gkConceded": 27,
       "cleanSheets": 2
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 14,
-        "matchesPlayed": 14,
-        "matchesStarted": 14,
+        "matchesInSquad": 15,
+        "matchesPlayed": 15,
+        "matchesStarted": 15,
         "matchesSubIn": 0,
-        "minutesPlayed": 1339,
+        "minutesPlayed": 1433,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -186462,11 +187162,11 @@
         "fouls": 0,
         "corners": 0,
         "offsides": 0,
-        "gkMatches": 14,
-        "gkConceded": 25,
+        "gkMatches": 15,
+        "gkConceded": 27,
         "cleanSheets": 2,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -186731,6 +187431,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 94,
@@ -186770,7 +187490,7 @@
   "25707": {
     "id": 25707,
     "total": {
-      "matchesInSquad": 10,
+      "matchesInSquad": 11,
       "matchesPlayed": 10,
       "matchesStarted": 9,
       "matchesSubIn": 1,
@@ -186784,7 +187504,7 @@
       "yellowCards": 2,
       "redCards": 0,
       "secondYellowCards": 0,
-      "shots": 16,
+      "shots": 19,
       "shotsOnTarget": 6,
       "fouls": 17,
       "corners": 0,
@@ -186795,7 +187515,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 10,
+        "matchesInSquad": 11,
         "matchesPlayed": 10,
         "matchesStarted": 9,
         "matchesSubIn": 1,
@@ -186809,7 +187529,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "secondYellowCards": 0,
-        "shots": 16,
+        "shots": 19,
         "shotsOnTarget": 6,
         "fouls": 17,
         "corners": 0,
@@ -186818,7 +187538,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -187083,6 +187803,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 91,
@@ -187122,11 +187862,11 @@
   "26102": {
     "id": 26102,
     "total": {
-      "matchesInSquad": 12,
-      "matchesPlayed": 11,
-      "matchesStarted": 10,
+      "matchesInSquad": 13,
+      "matchesPlayed": 12,
+      "matchesStarted": 11,
       "matchesSubIn": 1,
-      "minutesPlayed": 913,
+      "minutesPlayed": 1007,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -187137,7 +187877,7 @@
       "redCards": 0,
       "secondYellowCards": 0,
       "shots": 4,
-      "shotsOnTarget": 6,
+      "shotsOnTarget": 7,
       "fouls": 12,
       "corners": 0,
       "offsides": 5,
@@ -187147,11 +187887,11 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 12,
-        "matchesPlayed": 11,
-        "matchesStarted": 10,
+        "matchesInSquad": 13,
+        "matchesPlayed": 12,
+        "matchesStarted": 11,
         "matchesSubIn": 1,
-        "minutesPlayed": 913,
+        "minutesPlayed": 1007,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -187162,7 +187902,7 @@
         "redCards": 0,
         "secondYellowCards": 0,
         "shots": 4,
-        "shotsOnTarget": 6,
+        "shotsOnTarget": 7,
         "fouls": 12,
         "corners": 0,
         "offsides": 5,
@@ -187170,7 +187910,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -187435,6 +188175,26 @@
         "redCards": 0
       },
       {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
         "matchId": 16384,
         "clubId": 807,
         "minutes": 81,
@@ -187474,7 +188234,7 @@
   "26110": {
     "id": 26110,
     "total": {
-      "matchesInSquad": 12,
+      "matchesInSquad": 13,
       "matchesPlayed": 0,
       "matchesStarted": 0,
       "matchesSubIn": 0,
@@ -187499,7 +188259,7 @@
     },
     "clubs": {
       "807": {
-        "matchesInSquad": 12,
+        "matchesInSquad": 13,
         "matchesPlayed": 0,
         "matchesStarted": 0,
         "matchesSubIn": 0,
@@ -187522,7 +188282,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-08"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -187781,6 +188541,26 @@
         "awayId": 807,
         "goalH": 2,
         "goalA": 1,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 807,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
         "goals": 0,
         "assists": 0,
         "yellowCards": 0,
@@ -198566,7 +199346,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -198849,6 +199629,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -198870,7 +199670,7 @@
   "16778": {
     "id": 16778,
     "total": {
-      "matchesInSquad": 13,
+      "matchesInSquad": 14,
       "matchesPlayed": 4,
       "matchesStarted": 4,
       "matchesSubIn": 0,
@@ -198895,7 +199695,7 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 13,
+        "matchesInSquad": 14,
         "matchesPlayed": 4,
         "matchesStarted": 4,
         "matchesSubIn": 0,
@@ -198918,7 +199718,7 @@
         "gkConceded": 5,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -199201,6 +200001,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -199222,7 +200042,7 @@
   "16524": {
     "id": 16524,
     "total": {
-      "matchesInSquad": 11,
+      "matchesInSquad": 12,
       "matchesPlayed": 9,
       "matchesStarted": 8,
       "matchesSubIn": 1,
@@ -199247,7 +200067,7 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 11,
+        "matchesInSquad": 12,
         "matchesPlayed": 9,
         "matchesStarted": 8,
         "matchesSubIn": 1,
@@ -199270,7 +200090,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -199553,6 +200373,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -199574,11 +200414,11 @@
   "26129": {
     "id": 26129,
     "total": {
-      "matchesInSquad": 12,
-      "matchesPlayed": 4,
-      "matchesStarted": 1,
+      "matchesInSquad": 13,
+      "matchesPlayed": 5,
+      "matchesStarted": 2,
       "matchesSubIn": 3,
-      "minutesPlayed": 161,
+      "minutesPlayed": 255,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -199590,7 +200430,7 @@
       "secondYellowCards": 0,
       "shots": 0,
       "shotsOnTarget": 1,
-      "fouls": 4,
+      "fouls": 6,
       "corners": 0,
       "offsides": 0,
       "gkMatches": 0,
@@ -199599,11 +200439,11 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 12,
-        "matchesPlayed": 4,
-        "matchesStarted": 1,
+        "matchesInSquad": 13,
+        "matchesPlayed": 5,
+        "matchesStarted": 2,
         "matchesSubIn": 3,
-        "minutesPlayed": 161,
+        "minutesPlayed": 255,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -199615,14 +200455,14 @@
         "secondYellowCards": 0,
         "shots": 0,
         "shotsOnTarget": 1,
-        "fouls": 4,
+        "fouls": 6,
         "corners": 0,
         "offsides": 0,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -199905,6 +200745,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -199974,7 +200834,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -200257,6 +201117,26 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 1
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -200278,11 +201158,11 @@
   "26144": {
     "id": 26144,
     "total": {
-      "matchesInSquad": 8,
-      "matchesPlayed": 8,
-      "matchesStarted": 8,
+      "matchesInSquad": 9,
+      "matchesPlayed": 9,
+      "matchesStarted": 9,
       "matchesSubIn": 0,
-      "minutesPlayed": 765,
+      "minutesPlayed": 859,
       "captainMatches": 0,
       "goals": 1,
       "penaltyGoals": 0,
@@ -200294,7 +201174,7 @@
       "secondYellowCards": 0,
       "shots": 3,
       "shotsOnTarget": 1,
-      "fouls": 7,
+      "fouls": 8,
       "corners": 0,
       "offsides": 1,
       "gkMatches": 0,
@@ -200303,11 +201183,11 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 8,
-        "matchesPlayed": 8,
-        "matchesStarted": 8,
+        "matchesInSquad": 9,
+        "matchesPlayed": 9,
+        "matchesStarted": 9,
         "matchesSubIn": 0,
-        "minutesPlayed": 765,
+        "minutesPlayed": 859,
         "captainMatches": 0,
         "goals": 1,
         "penaltyGoals": 0,
@@ -200319,14 +201199,14 @@
         "secondYellowCards": 0,
         "shots": 3,
         "shotsOnTarget": 1,
-        "fouls": 7,
+        "fouls": 8,
         "corners": 0,
         "offsides": 1,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -200609,6 +201489,26 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -200630,7 +201530,7 @@
   "24740": {
     "id": 24740,
     "total": {
-      "matchesInSquad": 14,
+      "matchesInSquad": 15,
       "matchesPlayed": 12,
       "matchesStarted": 5,
       "matchesSubIn": 7,
@@ -200646,7 +201546,7 @@
       "secondYellowCards": 0,
       "shots": 3,
       "shotsOnTarget": 1,
-      "fouls": 12,
+      "fouls": 13,
       "corners": 0,
       "offsides": 1,
       "gkMatches": 0,
@@ -200655,7 +201555,7 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 14,
+        "matchesInSquad": 15,
         "matchesPlayed": 12,
         "matchesStarted": 5,
         "matchesSubIn": 7,
@@ -200671,14 +201571,14 @@
         "secondYellowCards": 0,
         "shots": 3,
         "shotsOnTarget": 1,
-        "fouls": 12,
+        "fouls": 13,
         "corners": 0,
         "offsides": 1,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -200961,6 +201861,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -200982,55 +201902,55 @@
   "25776": {
     "id": 25776,
     "total": {
-      "matchesInSquad": 14,
-      "matchesPlayed": 13,
-      "matchesStarted": 5,
+      "matchesInSquad": 15,
+      "matchesPlayed": 14,
+      "matchesStarted": 6,
       "matchesSubIn": 8,
-      "minutesPlayed": 624,
+      "minutesPlayed": 718,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
       "penaltyMissed": 0,
       "ownGoals": 0,
-      "assists": 0,
+      "assists": 1,
       "yellowCards": 1,
       "redCards": 0,
       "secondYellowCards": 0,
       "shots": 4,
       "shotsOnTarget": 0,
-      "fouls": 12,
+      "fouls": 13,
       "corners": 0,
-      "offsides": 4,
+      "offsides": 5,
       "gkMatches": 0,
       "gkConceded": 0,
       "cleanSheets": 0
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 14,
-        "matchesPlayed": 13,
-        "matchesStarted": 5,
+        "matchesInSquad": 15,
+        "matchesPlayed": 14,
+        "matchesStarted": 6,
         "matchesSubIn": 8,
-        "minutesPlayed": 624,
+        "minutesPlayed": 718,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
         "penaltyMissed": 0,
         "ownGoals": 0,
-        "assists": 0,
+        "assists": 1,
         "yellowCards": 1,
         "redCards": 0,
         "secondYellowCards": 0,
         "shots": 4,
         "shotsOnTarget": 0,
-        "fouls": 12,
+        "fouls": 13,
         "corners": 0,
-        "offsides": 4,
+        "offsides": 5,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -201313,6 +202233,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -201334,11 +202274,11 @@
   "25780": {
     "id": 25780,
     "total": {
-      "matchesInSquad": 13,
-      "matchesPlayed": 13,
-      "matchesStarted": 13,
+      "matchesInSquad": 14,
+      "matchesPlayed": 14,
+      "matchesStarted": 14,
       "matchesSubIn": 0,
-      "minutesPlayed": 1231,
+      "minutesPlayed": 1325,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -201350,7 +202290,7 @@
       "secondYellowCards": 0,
       "shots": 5,
       "shotsOnTarget": 0,
-      "fouls": 19,
+      "fouls": 20,
       "corners": 0,
       "offsides": 0,
       "gkMatches": 0,
@@ -201359,11 +202299,11 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 13,
-        "matchesPlayed": 13,
-        "matchesStarted": 13,
+        "matchesInSquad": 14,
+        "matchesPlayed": 14,
+        "matchesStarted": 14,
         "matchesSubIn": 0,
-        "minutesPlayed": 1231,
+        "minutesPlayed": 1325,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -201375,14 +202315,14 @@
         "secondYellowCards": 0,
         "shots": 5,
         "shotsOnTarget": 0,
-        "fouls": 19,
+        "fouls": 20,
         "corners": 0,
         "offsides": 0,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -201665,6 +202605,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -201686,23 +202646,23 @@
   "25144": {
     "id": 25144,
     "total": {
-      "matchesInSquad": 13,
-      "matchesPlayed": 11,
-      "matchesStarted": 11,
+      "matchesInSquad": 14,
+      "matchesPlayed": 12,
+      "matchesStarted": 12,
       "matchesSubIn": 0,
-      "minutesPlayed": 1056,
+      "minutesPlayed": 1150,
       "captainMatches": 0,
       "goals": 1,
       "penaltyGoals": 0,
       "penaltyMissed": 0,
       "ownGoals": 0,
-      "assists": 0,
+      "assists": 1,
       "yellowCards": 2,
       "redCards": 1,
       "secondYellowCards": 1,
       "shots": 2,
-      "shotsOnTarget": 2,
-      "fouls": 10,
+      "shotsOnTarget": 3,
+      "fouls": 11,
       "corners": 0,
       "offsides": 1,
       "gkMatches": 0,
@@ -201711,30 +202671,30 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 13,
-        "matchesPlayed": 11,
-        "matchesStarted": 11,
+        "matchesInSquad": 14,
+        "matchesPlayed": 12,
+        "matchesStarted": 12,
         "matchesSubIn": 0,
-        "minutesPlayed": 1056,
+        "minutesPlayed": 1150,
         "captainMatches": 0,
         "goals": 1,
         "penaltyGoals": 0,
         "penaltyMissed": 0,
         "ownGoals": 0,
-        "assists": 0,
+        "assists": 1,
         "yellowCards": 2,
         "redCards": 1,
         "secondYellowCards": 1,
         "shots": 2,
-        "shotsOnTarget": 2,
-        "fouls": 10,
+        "shotsOnTarget": 3,
+        "fouls": 11,
         "corners": 0,
         "offsides": 1,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -202017,6 +202977,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 1,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -202086,7 +203066,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -202364,6 +203344,26 @@
         "homeId": 264,
         "awayId": 7,
         "goalH": 1,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
         "goalA": 2,
         "goals": 0,
         "assists": 0,
@@ -202438,7 +203438,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -202716,6 +203716,26 @@
         "homeId": 264,
         "awayId": 7,
         "goalH": 1,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
         "goalA": 2,
         "goals": 0,
         "assists": 0,
@@ -202790,7 +203810,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -203073,6 +204093,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -203142,7 +204182,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -203420,6 +204460,26 @@
         "homeId": 264,
         "awayId": 7,
         "goalH": 1,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
         "goalA": 2,
         "goals": 0,
         "assists": 0,
@@ -203494,7 +204554,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -203777,6 +204837,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -203798,7 +204878,7 @@
   "16586": {
     "id": 16586,
     "total": {
-      "matchesInSquad": 12,
+      "matchesInSquad": 13,
       "matchesPlayed": 8,
       "matchesStarted": 6,
       "matchesSubIn": 2,
@@ -203823,7 +204903,7 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 12,
+        "matchesInSquad": 13,
         "matchesPlayed": 8,
         "matchesStarted": 6,
         "matchesSubIn": 2,
@@ -203846,7 +204926,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -204129,6 +205209,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -204150,7 +205250,7 @@
   "17100": {
     "id": 17100,
     "total": {
-      "matchesInSquad": 14,
+      "matchesInSquad": 15,
       "matchesPlayed": 6,
       "matchesStarted": 5,
       "matchesSubIn": 1,
@@ -204175,7 +205275,7 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 14,
+        "matchesInSquad": 15,
         "matchesPlayed": 6,
         "matchesStarted": 5,
         "matchesSubIn": 1,
@@ -204198,7 +205298,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -204481,6 +205581,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -204550,7 +205670,7 @@
         "gkConceded": 5,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -204833,6 +205953,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -204902,7 +206042,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -205185,6 +206325,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -205206,11 +206366,11 @@
   "17750": {
     "id": 17750,
     "total": {
-      "matchesInSquad": 14,
-      "matchesPlayed": 14,
-      "matchesStarted": 13,
+      "matchesInSquad": 15,
+      "matchesPlayed": 15,
+      "matchesStarted": 14,
       "matchesSubIn": 1,
-      "minutesPlayed": 1100,
+      "minutesPlayed": 1194,
       "captainMatches": 1,
       "goals": 2,
       "penaltyGoals": 0,
@@ -205220,9 +206380,9 @@
       "yellowCards": 2,
       "redCards": 0,
       "secondYellowCards": 0,
-      "shots": 7,
-      "shotsOnTarget": 4,
-      "fouls": 31,
+      "shots": 8,
+      "shotsOnTarget": 5,
+      "fouls": 32,
       "corners": 0,
       "offsides": 2,
       "gkMatches": 0,
@@ -205231,11 +206391,11 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 14,
-        "matchesPlayed": 14,
-        "matchesStarted": 13,
+        "matchesInSquad": 15,
+        "matchesPlayed": 15,
+        "matchesStarted": 14,
         "matchesSubIn": 1,
-        "minutesPlayed": 1100,
+        "minutesPlayed": 1194,
         "captainMatches": 1,
         "goals": 2,
         "penaltyGoals": 0,
@@ -205245,16 +206405,16 @@
         "yellowCards": 2,
         "redCards": 0,
         "secondYellowCards": 0,
-        "shots": 7,
-        "shotsOnTarget": 4,
-        "fouls": 31,
+        "shots": 8,
+        "shotsOnTarget": 5,
+        "fouls": 32,
         "corners": 0,
         "offsides": 2,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -205537,6 +206697,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -205558,7 +206738,7 @@
   "26079": {
     "id": 26079,
     "total": {
-      "matchesInSquad": 14,
+      "matchesInSquad": 15,
       "matchesPlayed": 13,
       "matchesStarted": 6,
       "matchesSubIn": 7,
@@ -205583,7 +206763,7 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 14,
+        "matchesInSquad": 15,
         "matchesPlayed": 13,
         "matchesStarted": 6,
         "matchesSubIn": 7,
@@ -205606,7 +206786,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -205889,6 +207069,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -205910,11 +207110,11 @@
   "24672": {
     "id": 24672,
     "total": {
-      "matchesInSquad": 10,
-      "matchesPlayed": 8,
-      "matchesStarted": 6,
+      "matchesInSquad": 11,
+      "matchesPlayed": 9,
+      "matchesStarted": 7,
       "matchesSubIn": 2,
-      "minutesPlayed": 483,
+      "minutesPlayed": 577,
       "captainMatches": 0,
       "goals": 1,
       "penaltyGoals": 0,
@@ -205926,20 +207126,20 @@
       "secondYellowCards": 0,
       "shots": 8,
       "shotsOnTarget": 1,
-      "fouls": 13,
+      "fouls": 14,
       "corners": 0,
-      "offsides": 4,
+      "offsides": 5,
       "gkMatches": 0,
       "gkConceded": 0,
       "cleanSheets": 0
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 8,
-        "matchesPlayed": 8,
-        "matchesStarted": 6,
+        "matchesInSquad": 9,
+        "matchesPlayed": 9,
+        "matchesStarted": 7,
         "matchesSubIn": 2,
-        "minutesPlayed": 483,
+        "minutesPlayed": 577,
         "captainMatches": 0,
         "goals": 1,
         "penaltyGoals": 0,
@@ -205951,14 +207151,14 @@
         "secondYellowCards": 0,
         "shots": 8,
         "shotsOnTarget": 1,
-        "fouls": 13,
+        "fouls": 14,
         "corners": 0,
-        "offsides": 4,
+        "offsides": 5,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       },
       "584": {
         "matchesInSquad": 2,
@@ -206287,6 +207487,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -206308,7 +207528,7 @@
   "21990": {
     "id": 21990,
     "total": {
-      "matchesInSquad": 3,
+      "matchesInSquad": 4,
       "matchesPlayed": 0,
       "matchesStarted": 0,
       "matchesSubIn": 0,
@@ -206333,7 +207553,7 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 3,
+        "matchesInSquad": 4,
         "matchesPlayed": 0,
         "matchesStarted": 0,
         "matchesSubIn": 0,
@@ -206356,7 +207576,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -206639,6 +207859,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -206660,7 +207900,7 @@
   "23021": {
     "id": 23021,
     "total": {
-      "matchesInSquad": 12,
+      "matchesInSquad": 13,
       "matchesPlayed": 11,
       "matchesStarted": 5,
       "matchesSubIn": 6,
@@ -206685,7 +207925,7 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 12,
+        "matchesInSquad": 13,
         "matchesPlayed": 11,
         "matchesStarted": 5,
         "matchesSubIn": 6,
@@ -206708,7 +207948,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -206991,6 +208231,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -207012,12 +208272,12 @@
   "16238": {
     "id": 16238,
     "total": {
-      "matchesInSquad": 14,
-      "matchesPlayed": 13,
-      "matchesStarted": 9,
+      "matchesInSquad": 15,
+      "matchesPlayed": 14,
+      "matchesStarted": 10,
       "matchesSubIn": 4,
-      "minutesPlayed": 958,
-      "captainMatches": 3,
+      "minutesPlayed": 1052,
+      "captainMatches": 4,
       "goals": 1,
       "penaltyGoals": 0,
       "penaltyMissed": 0,
@@ -207026,9 +208286,9 @@
       "yellowCards": 0,
       "redCards": 0,
       "secondYellowCards": 0,
-      "shots": 15,
+      "shots": 16,
       "shotsOnTarget": 3,
-      "fouls": 6,
+      "fouls": 7,
       "corners": 0,
       "offsides": 0,
       "gkMatches": 0,
@@ -207037,12 +208297,12 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 14,
-        "matchesPlayed": 13,
-        "matchesStarted": 9,
+        "matchesInSquad": 15,
+        "matchesPlayed": 14,
+        "matchesStarted": 10,
         "matchesSubIn": 4,
-        "minutesPlayed": 958,
-        "captainMatches": 3,
+        "minutesPlayed": 1052,
+        "captainMatches": 4,
         "goals": 1,
         "penaltyGoals": 0,
         "penaltyMissed": 0,
@@ -207051,16 +208311,16 @@
         "yellowCards": 0,
         "redCards": 0,
         "secondYellowCards": 0,
-        "shots": 15,
+        "shots": 16,
         "shotsOnTarget": 3,
-        "fouls": 6,
+        "fouls": 7,
         "corners": 0,
         "offsides": 0,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -207343,6 +208603,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -207412,7 +208692,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -207695,6 +208975,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -207716,11 +209016,11 @@
   "25838": {
     "id": 25838,
     "total": {
-      "matchesInSquad": 14,
-      "matchesPlayed": 12,
-      "matchesStarted": 5,
+      "matchesInSquad": 15,
+      "matchesPlayed": 13,
+      "matchesStarted": 6,
       "matchesSubIn": 7,
-      "minutesPlayed": 573,
+      "minutesPlayed": 667,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -207730,22 +209030,22 @@
       "yellowCards": 2,
       "redCards": 0,
       "secondYellowCards": 0,
-      "shots": 8,
-      "shotsOnTarget": 1,
+      "shots": 9,
+      "shotsOnTarget": 2,
       "fouls": 10,
       "corners": 0,
-      "offsides": 2,
+      "offsides": 3,
       "gkMatches": 0,
       "gkConceded": 0,
       "cleanSheets": 0
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 14,
-        "matchesPlayed": 12,
-        "matchesStarted": 5,
+        "matchesInSquad": 15,
+        "matchesPlayed": 13,
+        "matchesStarted": 6,
         "matchesSubIn": 7,
-        "minutesPlayed": 573,
+        "minutesPlayed": 667,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -207755,16 +209055,16 @@
         "yellowCards": 2,
         "redCards": 0,
         "secondYellowCards": 0,
-        "shots": 8,
-        "shotsOnTarget": 1,
+        "shots": 9,
+        "shotsOnTarget": 2,
         "fouls": 10,
         "corners": 0,
-        "offsides": 2,
+        "offsides": 3,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -208047,6 +209347,26 @@
         "assists": 0,
         "yellowCards": 1,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -208068,11 +209388,11 @@
   "23025": {
     "id": 23025,
     "total": {
-      "matchesInSquad": 14,
-      "matchesPlayed": 13,
-      "matchesStarted": 9,
+      "matchesInSquad": 15,
+      "matchesPlayed": 14,
+      "matchesStarted": 10,
       "matchesSubIn": 4,
-      "minutesPlayed": 905,
+      "minutesPlayed": 999,
       "captainMatches": 0,
       "goals": 1,
       "penaltyGoals": 0,
@@ -208084,7 +209404,7 @@
       "secondYellowCards": 0,
       "shots": 7,
       "shotsOnTarget": 0,
-      "fouls": 13,
+      "fouls": 14,
       "corners": 0,
       "offsides": 1,
       "gkMatches": 0,
@@ -208093,11 +209413,11 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 14,
-        "matchesPlayed": 13,
-        "matchesStarted": 9,
+        "matchesInSquad": 15,
+        "matchesPlayed": 14,
+        "matchesStarted": 10,
         "matchesSubIn": 4,
-        "minutesPlayed": 905,
+        "minutesPlayed": 999,
         "captainMatches": 0,
         "goals": 1,
         "penaltyGoals": 0,
@@ -208109,14 +209429,14 @@
         "secondYellowCards": 0,
         "shots": 7,
         "shotsOnTarget": 0,
-        "fouls": 13,
+        "fouls": 14,
         "corners": 0,
         "offsides": 1,
         "gkMatches": 0,
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -208399,6 +209719,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -208468,7 +209808,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -208746,6 +210086,26 @@
         "homeId": 264,
         "awayId": 7,
         "goalH": 1,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
         "goalA": 2,
         "goals": 0,
         "assists": 0,
@@ -208820,7 +210180,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -209098,6 +210458,26 @@
         "homeId": 264,
         "awayId": 7,
         "goalH": 1,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
         "goalA": 2,
         "goals": 0,
         "assists": 0,
@@ -209172,7 +210552,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -209455,6 +210835,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": false,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -209476,11 +210876,11 @@
   "22513": {
     "id": 22513,
     "total": {
-      "matchesInSquad": 14,
-      "matchesPlayed": 9,
-      "matchesStarted": 9,
+      "matchesInSquad": 15,
+      "matchesPlayed": 10,
+      "matchesStarted": 10,
       "matchesSubIn": 0,
-      "minutesPlayed": 865,
+      "minutesPlayed": 959,
       "captainMatches": 0,
       "goals": 0,
       "penaltyGoals": 0,
@@ -209495,17 +210895,17 @@
       "fouls": 0,
       "corners": 0,
       "offsides": 0,
-      "gkMatches": 9,
+      "gkMatches": 10,
       "gkConceded": 13,
-      "cleanSheets": 2
+      "cleanSheets": 3
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 14,
-        "matchesPlayed": 9,
-        "matchesStarted": 9,
+        "matchesInSquad": 15,
+        "matchesPlayed": 10,
+        "matchesStarted": 10,
         "matchesSubIn": 0,
-        "minutesPlayed": 865,
+        "minutesPlayed": 959,
         "captainMatches": 0,
         "goals": 0,
         "penaltyGoals": 0,
@@ -209520,11 +210920,11 @@
         "fouls": 0,
         "corners": 0,
         "offsides": 0,
-        "gkMatches": 9,
+        "gkMatches": 10,
         "gkConceded": 13,
-        "cleanSheets": 2,
+        "cleanSheets": 3,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -209807,6 +211207,26 @@
         "assists": 0,
         "yellowCards": 0,
         "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 94,
+        "started": true,
+        "played": true,
+        "in_squad": true,
+        "from": 1,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
       }
     ],
     "identity": {
@@ -210020,7 +211440,7 @@
   "22653": {
     "id": 22653,
     "total": {
-      "matchesInSquad": 12,
+      "matchesInSquad": 13,
       "matchesPlayed": 11,
       "matchesStarted": 4,
       "matchesSubIn": 7,
@@ -210034,8 +211454,8 @@
       "yellowCards": 0,
       "redCards": 0,
       "secondYellowCards": 0,
-      "shots": 9,
-      "shotsOnTarget": 3,
+      "shots": 10,
+      "shotsOnTarget": 4,
       "fouls": 10,
       "corners": 0,
       "offsides": 1,
@@ -210045,7 +211465,7 @@
     },
     "clubs": {
       "264": {
-        "matchesInSquad": 12,
+        "matchesInSquad": 13,
         "matchesPlayed": 11,
         "matchesStarted": 4,
         "matchesSubIn": 7,
@@ -210059,8 +211479,8 @@
         "yellowCards": 0,
         "redCards": 0,
         "secondYellowCards": 0,
-        "shots": 9,
-        "shotsOnTarget": 3,
+        "shots": 10,
+        "shotsOnTarget": 4,
         "fouls": 10,
         "corners": 0,
         "offsides": 1,
@@ -210068,7 +211488,7 @@
         "gkConceded": 0,
         "cleanSheets": 0,
         "from": "2026-07-25",
-        "to": "2026-11-07"
+        "to": "2026-11-21"
       }
     },
     "matches": [
@@ -210346,6 +211766,26 @@
         "homeId": 264,
         "awayId": 7,
         "goalH": 1,
+        "goalA": 2,
+        "goals": 0,
+        "assists": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      },
+      {
+        "matchId": 16353,
+        "clubId": 264,
+        "minutes": 0,
+        "started": false,
+        "played": false,
+        "in_squad": true,
+        "from": null,
+        "to": 94,
+        "date": "2026-11-21UTC15:15:00",
+        "tour": "Тур 15",
+        "homeId": 807,
+        "awayId": 264,
+        "goalH": 0,
         "goalA": 2,
         "goals": 0,
         "assists": 0,

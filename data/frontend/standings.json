@@ -266,21 +266,21 @@
   {
     "clubId": 807,
     "club": "Акрон",
-    "played": 14,
+    "played": 15,
     "won": 2,
     "drawn": 6,
-    "lost": 6,
+    "lost": 7,
     "goalsFor": 17,
-    "goalsAgainst": 25,
+    "goalsAgainst": 27,
     "points": 12,
-    "maxPoints": 42,
+    "maxPoints": 45,
     "position": 13,
-    "goalDiff": -8,
-    "pointsPercent": 28.6,
+    "goalDiff": -10,
+    "pointsPercent": 26.7,
     "form": [
-      "l",
       "d",
       "w",
+      "l",
       "l",
       "l"
     ]
@@ -332,23 +332,23 @@
   {
     "clubId": 264,
     "club": "Факел",
-    "played": 14,
-    "won": 1,
+    "played": 15,
+    "won": 2,
     "drawn": 3,
     "lost": 10,
-    "goalsFor": 9,
+    "goalsFor": 11,
     "goalsAgainst": 23,
-    "points": 6,
-    "maxPoints": 42,
+    "points": 9,
+    "maxPoints": 45,
     "position": 16,
-    "goalDiff": -14,
-    "pointsPercent": 14.3,
+    "goalDiff": -12,
+    "pointsPercent": 20.0,
     "form": [
-      "l",
       "w",
       "l",
       "l",
-      "l"
+      "l",
+      "w"
     ]
   }
 ]
