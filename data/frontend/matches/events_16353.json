@@ -1354,12 +1354,21 @@
       "deleted": null
     },
     {
-      "id": 66841,
+      "id": 66842,
       "type": "EventAdded",
       "action": "Foul",
-      "time": 72,
+      "time": 73,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 25776,
+        "name": "Антон",
+        "lastname": "Ковалёв",
+        "nickname": "",
+        "keyword": "Kovalev-Anton",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
       "player2": null,
       "club": 264,
       "gameStateNumber": null,
