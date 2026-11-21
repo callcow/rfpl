@@ -1741,6 +1741,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66750,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 68,
+      "extra": null,
+      "player1": {
+        "id": 24057,
+        "name": "Артём",
+        "lastname": "Касимов",
+        "nickname": "",
+        "keyword": "Kasimov-Artem-Timurovich",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
