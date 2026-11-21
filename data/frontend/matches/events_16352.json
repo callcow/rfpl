@@ -1269,6 +1269,102 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66908,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 69,
+      "extra": null,
+      "player1": {
+        "id": 25906,
+        "name": "Роман Габриэль",
+        "lastname": "Вега",
+        "nickname": null,
+        "keyword": "Vega-Roman-Gabriel",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66909,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 69,
+      "extra": null,
+      "player1": {
+        "id": 23094,
+        "name": "Вильмар Энрике",
+        "lastname": "Барриос Теран",
+        "nickname": "",
+        "keyword": "Barrios-Teran-Vilmar-Enrike",
+        "amplua": 2,
+        "public_lastname": "Барриос",
+        "public_name": "Вильмар"
+      },
+      "player2": {
+        "id": 24102,
+        "name": "Маркус Вендел",
+        "lastname": "Валле да Силва",
+        "nickname": "Вендел",
+        "keyword": "Vendel-Valle-da-Silva-Markus",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66910,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 69,
+      "extra": null,
+      "player1": {
+        "id": 25059,
+        "name": "Густаво",
+        "lastname": "Мантуан",
+        "nickname": "",
+        "keyword": "Mantuan-Gustavo",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 26027,
+        "name": "Джонатан",
+        "lastname": "дос Сантос Роза",
+        "nickname": "Джон Джон",
+        "keyword": "Jhon-Jhon",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
