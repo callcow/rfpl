@@ -270,6 +270,28 @@
       "deleted": null
     },
     {
+      "id": 140,
+      "type": "Photo",
+      "action": null,
+      "time": 14,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 140,
+        "title": "",
+        "description": "",
+        "author": "Злата Машницкая / «Акрон»"
+      },
+      "deleted": null
+    },
+    {
       "id": 66798,
       "type": "EventAdded",
       "action": "Shot",
@@ -943,6 +965,32 @@
       "time": 49,
       "extra": null,
       "player1": null,
+      "player2": null,
+      "club": 264,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66828,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 49,
+      "extra": null,
+      "player1": {
+        "id": 25144,
+        "name": "Матвей",
+        "lastname": "Бардачёв",
+        "nickname": "",
+        "keyword": "Bardachev-Matvey",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
       "player2": null,
       "club": 264,
       "gameStateNumber": null,
