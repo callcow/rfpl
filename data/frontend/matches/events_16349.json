@@ -337,6 +337,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66694,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 18,
+      "extra": null,
+      "player1": {
+        "id": 26049,
+        "name": "Дамиан Ариэль",
+        "lastname": "Пуэбла",
+        "nickname": "",
+        "keyword": "Puebla-Damian-Ariel",
+        "amplua": 2,
+        "public_lastname": "Пуэбла",
+        "public_name": "Дамиан"
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
