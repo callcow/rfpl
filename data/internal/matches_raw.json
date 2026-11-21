@@ -2854,9 +2854,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.pfc-cska.com/",
         "winline": {
-          "outcome1": 1.7,
-          "outcome2": 4.1,
-          "outcome3": 4.5,
+          "outcome1": 1.65,
+          "outcome2": 4.3,
+          "outcome3": 4.8,
           "link": "https://winline.ru/plus/17077203",
           "erid": "2W5zFG86bMU"
         },
@@ -2902,7 +2902,7 @@
         "id": 16352,
         "clubH": 4,
         "clubA": 3,
-        "goalH": 2,
+        "goalH": 3,
         "goalA": 1,
         "date": "2026-11-21UTC17:30:00",
         "matchDateStatus": true,
