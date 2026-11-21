@@ -1126,6 +1126,111 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66833,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 66,
+      "extra": null,
+      "player1": {
+        "id": 25144,
+        "name": "Матвей",
+        "lastname": "Бардачёв",
+        "nickname": "",
+        "keyword": "Bardachev-Matvey",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 16586,
+        "name": "Игорь",
+        "lastname": "Юрганов",
+        "nickname": "",
+        "keyword": "Urganov-Igor",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 264,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66834,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 66,
+      "extra": null,
+      "player1": {
+        "id": 23025,
+        "name": "Бутта",
+        "lastname": "Магомедов",
+        "nickname": "",
+        "keyword": "Magomedov-Butta",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 24740,
+        "name": "Абдула",
+        "lastname": "Багамаев",
+        "nickname": null,
+        "keyword": "Bagamaev-Abdula",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 264,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66835,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 66,
+      "extra": null,
+      "player1": {
+        "id": 25929,
+        "name": "Денис",
+        "lastname": "Попенков",
+        "nickname": null,
+        "keyword": "Popenkov-Denis",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25222,
+        "name": "Роберто Карлос",
+        "lastname": "Фернандес Торо",
+        "nickname": "",
+        "keyword": "Fernandes-Toro-Roberto-Karlos",
+        "amplua": 1,
+        "public_lastname": "Фернандес",
+        "public_name": "Роберто"
+      },
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
