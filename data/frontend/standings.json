@@ -2,23 +2,23 @@
   {
     "clubId": 3,
     "club": "Зенит",
-    "played": 14,
+    "played": 15,
     "won": 10,
     "drawn": 1,
-    "lost": 3,
-    "goalsFor": 32,
-    "goalsAgainst": 15,
+    "lost": 4,
+    "goalsFor": 33,
+    "goalsAgainst": 18,
     "points": 31,
-    "maxPoints": 42,
+    "maxPoints": 45,
     "position": 1,
-    "goalDiff": 17,
-    "pointsPercent": 73.8,
+    "goalDiff": 15,
+    "pointsPercent": 68.9,
     "form": [
       "w",
       "w",
       "w",
-      "w",
-      "d"
+      "d",
+      "l"
     ]
   },
   {
@@ -132,6 +132,28 @@
     ]
   },
   {
+    "clubId": 4,
+    "club": "Рубин",
+    "played": 15,
+    "won": 5,
+    "drawn": 6,
+    "lost": 4,
+    "goalsFor": 17,
+    "goalsAgainst": 19,
+    "points": 21,
+    "maxPoints": 45,
+    "position": 7,
+    "goalDiff": -2,
+    "pointsPercent": 46.7,
+    "form": [
+      "l",
+      "l",
+      "w",
+      "w",
+      "w"
+    ]
+  },
+  {
     "clubId": 444,
     "club": "Балтика",
     "played": 15,
@@ -142,7 +164,7 @@
     "goalsAgainst": 15,
     "points": 20,
     "maxPoints": 45,
-    "position": 7,
+    "position": 8,
     "goalDiff": 4,
     "pointsPercent": 44.4,
     "form": [
@@ -164,7 +186,7 @@
     "goalsAgainst": 23,
     "points": 18,
     "maxPoints": 45,
-    "position": 8,
+    "position": 9,
     "goalDiff": -4,
     "pointsPercent": 40.0,
     "form": [
@@ -173,28 +195,6 @@
       "l",
       "w",
       "l"
-    ]
-  },
-  {
-    "clubId": 4,
-    "club": "Рубин",
-    "played": 14,
-    "won": 4,
-    "drawn": 6,
-    "lost": 4,
-    "goalsFor": 14,
-    "goalsAgainst": 18,
-    "points": 18,
-    "maxPoints": 42,
-    "position": 9,
-    "goalDiff": -4,
-    "pointsPercent": 42.9,
-    "form": [
-      "l",
-      "l",
-      "l",
-      "w",
-      "w"
     ]
   },
   {
