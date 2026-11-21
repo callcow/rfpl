@@ -406,6 +406,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66698,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 22,
+      "extra": null,
+      "player1": {
+        "id": 21510,
+        "name": "Егор",
+        "lastname": "Голенков",
+        "nickname": "",
+        "keyword": "Golenkov-Egor",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
