@@ -1604,6 +1604,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66851,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 86,
+      "extra": null,
+      "player1": {
+        "id": 25638,
+        "name": "Артём",
+        "lastname": "Шуманский",
+        "nickname": "",
+        "keyword": "Shumanskiy-Artem",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66852,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 88,
+      "extra": null,
+      "player1": {
+        "id": 25642,
+        "name": "Стефан",
+        "lastname": "Лончар",
+        "nickname": "",
+        "keyword": "Lonchar-Stefan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
