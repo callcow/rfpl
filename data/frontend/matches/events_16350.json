@@ -287,6 +287,28 @@
       "deleted": null
     },
     {
+      "id": 145,
+      "type": "Photo",
+      "action": null,
+      "time": 19,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 145,
+        "title": "Разочарование Алвеса",
+        "description": "Матеус Алвес приходит в себя после нереализованного убойного момента",
+        "author": "Анна Аксёнова / ПФК ЦСКА"
+      },
+      "deleted": null
+    },
+    {
       "id": 66947,
       "type": "EventAdded",
       "action": "Foul",
