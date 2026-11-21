@@ -389,6 +389,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66874,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 34,
+      "extra": null,
+      "player1": {
+        "id": 21674,
+        "name": "Игорь",
+        "lastname": "Дивеев",
+        "nickname": "",
+        "keyword": "Diveev-Igor",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66875,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 34,
+      "extra": null,
+      "player1": {
+        "id": 21674,
+        "name": "Игорь",
+        "lastname": "Дивеев",
+        "nickname": "",
+        "keyword": "Diveev-Igor",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
