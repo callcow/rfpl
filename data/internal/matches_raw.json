@@ -2842,12 +2842,12 @@
         "id": 16350,
         "clubH": 2,
         "clubA": 702,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "date": "2026-11-21UTC19:45:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 1,
+        "dateStartStatus": "2026-11-21UTC19:47:25",
         "city": "Москва",
         "stadium": "«ВЭБ Арена»",
         "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_10daa90e172c8ec7a7a3d03af004b792_hd/17_1041696/63016fc9b4fb4cccd15f548232fbdf01/4950254872?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
@@ -2865,8 +2865,8 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": false,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 0,
+        "fairplayClub2": 0
       },
       {
         "id": 16351,
