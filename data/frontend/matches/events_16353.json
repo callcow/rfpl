@@ -1656,6 +1656,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66853,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 89,
+      "extra": null,
+      "player1": {
+        "id": 25780,
+        "name": "Альберт",
+        "lastname": "Габараев",
+        "nickname": "",
+        "keyword": "Gabaraev-Albert",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 264,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66854,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 90,
+      "extra": null,
+      "player1": {
+        "id": 22653,
+        "name": "Максим",
+        "lastname": "Турищев",
+        "nickname": "",
+        "keyword": "Turischev-Maksim",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 264,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
