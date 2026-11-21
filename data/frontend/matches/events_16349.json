@@ -285,6 +285,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66692,
+      "type": "EventAdded",
+      "action": "AutoGoal",
+      "time": 13,
+      "extra": null,
+      "player1": {
+        "id": 23089,
+        "name": "Данила",
+        "lastname": "Хотулёв",
+        "nickname": "",
+        "keyword": "Hotulev-Danila",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66693,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 15,
+      "extra": null,
+      "player1": {
+        "id": 23664,
+        "name": "Сергей",
+        "lastname": "Варатынов",
+        "nickname": null,
+        "keyword": "Varatynov-Sergey",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
