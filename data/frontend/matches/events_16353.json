@@ -1430,6 +1430,67 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66845,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 79,
+      "extra": null,
+      "player1": {
+        "id": 25222,
+        "name": "Роберто Карлос",
+        "lastname": "Фернандес Торо",
+        "nickname": "",
+        "keyword": "Fernandes-Toro-Roberto-Karlos",
+        "amplua": 1,
+        "public_lastname": "Фернандес",
+        "public_name": "Роберто"
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66846,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 79,
+      "extra": null,
+      "player1": {
+        "id": 22548,
+        "name": "Кристиян",
+        "lastname": "Бистрович",
+        "nickname": "",
+        "keyword": "Bistrovich-Kristiyan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 21536,
+        "name": "Хетаг",
+        "lastname": "Хосонов",
+        "nickname": "",
+        "keyword": "Hosonov-Hetag",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
