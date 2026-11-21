@@ -2932,12 +2932,12 @@
         "id": 16353,
         "clubH": 807,
         "clubA": 264,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 2,
         "date": "2026-11-21UTC15:15:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 2,
+        "dateStartStatus": "2026-11-21UTC16:06:41",
         "city": "Самара",
         "stadium": "«Солидарность Самара Арена»",
         "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_2e54aa186cd162d5a8f82c39d8392546_hd/17_1042610/7c5c91e5ddd55deea4baea48b6266f17/4950254857?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
@@ -2955,8 +2955,8 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": false,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 3,
+        "fairplayClub2": 0
       },
       {
         "id": 16481,
