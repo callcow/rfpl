@@ -830,6 +830,28 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 144,
+      "type": "Photo",
+      "action": null,
+      "time": null,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "HalfTime",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 144,
+        "title": "",
+        "description": "",
+        "author": "Анна Аксёнова / ПФК ЦСКА"
+      },
+      "deleted": null
     }
   ]
 }
