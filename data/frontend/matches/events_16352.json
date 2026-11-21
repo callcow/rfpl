@@ -1851,6 +1851,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66929,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": 1,
+      "player1": {
+        "id": 24749,
+        "name": "Никита",
+        "lastname": "Лобов",
+        "nickname": "",
+        "keyword": "Lobov-Nikita",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66930,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": 2,
+      "player1": {
+        "id": 26145,
+        "name": "Амир",
+        "lastname": "Мусаев",
+        "nickname": "",
+        "keyword": "Musaev-Amir",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
