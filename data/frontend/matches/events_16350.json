@@ -995,6 +995,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66975,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 54,
+      "extra": null,
+      "player1": {
+        "id": 21641,
+        "name": "Арсен",
+        "lastname": "Адамов",
+        "nickname": "",
+        "keyword": "Adamov-Arsen",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66976,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 54,
+      "extra": null,
+      "player1": {
+        "id": 21641,
+        "name": "Арсен",
+        "lastname": "Адамов",
+        "nickname": "",
+        "keyword": "Adamov-Arsen",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
