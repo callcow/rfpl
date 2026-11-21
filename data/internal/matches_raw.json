@@ -2818,12 +2818,12 @@
         "id": 16349,
         "clubH": 504,
         "clubA": 444,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "date": "2026-11-21UTC13:00:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 1,
+        "dateStartStatus": "2026-11-21UTC13:02:46",
         "city": "Оренбург",
         "stadium": "«Газовик»",
         "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_3a6c0ee262097c313cf4c85df8efbec9_hd/17_1042599/33ecb2af138585f9ab1596e5a83b45ce/4950254850?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
@@ -2841,8 +2841,8 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": false,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 0,
+        "fairplayClub2": 0
       },
       {
         "id": 16350,
