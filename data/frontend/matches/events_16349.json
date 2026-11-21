@@ -2356,6 +2356,93 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66776,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 87,
+      "extra": null,
+      "player1": {
+        "id": 26030,
+        "name": "Эдуардо Антонио",
+        "lastname": "Андерсон Гомес",
+        "nickname": "",
+        "keyword": "Anderson-Gomez-Eduardo-Antonio",
+        "amplua": 1,
+        "public_lastname": "Андерсон",
+        "public_name": "Эдуардо"
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66777,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 87,
+      "extra": null,
+      "player1": {
+        "id": 22450,
+        "name": "Евгений",
+        "lastname": "Болотов",
+        "nickname": "",
+        "keyword": "Bolotov-Evgeniy",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 23902,
+        "name": "Максим",
+        "lastname": "Савельев",
+        "nickname": "",
+        "keyword": "Savelev-Maksim",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66778,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 88,
+      "extra": null,
+      "player1": {
+        "id": 25897,
+        "name": "Брайан Александр",
+        "lastname": "Хиль Хуртадо",
+        "nickname": "",
+        "keyword": "Gil-Hurtado-Brayan-Alexander",
+        "amplua": 3,
+        "public_lastname": "Хиль",
+        "public_name": "Брайан"
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
