@@ -724,9 +724,9 @@
       "deleted": null
     },
     {
-      "id": 66710,
+      "id": 66711,
       "type": "EventAdded",
-      "action": "Goal",
+      "action": "Var",
       "time": 37,
       "extra": null,
       "player1": {
@@ -739,16 +739,33 @@
         "public_lastname": "",
         "public_name": ""
       },
-      "player2": {
-        "id": 25181,
-        "name": "Гедеон",
-        "lastname": "Гузина",
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": 36040,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66712,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 37,
+      "extra": null,
+      "player1": {
+        "id": 22450,
+        "name": "Евгений",
+        "lastname": "Болотов",
         "nickname": "",
-        "keyword": "Guzina-Gedeon",
-        "amplua": 3,
+        "keyword": "Bolotov-Evgeniy",
+        "amplua": 1,
         "public_lastname": "",
         "public_name": ""
       },
+      "player2": null,
       "club": 504,
       "gameStateNumber": null,
       "periodNumber": 1,
