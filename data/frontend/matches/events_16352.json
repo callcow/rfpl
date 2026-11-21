@@ -904,6 +904,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66894,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 56,
+      "extra": null,
+      "player1": {
+        "id": 25252,
+        "name": "Угочукву Христас",
+        "lastname": "Иву",
+        "nickname": "",
+        "keyword": "Ivu-Ugochukvu-Hristas",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66895,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 57,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
