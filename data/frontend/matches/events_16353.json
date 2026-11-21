@@ -1517,6 +1517,67 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66848,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 81,
+      "extra": null,
+      "player1": {
+        "id": 25707,
+        "name": "Жилсон",
+        "lastname": "Беншимол Тавареш",
+        "nickname": "",
+        "keyword": "Benchimol-Tavares-Zhilson",
+        "amplua": 3,
+        "public_lastname": "Беншимол",
+        "public_name": "Жилсон"
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66849,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 82,
+      "extra": null,
+      "player1": {
+        "id": 25838,
+        "name": "Белайди",
+        "lastname": "Пуси",
+        "nickname": "",
+        "keyword": "Pusi-Belajdi",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 16524,
+        "name": "Алексей",
+        "lastname": "Сутормин",
+        "nickname": "",
+        "keyword": "Sutormin-Aleksei",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 264,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
