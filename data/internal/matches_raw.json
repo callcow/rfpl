@@ -2842,8 +2842,8 @@
         "id": 16350,
         "clubH": 2,
         "clubA": 702,
-        "goalH": 0,
-        "goalA": 1,
+        "goalH": 1,
+        "goalA": 2,
         "date": "2026-11-21UTC19:45:00",
         "matchDateStatus": true,
         "status": 3,
@@ -2865,7 +2865,7 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": false,
-        "fairplayClub1": 1,
+        "fairplayClub1": 2,
         "fairplayClub2": 3
       },
       {

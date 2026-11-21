@@ -1734,8 +1734,8 @@
     "awayId": 702,
     "home": "ЦСКА",
     "away": "Ахмат",
-    "goalH": 0,
-    "goalA": 1,
+    "goalH": 1,
+    "goalA": 2,
     "city": "Москва",
     "stadium": "«ВЭБ Арена»"
   },

@@ -1343,8 +1343,8 @@
         "status": 3,
         "clubH": 2,
         "clubA": 702,
-        "goalH": 0,
-        "goalA": 1,
+        "goalH": 1,
+        "goalA": 2,
         "city": "Москва",
         "stadium": "«ВЭБ Арена»"
       },
