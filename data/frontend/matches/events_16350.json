@@ -2035,6 +2035,75 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67015,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": 4,
+      "player1": {
+        "id": 26001,
+        "name": "Энрике Фабиано",
+        "lastname": "до Кармо",
+        "nickname": "Энрике Кармо",
+        "keyword": "Henrique-Carmo",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67016,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 90,
+      "extra": 6,
+      "player1": {
+        "id": 25834,
+        "name": "Мохаммед",
+        "lastname": "Аззи",
+        "nickname": "",
+        "keyword": "Azzi-Mohammed",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67017,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 90,
+      "extra": 6,
+      "player1": null,
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
