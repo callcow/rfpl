@@ -1836,6 +1836,93 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66755,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 72,
+      "extra": null,
+      "player1": {
+        "id": 25181,
+        "name": "Гедеон",
+        "lastname": "Гузина",
+        "nickname": "",
+        "keyword": "Guzina-Gedeon",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66756,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 73,
+      "extra": null,
+      "player1": {
+        "id": 23089,
+        "name": "Данила",
+        "lastname": "Хотулёв",
+        "nickname": "",
+        "keyword": "Hotulev-Danila",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66757,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 73,
+      "extra": null,
+      "player1": {
+        "id": 25181,
+        "name": "Гедеон",
+        "lastname": "Гузина",
+        "nickname": "",
+        "keyword": "Guzina-Gedeon",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 25946,
+        "name": "Алешандре",
+        "lastname": "де Жезус Жерусалем Жуниор",
+        "nickname": "Алешандре Жезус",
+        "keyword": "De-Jesus-Jeruzalem-Junior-Alexandre",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
