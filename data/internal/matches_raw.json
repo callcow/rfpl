@@ -2902,12 +2902,12 @@
         "id": 16352,
         "clubH": 4,
         "clubA": 3,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 0,
         "date": "2026-11-21UTC17:30:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 1,
+        "dateStartStatus": "2026-11-21UTC17:34:15",
         "city": "Казань",
         "stadium": "«Ак Барс Арена»",
         "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_d823241a45ba3ad99b30236ccb76f935_hd/17_1042626/d312e97d1f178e74952726bac7edd311/4950254867?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
@@ -2925,8 +2925,8 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": false,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 0,
+        "fairplayClub2": 0
       },
       {
         "id": 16353,
