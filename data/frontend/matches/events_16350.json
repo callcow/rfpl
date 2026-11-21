@@ -787,6 +787,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66967,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 45,
+      "extra": null,
+      "player1": {
+        "id": 20912,
+        "name": "Георгий",
+        "lastname": "Мелкадзе",
+        "nickname": "",
+        "keyword": "Melkadze-Georgiy",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66968,
+      "type": "GamePeriodEnd",
+      "action": null,
+      "time": 45,
+      "extra": 1,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
