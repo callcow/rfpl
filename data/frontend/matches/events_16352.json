@@ -579,6 +579,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66882,
+      "type": "GamePeriodOpen",
+      "action": null,
+      "time": 45,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66883,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 45,
+      "extra": null,
+      "player1": {
+        "id": 21674,
+        "name": "Игорь",
+        "lastname": "Дивеев",
+        "nickname": "",
+        "keyword": "Diveev-Igor",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 25906,
+        "name": "Роман Габриэль",
+        "lastname": "Вега",
+        "nickname": null,
+        "keyword": "Vega-Roman-Gabriel",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
