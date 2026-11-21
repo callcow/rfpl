@@ -1741,6 +1741,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67003,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 77,
+      "extra": null,
+      "player1": {
+        "id": 23778,
+        "name": "Турпал-Али",
+        "lastname": "Ибишев",
+        "nickname": null,
+        "keyword": "Ibishev-Turpal-Ali",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67004,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 77,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
