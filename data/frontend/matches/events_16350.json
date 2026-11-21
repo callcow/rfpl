@@ -657,6 +657,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66962,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 39,
+      "extra": null,
+      "player1": {
+        "id": 24515,
+        "name": "Эгаш Паланга дос Сантос",
+        "lastname": "Касинтура",
+        "nickname": "",
+        "keyword": "Kasintura-Egash-Palanga-Dos-Santos",
+        "amplua": 2,
+        "public_lastname": "Касинтура",
+        "public_name": "Эгаш"
+      },
+      "player2": null,
+      "club": 702,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
