@@ -1923,6 +1923,75 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66758,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 74,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66759,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 74,
+      "extra": null,
+      "player1": {
+        "id": 21510,
+        "name": "Егор",
+        "lastname": "Голенков",
+        "nickname": "",
+        "keyword": "Golenkov-Egor",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66760,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 75,
+      "extra": null,
+      "player1": {
+        "id": 24055,
+        "name": "Дмитрий",
+        "lastname": "Васильев",
+        "nickname": "",
+        "keyword": "Vasilev-Dmitriy-Alekseevich",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 504,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
