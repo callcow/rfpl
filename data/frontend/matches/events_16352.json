@@ -1391,6 +1391,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66912,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 74,
+      "extra": null,
+      "player1": {
+        "id": 25994,
+        "name": "Жак Жюльен",
+        "lastname": "Сиве",
+        "nickname": "",
+        "keyword": "Siwe-Jacques-Jullien",
+        "amplua": 3,
+        "public_lastname": "Сиве",
+        "public_name": "Жак"
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66913,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 74,
+      "extra": null,
+      "player1": {
+        "id": 25994,
+        "name": "Жак Жюльен",
+        "lastname": "Сиве",
+        "nickname": "",
+        "keyword": "Siwe-Jacques-Jullien",
+        "amplua": 3,
+        "public_lastname": "Сиве",
+        "public_name": "Жак"
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
