@@ -132,6 +132,28 @@
     ]
   },
   {
+    "clubId": 444,
+    "club": "Балтика",
+    "played": 15,
+    "won": 5,
+    "drawn": 5,
+    "lost": 5,
+    "goalsFor": 19,
+    "goalsAgainst": 15,
+    "points": 20,
+    "maxPoints": 45,
+    "position": 7,
+    "goalDiff": 4,
+    "pointsPercent": 44.4,
+    "form": [
+      "d",
+      "d",
+      "w",
+      "l",
+      "w"
+    ]
+  },
+  {
     "clubId": 10,
     "club": "Крылья Советов",
     "played": 15,
@@ -142,7 +164,7 @@
     "goalsAgainst": 23,
     "points": 18,
     "maxPoints": 45,
-    "position": 7,
+    "position": 8,
     "goalDiff": -4,
     "pointsPercent": 40.0,
     "form": [
@@ -164,7 +186,7 @@
     "goalsAgainst": 18,
     "points": 18,
     "maxPoints": 42,
-    "position": 8,
+    "position": 9,
     "goalDiff": -4,
     "pointsPercent": 42.9,
     "form": [
@@ -176,46 +198,24 @@
     ]
   },
   {
-    "clubId": 444,
-    "club": "Балтика",
-    "played": 14,
-    "won": 4,
-    "drawn": 5,
-    "lost": 5,
-    "goalsFor": 17,
-    "goalsAgainst": 15,
-    "points": 17,
-    "maxPoints": 42,
-    "position": 9,
-    "goalDiff": 2,
-    "pointsPercent": 40.5,
-    "form": [
-      "d",
-      "d",
-      "d",
-      "w",
-      "l"
-    ]
-  },
-  {
     "clubId": 504,
     "club": "Оренбург",
-    "played": 14,
+    "played": 15,
     "won": 3,
     "drawn": 8,
-    "lost": 3,
+    "lost": 4,
     "goalsFor": 14,
-    "goalsAgainst": 14,
+    "goalsAgainst": 16,
     "points": 17,
-    "maxPoints": 42,
+    "maxPoints": 45,
     "position": 10,
-    "goalDiff": 0,
-    "pointsPercent": 40.5,
+    "goalDiff": -2,
+    "pointsPercent": 37.8,
     "form": [
-      "w",
       "d",
       "w",
       "d",
+      "l",
       "l"
     ]
   },
