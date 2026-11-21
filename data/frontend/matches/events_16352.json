@@ -1504,6 +1504,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66916,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 79,
+      "extra": null,
+      "player1": {
+        "id": 25410,
+        "name": "Дардан",
+        "lastname": "Шабанхаджай",
+        "nickname": "",
+        "keyword": "Shabanhadzhay-Dardan",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
