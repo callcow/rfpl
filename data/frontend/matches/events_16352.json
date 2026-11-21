@@ -354,6 +354,41 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66873,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 30,
+      "extra": null,
+      "player1": {
+        "id": 25209,
+        "name": "Игор",
+        "lastname": "Вуячич",
+        "nickname": "",
+        "keyword": "Vuyachich-Igor",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 22501,
+        "name": "Илья",
+        "lastname": "Самошников",
+        "nickname": "",
+        "keyword": "Samoshnikov-Ilya",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
