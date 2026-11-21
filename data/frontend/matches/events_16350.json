@@ -1991,14 +1991,14 @@
       "time": 89,
       "extra": null,
       "player1": {
-        "id": 23123,
-        "name": "Тамерлан",
-        "lastname": "Мусаев",
+        "id": 25741,
+        "name": "Лусиано Эмилио",
+        "lastname": "Гонду Санельи",
         "nickname": "",
-        "keyword": "Musaev-Tamerlan",
+        "keyword": "Gondu-Zanelli-Luchano-Emilio",
         "amplua": 3,
-        "public_lastname": null,
-        "public_name": null
+        "public_lastname": "Гонду",
+        "public_name": "Лусиано"
       },
       "player2": null,
       "club": 2,
