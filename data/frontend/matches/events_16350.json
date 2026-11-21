@@ -683,6 +683,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66963,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 40,
+      "extra": null,
+      "player1": {
+        "id": 25955,
+        "name": "Жоао Виктор",
+        "lastname": "да Силва Марселино",
+        "nickname": "Жоао Виктор",
+        "keyword": "Da-Silva-Marcelino-Joao-Victor",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
