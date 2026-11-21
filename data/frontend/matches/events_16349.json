@@ -1168,6 +1168,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 66728,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 48,
+      "extra": null,
+      "player1": {
+        "id": 25223,
+        "name": "Михаил",
+        "lastname": "Рядно",
+        "nickname": "",
+        "keyword": "Ryadno-Mihail",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 66729,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 49,
+      "extra": null,
+      "player1": {
+        "id": 23664,
+        "name": "Сергей",
+        "lastname": "Варатынов",
+        "nickname": null,
+        "keyword": "Varatynov-Sergey",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 444,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
