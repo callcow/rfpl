@@ -1384,11 +1384,11 @@
       {
         "id": 16481,
         "date": "2026-11-22UTC14:00:00",
-        "status": 0,
+        "status": 3,
         "clubH": 7,
         "clubA": 584,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 1,
+        "goalA": 1,
         "city": "Москва",
         "stadium": "«ВТБ Арена»"
       }

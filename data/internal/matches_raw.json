@@ -2944,15 +2944,15 @@
         "id": 16481,
         "clubH": 7,
         "clubA": 584,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 1,
+        "goalA": 1,
         "date": "2026-11-22UTC14:00:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 3,
+        "dateStartStatus": "2026-11-22UTC15:08:50",
         "city": "Москва",
         "stadium": "«ВТБ Арена»",
-        "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_213bf4706abb1022d531cd14b8e59b90_hd/17_1041698/71234d694feef7be42151e219c9007ed/4950254884?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+        "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_213bf4706abb1022d531cd14b8e59b90_hd/17_1041698/021b9bd10561bd2d7fc595efecfba146/4951022801?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.fcdm.ru/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
         "winline": {
@@ -2967,8 +2967,8 @@
         "tvChannel2": 0,
         "countVideos": null,
         "winlineMatchTour": true,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 6,
+        "fairplayClub2": 0
       }
     ]
   },
