@@ -1289,9 +1289,9 @@
       "deleted": null
     },
     {
-      "id": 67070,
+      "id": 67071,
       "type": "EventAdded",
-      "action": "Shot",
+      "action": "Foul",
       "time": 59,
       "extra": null,
       "player1": {
@@ -1315,10 +1315,80 @@
       "deleted": null
     },
     {
-      "id": 67071,
+      "id": 67072,
       "type": "EventAdded",
-      "action": "Foul",
-      "time": 59,
+      "action": "Substitution",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 24022,
+        "name": "Ярослав",
+        "lastname": "Гладышев",
+        "nickname": null,
+        "keyword": "Gladyshev-Yaroslav",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 26172,
+        "name": "Жозуэ Жереми",
+        "lastname": "Казимир",
+        "nickname": "",
+        "keyword": "Casimir-Josue-Jeremie",
+        "amplua": 3,
+        "public_lastname": "Казимир",
+        "public_name": "Жозуэ"
+      },
+      "club": 7,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67073,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 61,
+      "extra": null,
+      "player1": {
+        "id": 21945,
+        "name": "Александр",
+        "lastname": "Черников",
+        "nickname": "",
+        "keyword": "Chernikov-Aleksandr-Evgenevich",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 21519,
+        "name": "Даниил",
+        "lastname": "Уткин",
+        "nickname": "",
+        "keyword": "Utkin-Daniil",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 584,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67074,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 61,
       "extra": null,
       "player1": {
         "id": 22537,
@@ -1327,6 +1397,41 @@
         "nickname": "",
         "keyword": "Tyukavin-Konstantin",
         "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 22701,
+        "name": "Иван",
+        "lastname": "Сергеев",
+        "nickname": "",
+        "keyword": "Sergeev-Ivan",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 7,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67075,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 61,
+      "extra": null,
+      "player1": {
+        "id": 25940,
+        "name": "Рубенс Антонио",
+        "lastname": "Диас",
+        "nickname": "Рубенс",
+        "keyword": "Dias-Rubens-Antonio",
+        "amplua": 1,
         "public_lastname": null,
         "public_name": null
       },
