@@ -1261,6 +1261,84 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67069,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 59,
+      "extra": null,
+      "player1": {
+        "id": 22162,
+        "name": "Данил",
+        "lastname": "Глебов",
+        "nickname": "",
+        "keyword": "Glebov-Danil",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 7,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67070,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 59,
+      "extra": null,
+      "player1": {
+        "id": 22537,
+        "name": "Константин",
+        "lastname": "Тюкавин",
+        "nickname": "",
+        "keyword": "Tyukavin-Konstantin",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 7,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67071,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 59,
+      "extra": null,
+      "player1": {
+        "id": 22537,
+        "name": "Константин",
+        "lastname": "Тюкавин",
+        "nickname": "",
+        "keyword": "Tyukavin-Konstantin",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 7,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
