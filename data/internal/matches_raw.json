@@ -2776,9 +2776,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://dinamo-mx.ru/",
         "winline": {
-          "outcome1": 6.2,
-          "outcome2": 4.5,
-          "outcome3": 1.5,
+          "outcome1": 6,
+          "outcome2": 4.4,
+          "outcome3": 1.52,
           "link": "https://winline.ru/plus/17077205",
           "erid": "2W5zFHGp32z"
         },
@@ -2833,7 +2833,7 @@
         "comments": "",
         "tvChannel1": 2,
         "tvChannel2": 0,
-        "countVideos": null,
+        "countVideos": 1,
         "winlineMatchTour": false,
         "fairplayClub1": 2,
         "fairplayClub2": 3
@@ -2857,9 +2857,9 @@
         "comments": "",
         "tvChannel1": 2,
         "tvChannel2": 0,
-        "countVideos": null,
+        "countVideos": 1,
         "winlineMatchTour": false,
-        "fairplayClub1": 2,
+        "fairplayClub1": 3,
         "fairplayClub2": 4
       },
       {
@@ -2878,9 +2878,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://rodina.moscow/tickets",
         "winline": {
-          "outcome1": 2.7,
+          "outcome1": 2.6,
           "outcome2": 3.6,
-          "outcome3": 2.48,
+          "outcome3": 2.6,
           "link": "https://winline.ru/plus/17077206",
           "erid": "2W5zFJ1ogCz"
         },
@@ -2911,7 +2911,7 @@
         "comments": "",
         "tvChannel1": 2,
         "tvChannel2": 0,
-        "countVideos": null,
+        "countVideos": 1,
         "winlineMatchTour": false,
         "fairplayClub1": 1,
         "fairplayClub2": 2
@@ -2935,7 +2935,7 @@
         "comments": "",
         "tvChannel1": 2,
         "tvChannel2": 0,
-        "countVideos": null,
+        "countVideos": 1,
         "winlineMatchTour": false,
         "fairplayClub1": 5,
         "fairplayClub2": 0
@@ -2956,9 +2956,9 @@
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.fcdm.ru/?utm_source=premierliga&utm_medium=button&utm_campaign=site&utm_content=clubpage",
         "winline": {
-          "outcome1": 2.19,
-          "outcome2": 3.5,
-          "outcome3": 3.25,
+          "outcome1": 2.3,
+          "outcome2": 3.6,
+          "outcome3": 3.15,
           "link": "https://winline.ru/plus/17077204",
           "erid": "2W5zFGdkLzN"
         },

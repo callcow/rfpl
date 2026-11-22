@@ -66,14 +66,13 @@
   "city": "Москва",
   "stadium": "«ВЭБ Арена»",
   "stadiumLink": "",
-  "attendance": null,
+  "attendance": 11069,
   "comments": "",
-  "weather": "1.6°C, Пасмурно",
+  "weather": "3.8°C, Пасмурно",
   "documents": {
-    "protocol": null,
     "report": null,
     "preview": null
   },
-  "protocol": false,
-  "countVideos": null
+  "protocol": true,
+  "countVideos": 1
 }
