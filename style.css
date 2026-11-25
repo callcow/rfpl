@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Onest', sans-serif;
   background-color: var(--bg);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
@@ -139,10 +139,10 @@ body.modal-open {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: 20px;
-  padding: 28px 28px 30px;
+  padding: 16px 28px 18px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 14px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   cursor: pointer;
 }
@@ -330,7 +330,7 @@ tbody tr.team-clickable td { cursor: default; }
 tbody tr.team-clickable td:nth-child(2):hover { font-weight: 700; cursor: pointer; }
 .form-dot.team-clickable { cursor: pointer; transition: transform 0.2s ease, filter 0.2s ease; }
 .form-dot.team-clickable:hover { transform: scale(1.2); filter: brightness(0.9); opacity: 1; }
-#form-tooltip { position: absolute; display: none; background: #111827; border: none; border-radius: 14px; padding: 10px 16px; box-shadow: 0 4px 12px -1px rgba(0, 0, 0, 0.15); font-size: 14px; line-height: 1.5; font-weight: 500; font-family: "Inter", sans-serif; color: #fff; pointer-events: none; z-index: 1000; white-space: nowrap; min-width: 150px; text-align: center; }
+#form-tooltip { position: absolute; display: none; background: #f3f4f6; border: none; border-radius: 14px; padding: 10px 16px; box-shadow: 0 4px 12px -1px rgba(0, 0, 0, 0.15); font-size: 14px; line-height: 1.5; font-weight: 500; font-family: "Inter", sans-serif; color: #111827; pointer-events: none; z-index: 1000; white-space: nowrap; min-width: 150px; text-align: center; }
 .cal-tour.team-clickable { display: inline-block; transition: color 0.2s ease; }
 .cal-tour.team-clickable:hover { color: #111827; font-weight: 700; opacity: 1; }
 
@@ -2246,7 +2246,7 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   font-size: 12px;
   line-height: 1.5;
   color: var(--text-muted);
-  text-align: center;
+  text-align: left;
 }
 
 /* Авторы голов под командами в модалке матча: крупнее (ПК и телефон) */
@@ -2556,14 +2556,18 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 }
 
 .pev-tip { position: relative; }
+[data-theme="dark"] .pev-tip::after {
+  background: #111827;
+  color: #fff;
+}
 .pev-tip::after {
   content: attr(data-tip);
   position: absolute;
   bottom: calc(100% + 8px);
   left: 50%;
   transform: translateX(-50%);
-  background: #111827;
-  color: #fff;
+  background: #f3f4f6;
+  color: #111827;
   font-size: 14px;
   line-height: 1.5;
   font-weight: 500;
@@ -2579,11 +2583,27 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
 }
 .pev-tip:hover::after { opacity: 1; }
 
+#site-tooltip, #form-tooltip, #timeline-tooltip, .pev-tip::after {
+  font-family: 'Onest', sans-serif;
+}
+button { font-family: inherit; }
+
+:root:not([data-theme="dark"]) #site-tooltip,
+:root:not([data-theme="dark"]) #form-tooltip,
+:root:not([data-theme="dark"]) #timeline-tooltip,
+:root:not([data-theme="dark"]) .pev-tip::after {
+  border: 1px solid #e5e7eb;
+}
+
+[data-theme="dark"] #site-tooltip {
+  background: #111827;
+  color: #fff;
+}
 #site-tooltip {
   position: fixed;
   transform: translate(-50%, -100%);
-  background: #111827;
-  color: #fff;
+  background: #f3f4f6;
+  color: #111827;
   font-size: 14px;
   line-height: 1.5;
   font-weight: 500;
@@ -2634,10 +2654,14 @@ div.club-results-bar.club-results-zero { display: flex; background: #9ca3af; }
   border-bottom: 5px solid #fbbf24;
 }
 
-#timeline-tooltip {
-  position: fixed;
+[data-theme="dark"] #timeline-tooltip {
   background: #111827;
   color: #fff;
+}
+#timeline-tooltip {
+  position: fixed;
+  background: #f3f4f6;
+  color: #111827;
   font-size: 14px;
   line-height: 1.5;
   padding: 10px 16px;

@@ -1264,7 +1264,7 @@ function renderMatchCard(m) {
         </div>
 
         <div class="match-footer">
-          <span class="stadium-name" title="${stadium}">${String(stadium).startsWith('«') ? stadium : `«${stadium}»`}</span>
+          <span class="stadium-name">${String(stadium).startsWith('«') ? stadium : `«${stadium}»`}</span>
           <span class="match-watch">Подробнее</span>
         </div>
       </div>
@@ -1653,7 +1653,7 @@ function renderCalendar(matchesData) {
                     </div>
                     <div class="cal-col-link">
                     ${m.status === 4 ? `
-                        <button class="btn-video" title="Смотреть обзор">
+                        <button class="btn-video">
                             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                             Видеообзор
                         </button>
@@ -2101,7 +2101,7 @@ window.openMatchModal = async function(matchId) {
 
             if (is4k) {
                 qualities = [
-                    { label: "2160 (4K)", url: baseUrl },
+                    { label: "2160", url: baseUrl },
                     { label: "1080", url: baseUrl.replace("/2160/", "/1080/") },
                     { label: "720",  url: baseUrl.replace("/2160/", "/720/") },
                     { label: "480",  url: baseUrl.replace("/2160/", "/480/") },
@@ -3424,7 +3424,7 @@ window.openMatchModal = async function(matchId) {
                             let qualities = [];
                             if (is4k) {
                                 qualities = [
-                                    { label: "2160 (4K)", url: streamUrl },
+                                    { label: "2160", url: streamUrl },
                                     { label: "1080", url: streamUrl.replace("/2160/", "/1080/") },
                                     { label: "720",  url: streamUrl.replace("/2160/", "/720/") },
                                     { label: "480",  url: streamUrl.replace("/2160/", "/480/") },

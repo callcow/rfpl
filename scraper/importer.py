@@ -1177,16 +1177,22 @@ def _build_flat_and_standings(status: dict | None = None):
                             
 
                                 # Проверяем, является ли матч 4K по данным MatchTV
-                                home_name = format_team_name(clubs_by_id.get(m["clubH"], {}).get("name"))
-                                away_name = format_team_name(clubs_by_id.get(m["clubA"], {}).get("name"))
-                                target_title = f"{home_name} - {away_name}"
+                                home_raw = clubs_by_id.get(m["clubH"], {}).get("name") or ""
+                                away_raw = clubs_by_id.get(m["clubA"], {}).get("name") or ""
+                                home_names = {format_team_name(home_raw), home_raw, home_raw.replace("-Москва", "")}
+                                away_names = {format_team_name(away_raw), away_raw, away_raw.replace("-Москва", "")}
                                 is_4k = False
                                 for item in matchtv_items:
-                                    if item.get("title") == target_title and item.get("is4k"):
+                                    if not item.get("is4k"):
+                                        continue
+                                    parts = (item.get("title") or "").split(" - ")
+                                    if len(parts) == 2 and parts[0].strip() in home_names and parts[1].strip() in away_names:
                                         is_4k = True
                                         break
                                 if is_4k:
-                                    stream_url = stream_url.replace("/1080p50fps/", "/2160/")
+                                    decoded = base64.b64decode(stream_url).decode("utf-8")
+                                    decoded = decoded.replace("/1080p50fps/", "/2160/")
+                                    stream_url = base64.b64encode(decoded.encode("utf-8")).decode("utf-8")
                                 m_copy["stream"] = stream_url
                             else:
                                 m_copy["stream"] = None
@@ -1805,11 +1811,11 @@ def _build_players_season_stats(status: dict):
                 s = get_s(pid, cid)
                 if in_squad:
                     s["matchesInSquad"] += 1
-                _d = str(m.get("date") or "")[:10]
-                if _d and (not s.get("from") or _d < s["from"]):
-                    s["from"] = _d
-                if _d and (not s.get("to") or _d > s["to"]):
-                    s["to"] = _d
+                    _d = str(m.get("date") or "")[:10]
+                    if _d and (not s.get("from") or _d < s["from"]):
+                        s["from"] = _d
+                    if _d and (not s.get("to") or _d > s["to"]):
+                        s["to"] = _d
                 if in_main:
                     s["matchesStarted"] += 1
                     if entry.get("captain"):
@@ -1882,7 +1888,15 @@ def _build_players_season_stats(status: dict):
             o["total"][k] += s[k]
     for pid, recs in match_recs.items():
         if str(pid) in out:
-            out[str(pid)]["matches"] = sorted(recs.values(), key=lambda r: r["matchId"])
+            o = out[str(pid)]
+            kept = []
+            for r in recs.values():
+                cs = o["clubs"].get(str(r["clubId"])) or {}
+                d = str(r.get("date") or "")[:10]
+                in_period = bool(cs.get("from")) and cs["from"] <= d and (not cs.get("to") or d <= cs["to"])
+                if r["in_squad"] or in_period:
+                    kept.append(r)
+            o["matches"] = sorted(kept, key=lambda r: r["matchId"])
     for sid, o in out.items():
         pa = players_all.get(sid) or {}
         pr = profiles_all.get(sid) or {}
