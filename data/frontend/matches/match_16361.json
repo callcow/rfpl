@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 502,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Иван",
+      "lastname": "Суворов"
+    }
+  ],
   "id": 16361,
   "tournament": 724,
   "stage": 2977,
@@ -9,12 +18,12 @@
   "goalA": null,
   "date": "2026-11-30UTC19:30:00",
   "status": 0,
-  "dateStartStatus": null,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
   "city": "Воронеж",
   "stadium": "«Факел»",
   "stadiumLink": "",
   "attendance": null,
-  "comments": null,
+  "comments": "",
   "weather": "",
   "documents": {
     "protocol": null,

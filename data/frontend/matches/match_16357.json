@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 534,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Вячеслав",
+      "lastname": "Семёнов"
+    }
+  ],
   "id": 16357,
   "tournament": 724,
   "stage": 2977,
@@ -9,13 +18,13 @@
   "goalA": null,
   "date": "2026-11-29UTC13:00:00",
   "status": 0,
-  "dateStartStatus": null,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
   "city": "Оренбург",
   "stadium": "«Газовик»",
   "stadiumLink": "",
   "attendance": null,
-  "comments": null,
-  "weather": "",
+  "comments": "",
+  "weather": "-2.4°C, Пасмурно",
   "documents": {
     "protocol": null,
     "report": null,

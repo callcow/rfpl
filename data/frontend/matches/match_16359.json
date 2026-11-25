@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 766,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Сергей",
+      "lastname": "Беседин"
+    }
+  ],
   "id": 16359,
   "tournament": 724,
   "stage": 2977,
@@ -15,7 +24,7 @@
   "stadiumLink": "",
   "attendance": null,
   "comments": "",
-  "weather": "",
+  "weather": "-1.3°C, Пасмурно",
   "documents": {
     "protocol": null,
     "report": null,

@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 764,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Андрей",
+      "lastname": "Клименков"
+    }
+  ],
   "id": 16355,
   "tournament": 724,
   "stage": 2977,
@@ -9,13 +18,13 @@
   "goalA": null,
   "date": "2026-11-29UTC15:15:00",
   "status": 0,
-  "dateStartStatus": null,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
   "city": "Ростов-на-Дону",
   "stadium": "«Ростов Арена»",
   "stadiumLink": "",
   "attendance": null,
-  "comments": null,
-  "weather": "",
+  "comments": "",
+  "weather": "0.7°C, Пасмурно, мокрый снег",
   "documents": {
     "protocol": null,
     "report": null,

@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 503,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Алексей",
+      "lastname": "Поляков"
+    }
+  ],
   "id": 16360,
   "tournament": 724,
   "stage": 2977,
@@ -9,13 +18,13 @@
   "goalA": null,
   "date": "2026-11-28UTC14:00:00",
   "status": 0,
-  "dateStartStatus": null,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
   "city": "Казань",
   "stadium": "«Ак Барс Арена»",
   "stadiumLink": "",
   "attendance": null,
-  "comments": null,
-  "weather": "",
+  "comments": "",
+  "weather": "-2.4°C, Пасмурно, небольшой мокрый снег",
   "documents": {
     "protocol": null,
     "report": null,

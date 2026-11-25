@@ -61,19 +61,18 @@
   "goalH": 1,
   "goalA": 1,
   "date": "2026-11-22UTC14:00:00",
-  "status": 3,
-  "dateStartStatus": "2026-11-22UTC15:08:50",
+  "status": 4,
+  "dateStartStatus": "2026-11-22UTC15:58:06",
   "city": "Москва",
   "stadium": "«ВТБ Арена»",
   "stadiumLink": "",
-  "attendance": null,
+  "attendance": 21151,
   "comments": "",
-  "weather": "2°C, Пасмурно, небольшой снег с дождём",
+  "weather": "2°C, Пасмурно",
   "documents": {
-    "protocol": null,
     "report": null,
     "preview": null
   },
-  "protocol": false,
-  "countVideos": null
+  "protocol": true,
+  "countVideos": 1
 }

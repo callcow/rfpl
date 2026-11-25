@@ -1307,11 +1307,11 @@
       {
         "id": 16347,
         "date": "2026-11-22UTC16:30:00",
-        "status": 0,
+        "status": 4,
         "clubH": 125,
         "clubA": 1,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 1,
+        "goalA": 1,
         "city": "Каспийск",
         "stadium": "«Анжи-Арена»"
       },
@@ -1351,11 +1351,11 @@
       {
         "id": 16351,
         "date": "2026-11-22UTC19:00:00",
-        "status": 0,
+        "status": 4,
         "clubH": 808,
         "clubA": 5,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 1,
         "city": "Химки",
         "stadium": "«Арена Химки»"
       },
@@ -1384,7 +1384,7 @@
       {
         "id": 16481,
         "date": "2026-11-22UTC14:00:00",
-        "status": 3,
+        "status": 4,
         "clubH": 7,
         "clubA": 584,
         "goalH": 1,

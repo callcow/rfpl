@@ -1,19 +1,29 @@
 {
-  "last_updated": "2026-11-22T12:47:53.981265+00:00",
+  "last_updated": "2026-11-25T15:26:48.789278+00:00",
   "import_status": {
     "api_ok": true,
     "from_archive": [],
     "errors": [],
     "warnings": [
       "Матч 16347: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16348: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16349: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16350: нет ['winline', 'ticketsLink', 'broadcastLink']",
       "Матч 16351: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16351: составы пустые (clubH: 0, clubA: 0)",
-      "Матч 16352: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16353: нет ['winline', 'ticketsLink', 'broadcastLink']",
-      "Матч 16481: нет ['winline', 'ticketsLink', 'broadcastLink']"
+      "Матч 16481: нет ['winline', 'ticketsLink', 'broadcastLink']",
+      "Матч 16354: нет ['winline', 'ticketsLink', 'broadcastLink', 'Главный судья (назначен только делегат)']",
+      "Матч 16354: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16355: нет ['winline', 'ticketsLink', 'broadcastLink', 'Главный судья (назначен только делегат)']",
+      "Матч 16355: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16356: нет ['winline', 'ticketsLink', 'broadcastLink', 'Главный судья (назначен только делегат)']",
+      "Матч 16356: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16357: нет ['winline', 'ticketsLink', 'broadcastLink', 'Главный судья (назначен только делегат)']",
+      "Матч 16357: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16358: нет ['winline', 'ticketsLink', 'broadcastLink', 'Главный судья (назначен только делегат)']",
+      "Матч 16358: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16359: нет ['winline', 'ticketsLink', 'broadcastLink', 'Главный судья (назначен только делегат)']",
+      "Матч 16359: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16360: нет ['winline', 'ticketsLink', 'broadcastLink', 'Главный судья (назначен только делегат)']",
+      "Матч 16360: составы пустые (clubH: 0, clubA: 0)",
+      "Матч 16361: нет ['weather', 'winline', 'ticketsLink', 'broadcastLink', 'Главный судья (назначен только делегат)']",
+      "Матч 16361: составы пустые (clubH: 0, clubA: 0)"
     ],
     "current_season": "Сезон 2026/27"
   }

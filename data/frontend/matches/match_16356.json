@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 485,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Владислав",
+      "lastname": "Барановский"
+    }
+  ],
   "id": 16356,
   "tournament": 724,
   "stage": 2977,
@@ -9,13 +18,13 @@
   "goalA": null,
   "date": "2026-11-28UTC19:00:00",
   "status": 0,
-  "dateStartStatus": null,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
   "city": "Калининград",
   "stadium": "«Ростех Арена»",
   "stadiumLink": "",
   "attendance": null,
-  "comments": null,
-  "weather": "",
+  "comments": "",
+  "weather": "-2.8°C, Малооблачно",
   "documents": {
     "protocol": null,
     "report": null,

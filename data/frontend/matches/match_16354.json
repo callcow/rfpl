@@ -1,4 +1,13 @@
 {
+  "matchOfficials": [
+    {
+      "id": 587,
+      "photo": "",
+      "position": "Делегат",
+      "name": "Илья",
+      "lastname": "Хламов"
+    }
+  ],
   "id": 16354,
   "tournament": 724,
   "stage": 2977,
@@ -9,13 +18,13 @@
   "goalA": null,
   "date": "2026-11-29UTC17:30:00",
   "status": 0,
-  "dateStartStatus": null,
+  "dateStartStatus": "-0001-11-30UTC00:00:00",
   "city": "Самара",
   "stadium": "«Солидарность Самара Арена»",
   "stadiumLink": "",
   "attendance": null,
-  "comments": null,
-  "weather": "",
+  "comments": "",
+  "weather": "-4.7°C, Облачно",
   "documents": {
     "protocol": null,
     "report": null,
