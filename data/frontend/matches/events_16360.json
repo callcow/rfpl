@@ -1700,6 +1700,49 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67342,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 74,
+      "extra": null,
+      "player1": {
+        "id": 24749,
+        "name": "Никита",
+        "lastname": "Лобов",
+        "nickname": "",
+        "keyword": "Lobov-Nikita",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67343,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 74,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
