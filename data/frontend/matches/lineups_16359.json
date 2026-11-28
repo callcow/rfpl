@@ -1439,7 +1439,7 @@
           "captain": false,
           "tacticPosition": 15,
           "startMinute": 0,
-          "endMinute": null
+          "endMinute": 79
         },
         {
           "id": 25059,
@@ -1568,7 +1568,7 @@
           "amplua": 1,
           "captain": false,
           "tacticPosition": null,
-          "startMinute": null,
+          "startMinute": 79,
           "endMinute": null
         },
         {
