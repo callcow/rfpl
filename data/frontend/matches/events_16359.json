@@ -1061,6 +1061,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67411,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 24958,
+        "name": "Матвей",
+        "lastname": "Кисляк",
+        "nickname": "",
+        "keyword": "Kislyak-Matvey",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
