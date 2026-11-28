@@ -1964,6 +1964,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67446,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 90,
+      "extra": null,
+      "player1": {
+        "id": 26001,
+        "name": "Энрике Фабиано",
+        "lastname": "до Кармо",
+        "nickname": "Энрике Кармо",
+        "keyword": "Henrique-Carmo",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
