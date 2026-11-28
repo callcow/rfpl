@@ -1197,6 +1197,32 @@
       "deleted": null
     },
     {
+      "id": 67327,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 57,
+      "extra": null,
+      "player1": {
+        "id": 24081,
+        "name": "Ульви",
+        "lastname": "Бабаев",
+        "nickname": "",
+        "keyword": "Babaev-Ulvi",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 67326,
       "type": "EventAdded",
       "action": "ShotOnTarget",
@@ -1211,6 +1237,32 @@
         "amplua": 1,
         "public_lastname": null,
         "public_name": null
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67328,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 60,
+      "extra": null,
+      "player1": {
+        "id": 25532,
+        "name": "Игнасио Антонио",
+        "lastname": "Сааведра Пино",
+        "nickname": "",
+        "keyword": "Saavedra-Pino-Ignasio-Antonio",
+        "amplua": 2,
+        "public_lastname": "Сааведра",
+        "public_name": "Игнасио"
       },
       "player2": null,
       "club": 4,
