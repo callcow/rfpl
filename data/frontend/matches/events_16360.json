@@ -788,6 +788,75 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67310,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 45,
+      "extra": null,
+      "player1": {
+        "id": 21536,
+        "name": "Хетаг",
+        "lastname": "Хосонов",
+        "nickname": "",
+        "keyword": "Hosonov-Hetag",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67311,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 45,
+      "extra": 1,
+      "player1": {
+        "id": 24081,
+        "name": "Ульви",
+        "lastname": "Бабаев",
+        "nickname": "",
+        "keyword": "Babaev-Ulvi",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67312,
+      "type": "GamePeriodEnd",
+      "action": null,
+      "time": 45,
+      "extra": 2,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
