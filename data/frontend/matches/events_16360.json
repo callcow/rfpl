@@ -106,6 +106,28 @@
       "deleted": null
     },
     {
+      "id": 153,
+      "type": "Photo",
+      "action": null,
+      "time": 6,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 153,
+        "title": "",
+        "description": "",
+        "author": "«Рубин»"
+      },
+      "deleted": null
+    },
+    {
       "id": 67283,
       "type": "EventAdded",
       "action": "Offside",
@@ -1633,7 +1655,42 @@
       "action": "Foul",
       "time": 71,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 25570,
+        "name": "Александар",
+        "lastname": "Юкич",
+        "nickname": "",
+        "keyword": "Yukich-Aleksandar",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67341,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 71,
+      "extra": null,
+      "player1": {
+        "id": 25757,
+        "name": "Велдин",
+        "lastname": "Ходжа",
+        "nickname": "",
+        "keyword": "Hodzha-Veldin",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
       "player2": null,
       "club": 4,
       "gameStateNumber": null,
