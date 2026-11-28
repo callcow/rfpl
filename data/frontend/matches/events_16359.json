@@ -1581,8 +1581,52 @@
         "public_lastname": null,
         "public_name": null
       },
-      "player2": null,
+      "player2": {
+        "id": 21916,
+        "name": "Александр",
+        "lastname": "Соболев",
+        "nickname": "",
+        "keyword": "Sobolev-Aleksandr-Sergeevich",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
       "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67433,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 83,
+      "extra": null,
+      "player1": {
+        "id": 25741,
+        "name": "Лусиано Эмилио",
+        "lastname": "Гонду Санельи",
+        "nickname": "",
+        "keyword": "Gondu-Zanelli-Luchano-Emilio",
+        "amplua": 3,
+        "public_lastname": "Гонду",
+        "public_name": "Лусиано"
+      },
+      "player2": {
+        "id": 23123,
+        "name": "Тамерлан",
+        "lastname": "Мусаев",
+        "nickname": "",
+        "keyword": "Musaev-Tamerlan",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 2,
       "gameStateNumber": null,
       "periodNumber": 2,
       "timeSlot": "SecondHalf",
