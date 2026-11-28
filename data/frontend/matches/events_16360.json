@@ -1039,6 +1039,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67320,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 51,
+      "extra": null,
+      "player1": {
+        "id": 21536,
+        "name": "Хетаг",
+        "lastname": "Хосонов",
+        "nickname": "",
+        "keyword": "Hosonov-Hetag",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67321,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 51,
+      "extra": null,
+      "player1": {
+        "id": 25642,
+        "name": "Стефан",
+        "lastname": "Лончар",
+        "nickname": "",
+        "keyword": "Lonchar-Stefan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
