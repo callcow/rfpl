@@ -1,5 +1,27 @@
 [
   {
+    "clubId": 3,
+    "club": "Зенит",
+    "played": 16,
+    "won": 11,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 37,
+    "goalsAgainst": 19,
+    "points": 34,
+    "maxPoints": 48,
+    "position": 1,
+    "goalDiff": 18,
+    "pointsPercent": 70.8,
+    "form": [
+      "w",
+      "w",
+      "d",
+      "l",
+      "w"
+    ]
+  },
+  {
     "clubId": 7,
     "club": "Динамо М",
     "played": 15,
@@ -10,7 +32,7 @@
     "goalsAgainst": 14,
     "points": 32,
     "maxPoints": 45,
-    "position": 1,
+    "position": 2,
     "goalDiff": 10,
     "pointsPercent": 71.1,
     "form": [
@@ -19,28 +41,6 @@
       "w",
       "w",
       "d"
-    ]
-  },
-  {
-    "clubId": 3,
-    "club": "Зенит",
-    "played": 15,
-    "won": 10,
-    "drawn": 1,
-    "lost": 4,
-    "goalsFor": 33,
-    "goalsAgainst": 18,
-    "points": 31,
-    "maxPoints": 45,
-    "position": 2,
-    "goalDiff": 15,
-    "pointsPercent": 68.9,
-    "form": [
-      "w",
-      "w",
-      "w",
-      "d",
-      "l"
     ]
   },
   {
@@ -90,21 +90,21 @@
   {
     "clubId": 2,
     "club": "ЦСКА",
-    "played": 15,
+    "played": 16,
     "won": 7,
     "drawn": 5,
-    "lost": 3,
-    "goalsFor": 24,
-    "goalsAgainst": 18,
+    "lost": 4,
+    "goalsFor": 25,
+    "goalsAgainst": 22,
     "points": 26,
-    "maxPoints": 45,
+    "maxPoints": 48,
     "position": 5,
-    "goalDiff": 6,
-    "pointsPercent": 57.8,
+    "goalDiff": 3,
+    "pointsPercent": 54.2,
     "form": [
-      "l",
       "w",
       "d",
+      "l",
       "l",
       "l"
     ]
