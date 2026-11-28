@@ -1397,7 +1397,7 @@
           "id": 26149,
           "amplua": 3,
           "captain": false,
-          "tacticPosition": 46,
+          "tacticPosition": 144,
           "startMinute": 0,
           "endMinute": null
         },
@@ -1405,7 +1405,7 @@
           "id": 25707,
           "amplua": 3,
           "captain": false,
-          "tacticPosition": 36,
+          "tacticPosition": 126,
           "startMinute": 0,
           "endMinute": null
         },
@@ -1413,7 +1413,7 @@
           "id": 22548,
           "amplua": 2,
           "captain": false,
-          "tacticPosition": 44,
+          "tacticPosition": 133,
           "startMinute": 0,
           "endMinute": null
         },
@@ -1421,7 +1421,7 @@
           "id": 25642,
           "amplua": 2,
           "captain": false,
-          "tacticPosition": 24,
+          "tacticPosition": 124,
           "startMinute": 0,
           "endMinute": null
         },
@@ -1429,7 +1429,7 @@
           "id": 24136,
           "amplua": 1,
           "captain": true,
-          "tacticPosition": 22,
+          "tacticPosition": 122,
           "startMinute": 0,
           "endMinute": null
         },
@@ -1437,7 +1437,7 @@
           "id": 25222,
           "amplua": 1,
           "captain": false,
-          "tacticPosition": 12,
+          "tacticPosition": 113,
           "startMinute": 0,
           "endMinute": null
         },
@@ -1445,7 +1445,7 @@
           "id": 22589,
           "amplua": 1,
           "captain": false,
-          "tacticPosition": 42,
+          "tacticPosition": 132,
           "startMinute": 0,
           "endMinute": null
         },
@@ -1453,7 +1453,7 @@
           "id": 25665,
           "amplua": 1,
           "captain": false,
-          "tacticPosition": 52,
+          "tacticPosition": 153,
           "startMinute": 0,
           "endMinute": null
         },
@@ -1461,7 +1461,7 @@
           "id": 21536,
           "amplua": 2,
           "captain": false,
-          "tacticPosition": 34,
+          "tacticPosition": 142,
           "startMinute": 0,
           "endMinute": null
         },
@@ -1477,7 +1477,7 @@
           "id": 25638,
           "amplua": 3,
           "captain": false,
-          "tacticPosition": 26,
+          "tacticPosition": 146,
           "startMinute": 0,
           "endMinute": null
         }
@@ -1580,7 +1580,7 @@
           "endMinute": null
         }
       ],
-      "tactic": "4-3-3",
+      "tactic": "3-5-2",
       "coaches": [
         {
           "id": 10022,
