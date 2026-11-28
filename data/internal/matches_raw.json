@@ -3111,15 +3111,15 @@
         "id": 16359,
         "clubH": 2,
         "clubA": 3,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 2,
         "date": "2026-11-28UTC16:30:00",
         "matchDateStatus": true,
-        "status": 0,
-        "dateStartStatus": "-0001-11-30UTC00:00:00",
+        "status": 2,
+        "dateStartStatus": "2026-11-28UTC17:19:28",
         "city": "Москва",
         "stadium": "«ВЭБ Арена»",
-        "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_410e8489b3204aa74db4649e26e57946_hd/17_1041700/803758b6160ee695490b5de19c7a4996/4951379995?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
+        "broadcastLink": "https://video.matchtv.ru/iframe/feed/start/na_410e8489b3204aa74db4649e26e57946_hd/17_1041700/f3198c56b2e3e8b30a29c27b53916e48/4951548978?type_id=6&sr=13&width=100%25&height=100%25&disable_share=1",
         "videoReviewLink": "",
         "ticketsLink": "https://tickets.pfc-cska.com/",
         "winline": {
@@ -3134,8 +3134,8 @@
         "tvChannel2": 2,
         "countVideos": null,
         "winlineMatchTour": true,
-        "fairplayClub1": null,
-        "fairplayClub2": null
+        "fairplayClub1": 0,
+        "fairplayClub2": 1
       },
       {
         "id": 16360,

@@ -1455,11 +1455,11 @@
       {
         "id": 16359,
         "date": "2026-11-28UTC16:30:00",
-        "status": 0,
+        "status": 2,
         "clubH": 2,
         "clubA": 3,
-        "goalH": null,
-        "goalA": null,
+        "goalH": 0,
+        "goalA": 2,
         "city": "Москва",
         "stadium": "«ВЭБ Арена»"
       },
