@@ -580,6 +580,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67302,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 34,
+      "extra": null,
+      "player1": {
+        "id": 24081,
+        "name": "Ульви",
+        "lastname": "Бабаев",
+        "nickname": "",
+        "keyword": "Babaev-Ulvi",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67303,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 35,
+      "extra": null,
+      "player1": {
+        "id": 25532,
+        "name": "Игнасио Антонио",
+        "lastname": "Сааведра Пино",
+        "nickname": "",
+        "keyword": "Saavedra-Pino-Ignasio-Antonio",
+        "amplua": 2,
+        "public_lastname": "Сааведра",
+        "public_name": "Игнасио"
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
