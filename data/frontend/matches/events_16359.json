@@ -1191,6 +1191,75 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67417,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 67,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67418,
+      "type": "EventAdded",
+      "action": "Shot",
+      "time": 68,
+      "extra": null,
+      "player1": {
+        "id": 26001,
+        "name": "Энрике Фабиано",
+        "lastname": "до Кармо",
+        "nickname": "Энрике Кармо",
+        "keyword": "Henrique-Carmo",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67419,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 69,
+      "extra": null,
+      "player1": {
+        "id": 25807,
+        "name": "Луиc Энрике Андре",
+        "lastname": "Роза да Силва",
+        "nickname": "Луиc Энрике",
+        "keyword": "Rosa-da-Silva-Luiz-Henrique-Andre",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
