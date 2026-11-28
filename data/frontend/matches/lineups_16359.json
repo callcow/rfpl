@@ -1047,7 +1047,7 @@
           "captain": false,
           "tacticPosition": 52,
           "startMinute": 0,
-          "endMinute": null
+          "endMinute": 46
         }
       ],
       "reserve": [
@@ -1080,7 +1080,7 @@
           "amplua": 2,
           "captain": false,
           "tacticPosition": null,
-          "startMinute": null,
+          "startMinute": 46,
           "endMinute": null
         },
         {

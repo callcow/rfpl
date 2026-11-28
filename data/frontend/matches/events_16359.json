@@ -731,6 +731,67 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67399,
+      "type": "EventAdded",
+      "action": "Substitution",
+      "time": 46,
+      "extra": null,
+      "player1": {
+        "id": 23755,
+        "name": "Матвей",
+        "lastname": "Лукин",
+        "nickname": "",
+        "keyword": "Lukin-Matvey",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": {
+        "id": 21344,
+        "name": "Иван",
+        "lastname": "Олейников",
+        "nickname": "",
+        "keyword": "Oleynikov-Ivan",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67400,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 46,
+      "extra": null,
+      "player1": {
+        "id": 25059,
+        "name": "Густаво",
+        "lastname": "Мантуан",
+        "nickname": "",
+        "keyword": "Mantuan-Gustavo",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
