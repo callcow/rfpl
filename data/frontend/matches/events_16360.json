@@ -442,6 +442,40 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67296,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 27,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67297,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 28,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
