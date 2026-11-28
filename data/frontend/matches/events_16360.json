@@ -184,10 +184,10 @@
       "deleted": null
     },
     {
-      "id": 67283,
+      "id": 67286,
       "type": "EventAdded",
-      "action": "Offside",
-      "time": 8,
+      "action": "Foul",
+      "time": 12,
       "extra": null,
       "player1": {
         "id": 25707,
@@ -201,6 +201,32 @@
       },
       "player2": null,
       "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67287,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 13,
+      "extra": null,
+      "player1": {
+        "id": 26174,
+        "name": "Эдди Антони",
+        "lastname": "Сальседо Мора",
+        "nickname": "",
+        "keyword": "Salcedo-Mora-Eddie-Anthony",
+        "amplua": 3,
+        "public_lastname": "Сальседо",
+        "public_name": "Эдди"
+      },
+      "player2": null,
+      "club": 4,
       "gameStateNumber": null,
       "periodNumber": 1,
       "timeSlot": "FirstHalf",
