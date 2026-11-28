@@ -244,6 +244,28 @@
       "deleted": null
     },
     {
+      "id": 155,
+      "type": "Photo",
+      "action": null,
+      "time": 20,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 155,
+        "title": "",
+        "description": "",
+        "author": "Вячеслав Евдокимов / «Зенит»"
+      },
+      "deleted": null
+    },
+    {
       "id": 67380,
       "type": "EventAdded",
       "action": "Shot",
@@ -826,6 +848,28 @@
       "isPenaltyRealized": null,
       "varCode": null,
       "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 156,
+      "type": "Photo",
+      "action": null,
+      "time": 51,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "gameStateNumber": null,
+      "periodNumber": null,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": {
+        "id": 156,
+        "title": "",
+        "description": "",
+        "author": "Анна Мейер / «Зенит»"
+      },
       "deleted": null
     },
     {
