@@ -1039,7 +1039,7 @@
           "captain": false,
           "tacticPosition": 14,
           "startMinute": 0,
-          "endMinute": null
+          "endMinute": 85
         },
         {
           "id": 24749,
@@ -1047,7 +1047,7 @@
           "captain": false,
           "tacticPosition": 52,
           "startMinute": 0,
-          "endMinute": null
+          "endMinute": 84
         }
       ],
       "reserve": [
@@ -1056,7 +1056,7 @@
           "amplua": 1,
           "captain": false,
           "tacticPosition": null,
-          "startMinute": null,
+          "startMinute": 84,
           "endMinute": null
         },
         {
@@ -1112,7 +1112,7 @@
           "amplua": 1,
           "captain": false,
           "tacticPosition": null,
-          "startMinute": null,
+          "startMinute": 85,
           "endMinute": null
         },
         {
