@@ -684,6 +684,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67306,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 39,
+      "extra": null,
+      "player1": {
+        "id": 26149,
+        "name": "Карлен",
+        "lastname": "Оганесян",
+        "nickname": "",
+        "keyword": "Hovhannisyan-Karlen",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
