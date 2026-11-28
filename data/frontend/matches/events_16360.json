@@ -260,6 +260,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67289,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 17,
+      "extra": null,
+      "player1": {
+        "id": 24081,
+        "name": "Ульви",
+        "lastname": "Бабаев",
+        "nickname": "",
+        "keyword": "Babaev-Ulvi",
+        "amplua": 2,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": {
+        "id": 25252,
+        "name": "Угочукву Христас",
+        "lastname": "Иву",
+        "nickname": "",
+        "keyword": "Ivu-Ugochukvu-Hristas",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67290,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 20,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
