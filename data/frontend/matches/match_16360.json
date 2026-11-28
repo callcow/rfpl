@@ -71,10 +71,9 @@
   "comments": "",
   "weather": "-3.8°C, Пасмурно, снег",
   "documents": {
-    "protocol": null,
     "report": null,
     "preview": null
   },
-  "protocol": false,
+  "protocol": true,
   "countVideos": null
 }

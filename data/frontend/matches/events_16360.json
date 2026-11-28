@@ -1,7 +1,7 @@
 {
   "protocol": [
     {
-      "id": 102409,
+      "id": 102425,
       "type": 1,
       "time": 6,
       "extra": null,
@@ -23,7 +23,7 @@
       "ignore": null
     },
     {
-      "id": 102410,
+      "id": 102426,
       "type": 1,
       "time": 17,
       "extra": null,
@@ -45,7 +45,7 @@
       "ignore": null
     },
     {
-      "id": 102415,
+      "id": 102431,
       "type": 2,
       "time": 46,
       "extra": null,
@@ -75,7 +75,7 @@
       "ignore": false
     },
     {
-      "id": 102416,
+      "id": 102432,
       "type": 2,
       "time": 46,
       "extra": null,
@@ -105,7 +105,7 @@
       "ignore": false
     },
     {
-      "id": 102412,
+      "id": 102428,
       "type": 3,
       "time": 48,
       "extra": null,
@@ -127,7 +127,7 @@
       "ignore": false
     },
     {
-      "id": 102411,
+      "id": 102427,
       "type": 1,
       "time": 60,
       "extra": null,
@@ -149,7 +149,7 @@
       "ignore": null
     },
     {
-      "id": 102417,
+      "id": 102433,
       "type": 2,
       "time": 61,
       "extra": null,
@@ -179,7 +179,7 @@
       "ignore": false
     },
     {
-      "id": 102418,
+      "id": 102434,
       "type": 2,
       "time": 62,
       "extra": null,
@@ -209,9 +209,9 @@
       "ignore": false
     },
     {
-      "id": 102419,
+      "id": 102435,
       "type": 2,
-      "time": 68,
+      "time": 69,
       "extra": null,
       "player1": {
         "id": 24081,
@@ -239,7 +239,7 @@
       "ignore": false
     },
     {
-      "id": 102420,
+      "id": 102436,
       "type": 2,
       "time": 70,
       "extra": null,
@@ -269,7 +269,7 @@
       "ignore": false
     },
     {
-      "id": 102413,
+      "id": 102429,
       "type": 3,
       "time": 74,
       "extra": null,
@@ -291,7 +291,7 @@
       "ignore": false
     },
     {
-      "id": 102414,
+      "id": 102430,
       "type": 3,
       "time": 79,
       "extra": null,
@@ -313,7 +313,7 @@
       "ignore": false
     },
     {
-      "id": 102421,
+      "id": 102437,
       "type": 2,
       "time": 81,
       "extra": null,
@@ -343,9 +343,9 @@
       "ignore": false
     },
     {
-      "id": 102422,
+      "id": 102438,
       "type": 2,
-      "time": 84,
+      "time": 85,
       "extra": null,
       "player1": {
         "id": 26174,
@@ -373,9 +373,9 @@
       "ignore": false
     },
     {
-      "id": 102423,
+      "id": 102439,
       "type": 2,
-      "time": 84,
+      "time": 85,
       "extra": null,
       "player1": {
         "id": 24749,
@@ -403,7 +403,7 @@
       "ignore": false
     },
     {
-      "id": 102424,
+      "id": 102440,
       "type": 2,
       "time": 85,
       "extra": null,
@@ -431,6 +431,20 @@
       "secondYellow": null,
       "situation": null,
       "ignore": false
+    },
+    {
+      "id": 102441,
+      "type": 7,
+      "time": 90,
+      "extra": 3,
+      "player1": null,
+      "player2": null,
+      "club": null,
+      "text": null,
+      "htmlCustomEvent": null,
+      "secondYellow": null,
+      "situation": null,
+      "ignore": null
     }
   ],
   "broadcast": [
