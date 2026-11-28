@@ -130,6 +130,84 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67284,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 9,
+      "extra": null,
+      "player1": {
+        "id": 25532,
+        "name": "Игнасио Антонио",
+        "lastname": "Сааведра Пино",
+        "nickname": "",
+        "keyword": "Saavedra-Pino-Ignasio-Antonio",
+        "amplua": 2,
+        "public_lastname": "Сааведра",
+        "public_name": "Игнасио"
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67285,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 9,
+      "extra": null,
+      "player1": {
+        "id": 22501,
+        "name": "Илья",
+        "lastname": "Самошников",
+        "nickname": "",
+        "keyword": "Samoshnikov-Ilya",
+        "amplua": 1,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67283,
+      "type": "EventAdded",
+      "action": "Offside",
+      "time": 8,
+      "extra": null,
+      "player1": {
+        "id": 25707,
+        "name": "Жилсон",
+        "lastname": "Беншимол Тавареш",
+        "nickname": "",
+        "keyword": "Benchimol-Tavares-Zhilson",
+        "amplua": 3,
+        "public_lastname": "Беншимол",
+        "public_name": "Жилсон"
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
