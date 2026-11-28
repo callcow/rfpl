@@ -632,6 +632,58 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67304,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 37,
+      "extra": null,
+      "player1": {
+        "id": 26174,
+        "name": "Эдди Антони",
+        "lastname": "Сальседо Мора",
+        "nickname": "",
+        "keyword": "Salcedo-Mora-Eddie-Anthony",
+        "amplua": 3,
+        "public_lastname": "Сальседо",
+        "public_name": "Эдди"
+      },
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67305,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 37,
+      "extra": null,
+      "player1": {
+        "id": 25638,
+        "name": "Артём",
+        "lastname": "Шуманский",
+        "nickname": "",
+        "keyword": "Shumanskiy-Artem",
+        "amplua": 3,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
