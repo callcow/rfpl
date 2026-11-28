@@ -1210,6 +1210,32 @@
       "deleted": null
     },
     {
+      "id": 67431,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 68,
+      "extra": null,
+      "player1": {
+        "id": 21797,
+        "name": "Иван",
+        "lastname": "Обляков",
+        "nickname": "",
+        "keyword": "Oblyakov-Ivan",
+        "amplua": 2,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 2,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 67418,
       "type": "EventAdded",
       "action": "Shot",
@@ -1518,6 +1544,32 @@
       "type": "EventAdded",
       "action": "Shot",
       "time": 80,
+      "extra": null,
+      "player1": {
+        "id": 23061,
+        "name": "Максим",
+        "lastname": "Глушенков",
+        "nickname": "",
+        "keyword": "Glushenkov-Maksim",
+        "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67432,
+      "type": "EventAdded",
+      "action": "Goal",
+      "time": 81,
       "extra": null,
       "player1": {
         "id": 23061,
