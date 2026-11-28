@@ -1,6 +1,51 @@
 {
   "matchOfficials": [
     {
+      "id": 4638,
+      "position": "Главный судья",
+      "name": "Матвей",
+      "lastname": "Заика"
+    },
+    {
+      "id": 4636,
+      "position": "Резервный судья",
+      "name": "Данил",
+      "lastname": "Набока"
+    },
+    {
+      "id": 4274,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Варанцо",
+      "lastname": "Петросян"
+    },
+    {
+      "id": 3980,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Адлан",
+      "lastname": "Хатуев"
+    },
+    {
+      "id": 4099,
+      "position": "ВАР",
+      "name": "Ян",
+      "lastname": "Бобровский"
+    },
+    {
+      "id": 660,
+      "position": "АВАР",
+      "name": "Павел",
+      "lastname": "Шадыханов"
+    },
+    {
+      "id": 557,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Сергей",
+      "lastname": "Мацюра"
+    },
+    {
       "id": 534,
       "photo": "",
       "position": "Делегат",
@@ -24,7 +69,7 @@
   "stadiumLink": "",
   "attendance": null,
   "comments": "",
-  "weather": "-3.8°C, Пасмурно",
+  "weather": "-7.1°C, Пасмурно",
   "documents": {
     "protocol": null,
     "report": null,

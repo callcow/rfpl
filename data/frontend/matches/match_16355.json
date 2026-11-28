@@ -1,6 +1,51 @@
 {
   "matchOfficials": [
     {
+      "id": 4629,
+      "position": "Главный судья",
+      "name": "Андрей",
+      "lastname": "Прокопов"
+    },
+    {
+      "id": 4198,
+      "position": "Резервный судья",
+      "name": "Александр",
+      "lastname": "Машлякевич"
+    },
+    {
+      "id": 2799,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Максим",
+      "lastname": "Гаврилин"
+    },
+    {
+      "id": 4210,
+      "photo": "",
+      "position": "Помощник судьи",
+      "name": "Алексей",
+      "lastname": "Ермилов"
+    },
+    {
+      "id": 3914,
+      "position": "ВАР",
+      "name": "Павел",
+      "lastname": "Кукуян"
+    },
+    {
+      "id": 3854,
+      "position": "АВАР",
+      "name": "Сергей",
+      "lastname": "Чебан"
+    },
+    {
+      "id": 181,
+      "photo": "",
+      "position": "Инспектор",
+      "name": "Андрей",
+      "lastname": "Бутенко"
+    },
+    {
       "id": 764,
       "photo": "",
       "position": "Делегат",
@@ -24,7 +69,7 @@
   "stadiumLink": "",
   "attendance": null,
   "comments": "",
-  "weather": "-1.2°C, Облачно",
+  "weather": "-1.5°C, Облачно",
   "documents": {
     "protocol": null,
     "report": null,
