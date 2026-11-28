@@ -1830,6 +1830,66 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67347,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 79,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67348,
+      "type": "EventAdded",
+      "action": "YellowCard",
+      "time": 79,
+      "extra": null,
+      "player1": {
+        "id": 22589,
+        "name": "Йонуц",
+        "lastname": "Неделчару",
+        "nickname": "",
+        "keyword": "Nedelcharu-Ionuc",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67349,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 80,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 4,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
