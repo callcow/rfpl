@@ -466,7 +466,16 @@
       "action": "Foul",
       "time": 28,
       "extra": null,
-      "player1": null,
+      "player1": {
+        "id": 25707,
+        "name": "Жилсон",
+        "lastname": "Беншимол Тавареш",
+        "nickname": "",
+        "keyword": "Benchimol-Tavares-Zhilson",
+        "amplua": 3,
+        "public_lastname": "Беншимол",
+        "public_name": "Жилсон"
+      },
       "player2": null,
       "club": 807,
       "gameStateNumber": null,
