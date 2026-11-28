@@ -83,15 +83,15 @@
     {
       "id": 16360,
       "date": "2026-11-28UTC14:00:00",
-      "status": 3,
+      "status": 4,
       "clubH": 4,
       "clubA": 807,
       "goalH": 3,
       "goalA": 0,
       "city": "Казань",
       "stadium": "«Ак Барс Арена»",
-      "wid": 17123944,
-      "stream": "aHR0cHM6Ly9ibC52aWRlby5tYXRjaHR2LnJ1L21lZGlhL3BsYXlsaXN0L2ZyZWVfNDY3YThkZjFiNWJiYmYyOTY2MmI2OGM1NzhhZjE2YmYvMTdfMTA0MzI0NS8xMDgwcDUwZnBzL2ViOWNiNjliMjQxMDY3YjhkNjVlY2RmMzkyZTc5NmZiLzQ5NTE1NDM1MDIubTN1OD90eXBlX2lkPTYmc3I9MjYmd2lkdGg9MTAwJTI1JmhlaWdodD0xMDAlMjUmZGlzYWJsZV9zaGFyZT0xJmxpdmU9MTUmb2w9MSZib29rbWFrZXI9MSZzPTNjNzMwZjVjMjJiYjZjM2M2Y2FjYzYyMzQ1YjlmMzVk"
+      "wid": null,
+      "stream": null
     },
     {
       "id": 16361,

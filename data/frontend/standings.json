@@ -110,6 +110,28 @@
     ]
   },
   {
+    "clubId": 4,
+    "club": "Рубин",
+    "played": 16,
+    "won": 6,
+    "drawn": 6,
+    "lost": 4,
+    "goalsFor": 20,
+    "goalsAgainst": 19,
+    "points": 24,
+    "maxPoints": 48,
+    "position": 6,
+    "goalDiff": 1,
+    "pointsPercent": 50.0,
+    "form": [
+      "l",
+      "w",
+      "w",
+      "w",
+      "w"
+    ]
+  },
+  {
     "clubId": 11,
     "club": "Ростов",
     "played": 15,
@@ -120,7 +142,7 @@
     "goalsAgainst": 19,
     "points": 22,
     "maxPoints": 45,
-    "position": 6,
+    "position": 7,
     "goalDiff": 2,
     "pointsPercent": 48.9,
     "form": [
@@ -128,28 +150,6 @@
       "w",
       "w",
       "d",
-      "w"
-    ]
-  },
-  {
-    "clubId": 4,
-    "club": "Рубин",
-    "played": 15,
-    "won": 5,
-    "drawn": 6,
-    "lost": 4,
-    "goalsFor": 17,
-    "goalsAgainst": 19,
-    "points": 21,
-    "maxPoints": 45,
-    "position": 7,
-    "goalDiff": -2,
-    "pointsPercent": 46.7,
-    "form": [
-      "l",
-      "l",
-      "w",
-      "w",
       "w"
     ]
   },
@@ -288,20 +288,20 @@
   {
     "clubId": 807,
     "club": "Акрон",
-    "played": 15,
+    "played": 16,
     "won": 2,
     "drawn": 6,
-    "lost": 7,
+    "lost": 8,
     "goalsFor": 17,
-    "goalsAgainst": 27,
+    "goalsAgainst": 30,
     "points": 12,
-    "maxPoints": 45,
+    "maxPoints": 48,
     "position": 14,
-    "goalDiff": -10,
-    "pointsPercent": 26.7,
+    "goalDiff": -13,
+    "pointsPercent": 25.0,
     "form": [
-      "d",
       "w",
+      "l",
       "l",
       "l",
       "l"

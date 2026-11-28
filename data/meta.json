@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-28T12:52:39.382322+00:00",
+  "last_updated": "2026-11-28T12:56:17.327229+00:00",
   "import_status": {
     "api_ok": true,
     "from_archive": [],
@@ -17,6 +17,7 @@
       "Матч 16358: составы пустые (clubH: 0, clubA: 0)",
       "Матч 16359: нет ['winline', 'ticketsLink', 'broadcastLink']",
       "Матч 16360: нет ['winline', 'ticketsLink', 'broadcastLink']",
+      "Матч 16360: завершён, но события пустые",
       "Матч 16361: нет ['winline', 'ticketsLink', 'broadcastLink']",
       "Матч 16361: составы пустые (clubH: 0, clubA: 0)"
     ],
