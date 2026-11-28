@@ -1433,11 +1433,11 @@
       "time": 74,
       "extra": null,
       "player1": {
-        "id": 21797,
-        "name": "Иван",
-        "lastname": "Обляков",
+        "id": 24958,
+        "name": "Матвей",
+        "lastname": "Кисляк",
         "nickname": "",
-        "keyword": "Oblyakov-Ivan",
+        "keyword": "Kislyak-Matvey",
         "amplua": 2,
         "public_lastname": null,
         "public_name": null
@@ -1540,6 +1540,23 @@
       "deleted": null
     },
     {
+      "id": 67444,
+      "type": "EventAdded",
+      "action": "Corner",
+      "time": 79,
+      "extra": null,
+      "player1": null,
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
       "id": 67430,
       "type": "EventAdded",
       "action": "Shot",
@@ -1552,6 +1569,32 @@
         "nickname": "",
         "keyword": "Glushenkov-Maksim",
         "amplua": 3,
+        "public_lastname": null,
+        "public_name": null
+      },
+      "player2": null,
+      "club": 3,
+      "gameStateNumber": null,
+      "periodNumber": 2,
+      "timeSlot": "SecondHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
+    },
+    {
+      "id": 67445,
+      "type": "EventAdded",
+      "action": "ShotOnTarget",
+      "time": 80,
+      "extra": null,
+      "player1": {
+        "id": 21674,
+        "name": "Игорь",
+        "lastname": "Дивеев",
+        "nickname": "",
+        "keyword": "Diveev-Igor",
+        "amplua": 1,
         "public_lastname": null,
         "public_name": null
       },
