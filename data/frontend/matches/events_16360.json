@@ -762,6 +762,32 @@
       "varCode": null,
       "photo": null,
       "deleted": null
+    },
+    {
+      "id": 67309,
+      "type": "EventAdded",
+      "action": "Foul",
+      "time": 44,
+      "extra": null,
+      "player1": {
+        "id": 22589,
+        "name": "Йонуц",
+        "lastname": "Неделчару",
+        "nickname": "",
+        "keyword": "Nedelcharu-Ionuc",
+        "amplua": 1,
+        "public_lastname": "",
+        "public_name": ""
+      },
+      "player2": null,
+      "club": 807,
+      "gameStateNumber": null,
+      "periodNumber": 1,
+      "timeSlot": "FirstHalf",
+      "isPenaltyRealized": null,
+      "varCode": null,
+      "photo": null,
+      "deleted": null
     }
   ]
 }
